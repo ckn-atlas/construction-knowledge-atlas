@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Computer Science",
+    "papers": 6382,
+    "growth": 50
+  },
+  {
+    "id": "Construction Management",
+    "papers": 5660,
+    "growth": 0
+  },
+  {
+    "id": "Materials Science",
+    "papers": 5379,
+    "growth": 422
+  },
+  {
+    "id": "Composite",
+    "papers": 4038,
+    "growth": 541
+  },
+  {
+    "id": "Material Properties/Testing",
+    "papers": 3437,
+    "growth": 0
+  },
+  {
+    "id": "AI (general)",
+    "papers": 3084,
+    "growth": 40
+  },
+  {
+    "id": "Structural Engineering",
+    "papers": 2944,
+    "growth": 171
+  },
+  {
+    "id": "Digital Documentation",
+    "papers": 2277,
+    "growth": 0
+  }
+]

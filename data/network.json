@@ -1,0 +1,2062 @@
+{
+  "nodes": [
+    "Southeast University",
+    "Tongji University",
+    "Hong Kong Polytechnic University",
+    "Chongqing University",
+    "Harbin Institute of Technology",
+    "Tsinghua University",
+    "Zhejiang University",
+    "Central South University",
+    "Xi'an University of Architecture and Technology",
+    "Huazhong University of Science and Technology",
+    "Chang'an University",
+    "Tianjin University",
+    "Shenzhen University",
+    "Beijing University of Technology",
+    "Dalian University of Technology",
+    "Hohai University",
+    "University of Hong Kong",
+    "National University of Singapore",
+    "Hong Kong University of Science and Technology",
+    "City University of Hong Kong",
+    "Nanyang Technological University",
+    "Yonsei University",
+    "University of Cambridge",
+    "University College London",
+    "University of Alberta",
+    "Seoul National University",
+    "Centre National de la Recherche Scientifique",
+    "Hanyang University",
+    "Delft University of Technology",
+    "Korea Institute of Civil Engineering and Building Technology",
+    "UNSW Sydney",
+    "Technical University of Munich",
+    "Western Sydney University",
+    "Sungkyunkwan University",
+    "University of Florida",
+    "University of Auckland",
+    "Politecnico di Milano",
+    "Istanbul Technical University",
+    "Ministry of Education",
+    "University of Illinois Urbana-Champaign",
+    "Korea University",
+    "Pennsylvania State University",
+    "Seoul National University of Science and Technology",
+    "University of Macau",
+    "Georgia Institute of Technology",
+    "University of Technology Sydney",
+    "Universitat Politècnica de Catalunya",
+    "Eindhoven University of Technology",
+    "Universitat Politècnica de València",
+    "Macau University of Science and Technology",
+    "Curtin University",
+    "RMIT University",
+    "City University of Macau",
+    "Texas A&M University",
+    "Monash University",
+    "National Taiwan University",
+    "The University of Melbourne",
+    "University of Naples Federico II",
+    "University of Tehran",
+    "National Taiwan University of Science and Technology",
+    "King Fahd University of Petroleum and Minerals",
+    "Vellore Institute of Technology University",
+    "KTH Royal Institute of Technology",
+    "Purdue University West Lafayette",
+    "Missouri University of Science and Technology",
+    "The University of Kitakyushu",
+    "University of Johannesburg",
+    "The University of Tokyo",
+    "Virginia Tech",
+    "Cardiff University",
+    "Technical University of Denmark",
+    "Imperial College London",
+    "Norwegian University of Science and Technology",
+    "Chung-Ang University",
+    "Universiti Sains Malaysia",
+    "Detection Limit (United States)",
+    "University of Minho",
+    "Korea Advanced Institute of Science and Technology",
+    "Northumbria University",
+    "University of British Columbia",
+    "École Polytechnique Fédérale de Lausanne",
+    "The University of Texas at Austin",
+    "Aalto University",
+    "University of Bologna",
+    "University of Toronto",
+    "King Saud University",
+    "Politecnico di Torino",
+    "University of Michigan",
+    "University of Malaya",
+    "Anyang University",
+    "Chungbuk National University",
+    "Université Gustave Eiffel",
+    "National University of Sciences and Technology",
+    "King Abdulaziz University",
+    "University of Maryland, College Park",
+    "University of Stuttgart",
+    "Karadeniz Technical University",
+    "Louisiana State University",
+    "Kyungpook National University",
+    "Concordia University",
+    "University of South Australia",
+    "Sejong University",
+    "Queensland University of Technology",
+    "ETH Zurich",
+    "Massey University",
+    "Ajou University",
+    "RWTH Aachen University",
+    "University of Birmingham",
+    "Pusan National University",
+    "United Arab Emirates University",
+    "Qatar University",
+    "King Khalid University",
+    "University of Manchester",
+    "Michigan Technological University",
+    "Stevens Institute of Technology",
+    "Yıldız Technical University",
+    "Intelligent Health (United Kingdom)",
+    "Swinburne University of Technology",
+    "The University of Western Australia",
+    "The University of Sydney",
+    "National Tsing Hua University",
+    "Universidad Politécnica de Madrid",
+    "KU Leuven",
+    "Prince Sattam Bin Abdulaziz University",
+    "University of Strathclyde",
+    "Qassim University",
+    "Imam Mohammad ibn Saud Islamic University",
+    "Loughborough University",
+    "Kyoto University",
+    "Aston University",
+    "Griffith University",
+    "National Taipei University of Technology",
+    "Auckland University of Technology",
+    "Technische Universität Berlin",
+    "Deakin University",
+    "University of Ottawa",
+    "Covenant University",
+    "Bond University",
+    "Vilnius Gediminas Technical University",
+    "Universiti Putra Malaysia",
+    "Indian Institute of Technology Guwahati",
+    "Middle East Technical University",
+    "University of Edinburgh",
+    "Teesside University",
+    "Université de Sherbrooke",
+    "Ghent University",
+    "Pontificia Universidad Católica de Chile",
+    "Technische Universität Braunschweig",
+    "University of Technology Malaysia",
+    "Cairo University"
+  ],
+  "links": [
+    [
+      "Hong Kong Polytechnic University",
+      "University of Hong Kong",
+      24
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Tongji University",
+      21
+    ],
+    [
+      "Anyang University",
+      "Hanyang University",
+      20
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Shenzhen University",
+      20
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "University of Hong Kong",
+      19
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Southeast University",
+      19
+    ],
+    [
+      "Hohai University",
+      "Southeast University",
+      18
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Huazhong University of Science and Technology",
+      17
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "Southeast University",
+      16
+    ],
+    [
+      "Harbin Institute of Technology",
+      "Hong Kong Polytechnic University",
+      16
+    ],
+    [
+      "Chongqing University",
+      "Southeast University",
+      16
+    ],
+    [
+      "Chongqing University",
+      "Hong Kong Polytechnic University",
+      15
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Tianjin University",
+      14
+    ],
+    [
+      "National University of Singapore",
+      "Southeast University",
+      14
+    ],
+    [
+      "Southeast University",
+      "Tongji University",
+      13
+    ],
+    [
+      "City University of Hong Kong",
+      "Hong Kong Polytechnic University",
+      13
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Zhejiang University",
+      13
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Hong Kong University of Science and Technology",
+      12
+    ],
+    [
+      "Central South University",
+      "Shenzhen University",
+      11
+    ],
+    [
+      "Centre National de la Recherche Scientifique",
+      "Université Gustave Eiffel",
+      11
+    ],
+    [
+      "Chang'an University",
+      "Xi'an University of Architecture and Technology",
+      10
+    ],
+    [
+      "Dalian University of Technology",
+      "Hong Kong Polytechnic University",
+      9
+    ],
+    [
+      "University College London",
+      "University of Cambridge",
+      9
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Tsinghua University",
+      9
+    ],
+    [
+      "Nanyang Technological University",
+      "Southeast University",
+      9
+    ],
+    [
+      "Chongqing University",
+      "Tongji University",
+      9
+    ],
+    [
+      "King Khalid University",
+      "Prince Sattam Bin Abdulaziz University",
+      9
+    ],
+    [
+      "Harbin Institute of Technology",
+      "National University of Singapore",
+      9
+    ],
+    [
+      "Southeast University",
+      "Xi'an University of Architecture and Technology",
+      9
+    ],
+    [
+      "Chongqing University",
+      "Shenzhen University",
+      8
+    ],
+    [
+      "City University of Hong Kong",
+      "Tsinghua University",
+      8
+    ],
+    [
+      "City University of Hong Kong",
+      "University of Hong Kong",
+      8
+    ],
+    [
+      "City University of Hong Kong",
+      "Southeast University",
+      8
+    ],
+    [
+      "Istanbul Technical University",
+      "Karadeniz Technical University",
+      8
+    ],
+    [
+      "Dalian University of Technology",
+      "Hohai University",
+      8
+    ],
+    [
+      "Aston University",
+      "Hong Kong Polytechnic University",
+      8
+    ],
+    [
+      "Central South University",
+      "Hong Kong Polytechnic University",
+      8
+    ],
+    [
+      "Seoul National University",
+      "Seoul National University of Science and Technology",
+      8
+    ],
+    [
+      "University of Alberta",
+      "University of Auckland",
+      8
+    ],
+    [
+      "City University of Macau",
+      "University of Macau",
+      8
+    ],
+    [
+      "Beijing University of Technology",
+      "Tsinghua University",
+      8
+    ],
+    [
+      "Korea Institute of Civil Engineering and Building Technology",
+      "Seoul National University",
+      8
+    ],
+    [
+      "Harbin Institute of Technology",
+      "Shenzhen University",
+      7
+    ],
+    [
+      "UNSW Sydney",
+      "University of Cambridge",
+      7
+    ],
+    [
+      "Chongqing University",
+      "Hong Kong University of Science and Technology",
+      7
+    ],
+    [
+      "National University of Singapore",
+      "Tongji University",
+      7
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Nanyang Technological University",
+      7
+    ],
+    [
+      "National University of Singapore",
+      "Tsinghua University",
+      6
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "Tongji University",
+      6
+    ],
+    [
+      "Hohai University",
+      "Tongji University",
+      6
+    ],
+    [
+      "City University of Macau",
+      "Zhejiang University",
+      6
+    ],
+    [
+      "Shenzhen University",
+      "Southeast University",
+      6
+    ],
+    [
+      "Tongji University",
+      "Zhejiang University",
+      6
+    ],
+    [
+      "Central South University",
+      "Southeast University",
+      6
+    ],
+    [
+      "Seoul National University of Science and Technology",
+      "University of Toronto",
+      6
+    ],
+    [
+      "Central South University",
+      "Chongqing University",
+      6
+    ],
+    [
+      "Southeast University",
+      "Tsinghua University",
+      6
+    ],
+    [
+      "Chongqing University",
+      "Tsinghua University",
+      6
+    ],
+    [
+      "Chang'an University",
+      "Southeast University",
+      6
+    ],
+    [
+      "Southeast University",
+      "Zhejiang University",
+      6
+    ],
+    [
+      "Huazhong University of Science and Technology",
+      "Nanyang Technological University",
+      5
+    ],
+    [
+      "Curtin University",
+      "Huazhong University of Science and Technology",
+      5
+    ],
+    [
+      "UNSW Sydney",
+      "University of Technology Sydney",
+      5
+    ],
+    [
+      "Cardiff University",
+      "Tongji University",
+      5
+    ],
+    [
+      "Harbin Institute of Technology",
+      "Huazhong University of Science and Technology",
+      5
+    ],
+    [
+      "Harbin Institute of Technology",
+      "Xi'an University of Architecture and Technology",
+      5
+    ],
+    [
+      "City University of Hong Kong",
+      "Huazhong University of Science and Technology",
+      5
+    ],
+    [
+      "Tsinghua University",
+      "University College London",
+      5
+    ],
+    [
+      "Hohai University",
+      "Tianjin University",
+      5
+    ],
+    [
+      "Delft University of Technology",
+      "ETH Zurich",
+      5
+    ],
+    [
+      "Chongqing University",
+      "Curtin University",
+      5
+    ],
+    [
+      "Dalian University of Technology",
+      "Tongji University",
+      5
+    ],
+    [
+      "Chongqing University",
+      "Western Sydney University",
+      5
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Michigan Technological University",
+      5
+    ],
+    [
+      "Chang'an University",
+      "Tongji University",
+      5
+    ],
+    [
+      "Shenzhen University",
+      "Tsinghua University",
+      5
+    ],
+    [
+      "Central South University",
+      "Ministry of Education",
+      5
+    ],
+    [
+      "University of Hong Kong",
+      "Zhejiang University",
+      5
+    ],
+    [
+      "Ministry of Education",
+      "Southeast University",
+      5
+    ],
+    [
+      "Central South University",
+      "Zhejiang University",
+      5
+    ],
+    [
+      "Chang'an University",
+      "Chongqing University",
+      5
+    ],
+    [
+      "Beijing University of Technology",
+      "Shenzhen University",
+      5
+    ],
+    [
+      "Nanyang Technological University",
+      "Zhejiang University",
+      5
+    ],
+    [
+      "Macau University of Science and Technology",
+      "University of Macau",
+      5
+    ],
+    [
+      "Tongji University",
+      "Xi'an University of Architecture and Technology",
+      5
+    ],
+    [
+      "Huazhong University of Science and Technology",
+      "UNSW Sydney",
+      4
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "National University of Singapore",
+      4
+    ],
+    [
+      "Cairo University",
+      "Hong Kong Polytechnic University",
+      4
+    ],
+    [
+      "Chang'an University",
+      "Huazhong University of Science and Technology",
+      4
+    ],
+    [
+      "Chung-Ang University",
+      "Korea University",
+      4
+    ],
+    [
+      "City University of Hong Kong",
+      "Hong Kong University of Science and Technology",
+      4
+    ],
+    [
+      "Southeast University",
+      "University of Hong Kong",
+      4
+    ],
+    [
+      "Technical University of Munich",
+      "Yonsei University",
+      4
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Yonsei University",
+      4
+    ],
+    [
+      "Southeast University",
+      "University College London",
+      4
+    ],
+    [
+      "Hanyang University",
+      "Hong Kong Polytechnic University",
+      4
+    ],
+    [
+      "Chungbuk National University",
+      "Hong Kong Polytechnic University",
+      4
+    ],
+    [
+      "Tongji University",
+      "University of Cambridge",
+      4
+    ],
+    [
+      "Seoul National University",
+      "Texas A&M University",
+      4
+    ],
+    [
+      "Southeast University",
+      "University of Cambridge",
+      4
+    ],
+    [
+      "University of Cambridge",
+      "University of Macau",
+      4
+    ],
+    [
+      "Ajou University",
+      "Seoul National University",
+      4
+    ],
+    [
+      "National Taipei University of Technology",
+      "National Taiwan University",
+      4
+    ],
+    [
+      "Hohai University",
+      "Hong Kong Polytechnic University",
+      4
+    ],
+    [
+      "University of Hong Kong",
+      "University of Macau",
+      4
+    ],
+    [
+      "Detection Limit (United States)",
+      "Southeast University",
+      4
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Seoul National University",
+      4
+    ],
+    [
+      "Shenzhen University",
+      "Tianjin University",
+      4
+    ],
+    [
+      "Central South University",
+      "National University of Singapore",
+      4
+    ],
+    [
+      "Chongqing University",
+      "Ministry of Education",
+      4
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Imperial College London",
+      4
+    ],
+    [
+      "Tongji University",
+      "Tsinghua University",
+      4
+    ],
+    [
+      "Chongqing University",
+      "Dalian University of Technology",
+      4
+    ],
+    [
+      "Huazhong University of Science and Technology",
+      "KTH Royal Institute of Technology",
+      4
+    ],
+    [
+      "Auckland University of Technology",
+      "Massey University",
+      4
+    ],
+    [
+      "Auckland University of Technology",
+      "University of Auckland",
+      4
+    ],
+    [
+      "Harbin Institute of Technology",
+      "Nanyang Technological University",
+      4
+    ],
+    [
+      "Chongqing University",
+      "Pennsylvania State University",
+      4
+    ],
+    [
+      "Beijing University of Technology",
+      "Tongji University",
+      4
+    ],
+    [
+      "Harbin Institute of Technology",
+      "Southeast University",
+      4
+    ],
+    [
+      "Shenzhen University",
+      "University College London",
+      4
+    ],
+    [
+      "Karadeniz Technical University",
+      "King Fahd University of Petroleum and Minerals",
+      4
+    ],
+    [
+      "Harbin Institute of Technology",
+      "Tsinghua University",
+      4
+    ],
+    [
+      "Chongqing University",
+      "National University of Singapore",
+      4
+    ],
+    [
+      "Tsinghua University",
+      "Xi'an University of Architecture and Technology",
+      4
+    ],
+    [
+      "Politecnico di Torino",
+      "University of Naples Federico II",
+      4
+    ],
+    [
+      "National Taiwan University",
+      "National Taiwan University of Science and Technology",
+      4
+    ],
+    [
+      "Huazhong University of Science and Technology",
+      "University of Maryland, College Park",
+      3
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "University of Cambridge",
+      3
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "Tianjin University",
+      3
+    ],
+    [
+      "Central South University",
+      "Hong Kong University of Science and Technology",
+      3
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "Shenzhen University",
+      3
+    ],
+    [
+      "Shenzhen University",
+      "University of Hong Kong",
+      3
+    ],
+    [
+      "Curtin University",
+      "Western Sydney University",
+      3
+    ],
+    [
+      "Monash University",
+      "Southeast University",
+      3
+    ],
+    [
+      "Southeast University",
+      "University of Maryland, College Park",
+      3
+    ],
+    [
+      "Shenzhen University",
+      "Xi'an University of Architecture and Technology",
+      3
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "National University of Singapore",
+      3
+    ],
+    [
+      "Beijing University of Technology",
+      "Hong Kong University of Science and Technology",
+      3
+    ],
+    [
+      "Middle East Technical University",
+      "Yıldız Technical University",
+      3
+    ],
+    [
+      "Tongji University",
+      "University of British Columbia",
+      3
+    ],
+    [
+      "Loughborough University",
+      "University College London",
+      3
+    ],
+    [
+      "City University of Hong Kong",
+      "University College London",
+      3
+    ],
+    [
+      "Southeast University",
+      "University of Auckland",
+      3
+    ],
+    [
+      "Chang'an University",
+      "Nanyang Technological University",
+      3
+    ],
+    [
+      "Loughborough University",
+      "University of Cambridge",
+      3
+    ],
+    [
+      "Eindhoven University of Technology",
+      "Southeast University",
+      3
+    ],
+    [
+      "Hong Kong Polytechnic University",
+      "Northumbria University",
+      3
+    ],
+    [
+      "Aston University",
+      "Southeast University",
+      3
+    ],
+    [
+      "University of Illinois Urbana-Champaign",
+      "Virginia Tech",
+      3
+    ],
+    [
+      "Chungbuk National University",
+      "Sungkyunkwan University",
+      3
+    ],
+    [
+      "Bond University",
+      "Hohai University",
+      3
+    ],
+    [
+      "Central South University",
+      "University of Maryland, College Park",
+      3
+    ],
+    [
+      "Monash University",
+      "Western Sydney University",
+      3
+    ],
+    [
+      "Centre National de la Recherche Scientifique",
+      "Teesside University",
+      3
+    ],
+    [
+      "Delft University of Technology",
+      "University College London",
+      3
+    ],
+    [
+      "City University of Hong Kong",
+      "Harbin Institute of Technology",
+      3
+    ],
+    [
+      "Southeast University",
+      "Technical University of Munich",
+      3
+    ],
+    [
+      "University of Cambridge",
+      "University of Hong Kong",
+      3
+    ],
+    [
+      "Korea Institute of Civil Engineering and Building Technology",
+      "Korea University",
+      3
+    ],
+    [
+      "City University of Macau",
+      "Macau University of Science and Technology",
+      3
+    ],
+    [
+      "Southeast University",
+      "UNSW Sydney",
+      3
+    ],
+    [
+      "Chongqing University",
+      "UNSW Sydney",
+      3
+    ],
+    [
+      "National Taiwan University of Science and Technology",
+      "National Tsing Hua University",
+      3
+    ],
+    [
+      "Shenzhen University",
+      "Tongji University",
+      3
+    ],
+    [
+      "Central South University",
+      "Harbin Institute of Technology",
+      3
+    ],
+    [
+      "Hohai University",
+      "Zhejiang University",
+      3
+    ],
+    [
+      "Tsinghua University",
+      "Zhejiang University",
+      3
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "Huazhong University of Science and Technology",
+      3
+    ],
+    [
+      "Beijing University of Technology",
+      "City University of Hong Kong",
+      3
+    ],
+    [
+      "Hong Kong University of Science and Technology",
+      "Zhejiang University",
+      3
+    ],
+    [
+      "Central South University",
+      "Chang'an University",
+      3
+    ],
+    [
+      "Central South University",
+      "Detection Limit (United States)",
+      3
+    ],
+    [
+      "Chang'an University",
+      "Ministry of Education",
+      3
+    ],
+    [
+      "Tianjin University",
+      "Zhejiang University",
+      3
+    ],
+    [
+      "Huazhong University of Science and Technology",
+      "École Polytechnique Fédérale de Lausanne",
+      3
+    ],
+    [
+      "KTH Royal Institute of Technology",
+      "École Polytechnique Fédérale de Lausanne",
+      3
+    ],
+    [
+      "Chongqing University",
+      "University of Macau",
+      3
+    ],
+    [
+      "Nanyang Technological University",
+      "National University of Singapore",
+      3
+    ],
+    [
+      "Nanyang Technological University",
+      "Tsinghua University",
+      3
+    ],
+    [
+      "Chongqing University",
+      "Huazhong University of Science and Technology",
+      3
+    ],
+    [
+      "Shenzhen University",
+      "Zhejiang University",
+      3
+    ],
+    [
+      "Seoul National University of Science and Technology",
+      "Yonsei University",
+      3
+    ],
+    [
+      "City University of Hong Kong",
+      "Zhejiang University",
+      3
+    ],
+    [
+      "Chang'an University",
+      "KTH Royal Institute of Technology",
+      3
+    ],
+    [
+      "Beijing University of Technology",
+      "Chang'an University",
+      3
+    ],
+    [
+      "Chang'an University",
+      "National University of Singapore",
+      3
+    ],
+    [
+      "Beijing University of Technology",
+      "Hong Kong Polytechnic University",
+      3
+    ],
+    [
+      "City University of Hong Kong",
+      "Tongji University",
+      3
+    ],
+    [
+      "Chongqing University",
+      "University of Hong Kong",
+      3
+    ],
+    [
+      "Macau University of Science and Technology",
+      "Swinburne University of Technology",
+      3
+    ],
+    [
+      "Imam Mohammad ibn Saud Islamic University",
+      "National University of Sciences and Technology",
+      3
+    ],
+    [
+      "Griffith University",
+      "University of British Columbia",
+      3
+    ],
+    [
+      "University of South Australia",
+      "Xi'an University of Architecture and Technology",
+      3
+    ],
+    [
+      "Centre National de la Recherche Scientifique",
+      "Université de Sherbrooke",
+      3
+    ],
+    [
+      "Chang'an University",
+      "Detection Limit (United States)",
+      3
+    ],
+    [
+      "Chang'an University",
+      "Western Sydney University",
+      3
+    ],
+    [
+      "Ministry of Education",
+      "Xi'an University of Architecture and Technology",
+      3
+    ],
+    [
+      "Monash University",
+      "RMIT University",
+      3
+    ],
+    [
+      "University of Bologna",
+      "University of Naples Federico II",
+      3
+    ]
+  ],
+  "weight": {
+    "Southeast University": 483,
+    "Tongji University": 426,
+    "Hong Kong Polytechnic University": 383,
+    "Chongqing University": 251,
+    "Harbin Institute of Technology": 232,
+    "Tsinghua University": 227,
+    "Zhejiang University": 207,
+    "Central South University": 207,
+    "Xi'an University of Architecture and Technology": 206,
+    "Huazhong University of Science and Technology": 203,
+    "Chang'an University": 196,
+    "Tianjin University": 187,
+    "Shenzhen University": 179,
+    "Beijing University of Technology": 174,
+    "Dalian University of Technology": 169,
+    "Hohai University": 169,
+    "University of Hong Kong": 115,
+    "National University of Singapore": 111,
+    "Hong Kong University of Science and Technology": 110,
+    "City University of Hong Kong": 103,
+    "Nanyang Technological University": 88,
+    "Yonsei University": 72,
+    "University of Cambridge": 67,
+    "University College London": 63,
+    "University of Alberta": 62,
+    "Seoul National University": 60,
+    "Centre National de la Recherche Scientifique": 60,
+    "Hanyang University": 59,
+    "Delft University of Technology": 54,
+    "Korea Institute of Civil Engineering and Building Technology": 52,
+    "UNSW Sydney": 50,
+    "Technical University of Munich": 48,
+    "Western Sydney University": 47,
+    "Sungkyunkwan University": 46,
+    "University of Florida": 46,
+    "University of Auckland": 44,
+    "Politecnico di Milano": 44,
+    "Istanbul Technical University": 41,
+    "Ministry of Education": 41,
+    "University of Illinois Urbana-Champaign": 40,
+    "Korea University": 39,
+    "Pennsylvania State University": 37,
+    "Seoul National University of Science and Technology": 37,
+    "University of Macau": 36,
+    "Georgia Institute of Technology": 35,
+    "University of Technology Sydney": 35,
+    "Universitat Politècnica de Catalunya": 35,
+    "Eindhoven University of Technology": 35,
+    "Universitat Politècnica de València": 34,
+    "Macau University of Science and Technology": 34,
+    "Curtin University": 33,
+    "RMIT University": 33,
+    "City University of Macau": 33,
+    "Texas A&M University": 32,
+    "Monash University": 32,
+    "National Taiwan University": 31,
+    "The University of Melbourne": 31,
+    "University of Naples Federico II": 31,
+    "University of Tehran": 30,
+    "National Taiwan University of Science and Technology": 30,
+    "King Fahd University of Petroleum and Minerals": 30,
+    "Vellore Institute of Technology University": 30,
+    "KTH Royal Institute of Technology": 29,
+    "Purdue University West Lafayette": 29,
+    "Missouri University of Science and Technology": 29,
+    "The University of Kitakyushu": 29,
+    "University of Johannesburg": 29,
+    "The University of Tokyo": 28,
+    "Virginia Tech": 28,
+    "Cardiff University": 27,
+    "Technical University of Denmark": 27,
+    "Imperial College London": 27,
+    "Norwegian University of Science and Technology": 27,
+    "Chung-Ang University": 26,
+    "Universiti Sains Malaysia": 26,
+    "Detection Limit (United States)": 26,
+    "University of Minho": 26,
+    "Korea Advanced Institute of Science and Technology": 25,
+    "Northumbria University": 25,
+    "University of British Columbia": 25,
+    "École Polytechnique Fédérale de Lausanne": 25,
+    "The University of Texas at Austin": 24,
+    "Aalto University": 24,
+    "University of Bologna": 24,
+    "University of Toronto": 23,
+    "King Saud University": 23,
+    "Politecnico di Torino": 23,
+    "University of Michigan": 23,
+    "University of Malaya": 23,
+    "Anyang University": 22,
+    "Chungbuk National University": 22,
+    "Université Gustave Eiffel": 22,
+    "National University of Sciences and Technology": 22,
+    "King Abdulaziz University": 22,
+    "University of Maryland, College Park": 21,
+    "University of Stuttgart": 21,
+    "Karadeniz Technical University": 21,
+    "Louisiana State University": 21,
+    "Kyungpook National University": 21,
+    "Concordia University": 21,
+    "University of South Australia": 21,
+    "Sejong University": 20,
+    "Queensland University of Technology": 20,
+    "ETH Zurich": 20,
+    "Massey University": 20,
+    "Ajou University": 20,
+    "RWTH Aachen University": 20,
+    "University of Birmingham": 20,
+    "Pusan National University": 20,
+    "United Arab Emirates University": 20,
+    "Qatar University": 20,
+    "King Khalid University": 20,
+    "University of Manchester": 20,
+    "Michigan Technological University": 19,
+    "Stevens Institute of Technology": 19,
+    "Yıldız Technical University": 19,
+    "Intelligent Health (United Kingdom)": 19,
+    "Swinburne University of Technology": 19,
+    "The University of Western Australia": 19,
+    "The University of Sydney": 19,
+    "National Tsing Hua University": 19,
+    "Universidad Politécnica de Madrid": 19,
+    "KU Leuven": 18,
+    "Prince Sattam Bin Abdulaziz University": 18,
+    "University of Strathclyde": 18,
+    "Qassim University": 18,
+    "Imam Mohammad ibn Saud Islamic University": 18,
+    "Loughborough University": 17,
+    "Kyoto University": 17,
+    "Aston University": 17,
+    "Griffith University": 17,
+    "National Taipei University of Technology": 17,
+    "Auckland University of Technology": 17,
+    "Technische Universität Berlin": 17,
+    "Deakin University": 17,
+    "University of Ottawa": 17,
+    "Covenant University": 17,
+    "Bond University": 16,
+    "Vilnius Gediminas Technical University": 16,
+    "Universiti Putra Malaysia": 16,
+    "Indian Institute of Technology Guwahati": 16,
+    "Middle East Technical University": 15,
+    "University of Edinburgh": 15,
+    "Teesside University": 15,
+    "Université de Sherbrooke": 15,
+    "Ghent University": 15,
+    "Pontificia Universidad Católica de Chile": 15,
+    "Technische Universität Braunschweig": 15,
+    "University of Technology Malaysia": 15,
+    "Cairo University": 14
+  },
+  "country": {
+    "Southeast University": "CN",
+    "Tongji University": "CN",
+    "Hong Kong Polytechnic University": "HK",
+    "Chongqing University": "CN",
+    "Harbin Institute of Technology": "CN",
+    "Tsinghua University": "CN",
+    "Zhejiang University": "CN",
+    "Central South University": "CN",
+    "Xi'an University of Architecture and Technology": "CN",
+    "Huazhong University of Science and Technology": "CN",
+    "Chang'an University": "CN",
+    "Tianjin University": "CN",
+    "Shenzhen University": "CN",
+    "Beijing University of Technology": "CN",
+    "Dalian University of Technology": "CN",
+    "Hohai University": "CN",
+    "University of Hong Kong": "HK",
+    "National University of Singapore": "SG",
+    "Hong Kong University of Science and Technology": "HK",
+    "City University of Hong Kong": "HK",
+    "Nanyang Technological University": "SG",
+    "Yonsei University": "KR",
+    "University of Cambridge": "GB",
+    "University College London": "GB",
+    "University of Alberta": "CA",
+    "Seoul National University": "KR",
+    "Centre National de la Recherche Scientifique": "FR",
+    "Hanyang University": "KR",
+    "Delft University of Technology": "NL",
+    "Korea Institute of Civil Engineering and Building Technology": "KR",
+    "UNSW Sydney": "AU",
+    "Technical University of Munich": "DE",
+    "Western Sydney University": "AU",
+    "Sungkyunkwan University": "KR",
+    "University of Florida": "US",
+    "University of Auckland": "NZ",
+    "Politecnico di Milano": "IT",
+    "Istanbul Technical University": "TR",
+    "Ministry of Education": "ME",
+    "University of Illinois Urbana-Champaign": "US",
+    "Korea University": "KR",
+    "Pennsylvania State University": "US",
+    "Seoul National University of Science and Technology": "KR",
+    "University of Macau": "MO",
+    "Georgia Institute of Technology": "US",
+    "University of Technology Sydney": "AU",
+    "Universitat Politècnica de Catalunya": "ES",
+    "Eindhoven University of Technology": "NL",
+    "Universitat Politècnica de València": "ES",
+    "Macau University of Science and Technology": "MO",
+    "Curtin University": "AU",
+    "RMIT University": "AU",
+    "City University of Macau": "MO",
+    "Texas A&M University": "US",
+    "Monash University": "AU",
+    "National Taiwan University": "TW",
+    "The University of Melbourne": "AU",
+    "University of Naples Federico II": "IT",
+    "University of Tehran": "IR",
+    "National Taiwan University of Science and Technology": "TW",
+    "King Fahd University of Petroleum and Minerals": "SA",
+    "Vellore Institute of Technology University": "IN",
+    "KTH Royal Institute of Technology": "SE",
+    "Purdue University West Lafayette": "US",
+    "Missouri University of Science and Technology": "US",
+    "The University of Kitakyushu": "JP",
+    "University of Johannesburg": "ZA",
+    "The University of Tokyo": "JP",
+    "Virginia Tech": "US",
+    "Cardiff University": "GB",
+    "Technical University of Denmark": "DK",
+    "Imperial College London": "GB",
+    "Norwegian University of Science and Technology": "NO",
+    "Chung-Ang University": "KR",
+    "Universiti Sains Malaysia": "MY",
+    "Detection Limit (United States)": "US",
+    "University of Minho": "PT",
+    "Korea Advanced Institute of Science and Technology": "KR",
+    "Northumbria University": "GB",
+    "University of British Columbia": "CA",
+    "École Polytechnique Fédérale de Lausanne": "CH",
+    "The University of Texas at Austin": "US",
+    "Aalto University": "FI",
+    "University of Bologna": "IT",
+    "University of Toronto": "CA",
+    "King Saud University": "SA",
+    "Politecnico di Torino": "IT",
+    "University of Michigan": "US",
+    "University of Malaya": "MY",
+    "Anyang University": "KR",
+    "Chungbuk National University": "KR",
+    "Université Gustave Eiffel": "FR",
+    "National University of Sciences and Technology": "PK",
+    "King Abdulaziz University": "SA",
+    "University of Maryland, College Park": "US",
+    "University of Stuttgart": "DE",
+    "Karadeniz Technical University": "TR",
+    "Louisiana State University": "US",
+    "Kyungpook National University": "KR",
+    "Concordia University": "CA",
+    "University of South Australia": "AU",
+    "Sejong University": "KR",
+    "Queensland University of Technology": "AU",
+    "ETH Zurich": "CH",
+    "Massey University": "NZ",
+    "Ajou University": "KR",
+    "RWTH Aachen University": "DE",
+    "University of Birmingham": "GB",
+    "Pusan National University": "KR",
+    "United Arab Emirates University": "AE",
+    "Qatar University": "QA",
+    "King Khalid University": "SA",
+    "University of Manchester": "GB",
+    "Michigan Technological University": "US",
+    "Stevens Institute of Technology": "US",
+    "Yıldız Technical University": "TR",
+    "Intelligent Health (United Kingdom)": "GB",
+    "Swinburne University of Technology": "AU",
+    "The University of Western Australia": "AU",
+    "The University of Sydney": "AU",
+    "National Tsing Hua University": "TW",
+    "Universidad Politécnica de Madrid": "ES",
+    "KU Leuven": "BE",
+    "Prince Sattam Bin Abdulaziz University": "SA",
+    "University of Strathclyde": "GB",
+    "Qassim University": "SA",
+    "Imam Mohammad ibn Saud Islamic University": "SA",
+    "Loughborough University": "GB",
+    "Kyoto University": "JP",
+    "Aston University": "GB",
+    "Griffith University": "AU",
+    "National Taipei University of Technology": "TW",
+    "Auckland University of Technology": "NZ",
+    "Technische Universität Berlin": "DE",
+    "Deakin University": "AU",
+    "University of Ottawa": "CA",
+    "Covenant University": "NG",
+    "Bond University": "AU",
+    "Vilnius Gediminas Technical University": "LT",
+    "Universiti Putra Malaysia": "MY",
+    "Indian Institute of Technology Guwahati": "IN",
+    "Middle East Technical University": "TR",
+    "University of Edinburgh": "GB",
+    "Teesside University": "GB",
+    "Université de Sherbrooke": "CA",
+    "Ghent University": "BE",
+    "Pontificia Universidad Católica de Chile": "CL",
+    "Technische Universität Braunschweig": "DE",
+    "University of Technology Malaysia": "MY",
+    "Cairo University": "EG"
+  },
+  "coords": {
+    "Southeast University": [
+      32.058,
+      118.7965
+    ],
+    "Tongji University": [
+      31.2808,
+      121.4923
+    ],
+    "Hong Kong Polytechnic University": [
+      22.3037,
+      114.1803
+    ],
+    "Chongqing University": [
+      29.560260772705078,
+      106.55770874023438
+    ],
+    "Harbin Institute of Technology": [
+      45.75,
+      126.6500015258789
+    ],
+    "Tsinghua University": [
+      40.0048,
+      116.3264
+    ],
+    "Zhejiang University": [
+      30.29365,
+      120.16142
+    ],
+    "Central South University": [
+      28.19874,
+      112.97087
+    ],
+    "Xi'an University of Architecture and Technology": [
+      34.258331298828125,
+      108.9286117553711
+    ],
+    "Huazhong University of Science and Technology": [
+      30.58333,
+      114.26667
+    ],
+    "Chang'an University": [
+      34.258331298828125,
+      108.9286117553711
+    ],
+    "Tianjin University": [
+      39.14221954345703,
+      117.17666625976562
+    ],
+    "Shenzhen University": [
+      22.54553985595703,
+      114.06829833984375
+    ],
+    "Beijing University of Technology": [
+      39.907501220703125,
+      116.39723205566406
+    ],
+    "Dalian University of Technology": [
+      38.9122200012207,
+      121.60221862792969
+    ],
+    "Hohai University": [
+      32.061668395996094,
+      118.77777862548828
+    ],
+    "University of Hong Kong": [
+      22.284,
+      114.134
+    ],
+    "National University of Singapore": [
+      1.2966,
+      103.7764
+    ],
+    "Hong Kong University of Science and Technology": [
+      22.3354,
+      114.2636
+    ],
+    "City University of Hong Kong": [
+      22.3364,
+      114.1726
+    ],
+    "Nanyang Technological University": [
+      1.3483,
+      103.6831
+    ],
+    "Yonsei University": [
+      37.5651,
+      126.9383
+    ],
+    "University of Cambridge": [
+      52.2,
+      0.11667
+    ],
+    "University College London": [
+      51.50853,
+      -0.12574
+    ],
+    "University of Alberta": [
+      53.55014,
+      -113.46871
+    ],
+    "Seoul National University": [
+      37.4601,
+      126.9528
+    ],
+    "Centre National de la Recherche Scientifique": [
+      48.85341,
+      2.3488
+    ],
+    "Hanyang University": [
+      37.5557,
+      127.0444
+    ],
+    "Delft University of Technology": [
+      52.00667190551758,
+      4.355559825897217
+    ],
+    "Korea Institute of Civil Engineering and Building Technology": [
+      37.65639,
+      126.835
+    ],
+    "UNSW Sydney": [
+      -33.86785,
+      151.20732
+    ],
+    "Technical University of Munich": [
+      48.13743,
+      11.57549
+    ],
+    "Western Sydney University": [
+      -33.59955978393555,
+      150.7514190673828
+    ],
+    "Sungkyunkwan University": [
+      37.587,
+      126.9909
+    ],
+    "University of Florida": [
+      29.65163,
+      -82.32483
+    ],
+    "University of Auckland": [
+      -36.84853,
+      174.76349
+    ],
+    "Politecnico di Milano": [
+      45.46427,
+      9.18951
+    ],
+    "Istanbul Technical University": [
+      41.01383972167969,
+      28.94965934753418
+    ],
+    "Ministry of Education": [
+      39.9075,
+      116.39723
+    ],
+    "University of Illinois Urbana-Champaign": [
+      40.11059,
+      -88.20727
+    ],
+    "Korea University": [
+      37.5894,
+      127.032
+    ],
+    "Pennsylvania State University": [
+      40.79339,
+      -77.86
+    ],
+    "Seoul National University of Science and Technology": [
+      37.6326,
+      127.078
+    ],
+    "University of Macau": [
+      22.20056,
+      113.54611
+    ],
+    "Georgia Institute of Technology": [
+      33.749,
+      -84.38798
+    ],
+    "University of Technology Sydney": [
+      -33.86785,
+      151.20732
+    ],
+    "Universitat Politècnica de Catalunya": [
+      41.38879,
+      2.15899
+    ],
+    "Eindhoven University of Technology": [
+      51.44083,
+      5.47778
+    ],
+    "Universitat Politècnica de València": [
+      39.47391128540039,
+      -0.3796600103378296
+    ],
+    "Macau University of Science and Technology": [
+      22.20056,
+      113.54611
+    ],
+    "Curtin University": [
+      -31.95224,
+      115.8614
+    ],
+    "RMIT University": [
+      -37.80674743652344,
+      144.9625701904297
+    ],
+    "City University of Macau": [
+      22.200559616088867,
+      113.54611206054688
+    ],
+    "Texas A&M University": [
+      30.62798,
+      -96.33441
+    ],
+    "Monash University": [
+      -37.814,
+      144.96332
+    ],
+    "National Taiwan University": [
+      25.05306,
+      121.52639
+    ],
+    "The University of Melbourne": [
+      -37.814,
+      144.96332
+    ],
+    "University of Naples Federico II": [
+      40.85216,
+      14.26811
+    ],
+    "University of Tehran": [
+      35.703468322753906,
+      51.395198822021484
+    ],
+    "National Taiwan University of Science and Technology": [
+      25.01368522644043,
+      121.54053497314453
+    ],
+    "King Fahd University of Petroleum and Minerals": [
+      26.288639068603516,
+      50.11396026611328
+    ],
+    "Vellore Institute of Technology University": [
+      12.9184,
+      79.13255
+    ],
+    "KTH Royal Institute of Technology": [
+      59.32938,
+      18.06871
+    ],
+    "Purdue University West Lafayette": [
+      40.42587,
+      -86.90807
+    ],
+    "Missouri University of Science and Technology": [
+      37.95143127441406,
+      -91.77127075195312
+    ],
+    "The University of Kitakyushu": [
+      33.851810455322266,
+      130.850341796875
+    ],
+    "University of Johannesburg": [
+      -26.20227,
+      28.04363
+    ],
+    "The University of Tokyo": [
+      35.68949890136719,
+      139.69171142578125
+    ],
+    "Virginia Tech": [
+      37.22957,
+      -80.41394
+    ],
+    "Cardiff University": [
+      51.48,
+      -3.18
+    ],
+    "Technical University of Denmark": [
+      55.77043914794922,
+      12.503780364990234
+    ],
+    "Imperial College London": [
+      51.50853,
+      -0.12574
+    ],
+    "Norwegian University of Science and Technology": [
+      63.43049,
+      10.39506
+    ],
+    "Chung-Ang University": [
+      37.5047,
+      126.9549
+    ],
+    "Universiti Sains Malaysia": [
+      5.41123,
+      100.33543
+    ],
+    "Detection Limit (United States)": [
+      41.32099914550781,
+      -105.67229461669922
+    ],
+    "University of Minho": [
+      41.5514,
+      -8.42311
+    ],
+    "Korea Advanced Institute of Science and Technology": [
+      36.34912872314453,
+      127.38493347167969
+    ],
+    "Northumbria University": [
+      54.97328186035156,
+      -1.6139600276947021
+    ],
+    "University of British Columbia": [
+      49.24966,
+      -123.11934
+    ],
+    "École Polytechnique Fédérale de Lausanne": [
+      46.516,
+      6.63282
+    ],
+    "The University of Texas at Austin": [
+      30.26715,
+      -97.74306
+    ],
+    "Aalto University": [
+      60.2052001953125,
+      24.65220069885254
+    ],
+    "University of Bologna": [
+      44.49381,
+      11.33875
+    ],
+    "University of Toronto": [
+      43.70643,
+      -79.39864
+    ],
+    "King Saud University": [
+      24.68773,
+      46.72185
+    ],
+    "Politecnico di Torino": [
+      45.07049,
+      7.68682
+    ],
+    "University of Michigan": [
+      42.27756,
+      -83.74088
+    ],
+    "University of Malaya": [
+      3.1412,
+      101.68653
+    ],
+    "Anyang University": [
+      37.3917,
+      126.9197
+    ],
+    "Chungbuk National University": [
+      36.63722,
+      127.48972
+    ],
+    "Université Gustave Eiffel": [
+      48.85,
+      2.6
+    ],
+    "National University of Sciences and Technology": [
+      33.72148132324219,
+      73.04328918457031
+    ],
+    "King Abdulaziz University": [
+      21.49012,
+      39.18624
+    ],
+    "University of Maryland, College Park": [
+      38.98067,
+      -76.93692
+    ],
+    "University of Stuttgart": [
+      48.782318115234375,
+      9.177020072937012
+    ],
+    "Karadeniz Technical University": [
+      41.005001068115234,
+      39.7269401550293
+    ],
+    "Louisiana State University": [
+      30.44332,
+      -91.18747
+    ],
+    "Kyungpook National University": [
+      35.87028,
+      128.59111
+    ],
+    "Concordia University": [
+      45.50883865356445,
+      -73.58780670166016
+    ],
+    "University of South Australia": [
+      -34.92866,
+      138.59863
+    ],
+    "Sejong University": [
+      37.5508,
+      127.0743
+    ],
+    "Queensland University of Technology": [
+      -27.46794,
+      153.02809
+    ],
+    "ETH Zurich": [
+      47.36667,
+      8.55
+    ],
+    "Massey University": [
+      -40.35636,
+      175.61113
+    ],
+    "Ajou University": [
+      37.2791,
+      127.044
+    ],
+    "RWTH Aachen University": [
+      50.776641845703125,
+      6.0834197998046875
+    ],
+    "University of Birmingham": [
+      52.48142,
+      -1.89983
+    ],
+    "Pusan National University": [
+      35.10168,
+      129.03004
+    ],
+    "United Arab Emirates University": [
+      24.191669464111328,
+      55.76055908203125
+    ],
+    "Qatar University": [
+      25.377225875854492,
+      51.48714828491211
+    ],
+    "King Khalid University": [
+      18.21639060974121,
+      42.505279541015625
+    ],
+    "University of Manchester": [
+      53.48095,
+      -2.23743
+    ],
+    "Michigan Technological University": [
+      47.12186813354492,
+      -88.56900787353516
+    ],
+    "Stevens Institute of Technology": [
+      40.74399185180664,
+      -74.03235626220703
+    ],
+    "Yıldız Technical University": [
+      41.01383972167969,
+      28.94965934753418
+    ],
+    "Intelligent Health (United Kingdom)": [
+      51.441036224365234,
+      -0.9349730014801025
+    ],
+    "Swinburne University of Technology": [
+      -37.814,
+      144.96332
+    ],
+    "The University of Western Australia": [
+      -31.95224,
+      115.8614
+    ],
+    "The University of Sydney": [
+      -33.86785,
+      151.20732
+    ],
+    "National Tsing Hua University": [
+      24.793611526489258,
+      120.9927749633789
+    ],
+    "Universidad Politécnica de Madrid": [
+      40.4165,
+      -3.70256
+    ],
+    "KU Leuven": [
+      50.87959,
+      4.70093
+    ],
+    "Prince Sattam Bin Abdulaziz University": [
+      24.155410766601562,
+      47.334571838378906
+    ],
+    "University of Strathclyde": [
+      55.86515,
+      -4.25763
+    ],
+    "Qassim University": [
+      26.325990676879883,
+      43.974971771240234
+    ],
+    "Imam Mohammad ibn Saud Islamic University": [
+      24.68773078918457,
+      46.72185134887695
+    ],
+    "Loughborough University": [
+      52.76667022705078,
+      -1.2000000476837158
+    ],
+    "Kyoto University": [
+      35.02107,
+      135.75385
+    ],
+    "Aston University": [
+      52.48141860961914,
+      -1.8998299837112427
+    ],
+    "Griffith University": [
+      -27.46794,
+      153.02809
+    ],
+    "National Taipei University of Technology": [
+      25.05306,
+      121.52639
+    ],
+    "Auckland University of Technology": [
+      -36.853233337402344,
+      174.76649475097656
+    ],
+    "Technische Universität Berlin": [
+      52.52437,
+      13.41053
+    ],
+    "Deakin University": [
+      -37.84978,
+      145.11901
+    ],
+    "University of Ottawa": [
+      45.41117,
+      -75.69812
+    ],
+    "Covenant University": [
+      6.6886701583862305,
+      3.2320199012756348
+    ],
+    "Bond University": [
+      -28.07398223876953,
+      153.41648864746094
+    ],
+    "Vilnius Gediminas Technical University": [
+      54.68916,
+      25.2798
+    ],
+    "Universiti Putra Malaysia": [
+      3.03333,
+      101.71667
+    ],
+    "Indian Institute of Technology Guwahati": [
+      26.18440055847168,
+      91.74579620361328
+    ],
+    "Middle East Technical University": [
+      39.91987,
+      32.85427
+    ],
+    "University of Edinburgh": [
+      55.95206,
+      -3.19648
+    ],
+    "Teesside University": [
+      54.576229095458984,
+      -1.2348300218582153
+    ],
+    "Université de Sherbrooke": [
+      45.40008,
+      -71.89908
+    ],
+    "Ghent University": [
+      51.05,
+      3.71667
+    ],
+    "Pontificia Universidad Católica de Chile": [
+      -33.45694,
+      -70.64827
+    ],
+    "Technische Universität Braunschweig": [
+      52.26594,
+      10.52673
+    ],
+    "University of Technology Malaysia": [
+      1.465499997138977,
+      103.75779724121094
+    ],
+    "Cairo University": [
+      30.027599334716797,
+      31.210140228271484
+    ]
+  }
+}

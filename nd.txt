@@ -1,0 +1,38 @@
+nodes 36 links 469
+groups: {'Material': 15, 'AI': 4, 'Geo': 2, 'Eco': 2, 'Structural': 3, 'Vision': 3, 'BIM': 2, 'Robot': 2, 'Sensing': 2, 'Mgmt': 1}
+4038  +541% [Material ] Composite
+3084   +40% [AI       ] AI (general)
+2338  +838% [Material ] Cementitious
+1646 +1643% [Material ] Compressive Strength
+1466   +83% [Geo      ] Geotechnical
+1031   +49% [AI       ] Machine Learning
+ 883 +1396% [Eco      ] Building Energy
+ 821  +336% [Structural] FEM
+ 754 +3011% [Material ] Tensile Strength
+ 687   +38% [Vision   ] Computer Vision
+ 667 +2800% [Material ] Durability
+ 650 +3125% [Material ] Flexural Strength
+ 580   +40% [Vision   ] Pattern Recognition
+ 580 +2671% [Material ] Microstructure
+ 546  +112% [AI       ] Neural Network
+ 529  +696% [Material ] Concrete
+ 505  +111% [BIM      ] Knowledge Mgmt
+ 495 +2186% [Material ] Mortar
+ 480  +406% [Eco      ] Sustainability
+ 430  +635% [Material ] Asphalt
+ 430 +2214% [Material ] Fly Ash
+ 423  +223% [Geo      ] Soil Mechanics
+ 422  +728% [Material ] Reinforced Concrete
+ 405   +70% [AI       ] Deep Learning
+ 400  +747% [Structural] Seismic
+ 370 +1522% [Vision   ] Crack Detection
+ 311 +1250% [Structural] Fracture
+ 310 +1000% [Material ] Corrosion
+ 301  +205% [Robot    ] Construction Automation
+ 287   +69% [BIM      ] BIM
+ 286 +1720% [Material ] Geopolymer
+ 270   +36% [Robot    ] Robotics
+ 270 +2020% [Material ] Fiber-Reinforced
+ 214  +143% [Sensing  ] Sensors
+ 210  +161% [Mgmt     ] Construction Safety
+ 204   +37% [Sensing  ] Point Cloud

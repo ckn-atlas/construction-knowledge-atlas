@@ -1,0 +1,1413 @@
+{
+  "_meta": {
+    "model": "mistral:7b",
+    "total": 220,
+    "updated_at": "2026-06-01 13:11"
+  },
+  "absorption of water": {
+    "canon": "Water Absorption",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "물흡수"
+  },
+  "acoustics": {
+    "canon": "Acoustics",
+    "group": "Material",
+    "parent": "None",
+    "label_ko": "소음"
+  },
+  "adaptability": {
+    "canon": "Adaptability",
+    "group": "Mgmt",
+    "parent": "Flexibility",
+    "label_ko": "적응력"
+  },
+  "adaptation (eye)": {
+    "canon": "Eye Adaptation",
+    "group": "Vision",
+    "parent": "Computer Vision",
+    "label_ko": "시각 적응"
+  },
+  "aggregate (composite)": {
+    "canon": "Aggregate (Composite)",
+    "group": "Material",
+    "parent": "Material",
+    "label_ko": "Aggregate (Composite)"
+  },
+  "algorithm": {
+    "canon": "Algorithm",
+    "group": "AI",
+    "parent": null,
+    "label_ko": "알고리즘"
+  },
+  "architectural engineering": {
+    "canon": "Architectural Engineering",
+    "group": "BIM",
+    "parent": "Digital Documentation",
+    "label_ko": "건축공학"
+  },
+  "architecture": {
+    "canon": "Architecture",
+    "group": "BIM",
+    "parent": "BIM",
+    "label_ko": "건축설계",
+    "mid_cat": "Digital Documentation"
+  },
+  "artificial intelligence": {
+    "canon": "AI",
+    "group": "AI",
+    "parent": null,
+    "label_ko": "인공지능"
+  },
+  "artificial neural network": {
+    "canon": "Artificial Neural Network",
+    "group": "AI",
+    "parent": "Neural Nets",
+    "label_ko": "인공신경망"
+  },
+  "asphalt": {
+    "canon": "Asphalt",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "비트맥"
+  },
+  "asphalt pavement": {
+    "canon": "Asphalt Pavement",
+    "group": "Material",
+    "parent": "Road Construction",
+    "label_ko": "Asphalt Pavement"
+  },
+  "automation": {
+    "canon": "Automation",
+    "group": "Robot",
+    "mid_cat": "",
+    "parent": "Robotics",
+    "label_ko": "자동화"
+  },
+  "beam (structure)": {
+    "canon": "Beam",
+    "group": "Structural",
+    "parent": "Structure",
+    "label_ko": "궤도"
+  },
+  "bearing capacity": {
+    "canon": "Bearing Capacity",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "지면용량"
+  },
+  "benchmark (surveying)": {
+    "canon": "Benchmark (Surveying)",
+    "group": "Sensing",
+    "parent": "LiDAR",
+    "label_ko": "측정기준(지상조사)"
+  },
+  "bending": {
+    "canon": "Bending",
+    "group": "Structural",
+    "parent": "Deformation",
+    "label_ko": "굴림"
+  },
+  "bond strength": {
+    "canon": "Bond Strength",
+    "group": "Structural",
+    "parent": "Material Properties",
+    "label_ko": "결합력"
+  },
+  "bridge (graph theory)": {
+    "canon": "Bridge (Graph Theory)",
+    "group": "Structural",
+    "parent": "Structural Engineering",
+    "label_ko": "교량",
+    "mid_cat": "Structural Analysis"
+  },
+  "brittleness": {
+    "canon": "Brittleness",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "고강성"
+  },
+  "buckling": {
+    "canon": "Buckling",
+    "group": "Structural",
+    "parent": "Failure Modes",
+    "label_ko": "Buckling"
+  },
+  "built environment": {
+    "canon": "Built Environment",
+    "group": "BIM",
+    "parent": "Digital Documentation",
+    "label_ko": "건축환경"
+  },
+  "business": {
+    "canon": "Business",
+    "group": "Mgmt",
+    "parent": null,
+    "label_ko": "사업"
+  },
+  "calcination": {
+    "canon": "Calcination",
+    "group": "Material",
+    "parent": "Heat Treatment",
+    "label_ko": "Calcination"
+  },
+  "carbon fibers": {
+    "canon": "Carbon Fibers",
+    "group": "Material",
+    "parent": "Composite",
+    "label_ko": "탄소섬유"
+  },
+  "carbonation": {
+    "canon": "Carbonation",
+    "group": "Material",
+    "parent": "Concrete Properties",
+    "label_ko": "탄소화"
+  },
+  "cement": {
+    "canon": "Cement",
+    "group": "Material",
+    "parent": "Composite Material",
+    "label_ko": "cement"
+  },
+  "cementitious": {
+    "canon": "Cementitious",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "옥수가재질"
+  },
+  "characterization (materials science)": {
+    "canon": "Characterization",
+    "group": "Material",
+    "parent": "Properties/Testing",
+    "label_ko": "Characterization"
+  },
+  "chemical engineering": {
+    "canon": "Chemical Engineering",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "화학공학"
+  },
+  "chemistry": {
+    "canon": "Chemistry",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "화학"
+  },
+  "chloride": {
+    "canon": "Chloride",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "콜리드"
+  },
+  "cloud computing": {
+    "canon": "Cloud Computing",
+    "group": "AI",
+    "parent": "Computer Graphics (Images)",
+    "label_ko": "클라우드컴퓨팅"
+  },
+  "cognition": {
+    "canon": "Cognition",
+    "group": "AI",
+    "parent": "Neural Nets",
+    "label_ko": "Cognition"
+  },
+  "composite material": {
+    "canon": "Composite Material",
+    "group": "Material",
+    "parent": "Material",
+    "label_ko": "복합재료"
+  },
+  "compression (physics)": {
+    "canon": "Compression (Physics)",
+    "group": "Structural",
+    "parent": "Mechanics",
+    "label_ko": "Compression (Physics)"
+  },
+  "compressive strength": {
+    "canon": "Compressive Strength",
+    "group": "Structural",
+    "parent": "Structural Engineering",
+    "label_ko": "압력강도"
+  },
+  "computer graphics (images)": {
+    "canon": "Computer Graphics (Images)",
+    "group": "Vision",
+    "parent": null,
+    "label_ko": "컴퓨터그래픽(이미지)"
+  },
+  "computer science": {
+    "canon": "Computer Science",
+    "group": "AI",
+    "parent": null,
+    "label_ko": "컴퓨터공학"
+  },
+  "computer security": {
+    "canon": "Computer Security",
+    "group": "Mgmt",
+    "parent": "Cybersecurity",
+    "label_ko": "Computer Security"
+  },
+  "computer simulation": {
+    "canon": "Computer Simulation",
+    "group": "AI",
+    "parent": "Deep Learning",
+    "label_ko": "컴퓨터시뮬레이션"
+  },
+  "computer vision": {
+    "canon": "Computer Vision",
+    "group": "Vision",
+    "parent": null,
+    "label_ko": "Computer Vision"
+  },
+  "consistency (knowledge bases)": {
+    "canon": "Consistency (Knowledge Bases)",
+    "group": "AI",
+    "parent": "Theoretical Computer Science",
+    "label_ko": "지식베이스 일관성"
+  },
+  "construction engineering": {
+    "canon": "Construction Engineering",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "Construction Engineering"
+  },
+  "construction industry": {
+    "canon": "Construction Industry",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "건설업계"
+  },
+  "context (archaeology)": {
+    "canon": "Archaeological Context",
+    "group": "Mgmt",
+    "parent": "Archaeology",
+    "label_ko": "고대학계"
+  },
+  "control (management)": {
+    "canon": "Control",
+    "group": "Mgmt",
+    "parent": "Management",
+    "label_ko": "제어"
+  },
+  "control engineering": {
+    "canon": "Control Engineering",
+    "group": "Mgmt",
+    "parent": null,
+    "label_ko": "제어공학"
+  },
+  "convolutional neural network": {
+    "canon": "CNN",
+    "group": "AI",
+    "parent": "Deep Learning",
+    "label_ko": "합성곱신경망"
+  },
+  "corrosion": {
+    "canon": "Corrosion",
+    "group": "Structural",
+    "parent": "Material Properties/Testing",
+    "label_ko": "흡사"
+  },
+  "coupling (piping)": {
+    "canon": "Coupling (Piping)",
+    "group": "Robot",
+    "parent": "Autonomous Equipment",
+    "label_ko": "흐름관리기구(흐름관리장비)"
+  },
+  "cracking": {
+    "canon": "Cracking",
+    "group": "Structural",
+    "parent": "Fracture",
+    "label_ko": "Cracking"
+  },
+  "data mining": {
+    "canon": "Data Mining",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "데이터마이닝"
+  },
+  "data science": {
+    "canon": "Data Science",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "데이터 과학"
+  },
+  "deep learning": {
+    "canon": "Deep Learning",
+    "group": "AI",
+    "parent": null,
+    "label_ko": "깊은 학습"
+  },
+  "deflection (physics)": {
+    "canon": "Deflection",
+    "group": "Structural",
+    "parent": "Deformation",
+    "label_ko": "Deflection"
+  },
+  "deformation (meteorology)": {
+    "canon": "Deformation (Meteorology)",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "변형",
+    "mid_cat": "Structural Analysis"
+  },
+  "degradation (telecommunications)": {
+    "canon": "Degradation (Telecommunications)",
+    "group": "Eco",
+    "parent": "Sustainability",
+    "label_ko": "전자통신장애"
+  },
+  "displacement (psychology)": {
+    "canon": "Displacement (Psychology)",
+    "group": "Structural",
+    "parent": "Deformation",
+    "label_ko": "변위",
+    "mid_cat": "Structural Analysis"
+  },
+  "dissipation": {
+    "canon": "Dissipation",
+    "group": "Eco",
+    "parent": "Energy Efficiency",
+    "label_ko": "흡수"
+  },
+  "domain (mathematical analysis)": {
+    "canon": "Mathematical Domain",
+    "group": "AI",
+    "parent": "Deep Learning",
+    "label_ko": "수학적 도메인"
+  },
+  "ductility (earth science)": {
+    "canon": "Ductility (Earth Science)",
+    "group": "Structural",
+    "parent": "Structural Engineering",
+    "label_ko": "연성",
+    "mid_cat": "Structural Analysis"
+  },
+  "durability": {
+    "canon": "Durability",
+    "group": "Mgmt",
+    "parent": null,
+    "label_ko": "지속가능성"
+  },
+  "economics": {
+    "canon": "Economics",
+    "group": "Mgmt",
+    "parent": "Cost",
+    "label_ko": "경제학"
+  },
+  "efficient energy use": {
+    "canon": "Efficient Energy Use",
+    "group": "Eco",
+    "parent": "Sustainability",
+    "label_ko": "효율적인 에너지 사용"
+  },
+  "elastic modulus": {
+    "canon": "Elastic Modulus",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "유성모듈러스"
+  },
+  "empirical research": {
+    "canon": "Empirical Research",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "실험적 연구"
+  },
+  "energy (signal processing)": {
+    "canon": "Energy (Signal Processing)",
+    "group": "AI",
+    "parent": "Deep Learning",
+    "label_ko": "신호처리(딥러닝)"
+  },
+  "energy consumption": {
+    "canon": "Energy Consumption",
+    "group": "Eco",
+    "parent": "Energy",
+    "label_ko": "에너지소모"
+  },
+  "engineering drawing": {
+    "canon": "Engineering Drawing",
+    "group": "BIM",
+    "parent": "digital documentation",
+    "label_ko": "공학도면"
+  },
+  "engineering management": {
+    "canon": "Engineering Management",
+    "group": "Mgmt",
+    "parent": null,
+    "label_ko": "공학관리"
+  },
+  "environmental economics": {
+    "canon": "Environmental Economics",
+    "group": "Eco",
+    "parent": "Macroeconomics",
+    "label_ko": "Environmental Economics"
+  },
+  "environmental planning": {
+    "canon": "Environmental Planning",
+    "group": "Eco",
+    "parent": null,
+    "label_ko": "환경계획"
+  },
+  "environmental resource management": {
+    "canon": "Environmental Resource Management",
+    "group": "Eco",
+    "parent": "Sustainability",
+    "label_ko": "환경자원관리"
+  },
+  "environmental science": {
+    "canon": "Environmental Science",
+    "group": "Eco",
+    "parent": null,
+    "label_ko": "환경과학"
+  },
+  "ettringite": {
+    "canon": "Ettringite",
+    "group": "Material",
+    "parent": "Cementitious Materials",
+    "label_ko": "에트링이트"
+  },
+  "excavation": {
+    "canon": "Excavation",
+    "group": "Geo",
+    "parent": "Tunneling",
+    "label_ko": "Excavation"
+  },
+  "failure mode and effects analysis": {
+    "canon": "Failure Mode and Effects Analysis",
+    "group": "Structural",
+    "parent": "Fracture Mechanics",
+    "label_ko": "장애모드 및 영향분석"
+  },
+  "fault (geology)": {
+    "canon": "Geological Fault",
+    "group": "Geo",
+    "parent": "Geotechnical",
+    "label_ko": "지질적 사면"
+  },
+  "feature (linguistics)": {
+    "canon": "Feature (Linguistics)",
+    "group": "AI",
+    "parent": "NLP",
+    "label_ko": "특징추출",
+    "mid_cat": "NLP"
+  },
+  "feature extraction": {
+    "canon": "Feature Extraction",
+    "group": "AI",
+    "parent": "Computer Vision",
+    "label_ko": "특징추출"
+  },
+  "fiber": {
+    "canon": "Fiber",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "волокно"
+  },
+  "fibre-reinforced plastic": {
+    "canon": "FRP",
+    "group": "Material",
+    "parent": "Composite",
+    "label_ko": "섬유복합재"
+  },
+  "field (mathematics)": {
+    "canon": "Field (Mathematics)",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "Field (Mathematics)"
+  },
+  "finite element method": {
+    "canon": "FEM",
+    "group": "Structural",
+    "parent": null,
+    "label_ko": "유한요소법"
+  },
+  "flexibility (engineering)": {
+    "canon": "Engineering Flexibility",
+    "group": "Structural",
+    "parent": "Design Criteria",
+    "label_ko": "Engineering Flexibility"
+  },
+  "flexural strength": {
+    "canon": "FS",
+    "group": "Material",
+    "parent": "Mechanical Property",
+    "label_ko": "휘성력"
+  },
+  "fly ash": {
+    "canon": "Fly Ash",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "폭포먼지"
+  },
+  "forensic engineering": {
+    "canon": "Forensic Engineering",
+    "group": "Mgmt",
+    "parent": "Safety",
+    "label_ko": "법률공학"
+  },
+  "foundation (evidence)": {
+    "canon": "Foundation Evidence",
+    "group": "Geo",
+    "parent": "Geotechnical",
+    "label_ko": "근절이(가) 있는 기초"
+  },
+  "fracture (geology)": {
+    "canon": "Fracture Geology",
+    "group": "Structural",
+    "parent": "Geo",
+    "label_ko": "극도한 탈부"
+  },
+  "fusion": {
+    "canon": "Fusion",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "데이터 융합",
+    "mid_cat": "Data Fusion"
+  },
+  "generalization": {
+    "canon": "Generalization",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "일반화"
+  },
+  "generative grammar": {
+    "canon": "Generative Grammar",
+    "group": "AI",
+    "parent": "NLP",
+    "label_ko": "생성형문법"
+  },
+  "geology": {
+    "canon": "Geology",
+    "group": "Geo",
+    "parent": null,
+    "label_ko": "지구학"
+  },
+  "geometry": {
+    "canon": "Geometry",
+    "group": "Structural",
+    "parent": "None",
+    "label_ko": "几何"
+  },
+  "geopolymer": {
+    "canon": "Geopolymer",
+    "group": "Material",
+    "parent": "Cementitious Materials",
+    "label_ko": "지오폴리머"
+  },
+  "geotechnical engineering": {
+    "canon": "Geotechnical Engineering",
+    "group": "Geo",
+    "parent": null,
+    "label_ko": "지구공학"
+  },
+  "graph": {
+    "canon": "Graph",
+    "group": "BIM",
+    "parent": "Digital Documentation",
+    "label_ko": "Graph"
+  },
+  "greenhouse gas": {
+    "canon": "Greenhouse Gas",
+    "group": "Eco",
+    "parent": "GHG Emission",
+    "label_ko": "탄소해소가스"
+  },
+  "ground granulated blast-furnace slag": {
+    "canon": "Ground Granulated Blast-Furnace Slag",
+    "group": "Material",
+    "parent": "Steel",
+    "label_ko": "폭포제조 철거"
+  },
+  "human–computer interaction": {
+    "canon": "Human-Computer Interaction",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "Human-Computer Interaction"
+  },
+  "identification (biology)": {
+    "canon": "Identification (Biology)",
+    "group": "Vision",
+    "parent": "Computer Vision",
+    "label_ko": "객체인식",
+    "mid_cat": "Computer Vision"
+  },
+  "image (mathematics)": {
+    "canon": "Image (Mathematics)",
+    "group": "Vision",
+    "parent": "Computer Vision",
+    "label_ko": "수학적 이미지"
+  },
+  "industrial engineering": {
+    "canon": "Industrial Engineering",
+    "group": "Mgmt",
+    "parent": "Engineering Management",
+    "label_ko": "산업공학"
+  },
+  "interpretability": {
+    "canon": "Interpretability",
+    "group": "AI",
+    "parent": "Explainable AI",
+    "label_ko": "Interpretability"
+  },
+  "joint (building)": {
+    "canon": "Building Joint",
+    "group": "Structural",
+    "parent": "Structure",
+    "label_ko": "건물 연결구조"
+  },
+  "key (lock)": {
+    "canon": "Key (Lock)",
+    "group": "Mgmt",
+    "parent": "Safety",
+    "label_ko": "열쇠(보안)"
+  },
+  "knowledge management": {
+    "canon": "Knowledge Management",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "지식관리",
+    "mid_cat": "Construction Management"
+  },
+  "life-cycle assessment": {
+    "canon": "Life Cycle Assessment",
+    "group": "Eco",
+    "parent": "Sustainability",
+    "label_ko": "생명주기평가"
+  },
+  "machine learning": {
+    "canon": "ML",
+    "group": "AI",
+    "parent": null,
+    "label_ko": "머신러닝"
+  },
+  "management science": {
+    "canon": "Management Science",
+    "group": "Mgmt",
+    "parent": "Operations Research",
+    "label_ko": "Management Science"
+  },
+  "manufacturing engineering": {
+    "canon": "Manufacturing Engineering",
+    "group": "Robot",
+    "parent": "Industrial Automation",
+    "label_ko": "제조공학"
+  },
+  "masonry": {
+    "canon": "Masonry",
+    "group": "Material",
+    "parent": "Concrete",
+    "label_ko": "벽돌"
+  },
+  "material properties": {
+    "canon": "Material Properties",
+    "group": "Material",
+    "parent": "None",
+    "label_ko": "재료특성"
+  },
+  "materials science": {
+    "canon": "Materials Science",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "재료공학"
+  },
+  "mathematical optimization": {
+    "canon": "Mathematical Optimization",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "수학적최적화"
+  },
+  "mechanical engineering": {
+    "canon": "Mechanical Engineering",
+    "group": "Mgmt",
+    "parent": "Engineering Discipline",
+    "label_ko": "Mechanical Engineering"
+  },
+  "mechanics": {
+    "canon": "Mechanics",
+    "group": "Structural",
+    "parent": null,
+    "label_ko": "기계학"
+  },
+  "mechanism (biology)": {
+    "canon": "Mechanism (Biology)",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "메커니즘",
+    "mid_cat": "Structural Analysis"
+  },
+  "metakaolin": {
+    "canon": "Metakaolin",
+    "group": "Material",
+    "parent": "Mineral Additive",
+    "label_ko": "메타카오린"
+  },
+  "metallurgy": {
+    "canon": "Metallurgy",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "금속학"
+  },
+  "meteorology": {
+    "canon": "Meteorology",
+    "group": "Geo",
+    "parent": "Atmospheric Science",
+    "label_ko": "기상학"
+  },
+  "microstructure": {
+    "canon": "Microstructure",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "Microstructure"
+  },
+  "modular design": {
+    "canon": "Modular Design",
+    "group": "BIM",
+    "parent": "Digital Documentation",
+    "label_ko": "모듈형 설계"
+  },
+  "modulus": {
+    "canon": "Modulus",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "모듈러"
+  },
+  "moisture": {
+    "canon": "Moisture",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "습도"
+  },
+  "mortar": {
+    "canon": "Mortar",
+    "group": "Material",
+    "parent": "Concrete",
+    "label_ko": "벽돌"
+  },
+  "natural rubber": {
+    "canon": "Natural Rubber",
+    "group": "Material",
+    "parent": "Elastic Material",
+    "label_ko": "자연 러브러스"
+  },
+  "noise (video)": {
+    "canon": "Noise (Video)",
+    "group": "Vision",
+    "parent": null,
+    "label_ko": "영상 노이즈"
+  },
+  "nonlinear system": {
+    "canon": "Nonlinear System",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "비선형 시스템"
+  },
+  "operations management": {
+    "canon": "Operations Management",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "운영관리"
+  },
+  "operations research": {
+    "canon": "Operations Research",
+    "group": "Mgmt",
+    "parent": null,
+    "label_ko": "운영연구"
+  },
+  "parametric statistics": {
+    "canon": "Parametric Statistics",
+    "group": "AI",
+    "parent": "Statistical Learning",
+    "label_ko": "Parametric Statistics"
+  },
+  "particle (ecology)": {
+    "canon": "Particle (Ecology)",
+    "group": "Material",
+    "parent": "None",
+    "label_ko": "생태학에서의 파티클"
+  },
+  "particle size": {
+    "canon": "Particle Size",
+    "group": "Material",
+    "parent": "Characterization",
+    "label_ko": "Particle Size"
+  },
+  "perception": {
+    "canon": "Perception",
+    "group": "Vision",
+    "parent": "Computer Vision",
+    "label_ko": "인식"
+  },
+  "perspective (graphical)": {
+    "canon": "Graphical Perspective",
+    "group": "Vision",
+    "parent": "Computer Vision",
+    "label_ko": "그래픽 시점"
+  },
+  "phase (matter)": {
+    "canon": "Phase (Matter)",
+    "group": "Eco",
+    "parent": "Sustainability",
+    "label_ko": "재료의 단계"
+  },
+  "pile": {
+    "canon": "Pile",
+    "group": "Geo",
+    "parent": "Foundation Element",
+    "label_ko": "파일"
+  },
+  "point (geometry)": {
+    "canon": "Point (Geometry)",
+    "group": "Vision",
+    "parent": "Computer Vision",
+    "label_ko": "지점( geometric )"
+  },
+  "point cloud": {
+    "canon": "Point Cloud",
+    "group": "Sensing",
+    "parent": "LiDAR",
+    "label_ko": "포인트클라우드"
+  },
+  "polymer": {
+    "canon": "Polymer",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "흡착제"
+  },
+  "porosity": {
+    "canon": "Porosity",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "Porosity"
+  },
+  "portland cement": {
+    "canon": "Portland Cement",
+    "group": "Material",
+    "parent": "Concrete",
+    "label_ko": "Portland Cement"
+  },
+  "pozzolan": {
+    "canon": "Pozzolan",
+    "group": "Material",
+    "parent": "Cementitious Materials",
+    "label_ko": "포츄라넌"
+  },
+  "precast concrete": {
+    "canon": "Precast Concrete",
+    "group": "Material",
+    "parent": "Concrete",
+    "label_ko": "전형제 철거"
+  },
+  "predictive modelling": {
+    "canon": "Predictive Modelling",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "예측 모델링"
+  },
+  "probabilistic logic": {
+    "canon": "Probabilistic Logic",
+    "group": "AI",
+    "parent": "Logic",
+    "label_ko": "확률적 로직"
+  },
+  "process (computing)": {
+    "canon": "Process (Computing)",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "계산 프로세스"
+  },
+  "process management": {
+    "canon": "Process Management",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "프로세스 관리"
+  },
+  "production (economics)": {
+    "canon": "Production Economics",
+    "group": "Eco",
+    "parent": "Microeconomics",
+    "label_ko": "Production Economics"
+  },
+  "psychology": {
+    "canon": "Psychology",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "Psychology"
+  },
+  "quality (philosophy)": {
+    "canon": "Quality (Philosophy)",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "Quality (Philosophy)"
+  },
+  "range (aeronautics)": {
+    "canon": "Range (Aeronautics)",
+    "group": "Geo",
+    "parent": "Air Traffic Control",
+    "label_ko": "항공 비행거리"
+  },
+  "raw material": {
+    "canon": "Raw Material",
+    "group": "Material",
+    "parent": "Primary Materials",
+    "label_ko": "원재료"
+  },
+  "real-time computing": {
+    "canon": "Real-Time Computing",
+    "group": "AI",
+    "parent": "Computation",
+    "label_ko": "실시간 계산"
+  },
+  "rebar": {
+    "canon": "Rebar",
+    "group": "Material",
+    "parent": "Steel Product",
+    "label_ko": "레바"
+  },
+  "reduction (mathematics)": {
+    "canon": "Reduction (Mathematics)",
+    "group": "AI",
+    "parent": "Deep Learning",
+    "label_ko": "수학적 축소"
+  },
+  "reinforced concrete": {
+    "canon": "RC",
+    "group": "Material",
+    "parent": "Concrete",
+    "label_ko": "RC"
+  },
+  "reinforcement": {
+    "canon": "Reinforcement",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "강화재"
+  },
+  "reinforcement learning": {
+    "canon": "Reinforcement Learning",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "강화학습"
+  },
+  "reliability (semiconductor)": {
+    "canon": "Semiconductor Reliability",
+    "group": "Eco",
+    "parent": "Reliability Engineering",
+    "label_ko": "세미컴포넌트 신뢰성"
+  },
+  "reliability engineering": {
+    "canon": "Reliability Engineering",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "신뢰성 공학"
+  },
+  "remote sensing": {
+    "canon": "Remote Sensing",
+    "group": "Vision",
+    "parent": "Aerial Imagery",
+    "label_ko": "Remote Sensing"
+  },
+  "representation (politics)": {
+    "canon": "Political Representation",
+    "group": "Mgmt",
+    "parent": "Governance",
+    "label_ko": "정치적 대변"
+  },
+  "residual": {
+    "canon": "Residual",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "차이"
+  },
+  "residual strength": {
+    "canon": "Residual Strength",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "남아있는 강도"
+  },
+  "resilience (materials science)": {
+    "canon": "Resilience (Materials Science)",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "강성"
+  },
+  "resource (disambiguation)": {
+    "canon": "Resource (Disambiguation)",
+    "group": "Material",
+    "parent": "None",
+    "label_ko": "자원(분류)"
+  },
+  "rheology": {
+    "canon": "Rheology",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "빠른"
+  },
+  "risk analysis (engineering)": {
+    "canon": "Risk Analysis (Engineering)",
+    "group": "Mgmt",
+    "parent": "Risk",
+    "label_ko": "Risk Analysis (Engineering)"
+  },
+  "robot": {
+    "canon": "Robotics",
+    "group": "Robot",
+    "mid_cat": "",
+    "parent": null,
+    "label_ko": "로봇"
+  },
+  "robustness (evolution)": {
+    "canon": "Robustness (Evolution)",
+    "group": "AI",
+    "parent": "Machine Learning",
+    "label_ko": "강건성",
+    "mid_cat": "Machine Learning"
+  },
+  "scale (ratio)": {
+    "canon": "Scale (Ratio)",
+    "group": "Mgmt",
+    "parent": "Scheduling",
+    "label_ko": "규모(비율)"
+  },
+  "scanning electron microscope": {
+    "canon": "Scanning Electron Microscope",
+    "group": "Sensing",
+    "parent": "Microscope",
+    "label_ko": "전자탐침미кро스코프"
+  },
+  "scheduling (production processes)": {
+    "canon": "Production Scheduling",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "생산 계획"
+  },
+  "segmentation": {
+    "canon": "Segmentation",
+    "group": "Vision",
+    "parent": "Image Processing",
+    "label_ko": "Segmentation"
+  },
+  "seismic analysis": {
+    "canon": "Seismic Analysis",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "지진분석"
+  },
+  "seismic loading": {
+    "canon": "Seismic Loading",
+    "group": "Structural",
+    "parent": "Load Analysis",
+    "label_ko": "지진 로드"
+  },
+  "sensitivity (control systems)": {
+    "canon": "Sensitivity Analysis",
+    "group": "AI",
+    "parent": "Optimization",
+    "label_ko": "민감도 분석"
+  },
+  "sensor fusion": {
+    "canon": "Sensor Fusion",
+    "group": "Sensing",
+    "parent": "IoT",
+    "label_ko": "센서 融合"
+  },
+  "service life": {
+    "canon": "Service Life",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "서비스 생명 주기"
+  },
+  "settlement (finance)": {
+    "canon": "Financial Settlement",
+    "group": "Mgmt",
+    "parent": "Finance",
+    "label_ko": "Financial Settlement"
+  },
+  "shear (geology)": {
+    "canon": "Shear (Geology)",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "전단",
+    "mid_cat": "Structural Analysis"
+  },
+  "shear strength (soil)": {
+    "canon": "Shear Strength (Soil)",
+    "group": "Geo",
+    "parent": "Geotechnical",
+    "label_ko": "압도력(토양)"
+  },
+  "shear wall": {
+    "canon": "Shear Wall",
+    "group": "Structural",
+    "parent": "Load-Bearing Wall",
+    "label_ko": "Shear Wall"
+  },
+  "shrinkage": {
+    "canon": "Shrinkage",
+    "group": "Material",
+    "parent": "Concrete Properties",
+    "label_ko": "축소"
+  },
+  "silica fume": {
+    "canon": "Silica Fume",
+    "group": "Material",
+    "parent": "Cementitious Material",
+    "label_ko": "Silica Fume"
+  },
+  "simulation": {
+    "canon": "Simulation",
+    "group": "Structural",
+    "parent": "Analysis",
+    "label_ko": "시뮬레이션"
+  },
+  "slab": {
+    "canon": "Slab",
+    "group": "Structural",
+    "parent": "None",
+    "label_ko": "벽판"
+  },
+  "slag (welding)": {
+    "canon": "Slag (Welding)",
+    "group": "Material",
+    "parent": "Welding Materials",
+    "label_ko": "범용철가(볼트)"
+  },
+  "software deployment": {
+    "canon": "Software Deployment",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "소프트웨어 배포"
+  },
+  "software engineering": {
+    "canon": "Software Engineering",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "소프트웨어공학"
+  },
+  "stability (learning theory)": {
+    "canon": "Stability (Learning Theory)",
+    "group": "Structural",
+    "parent": "Fracture",
+    "label_ko": "학습이론의 안정성"
+  },
+  "statistics": {
+    "canon": "Statistics",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "통계학"
+  },
+  "stiffness": {
+    "canon": "Stiffness",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "Stiffness"
+  },
+  "stress (linguistics)": {
+    "canon": "Stress (Linguistics)",
+    "group": "AI",
+    "parent": "NLP",
+    "label_ko": "텍스트분석",
+    "mid_cat": "NLP"
+  },
+  "structural engineering": {
+    "canon": "Structural Engineering",
+    "group": "Structural",
+    "parent": null,
+    "label_ko": "구조공학"
+  },
+  "structural equation modeling": {
+    "canon": "Structural Equation Modeling",
+    "group": "AI",
+    "parent": "Statistical Analysis",
+    "label_ko": "Structural Equation Modeling"
+  },
+  "structural health monitoring": {
+    "canon": "SHM",
+    "group": "Sensing",
+    "parent": "Structural",
+    "label_ko": "건조상태감시"
+  },
+  "structural system": {
+    "canon": "Structural System",
+    "group": "Structural",
+    "parent": null,
+    "label_ko": "구조적 시스템"
+  },
+  "sustainability": {
+    "canon": "Sustainability",
+    "group": "Eco",
+    "parent": "Green Building",
+    "label_ko": "Sustainability"
+  },
+  "sustainable development": {
+    "canon": "Sustainable Development",
+    "group": "Eco",
+    "parent": "Sustainability",
+    "label_ko": "지속가능발전"
+  },
+  "systems engineering": {
+    "canon": "Systems Engineering",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "Systems Engineering"
+  },
+  "task (project management)": {
+    "canon": "Task",
+    "group": "Mgmt",
+    "parent": "Project Management",
+    "label_ko": "작업"
+  },
+  "theoretical computer science": {
+    "canon": "Theoretical Computer Science",
+    "group": "AI",
+    "parent": "Computer Science",
+    "label_ko": "이론적 컴퓨터 과학"
+  },
+  "thermal": {
+    "canon": "Thermal",
+    "group": "Material",
+    "parent": "Material Properties/Testing",
+    "label_ko": "열성질"
+  },
+  "thermal comfort": {
+    "canon": "Thermal Comfort",
+    "group": "Eco",
+    "parent": "Building Energy",
+    "label_ko": "온난악감리"
+  },
+  "thermal conductivity": {
+    "canon": "Thermal Conductivity",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "열전도"
+  },
+  "thermal insulation": {
+    "canon": "Thermal Insulation",
+    "group": "Material",
+    "parent": "None",
+    "label_ko": "열압방지재"
+  },
+  "toughness": {
+    "canon": "Toughness",
+    "group": "Material",
+    "parent": null,
+    "label_ko": "강력함"
+  },
+  "transport engineering": {
+    "canon": "Transport Engineering",
+    "group": "Mgmt",
+    "parent": "Infrastructure Management",
+    "label_ko": "교통공학"
+  },
+  "ultimate tensile strength": {
+    "canon": "UTS",
+    "group": "Material",
+    "parent": "Mechanical Property",
+    "label_ko": "최대탐력"
+  },
+  "urban planning": {
+    "canon": "Urban Planning",
+    "group": "Geo",
+    "parent": "City Planning",
+    "label_ko": "Urban Planning"
+  },
+  "vibration": {
+    "canon": "Vibration",
+    "group": "Structural",
+    "parent": "Structural Analysis",
+    "label_ko": "흔들림"
+  },
+  "visualization": {
+    "canon": "Visualization",
+    "group": "Vision",
+    "parent": "Computer Graphics",
+    "label_ko": "시각화"
+  },
+  "waste management": {
+    "canon": "Waste Management",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "Waste Management"
+  },
+  "work (physics)": {
+    "canon": "Work (Physics)",
+    "group": "Structural",
+    "parent": "Mechanics",
+    "label_ko": "역학적 일",
+    "mid_cat": "Structural Analysis"
+  },
+  "workflow": {
+    "canon": "Workflow",
+    "group": "Mgmt",
+    "parent": "Construction Management",
+    "label_ko": "워크플로우"
+  },
+  "knowledge mgmt": {
+    "canon": "Knowledge Mgmt",
+    "group": "Mgmt",
+    "mid_cat": "Construction Management",
+    "parent": "Construction Management",
+    "label_ko": "지식관리"
+  },
+  "semiconductor reliability": {
+    "canon": "Semiconductor Reliability",
+    "group": "Material",
+    "mid_cat": "Reliability Engineering",
+    "parent": "Reliability Engineering",
+    "label_ko": "반도체 신뢰도"
+  },
+  "human-computer interaction": {
+    "canon": "Human-Computer Interaction",
+    "group": "BIM",
+    "mid_cat": "Digital Documentation",
+    "parent": "BIM",
+    "label_ko": "인간컴퓨터상호작용"
+  },
+  "hci": {
+    "canon": "Hci",
+    "group": "BIM",
+    "mid_cat": "Digital Documentation",
+    "parent": "BIM",
+    "label_ko": "HCI"
+  },
+  "robotics": {
+    "canon": "Robotics",
+    "group": "Robot",
+    "mid_cat": "",
+    "parent": null,
+    "label_ko": "로봇공학"
+  },
+  "autonomous": {
+    "canon": "Autonomous",
+    "group": "Robot",
+    "mid_cat": "Robotics",
+    "parent": "Robot",
+    "label_ko": "자율"
+  },
+  "drone": {
+    "canon": "Drone/UAV",
+    "group": "Robot",
+    "mid_cat": "",
+    "parent": "Robotics",
+    "label_ko": "드론"
+  },
+  "uav": {
+    "canon": "Drone/UAV",
+    "group": "Robot",
+    "mid_cat": "",
+    "parent": "Robotics",
+    "label_ko": "무인기"
+  },
+  "construction automation": {
+    "canon": "Construction Automation",
+    "group": "Robot",
+    "mid_cat": "",
+    "parent": "Robotics",
+    "label_ko": "건설자동화"
+  },
+  "autonomous robot": {
+    "canon": "Robotics",
+    "group": "Robot",
+    "mid_cat": "",
+    "parent": null,
+    "label_ko": "자율로봇"
+  }
+}

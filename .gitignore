@@ -1,0 +1,19 @@
+# 대용량 캐시 파일
+data/_raw.json
+data/_org_coords.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# 환경 설정
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db

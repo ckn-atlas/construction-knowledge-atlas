@@ -1,0 +1,116 @@
+[
+  {
+    "year": 2024,
+    "top_keywords": [
+      {
+        "id": "Computer Science",
+        "n": 1762
+      },
+      {
+        "id": "AI (general)",
+        "n": 953
+      },
+      {
+        "id": "Structural Engineering",
+        "n": 403
+      },
+      {
+        "id": "Geology",
+        "n": 391
+      }
+    ],
+    "top_pairs": [
+      {
+        "a": "AI (general)",
+        "b": "Computer Science",
+        "co": 953
+      },
+      {
+        "a": "Computer Science",
+        "b": "Graph",
+        "co": 273
+      },
+      {
+        "a": "Computer Science",
+        "b": "Machine Learning",
+        "co": 266
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "top_keywords": [
+      {
+        "id": "Computer Science",
+        "n": 2638
+      },
+      {
+        "id": "Materials Science",
+        "n": 1826
+      },
+      {
+        "id": "Composite",
+        "n": 1346
+      },
+      {
+        "id": "AI (general)",
+        "n": 1331
+      }
+    ],
+    "top_pairs": [
+      {
+        "a": "Composite",
+        "b": "Materials Science",
+        "co": 1346
+      },
+      {
+        "a": "AI (general)",
+        "b": "Computer Science",
+        "co": 1330
+      },
+      {
+        "a": "Materials Science",
+        "b": "Structural Engineering",
+        "co": 612
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "top_keywords": [
+      {
+        "id": "Materials Science",
+        "n": 3203
+      },
+      {
+        "id": "Composite",
+        "n": 2482
+      },
+      {
+        "id": "Computer Science",
+        "n": 1982
+      },
+      {
+        "id": "Structural Engineering",
+        "n": 1447
+      }
+    ],
+    "top_pairs": [
+      {
+        "a": "Composite",
+        "b": "Materials Science",
+        "co": 2482
+      },
+      {
+        "a": "Cementitious",
+        "b": "Materials Science",
+        "co": 1037
+      },
+      {
+        "a": "Compressive Strength",
+        "b": "Materials Science",
+        "co": 965
+      }
+    ]
+  }
+]

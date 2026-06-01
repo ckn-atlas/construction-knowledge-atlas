@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Construction and Building Materials",
+    "papers": 2400,
+    "cites": 1636
+  },
+  {
+    "name": "Journal of Building Engineering",
+    "papers": 2400,
+    "cites": 1226
+  },
+  {
+    "name": "Buildings",
+    "papers": 2400,
+    "cites": 532
+  },
+  {
+    "name": "Advanced Engineering Informatics",
+    "papers": 2222,
+    "cites": 19769
+  },
+  {
+    "name": "Automation in Construction",
+    "papers": 1560,
+    "cites": 16821
+  },
+  {
+    "name": "KSCE Journal of Civil Engineering",
+    "papers": 898,
+    "cites": 2755
+  },
+  {
+    "name": "Frontiers in Built Environment",
+    "papers": 806,
+    "cites": 2150
+  },
+  {
+    "name": "Journal of Construction Engineering and Management",
+    "papers": 689,
+    "cites": 2730
+  },
+  {
+    "name": "Journal of Information Technology in Construction",
+    "papers": 165,
+    "cites": 467
+  }
+]
