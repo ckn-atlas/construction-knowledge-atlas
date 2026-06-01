@@ -2312,34 +2312,52 @@ function renderImpactByTheme(){
     return null;
   }
 
+  // 테마별 상위 5개 수집
   const themeTop = {};
   PAPERS.forEach(p => {
     const g = paperTheme(p);
     if(!g) return;
-    if(!themeTop[g] || p.score > themeTop[g].score) themeTop[g] = p;
+    if(!themeTop[g]) themeTop[g] = [];
+    themeTop[g].push(p);
+  });
+  Object.keys(themeTop).forEach(g => {
+    themeTop[g].sort((a,b)=>b.score-a.score);
+    themeTop[g] = themeTop[g].slice(0,5);
   });
 
-  const themeOrder = Object.keys(GROUP_KO).filter(g => themeTop[g]);
+  const themeOrder = Object.keys(GROUP_KO).filter(g => themeTop[g]?.length);
   if(!themeOrder.length){
     document.getElementById("impactList").innerHTML =
       "<div style='padding:40px;color:var(--muted);text-align:center'>No theme data available.</div>";
     return;
   }
 
+  const paperCard = (p, rank, color) => `
+    <div style="display:flex;gap:10px;padding:10px 0;${rank>1?'border-top:1px solid var(--line)':''}">
+      <div style="font-size:18px;font-weight:800;color:${rank===1?color:'var(--muted)'};min-width:24px;text-align:center">${rank}</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:12px;font-weight:600;line-height:1.4;margin-bottom:4px;color:var(--txt)">${p.t}</div>
+        <div style="font-size:11px;color:var(--muted);margin-bottom:4px">${p.j} · ${p.y}</div>
+        <div style="margin-bottom:4px">${(p.tech||[]).slice(0,3).map(t=>`<span class="pill" style="font-size:10px;padding:2px 6px">${t}</span>`).join("")}</div>
+        <div style="font-size:11px;color:var(--muted)">
+          Score <b style="color:${color}">${p.score}</b> · Citations <b>${p.cit||'—'}</b> · FWCI <b>${p.fwci?(+p.fwci).toFixed(1):'—'}</b>
+          ${p.oa?' · <b style="color:var(--accent2)">OA</b>':''}
+          ${p.doi?` · <a href="${p.doi}" target="_blank" style="color:var(--accent)">Full Paper →</a>`:''}
+        </div>
+      </div>
+    </div>`;
+
   document.getElementById("impactList").innerHTML =
-    "<div style='display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;padding:16px 24px'>" +
+    "<div style='display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:16px;padding:16px 24px'>" +
     themeOrder.map(g => {
-      const p = themeTop[g];
+      const papers = themeTop[g];
       const color = groupColor(g);
       const label = GROUP_KO[g] || g;
-      return `<div class="paper" style="border-left:4px solid ${color};position:relative">
-        <div style="font-size:10px;font-weight:700;color:${color};letter-spacing:.5px;margin-bottom:6px;text-transform:uppercase">${label}</div>
-        <div class="score" style="background:${color}22;color:${color};font-size:18px">${p.score}</div>
-        <h4 style="font-size:13px;line-height:1.4;margin-bottom:6px">${p.t}</h4>
-        <div class="meta">${p.j} · ${p.y}</div>
-        <div style="margin:6px 0">${(p.tech||[]).slice(0,3).map(t=>`<span class="pill">${t}</span>`).join("")}</div>
-        <div class="metric-bd">Citations <b>${p.cit!=null?p.cit:"—"}</b> · FWCI <b>${p.fwci!=null?(+p.fwci).toFixed(2):"—"}</b> · ${p.oa?"<b style='color:var(--accent2)'>OA</b>":"Subscription"}</div>
-        ${p.doi?`<a href="${p.doi}" target="_blank" style="font-size:11px;color:var(--accent);margin-top:6px;display:inline-block">→ Full Paper</a>`:""}
+      return `<div style="background:var(--panel2);border:1px solid var(--line);border-top:3px solid ${color};border-radius:10px;padding:14px">
+        <div style="font-size:11px;font-weight:700;color:${color};letter-spacing:.5px;text-transform:uppercase;margin-bottom:10px">
+          ${label} <span style="font-size:10px;color:var(--muted);font-weight:400">— Top ${papers.length}</span>
+        </div>
+        ${papers.map((p,i)=>paperCard(p,i+1,color)).join('')}
       </div>`;
     }).join("") + "</div>";
 }
