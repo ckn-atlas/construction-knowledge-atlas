@@ -258,10 +258,10 @@
   </div>
 
   <nav>
-    <button class="active" data-view="graph">Tech Ontology</button>
+    <button class="active" data-view="impact">Impact Papers</button>
+    <button data-view="graph">Tech Ontology</button>
     <button data-view="country">Country Analysis</button>
     <button data-view="network">Institution Network</button>
-    <button data-view="impact">Impact Papers</button>
     <button data-view="evo">Tech Evolution</button>
     <button data-view="journals">Journals</button>
   </nav>
@@ -270,7 +270,7 @@
 <div class="layout">
   <main>
     <!-- ONTOLOGY GRAPH -->
-    <section class="view active" id="view-graph">
+    <section class="view" id="view-graph">
       <div class="hint" id="graphHint">Radial hierarchy tree · Color=theme · Size=papers · Slider=monthly · Click node for details</div>
       <div class="mode-toggle">
         <button class="mode-btn active" id="btn-tree"    onclick="setGraphMode('tree')">Hierarchy Tree</button>
@@ -376,13 +376,13 @@
     </section>
 
     <!-- IMPACT -->
-    <section class="view" id="view-impact">
+    <section class="view active" id="view-impact">
       <div class="panel-title">Impact Paper Analysis</div>
       <div class="panel-sub">Impact Score = Citations + FWCI + Recency + Open Access</div>
       <div style="padding:0 24px 12px;display:flex;gap:8px">
-        <button class="impact-filter active" data-period="3y">Last 3 Years</button>
+        <button class="impact-filter active" data-period="theme">📌 By Theme</button>
+        <button class="impact-filter" data-period="3y">Last 3 Years</button>
         <button class="impact-filter" data-period="3m">Last 3 Months</button>
-        <button class="impact-filter" data-period="theme">📌 By Theme</button>
       </div>
       <div class="net-wrap" id="impactList" style="overflow-y:auto;height:calc(100% - 130px)"></div>
     </section>
@@ -2265,7 +2265,7 @@ function _updateNetMapSel(nodeG, arcG, links, tip){
 }
 
 /* ===================== Impact Papers (FWCI/OA) ===================== */
-let _impactPeriod = "3y";
+let _impactPeriod = "theme";
 
 function _paperDate(p){ return p.date || String(p.y); }
 
