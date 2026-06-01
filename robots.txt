@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data/_raw.json
+Disallow: /data/_org_coords.json
+
+Sitemap: https://construction-knowledge-atlas.pages.dev/sitemap.xml
