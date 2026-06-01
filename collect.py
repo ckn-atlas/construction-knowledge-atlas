@@ -339,6 +339,8 @@ def build_outputs(all_works):
     country_orgs = defaultdict(Counter)
     country_tech = defaultdict(Counter)
     org_pairs = Counter()              # 기관 공동저자
+    org_pairs_year = defaultdict(Counter)  # year -> pairs
+    org_pairs_half = defaultdict(Counter)  # "2024H1"/"2024H2" -> pairs
     org_weight = Counter()
     org_country = defaultdict(Counter)  # 기관 -> 국가코드 -> 빈도
     journal_papers = Counter()         # 저널별 논문수
@@ -441,6 +443,11 @@ def build_outputs(all_works):
         for i in range(len(orgs_here)):
             for j in range(i + 1, len(orgs_here)):
                 org_pairs[tuple(sorted([orgs_here[i], orgs_here[j]]))] += 1
+                if year:
+                    pair_key = tuple(sorted([orgs_here[i], orgs_here[j]]))
+                    org_pairs_year[year][pair_key] += 1
+                    half = f"{year}H1" if (pub_date[5:7] <= '06') else f"{year}H2"
+                    org_pairs_half[half][pair_key] += 1
 
         # --- Impact 원자료 ---
         loc = w.get("primary_location") or {}
@@ -651,12 +658,25 @@ def build_outputs(all_works):
     except Exception:
         pass
 
+    # 기간별 links 생성 함수
+    def make_period_links(pairs_counter):
+        return [[a, b, co] for (a, b), co in pairs_counter.most_common()
+                if a in net_set and b in net_set and co >= 1][:200]
+
+    # 연도별, 반기별 links
+    links_by_year = {str(yr): make_period_links(org_pairs_year[yr])
+                     for yr in sorted(org_pairs_year.keys())}
+    links_by_half = {h: make_period_links(org_pairs_half[h])
+                     for h in sorted(org_pairs_half.keys())}
+
     network = {
         "nodes": net_nodes,
         "links": net_links[:200],
         "weight": {o: org_weight[o] for o in net_nodes},
         "country": {o: dom_country(o) for o in net_nodes},
         "coords": org_coords,
+        "links_by_year": links_by_year,
+        "links_by_half": links_by_half,
     }
 
     # ----- papers.json (Impact = 인용 + FWCI + 최근성 + OA) -----

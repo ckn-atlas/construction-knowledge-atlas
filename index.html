@@ -161,6 +161,8 @@
   .impact-filter.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
   .evo-filter{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:4px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s}
   .evo-filter.active{background:#3d4f64;color:#fff;border-color:#4a6080}
+  .net-period-btn{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:16px;padding:3px 12px;font-size:11px;font-weight:600;cursor:pointer;transition:all .15s}
+  .net-period-btn.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
   .evo-view-btn{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:5px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s}
   .evo-view-btn.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
   .metric-bd b{color:var(--txt)}
@@ -347,6 +349,21 @@
           <button class="mode-btn active" id="btn-net-force" onclick="switchNetView('force')">🔗 Force 2D</button>
           <button class="mode-btn" id="btn-net-3d"   onclick="switchNetView('3d')">🔮 Force 3D</button>
           <button class="mode-btn" id="btn-net-map"  onclick="switchNetView('map')">🗺 Map</button>
+        </div>
+      </div>
+      <!-- 기간 선택 UI -->
+      <div style="display:flex;align-items:center;gap:10px;padding:4px 24px 8px;flex-wrap:wrap">
+        <span style="font-size:12px;color:var(--muted)">Period:</span>
+        <div style="display:flex;gap:4px">
+          <button class="net-period-btn active" data-period="all" onclick="setNetPeriod('all')">All Time</button>
+          <button class="net-period-btn" data-period="3y" onclick="setNetPeriod('3y')">3-Year</button>
+          <button class="net-period-btn" data-period="1y" onclick="setNetPeriod('1y')">1-Year</button>
+          <button class="net-period-btn" data-period="6m" onclick="setNetPeriod('6m')">6-Month</button>
+        </div>
+        <div id="netPeriodSliderWrap" style="display:none;align-items:center;gap:8px">
+          <button onclick="netPeriodStep(-1)" style="background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:4px;padding:2px 8px;cursor:pointer">◀</button>
+          <span id="netPeriodLabel" style="font-size:12px;font-weight:700;color:var(--accent);min-width:80px;text-align:center"></span>
+          <button onclick="netPeriodStep(1)" style="background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:4px;padding:2px 8px;cursor:pointer">▶</button>
         </div>
       </div>
       <div class="panel-sub" id="netSub">Node=institution(color=country) · Link=co-papers. Drag & zoom to explore.</div>
@@ -1676,7 +1693,8 @@ function buildNetwork(){
   const filteredSet = new Set(filteredIds);
 
   const nodes = filteredIds.map(id=>({id}));
-  const links = ORG_LINKS
+  const rawLinks = getNetLinks();
+  const links = rawLinks
     .filter(l => filteredSet.has(l[0]) && filteredSet.has(l[1]))
     .map(l=>({source:l[0],target:l[1],co:l[2]}));
   const deg = {};
@@ -2967,6 +2985,7 @@ async function loadData(){
   const net = await tryFetch("network.json");
   if(net && net.nodes && net.nodes.length){
     ORG_NODES = net.nodes; ORG_LINKS = net.links;
+    ORG_NET_PERIOD = net; // 기간별 링크 데이터 보관
     ORG_COUNTRY = net.country || {}; ORG_WEIGHT = net.weight || {};
     // network.json의 좌표를 ORG_COORDS에 병합 (하드코딩 값보다 Live Data 우선)
     Object.assign(ORG_COORDS, net.coords || {});
