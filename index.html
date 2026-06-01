@@ -235,6 +235,7 @@
   <a href="/" style="display:flex;align-items:center;text-decoration:none;flex-shrink:0">
     <img src="LOGO.png" alt="Construction Knowledge Atlas" style="height:44px;width:auto;object-fit:contain">
   </a>
+  <span class="sub" style="margin-left:10px;white-space:nowrap"></span>
 
   <!-- 헤더 중앙 광고 (728×90 Leaderboard) -->
   <div id="adHeader" style="flex:1;display:flex;justify-content:center;align-items:center;padding:0 16px;min-width:0">
@@ -3174,8 +3175,8 @@ async function loadData(){
   if(journals && journals.length){ JOURNALS = journals; }
   const meta = await tryFetch("meta.json");
   if(meta){
-    document.querySelector("header .sub").textContent =
-      `Live Data · ${meta.total_papers.toLocaleString()} papers · ${meta.generated_at} collected`;
+    const subEl = document.querySelector("header .sub");
+    if(subEl) subEl.textContent = `Live Data · ${meta.total_papers.toLocaleString()} papers · ${meta.generated_at} collected`;
   }
 }
 
