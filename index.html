@@ -1769,6 +1769,7 @@ function netPeriodStep(dir){
   const periods = _netPeriodList();
   _netPeriodIdx = Math.max(0, Math.min(periods.length-1, _netPeriodIdx+dir));
   document.getElementById('netPeriodLabel').textContent = _netPeriodLabel(periods[_netPeriodIdx]);
+  _netZoomState = null; // 기간 변경 시 zoom 초기화
   if(_netView==='map') buildNetworkMap();
   else if(_netView==='3d') buildNetwork3D();
   else buildNetwork();
@@ -1810,6 +1811,8 @@ function buildNetwork(){
   const links = rawLinks
     .filter(l => filteredSet.has(l[0]) && filteredSet.has(l[1]))
     .map(l=>({source:l[0],target:l[1],co:l[2]}));
+  // 해당 기간 링크 있는 노드 집합
+  const activeInPeriod = new Set(links.flatMap(l=>[l.source, l.target]));
   const deg = {};
   links.forEach(l=>{deg[l[0]]=(deg[l[0]]||0)+l[2];deg[l[1]]=(deg[l[1]]||0)+l[2];});
   const rad = d=> 7 + Math.sqrt((ORG_WEIGHT[d.id]||deg[d.id]||4))*1.6;
@@ -1826,7 +1829,9 @@ function buildNetwork(){
       .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
       .on("end",(e,d)=>{if(!e.active)s.alphaTarget(0);d.fx=null;d.fy=null;}));
 
-  nd.append("circle").attr("r",rad).attr("fill",d=>ctryColor(ORG_COUNTRY[d.id]))
+  nd.append("circle").attr("r",rad)
+    .attr("fill",d=>ctryColor(ORG_COUNTRY[d.id]))
+    .attr("fill-opacity", d => _netPeriodType==='all' || activeInPeriod.has(d.id) ? 0.9 : 0.15)
     .style("vector-effect","non-scaling-stroke")
     .append("title").text(d=>`${d.id} (${CTRY_KO[ORG_COUNTRY[d.id]]||ORG_COUNTRY[d.id]||"?"}) · papers ${ORG_WEIGHT[d.id]||"?"}`);
   nd.append("text")
@@ -1875,6 +1880,21 @@ function buildNetwork(){
     .force("x", d3.forceX(w/2).strength(0.03))
     .force("y", d3.forceY(h/2).strength(0.03));
 
+  // 기간 레이블 표시
+  if(_netPeriodType !== 'all'){
+    const periods = _netPeriodList();
+    const periodTxt = _netPeriodLabel(periods[_netPeriodIdx]);
+    sv.append("text").attr("x", w/2).attr("y", 22)
+      .attr("text-anchor","middle").attr("font-size",13).attr("font-weight","700")
+      .attr("fill","var(--accent)").attr("opacity",0.8)
+      .text(periodTxt)
+      .style("pointer-events","none");
+    sv.append("text").attr("x", w/2).attr("y", 38)
+      .attr("text-anchor","middle").attr("font-size",10)
+      .attr("fill","var(--muted)")
+      .text(`${activeInPeriod.size} active institutions · ${links.length} collaborations`)
+      .style("pointer-events","none");
+  }
   s.stop();
   for(let i=0;i<300;i++) s.tick();
   tick();
