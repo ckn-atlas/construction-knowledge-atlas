@@ -2269,6 +2269,7 @@ function _filterPapers(period){
 }
 
 function renderImpact(period){
+  if(period === "theme"){ renderImpactByTheme(); return; }
   const list = _filterPapers(period);
   document.getElementById("impactList").innerHTML = list.length
     ? list.map(p=>`
