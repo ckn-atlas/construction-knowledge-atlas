@@ -3196,6 +3196,7 @@ window.addEventListener("resize",()=>{
 });
 /* ===================== Latest Research ===================== */
 let LATEST = null;
+let _latestRange = 'month'; // 'month' | 'week'
 
 async function loadLatest(){
   const grid = document.getElementById('latestGrid');
@@ -3213,6 +3214,7 @@ async function loadLatest(){
 }
 
 function setLatestRange(range){
+  _latestRange = range;
   document.querySelectorAll('.latest-range-btn').forEach(b=>b.classList.toggle('active', b.dataset.range===range));
   renderLatest();
 }
@@ -3231,7 +3233,11 @@ function renderLatest(){
     const d = new Date(LATEST.generated_at);
     meta.textContent = `Updated ${d.toLocaleDateString()} · ${LATEST.total} themes · from ${LATEST.date_from}`;
   }
-  const papers = LATEST.papers || [];
+  // 날짜 필터
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - (_latestRange === 'week' ? 7 : 30));
+  const cutStr = cutoff.toISOString().slice(0,10);
+  const papers = (LATEST.papers || []).filter(p => (p.date||'') >= cutStr);
   const grid = document.getElementById('latestGrid');
   if(!grid) return;
   if(!papers.length){ grid.innerHTML='<div style="padding:40px;text-align:center;color:var(--muted)">No papers found.</div>'; return; }
