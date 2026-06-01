@@ -382,7 +382,7 @@
       <div style="padding:0 24px 12px;display:flex;gap:8px">
         <button class="impact-filter active" data-period="3y">Last 3 Years</button>
         <button class="impact-filter" data-period="3m">Last 3 Months</button>
-        <button class="impact-filter" data-period="all">All</button>
+        <button class="impact-filter" data-period="theme">📌 By Theme</button>
       </div>
       <div class="net-wrap" id="impactList" style="overflow-y:auto;height:calc(100% - 130px)"></div>
     </section>
@@ -2212,6 +2212,50 @@ function renderImpact(period){
         <span class="vid" onclick="alert('🎬 [데모] 1-min Technology Video\\n\\n문제 → 기존 한계 → proposed technology → 실험결과 → application사례\\n\\n실제 버전에서는 papers에서 1-min Technology Video을 자동 생성합니다.')">▶ 1-min Technology Video 보기</span>
       </div>`).join("")
     : `<div style="padding:40px;color:var(--muted);text-align:center">No papers for this period</div>`;
+}
+
+function renderImpactByTheme(){
+  const kwGroup = {};
+  NODES.forEach(n => { kwGroup[n.id.toLowerCase()] = n.group; });
+
+  function paperTheme(p){
+    for(const t of (p.tech||[])){
+      const g = kwGroup[t.toLowerCase()];
+      if(g) return g;
+    }
+    return null;
+  }
+
+  const themeTop = {};
+  PAPERS.forEach(p => {
+    const g = paperTheme(p);
+    if(!g) return;
+    if(!themeTop[g] || p.score > themeTop[g].score) themeTop[g] = p;
+  });
+
+  const themeOrder = Object.keys(GROUP_KO).filter(g => themeTop[g]);
+  if(!themeOrder.length){
+    document.getElementById("impactList").innerHTML =
+      "<div style='padding:40px;color:var(--muted);text-align:center'>No theme data available.</div>";
+    return;
+  }
+
+  document.getElementById("impactList").innerHTML =
+    "<div style='display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;padding:16px 24px'>" +
+    themeOrder.map(g => {
+      const p = themeTop[g];
+      const color = groupColor(g);
+      const label = GROUP_KO[g] || g;
+      return `<div class="paper" style="border-left:4px solid ${color};position:relative">
+        <div style="font-size:10px;font-weight:700;color:${color};letter-spacing:.5px;margin-bottom:6px;text-transform:uppercase">${label}</div>
+        <div class="score" style="background:${color}22;color:${color};font-size:18px">${p.score}</div>
+        <h4 style="font-size:13px;line-height:1.4;margin-bottom:6px">${p.t}</h4>
+        <div class="meta">${p.j} · ${p.y}</div>
+        <div style="margin:6px 0">${(p.tech||[]).slice(0,3).map(t=>`<span class="pill">${t}</span>`).join("")}</div>
+        <div class="metric-bd">Citations <b>${p.cit!=null?p.cit:"—"}</b> · FWCI <b>${p.fwci!=null?(+p.fwci).toFixed(2):"—"}</b> · ${p.oa?"<b style='color:var(--accent2)'>OA</b>":"Subscription"}</div>
+        ${p.doi?`<a href="${p.doi}" target="_blank" style="font-size:11px;color:var(--accent);margin-top:6px;display:inline-block">→ Full Paper</a>`:""}
+      </div>`;
+    }).join("") + "</div>";
 }
 
 function fillImpact(){
