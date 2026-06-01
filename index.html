@@ -2295,7 +2295,7 @@ function renderImpact(period){
         <div class="meta">${p.j} · ${p.y}</div>
         <div>${(p.tech||[]).map(t=>`<span class="pill">${t}</span>`).join("")}</div>
         <div class="metric-bd">Impact = citations <b>${p.cit!=null?p.cit:'—'}</b> · FWCI <b>${p.fwci!=null?(+p.fwci).toFixed(2):'—'}</b> · ${p.oa?'<b style="color:var(--accent2)">OA</b>':'구독'} · 발행 <b>${p.y||'—'}</b></div>
-        <span class="vid" onclick="alert('🎬 [데모] 1-min Technology Video\\n\\n문제 → 기존 한계 → proposed technology → 실험결과 → application사례\\n\\n실제 버전에서는 papers에서 1-min Technology Video을 자동 생성합니다.')">▶ 1-min Technology Video 보기</span>
+        ${p.doi ? `<a href="${p.doi}" target="_blank" rel="noopener" class="vid" style="text-decoration:none">→ Full Paper</a>` : '<span style="font-size:11px;color:var(--muted)">No DOI</span>'}
       </div>`).join("")
     : `<div style="padding:40px;color:var(--muted);text-align:center">No papers for this period</div>`;
 }
