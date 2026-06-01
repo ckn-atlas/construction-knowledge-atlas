@@ -268,8 +268,8 @@
   </div>
 
   <nav>
-    <button class="active" data-view="impact">Impact Papers</button>
-    <button data-view="latest">🔬 Latest</button>
+    <button class="active" data-view="latest">🔬 Latest</button>
+    <button data-view="impact">Impact Papers</button>
     <button data-view="graph">Tech Ontology</button>
     <button data-view="country">Country Analysis</button>
     <button data-view="network">Institution Network</button>
@@ -387,7 +387,7 @@
     </section>
 
     <!-- IMPACT -->
-    <section class="view active" id="view-impact">
+    <section class="view" id="view-impact">
       <div class="panel-title">Impact Paper Analysis</div>
       <div class="panel-sub">Impact Score = Citations + FWCI + Recency + Open Access</div>
       <div style="padding:0 24px 12px;display:flex;gap:8px">
@@ -399,7 +399,7 @@
     </section>
 
     <!-- LATEST -->
-    <section class="view" id="view-latest" style="overflow-y:auto">
+    <section class="view active" id="view-latest" style="overflow-y:auto">
       <div class="panel-title">🔬 Latest Research Highlights</div>
       <div class="panel-sub" id="latestSub">Top-cited recent paper per theme · FWCI-ranked · Updated regularly</div>
       <div style="padding:0 24px 8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap">
@@ -3188,6 +3188,7 @@ async function loadData(){
   buildGraph();
   updateRankPanel();
   precomputeTreeCache();
+  loadLatest(); // Latest 탭 초기 로드
 })();
 window.addEventListener("resize",()=>{
   _treeCache.clear(); // 크기 변경 시 cluster 재계산 필요
