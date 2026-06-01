@@ -1820,12 +1820,12 @@ function buildNetwork3D(){
       return sprite;
     } : undefined)
     .linkColor(l => {
-      if(_3dSelCC.size===0) return "rgba(100,160,220,0.18)";
+      if(_3dSelCC.size===0) return "rgba(30,30,30,0.5)";
       const sc = typeof l.source==="object"?l.source.cc:ORG_COUNTRY[l.source];
       const tc = typeof l.target==="object"?l.target.cc:ORG_COUNTRY[l.target];
-      return (_3dSelCC.has(sc)||_3dSelCC.has(tc)) ? "rgba(100,200,255,0.55)" : "rgba(30,45,60,0.06)";
+      return (_3dSelCC.has(sc)||_3dSelCC.has(tc)) ? "rgba(0,0,0,0.8)" : "rgba(0,0,0,0.08)";
     })
-    .linkWidth(l => Math.sqrt(l.value)*0.35)
+    .linkWidth(l => Math.sqrt(l.value)*0.6)
     .linkOpacity(0.8)
     .onNodeClick(node => {
       const dist = 100;
