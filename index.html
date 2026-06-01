@@ -1746,14 +1746,30 @@ function netPeriodStep(dir){
   else buildNetwork();
 }
 
+let _netZoomState = null; // 줌 상태 보존
+
 function buildNetwork(){
   const svgEl = document.getElementById("netGraph");
   const box = svgEl.getBoundingClientRect();
   const w = box.width, h = box.height;
   const sv = d3.select(svgEl).attr("viewBox",[0,0,w,h]);
+
+  // 현재 줌 상태 저장
+  const prevZoom = svgEl.__zoom || _netZoomState;
+
   sv.selectAll("*").remove();
   const g = sv.append("g");
-  sv.call(d3.zoom().scaleExtent([0.4,6]).on("zoom",e=>g.attr("transform",e.transform)));
+
+  const zoom = d3.zoom().scaleExtent([0.4,6]).on("zoom",e=>{
+    g.attr("transform",e.transform);
+    _netZoomState = e.transform;
+  });
+  sv.call(zoom);
+
+  // 이전 줌 상태 복원
+  if(prevZoom && prevZoom.k !== 1){
+    sv.call(zoom.transform, prevZoom);
+  }
 
   // 나라 필터 application — 선택 없으면 All
   const filteredIds = _net2dSel.size > 0
