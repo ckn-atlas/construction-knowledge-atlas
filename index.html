@@ -3194,6 +3194,73 @@ window.addEventListener("resize",()=>{
   if(document.querySelector("#view-graph").classList.contains("active")) buildGraph();
   if(document.querySelector("#view-country").classList.contains("active")) buildMap();
 });
+/* ===================== Latest Research ===================== */
+let LATEST = null;
+
+async function loadLatest(){
+  const grid = document.getElementById('latestGrid');
+  if(!grid) return;
+  grid.innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">Loading...</div>';
+  try {
+    const resp = await fetch('data/latest.json?v=' + Date.now());
+    if(!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    LATEST = data;
+    renderLatest();
+  } catch(e) {
+    grid.innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">Failed to load: ' + e.message + '</div>';
+  }
+}
+
+function setLatestRange(range){
+  document.querySelectorAll('.latest-range-btn').forEach(b=>b.classList.toggle('active', b.dataset.range===range));
+  renderLatest();
+}
+
+async function refreshLatest(){
+  const btn = document.getElementById('latestRefreshBtn');
+  if(btn){ btn.textContent='↻ Loading...'; btn.disabled=true; }
+  await loadLatest();
+  if(btn){ btn.textContent='↻ Refresh'; btn.disabled=false; }
+}
+
+function renderLatest(){
+  if(!LATEST || !LATEST.papers) return;
+  const meta = document.getElementById('latestMeta');
+  if(meta){
+    const d = new Date(LATEST.generated_at);
+    meta.textContent = `Updated ${d.toLocaleDateString()} · ${LATEST.total} themes · from ${LATEST.date_from}`;
+  }
+  const papers = LATEST.papers || [];
+  const grid = document.getElementById('latestGrid');
+  if(!grid) return;
+  if(!papers.length){ grid.innerHTML='<div style="padding:40px;text-align:center;color:var(--muted)">No papers found.</div>'; return; }
+  const themeEmoji = {AI:'🤖',Material:'🧱',Structural:'🏗️',BIM:'📐',Robot:'🦾',Eco:'🌿',Mgmt:'👷',Geo:'⛏️',Vision:'📷',DT:'🔮',Sensing:'📡'};
+  grid.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px">' +
+    papers.map(p => {
+      const color = groupColor(p.group);
+      const img = p.image;
+      const abstract = p.abstract ? p.abstract.slice(0,500)+(p.abstract.length>500?'…':'') : '';
+      const imgHtml = img
+        ? `<img class="latest-card-img" src="${img.url}&w=600&q=80" alt="${img.alt||''}" loading="lazy" onerror="this.style.display='none'">
+           <div style="font-size:9px;color:var(--muted);padding:3px 10px;background:var(--panel)">Photo by <a href="${img.photographer_url}" target="_blank" style="color:var(--muted)">${img.photographer}</a> on <a href="https://unsplash.com" target="_blank" style="color:var(--muted)">Unsplash</a></div>`
+        : `<div style="height:80px;background:${color}22;display:flex;align-items:center;justify-content:center;font-size:32px">${themeEmoji[p.group]||'🔬'}</div>`;
+      return `<div class="latest-card" style="border-top:3px solid ${color}">
+        ${imgHtml}
+        <div class="latest-card-body">
+          <div class="latest-card-theme" style="color:${color}">${p.group_label}</div>
+          <div class="latest-card-title">${p.title}</div>
+          <div class="latest-card-meta">${p.journal||''} · ${p.date||''}</div>
+          <div class="latest-card-abstract">${abstract}</div>
+          <div class="latest-card-footer">
+            <span style="font-size:11px;color:var(--muted)">${p.fwci?`FWCI <b style="color:${color}">${(+p.fwci).toFixed(1)}</b> · `:''}Citations <b>${p.citations||0}</b>${p.oa?' · <b style="color:var(--accent2)">OA</b>':''}</span>
+            ${p.doi?`<a href="${p.doi}" target="_blank" rel="noopener" style="font-size:11px;color:var(--accent)">→ Full Paper</a>`:''}
+          </div>
+        </div>
+      </div>`;
+    }).join('') + '</div>';
+}
+
 /* ===================== 슬라이드인 광고 배너 ===================== */
 /* ── 좌측 고정 배너 ── */
 (function(){
