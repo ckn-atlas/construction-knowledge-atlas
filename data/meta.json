@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-01 18:55:35",
-  "total_papers": 13540,
+  "generated_at": "2026-06-02 01:20:52",
+  "total_papers": 31000,
   "journals": [
     "Automation in Construction",
     "Advanced Engineering Informatics",
@@ -12,5 +12,5 @@
     "J. of Information Technology in Construction",
     "J. of Construction Engineering and Mgmt"
   ],
-  "since": "2024-01-01"
+  "since": "2020-01-01"
 }

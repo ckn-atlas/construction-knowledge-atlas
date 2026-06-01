@@ -1,37 +1,71 @@
 [
   {
-    "t": "Deep learning-based structural health monitoring",
+    "t": "Towards a semantic Construction Digital Twin: Directions for future research",
     "j": "Automation in Construction",
-    "y": 2024,
-    "date": "2024-03",
-    "cit": 310,
-    "fwci": 72.6573,
+    "y": 2020,
+    "date": "2020-03",
+    "cit": 1137,
+    "fwci": 72.7056,
     "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2024.105328",
+    "doi": "https://doi.org/10.1016/j.autcon.2020.103179",
     "tech": [
-      "SHM",
-      "Deep Learning",
       "Computer Science",
-      "AI (general)"
+      "Data Science",
+      "BIM",
+      "Process (Computing)"
     ],
-    "score": 67
+    "score": 65
   },
   {
-    "t": "3D vision technologies for a self-developed structural external crack damage recognition robot",
+    "t": "Artificial intelligence and smart vision for building and construction 4.0: Machine and deep learning methods and applications",
     "j": "Automation in Construction",
-    "y": 2024,
-    "date": "2024-01",
-    "cit": 267,
-    "fwci": 62.8912,
-    "oa": false,
-    "doi": "https://doi.org/10.1016/j.autcon.2023.105262",
+    "y": 2022,
+    "date": "2022-06",
+    "cit": 901,
+    "fwci": 91.5624,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.autcon.2022.104440",
     "tech": [
-      "Point Cloud",
-      "SHM",
-      "LiDAR",
-      "Computer Science"
+      "Construction Automation",
+      "Systems Engineering",
+      "AI (general)",
+      "BIM"
     ],
-    "score": 49
+    "score": 57
+  },
+  {
+    "t": "Artificial intelligence applied to conceptual design. A review of its use in architecture",
+    "j": "Automation in Construction",
+    "y": 2021,
+    "date": "2021-01",
+    "cit": 219,
+    "fwci": 323.4223,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.autcon.2021.103550",
+    "tech": [
+      "Computer Science",
+      "Architecture",
+      "Process (Computing)",
+      "AI (general)"
+    ],
+    "score": 52
+  },
+  {
+    "t": "Roles of artificial intelligence in construction engineering and management: A critical review and future trends",
+    "j": "Automation in Construction",
+    "y": 2020,
+    "date": "2020-12",
+    "cit": 1089,
+    "fwci": 56.5198,
+    "oa": false,
+    "doi": "https://doi.org/10.1016/j.autcon.2020.103517",
+    "tech": [
+      "Computer Science",
+      "Data Science",
+      "Archaeological Context",
+      "Construction Automation"
+    ],
+    "score": 51
   },
   {
     "t": "Freeze-Thaw Behavior and Damage Prediction of Mixed Recycled Coarse Aggregate Concrete",
@@ -48,7 +82,7 @@
       "Materials Science",
       "Compressive Strength"
     ],
-    "score": 49
+    "score": 43
   },
   {
     "t": "Toward Low-Carbon Construction: A Review of Red Mud Utilization in Cementitious Materials and Geopolymers for Sustainability and Cost Benefits",
@@ -65,24 +99,24 @@
       "Sustainability",
       "Waste Management"
     ],
-    "score": 46
+    "score": 40
   },
   {
-    "t": "Generative AI in architectural design: Application, data, and evaluation methods",
+    "t": "Artificial intelligence in the AEC industry: Scientometric analysis and visualization of research activities",
     "j": "Automation in Construction",
-    "y": 2025,
-    "date": "2025-04",
-    "cit": 36,
-    "fwci": 252.6674,
-    "oa": false,
-    "doi": "https://doi.org/10.1016/j.autcon.2025.106174",
+    "y": 2020,
+    "date": "2020-01",
+    "cit": 562,
+    "fwci": 39.2762,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.autcon.2020.103081",
     "tech": [
-      "Generative AI",
+      "AI (general)",
+      "Construction Automation",
       "Computer Science",
-      "Generative Grammar",
-      "Engineering Drawing"
+      "Data Science"
     ],
-    "score": 44
+    "score": 39
   },
   {
     "t": "A cross-working-condition prediction method for bearing remaining useful life based on SPW-SVDD health indicators and temporal-self -attention mechanism",
@@ -99,23 +133,7 @@
       "Feature (Linguistics)",
       "AI (general)"
     ],
-    "score": 44
-  },
-  {
-    "t": "Modeling Traffic Vehicular Counts at an Urban Intersection Using Complex Seasonal Modeling Techniques",
-    "j": "KSCE Journal of Civil Engineering",
-    "y": 2025,
-    "date": "2025-01",
-    "cit": 100,
-    "fwci": 92.4514,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.kscej.2024.100040",
-    "tech": [
-      "Transport Engineering",
-      "Computer Science",
-      "Environmental Science"
-    ],
-    "score": 44
+    "score": 37
   },
   {
     "t": "Machine learning for generative architectural design: Advancements, opportunities, and challenges",
@@ -132,58 +150,40 @@
       "Computer Science",
       "Architectural Engineering"
     ],
-    "score": 42
+    "score": 36
   },
   {
-    "t": "A synergistic strategy with phosphorus-based compound and ionic liquid VIPA for simultaneously enhanced flame retardancy, mechanical properties, and chemical resistance of epoxy resin",
-    "j": "Construction and Building Materials",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 26,
-    "fwci": 181.7494,
-    "oa": false,
-    "doi": "https://doi.org/10.1016/j.conbuildmat.2026.145224",
-    "tech": [
-      "Materials Science",
-      "Polymer",
-      "UTS",
-      "Composite"
-    ],
-    "score": 40
-  },
-  {
-    "t": "Generative Design in the Built Environment",
+    "t": "Digital twin and its implementations in the civil engineering sector",
     "j": "Automation in Construction",
-    "y": 2024,
-    "date": "2024-07",
-    "cit": 50,
-    "fwci": 161.9171,
+    "y": 2021,
+    "date": "2021-07",
+    "cit": 464,
+    "fwci": 46.2386,
     "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2024.105638",
+    "doi": "https://doi.org/10.1016/j.autcon.2021.103838",
     "tech": [
-      "Generative AI",
-      "Generative Grammar",
-      "Architectural Engineering",
-      "Computer Science"
+      "Computer Science",
+      "Construction Engineering",
+      "Software Engineering"
     ],
-    "score": 39
+    "score": 36
   },
   {
-    "t": "Point cloud instance segmentation for building indoor scenes using deep learning and BIM-Generated synthetic point clouds",
+    "t": "CNN parameter design based on fault signal analysis and its application in bearing fault diagnosis",
     "j": "Advanced Engineering Informatics",
-    "y": 2026,
-    "date": "2026-02",
-    "cit": 7,
-    "fwci": 194.9904,
-    "oa": false,
-    "doi": "https://doi.org/10.1016/j.aei.2026.104453",
+    "y": 2023,
+    "date": "2023-01",
+    "cit": 389,
+    "fwci": 67.6336,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.aei.2023.101877",
     "tech": [
-      "Segmentation",
-      "Point Cloud",
+      "Geological Fault",
+      "Computer Science",
       "AI (general)",
-      "Deep Learning"
+      "Geology"
     ],
-    "score": 39
+    "score": 35
   },
   {
     "t": "Optimization of Earth Dam Cross-Sections Using the Max–Min Ant System and Artificial Neural Networks with Real Case Studies",
@@ -200,41 +200,24 @@
       "Process (Computing)",
       "Computer Science"
     ],
-    "score": 38
+    "score": 35
   },
   {
-    "t": "A Comprehensive Review on Dual-Pathway Utilization of Coal Gangue Concrete: Aggregate Substitution, Cementitious Activity Activation, and Performance Optimization",
-    "j": "Buildings",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 11,
-    "fwci": 93.2386,
-    "oa": true,
-    "doi": "https://doi.org/10.3390/buildings16020302",
-    "tech": [
-      "Cementitious",
-      "Environmental Science",
-      "Waste Management",
-      "Porosity"
-    ],
-    "score": 38
-  },
-  {
-    "t": "IoT-BIM and blockchain integration for enhanced data traceability in offsite manufacturing",
+    "t": "Generative AI in architectural design: Application, data, and evaluation methods",
     "j": "Automation in Construction",
-    "y": 2024,
-    "date": "2024-01",
-    "cit": 106,
-    "fwci": 75.2917,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2024.105266",
+    "y": 2025,
+    "date": "2025-04",
+    "cit": 36,
+    "fwci": 252.6674,
+    "oa": false,
+    "doi": "https://doi.org/10.1016/j.autcon.2025.106174",
     "tech": [
-      "Supply Chain",
-      "BIM",
+      "Generative AI",
       "Computer Science",
-      "Workflow"
+      "Generative Grammar",
+      "Engineering Drawing"
     ],
-    "score": 37
+    "score": 34
   },
   {
     "t": "Structure-optimized deep forest model for railway port container reloading time prediction: A hybrid integer programming and Bayesian optimization approach",
@@ -251,41 +234,41 @@
       "Operations Research",
       "Quality (Philosophy)"
     ],
-    "score": 37
+    "score": 34
   },
   {
-    "t": "Mechanical, hydration process, and microstructural properties of eco-friendly UHDC incorporating recycled concrete powder",
-    "j": "Construction and Building Materials",
+    "t": "A research agenda for augmented and virtual reality in architecture, engineering and construction",
+    "j": "Advanced Engineering Informatics",
+    "y": 2020,
+    "date": "2020-06",
+    "cit": 464,
+    "fwci": 24.0295,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.aei.2020.101122",
+    "tech": [
+      "Workflow",
+      "Architecture",
+      "Knowledge Mgmt",
+      "Engineering Management"
+    ],
+    "score": 34
+  },
+  {
+    "t": "A Comprehensive Review on Dual-Pathway Utilization of Coal Gangue Concrete: Aggregate Substitution, Cementitious Activity Activation, and Performance Optimization",
+    "j": "Buildings",
     "y": 2026,
     "date": "2026-01",
-    "cit": 16,
-    "fwci": 163.8095,
-    "oa": false,
-    "doi": "https://doi.org/10.1016/j.conbuildmat.2025.145063",
-    "tech": [
-      "Materials Science",
-      "UTS",
-      "Porosity",
-      "Composite"
-    ],
-    "score": 37
-  },
-  {
-    "t": "Land surveying with UAV photogrammetry and LiDAR for optimal building planning",
-    "j": "Automation in Construction",
-    "y": 2025,
-    "date": "2025-02",
-    "cit": 46,
-    "fwci": 83.8836,
+    "cit": 11,
+    "fwci": 93.2386,
     "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2025.106092",
+    "doi": "https://doi.org/10.3390/buildings16020302",
     "tech": [
-      "Photogrammetry",
-      "LiDAR",
-      "Remote Sensing",
-      "Computer Science"
+      "Cementitious",
+      "Environmental Science",
+      "Waste Management",
+      "Porosity"
     ],
-    "score": 36
+    "score": 34
   },
   {
     "t": "Integrating sustainable material performance and project success factors: insights from the lebanese construction sector",
@@ -302,7 +285,7 @@
       "Construction Industry",
       "Construction Engineering"
     ],
-    "score": 36
+    "score": 34
   },
   {
     "t": "Bridging dual knowledge graphs for multi-hop question answering in construction safety",
@@ -319,24 +302,41 @@
       "NLP",
       "Graph"
     ],
-    "score": 35
+    "score": 33
   },
   {
-    "t": "Generative AI approaches for architectural design automation",
+    "t": "Automatic crack classification and segmentation on masonry surfaces using convolutional neural networks and transfer learning",
     "j": "Automation in Construction",
-    "y": 2025,
-    "date": "2025-09",
-    "cit": 16,
-    "fwci": 112.2966,
+    "y": 2021,
+    "date": "2021-02",
+    "cit": 419,
+    "fwci": 38.2657,
     "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2025.106506",
+    "doi": "https://doi.org/10.1016/j.autcon.2021.103606",
     "tech": [
-      "Workflow",
-      "Field (Mathematics)",
-      "Generative AI",
-      "Software Engineering"
+      "Masonry",
+      "CNN",
+      "Segmentation",
+      "AI (general)"
     ],
-    "score": 35
+    "score": 33
+  },
+  {
+    "t": "Cloud computing in construction industry: Use cases, benefits and challenges",
+    "j": "Automation in Construction",
+    "y": 2020,
+    "date": "2020-12",
+    "cit": 444,
+    "fwci": 26.6111,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.autcon.2020.103441",
+    "tech": [
+      "Cloud Computing",
+      "Statistics",
+      "Data Science",
+      "Computer Science"
+    ],
+    "score": 33
   },
   {
     "t": "How Music Alleviates Job Burnout: Uncovering the Mediating Mechanism of Leisure Crafting Among Construction Workers",
@@ -353,7 +353,7 @@
       "Work (Physics)",
       "Mechanism (Biology)"
     ],
-    "score": 32
+    "score": 31
   },
   {
     "t": "Stabilized electrical conductivity in nano-engineered ultra-high performance concrete under prolonged freezing exposure: Nano-reinforcement and cryo-induced water migration mechanism",
@@ -368,40 +368,6 @@
       "Materials Science",
       "Composite",
       "Mechanism (Biology)"
-    ],
-    "score": 31
-  },
-  {
-    "t": "Integrating Computer Vision and GIS for Large-Scale Morphological Mapping and Driving Force Analysis of Vernacular Courtyard Dwellings",
-    "j": "Buildings",
-    "y": 2026,
-    "date": "2026-03",
-    "cit": 4,
-    "fwci": 46.0747,
-    "oa": true,
-    "doi": "https://doi.org/10.3390/buildings16061118",
-    "tech": [
-      "Segmentation",
-      "Graph",
-      "Computer Science",
-      "AI (general)"
-    ],
-    "score": 31
-  },
-  {
-    "t": "A review on large language models for industrial embodied intelligence",
-    "j": "Advanced Engineering Informatics",
-    "y": 2026,
-    "date": "2026-03",
-    "cit": 2,
-    "fwci": 125.5782,
-    "oa": false,
-    "doi": "https://doi.org/10.1016/j.aei.2026.104602",
-    "tech": [
-      "Cognition",
-      "Computer Science",
-      "AI (general)",
-      "Human-Computer Interaction"
     ],
     "score": 30
   },
@@ -419,24 +385,24 @@
       "Structural System",
       "Computer Science"
     ],
-    "score": 30
+    "score": 29
   },
   {
-    "t": "A Review of Construction and Demolition Waste Management: Resource Coordination and Multidimensional Interaction",
+    "t": "Integrating Computer Vision and GIS for Large-Scale Morphological Mapping and Driving Force Analysis of Vernacular Courtyard Dwellings",
     "j": "Buildings",
     "y": 2026,
-    "date": "2026-04",
-    "cit": 3,
-    "fwci": 34.5561,
+    "date": "2026-03",
+    "cit": 4,
+    "fwci": 46.0747,
     "oa": true,
-    "doi": "https://doi.org/10.3390/buildings16071437",
+    "doi": "https://doi.org/10.3390/buildings16061118",
     "tech": [
-      "Resource (Disambiguation)",
-      "Process (Computing)",
-      "Identification (Biology)",
-      "Engineering Flexibility"
+      "Segmentation",
+      "Graph",
+      "Computer Science",
+      "AI (general)"
     ],
-    "score": 30
+    "score": 29
   },
   {
     "t": "Home for Every Age: Rethinking Senior–Child Co-Living Through Universal and Inclusive Smart Residential Design",
@@ -453,23 +419,24 @@
       "Architecture",
       "Sustainable Development"
     ],
-    "score": 30
+    "score": 29
   },
   {
-    "t": "Impact of one-side wart-type roughness on hydraulic resistance and flow dynamics in supercritical open-channel flows",
-    "j": "KSCE Journal of Civil Engineering",
+    "t": "An effective Bezier curve-based optimization (BCO) for large-scale numerical problems and 3D unmanned aerial vehicle path planning with efficient multiple threats evasion",
+    "j": "Advanced Engineering Informatics",
     "y": 2026,
     "date": "2026-03",
-    "cit": 2,
-    "fwci": 36.6954,
+    "cit": 1,
+    "fwci": 26.621,
     "oa": true,
-    "doi": "https://doi.org/10.1016/j.kscej.2026.100574",
+    "doi": "https://doi.org/10.1016/j.aei.2026.104524",
     "tech": [
-      "Materials Science",
-      "Mechanics",
-      "Geotechnical Engineering"
+      "Path Planning",
+      "Computer Science",
+      "Mathematical Optimization",
+      "Control Engineering"
     ],
-    "score": 30
+    "score": 28
   },
   {
     "t": "Towards individualised precast concrete construction-applying concepts of industry 4.0 to industrialised building components",
@@ -486,7 +453,24 @@
       "Construction Engineering",
       "Production Economics"
     ],
-    "score": 29
+    "score": 28
+  },
+  {
+    "t": "A Review of Construction and Demolition Waste Management: Resource Coordination and Multidimensional Interaction",
+    "j": "Buildings",
+    "y": 2026,
+    "date": "2026-04",
+    "cit": 3,
+    "fwci": 34.5561,
+    "oa": true,
+    "doi": "https://doi.org/10.3390/buildings16071437",
+    "tech": [
+      "Resource (Disambiguation)",
+      "Process (Computing)",
+      "Identification (Biology)",
+      "Engineering Flexibility"
+    ],
+    "score": 28
   },
   {
     "t": "A Social Dimension Study of Post-Occupancy Evaluation for Old Residential Communities: A Case Study of Baoshengli North Community in Beijing",
@@ -503,6 +487,23 @@
       "Field (Mathematics)",
       "Environmental Resource Management"
     ],
-    "score": 29
+    "score": 28
+  },
+  {
+    "t": "Quantifying the Spatial Antagonism Between Urban Morphology and Ecological Infrastructure on Land Surface Temperature: An Explainable Machine Learning Approach with Spatial Lags",
+    "j": "Buildings",
+    "y": 2026,
+    "date": "2026-03",
+    "cit": 3,
+    "fwci": 27.2548,
+    "oa": true,
+    "doi": "https://doi.org/10.3390/buildings16050991",
+    "tech": [
+      "Environmental Science",
+      "Machine Learning",
+      "Graph",
+      "Urban Planning"
+    ],
+    "score": 28
   }
 ]

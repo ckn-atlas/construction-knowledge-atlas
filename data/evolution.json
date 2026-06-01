@@ -4,36 +4,36 @@
     "top_keywords": [
       {
         "id": "Computer Science",
-        "n": 1762
+        "n": 2225
+      },
+      {
+        "id": "Materials Science",
+        "n": 1271
       },
       {
         "id": "AI (general)",
-        "n": 953
+        "n": 1077
       },
       {
-        "id": "Structural Engineering",
-        "n": 403
-      },
-      {
-        "id": "Geology",
-        "n": 391
+        "id": "Composite",
+        "n": 973
       }
     ],
     "top_pairs": [
       {
         "a": "AI (general)",
         "b": "Computer Science",
-        "co": 953
+        "co": 1077
       },
       {
-        "a": "Computer Science",
-        "b": "Graph",
-        "co": 273
+        "a": "Composite",
+        "b": "Materials Science",
+        "co": 973
       },
       {
-        "a": "Computer Science",
-        "b": "Machine Learning",
-        "co": 266
+        "a": "Materials Science",
+        "b": "Structural Engineering",
+        "co": 499
       }
     ]
   },
@@ -41,37 +41,37 @@
     "year": 2025,
     "top_keywords": [
       {
-        "id": "Computer Science",
-        "n": 2638
-      },
-      {
         "id": "Materials Science",
-        "n": 1826
+        "n": 8071
       },
       {
         "id": "Composite",
-        "n": 1346
+        "n": 6573
       },
       {
-        "id": "AI (general)",
-        "n": 1331
+        "id": "Computer Science",
+        "n": 5112
+      },
+      {
+        "id": "Structural Engineering",
+        "n": 3950
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 1346
-      },
-      {
-        "a": "AI (general)",
-        "b": "Computer Science",
-        "co": 1330
+        "co": 6573
       },
       {
         "a": "Materials Science",
         "b": "Structural Engineering",
-        "co": 612
+        "co": 2785
+      },
+      {
+        "a": "Composite",
+        "b": "Structural Engineering",
+        "co": 2162
       }
     ]
   },
@@ -80,15 +80,15 @@
     "top_keywords": [
       {
         "id": "Materials Science",
-        "n": 3203
+        "n": 3204
       },
       {
         "id": "Composite",
-        "n": 2482
+        "n": 2483
       },
       {
         "id": "Computer Science",
-        "n": 1982
+        "n": 1985
       },
       {
         "id": "Structural Engineering",
@@ -99,17 +99,17 @@
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 2482
+        "co": 2483
       },
       {
         "a": "Cementitious",
         "b": "Materials Science",
-        "co": 1037
+        "co": 1038
       },
       {
         "a": "Compressive Strength",
         "b": "Materials Science",
-        "co": 965
+        "co": 966
       }
     ]
   }
