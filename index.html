@@ -1677,6 +1677,75 @@ async function buildMap(){
 /* ===================== Institution Network 2D ===================== */
 const _net2dSel = new Set(); // 선택된 나라 코드
 
+/* ===================== Network Period Filter ===================== */
+let _netPeriodType = 'all'; // 'all' | '3y' | '1y' | '6m'
+let _netPeriodIdx  = 0;
+let ORG_NET_PERIOD = null;  // network.json 전체 (기간별 데이터 포함)
+
+function getNetLinks(){
+  if(_netPeriodType === 'all' || !ORG_NET_PERIOD) return ORG_LINKS;
+  const periods = _netPeriodList();
+  const key = periods[_netPeriodIdx];
+  if(!key) return ORG_LINKS;
+  if(_netPeriodType === '3y'){
+    const byYear = ORG_NET_PERIOD.links_by_year || {};
+    const combined = {};
+    [key, String(+key+1), String(+key+2)].forEach(y=>{
+      (byYear[y]||[]).forEach(l=>{ const k=l[0]+'||'+l[1]; combined[k]=(combined[k]||0)+l[2]; });
+    });
+    return Object.entries(combined).map(([k,co])=>{ const[a,b]=k.split('||'); return [a,b,co]; });
+  }
+  if(_netPeriodType === '1y') return (ORG_NET_PERIOD.links_by_year||{})[key] || [];
+  if(_netPeriodType === '6m') return (ORG_NET_PERIOD.links_by_half||{})[key] || [];
+  return ORG_LINKS;
+}
+
+function _netPeriodList(){
+  if(!ORG_NET_PERIOD) return [];
+  if(_netPeriodType === '3y'){
+    const yrs = Object.keys(ORG_NET_PERIOD.links_by_year||{}).map(Number).sort();
+    return yrs.filter(y=>yrs.includes(y+1)&&yrs.includes(y+2)).map(String);
+  }
+  if(_netPeriodType === '1y') return Object.keys(ORG_NET_PERIOD.links_by_year||{}).sort();
+  if(_netPeriodType === '6m') return Object.keys(ORG_NET_PERIOD.links_by_half||{}).sort();
+  return [];
+}
+
+function _netPeriodLabel(key){
+  if(!key) return 'All Time';
+  if(_netPeriodType === '3y') return key+'–'+String(+key+2);
+  if(_netPeriodType === '6m'){
+    const h = key.endsWith('H1') ? 'Jan–Jun' : 'Jul–Dec';
+    return key.slice(0,4)+' '+h;
+  }
+  return key;
+}
+
+function setNetPeriod(type){
+  _netPeriodType = type;
+  document.querySelectorAll('.net-period-btn').forEach(b=>b.classList.toggle('active', b.dataset.period===type));
+  const wrap = document.getElementById('netPeriodSliderWrap');
+  if(type==='all'){ wrap.style.display='none'; }
+  else {
+    wrap.style.display='flex';
+    const periods = _netPeriodList();
+    _netPeriodIdx = Math.max(0, periods.length-1);
+    document.getElementById('netPeriodLabel').textContent = _netPeriodLabel(periods[_netPeriodIdx]);
+  }
+  if(_netView==='map') buildNetworkMap();
+  else if(_netView==='3d') buildNetwork3D();
+  else buildNetwork();
+}
+
+function netPeriodStep(dir){
+  const periods = _netPeriodList();
+  _netPeriodIdx = Math.max(0, Math.min(periods.length-1, _netPeriodIdx+dir));
+  document.getElementById('netPeriodLabel').textContent = _netPeriodLabel(periods[_netPeriodIdx]);
+  if(_netView==='map') buildNetworkMap();
+  else if(_netView==='3d') buildNetwork3D();
+  else buildNetwork();
+}
+
 function buildNetwork(){
   const svgEl = document.getElementById("netGraph");
   const box = svgEl.getBoundingClientRect();
