@@ -543,7 +543,7 @@ function monthLabel(m){
   const [y, mo] = m.split("-");
   return `${y}-${String(parseInt(mo)).padStart(2,"0")}`;
 }
-/* 해당 까지 누적 Papers */
+/* Accumulated papers up to selected month */
 function papersUpTo(node, monthKey){
   if(!node.monthly) return node.papers;
   let sum = 0;
@@ -586,7 +586,7 @@ function oaOk(n){
   return (n.oa_level||0) >= _oaLevelMin;
 }
 
-// oa_level 필터 적용된 level3 NODES (전역 papers의 함수)
+// oa_level 필터 application된 level3 NODES (전역 papers의 함수)
 function filteredNodes(){
   return NODES.filter(n => n.level === 3 && oaOk(n));
 }
@@ -656,7 +656,7 @@ function setGraphMode(mode){
   });
   const hints = {
     tree:    'Radial hierarchy tree · Color=theme · Size=papers · Slider=monthly · Click node for details',
-    force:   'Knowledge Graph · Node size=papers · Links=co-occurrence · Filter by theme 범위 좁히기',
+    force:   'Knowledge Graph · Node size=papers · Links=co-occurrence · Filter by theme range filtering',
     summary: 'Theme summary graph · Circle size=total papers · Link width=inter-theme co-occurrence · Click=filter theme',
   };
   const h = document.getElementById('graphHint');
@@ -729,7 +729,7 @@ function _fastUpdateTree(){
     )
     .attr("transform", pos);
 
-  // 속성 업데이트 (enter + update 모두) — 현재  기준 누적 Papers 사용
+  // Update attributes - use current month paper count
   const curP = d => {
     if(!month) return d.data.papers;
     if(d.data.level === 2){
@@ -856,7 +856,7 @@ function buildSummaryGraph(g){
   // 드릴다운 모드면 해당 테마의 하위 계층 렌더
   if(_summaryDrill) { _buildSummaryDrill(g, _summaryDrill); return; }
   const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
-  // 슬라이더  기준 papers수 사용 (별 건수)
+  // 슬라이더  기준 papers수 사용 (monthly count)
   const papersFn = n => month ? (_monthlyCount(n, month) || 0) : n.papers;
 
   const tm = {};
@@ -880,7 +880,7 @@ function buildSummaryGraph(g){
     if(co>0) pm[k]=(pm[k]||0)+co;
   });
 
-  // 0papers인 테마 제more (해당  papers None)
+  // Filter out themes with 0 papers (no papers this period)
   const themeNodes = Object.values(tm).filter(t=>t.papers>0);
   const activeGroups = new Set(themeNodes.map(t=>t.id));
   const themeLinks = Object.entries(pm)
@@ -925,7 +925,7 @@ function buildSummaryGraph(g){
     .text(d=>`${d.papers.toLocaleString()}papers`);
 
   nodeSel.append("title").text(d=>
-    `${GROUP_KO[d.id]||d.id} · ${d.papers.toLocaleString()}papers · 평균성장 ${d.avgGrowth>=0?'+':''}${d.avgGrowth}%`
+    `${GROUP_KO[d.id]||d.id} · ${d.papers.toLocaleString()}papers · avg growth ${d.avgGrowth>=0?'+':''}${d.avgGrowth}%`
   );
 
   // 호버 → 다음 계층 목록 툴팁
@@ -992,7 +992,7 @@ function buildForceGraph(g){
   });
   const visIds = new Set(visNodes.map(n=>n.id));
 
-  // 노드별 현재  누적 Papers
+  // Paper count per node for current month
   const nodeData = visNodes.map(n=>({
     ...n,
     curPapers: month ? papersUpTo(n, month) : n.papers
@@ -1092,7 +1092,7 @@ function applyYear(){ applyMonth(); }
 
 let _monthTimer = null;
 
-/* 현재 까지 누적 Papers로 노드를 Rank 매겨 Top Nitems ID 반환 */
+/* Return top N node IDs by cumulative papers up to current month */
 function getTopIds(month){
   const n = parseInt(document.getElementById("topN")?.value) || 30;
   const ranked = [...NODES]
@@ -1144,7 +1144,7 @@ function applyMonth(){
 }
 function showNode(d){
   const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
-  // 현재 슬라이더  기준 누적 Papers
+  // Cumulative papers up to slider month
   const curPapers = _monthlyCount(d, month);
   const parent = d.parent;
   const children = NODES.filter(n=>n.parent===d.id)
@@ -1171,10 +1171,10 @@ function showNode(d){
 function fillSidebar(){
   const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
 
-  // 슬라이더 기준 Papers & 동Period Change 계산
-  // - Papers: 해당 까지 누적
+  // Calculate papers & same-period change based on slider
+  // - Papers: accumulated to selected month
   // - Change: 현재 연도 1~M 합계 vs 작  동Period 합계
-  // 해당  papers수 + 전 비교
+  // Count for selected month vs previous month
   function sidebarStats(n){
     if(!month || !n.monthly) return {cnt: n.papers, diff: n.growth_cnt??0};
     const thisCnt = n.monthly[month] || 0;
@@ -1213,7 +1213,7 @@ function fillSidebar(){
   //   작  동Period = 같은 3items 1  전 합계
   //   P (Growth Rate) = (최근3 - 작 3) / (작 3 + 1)
   //   R (Market Share) = 최근3 / total
-  //   F-score = 2·P·R / (P + R)  → 조화평균
+  //   F-score = 2·P·R / (P + R)  → 조화avg
 
   function window3m(monthly, endMonth){
     if(!endMonth || !monthly) return 0;
@@ -1669,7 +1669,7 @@ function buildNetwork(){
   const g = sv.append("g");
   sv.call(d3.zoom().scaleExtent([0.4,6]).on("zoom",e=>g.attr("transform",e.transform)));
 
-  // 나라 필터 적용 — 선택 없으면 All
+  // 나라 필터 application — 선택 없으면 All
   const filteredIds = _net2dSel.size > 0
     ? ORG_NODES.filter(id => _net2dSel.has(ORG_COUNTRY[id]))
     : ORG_NODES;
@@ -2080,7 +2080,7 @@ async function buildNetworkMap(){
     const [lat,lon] = ORG_COORDS[id];
     const pt = proj([lon, lat]);
     if(!pt) return;
-    // 동일 좌표 오프셋 적용
+    // 동일 좌표 오프셋 application
     const [ox, oy] = orgOffset[id] || [0,0];
     const finalPt = [pt[0]+ox, pt[1]+oy];
     const r = 5 + Math.sqrt(ORG_WEIGHT[id]||4)*0.8;
@@ -2191,9 +2191,9 @@ function renderImpact(period){
         <div class="meta">${p.j} · ${p.y}</div>
         <div>${(p.tech||[]).map(t=>`<span class="pill">${t}</span>`).join("")}</div>
         <div class="metric-bd">Impact = citations <b>${p.cit!=null?p.cit:'—'}</b> · FWCI <b>${p.fwci!=null?(+p.fwci).toFixed(2):'—'}</b> · ${p.oa?'<b style="color:var(--accent2)">OA</b>':'구독'} · 발행 <b>${p.y||'—'}</b></div>
-        <span class="vid" onclick="alert('🎬 [데모] 1분 Technology 영상\\n\\n문제 → 기존 한계 → 제안Technology → 실험결과 → 적용사례\\n\\n실제 버전에서는 papers에서 1분 Technology 영상을 자동 생성합니다.')">▶ 1분 Technology 영상 보기</span>
+        <span class="vid" onclick="alert('🎬 [데모] 1-min Technology Video\\n\\n문제 → 기존 한계 → proposed technology → 실험결과 → application사례\\n\\n실제 버전에서는 papers에서 1-min Technology Video을 자동 생성합니다.')">▶ 1-min Technology Video 보기</span>
       </div>`).join("")
-    : `<div style="padding:40px;color:var(--muted);text-align:center">해당 Period에 papers이 없습니다</div>`;
+    : `<div style="padding:40px;color:var(--muted);text-align:center">No papers for this period</div>`;
 }
 
 function fillImpact(){
@@ -2238,7 +2238,7 @@ function renderEvo(levelFilter){
   const container = document.getElementById("evoTimeline");
   const nodeMap = new Map(NODES.map(n=>[n.id, n]));
 
-  // 위계 필터 적용: specific = parent 있는 level3만, all = level3 All
+  // 위계 필터 application: specific = parent 있는 level3만, all = level3 All
   const pool = NODES.filter(n => {
     if(n.level !== 3) return false;
     if(!n.monthly || Object.keys(n.monthly).length < 3) return false;
@@ -2653,7 +2653,7 @@ function buildEvoTree(){
       txt(el, n.id, {"x":r+5,"dy":4,"fill":gr>0.15?"#a9e34b":gr<-0.15?"#ff8787":"#8b97a6","font-size":10});
       el.append("title").text(
         `${n.id}\nGroup: ${n.group||"?"}  Parent: ${n.parent||"None"}\n`+
-        `총 papers: ${n.papers}papers  Recent 3mo: ${n._recent||0}papers\n`+
+        `Total papers: ${n.papers}papers  Recent 3mo: ${n._recent||0}papers\n`+
         `Growth Rate: ${gr>=0?"+":""}${(gr*100).toFixed(0)}%`
       );
     } else {
@@ -2892,7 +2892,7 @@ function kgBuildThemeMeta(sv, g, w, h){
     .attr("font-size",10).attr("fill","rgba(255,255,255,0.75)").attr("dy","0.8em")
     .attr("pointer-events","none").text(d=>`${d.papers.toLocaleString()}papers`);
 
-  nd.append("title").text(d=>`${GROUP_KO[d.id]||d.id} · ${d.papers.toLocaleString()}papers · 평균 ${d.avgGrowth>=0?'+':''}${d.avgGrowth}%`);
+  nd.append("title").text(d=>`${GROUP_KO[d.id]||d.id} · ${d.papers.toLocaleString()}papers · avg ${d.avgGrowth>=0?'+':''}${d.avgGrowth}%`);
   // 테마 클릭 → 해당 테마만 선택 후 items별 노드 뷰
   nd.on("click",(e,d)=>{ kgGroupSel.clear(); kgGroupSel.add(d.id); buildKGraph(); });
 
