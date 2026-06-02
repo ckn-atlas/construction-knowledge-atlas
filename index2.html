@@ -291,7 +291,7 @@
   }
 
 
-  /* graph overlay */
+  /* ── Graph Full-Screen Overlay ── */
   #graphOverlay{display:none;position:fixed;inset:0;z-index:300;background:var(--bg);flex-direction:column}
   #graphOverlay.open{display:flex}
   #goHeader{display:flex;align-items:center;gap:12px;padding:10px 20px;border-bottom:1px solid var(--line);background:var(--panel);flex-shrink:0}
@@ -387,8 +387,7 @@
   </div>
   <div id="goBody">
     <div id="goMain">
-    <!-- ONTOLOGY GRAPH (overlay) -->
-    <section id="view-graph" style="display:block;height:100%;position:relative">
+<section id="view-graph" style="display:block;height:100%;position:relative">
       <div class="hint" id="graphHint">Radial hierarchy tree · Color=theme · Size=papers · Slider=monthly · Click node for details</div>
       <div class="mode-toggle">
         <button class="mode-btn active" id="btn-tree"    onclick="setGraphMode('tree')">Hierarchy Tree</button>
@@ -420,8 +419,44 @@
         <span style="font-size:11px;color:var(--muted)">items</span>
       </div>
     </section>
+    </div>
+<aside id="sidebar">
+    <div class="card" id="nodeInfo">
+      <h3>Selected Technology</h3>
+      <div style="color:var(--muted);font-size:13px">Click a node in the graph.</div>
+    </div>
+    <div class="card">
+      <h3>Tech Trends (Papers)</h3>
+      <div id="trendSub" style="font-size:11px;color:var(--muted);margin-bottom:6px">Change = 2024→2025년  전 대비</div>
+      <table id="trendTable">
+        <thead><tr><th>Technology</th><th>Papers</th><th>Change</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>🚀 Fast-Growing Tech <span id="risingLabel" style="font-size:11px;font-weight:400;color:var(--muted)"></span></h3>
+      <div id="risingFormula" style="font-size:10px;color:var(--muted);line-height:1.6;margin-bottom:8px;padding:6px 8px;background:#111820;border-radius:6px;display:none">
+        <b style="color:#74c0fc">F-score</b> = 2·P·R / (P+R)<br>
+        <b>P</b>(Growth Rate) = (Recent 3mo − prevYrsame period) / (prevYrsame period+1)<br>
+        <b>R</b>(Market Share) = Recent 3mo / total<br>
+        <span style="color:#4a5568">High absolute volume AND growth rate required for top rank</span>
+      </div>
+      <div id="risingTech"></div>
+    </div>
+    <div class="card">
+      <h3>Legend</h3>
+      <div class="legend">
+        <div style="margin-bottom:4px"><b>Fill = theme</b></div>
+        <div id="legendThemes" style="margin-bottom:8px"></div>
+        <div style="margin-top:6px">Node size ∝ papers<br>Link width ∝ co-occurrence</div>
+      </div>
+    </div>
+  </aside>
+  </div>
+</div>
 
-    <!-- GRAPH placeholder -->
+<!-- SCROLL MAIN -->
+<main id="scrollMain">
     <section class="view" id="view-graph-ph">
       <div class="panel-title">🧬 Tech Ontology</div>
       <p class="panel-sub">Interactive visualization of construction technology concepts — explore hierarchy trees, force-directed networks, and theme summaries across 100+ tracked technologies.</p>
@@ -437,8 +472,7 @@
       </div>
     </section>
 
-    <!-- COUNTRY -->
-    <section class="view" id="view-country" style="overflow-y:auto">
+<section class="view" id="view-country" style="overflow-y:auto">
       <div class="panel-title">Country Tech Influence</div>
       <div class="panel-sub">색이 진할수록 Paper Count가 많습니다. Click map or rank to see key institutions & technologies. <b>여러 나라를 클릭</b>하면 연도별 비교 차트가 표시됩니다.</div>
       <div class="map-zone">
@@ -475,8 +509,7 @@
       </div>
     </section>
 
-    <!-- NETWORK -->
-    <section class="view" id="view-network">
+<section class="view" id="view-network">
       <div style="display:flex;align-items:center;padding:16px 24px 6px;gap:12px">
         <div class="panel-title" style="padding:0;margin:0">Institution Co-author Network</div>
         <div style="display:flex;gap:4px;margin-left:auto">
@@ -509,8 +542,7 @@
       </div>
     </section>
 
-    <!-- IMPACT -->
-    <section class="view" id="view-impact">
+<section class="view" id="view-impact">
       <div class="panel-title">Impact Paper Analysis</div>
       <div class="panel-sub">Impact Score = Citations + FWCI + Recency + Open Access</div>
       <div style="padding:0 24px 12px;display:flex;gap:8px">
@@ -521,8 +553,7 @@
       <div class="net-wrap" id="impactList"></div>
     </section>
 
-    <!-- LATEST -->
-    <section class="view active" id="view-latest" style="overflow-y:auto">
+<section class="view active" id="view-latest" style="overflow-y:auto">
       <div class="panel-title">🔬 Latest Research Highlights</div>
       <div class="panel-sub" id="latestSub">Top-cited recent paper per theme · FWCI-ranked · Updated regularly</div>
       <div style="padding:0 24px 8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap">
@@ -536,8 +567,7 @@
       <div id="latestGrid" style="padding:0 24px 24px"></div>
     </section>
 
-    <!-- JOURNALS -->
-    <section class="view" id="view-journals">
+<section class="view" id="view-journals">
       <div class="panel-title">Journal Coverage</div>
       <div class="panel-sub" id="journalSub">Papers and citations per journal collected.</div>
       <div class="net-wrap journal-wrap">
@@ -548,9 +578,7 @@
       </div>
     </section>
 
-
-    <!-- EVOLUTION -->
-    <section class="view" id="view-evo">
+<section class="view" id="view-evo">
       <div class="evo">
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap">
           <h2 style="margin:0" id="evoTitle">Technology Emergence Tree</h2>
@@ -573,43 +601,9 @@
         <div id="evoTimeline"></div>
       </div>
     </section>
-    </div><!-- goMain -->
-    <aside id="sidebar">
-    <div class="card" id="nodeInfo">
-      <h3>Selected Technology</h3>
-      <div style="color:var(--muted);font-size:13px">Click a node in the graph.</div>
-    </div>
-    <div class="card">
-      <h3>Tech Trends (Papers)</h3>
-      <div id="trendSub" style="font-size:11px;color:var(--muted);margin-bottom:6px">Change = 2024→2025년  전 대비</div>
-      <table id="trendTable">
-        <thead><tr><th>Technology</th><th>Papers</th><th>Change</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <div class="card">
-      <h3>🚀 Fast-Growing Tech <span id="risingLabel" style="font-size:11px;font-weight:400;color:var(--muted)"></span></h3>
-      <div id="risingFormula" style="font-size:10px;color:var(--muted);line-height:1.6;margin-bottom:8px;padding:6px 8px;background:#111820;border-radius:6px;display:none">
-        <b style="color:#74c0fc">F-score</b> = 2·P·R / (P+R)<br>
-        <b>P</b>(Growth Rate) = (Recent 3mo − prevYrsame period) / (prevYrsame period+1)<br>
-        <b>R</b>(Market Share) = Recent 3mo / total<br>
-        <span style="color:#4a5568">High absolute volume AND growth rate required for top rank</span>
-      </div>
-      <div id="risingTech"></div>
-    </div>
-    <div class="card">
-      <h3>Legend</h3>
-      <div class="legend">
-        <div style="margin-bottom:4px"><b>Fill = theme</b></div>
-        <div id="legendThemes" style="margin-bottom:8px"></div>
-        <div style="margin-top:6px">Node size ∝ papers<br>Link width ∝ co-occurrence</div>
-      </div>
-    </div>
-  </aside>
-  </div><!-- goBody -->
-</div><!-- graphOverlay -->
+</main>
 
-<main id="scrollMain">
+</div>
 
 <script>
 /* ===================== 폴백 샘플 (data/*.json 없을 때) ===================== */
@@ -3356,7 +3350,7 @@ function scrollSec(id){
 function openGraph(){
   document.getElementById("graphOverlay").classList.add("open");
   document.body.style.overflow="hidden";
-  buildGraph();
+  setTimeout(()=>buildGraph(),80);
 }
 function closeGraph(){
   document.getElementById("graphOverlay").classList.remove("open");
@@ -3382,9 +3376,9 @@ const _lazy=new IntersectionObserver(entries=>{
   entries.forEach(e=>{
     if(!e.isIntersecting)return;
     const id=e.target.id;
-    if(id==="view-country"&&!_mapOk){_mapOk=true;buildMap();}
-    if(id==="view-network"&&!_netOk){_netOk=true;switchNetView(_netView);}
-    if(id==="view-evo"    &&!_evoOk){_evoOk=true;_switchEvoView();}
+    if(id==="view-country"&&!_mapOk){_mapOk=true;setTimeout(()=>buildMap(),80);}
+    if(id==="view-network"&&!_netOk){_netOk=true;setTimeout(()=>switchNetView(_netView),80);}
+    if(id==="view-evo"    &&!_evoOk){_evoOk=true;setTimeout(()=>_switchEvoView(),80);}
   });
 },{threshold:0.05,rootMargin:"-58px 0px 0px 0px"});
 document.getElementById("yr").oninput = e=>{
@@ -3445,8 +3439,8 @@ async function loadData(){
 })();
 window.addEventListener("resize",()=>{
   _treeCache.clear();
-  if(document.getElementById("graphOverlay").classList.contains("open")) buildGraph();
-  if(_mapOk) buildMap();
+  if(document.getElementById("graphOverlay").classList.contains("open")) setTimeout(()=>buildGraph(),80);
+  if(_mapOk) setTimeout(()=>buildMap(),80);
 });
 /* ===================== Latest Research ===================== */
 let LATEST = null;
@@ -3678,6 +3672,6 @@ function renderLatest(){
 })();
 
 </script>
-</main><!-- scrollMain -->
+
 </body>
 </html>
