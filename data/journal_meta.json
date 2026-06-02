@@ -1,0 +1,200 @@
+{
+  "0926-5805": {
+    "name": "Automation in Construction",
+    "publisher": "",
+    "if2y": 10.64,
+    "h_index": 237,
+    "works": 6828,
+    "cites": 371839,
+    "oa": false,
+    "subjects": [],
+    "homepage": "https://www.journals.elsevier.com/automation-in-construction"
+  },
+  "1474-0346": {
+    "name": "Advanced Engineering Informatics",
+    "publisher": "",
+    "if2y": 8.84,
+    "h_index": 144,
+    "works": 4463,
+    "cites": 134271,
+    "oa": false,
+    "subjects": [],
+    "homepage": "https://www.journals.elsevier.com/advanced-engineering-informatics"
+  },
+  "0950-0618": {
+    "name": "Construction and Building Materials",
+    "publisher": "",
+    "if2y": 8.45,
+    "h_index": 345,
+    "works": 47851,
+    "cites": 2069831,
+    "oa": false,
+    "subjects": [],
+    "homepage": "https://www.journals.elsevier.com/construction-and-building-materials"
+  },
+  "2352-7102": {
+    "name": "Journal of Building Engineering",
+    "publisher": "",
+    "if2y": 5.91,
+    "h_index": 149,
+    "works": 16361,
+    "cites": 321700,
+    "oa": false,
+    "subjects": [],
+    "homepage": "https://www.journals.elsevier.com/journal-of-building-engineering"
+  },
+  "2075-5309": {
+    "name": "Buildings",
+    "publisher": "",
+    "if2y": 3.42,
+    "h_index": 96,
+    "works": 17982,
+    "cites": 158433,
+    "oa": true,
+    "subjects": [],
+    "homepage": "https://www.mdpi.com/journal/buildings"
+  },
+  "2297-3362": {
+    "name": "Frontiers in Built Environment",
+    "publisher": "",
+    "if2y": 2.67,
+    "h_index": 58,
+    "works": 2099,
+    "cites": 24332,
+    "oa": true,
+    "subjects": [],
+    "homepage": "http://journal.frontiersin.org/journal/built-environment#"
+  },
+  "1226-7988": {
+    "name": "KSCE Journal of Civil Engineering",
+    "publisher": "",
+    "if2y": 3.06,
+    "h_index": 79,
+    "works": 5999,
+    "cites": 81529,
+    "oa": true,
+    "subjects": [],
+    "homepage": "https://www.springer.com/journal/12205"
+  },
+  "1874-4753": {
+    "name": "Journal of Information Technology in Construction",
+    "publisher": "",
+    "if2y": 2.84,
+    "h_index": 54,
+    "works": 645,
+    "cites": 13119,
+    "oa": true,
+    "subjects": [],
+    "homepage": "http://www.itcon.org/"
+  },
+  "0733-9364": {
+    "name": "Journal of Construction Engineering and Management",
+    "publisher": "",
+    "if2y": 3.92,
+    "h_index": 178,
+    "works": 5455,
+    "cites": 225541,
+    "oa": false,
+    "subjects": [],
+    "homepage": null
+  },
+  "0733-9445": {
+    "name": "Journal of Structural Engineering",
+    "publisher": "",
+    "if2y": 3.66,
+    "h_index": 219,
+    "works": 11824,
+    "cites": 403072,
+    "oa": false,
+    "subjects": [],
+    "homepage": null
+  },
+  "2214-5095": {
+    "name": "Case Studies in Construction Materials",
+    "publisher": "",
+    "if2y": 4.43,
+    "h_index": 97,
+    "works": 6164,
+    "cites": 88295,
+    "oa": true,
+    "subjects": [],
+    "homepage": "https://www.journals.elsevier.com/case-studies-in-construction-materials"
+  },
+  "0969-9988": {
+    "name": "Engineering Construction & Architectural Management",
+    "publisher": "",
+    "if2y": 3.21,
+    "h_index": 103,
+    "works": 3371,
+    "cites": 74644,
+    "oa": false,
+    "subjects": [],
+    "homepage": null
+  },
+  "0887-3801": {
+    "name": "Journal of Computing in Civil Engineering",
+    "publisher": "",
+    "if2y": 3.38,
+    "h_index": 125,
+    "works": 2376,
+    "cites": 79543,
+    "oa": false,
+    "subjects": [],
+    "homepage": null
+  },
+  "1392-3730": {
+    "name": "Journal of Civil Engineering and Management",
+    "publisher": "",
+    "if2y": 2.63,
+    "h_index": 77,
+    "works": 2317,
+    "cites": 36331,
+    "oa": true,
+    "subjects": [],
+    "homepage": "http://www.tandf.co.uk/journals/TCEM/"
+  },
+  "1090-0241": {
+    "name": "Journal of Geotechnical and Geoenvironmental Engineering",
+    "publisher": "",
+    "if2y": 3.66,
+    "h_index": 211,
+    "works": 6592,
+    "cites": 271169,
+    "oa": false,
+    "subjects": [],
+    "homepage": null
+  },
+  "0889-325X": {
+    "name": "ACI Materials Journal",
+    "publisher": "",
+    "if2y": 0.66,
+    "h_index": 142,
+    "works": 3088,
+    "cites": 111795,
+    "oa": false,
+    "subjects": [],
+    "homepage": null
+  },
+  "1674-7755": {
+    "name": "Journal of Rock Mechanics and Geotechnical Engineering",
+    "publisher": "",
+    "if2y": 6.72,
+    "h_index": 108,
+    "works": 2820,
+    "cites": 78757,
+    "oa": true,
+    "subjects": [],
+    "homepage": "https://www.journals.elsevier.com/journal-of-rock-mechanics-and-geotechnical-engineering"
+  },
+  "1093-9687": {
+    "name": "Computer-Aided Civil and Infrastructure Engineering",
+    "publisher": "",
+    "if2y": 5.71,
+    "h_index": 133,
+    "works": 3302,
+    "cites": 98690,
+    "oa": false,
+    "subjects": [],
+    "homepage": "https://onlinelibrary.wiley.com/journal/14678667"
+  }
+}

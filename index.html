@@ -186,6 +186,14 @@
   .panel-title{font-size:20px;font-weight:700;padding:20px 24px 6px;}
   .panel-sub{font-size:13px;color:var(--muted);padding:0 24px 16px}
   .net-wrap{padding:0 24px}
+  .journal-row{cursor:pointer;transition:background .15s}
+  .journal-row:hover{background:var(--panel2)}
+  .journal-detail{display:none;background:var(--panel2);border-top:1px solid var(--line)}
+  .journal-detail.open{display:table-row}
+  .journal-stat{display:inline-flex;flex-direction:column;align-items:center;padding:10px 18px;border-right:1px solid var(--line)}
+  .journal-stat:last-child{border-right:none}
+  .journal-stat .val{font-size:18px;font-weight:800;color:var(--accent)}
+  .journal-stat .lbl{font-size:10px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:.4px}
   /* ── 좌측 고정 세로 배너 ── */
   #adLeft{
     position:fixed;left:0;top:50%;transform:translateY(-50%);
@@ -474,7 +482,7 @@
       <div class="panel-sub" id="journalSub">Papers and citations per journal collected.</div>
       <div class="net-wrap" style="overflow-y:auto;height:calc(100% - 92px)">
         <table id="journalTable" style="font-size:13px">
-          <thead><tr><th>#</th><th>Journal</th><th style="text-align:right">Papers</th><th>Paper Share</th><th style="text-align:right">Citations</th></tr></thead>
+          <thead><tr><th>#</th><th>Journal</th><th style="text-align:right">Papers</th><th>Paper Share</th><th style="text-align:right">Citations</th><th style="text-align:right">IF (2yr)</th><th style="text-align:right">h-index</th><th></th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -605,6 +613,7 @@ let PAPERS = [
   {t:"BIM2RDT: BIM to Robot-Ready Digital Twin",j:"Automation in Construction",y:2026,score:97,cit:142,fwci:21.0,oa:true,tech:["BIM","Robotics","Digital Twin"]},
   {t:"Foundation Models for Construction Inspection",j:"J. of Computing in Civil Eng.",y:2025,score:88,cit:206,fwci:9.1,oa:false,tech:["AI","Computer Vision"]},
 ];
+const JOURNAL_META = {}; // OpenAlex 저널 메타 (if2y, h_index, publisher...)
 let JOURNALS = [
   {name:"Construction and Building Materials",papers:4524,cites:71244},
   {name:"Buildings",papers:3003,cites:9444},
@@ -2479,12 +2488,23 @@ function fillImpact(){
 function fillJournals(){
   const total = JOURNALS.reduce((s,j)=>s+j.papers,0) || 1;
   const max = Math.max(...JOURNALS.map(j=>j.papers), 1);
+  const totalCites = JOURNALS.reduce((s,j)=>s+(j.cites||0),0);
   document.getElementById("journalSub").textContent =
-    `Collected journals ${JOURNALS.length}items · 총 ${total.toLocaleString()}papers. (Based on actual journal names returned by OpenAlex)`;
-  document.querySelector("#journalTable tbody").innerHTML = JOURNALS.map((j,i)=>`
-    <tr>
+    `${JOURNALS.length} journals collected · ${total.toLocaleString()} papers · ${totalCites.toLocaleString()} citations (OpenAlex)`;
+
+  document.querySelector("#journalTable tbody").innerHTML = JOURNALS.map((j,i)=>{
+    const m = JOURNAL_META[j.issn] || {};
+    const ifVal = m.if2y ? m.if2y.toFixed(2) : '—';
+    const hVal  = m.h_index || '—';
+    const subj  = (m.subjects||[]).slice(0,2).join(' · ');
+    return `
+    <tr class="journal-row" onclick="toggleJournalDetail(${i})">
       <td style="color:var(--muted);white-space:nowrap">${i+1}</td>
-      <td style="font-size:12px">${j.name}</td>
+      <td style="font-size:12px">
+        <b>${j.name}</b>
+        ${m.publisher?`<div style="font-size:10px;color:var(--muted);margin-top:2px">${m.publisher}</div>`:''}
+        ${m.oa?'<span style="font-size:9px;background:var(--accent2);color:#0e1116;border-radius:3px;padding:1px 5px;margin-left:4px">OA</span>':''}
+      </td>
       <td style="text-align:right;font-weight:700;white-space:nowrap">${j.papers.toLocaleString()}</td>
       <td style="width:180px">
         <div style="display:flex;align-items:center;gap:6px">
@@ -2495,7 +2515,33 @@ function fillJournals(){
         </div>
       </td>
       <td style="text-align:right;color:var(--muted);white-space:nowrap">${(j.cites||0).toLocaleString()}</td>
-    </tr>`).join("");
+      <td style="text-align:right;white-space:nowrap;color:var(--accent);font-weight:700">${ifVal}</td>
+      <td style="text-align:right;white-space:nowrap;color:var(--muted)">${hVal}</td>
+      <td style="color:var(--muted);font-size:10px">▼</td>
+    </tr>
+    <tr class="journal-detail" id="jd-${i}">
+      <td colspan="8" style="padding:0">
+        <div style="display:flex;flex-wrap:wrap;border-top:1px solid var(--line)">
+          ${m.if2y?`<div class="journal-stat"><div class="val">${m.if2y.toFixed(2)}</div><div class="lbl">2yr IF (OpenAlex)</div></div>`:''}
+          ${m.h_index?`<div class="journal-stat"><div class="val">${m.h_index}</div><div class="lbl">h-index</div></div>`:''}
+          ${j.cites?`<div class="journal-stat"><div class="val">${(j.cites/Math.max(j.papers,1)).toFixed(1)}</div><div class="lbl">Cites / Paper</div></div>`:''}
+          ${m.works?`<div class="journal-stat"><div class="val">${m.works.toLocaleString()}</div><div class="lbl">Total Papers (all time)</div></div>`:''}
+          ${m.oa?`<div class="journal-stat"><div class="val" style="color:var(--accent2)">Open</div><div class="lbl">Access</div></div>`:''}
+          ${subj?`<div class="journal-stat" style="align-items:flex-start"><div style="font-size:11px;color:var(--txt)">${subj}</div><div class="lbl">Subject Areas</div></div>`:''}
+          ${m.homepage?`<div class="journal-stat"><a href="${m.homepage}" target="_blank" style="color:var(--accent);font-size:11px">🔗 Journal Site</a><div class="lbl">Homepage</div></div>`:''}
+        </div>
+        <div style="padding:8px 14px;font-size:10px;color:var(--muted);border-top:1px solid var(--line)">
+          Source: OpenAlex · IF = 2-year mean citedness · JCR quartile/percentile requires Clarivate subscription
+        </div>
+      </td>
+    </tr>`;
+  }).join("");
+}
+
+function toggleJournalDetail(i){
+  const el = document.getElementById('jd-'+i);
+  if(!el) return;
+  el.classList.toggle('open');
 }
 
 /* ===================== Technology 발화 추적 (별 Rank Bump Chart) ===================== */
@@ -3232,6 +3278,8 @@ async function loadData(){
   if(graph && graph.nodes && graph.nodes.length){ NODES = graph.nodes; LINKS = graph.links; }
   const country = await tryFetch("country.json");
   if(country && country.length){ COUNTRIES = country; }
+  const jmeta = await tryFetch("journal_meta.json");
+  if(jmeta) Object.assign(JOURNAL_META, jmeta);
   const net = await tryFetch("network.json");
   if(net && net.nodes && net.nodes.length){
     ORG_NODES = net.nodes; ORG_LINKS = net.links;
