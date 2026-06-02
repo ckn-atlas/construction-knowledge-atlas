@@ -34,6 +34,23 @@
     "score": 57
   },
   {
+    "t": "Artificial intelligence in the construction industry: A review of present status, opportunities and future challenges",
+    "j": "Journal of Building Engineering",
+    "y": 2021,
+    "date": "2021-10",
+    "cit": 889,
+    "fwci": 60.3855,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.jobe.2021.103299",
+    "tech": [
+      "Productivity",
+      "AI (general)",
+      "Engineering Management",
+      "Robotics"
+    ],
+    "score": 54
+  },
+  {
     "t": "Artificial intelligence applied to conceptual design. A review of its use in architecture",
     "j": "Automation in Construction",
     "y": 2021,
@@ -119,6 +136,21 @@
     "score": 39
   },
   {
+    "t": "Globalization and Architecture: Urban Homogenization and Challenges for Unprotected Heritage. The Case of Postmodern Buildings with Complex Geometric Shapes in the Ensanche of San Sebastián",
+    "j": "Buildings",
+    "y": 2025,
+    "date": "2025-02",
+    "cit": 10,
+    "fwci": 209.5164,
+    "oa": true,
+    "doi": "https://doi.org/10.3390/buildings15030497",
+    "tech": [
+      "Architecture",
+      "Architectural Engineering"
+    ],
+    "score": 39
+  },
+  {
     "t": "A cross-working-condition prediction method for bearing remaining useful life based on SPW-SVDD health indicators and temporal-self -attention mechanism",
     "j": "Advanced Engineering Informatics",
     "y": 2026,
@@ -132,6 +164,23 @@
       "Adaptability",
       "Feature (Linguistics)",
       "AI (general)"
+    ],
+    "score": 37
+  },
+  {
+    "t": "Machine learning prediction of mechanical properties of concrete: Critical review",
+    "j": "Construction and Building Materials",
+    "y": 2020,
+    "date": "2020-06",
+    "cit": 733,
+    "fwci": 48.6547,
+    "oa": false,
+    "doi": "https://doi.org/10.1016/j.conbuildmat.2020.119889",
+    "tech": [
+      "Neural Network",
+      "Computer Science",
+      "Machine Learning",
+      "Predictive Modelling"
     ],
     "score": 37
   },
@@ -165,6 +214,72 @@
       "Computer Science",
       "Construction Engineering",
       "Software Engineering"
+    ],
+    "score": 36
+  },
+  {
+    "t": "Digital twin application in the construction industry: A literature review",
+    "j": "Journal of Building Engineering",
+    "y": 2021,
+    "date": "2021-05",
+    "cit": 681,
+    "fwci": 67.5531,
+    "oa": false,
+    "doi": "https://doi.org/10.1016/j.jobe.2021.102726",
+    "tech": [
+      "Construction Industry",
+      "Engineering Management",
+      "Computer Science",
+      "Systems Engineering"
+    ],
+    "score": 36
+  },
+  {
+    "t": "Circular economy in the building and construction sector: A scientific evolution analysis",
+    "j": "Journal of Building Engineering",
+    "y": 2021,
+    "date": "2021-05",
+    "cit": 442,
+    "fwci": 55.8305,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.jobe.2021.102704",
+    "tech": [
+      "Architectural Engineering",
+      "Business"
+    ],
+    "score": 36
+  },
+  {
+    "t": "An overview of factors influencing thermal conductivity of building insulation materials",
+    "j": "Journal of Building Engineering",
+    "y": 2021,
+    "date": "2021-05",
+    "cit": 493,
+    "fwci": 38.637,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.jobe.2021.102604",
+    "tech": [
+      "Thermal Conductivity",
+      "Thermal Insulation",
+      "Materials Science",
+      "Thermal"
+    ],
+    "score": 36
+  },
+  {
+    "t": "Deep learning in the construction industry: A review of present status and future innovations",
+    "j": "Journal of Building Engineering",
+    "y": 2020,
+    "date": "2020-09",
+    "cit": 507,
+    "fwci": 31.4902,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.jobe.2020.101827",
+    "tech": [
+      "Deep Learning",
+      "AI (general)",
+      "Computer Science",
+      "Data Science"
     ],
     "score": 36
   },
@@ -218,125 +333,6 @@
       "Geology"
     ],
     "score": 35
-  },
-  {
-    "t": "Optimization of Earth Dam Cross-Sections Using the Max–Min Ant System and Artificial Neural Networks with Real Case Studies",
-    "j": "Buildings",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 8,
-    "fwci": 103.2234,
-    "oa": true,
-    "doi": "https://doi.org/10.3390/buildings16030501",
-    "tech": [
-      "Algorithm",
-      "Neural Network",
-      "Process (Computing)",
-      "Computer Science"
-    ],
-    "score": 35
-  },
-  {
-    "t": "Potential applications of geopolymer concrete in construction: A review",
-    "j": "Case Studies in Construction Materials",
-    "y": 2021,
-    "date": "2021-10",
-    "cit": 463,
-    "fwci": 43.5136,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.cscm.2021.e00733",
-    "tech": [
-      "Geopolymer",
-      "Cementitious",
-      "Pozzolan",
-      "Raw Material"
-    ],
-    "score": 35
-  },
-  {
-    "t": "Generative AI in architectural design: Application, data, and evaluation methods",
-    "j": "Automation in Construction",
-    "y": 2025,
-    "date": "2025-04",
-    "cit": 36,
-    "fwci": 252.6674,
-    "oa": false,
-    "doi": "https://doi.org/10.1016/j.autcon.2025.106174",
-    "tech": [
-      "Generative AI",
-      "Computer Science",
-      "Generative Grammar",
-      "Engineering Drawing"
-    ],
-    "score": 34
-  },
-  {
-    "t": "Structure-optimized deep forest model for railway port container reloading time prediction: A hybrid integer programming and Bayesian optimization approach",
-    "j": "Advanced Engineering Informatics",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 6,
-    "fwci": 93.1965,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.aei.2026.104309",
-    "tech": [
-      "Computer Science",
-      "Benchmark (Surveying)",
-      "Operations Research",
-      "Quality (Philosophy)"
-    ],
-    "score": 34
-  },
-  {
-    "t": "A research agenda for augmented and virtual reality in architecture, engineering and construction",
-    "j": "Advanced Engineering Informatics",
-    "y": 2020,
-    "date": "2020-06",
-    "cit": 464,
-    "fwci": 24.0295,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.aei.2020.101122",
-    "tech": [
-      "Workflow",
-      "Architecture",
-      "Knowledge Mgmt",
-      "Engineering Management"
-    ],
-    "score": 34
-  },
-  {
-    "t": "A Comprehensive Review on Dual-Pathway Utilization of Coal Gangue Concrete: Aggregate Substitution, Cementitious Activity Activation, and Performance Optimization",
-    "j": "Buildings",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 11,
-    "fwci": 93.2386,
-    "oa": true,
-    "doi": "https://doi.org/10.3390/buildings16020302",
-    "tech": [
-      "Cementitious",
-      "Environmental Science",
-      "Waste Management",
-      "Porosity"
-    ],
-    "score": 34
-  },
-  {
-    "t": "Integrating sustainable material performance and project success factors: insights from the lebanese construction sector",
-    "j": "Frontiers in Built Environment",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 3,
-    "fwci": 92.2914,
-    "oa": true,
-    "doi": "https://doi.org/10.3389/fbuil.2025.1734576",
-    "tech": [
-      "Sustainability",
-      "Business",
-      "Construction Industry",
-      "Construction Engineering"
-    ],
-    "score": 34
   },
   {
     "t": "How Music Alleviates Job Burnout: Uncovering the Mediating Mechanism of Leisure Crafting Among Construction Workers",
@@ -507,20 +503,88 @@
     "score": 28
   },
   {
-    "t": "Bridging dual knowledge graphs for multi-hop question answering in construction safety",
+    "t": "Optimization of Earth Dam Cross-Sections Using the Max–Min Ant System and Artificial Neural Networks with Real Case Studies",
+    "j": "Buildings",
+    "y": 2026,
+    "date": "2026-01",
+    "cit": 8,
+    "fwci": 103.2234,
+    "oa": true,
+    "doi": "https://doi.org/10.3390/buildings16030501",
+    "tech": [
+      "Algorithm",
+      "Neural Network",
+      "Process (Computing)",
+      "Computer Science"
+    ],
+    "score": 35
+  },
+  {
+    "t": "Generative AI in architectural design: Application, data, and evaluation methods",
     "j": "Automation in Construction",
+    "y": 2025,
+    "date": "2025-04",
+    "cit": 36,
+    "fwci": 252.6674,
+    "oa": false,
+    "doi": "https://doi.org/10.1016/j.autcon.2025.106174",
+    "tech": [
+      "Generative AI",
+      "Computer Science",
+      "Generative Grammar",
+      "Engineering Drawing"
+    ],
+    "score": 34
+  },
+  {
+    "t": "Structure-optimized deep forest model for railway port container reloading time prediction: A hybrid integer programming and Bayesian optimization approach",
+    "j": "Advanced Engineering Informatics",
+    "y": 2026,
+    "date": "2026-01",
+    "cit": 6,
+    "fwci": 93.1965,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.aei.2026.104309",
+    "tech": [
+      "Computer Science",
+      "Benchmark (Surveying)",
+      "Operations Research",
+      "Quality (Philosophy)"
+    ],
+    "score": 34
+  },
+  {
+    "t": "A Comprehensive Review on Dual-Pathway Utilization of Coal Gangue Concrete: Aggregate Substitution, Cementitious Activity Activation, and Performance Optimization",
+    "j": "Buildings",
+    "y": 2026,
+    "date": "2026-01",
+    "cit": 11,
+    "fwci": 93.2386,
+    "oa": true,
+    "doi": "https://doi.org/10.3390/buildings16020302",
+    "tech": [
+      "Cementitious",
+      "Environmental Science",
+      "Waste Management",
+      "Porosity"
+    ],
+    "score": 34
+  },
+  {
+    "t": "Integrating sustainable material performance and project success factors: insights from the lebanese construction sector",
+    "j": "Frontiers in Built Environment",
     "y": 2026,
     "date": "2026-01",
     "cit": 3,
-    "fwci": 80.5866,
+    "fwci": 92.2914,
     "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2026.106794",
+    "doi": "https://doi.org/10.3389/fbuil.2025.1734576",
     "tech": [
-      "Computer Science",
-      "AI (general)",
-      "NLP",
-      "Graph"
+      "Sustainability",
+      "Business",
+      "Construction Industry",
+      "Construction Engineering"
     ],
-    "score": 33
+    "score": 34
   }
 ]

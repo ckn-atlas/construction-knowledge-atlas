@@ -3,37 +3,37 @@
     "year": 2024,
     "top_keywords": [
       {
-        "id": "Computer Science",
-        "n": 3226
-      },
-      {
         "id": "Materials Science",
-        "n": 3043
+        "n": 10834
       },
       {
         "id": "Composite",
-        "n": 2486
+        "n": 9288
+      },
+      {
+        "id": "Computer Science",
+        "n": 6052
       },
       {
         "id": "Structural Engineering",
-        "n": 1784
+        "n": 5070
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 2486
+        "co": 9288
       },
       {
-        "a": "AI (general)",
-        "b": "Computer Science",
-        "co": 1474
+        "a": "Materials Science",
+        "b": "Structural Engineering",
+        "co": 3693
       },
       {
-        "a": "Geology",
-        "b": "Geotechnical Engineering",
-        "co": 1152
+        "a": "Composite",
+        "b": "Structural Engineering",
+        "co": 3115
       }
     ]
   },
@@ -42,36 +42,36 @@
     "top_keywords": [
       {
         "id": "Materials Science",
-        "n": 9979
+        "n": 10992
       },
       {
         "id": "Composite",
-        "n": 8107
+        "n": 8978
       },
       {
         "id": "Computer Science",
-        "n": 6246
+        "n": 6624
       },
       {
         "id": "Structural Engineering",
-        "n": 4897
+        "n": 5315
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 8107
+        "co": 8978
       },
       {
         "a": "Materials Science",
         "b": "Structural Engineering",
-        "co": 3437
+        "co": 3763
       },
       {
         "a": "Composite",
         "b": "Structural Engineering",
-        "co": 2691
+        "co": 2962
       }
     ]
   },
