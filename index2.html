@@ -1,0 +1,3683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construction Knowledge Atlas — Global Construction Technology Map</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Construction Knowledge Atlas is an interactive knowledge map of global construction technology research. Explore 13,000+ papers across AI, BIM, materials, structural engineering, robotics and more — visualized as ontology graphs, trend charts, and network maps.">
+<meta name="keywords" content="construction technology, BIM, AI construction, building materials, structural engineering, knowledge graph, research visualization, construction papers, tech ontology, construction innovation">
+<meta name="author" content="CKN Atlas">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://construction-knowledge-atlas.pages.dev">
+<meta name="google-site-verification" content="CpIJ55fslWsSzEw3zvWKOHJAAgb2JF7lh-le4o7tSn8" />
+
+<!-- Open Graph (SNS 공유 미리보기) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://construction-knowledge-atlas.pages.dev">
+<meta property="og:title" content="Construction Knowledge Atlas — Global Construction Technology Map">
+<meta property="og:description" content="Interactive knowledge map of 13,000+ global construction technology research papers. Explore AI, BIM, materials, structural engineering trends and institutional networks.">
+<meta property="og:image" content="https://construction-knowledge-atlas.pages.dev/og-image.png">
+<meta property="og:site_name" content="Construction Knowledge Atlas">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Construction Knowledge Atlas">
+<meta name="twitter:description" content="Interactive knowledge map of global construction technology research. Explore 13,000+ papers.">
+<meta name="twitter:image" content="https://construction-knowledge-atlas.pages.dev/og-image.png">
+
+<!-- Structured Data (Google 검색 리치 결과) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Construction Knowledge Atlas",
+  "description": "Interactive knowledge map of global construction technology research papers",
+  "url": "https://construction-knowledge-atlas.pages.dev",
+  "applicationCategory": "ResearchApplication",
+  "operatingSystem": "Web",
+  "offers": {"@type": "Offer", "price": "0"},
+  "author": {"@type": "Organization", "name": "CKN Atlas"},
+  "keywords": "construction technology, BIM, AI, structural engineering, knowledge graph"
+}
+</script>
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5331661212294614"
+     crossorigin="anonymous"></script>
+<!-- Google Analytics 4 — Replace with your actual Measurement ID -->
+<!-- How to replace: get G-XXXXXXXX from analytics.google.com -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HWFQQXWF66"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-HWFQQXWF66', {
+    page_title: 'Construction Knowledge Atlas',
+    send_page_view: true
+  });
+</script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script src="https://unpkg.com/3d-force-graph@1/dist/3d-force-graph.min.js"></script>
+<script src="https://unpkg.com/three-spritetext"></script>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c232c; --line:#2a323d;
+    --txt:#e6edf3; --muted:#8b97a6; --accent:#4dabf7; --accent2:#63e6be;
+    --up:#ff6b6b; --down:#4dabf7; --warn:#ffd43b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI','Malgun Gothic',system-ui,sans-serif;background:var(--bg);color:var(--txt);overflow-x:hidden}
+  header{display:flex;align-items:center;gap:16px;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:200}
+  header h1{font-size:27px;font-weight:700;letter-spacing:-.3px}
+  header h1 span{color:var(--accent)}
+  header .sub{font-size:12px;color:var(--muted)}
+  nav{display:flex;gap:4px;margin-left:auto}
+  nav button{background:transparent;border:1px solid transparent;color:var(--muted);padding:7px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600}
+  nav button:hover{color:var(--txt);background:var(--panel2)}
+  nav button.active{color:#fff;background:var(--accent);border-color:var(--accent)}
+  /* .layout removed */
+  main{display:block}
+  aside{width:320px;border-left:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:16px;display:none}
+  .view{display:block;position:relative;width:100%;padding-bottom:64px;border-bottom:2px solid var(--line);scroll-margin-top:58px}
+  /* graph */
+  svg{width:100%;height:100%;display:block;cursor:grab}
+  svg:active{cursor:grabbing}
+  .link{stroke:#3a4757;stroke-opacity:.6}
+  .tlink{fill:none;stroke-opacity:.7}
+  .tlink.dim{opacity:.06}
+  .node circle{cursor:pointer}
+  .node text{font-size:11px;fill:var(--txt);pointer-events:none;text-shadow:0 1px 3px #000}
+  .node:hover circle{stroke:#fff;stroke-width:2.5px}
+  /* sidebar */
+  .card{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:14px}
+  .card h3{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;font-weight:700}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;color:var(--muted);font-weight:600;padding:6px 4px;border-bottom:1px solid var(--line)}
+  td{padding:7px 4px;border-bottom:1px solid #21272f}
+  tr:last-child td{border-bottom:none}
+  .up{color:var(--up);font-weight:700}
+  .down{color:var(--down);font-weight:700}
+  .pill{display:inline-block;background:#22303f;color:var(--accent);border-radius:6px;padding:3px 9px;font-size:12px;margin:3px 4px 0 0;font-weight:600}
+  .pill.hot{background:#3a1f24;color:var(--up)}
+  .legend{font-size:11px;color:var(--muted);line-height:1.9}
+  .legend b{color:var(--txt)}
+  .swatch{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+  /* time slider */
+  .timebar{position:absolute;left:20px;bottom:20px;background:rgba(14,17,22,.92);border:1px solid var(--line);border-radius:10px;padding:12px 16px;display:flex;align-items:center;gap:12px;backdrop-filter:blur(4px)}
+  /* 키워드 Rank 패널 */
+  #rankPanel{position:absolute;left:10px;top:80px;width:230px;background:rgba(14,17,22,.92);border:1px solid var(--line);border-radius:10px;padding:10px 12px;z-index:4;backdrop-filter:blur(4px);max-height:calc(100% - 160px);overflow-y:auto}
+  #rankPanel .rk-title{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.5px;margin-bottom:8px;text-transform:uppercase}
+  #rankPanel .rk-row{display:flex;align-items:center;gap:6px;margin-bottom:5px;cursor:pointer}
+  #rankPanel .rk-row:hover .rk-name{color:#fff}
+  #rankPanel .rk-num{font-size:10px;font-weight:700;color:var(--muted);min-width:16px;text-align:right}
+  #rankPanel .rk-name{font-size:11px;color:var(--txt);min-width:90px;max-width:90px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+  #rankPanel .rk-bar-wrap{flex:1;background:#1e2530;border-radius:3px;height:8px;overflow:hidden}
+  #rankPanel .rk-bar{height:100%;border-radius:3px;transition:width .3s}
+  #rankPanel .rk-val{font-size:10px;font-weight:700;color:var(--txt);min-width:28px;text-align:right}
+  .timebar label{font-size:12px;color:var(--muted)}
+  .timebar input{width:160px;accent-color:var(--accent)}
+  .timebar .yr{font-size:15px;font-weight:800;color:var(--accent);min-width:96px}
+  .hint{position:absolute;right:20px;top:50px;font-size:11px;color:var(--muted);background:rgba(14,17,22,.85);padding:6px 10px;border-radius:6px;z-index:2}
+  .groupfilter{position:absolute;left:20px;top:14px;z-index:3;display:flex;flex-wrap:wrap;gap:6px;max-width:60%}
+  .groupfilter button{background:rgba(14,17,22,.92);border:1px solid var(--line);color:var(--muted);padding:5px 11px;border-radius:14px;cursor:pointer;font-size:12px;font-weight:600;display:flex;align-items:center;gap:6px}
+  .groupfilter button:hover{color:var(--txt)}
+  .groupfilter button.on{color:#fff;border-color:var(--accent);background:#1a2535}
+  .groupfilter button .dot{width:9px;height:9px;border-radius:50%}
+  .mode-toggle{position:absolute;right:20px;top:14px;z-index:3;display:flex;gap:4px}
+  .mode-btn{background:rgba(14,17,22,.92);border:1px solid var(--line);color:var(--muted);padding:5px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600}
+  .mode-btn:hover{color:var(--txt)}
+  .mode-btn.active{color:#fff;background:var(--accent);border-color:var(--accent)}
+  .node.dim{opacity:.08}
+  .link.dim{opacity:.04}
+  /* country */
+  .bar-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;cursor:pointer}
+  .bar-row:hover .bar-label{color:#fff}
+  .bar-label{width:64px;font-size:13px;color:var(--muted)}
+  .bar-track{flex:1;background:#21272f;border-radius:5px;height:22px;position:relative;overflow:hidden}
+  .bar-fill{height:100%;background:linear-gradient(90deg,#2f6f9f,var(--accent));border-radius:5px;display:flex;align-items:center;justify-content:flex-end;padding-right:8px;font-size:11px;font-weight:700;color:#fff}
+  .country-detail{margin-top:18px}
+  /* world map */
+  .map-wrap{flex:1;position:relative;min-width:0}
+  .country-shape{stroke:#0e1116;stroke-width:.4px;cursor:pointer;transition:fill .15s}
+  .country-shape:hover{stroke:#fff;stroke-width:1px}
+  .country-shape.sel{stroke:#63e6be;stroke-width:1.5px}
+  .maptip{position:absolute;pointer-events:none;background:rgba(14,17,22,.96);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12px;display:none;z-index:5;white-space:nowrap}
+  .map-legend{position:absolute;left:8px;bottom:8px;background:rgba(14,17,22,.88);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:11px;color:var(--muted)}
+  .map-legend .grad{width:120px;height:9px;border-radius:3px;margin:4px 0;background:linear-gradient(90deg,#1c3144,#4dabf7)}
+  .ctry-side{width:300px;overflow-y:auto;flex-shrink:0}
+  .ctry-side h3{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin:4px 0 10px;font-weight:700}
+  /* impact cards */
+  .paper{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:12px}
+  .paper .score{float:right;font-size:22px;font-weight:800;color:var(--accent2)}
+  .paper h4{font-size:14px;margin-bottom:4px;padding-right:60px}
+  .paper .meta{font-size:11px;color:var(--muted);margin-bottom:8px}
+  .paper .vid{display:inline-block;margin-top:8px;background:#22303f;color:var(--accent);border:1px solid var(--line);border-radius:6px;padding:5px 12px;font-size:12px;font-weight:600;cursor:pointer}
+  .metric-bd{font-size:11px;color:var(--muted);margin-top:6px;line-height:1.7}
+  .impact-filter{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:5px 16px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s}
+  .impact-filter.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
+  .latest-range-btn{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:16px;padding:3px 12px;font-size:11px;font-weight:600;cursor:pointer;transition:all .15s}
+  .latest-range-btn.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
+  .latest-card{background:var(--panel2);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+  .latest-card-img{width:100%;height:160px;object-fit:cover;display:block}
+  .latest-card-body{padding:14px;flex:1;display:flex;flex-direction:column;gap:8px}
+  .latest-card-theme{font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+  .latest-card-title{font-size:13px;font-weight:600;line-height:1.4;color:var(--txt)}
+  .latest-card-meta{font-size:11px;color:var(--muted)}
+  .latest-card-abstract{font-size:12px;color:var(--txt);line-height:1.6;flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical}
+  .latest-card-footer{display:flex;align-items:center;justify-content:space-between;padding-top:8px;border-top:1px solid var(--line);margin-top:auto}
+  .evo-filter{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:4px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s}
+  .evo-filter.active{background:#3d4f64;color:#fff;border-color:#4a6080}
+  .net-period-btn{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:16px;padding:3px 12px;font-size:11px;font-weight:600;cursor:pointer;transition:all .15s}
+  .net-period-btn.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
+  .evo-view-btn{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:5px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s}
+  .evo-view-btn.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
+  .metric-bd b{color:var(--txt)}
+  /* evolution */
+  .evo{padding:40px 60px;}
+  .evo h2{margin-bottom:6px;font-size:22px}
+  .evo-row{display:flex;align-items:flex-start;gap:20px;margin-bottom:4px}
+  .evo-yr{width:60px;font-size:20px;font-weight:800;color:var(--accent);padding-top:10px}
+  .evo-box{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:12px 18px;font-size:14px}
+  .evo-line{width:60px;text-align:center;color:var(--line);font-size:20px;height:18px;line-height:18px}
+  .panel-title{font-size:clamp(22px,3vw,32px);font-weight:800;padding:36px 32px 8px;}
+  .panel-sub{font-size:14px;color:var(--muted);padding:0 32px 20px;max-width:720px;line-height:1.6}
+  .net-wrap{padding:0 32px}
+  .journal-row{cursor:pointer;transition:background .15s}
+  .journal-row:hover{background:var(--panel2)}
+  .journal-detail{display:none;background:var(--panel2);border-top:1px solid var(--line)}
+  .journal-detail.open{display:table-row}
+  .journal-stat{display:inline-flex;flex-direction:column;align-items:center;padding:10px 18px;border-right:1px solid var(--line)}
+  .journal-stat:last-child{border-right:none}
+  .journal-stat .val{font-size:18px;font-weight:800;color:var(--accent)}
+  .journal-stat .lbl{font-size:10px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:.4px}
+  /* ── 좌측 고정 세로 배너 ── */
+  #adLeft{
+    position:fixed;left:0;top:50%;transform:translateY(-50%);
+    width:160px;z-index:200;
+    background:#1a2332;border:1px solid #2e3f54;border-radius:0 10px 10px 0;
+    box-shadow:3px 0 16px rgba(0,0,0,.5);transition:left .3s ease;overflow:hidden;
+  }
+  #adLeft.collapsed{left:-140px}
+  #adLeft .adl-tab{
+    position:absolute;right:-22px;top:50%;transform:translateY(-50%);
+    width:22px;height:60px;background:#1a2332;border:1px solid #2e3f54;
+    border-left:none;border-radius:0 8px 8px 0;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    font-size:10px;writing-mode:vertical-rl;color:#5c6b7a;user-select:none;
+  }
+  #adLeft .adl-header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:6px 8px;background:#162030;border-bottom:1px solid #2e3f54;
+  }
+  #adLeft .adl-label{font-size:9px;color:#4a6a8a;letter-spacing:.5px;text-transform:uppercase}
+  #adLeft .adl-close{background:none;border:none;color:#5c6b7a;font-size:13px;cursor:pointer;padding:0 2px}
+  #adLeft .adl-body{padding:10px 8px;min-height:300px}
+  /* ── 슬라이드인 광고 배너 ── */
+  #adBanner{
+    position:fixed;bottom:-200px;right:24px;width:300px;
+    background:#1a2332;border:1px solid #2e3f54;border-radius:12px;
+    box-shadow:0 8px 32px rgba(0,0,0,.6);z-index:9999;
+    transition:bottom .4s cubic-bezier(.22,1,.36,1);
+    overflow:hidden;
+  }
+  #adBanner.show{bottom:24px}
+  #adBanner .ad-header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:8px 12px;background:#162030;border-bottom:1px solid #2e3f54;
+  }
+  #adBanner .ad-label{font-size:10px;color:#4a6a8a;letter-spacing:.5px;text-transform:uppercase}
+  #adBanner .ad-close{
+    background:none;border:none;color:#5c6b7a;font-size:16px;cursor:pointer;
+    line-height:1;padding:2px 4px;border-radius:4px;
+  }
+  #adBanner .ad-close:hover{color:#fff;background:#2a3a4d}
+  #adBanner .ad-body{padding:14px;min-height:90px}
+
+  /* ── 모바일 반응형 ── */
+  @media (max-width: 768px) {
+    /* 헤더 */
+    header { padding:8px 12px; gap:8px; flex-wrap:wrap; }
+    header h1 { font-size:18px; }
+    .sub { display:none; }
+    #adHeader { display:none !important; }
+
+    /* 탭 네비게이션 가로 스크롤 */
+    nav { overflow-x:auto; flex-wrap:nowrap; gap:2px; -webkit-overflow-scrolling:touch; padding-bottom:2px; max-width:100%; }
+    nav button { padding:5px 10px; font-size:11px; white-space:nowrap; flex-shrink:0; }
+
+    /* 사이드바 숨기기 */
+    aside { display:none; }
+
+    /* 레이아웃 풀 너비 */
+    .layout { flex-direction:column; }
+    main { width:100%; }
+
+    /* 탭 뷰 padding 줄이기 */
+    .panel-title { font-size:16px; padding:12px 14px 4px; }
+    .panel-sub { font-size:11px; padding:0 14px 10px; }
+    .net-wrap { padding:0 12px; }
+    .evo { padding:16px 14px; }
+
+    /* 카드 그리드 모바일 1열 */
+    #latestGrid > div,
+    #impactList > div { grid-template-columns:1fr !important; }
+    .latest-card-img { height:120px; }
+
+    /* 국가별 분석 */
+    #view-country { overflow-y:auto; }
+    .map-wrap { min-height:200px; }
+    .ctry-side { width:100%; }
+
+    /* 기관 네트워크 탭 */
+    #netGraph { height:340px !important; }
+
+    /* 폰트 크기 축소 */
+    .paper h4 { font-size:12px; }
+    .metric-bd { font-size:10px; }
+
+    /* 좌측 광고 배너 숨기기 */
+    #adLeft { display:none !important; }
+
+    /* 타임바 */
+    .timebar { left:8px; right:8px; bottom:12px; font-size:11px; }
+    .timebar input { width:100px; }
+
+    /* 모드 토글 버튼 */
+    .mode-toggle { top:8px; right:8px; gap:2px; }
+    .mode-btn { padding:3px 8px; font-size:10px; }
+  }
+
+
+  /* graph overlay */
+  #graphOverlay{display:none;position:fixed;inset:0;z-index:300;background:var(--bg);flex-direction:column}
+  #graphOverlay.open{display:flex}
+  #goHeader{display:flex;align-items:center;gap:12px;padding:10px 20px;border-bottom:1px solid var(--line);background:var(--panel);flex-shrink:0}
+  #goHeader h2{font-size:16px;font-weight:700}
+  #goClose{margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--muted);padding:5px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600}
+  #goClose:hover{color:var(--txt);border-color:var(--txt)}
+  #goBody{display:flex;flex:1;overflow:hidden}
+  #goMain{flex:1;position:relative;overflow:hidden}
+  #graphOverlay aside{display:block}
+  /* graph placeholder */
+  .graph-cta{display:flex;align-items:center;gap:32px;flex-wrap:wrap;padding:36px 32px}
+  .graph-open-btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:#0e1116;border:none;border-radius:10px;padding:16px 32px;font-size:16px;font-weight:700;cursor:pointer;transition:opacity .15s;white-space:nowrap}
+  .graph-open-btn:hover{opacity:.85}
+  .graph-cta-desc{flex:1;min-width:200px}
+  .graph-cta-desc h3{font-size:17px;font-weight:700;margin-bottom:8px}
+  .graph-cta-desc p{font-size:13px;color:var(--muted);line-height:1.8}
+  /* map/network heights */
+  .map-zone{display:flex;gap:16px;padding:0 32px;height:480px}
+  #netGraph{height:480px !important}
+  #net3dWrap{height:480px !important}
+  /* scroll overrides */
+  #impactList{height:auto !important;overflow:visible !important}
+  .journal-wrap{height:auto !important;overflow:visible !important}
+  /* scroll-spy */
+  nav button.spy{color:var(--txt);background:var(--panel2);border-color:var(--line)}
+  /* mobile */
+  @media(max-width:768px){
+    .panel-title{padding:24px 16px 6px !important}
+    .panel-sub{padding:0 16px 14px !important}
+    .net-wrap{padding:0 16px !important}
+    .map-zone{height:300px;padding:0 12px}
+    #netGraph{height:300px !important}
+    #net3dWrap{height:300px !important}
+    .graph-cta{padding:20px 16px;gap:16px}
+    .evo{padding:24px 16px !important}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Construction <span>Knowledge Atlas</span></h1>
+  <span class="sub"></span>
+
+  <!-- 헤더 중앙 광고 (728×90 Leaderboard) -->
+  <div id="adHeader" style="flex:1;display:flex;justify-content:center;align-items:center;padding:0 16px;min-width:0">
+    <div style="width:728px;max-width:100%;height:58px;background:#1a2332;border:1px solid #2e3f54;
+      border-radius:8px;display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0">
+      <!--
+        ✅ Insert header ad code here (728×90 Leaderboard)
+
+        [AdSense example]
+        <ins class="adsbygoogle"
+          style="display:inline-block;width:728px;height:90px"
+          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+          data-ad-slot="XXXXXXXXXX"></ins>
+        <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
+
+        [Custom banner example]
+        <a href="https://your-sponsor.com" target="_blank">
+          <img src="banner_728x90.png" style="height:58px;width:auto" alt="">
+        </a>
+      -->
+      <!-- 테스트 배너 -->
+      <a href="#" onclick="return false" style="display:flex;align-items:center;gap:16px;text-decoration:none;padding:0 20px;width:100%">
+        <div style="font-size:10px;font-weight:700;color:#4a6a8a;white-space:nowrap">AD</div>
+        <div style="flex:1;display:flex;align-items:center;gap:12px">
+          <span style="font-size:13px;font-weight:700;color:var(--accent)">🏗️ BuildTech Pro</span>
+          <span style="font-size:11px;color:#8b97a6">BIM·AI Construction Automation Solution · Free Demo — Boost Productivity 40%</span>
+        </div>
+        <div style="background:var(--accent);color:#0e1116;font-size:11px;font-weight:700;
+          padding:4px 12px;border-radius:6px;white-space:nowrap">Get Started →</div>
+      </a>
+    </div>
+  </div>
+
+  <nav id="mainNav">
+    <button data-spy="view-latest"   onclick="scrollSec('view-latest')">🔬 Latest</button>
+    <button data-spy="view-impact"   onclick="scrollSec('view-impact')">Impact Papers</button>
+    <button data-spy="view-graph-ph" onclick="openGraph()">🧬 Tech Ontology</button>
+    <button data-spy="view-country"  onclick="scrollSec('view-country')">Country Analysis</button>
+    <button data-spy="view-network"  onclick="scrollSec('view-network')">Institution Network</button>
+    <button data-spy="view-evo"      onclick="scrollSec('view-evo')">Tech Evolution</button>
+    <button data-spy="view-journals" onclick="scrollSec('view-journals')">Journals</button>
+  </nav>
+</header>
+
+<!-- GRAPH OVERLAY -->
+<div id="graphOverlay">
+  <div id="goHeader">
+    <h2>🧬 Tech Ontology</h2>
+    <span style="font-size:12px;color:var(--muted)">Hierarchy Tree · Knowledge Graph · KG Summary</span>
+    <button id="goClose" onclick="closeGraph()">✕ Close  <kbd style="font-size:10px;opacity:.6">ESC</kbd></button>
+  </div>
+  <div id="goBody">
+    <div id="goMain">
+    <!-- ONTOLOGY GRAPH (overlay) -->
+    <section id="view-graph" style="display:block;height:100%;position:relative">
+      <div class="hint" id="graphHint">Radial hierarchy tree · Color=theme · Size=papers · Slider=monthly · Click node for details</div>
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="btn-tree"    onclick="setGraphMode('tree')">Hierarchy Tree</button>
+        <button class="mode-btn"        id="btn-force"   onclick="setGraphMode('force')">Knowledge Graph</button>
+        <button class="mode-btn"        id="btn-summary" onclick="setGraphMode('summary')">KG Summary</button>
+        <select id="oaLevelFilter" onchange="onOaLevelChange()"
+          style="margin-left:8px;background:#1a2535;color:#cdd9e5;border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:11px;cursor:pointer">
+          <option value="-1">All Levels</option>
+          <option value="2">lv0-2 (Broad)</option>
+          <option value="3">lv3+ (Mid)</option>
+          <option value="4">lv4+ (Specific)</option>
+          <option value="5">lv5 (Ultra)</option>
+        </select>
+      </div>
+      <div id="groupFilter" class="groupfilter"></div>
+      <div id="rankPanel">
+        <div class="rk-title">Paper Rank <span id="rankMonth" style="color:var(--accent)"></span></div>
+        <div id="rankList"></div>
+      </div>
+      <svg id="graph"></svg>
+      <div class="timebar">
+        <label>Period</label>
+        <span class="yr" id="yrLabel">—</span>
+        <input type="range" id="yr" min="0" max="0" step="1" value="0">
+        <span style="font-size:11px;color:var(--muted);margin-left:10px">Top</span>
+        <input type="number" id="topN" value="30" min="5" max="55"
+          style="width:42px;background:#21272f;border:1px solid var(--line);color:var(--txt);
+                 border-radius:4px;padding:2px 5px;font-size:12px;font-weight:700;text-align:center">
+        <span style="font-size:11px;color:var(--muted)">items</span>
+      </div>
+    </section>
+
+    <!-- GRAPH placeholder -->
+    <section class="view" id="view-graph-ph">
+      <div class="panel-title">🧬 Tech Ontology</div>
+      <p class="panel-sub">Interactive visualization of construction technology concepts — explore hierarchy trees, force-directed networks, and theme summaries across 100+ tracked technologies.</p>
+      <div class="graph-cta">
+        <button class="graph-open-btn" onclick="openGraph()">⧁ Open Interactive Graph →</button>
+        <div class="graph-cta-desc">
+          <h3>What's inside</h3>
+          <p>🌳 Hierarchy Tree — radial concept structure<br>
+             🔗 Knowledge Graph — force-directed network<br>
+             📊 KG Summary — theme-level overview<br>
+             📅 Month slider — track monthly trends</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTRY -->
+    <section class="view" id="view-country" style="overflow-y:auto">
+      <div class="panel-title">Country Tech Influence</div>
+      <div class="panel-sub">색이 진할수록 Paper Count가 많습니다. Click map or rank to see key institutions & technologies. <b>여러 나라를 클릭</b>하면 연도별 비교 차트가 표시됩니다.</div>
+      <div class="map-zone">
+        <div class="map-wrap">
+          <svg id="worldMap"></svg>
+          <div class="maptip" id="mapTip"></div>
+          <div class="map-legend">Paper Count<div class="grad"></div><span id="legLo">0</span> ~ <span id="legHi">max</span></div>
+        </div>
+        <div class="ctry-side">
+          <h3>Paper Rank</h3>
+          <div id="countryBars"></div>
+          <div class="country-detail card" id="countryDetail" style="display:none"></div>
+        </div>
+      </div>
+      <!-- Comparison chart + ontology layout -->
+      <div id="countryChartWrap" style="padding:8px 24px 20px;display:none;gap:16px">
+        <!-- Left: annual comparison chart -->
+        <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:8px">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-size:13px;font-weight:700;color:var(--txt)">Annual Paper Comparison</span>
+            <div id="ctryChipList" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+            <button id="ctryChartClear" style="margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:3px 10px;font-size:11px;cursor:pointer">Clear Selection</button>
+          </div>
+          <div id="countryChart" style="height:280px;position:relative"></div>
+        </div>
+        <!-- Right: Keyword Ontology (shown when 1 country selected) -->
+        <div id="ctryOntologyWrap" style="flex:1;min-width:0;display:none;flex-direction:column;gap:6px">
+          <div style="display:flex;align-items:center;gap:8px">
+            <span id="ctryOntologyTitle" style="font-size:13px;font-weight:700;color:var(--txt)">Keyword Ontology</span>
+            <span style="font-size:11px;color:var(--muted)">Node size = papers</span>
+          </div>
+          <div id="ctryOntologyGraph" style="flex:1;height:0;min-height:260px;position:relative;background:var(--panel2);border:1px solid var(--line);border-radius:8px;overflow:hidden"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NETWORK -->
+    <section class="view" id="view-network">
+      <div style="display:flex;align-items:center;padding:16px 24px 6px;gap:12px">
+        <div class="panel-title" style="padding:0;margin:0">Institution Co-author Network</div>
+        <div style="display:flex;gap:4px;margin-left:auto">
+          <button class="mode-btn active" id="btn-net-force" onclick="switchNetView('force')">🔗 Force 2D</button>
+          <button class="mode-btn" id="btn-net-3d"   onclick="switchNetView('3d')">🔮 Force 3D</button>
+          <button class="mode-btn" id="btn-net-map"  onclick="switchNetView('map')">🗺 Map</button>
+        </div>
+      </div>
+      <!-- 기간 선택 UI -->
+      <div style="display:flex;align-items:center;gap:10px;padding:4px 24px 8px;flex-wrap:wrap">
+        <span style="font-size:12px;color:var(--muted)">Period:</span>
+        <div style="display:flex;gap:4px">
+          <button class="net-period-btn active" data-period="all" onclick="setNetPeriod('all')">All Time</button>
+          <button class="net-period-btn" data-period="3y" onclick="setNetPeriod('3y')">3-Year</button>
+          <button class="net-period-btn" data-period="1y" onclick="setNetPeriod('1y')">1-Year</button>
+          <button class="net-period-btn" data-period="6m" onclick="setNetPeriod('6m')">6-Month</button>
+        </div>
+        <div id="netPeriodSliderWrap" style="display:none;align-items:center;gap:8px">
+          <button onclick="netPeriodStep(-1)" style="background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:4px;padding:2px 8px;cursor:pointer">◀</button>
+          <span id="netPeriodLabel" style="font-size:12px;font-weight:700;color:var(--accent);min-width:80px;text-align:center"></span>
+          <button onclick="netPeriodStep(1)" style="background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:4px;padding:2px 8px;cursor:pointer">▶</button>
+        </div>
+      </div>
+      <div class="panel-sub" id="netSub">Node=institution(color=country) · Link=co-papers. Drag & zoom to explore.</div>
+      <svg id="netGraph"></svg>
+      <div id="net3dWrap" style="display:none;position:relative">
+        <div id="net3dGraph" style="width:100%;height:100%"></div>
+        <!-- Country legend (click → fly to cluster) -->
+        <div id="net3dLegend" style="position:absolute;top:12px;left:12px;background:rgba(14,17,22,.92);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:12px;z-index:5"></div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="view" id="view-impact">
+      <div class="panel-title">Impact Paper Analysis</div>
+      <div class="panel-sub">Impact Score = Citations + FWCI + Recency + Open Access</div>
+      <div style="padding:0 24px 12px;display:flex;gap:8px">
+        <button class="impact-filter active" data-period="theme">📌 By Theme</button>
+        <button class="impact-filter" data-period="3y">Last 3 Years</button>
+        <button class="impact-filter" data-period="3m">Last 3 Months</button>
+      </div>
+      <div class="net-wrap" id="impactList"></div>
+    </section>
+
+    <!-- LATEST -->
+    <section class="view active" id="view-latest" style="overflow-y:auto">
+      <div class="panel-title">🔬 Latest Research Highlights</div>
+      <div class="panel-sub" id="latestSub">Top-cited recent paper per theme · FWCI-ranked · Updated regularly</div>
+      <div style="padding:0 24px 8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <div style="display:flex;gap:4px">
+          <button class="latest-range-btn active" data-range="month" onclick="setLatestRange('month')">Last 30 Days</button>
+          <button class="latest-range-btn" data-range="week" onclick="setLatestRange('week')">Last 7 Days</button>
+        </div>
+        <span id="latestMeta" style="font-size:11px;color:var(--muted)"></span>
+        <button id="latestRefreshBtn" onclick="refreshLatest()" style="margin-left:auto;background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 12px;font-size:11px;cursor:pointer">↻ Refresh</button>
+      </div>
+      <div id="latestGrid" style="padding:0 24px 24px"></div>
+    </section>
+
+    <!-- JOURNALS -->
+    <section class="view" id="view-journals">
+      <div class="panel-title">Journal Coverage</div>
+      <div class="panel-sub" id="journalSub">Papers and citations per journal collected.</div>
+      <div class="net-wrap journal-wrap">
+        <table id="journalTable" style="font-size:13px">
+          <thead><tr><th>#</th><th>Journal</th><th style="text-align:right">Papers</th><th>Paper Share</th><th style="text-align:right">Citations</th><th style="text-align:right">IF (2yr)</th><th style="text-align:right">h-index</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <!-- EVOLUTION -->
+    <section class="view" id="view-evo">
+      <div class="evo">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap">
+          <h2 style="margin:0" id="evoTitle">Technology Emergence Tree</h2>
+          <div style="display:flex;gap:4px;margin-left:auto">
+            <button class="evo-view-btn active" data-eview="tree">🌿 Emergence Tree</button>
+            <button class="evo-view-btn" data-eview="bump">📈 Rank Trend</button>
+          </div>
+        </div>
+        <!-- 트리 전용 컨트롤 -->
+        <div id="evoTreeCtrl" style="color:var(--muted);font-size:12px;margin-bottom:12px">
+          Node size=papers · Color=growth(🟢up 🔴down ⬜stable) · Click to expand/collapse
+        </div>
+        <!-- 범프차트 전용 컨트롤 -->
+        <div id="evoBumpCtrl" style="display:none;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:18px">
+          <span style="font-size:12px;color:var(--muted)">Level Filter:</span>
+          <button class="evo-filter active" data-level="specific">Specific only</button>
+          <button class="evo-filter" data-level="all">All</button>
+          <span style="font-size:11px;color:var(--muted);margin-left:8px">Solid=specific · Dashed=broad · Hover for hierarchy</span>
+        </div>
+        <div id="evoTimeline"></div>
+      </div>
+    </section>
+    </div><!-- goMain -->
+    <aside id="sidebar">
+    <div class="card" id="nodeInfo">
+      <h3>Selected Technology</h3>
+      <div style="color:var(--muted);font-size:13px">Click a node in the graph.</div>
+    </div>
+    <div class="card">
+      <h3>Tech Trends (Papers)</h3>
+      <div id="trendSub" style="font-size:11px;color:var(--muted);margin-bottom:6px">Change = 2024→2025년  전 대비</div>
+      <table id="trendTable">
+        <thead><tr><th>Technology</th><th>Papers</th><th>Change</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>🚀 Fast-Growing Tech <span id="risingLabel" style="font-size:11px;font-weight:400;color:var(--muted)"></span></h3>
+      <div id="risingFormula" style="font-size:10px;color:var(--muted);line-height:1.6;margin-bottom:8px;padding:6px 8px;background:#111820;border-radius:6px;display:none">
+        <b style="color:#74c0fc">F-score</b> = 2·P·R / (P+R)<br>
+        <b>P</b>(Growth Rate) = (Recent 3mo − prevYrsame period) / (prevYrsame period+1)<br>
+        <b>R</b>(Market Share) = Recent 3mo / total<br>
+        <span style="color:#4a5568">High absolute volume AND growth rate required for top rank</span>
+      </div>
+      <div id="risingTech"></div>
+    </div>
+    <div class="card">
+      <h3>Legend</h3>
+      <div class="legend">
+        <div style="margin-bottom:4px"><b>Fill = theme</b></div>
+        <div id="legendThemes" style="margin-bottom:8px"></div>
+        <div style="margin-top:6px">Node size ∝ papers<br>Link width ∝ co-occurrence</div>
+      </div>
+    </div>
+  </aside>
+  </div><!-- goBody -->
+</div><!-- graphOverlay -->
+
+<main id="scrollMain">
+
+<script>
+/* ===================== 폴백 샘플 (data/*.json 없을 때) ===================== */
+let NODES = [
+  {id:"AI",group:"AI",papers:125,growth:35},{id:"Computer Vision",group:"AI",papers:78,growth:22},
+  {id:"Visual SLAM",group:"AI",papers:41,growth:18},{id:"Safety Monitoring",group:"AI",papers:54,growth:26},
+  {id:"LLM",group:"AI",papers:47,growth:48},{id:"BIM",group:"BIM",papers:98,growth:11},
+  {id:"BIM Automation",group:"BIM",papers:63,growth:18},{id:"Digital Twin",group:"DT",papers:88,growth:34},
+  {id:"Robotics",group:"Robot",papers:87,growth:21},{id:"IoT Monitoring",group:"IoT",papers:54,growth:9},
+  {id:"Sustainability",group:"Eco",papers:61,growth:11},{id:"Concrete",group:"Eco",papers:72,growth:14},
+];
+let LINKS = [
+  ["AI","Computer Vision",51],["Computer Vision","Visual SLAM",28],["AI","LLM",44],["AI","BIM",37],
+  ["AI","Digital Twin",51],["BIM","BIM Automation",40],["BIM","Digital Twin",74],["Digital Twin","Robotics",27],
+  ["AI","Robotics",24],["IoT Monitoring","Digital Twin",29],["BIM","Sustainability",16],["AI","Concrete",30],
+];
+let COUNTRIES = [
+  {c:"China",code:"CN",papers:3187,cites:10632,orgs:["Tsinghua","Tongji"],tech:["AI","Concrete"]},
+  {c:"USA",code:"US",papers:558,cites:1458,orgs:["Stanford","MIT"],tech:["AI","Digital Twin"]},
+  {c:"Korea",code:"KR",papers:286,cites:705,orgs:["KAIST","KICT"],tech:["BIM","Safety Monitoring"]},
+];
+// Institution 위도/경도 [lat, lon]
+const ORG_COORDS = {
+  "Tsinghua University":[40.0048,116.3264],"Tongji University":[31.2808,121.4923],
+  "Southeast University":[32.0580,118.7965],"Chongqing University":[29.5788,106.5170],
+  "Chang'an University":[34.2583,108.9428],"Wuhan University":[30.5400,114.3628],
+  "Zhejiang University":[30.2656,120.1249],"Nankai University":[39.1063,117.1751],
+  "Harbin Institute of Technology":[45.7258,126.6278],"Xi'an Jiaotong University":[34.2583,108.9998],
+  "Hong Kong Polytechnic University":[22.3037,114.1803],
+  "Hong Kong University of Science and Technology":[22.3354,114.2636],
+  "City University of Hong Kong":[22.3364,114.1726],
+  "University of Hong Kong":[22.2840,114.1340],
+  "National University of Singapore":[1.2966,103.7764],
+  "Nanyang Technological University":[1.3483,103.6831],
+  "Seoul National University":[37.4601,126.9528],
+  "Korea University":[37.5894,127.0320],
+  "Korean Institute of Civil Engineering and Building Technology":[37.3907,127.1224],
+  "University of Cambridge":[52.2054,0.1132],
+  "University College London":[51.5246,-0.1336],
+  "University of Leeds":[53.8067,-1.5550],
+  "Centre National de la Recherche Scientifique":[48.8568,2.3514],
+  "Delft University of Technology":[51.9987,4.3737],
+  "Technical University of Munich":[48.1497,11.5681],
+  "Politecnico di Milano":[45.4788,9.2276],
+  "University of Auckland":[-36.8524,174.7682],
+  "UNSW Sydney":[-33.9174,151.2298],
+  "Western Sydney University":[-33.7568,150.9089],
+  "Monash University":[-37.9143,145.1346],
+  "University of Melbourne":[-37.7963,144.9614],
+  "University of Alberta":[53.5232,-113.5263],
+  "University of Florida":[29.6478,-82.3522],
+  "Georgia Institute of Technology":[33.7756,-84.3963],
+};
+let _netView = "force"; // "force" | "map"
+let _netSelOrg = null;
+
+let ORG_NODES = ["Tsinghua University","Tongji University","Hong Kong Polytechnic University","Southeast University"];
+let ORG_LINKS = [["Tsinghua University","Tongji University",18],["Tsinghua University","Hong Kong Polytechnic University",9],
+  ["Tongji University","Southeast University",7],["Hong Kong Polytechnic University","Southeast University",5]];
+let ORG_COUNTRY = {"Tsinghua University":"CN","Tongji University":"CN","Hong Kong Polytechnic University":"HK","Southeast University":"CN"};
+let ORG_WEIGHT = {"Tsinghua University":120,"Tongji University":98,"Hong Kong Polytechnic University":80,"Southeast University":60};
+let PAPERS = [
+  {t:"BIM2RDT: BIM to Robot-Ready Digital Twin",j:"Automation in Construction",y:2026,score:97,cit:142,fwci:21.0,oa:true,tech:["BIM","Robotics","Digital Twin"]},
+  {t:"Foundation Models for Construction Inspection",j:"J. of Computing in Civil Eng.",y:2025,score:88,cit:206,fwci:9.1,oa:false,tech:["AI","Computer Vision"]},
+];
+const JOURNAL_META = {}; // OpenAlex 저널 메타 (if2y, h_index, publisher...)
+// 이름으로 빠른 조회용 인덱스
+function getJournalMeta(j){
+  if(j.issn && JOURNAL_META[j.issn]) return JOURNAL_META[j.issn];
+  // 이름 매칭 fallback
+  const jn = (j.name||'').toLowerCase();
+  return Object.values(JOURNAL_META).find(m=>{
+    const mn = (m.name||'').toLowerCase();
+    return mn===jn || mn.includes(jn) || jn.includes(mn);
+  }) || {};
+}
+let JOURNALS = [
+  {name:"Construction and Building Materials",papers:4524,cites:71244},
+  {name:"Buildings",papers:3003,cites:9444},
+  {name:"Journal of Building Engineering",papers:2723,cites:30633},
+];
+/* evolution Live Data 형식: {year, top_keywords:[{id,n}], top_pairs:[{a,b,co}]} */
+let EVOLUTION = [
+  {year:2024,top_keywords:[{id:"AI",n:120},{id:"Concrete",n:90}],top_pairs:[{a:"AI",b:"Concrete",co:60},{a:"BIM",b:"Digital Twin",co:30}]},
+  {year:2025,top_keywords:[{id:"AI",n:160},{id:"Concrete",n:95}],top_pairs:[{a:"AI",b:"Concrete",co:78},{a:"AI",b:"Sustainability",co:40}]},
+  {year:2026,top_keywords:[{id:"AI",n:70},{id:"Digital Twin",n:40}],top_pairs:[{a:"AI",b:"Concrete",co:35},{a:"AI",b:"Construction Automation",co:22}]},
+];
+
+/* ===================== HELPERS ===================== */
+function growthColor(g){ return g>=40?"#ff6b6b": g>=18?"#ffd43b":"#4dabf7"; }
+/* 그룹(카테고리) 색 + 한글 라벨 — 필터 버튼용 */
+const GROUP_COLOR = {AI:"#4dabf7",Vision:"#9775fa",Sensing:"#63e6be",BIM:"#ffd43b",
+  DT:"#f783ac",Robot:"#ffa94d",Material:"#a9e34b",Structural:"#ff8787",Geo:"#b08968",
+  Eco:"#69db7c",Mgmt:"#74c0fc"};
+const GROUP_KO = {AI:"AI/ML",Vision:"Vision",Sensing:"Sensing",BIM:"BIM/Info",DT:"Digital Twin",
+  Robot:"Robot/Auto",Material:"Material",Structural:"Structural",Geo:"Geo",Eco:"Eco/Energy",Mgmt:"Management"};
+let GROUP_SEL = new Set();   // empty = show all
+function groupColor(gr){ return GROUP_COLOR[gr] || "#5c6b7a"; }
+/* ===================== 별 슬라이더 ===================== */
+let MONTHS = [];           // 정렬된 "YYYY-MM" 배열
+let currentMonthIdx = 0;
+
+function buildMonthList(){
+  const s = new Set();
+  NODES.forEach(n => { if(n.monthly) Object.keys(n.monthly).forEach(m => s.add(m)); });
+  return [...s].sort();
+}
+function monthLabel(m){
+  if(!m) return "—";
+  const [y, mo] = m.split("-");
+  return `${y}-${String(parseInt(mo)).padStart(2,"0")}`;
+}
+/* Accumulated papers up to selected month */
+function papersUpTo(node, monthKey){
+  if(!node.monthly) return node.papers;
+  let sum = 0;
+  for(const [m, cnt] of Object.entries(node.monthly)){
+    if(m <= monthKey) sum += cnt;
+  }
+  return Math.max(sum, 0);
+}
+/* 해당 까지 누적 링크 공동출현 (LINKS 원소: [a, b, total, {month:co}]) */
+function coUpTo(link, monthKey){
+  const monthly = link[3];
+  if(!monthly) return link[2];
+  let sum = 0;
+  for(const [m, co] of Object.entries(monthly)){
+    if(m <= monthKey) sum += co;
+  }
+  return sum;
+}
+function initMonthSlider(){
+  MONTHS = buildMonthList();
+  if(!MONTHS.length) return;
+  const slider = document.getElementById("yr");
+  slider.min = 0;
+  slider.max = MONTHS.length - 1;
+  slider.value = MONTHS.length - 1;
+  currentMonthIdx = MONTHS.length - 1;
+  document.getElementById("yrLabel").textContent = monthLabel(MONTHS[currentMonthIdx]);
+}
+
+/* ===================== ONTOLOGY GRAPH (방사형 트리 + Knowledge Graph 토글) ===================== */
+const svg = d3.select("#graph");
+let gW=0, gH=0, linkSel, nodeSel, currentYear=2026;
+let graphMode = 'tree';   // 'tree' | 'force'
+let _oaLevelMin = -1;     // OpenAlex 계층 필터 (-1=All, 3=lv3+, 4=lv4+, 5=lv5)
+
+// oa_level 필터를 통과하는 노드인지 판단 — 모든 그래프 모드에서 공통 사용
+function oaOk(n){
+  if(_oaLevelMin <= 0) return true;
+  if(_oaLevelMin === 2) return (n.oa_level||0) <= 2;
+  return (n.oa_level||0) >= _oaLevelMin;
+}
+
+// oa_level 필터 application된 level3 NODES (전역 papers의 함수)
+function filteredNodes(){
+  return NODES.filter(n => n.level === 3 && oaOk(n));
+}
+
+function onOaLevelChange(){
+  const v = +document.getElementById("oaLevelFilter").value;
+  _oaLevelMin = v;
+  _treeCache.clear(); // 레벨 바뀌면 캐시 무효화
+  buildGraph();
+}
+const _treeCache = new Map(); // month|"__all__" -> d3 hierarchy root (stratify 완료)
+let _treeLinkG = null, _treeNodeG = null; // 트리 그룹 — 슬라이더 시 재사용
+
+function _monthlyCount(node, month){
+  if(!month) return node.papers;
+  return (node.monthly && node.monthly[month]) || 0;
+}
+
+function _buildTreeRoot(month){
+  // 공통 oaOk() 함수 사용
+  const activeNodes = NODES.filter(n =>
+    n.level === 2 ? true : (_monthlyCount(n, month) > 0 && oaOk(n))
+  );
+  const activeMidIds = new Set(activeNodes.filter(n=>n.level===3).map(n=>n.parent).filter(Boolean));
+  const filtered = activeNodes.filter(n => n.level===3 || activeMidIds.has(n.id));
+  const ids = new Set(filtered.map(n=>n.id));
+  const rows = [{id:"__root__",parentId:""}].concat(
+    filtered.map(n=>({id:n.id, parentId:(n.parent&&ids.has(n.parent))?n.parent:"__root__",
+      group:n.group, papers:n.papers, growth:n.growth, level:n.level, monthly:n.monthly||{}}))
+  );
+  try{
+    const r = d3.stratify().id(d=>d.id).parentId(d=>d.parentId)(rows);
+    r.sum(d=>0);
+    return r;
+  } catch(e){ return null; }
+}
+
+function precomputeTreeCache(){
+  // 백그라운드로 All  stratify 계산 (requestIdleCallback 있으면 활용)
+  const keys = ["__all__", ...MONTHS];
+  let i = 0;
+  function step(){
+    if(i >= keys.length) return;
+    const k = keys[i++];
+    if(!_treeCache.has(k)) _treeCache.set(k, _buildTreeRoot(k === "__all__" ? null : k));
+    if(typeof requestIdleCallback !== "undefined")
+      requestIdleCallback(step, {timeout:200});
+    else
+      setTimeout(step, 0);
+  }
+  step();
+}
+
+function sizeGraph(){
+  const r = document.querySelector("#view-graph").getBoundingClientRect();
+  gW=r.width; gH=r.height;
+  svg.attr("viewBox",[0,0,gW,gH]);
+}
+function treeR(papers){ return 4 + Math.sqrt(papers)*0.55; }
+function inSel(gr){ return GROUP_SEL.size===0 || GROUP_SEL.has(gr); }
+
+function setGraphMode(mode){
+  graphMode = mode;
+  ['tree','force','summary'].forEach(m=>{
+    const btn = document.getElementById('btn-'+m);
+    if(btn) btn.classList.toggle('active', m===mode);
+  });
+  const hints = {
+    tree:    'Radial hierarchy tree · Color=theme · Size=papers · Slider=monthly · Click node for details',
+    force:   'Knowledge Graph · Node size=papers · Links=co-occurrence · Filter by theme range filtering',
+    summary: 'Theme summary graph · Circle size=total papers · Link width=inter-theme co-occurrence · Click=filter theme',
+  };
+  const h = document.getElementById('graphHint');
+  if(h) h.textContent = hints[mode] || '';
+  buildGraph();
+}
+
+function buildGraph(){
+  sizeGraph();
+  svg.selectAll("*").remove();
+  linkSel = null; nodeSel = null;
+  _treeLinkG = null; _treeNodeG = null; // 초기화 — 완전 재빌드
+  const g = svg.append("g");
+  svg.call(d3.zoom().scaleExtent([0.2,4]).on("zoom",e=>g.attr("transform",e.transform)));
+  if(graphMode==='force'){ buildForceGraph(g); return; }
+  if(graphMode==='summary'){ buildSummaryGraph(g); return; }
+
+  // 트리 그룹 생성 후 참조 저장
+  _treeLinkG = g.append("g").attr("fill","none").attr("transform",`translate(${gW/2},${gH/2})`);
+  _treeNodeG = g.append("g");
+
+  _fastUpdateTree(); // 실제 데이터 렌더는 공통 함수 사용
+  applyGroupFilter();
+  applyYear();
+}
+
+/* 슬라이더 이동 시 호출 — DOM 재생성 없이 keyed join으로 업데이트 */
+function _fastUpdateTree(){
+  if(!_treeLinkG || !_treeNodeG) return;
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+  const cacheKey = month || "__all__";
+  let root = _treeCache.get(cacheKey);
+  if(!root){
+    root = _buildTreeRoot(month);
+    if(!root) return;
+    _treeCache.set(cacheKey, root);
+  }
+  const radius = Math.min(gW,gH)/2 - 70;
+  d3.cluster().size([2*Math.PI,radius]).separation((a,b)=>a.parent===b.parent?1:2)(root);
+
+  const linkGen = d3.linkRadial().angle(d=>d.x).radius(d=>d.y);
+  const pos = d => {
+    const x=Math.cos(d.x-Math.PI/2)*d.y+gW/2, y=Math.sin(d.x-Math.PI/2)*d.y+gH/2;
+    return `translate(${x},${y})`;
+  };
+
+  // 링크 keyed join
+  linkSel = _treeLinkG.selectAll("path.tlink")
+    .data(root.links(), d=>`${d.source.id}~${d.target.id}`)
+    .join("path")
+    .attr("class","tlink")
+    .attr("stroke",d=>d.source.depth===0?"#222b36":"#3a4757")
+    .attr("stroke-width",d=>d.source.depth===0?0.8:1.6)
+    .attr("d",linkGen);
+
+  // 노드 keyed join — enter 시에만 하위 요소 생성
+  const real = root.descendants().filter(d=>d.id!=="__root__");
+  const joined = _treeNodeG.selectAll("g.node")
+    .data(real, d=>d.id)
+    .join(
+      enter => {
+        const ng = enter.append("g").attr("class","node");
+        ng.append("circle").on("click",(e,d)=>showNode(d.data));
+        ng.append("title");
+        ng.append("text").attr("dy","0.32em");
+        return ng;
+      },
+      update => update,
+      exit => exit.remove()
+    )
+    .attr("transform", pos);
+
+  // Update attributes - use current month paper count
+  const curP = d => {
+    if(!month) return d.data.papers;
+    if(d.data.level === 2){
+      // 중분류: 자식 level3 노드들의 해당  건수 합
+      return d.children
+        ? d.children.reduce((s,c) => s + _monthlyCount(c.data, month), 0)
+        : 0;
+    }
+    return _monthlyCount(d.data, month);
+  };
+  joined.select("circle")
+    .attr("r",d=>treeR(curP(d)))
+    .attr("fill",d=>groupColor(d.data.group))
+    .attr("fill-opacity",d=>d.data.level===2?0.55:0.9)
+    .attr("stroke",d=>d.data.level===2?"rgba(255,255,255,0.6)":"none")
+    .attr("stroke-width",d=>d.data.level===2?1.5:0)
+    .attr("stroke-dasharray",d=>d.data.level===2?"4,2":"none");
+  joined.select("title").text(d=>`${d.id} · ${month||"All"} ${curP(d)}papers`);
+  joined.select("text")
+    .attr("x",d=>d.x<Math.PI?treeR(curP(d))+4:-(treeR(curP(d))+4))
+    .attr("text-anchor",d=>d.x<Math.PI?"start":"end")
+    .text(d=>d.id);
+
+  nodeSel = joined;
+}
+function applyGroupFilter(){
+  if(!nodeSel) return;
+  if(graphMode==='force'){ buildGraph(); return; }  // force 모드는 재빌드
+  nodeSel.classed("dim",d=>!inSel(d.data.group));
+  if(linkSel) linkSel.classed("dim",d=>{
+    const sg=d.source.data&&d.source.data.group, tg=d.target.data&&d.target.data.group;
+    return !(inSel(sg)||inSel(tg));
+  });
+}
+
+/* ── 테마 요약 그래프 (Tech Ontology 탭 전용) ── */
+let _summaryDrill = null;  // null=All 테마, "AI"=AI 드릴다운
+
+// 테마의 한 단계 하위 계층 목록 반환 (중분류 → 세부Technology 순)
+function _getSummaryChildren(groupId){
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+  const papersFn = n => month ? (_monthlyCount(n,month)||0) : n.papers;
+  const l2 = NODES.filter(n=>n.level===2 && n.group===groupId && oaOk(n));
+  const l3direct = NODES.filter(n=>n.level===3 && n.group===groupId && !n.parent && oaOk(n));
+  const result = [];
+  l2.forEach(n=>result.push({id:n.id, label:n.id, cnt:papersFn(n), isMid:true}));
+  l3direct.forEach(n=>result.push({id:n.id, label:n.id, cnt:papersFn(n), isMid:false}));
+  return result.filter(r=>r.cnt>0).sort((a,b)=>b.cnt-a.cnt);
+}
+
+// 드릴다운: 선택된 테마의 중분류/세부Technology을 force 그래프로 표시
+function _buildSummaryDrill(g, groupId){
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+  const papersFn = n => month ? (_monthlyCount(n,month)||0) : n.papers;
+  const color = groupColor(groupId);
+
+  // 해당 그룹의 중분류 + 세부Technology 노드
+  const subNodes = NODES.filter(n=>(n.level===2||n.level===3) && n.group===groupId && oaOk(n))
+    .map(n=>({...n, curP: papersFn(n)})).filter(n=>n.curP>0);
+  const subIds = new Set(subNodes.map(n=>n.id));
+
+  // 링크 (그룹 내부)
+  const subLinks = LINKS.filter(l=>subIds.has(l[0])&&subIds.has(l[1])&&l[2]>=1)
+    .map(l=>({source:l[0],target:l[1],co:l[2]}));
+  const maxCo = Math.max(...subLinks.map(l=>l.co),1);
+  const maxP  = Math.max(...subNodes.map(n=>n.curP),1);
+  const rFn   = n => n.level===2 ? 20+Math.sqrt(n.curP/maxP)*30 : 8+Math.sqrt(n.curP/maxP)*22;
+
+  // 뒤로가기 버튼 — 그래프 위에 HTML 오버레이로 띄움
+  const _backBtn = document.createElement("button");
+  _backBtn.textContent = `← ${GROUP_KO[groupId]||groupId} All 보기`;
+  _backBtn.style.cssText = `position:absolute;left:50%;top:70px;transform:translateX(-50%);z-index:5;
+    background:rgba(14,17,22,.92);border:1px solid ${color};color:${color};
+    border-radius:8px;padding:5px 16px;font-size:12px;font-weight:700;cursor:pointer;
+    backdrop-filter:blur(4px);white-space:nowrap`;
+  _backBtn.onclick = ()=>{ _summaryDrill=null; _backBtn.remove(); buildGraph(); };
+  svg.node().parentElement.style.position = "relative";
+  svg.node().parentElement.appendChild(_backBtn);
+
+  const lnk = g.append("g").selectAll("line").data(subLinks).join("line")
+    .attr("stroke",color+"44").attr("stroke-width",d=>0.5+(d.co/maxCo)*3)
+    .style("vector-effect","non-scaling-stroke");
+
+  nodeSel = g.append("g").selectAll("g").data(subNodes).join("g")
+    .attr("class","node").style("cursor","pointer")
+    .call(d3.drag()
+      .on("start",(e,d)=>{if(!e.active)sim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on("end",(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}));
+
+  nodeSel.append("circle")
+    .attr("r",rFn).attr("fill",color)
+    .attr("fill-opacity",d=>d.level===2?0.75:0.55)
+    .attr("stroke",d=>d.level===2?"rgba(255,255,255,0.4)":"none")
+    .attr("stroke-dasharray",d=>d.level===2?"4,2":"none")
+    .style("vector-effect","non-scaling-stroke");
+
+  nodeSel.append("text").attr("text-anchor","middle")
+    .attr("font-size",d=>rFn(d)>18?Math.min(rFn(d)*0.35,12):9)
+    .attr("fill","#fff").attr("dy","0.35em")
+    .attr("paint-order","stroke").attr("stroke","rgba(14,17,22,.7)").attr("stroke-width",2)
+    .attr("pointer-events","none").text(d=>d.id.length>16?d.id.slice(0,14)+"…":d.id);
+
+  nodeSel.append("title").text(d=>`${d.id} · ${d.curP}papers · lv${d.oa_level||'?'}`);
+  nodeSel.on("click",(e,d)=>showNode(d));
+
+  const sim = d3.forceSimulation(subNodes)
+    .force("link",d3.forceLink(subLinks).id(d=>d.id).distance(d=>80+120/(d.co||1)).strength(0.3))
+    .force("charge",d3.forceManyBody().strength(d=>-200-rFn(d)*8))
+    .force("center",d3.forceCenter(gW/2,gH/2).strength(0.5))
+    .force("collide",d3.forceCollide().radius(d=>rFn(d)+16));
+  sim.stop();
+  for(let i=0;i<300;i++) sim.tick();
+  const tick=()=>{
+    lnk.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+       .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`);
+  };
+  tick();
+  sim.alphaDecay(0.1).alpha(0.03).restart().on("tick",tick);
+}
+
+function buildSummaryGraph(g){
+  // 드릴다운 모드면 해당 테마의 하위 계층 렌더
+  if(_summaryDrill) { _buildSummaryDrill(g, _summaryDrill); return; }
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+  // 슬라이더  기준 papers수 사용 (monthly count)
+  const papersFn = n => month ? (_monthlyCount(n, month) || 0) : n.papers;
+
+  const tm = {};
+  NODES.filter(n=>n.level===3 && oaOk(n)).forEach(n=>{
+    if(!tm[n.group]) tm[n.group]={id:n.group, papers:0, gSum:0, cnt:0};
+    tm[n.group].papers += papersFn(n);
+    tm[n.group].gSum   += (n.growth||0);
+    tm[n.group].cnt    ++;
+  });
+  Object.values(tm).forEach(t=>{ t.avgGrowth = Math.round(t.gSum/(t.cnt||1)); });
+
+  const nodeGroup = {};
+  NODES.forEach(n=>nodeGroup[n.id]=n.group);
+  const pm = {};
+  LINKS.forEach(l=>{
+    const sg=nodeGroup[l[0]], tg=nodeGroup[l[1]];
+    if(!sg||!tg||sg===tg) return;
+    const k=[sg,tg].sort().join("|||");
+    // 슬라이더  기준 공동출현 수 사용
+    const co = month ? (coUpTo(l, month) || 0) : l[2];
+    if(co>0) pm[k]=(pm[k]||0)+co;
+  });
+
+  // Filter out themes with 0 papers (no papers this period)
+  const themeNodes = Object.values(tm).filter(t=>t.papers>0);
+  const activeGroups = new Set(themeNodes.map(t=>t.id));
+  const themeLinks = Object.entries(pm)
+    .map(([k,co])=>{ const [s,t]=k.split("|||"); return {source:s,target:t,co}; })
+    .filter(l=>activeGroups.has(l.source)&&activeGroups.has(l.target));
+  const maxCo = Math.max(...themeLinks.map(l=>l.co),1);
+  const maxP  = Math.max(...themeNodes.map(t=>t.papers),1);
+  const rFn   = t => 20 + Math.sqrt(t.papers/maxP)*56;
+
+  const lnk = g.append("g").selectAll("line").data(themeLinks).join("line")
+    .attr("stroke", d=>d.co/maxCo>0.7?"#4dabf7":d.co/maxCo>0.4?"#2d6a9f":d.co/maxCo>0.2?"#1e4a6e":"#1a3550")
+    .attr("stroke-opacity", d=>d.co/maxCo>0.7?0.9:d.co/maxCo>0.4?0.75:0.55)
+    .attr("stroke-width",d=>1+(d.co/maxCo)*10)
+    .style("vector-effect","non-scaling-stroke");
+
+  const llbl = g.append("g").selectAll("text").data(themeLinks).join("text")
+    .attr("text-anchor","middle").attr("font-size",10).attr("fill","#5a7a90")
+    .attr("pointer-events","none").text(d=>d.co.toLocaleString());
+
+  nodeSel = g.append("g").selectAll("g").data(themeNodes).join("g")
+    .attr("class","node").style("cursor","pointer")
+    .call(d3.drag()
+      .on("start",(e,d)=>{if(!e.active)sim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on("end",(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}));
+
+  nodeSel.append("circle")
+    .attr("r",rFn).attr("fill",d=>groupColor(d.id)).attr("fill-opacity",0.88)
+    .attr("stroke",d=>GROUP_SEL.has(d.id)?"#fff":"rgba(255,255,255,0.15)")
+    .attr("stroke-width",d=>GROUP_SEL.has(d.id)?3:1)
+    .style("vector-effect","non-scaling-stroke");
+
+  nodeSel.append("text").attr("text-anchor","middle").attr("font-weight","700")
+    .attr("font-size",d=>Math.min(rFn(d)*0.28,16)).attr("fill","#fff")
+    .attr("dy",d=>rFn(d)>38?"-0.6em":0)
+    .attr("pointer-events","none").text(d=>GROUP_KO[d.id]||d.id);
+
+  nodeSel.filter(d=>rFn(d)>38).append("text")
+    .attr("text-anchor","middle").attr("font-size",11)
+    .attr("fill","rgba(255,255,255,0.8)").attr("dy","0.9em")
+    .attr("pointer-events","none")
+    .text(d=>`${d.papers.toLocaleString()}papers`);
+
+  nodeSel.append("title").text(d=>
+    `${GROUP_KO[d.id]||d.id} · ${d.papers.toLocaleString()}papers · avg growth ${d.avgGrowth>=0?'+':''}${d.avgGrowth}%`
+  );
+
+  // 호버 → 다음 계층 목록 툴팁
+  const subTip = d3.select(svg.node().parentNode).append("div")
+    .style("position","absolute").style("pointer-events","none")
+    .style("background","rgba(14,17,22,.96)").style("border","1px solid var(--line)")
+    .style("border-radius","8px").style("padding","10px 14px").style("font-size","11px")
+    .style("display","none").style("z-index","10").style("max-width","220px");
+
+  nodeSel
+    .on("mouseover",(event,d)=>{
+      const sub = _getSummaryChildren(d.id);
+      if(!sub.length){ subTip.style("display","none"); return; }
+      subTip.style("display","block").html(
+        `<b style="color:${groupColor(d.id)}">${GROUP_KO[d.id]||d.id}</b> 하위 계층<br>`+
+        `<div style="margin-top:6px;display:flex;flex-direction:column;gap:3px">`+
+        sub.slice(0,8).map(s=>`<span style="color:${s.isMid?'#6e7f96':'#cdd9e5'}">`+
+          `${s.isMid?'├ ':'  └ '}${s.label} `+
+          `<b style="color:${groupColor(d.id)}">${s.cnt}</b>papers</span>`).join('')+
+        `${sub.length>8?`<span style="color:var(--muted)">...more ${sub.length-8}items</span>`:''}`+
+        `</div><div style="margin-top:6px;font-size:10px;color:var(--muted)">클릭하면 상세 보기</div>`
+      );
+    })
+    .on("mousemove",(event)=>{
+      const rect = svg.node().getBoundingClientRect();
+      subTip.style("left",(event.clientX-rect.left+16)+"px").style("top",(event.clientY-rect.top-10)+"px");
+    })
+    .on("mouseout",()=>subTip.style("display","none"))
+    .on("click",(e,d)=>{
+      subTip.style("display","none");
+      _summaryDrill = d.id;
+      buildGraph();
+    });
+
+  const sim = d3.forceSimulation(themeNodes)
+    .force("link",d3.forceLink(themeLinks).id(d=>d.id).distance(d=>220+200/(d.co||1)).strength(0.2))
+    .force("charge",d3.forceManyBody().strength(d=>-600-rFn(d)*12))
+    .force("center",d3.forceCenter(gW/2,gH/2).strength(0.4))
+    .force("collide",d3.forceCollide().radius(d=>rFn(d)+50))
+    .force("x",d3.forceX(gW/2).strength(0.04))
+    .force("y",d3.forceY(gH/2).strength(0.04));
+  sim.stop();
+  for(let i=0;i<400;i++) sim.tick();
+  const tick=()=>{
+    lnk.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+       .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    llbl.attr("x",d=>(d.source.x+d.target.x)/2).attr("y",d=>(d.source.y+d.target.y)/2-3);
+    nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`);
+  };
+  tick();
+  sim.alphaDecay(0.1).alpha(0.03).restart().on("tick",tick);
+}
+
+/* ── Knowledge Graph (Force-directed, 선택 테마 내 노드·링크만) ── */
+function buildForceGraph(g){
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+  const topIds = getTopIds(month);
+
+  // 표시할 노드: oa_level 필터 + 테마 필터 + TopN Rank
+  const visNodes = NODES.filter(n=>{
+    if(!oaOk(n)) return false;
+    if(GROUP_SEL.size>0 && !GROUP_SEL.has(n.group)) return false;
+    return topIds.has(n.id);
+  });
+  const visIds = new Set(visNodes.map(n=>n.id));
+
+  // Paper count per node for current month
+  const nodeData = visNodes.map(n=>({
+    ...n,
+    curPapers: month ? papersUpTo(n, month) : n.papers
+  }));
+
+  // 링크: 양 끝 노드가 모두 표시 중 + 현재 까지 공동출현 >= 1
+  const linkData = LINKS
+    .filter(l => visIds.has(l[0]) && visIds.has(l[1]))
+    .map(l => ({source:l[0], target:l[1], co: month ? coUpTo(l, month) : l[2]}))
+    .filter(l => l.co >= 1);
+
+  const maxP = Math.max(...nodeData.map(n=>n.curPapers), 1);
+  const maxCo = Math.max(...linkData.map(l=>l.co), 1);
+  const rFn = n => 6 + Math.sqrt(Math.max(n.curPapers,1)/maxP)*34;
+
+  const _lc = r => r>0.7?"#4dabf7":r>0.4?"#2d6a9f":r>0.2?"#1e3d5c":"#131e2a";
+  const lnk = g.append("g").selectAll("line").data(linkData).join("line")
+    .attr("stroke", d=>_lc(d.co/maxCo))
+    .attr("stroke-opacity", d=>d.co/maxCo>0.7?0.9:d.co/maxCo>0.4?0.7:0.5)
+    .attr("stroke-width",d=>0.6+(d.co/maxCo)*5);
+
+  nodeSel = g.append("g").selectAll("g").data(nodeData).join("g")
+    .style("cursor","pointer")
+    .call(d3.drag()
+      .on("start",(e,d)=>{if(!e.active)fsim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on("end",(e,d)=>{if(!e.active)fsim.alphaTarget(0);d.fx=null;d.fy=null;}));
+
+  nodeSel.append("circle")
+    .attr("r",rFn)
+    .attr("fill",d=>groupColor(d.group))
+    .attr("fill-opacity",d=>d.level===2?0.5:0.88)
+    .attr("stroke",d=>d.level===2?"rgba(255,255,255,0.5)":"none")
+    .attr("stroke-width",d=>d.level===2?1.5:0)
+    .attr("stroke-dasharray",d=>d.level===2?"4,2":"none");
+
+  // 라벨: 항상 원 바깥 아래에 배치, 테두리로 가독성 확보
+  nodeSel.append("text")
+    .attr("text-anchor","middle")
+    .attr("dy", d => rFn(d) + 13)
+    .attr("font-size", d => rFn(d) > 24 ? 13 : 11)
+    .attr("font-weight", d => rFn(d) > 20 ? 700 : 400)
+    .attr("fill","var(--txt)")
+    .attr("stroke","rgba(14,17,22,.8)")
+    .attr("stroke-width","3")
+    .attr("paint-order","stroke")
+    .attr("pointer-events","none")
+    .text(d=>d.id);
+
+  nodeSel.append("title").text(d=>`${d.id} · papers ${d.papers} · ${d.growth>=0?'+':''}${d.growth}%` +
+    (d.oa_level>=0 ? ` · OpenAlex lv${d.oa_level}` : ''));
+  nodeSel.on("click",(e,d)=>showNode(d));
+
+  const fsim = d3.forceSimulation(nodeData)
+    .force("link",d3.forceLink(linkData).id(d=>d.id).distance(d=>130+180/(d.co||1)).strength(0.2))
+    .force("charge",d3.forceManyBody().strength(d=>-320-rFn(d)*16))
+    .force("center",d3.forceCenter(gW/2,gH/2).strength(0.8))
+    .force("collide",d3.forceCollide().radius(d=>rFn(d)+22))
+    .force("x",d3.forceX(gW/2).strength(0.04))
+    .force("y",d3.forceY(gH/2).strength(0.04));
+  fsim.stop();
+  for(let i=0;i<350;i++) fsim.tick();
+  const tick=()=>{
+    lnk.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+       .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`);
+  };
+  tick();
+  fsim.alphaDecay(0.12).alpha(0.03).restart().on("tick",tick);
+}
+function fillThemeLegend(){
+  const el=document.getElementById("legendThemes"); if(!el) return;
+  const groups=[...new Set(NODES.map(n=>n.group))]
+    .sort((a,b)=>NODES.filter(n=>n.group===b).length-NODES.filter(n=>n.group===a).length);
+  el.innerHTML=groups.map(g=>
+    `<span style="display:inline-block;margin:2px 6px 2px 0"><span class="swatch" style="background:${groupColor(g)}"></span>${GROUP_KO[g]||g}</span>`
+  ).join("");
+}
+function buildGroupFilter(){
+  const groups=[...new Set(NODES.map(n=>n.group))]
+    .sort((a,b)=>NODES.filter(n=>n.group===b).length-NODES.filter(n=>n.group===a).length);
+  const wrap=document.getElementById("groupFilter");
+  const mk=(key,label,color,on)=>
+    `<button data-g="${key}" class="${on?'on':''}">${color?`<span class="dot" style="background:${color}"></span>`:''}${label}</button>`;
+  wrap.innerHTML=mk("__all__","All",null,GROUP_SEL.size===0)
+    +groups.map(g=>mk(g,`${GROUP_KO[g]||g} (${NODES.filter(n=>n.group===g).length})`,groupColor(g),GROUP_SEL.has(g))).join("");
+  wrap.querySelectorAll("button").forEach(b=>b.onclick=()=>{
+    const gk=b.dataset.g;
+    if(gk==="__all__") GROUP_SEL.clear();
+    else{ if(GROUP_SEL.has(gk)) GROUP_SEL.delete(gk); else GROUP_SEL.add(gk); }
+    buildGroupFilter(); applyGroupFilter();
+  });
+}
+function growthStroke(g){ return g>=40?"#ff6b6b":g>=15?"#ffd43b":g>0?"#74c0fc":"#5c6b7a"; }
+function growthWidth(g){ return g>=40?3.2:g>=15?2.4:g>0?1.6:1; }
+function applyYear(){ applyMonth(); }
+
+let _monthTimer = null;
+
+/* Return top N node IDs by cumulative papers up to current month */
+function getTopIds(month){
+  const n = parseInt(document.getElementById("topN")?.value) || 30;
+  const ranked = [...NODES]
+    .map(nd=>({id:nd.id, p: month ? papersUpTo(nd, month) : nd.papers}))
+    .sort((a,b)=>b.p-a.p);
+  return new Set(ranked.slice(0, n).map(r=>r.id));
+}
+
+function updateRankPanel(){
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+  const topN = +document.getElementById("topN")?.value || 15;
+  document.getElementById("rankMonth").textContent = month ? monthLabel(month) : "All";
+
+  const ranked = NODES
+    .filter(n => n.level === 3 && oaOk(n))
+    .map(n => ({n, cnt: month ? (_monthlyCount(n, month) || 0) : n.papers}))
+    .filter(r => r.cnt > 0)
+    .sort((a, b) => b.cnt - a.cnt)
+    .slice(0, topN);
+
+  if(!ranked.length){ document.getElementById("rankList").innerHTML = '<div style="font-size:11px;color:var(--muted);padding:4px 0">데이터 None</div>'; return; }
+
+  const maxCnt = ranked[0].cnt;
+  document.getElementById("rankList").innerHTML = ranked.map((r, i) => {
+    const color = groupColor(r.n.group);
+    const pct = (r.cnt / maxCnt * 100).toFixed(0);
+    return `<div class="rk-row" onclick="showNode(NODES.find(n=>n.id==='${r.n.id.replace(/'/g,"\\'")}'))">
+      <span class="rk-num">${i+1}</span>
+      <span class="rk-name" style="color:${color}" title="${r.n.id}">${r.n.id}</span>
+      <div class="rk-bar-wrap"><div class="rk-bar" style="width:${pct}%;background:${color}"></div></div>
+      <span class="rk-val">${r.cnt}</span>
+    </div>`;
+  }).join("");
+}
+
+function applyMonth(){
+  updateRankPanel();
+  fillSidebar(); // 슬라이더 이동 시 동Period Change 갱신
+  if(!nodeSel) return;
+  clearTimeout(_monthTimer);
+  if(graphMode === 'tree' && _treeLinkG){
+    _monthTimer = setTimeout(() => {
+      _fastUpdateTree();
+      applyGroupFilter();
+    }, 50);
+  } else {
+    _monthTimer = setTimeout(() => buildGraph(), 80);
+  }
+}
+function showNode(d){
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+  // Cumulative papers up to slider month
+  const curPapers = _monthlyCount(d, month);
+  const parent = d.parent;
+  const children = NODES.filter(n=>n.parent===d.id)
+    .map(n=>({...n, curP: _monthlyCount(n, month)}))
+    .filter(n=>n.curP>0)
+    .sort((a,b)=>b.curP-a.curP);
+  const conn = LINKS.filter(l=>l[0]===d.id||l[1]===d.id)
+    .map(l=>({name:l[0]===d.id?l[1]:l[0], co: month ? (l[3]?.[month]||0) : l[2]}))
+    .filter(c=>c.co>0)
+    .sort((a,b)=>b.co-a.co).slice(0,4);
+  const gc = growthStroke(d.growth), sign = d.growth>=0?"▲":"▼";
+  const monthLabel = month ? `<span style="font-size:11px;color:var(--muted)"> · ${month}</span>` : "";
+  document.getElementById("nodeInfo").innerHTML = `
+    <h3>${d.id} <span style="font-size:11px;color:${groupColor(d.group)}">● ${GROUP_KO[d.group]||d.group}</span></h3>
+    <div style="font-size:24px;font-weight:800;color:${groupColor(d.group)}">${curPapers} <span style="font-size:12px;color:var(--muted)">papers</span>${monthLabel}</div>
+    <div style="margin:4px 0 12px"><span style="color:${gc};font-weight:700">${sign} ${Math.abs(d.growth)}%</span> <span style="color:var(--muted);font-size:12px">YoY Growth Rate</span></div>
+    ${parent?`<div style="font-size:12px;color:var(--muted);margin-bottom:6px">Top Technology: <b style="color:var(--txt)">${parent}</b></div>`:""}
+    ${children.length?`<div style="font-size:12px;color:var(--muted);margin-bottom:6px">하위 Technology</div>${children.map(c=>`<span class="pill">${c.id} ${c.curP}</span>`).join("")}<div style="height:10px"></div>`:""}
+    <div style="font-size:12px;color:var(--muted);margin-bottom:6px">Co-occurring Technologies</div>
+    ${conn.map(c=>`<div style="display:flex;justify-content:space-between;font-size:13px;padding:3px 0"><span>${c.name}</span><b style="color:var(--accent)">${c.co}</b></div>`).join("")}`;
+}
+
+/* ===================== SIDEBAR ===================== */
+function fillSidebar(){
+  const month = MONTHS.length ? MONTHS[currentMonthIdx] : null;
+
+  // Calculate papers & same-period change based on slider
+  // - Papers: accumulated to selected month
+  // - Change: 현재 연도 1~M 합계 vs 작  동Period 합계
+  // Count for selected month vs previous month
+  function sidebarStats(n){
+    if(!month || !n.monthly) return {cnt: n.papers, diff: n.growth_cnt??0};
+    const thisCnt = n.monthly[month] || 0;
+    // 전 계산
+    const [yr, mo] = month.split('-').map(Number);
+    const prevYr = mo === 1 ? yr-1 : yr;
+    const prevMo = mo === 1 ? 12 : mo-1;
+    const prevMonth = `${prevYr}-${String(prevMo).padStart(2,'0')}`;
+    const prevCnt = n.monthly[prevMonth] || 0;
+    return {cnt: thisCnt, diff: thisCnt - prevCnt, thisYr: thisCnt, prevYr: prevCnt};
+  }
+
+  const trend = [...NODES].filter(n=>n.level===3 && oaOk(n))
+    .map(n=>({...n, _s: sidebarStats(n)}))
+    .filter(d=>d._s.cnt>0)
+    .sort((a,b)=>b._s.cnt-a._s.cnt).slice(0,6);
+
+  // Period 레이블
+  const yr = month ? +month.split('-')[0] : null;
+  const mo = month ? +month.split('-')[1] : null;
+  const lastYrLabel = yr ? `${yr-1}-${mo}` : null;
+  const prevM = month ? (()=>{const [y,m]=month.split('-').map(Number);const py=m===1?y-1:y,pm=m===1?12:m-1;return `${py}-${String(pm).padStart(2,'0')}`;})() : null;
+  const periodLabel = month ? `${prevM} → ${month} MoM` : '2024→2025년  전 대비';
+  document.getElementById('trendSub') && (document.getElementById('trendSub').textContent = 'Change = '+periodLabel);
+
+  document.querySelector("#trendTable tbody").innerHTML = trend.map(d=>{
+    const diff = d._s.diff;
+    const sign = diff >= 0 ? '▲' : '▼';
+    const cls  = diff >= 0 ? 'up' : 'down';
+    return `<tr><td>${d.id}</td><td>${d._s.cnt.toLocaleString()}</td><td class="${cls}">${sign}${Math.abs(diff).toLocaleString()}papers</td></tr>`;
+  }).join("");
+
+  // ── Fast-Growing Tech: 3items 윈도우 + F-score ──
+  // 슬라이더  M 기준:
+  //   최근 3items = [M-2, M-1, M] 합계
+  //   작  동Period = 같은 3items 1  전 합계
+  //   P (Growth Rate) = (최근3 - 작 3) / (작 3 + 1)
+  //   R (Market Share) = 최근3 / total
+  //   F-score = 2·P·R / (P + R)  → 조화avg
+
+  function window3m(monthly, endMonth){
+    if(!endMonth || !monthly) return 0;
+    const [y,m] = endMonth.split('-').map(Number);
+    let sum = 0;
+    for(let i=0; i<3; i++){
+      let mm = m - i, yy = y;
+      if(mm<=0){ mm+=12; yy--; }
+      const key = `${yy}-${String(mm).padStart(2,'0')}`;
+      sum += monthly[key]||0;
+    }
+    return sum;
+  }
+  function window3mLastYr(monthly, endMonth){
+    if(!endMonth || !monthly) return 0;
+    const [y,m] = endMonth.split('-').map(Number);
+    return window3m(monthly, `${y-1}-${String(m).padStart(2,'0')}`);
+  }
+
+  // oa_level 필터에 따라 집계 단위 결정
+  // lv3 이상 선택 시 → items별 노드 단위, 아니면 그룹 단위
+  const useNodeLevel = _oaLevelMin >= 3;
+
+  const targetNodes = NODES.filter(n=>n.level===3 && oaOk(n) && n.monthly);
+  const totalThis = targetNodes.reduce((s,n)=>s+window3m(n.monthly,month),0) || 1;
+
+  let rising;
+
+  if(useNodeLevel){
+    // items별 노드 F-score
+    const nodeList = targetNodes.map(n=>{
+      const thisW = window3m(n.monthly, month);
+      const prevW = window3mLastYr(n.monthly, month);
+      const P = (thisW - prevW) / (prevW + 1);
+      const R = thisW / totalThis;
+      const Pn = Math.max(P, 0);
+      const fscore = (Pn + R > 0) ? 2*Pn*R/(Pn+R) : 0;
+      return {id:n.id, group:n.group, label:n.id, thisW, prevW,
+              P:Math.round(P*100), R:(R*100).toFixed(1), fscore};
+    });
+    rising = nodeList.sort((a,b)=>b.fscore-a.fscore).slice(0,6);
+  } else {
+    // 그룹 단위 집계 (기존)
+    const groupGrowth = {};
+    targetNodes.forEach(n=>{
+      const thisW = window3m(n.monthly, month);
+      const prevW = window3mLastYr(n.monthly, month);
+      const g = n.group;
+      if(!groupGrowth[g]) groupGrowth[g]={group:g,label:GROUP_KO[g]||g,thisW:0,prevW:0};
+      groupGrowth[g].thisW += thisW;
+      groupGrowth[g].prevW += prevW;
+    });
+    const groupList = Object.values(groupGrowth).map(g=>{
+      const P = (g.thisW - g.prevW) / (g.prevW + 1);
+      const R = g.thisW / totalThis;
+      const Pn = Math.max(P, 0);
+      const fscore = (Pn + R > 0) ? 2*Pn*R/(Pn+R) : 0;
+      return {...g, P:Math.round(P*100), R:(R*100).toFixed(1), fscore};
+    });
+    rising = groupList.sort((a,b)=>b.fscore-a.fscore).slice(0,6);
+  }
+
+  // 레이블 + 수식 설명 업데이트
+  const risingLbl = document.getElementById('risingLabel');
+  const risingFormula = document.getElementById('risingFormula');
+  if(month){
+    const [y,m]=month.split('-').map(Number);
+    const w3start = (()=>{let mm=m-2,yy=y;if(mm<=0){mm+=12;yy--;}return `${yy}-${String(mm).padStart(2,'0')}`;})();
+    const ly3start = (()=>{let mm=m-2,yy=y-1;if(mm<=0){mm+=12;yy--;}return `${yy}-${String(mm).padStart(2,'0')}`;})();
+    const lvLabel = useNodeLevel ? ` · lv${_oaLevelMin}+기준` : '';
+    if(risingLbl) risingLbl.textContent = `(${w3start}~${month} vs ${ly3start}~${y-1}-${String(m).padStart(2,'0')}${lvLabel})`;
+    if(risingFormula) risingFormula.style.display='block';
+  }
+
+  document.getElementById("risingTech").innerHTML = rising.map(g=>{
+    const color = useNodeLevel ? groupColor(g.group) : '#ffd43b';
+    const diff = g.thisW - g.prevW;
+    const sign = diff>=0?'+':'-';
+    return `<span class="pill hot" style="cursor:help"
+      title="P(Growth Rate)=${g.P}%  R(Market Share)=${g.R}%  F-score=${g.fscore.toFixed(3)}&#10;Recent 3mo:${g.thisW}papers  Last year same period:${g.prevW}papers">
+      <span style="color:${color}">${g.label}</span>
+      <b style="color:${diff>=0?'#a9e34b':'#ff8787'}">${sign}${Math.abs(diff).toLocaleString()}papers</b>
+      <span style="font-size:9px;opacity:0.7">F:${g.fscore.toFixed(2)}</span>
+    </span>`;
+  }).join("");
+}
+
+/* ===================== COUNTRY (세계지도) ===================== */
+const NUM = {US:840,CN:156,GB:826,DE:276,KR:410,JP:392,IT:380,AU:36,CA:124,ES:724,
+  FR:250,NL:528,IN:356,SG:702,CH:756,SE:752,BE:56,AT:40,DK:208,NO:578,FI:246,PL:616,
+  PT:620,GR:300,IE:372,BR:76,RU:643,TR:792,IR:364,SA:682,AE:784,EG:818,ZA:710,MY:458,
+  ID:360,TH:764,VN:704,TW:158,NZ:554,MX:484,CL:152,PK:586,BD:50,CZ:203,HU:348,RO:642,
+  IL:376,QA:634,LU:442,HK:344,CO:170,MO:446,NG:566};
+const CTRY_COLOR = {
+  CN:"#ff6b6b",US:"#4dabf7",GB:"#9775fa",KR:"#63e6be",DE:"#ffd43b",
+  AU:"#ffa94d",HK:"#f783ac",IT:"#69db7c",CA:"#74c0fc",JP:"#e599f7",ES:"#ffc078",
+  FR:"#3bc9db",NL:"#a9e34b",IN:"#ff8787",SG:"#b197fc",
+  TR:"#fd7e14",SA:"#ffe066",TW:"#66d9e8",SE:"#c0eb75",BE:"#e599f7",
+  CH:"#ffffff",DK:"#ff6b81",NO:"#74b9ff",FI:"#a29bfe",PL:"#fd79a8",
+  PT:"#00b894",MY:"#fdcb6e",AE:"#0984e3",QA:"#6c5ce7",IR:"#00cec9",
+  PK:"#55efc4",ZA:"#e17055",MO:"#fab1a0",AT:"#dfe6e9",BE2:"#a29bfe",
+  TH:"#ff7675",BD:"#81ecec",MA:"#fdcb6e",CZ:"#74b9ff",RO:"#fd79a8",
+  HU:"#6c5ce7",NZ:"#00b894",LT:"#e17055",CL:"#fab1a0"
+};
+const CTRY_KO = {
+  CN:"China",US:"USA",GB:"UK",KR:"Korea",DE:"Germany",AU:"Australia",HK:"Hong Kong",
+  IT:"Italy",CA:"Canada",JP:"Japan",ES:"Spain",FR:"France",NL:"Netherlands",IN:"India",SG:"Singapore",
+  TR:"Turkey",SA:"Saudi Arabia",TW:"Taiwan",SE:"Sweden",BE:"Belgium",CH:"Switzerland",
+  DK:"Denmark",NO:"Norway",FI:"Finland",PL:"Poland",PT:"Portugal",MY:"Malaysia",
+  AE:"UAE",QA:"Qatar",IR:"Iran",PK:"Pakistan",NG:"Nigeria",EG:"Egypt",
+  ZA:"South Africa",MO:"Macao",ME:"Montenegro",CL:"Chile",AT:"Austria",LT:"Lithuania",
+  TH:"Thailand",BD:"Bangladesh",MA:"Morocco",CZ:"Czech Rep.",RO:"Romania",HU:"Hungary"
+};
+function ctryColor(cc){ return CTRY_COLOR[cc] || "#5c6b7a"; }
+
+// 선택된 Country 코드 Set
+const _selCountries = new Set();
+const cName = c => CTRY_KO[c.code] || cName(c); // country display name
+
+// Country별 색상 (비교 차트용 — 최대 8items)
+const _cmpColors = ["#4dabf7","#ff6b6b","#51cf66","#ffd43b","#cc5de8","#ff922b","#74c0fc","#a9e34b"];
+const _cmpColorMap = {};
+function _ctryColor(code){
+  if(!_cmpColorMap[code]){
+    const used = Object.keys(_cmpColorMap).length;
+    _cmpColorMap[code] = _cmpColors[used % _cmpColors.length];
+  }
+  return _cmpColorMap[code];
+}
+
+function toggleCountry(c){
+  if(!c) return;
+  if(_selCountries.has(c.code)){
+    _selCountries.delete(c.code);
+  } else {
+    _selCountries.add(c.code);
+  }
+  // 사이드바 상세 (마지막 클릭 Country)
+  const d = document.getElementById("countryDetail");
+  if(_selCountries.size === 0){
+    d.style.display = "none";
+  } else {
+    d.style.display = "block";
+    d.innerHTML = `<h3>${cName(c)} — 상세</h3>
+      <div style="font-size:13px;color:var(--muted);margin-bottom:10px">papers <b style="color:var(--txt)">${c.papers}</b> · citations <b style="color:var(--txt)">${(c.cites||0).toLocaleString()}</b></div>
+      <div style="margin-bottom:10px;font-size:13px"><b>Key Institutions</b><br>${(c.orgs||[]).map(o=>`<span class="pill">${o}</span>`).join("")||"—"}</div>
+      <div style="font-size:13px"><b>주요 Technology</b><br>${(c.tech||[]).map(t=>`<span class="pill hot">${t}</span>`).join("")||"—"}</div>`;
+  }
+  // 바 하이라이트
+  document.querySelectorAll(".bar-row").forEach(r=>{
+    const cc = r.dataset.code;
+    r.style.opacity = (_selCountries.size === 0 || _selCountries.has(cc)) ? 1 : 0.4;
+  });
+  // show/hide 먼저 확정 → rAF 2회 후 레이아웃 기반 렌더
+  const n = _selCountries.size;
+  const chartWrap = document.getElementById("countryChartWrap");
+  const ontWrap   = document.getElementById("ctryOntologyWrap");
+  chartWrap.style.display = n > 0 ? "flex" : "none";
+  ontWrap.style.display   = n === 1 ? "flex" : "none";
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    renderCountryChart();
+    if(n === 1) buildCountryOntology();
+  }));
+}
+
+function buildCountryOntology(){
+  const wrap = document.getElementById("ctryOntologyWrap");
+  const container = document.getElementById("ctryOntologyGraph");
+  const title = document.getElementById("ctryOntologyTitle");
+
+  // 1items 선택일 때만 표시
+  if(_selCountries.size !== 1){ wrap.style.display = "none"; return; }
+  wrap.style.display = "flex";
+
+  const cc = [..._selCountries][0];
+  const ctry = COUNTRIES.find(c => c.code === cc);
+  if(!ctry || !ctry.keywords || !ctry.keywords.length){
+    container.innerHTML = '<p style="color:var(--muted);padding:20px;font-size:12px">키워드 데이터 None</p>';
+    return;
+  }
+  title.textContent = `${ctry.c} — Keyword Ontology`;
+
+  // Country 키워드 Set + Papers Map
+  const kwMap = new Map(ctry.keywords.map(([id, n]) => [id, n]));
+  const kwSet = new Set(kwMap.keys());
+
+  // graph.json 링크에서 양 끝이 모두 해당 Country 키워드인 것만 추출
+  const linkData = (LINKS || [])
+    .filter(l => kwSet.has(l[0]) && kwSet.has(l[1]) && l[2] >= 2)
+    .map(l => ({source: l[0], target: l[1], co: l[2]}));
+
+  // 링크에 등장하는 노드만 사용 (고립 노드 제more, 단 키워드가 3items 미만이면 All 사용)
+  const linkedIds = new Set(linkData.flatMap(l => [l.source, l.target]));
+  const nodeIds = linkedIds.size >= 3 ? linkedIds : kwSet;
+  const nodeData = [...nodeIds].map(id => {
+    const gNode = NODES.find(n => n.id === id);
+    return { id, n: kwMap.get(id) || 0, group: gNode?.group || null };
+  });
+
+  container.innerHTML = '';
+  const rect = container.getBoundingClientRect();
+  const W = rect.width  || container.offsetWidth  || 500;
+  const H = rect.height || container.offsetHeight || 320;
+  const PAD = 40;
+
+  const rFn = d => Math.max(6, Math.min(Math.sqrt(d.n) * 2, 32));
+
+  const svg = d3.select(container).append("svg")
+    .attr("width", "100%").attr("height", "100%")
+    .attr("viewBox", `0 0 ${W} ${H}`)
+    .style("display","block");
+  svg.call(d3.zoom().scaleExtent([0.4, 3]).on("zoom", e => g.attr("transform", e.transform)));
+
+  const g = svg.append("g");
+
+  // co 값 정규화로 선 굵기 결정
+  const maxCo = Math.max(...linkData.map(l => l.co), 1);
+  const lnk = g.append("g").selectAll("line").data(linkData).join("line")
+    .attr("stroke", d => {
+      const t = d.co / maxCo;
+      return t > 0.5 ? "#6ea8d8" : t > 0.2 ? "#4a7a9e" : "#2e5068";
+    })
+    .attr("stroke-width", d => Math.max(1, Math.sqrt(d.co / maxCo) * 4))
+    .attr("stroke-opacity", 0.7);
+
+  const nd = g.append("g").selectAll("g").data(nodeData).join("g")
+    .style("cursor", "pointer")
+    .call(d3.drag()
+      .on("start", (e, d) => { if(!e.active) sim.alphaTarget(0.2).restart(); d.fx=d.x; d.fy=d.y; })
+      .on("drag",  (e, d) => { d.fx=e.x; d.fy=e.y; })
+      .on("end",   (e, d) => { if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
+
+  nd.append("circle")
+    .attr("r", rFn)
+    .attr("fill", d => groupColor(d.group))
+    .attr("fill-opacity", 0.88)
+    .attr("stroke", "#f4f6f9").attr("stroke-width", 1.5);
+
+  nd.append("title").text(d => `${d.id} · ${ctry.c} papers ${d.n}papers`);
+
+  nd.append("text")
+    .attr("dy", d => rFn(d) + 10)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#a0b0c0").attr("font-size", 10)
+    .text(d => d.id.length > 15 ? d.id.slice(0, 13) + "…" : d.id);
+
+  const sim = d3.forceSimulation(nodeData)
+    .force("link", d3.forceLink(linkData).id(d => d.id).distance(d => 45 + 60/(d.co||1)).strength(0.5))
+    .force("charge", d3.forceManyBody().strength(d => -80 - rFn(d)*4))
+    .force("center", d3.forceCenter(W/2, H/2).strength(0.4))
+    .force("collide", d3.forceCollide().radius(d => rFn(d)+10))
+    .force("boundX", d3.forceX(W/2).strength(0.07))
+    .force("boundY", d3.forceY(H/2).strength(0.07));
+
+  const tick = () => {
+    // 노드 위치를 패딩 범위 내로 클램프
+    nodeData.forEach(d => {
+      const r = rFn(d);
+      d.x = Math.max(PAD + r, Math.min(W - PAD - r, d.x));
+      d.y = Math.max(PAD + r, Math.min(H - PAD - r, d.y));
+    });
+    lnk.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+       .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nd.attr("transform", d => `translate(${d.x},${d.y})`);
+  };
+
+  sim.stop();
+  for(let i = 0; i < 300; i++) sim.tick();
+  tick();
+  sim.alphaDecay(0.1).alpha(0.03).restart().on("tick", tick);
+}
+
+function renderCountryChart(){
+  const wrap = document.getElementById("countryChartWrap");
+  const container = document.getElementById("countryChart");
+  const chipList = document.getElementById("ctryChipList");
+
+  if(_selCountries.size === 0){
+    wrap.style.display = "none";
+    document.getElementById("ctryOntologyWrap").style.display = "none";
+    return;
+  }
+  wrap.style.display = "flex";
+
+  // 칩 목록
+  const selData = COUNTRIES.filter(c=>_selCountries.has(c.code));
+  chipList.innerHTML = selData.map(c=>`
+    <span style="background:${_ctryColor(c.code)}22;border:1px solid ${_ctryColor(c.code)}55;
+      border-radius:20px;padding:2px 10px;font-size:11px;font-weight:700;color:${_ctryColor(c.code)};
+      cursor:pointer" onclick="toggleCountry(COUNTRIES.find(x=>x.code==='${c.code}'))">
+      ${cName(c)} ✕
+    </span>`).join("");
+
+  // 연도 축 계산
+  const allYears = new Set();
+  selData.forEach(c=>Object.keys(c.yearly||{}).forEach(y=>allYears.add(y)));
+  const years = [...allYears].sort();
+  if(!years.length){ container.innerHTML=''; return; }
+
+  // D3 라인 차트
+  container.innerHTML = '';
+  const totalW = container.offsetWidth || 700;
+  const totalH = container.offsetHeight || 180;
+  const mg = {top:16, right:16, bottom:28, left:48};
+  const iW = totalW - mg.left - mg.right;
+  const iH = totalH - mg.top - mg.bottom;
+
+  const maxVal = Math.max(...selData.flatMap(c=>years.map(y=>+(c.yearly||{})[y]||0)), 1);
+
+  const xSc = d3.scalePoint().domain(years).range([0,iW]).padding(0.3);
+  const ySc = d3.scaleLinear().domain([0, maxVal*1.1]).range([iH,0]).nice();
+
+  const svg = d3.select(container).append("svg")
+    .attr("width",totalW).attr("height",totalH).style("display","block");
+  const g = svg.append("g").attr("transform",`translate(${mg.left},${mg.top})`);
+
+  // 그리드
+  ySc.ticks(4).forEach(t=>{
+    g.append("line").attr("x1",0).attr("x2",iW)
+      .attr("y1",ySc(t)).attr("y2",ySc(t))
+      .attr("stroke","#1e2530").attr("stroke-width",t===0?1:0.6);
+    g.append("text").attr("x",-6).attr("y",ySc(t)+4)
+      .attr("text-anchor","end").attr("fill","#4a5568").attr("font-size",10)
+      .text(t.toLocaleString());
+  });
+
+  // X축 연도 라벨
+  years.forEach(y=>{
+    g.append("text").attr("x",xSc(y)).attr("y",iH+18)
+      .attr("text-anchor","middle").attr("fill","#5c6b7a").attr("font-size",11).text(y);
+  });
+
+  const lineGen = d3.line()
+    .x(d=>xSc(d.y)).y(d=>ySc(d.n))
+    .curve(d3.curveMonotoneX);
+
+  // 툴팁
+  const tip = d3.select(container).append("div")
+    .style("position","absolute").style("pointer-events","none")
+    .style("background","rgba(14,17,22,.96)").style("border","1px solid var(--line)")
+    .style("border-radius","6px").style("padding","7px 12px").style("font-size","12px")
+    .style("display","none").style("z-index","10").style("white-space","nowrap");
+
+  selData.forEach(c=>{
+    const color = _ctryColor(c.code);
+    const pts = years.map(y=>({y, n: +(c.yearly||{})[y]||0}));
+
+    g.append("path").datum(pts)
+      .attr("d",lineGen).attr("fill","none")
+      .attr("stroke",color).attr("stroke-width",2.5).attr("opacity",0.85);
+
+    // 점
+    g.selectAll(null).data(pts).join("circle")
+      .attr("cx",d=>xSc(d.y)).attr("cy",d=>ySc(d.n))
+      .attr("r",5).attr("fill",color).attr("stroke","#f4f6f9").attr("stroke-width",1.5)
+      .style("cursor","pointer")
+      .on("mouseover",(_,d)=>tip.style("display","block")
+        .html(`<b style="color:${color}">${cName(c)}</b> ${d.y}  · <b>${d.n.toLocaleString()}</b>papers`))
+      .on("mousemove",(event)=>{
+        const rect=container.getBoundingClientRect();
+        tip.style("left",(event.clientX-rect.left+12)+"px")
+           .style("top",(event.clientY-rect.top-32)+"px");
+      })
+      .on("mouseout",()=>tip.style("display","none"));
+
+    // 막대 th 수치 (1items 선택시)
+    if(selData.length===1){
+      pts.forEach(d=>{
+        g.append("text").attr("x",xSc(d.y)).attr("y",ySc(d.n)-8)
+          .attr("text-anchor","middle").attr("fill",color)
+          .attr("font-size",11).attr("font-weight",700).text(d.n.toLocaleString());
+      });
+    }
+  });
+}
+
+function fillCountry(){
+  const top = [...COUNTRIES].sort((a,b)=>b.papers-a.papers).slice(0,10);
+  const max = Math.max(...top.map(c=>c.papers), 1);
+  document.getElementById("countryBars").innerHTML = top.map((c,i)=>`
+    <div class="bar-row" data-i="${i}" data-code="${c.code}" style="align-items:center">
+      <div class="bar-label">${cName(c)}</div>
+      <div class="bar-track" style="flex:1"><div class="bar-fill" style="width:${c.papers/max*100}%;padding-right:0"></div></div>
+      <span style="font-size:12px;font-weight:700;color:var(--txt);margin-left:8px;min-width:52px;text-align:right">${c.papers.toLocaleString()}papers</span>
+    </div>`).join("");
+  document.querySelectorAll(".bar-row").forEach(r=>r.onclick=()=>toggleCountry(top[+r.dataset.i]));
+  document.getElementById("ctryChartClear").onclick=()=>{
+    _selCountries.clear();
+    Object.keys(_cmpColorMap).forEach(k=>delete _cmpColorMap[k]);
+    document.querySelectorAll(".bar-row").forEach(r=>r.style.opacity=1);
+    document.getElementById("countryDetail").style.display="none";
+    renderCountryChart();
+    buildCountryOntology();
+    if(window._mapSvEl) window._mapSvEl.selectAll(".country-shape").classed("sel",false);
+  };
+}
+let WORLD = null;
+async function buildMap(){
+  const svgEl = document.getElementById("worldMap");
+  const wrap = svgEl.parentNode;
+  const box = wrap.getBoundingClientRect();
+  const w = box.width, h = box.height;
+  const sv = d3.select(svgEl).attr("viewBox",[0,0,w,h]);
+  sv.selectAll("*").remove();
+  if(!WORLD){
+    try{
+      const topo = await (await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")).json();
+      WORLD = topojson.feature(topo, topo.objects.countries).features;
+    }catch(e){
+      sv.append("text").attr("x",24).attr("y",44).attr("fill","#8b97a6").attr("font-size","13")
+        .text("세계Failed to load map data (check internet connection).");
+      return;
+    }
+  }
+  const byNum = {};
+  COUNTRIES.forEach(c=>{ const n = NUM[c.code]; if(n) byNum[n] = c; });
+  const max = Math.max(...COUNTRIES.map(c=>c.papers), 1);
+  const color = d3.scaleSequential(d3.interpolateBlues).domain([0, Math.log(max+1)]);
+  document.getElementById("legHi").textContent = max;
+  const fc = {type:"FeatureCollection", features:WORLD};
+  const proj = d3.geoNaturalEarth1().fitSize([w, h], fc);
+  const path = d3.geoPath(proj);
+  const tip = document.getElementById("mapTip");
+  sv.append("g").selectAll("path").data(WORLD).join("path")
+    .attr("class","country-shape").attr("d", path)
+    .attr("fill", d=>{ const c = byNum[+d.id]; return c ? color(Math.log(c.papers+1)) : "#222b36"; })
+    .on("mousemove",(e,d)=>{
+      const c = byNum[+d.id];
+      if(!c){ tip.style.display="none"; return; }
+      const [mx,my] = d3.pointer(e, wrap);
+      tip.style.display="block"; tip.style.left=(mx+14)+"px"; tip.style.top=(my+14)+"px";
+      tip.innerHTML=`<b>${cName(c)}</b> · papers ${c.papers} · citations ${(c.cites||0).toLocaleString()}`;
+    })
+    .on("mouseleave",()=>{ tip.style.display="none"; })
+    .on("click",function(e,d){
+      const c = byNum[+d.id]; if(!c) return;
+      const adding = !_selCountries.has(c.code);
+      d3.select(this).classed("sel", adding);
+      toggleCountry(c);
+    });
+  window._mapSvEl = sv;
+}
+
+/* ===================== Institution Network 2D ===================== */
+const _net2dSel = new Set(); // 선택된 나라 코드
+
+/* ===================== Network Period Filter ===================== */
+let _netPeriodType = 'all'; // 'all' | '3y' | '1y' | '6m'
+let _netPeriodIdx  = 0;
+let ORG_NET_PERIOD = null;  // network.json 전체 (기간별 데이터 포함)
+
+function getNetLinks(){
+  if(_netPeriodType === 'all' || !ORG_NET_PERIOD) return ORG_LINKS;
+  const periods = _netPeriodList();
+  const key = periods[_netPeriodIdx];
+  if(!key) return ORG_LINKS;
+  if(_netPeriodType === '3y'){
+    const byYear = ORG_NET_PERIOD.links_by_year || {};
+    const combined = {};
+    [key, String(+key+1), String(+key+2)].forEach(y=>{
+      (byYear[y]||[]).forEach(l=>{ const k=l[0]+'||'+l[1]; combined[k]=(combined[k]||0)+l[2]; });
+    });
+    return Object.entries(combined).map(([k,co])=>{ const[a,b]=k.split('||'); return [a,b,co]; });
+  }
+  if(_netPeriodType === '1y') return (ORG_NET_PERIOD.links_by_year||{})[key] || [];
+  if(_netPeriodType === '6m') return (ORG_NET_PERIOD.links_by_half||{})[key] || [];
+  return ORG_LINKS;
+}
+
+function _netPeriodList(){
+  if(!ORG_NET_PERIOD) return [];
+  if(_netPeriodType === '3y'){
+    const yrs = Object.keys(ORG_NET_PERIOD.links_by_year||{}).map(Number).sort();
+    return yrs.filter(y=>yrs.includes(y+1)&&yrs.includes(y+2)).map(String);
+  }
+  if(_netPeriodType === '1y') return Object.keys(ORG_NET_PERIOD.links_by_year||{}).sort();
+  if(_netPeriodType === '6m') return Object.keys(ORG_NET_PERIOD.links_by_half||{}).sort();
+  return [];
+}
+
+function _netPeriodLabel(key){
+  if(!key) return 'All Time';
+  if(_netPeriodType === '3y') return key+'–'+String(+key+2);
+  if(_netPeriodType === '6m'){
+    const h = key.endsWith('H1') ? 'Jan–Jun' : 'Jul–Dec';
+    return key.slice(0,4)+' '+h;
+  }
+  return key;
+}
+
+function setNetPeriod(type){
+  _netPeriodType = type;
+  document.querySelectorAll('.net-period-btn').forEach(b=>b.classList.toggle('active', b.dataset.period===type));
+  const wrap = document.getElementById('netPeriodSliderWrap');
+  if(type==='all'){ wrap.style.display='none'; }
+  else {
+    wrap.style.display='flex';
+    const periods = _netPeriodList();
+    _netPeriodIdx = Math.max(0, periods.length-1);
+    document.getElementById('netPeriodLabel').textContent = _netPeriodLabel(periods[_netPeriodIdx]);
+  }
+  if(_netView==='map') buildNetworkMap();
+  else if(_netView==='3d') buildNetwork3D();
+  else buildNetwork();
+}
+
+function netPeriodStep(dir){
+  const periods = _netPeriodList();
+  _netPeriodIdx = Math.max(0, Math.min(periods.length-1, _netPeriodIdx+dir));
+  document.getElementById('netPeriodLabel').textContent = _netPeriodLabel(periods[_netPeriodIdx]);
+  _netZoomState = null; // 기간 변경 시 zoom 초기화
+  if(_netView==='map') buildNetworkMap();
+  else if(_netView==='3d') buildNetwork3D();
+  else buildNetwork();
+}
+
+let _netZoomState = null; // 줌 상태 보존
+
+function buildNetwork(){
+  const svgEl = document.getElementById("netGraph");
+  const box = svgEl.getBoundingClientRect();
+  const w = box.width, h = box.height;
+  const sv = d3.select(svgEl).attr("viewBox",[0,0,w,h]);
+
+  // 현재 줌 상태 저장
+  const prevZoom = svgEl.__zoom || _netZoomState;
+
+  sv.selectAll("*").remove();
+  const g = sv.append("g");
+
+  const zoom = d3.zoom().scaleExtent([0.4,6]).on("zoom",e=>{
+    g.attr("transform",e.transform);
+    _netZoomState = e.transform;
+  });
+  sv.call(zoom);
+
+  // 이전 줌 상태 복원
+  if(prevZoom && prevZoom.k !== 1){
+    sv.call(zoom.transform, prevZoom);
+  }
+
+  // 나라 필터 application — 선택 없으면 All
+  const filteredIds = _net2dSel.size > 0
+    ? ORG_NODES.filter(id => _net2dSel.has(ORG_COUNTRY[id]))
+    : ORG_NODES;
+  const filteredSet = new Set(filteredIds);
+
+  const nodes = filteredIds.map(id=>({id}));
+  const rawLinks = getNetLinks();
+  const links = rawLinks
+    .filter(l => filteredSet.has(l[0]) && filteredSet.has(l[1]))
+    .map(l=>({source:l[0],target:l[1],co:l[2]}));
+  // 해당 기간 링크 있는 노드 집합
+  const activeInPeriod = new Set(links.flatMap(l=>[l.source, l.target]));
+  const deg = {};
+  links.forEach(l=>{deg[l[0]]=(deg[l[0]]||0)+l[2];deg[l[1]]=(deg[l[1]]||0)+l[2];});
+  const rad = d=> 7 + Math.sqrt((ORG_WEIGHT[d.id]||deg[d.id]||4))*1.6;
+
+  const maxCo = Math.max(...links.map(l=>l.co), 1);
+  const ln = g.append("g").selectAll("line").data(links).join("line")
+    .attr("class","link")
+    .attr("stroke-width", d => 0.8 + (d.co/maxCo)*3)
+    .attr("stroke-opacity", 0.55);
+
+  const nd = g.append("g").selectAll("g").data(nodes).join("g").attr("class","node")
+    .call(d3.drag()
+      .on("start",(e,d)=>{if(!e.active)s.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on("end",(e,d)=>{if(!e.active)s.alphaTarget(0);d.fx=null;d.fy=null;}));
+
+  nd.append("circle").attr("r",rad)
+    .attr("fill",d=>ctryColor(ORG_COUNTRY[d.id]))
+    .attr("fill-opacity", d => _netPeriodType==='all' || activeInPeriod.has(d.id) ? 0.9 : 0.15)
+    .style("vector-effect","non-scaling-stroke")
+    .append("title").text(d=>`${d.id} (${CTRY_KO[ORG_COUNTRY[d.id]]||ORG_COUNTRY[d.id]||"?"}) · papers ${ORG_WEIGHT[d.id]||"?"}`);
+  nd.append("text")
+    .attr("x",d=>rad(d)+5).attr("y",4).attr("font-size",11)
+    .attr("paint-order","stroke").attr("stroke","rgba(14,17,22,.88)").attr("stroke-width",3)
+    .text(d=>d.id);
+
+  // Country Legend — 클릭으로 다중 선택 (All↔선택 토글)
+  const allCC = [...new Set(ORG_NODES.map(o=>ORG_COUNTRY[o]).filter(Boolean))];
+  const usedCC = allCC.filter(cc=>CTRY_COLOR[cc]||true);
+  const leg = sv.append("g").attr("transform","translate(12,12)");
+  usedCC.slice(0,15).forEach((cc,i)=>{
+    const sel = _net2dSel.has(cc);
+    const row = leg.append("g")
+      .attr("transform",`translate(0,${i*20})`)
+      .attr("cursor","pointer")
+      .on("click",()=>{ _net2dSel.has(cc)?_net2dSel.delete(cc):_net2dSel.add(cc); buildNetwork(); });
+    row.append("rect").attr("x",-4).attr("y",-8).attr("width",110).attr("height",17)
+      .attr("rx",4).attr("fill", sel?"rgba(255,255,255,0.07)":"transparent");
+    row.append("circle").attr("r",6).attr("fill",ctryColor(cc))
+      .attr("opacity", _net2dSel.size===0||sel ? 1 : 0.3);
+    row.append("text").attr("x",12).attr("y",4)
+      .attr("fill", _net2dSel.size===0||sel ? "#cdd9e5" : "#4a5568")
+      .attr("font-size","12").attr("font-weight", sel?"700":"400")
+      .text(CTRY_KO[cc]||cc);
+  });
+  if(_net2dSel.size > 0){
+    const resetRow = leg.append("g")
+      .attr("transform",`translate(0,${usedCC.slice(0,15).length*20+4})`)
+      .attr("cursor","pointer")
+      .on("click",()=>{ _net2dSel.clear(); buildNetwork(); });
+    resetRow.append("text").attr("fill","#5c6b7a").attr("font-size","11").text("✕ Clear Selection");
+  }
+
+  const tick = () => {
+    ln.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+      .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nd.attr("transform",d=>`translate(${d.x},${d.y})`);
+  };
+
+  const s = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d=>d.id).distance(d=>180+300/(d.co||1)).strength(0.12))
+    .force("charge", d3.forceManyBody().strength(d=>-800-rad(d)*30))
+    .force("center", d3.forceCenter(w/2,h/2).strength(0.6))
+    .force("collide", d3.forceCollide().radius(d=>rad(d)+45))
+    .force("x", d3.forceX(w/2).strength(0.03))
+    .force("y", d3.forceY(h/2).strength(0.03));
+
+  // 기간 레이블 표시
+  if(_netPeriodType !== 'all'){
+    const periods = _netPeriodList();
+    const periodTxt = _netPeriodLabel(periods[_netPeriodIdx]);
+    sv.append("text").attr("x", w/2).attr("y", 22)
+      .attr("text-anchor","middle").attr("font-size",13).attr("font-weight","700")
+      .attr("fill","var(--accent)").attr("opacity",0.8)
+      .text(periodTxt)
+      .style("pointer-events","none");
+    sv.append("text").attr("x", w/2).attr("y", 38)
+      .attr("text-anchor","middle").attr("font-size",10)
+      .attr("fill","var(--muted)")
+      .text(`${activeInPeriod.size} active institutions · ${links.length} collaborations`)
+      .style("pointer-events","none");
+  }
+  s.stop();
+  for(let i=0;i<300;i++) s.tick();
+  tick();
+  s.alphaDecay(0.08).alpha(0.03).restart().on("tick",tick);
+}
+
+let _net3dInstance = null;
+
+function switchNetView(v){
+  _netView = v;
+  _netSelOrg = null;
+  ["force","3d","map"].forEach(k=>{
+    const btn = document.getElementById("btn-net-"+k);
+    if(btn) btn.classList.toggle("active", k===v);
+  });
+  const sub = {
+    force:"Node=institution(color=country) · Link=co-papers. Drag & zoom to explore.",
+    "3d":"3D Force graph · Drag=rotate · Scroll=zoom · Click country=fly to cluster",
+    map:"Based on actual institution locations · Links=collaborations · Click to highlight on map"
+  };
+  document.getElementById("netSub").textContent = sub[v]||"";
+
+  const svgEl = document.getElementById("netGraph");
+  const wrap3d = document.getElementById("net3dWrap");
+  svgEl.style.display  = (v==="force" || v==="map") ? "" : "none";
+  wrap3d.style.display = v==="3d" ? "" : "none";
+
+  if(v==="map")   buildNetworkMap();
+  else if(v==="3d") buildNetwork3D();
+  else buildNetwork();
+}
+
+let _3dSelCC = new Set(); // 선택된 나라 (다중)
+
+function buildNetwork3D(){
+  if(typeof ForceGraph3D === "undefined"){
+    document.getElementById("net3dGraph").innerHTML =
+      '<p style="color:var(--muted);padding:40px">3d-force-graph 라이브러리 로딩 중...</p>';
+    return;
+  }
+  _3dSelCC = new Set();
+
+  const container = document.getElementById("net3dGraph");
+  container.innerHTML = "";
+  if(_net3dInstance){ try{ _net3dInstance._destructor&&_net3dInstance._destructor(); }catch(e){} }
+
+  const nodes = ORG_NODES.map(id=>({
+    id, name: id,
+    cc: ORG_COUNTRY[id]||"",
+    weight: ORG_WEIGHT[id]||1
+  }));
+  const links = ORG_LINKS.map(l=>({source:l[0], target:l[1], value:l[2]}));
+
+  const nodeColor = n => CTRY_COLOR[n.cc] || "#5c6b7a";
+
+  const Graph = ForceGraph3D()(container)
+    .backgroundColor("#f4f6f9")
+    .graphData({nodes, links})
+    .nodeLabel(n => `${n.id} (${CTRY_KO[n.cc]||n.cc})`)
+    .nodeColor(n => {
+      if(_3dSelCC.size===0) return nodeColor(n);
+      return _3dSelCC.has(n.cc) ? nodeColor(n) : "#252d3a";
+    })
+    .nodeOpacity(0.9)
+    .nodeVal(n => Math.sqrt(n.weight)*1.5)
+    // SpriteText 로드 확인 후에만 사용
+    .nodeThreeObjectExtend(typeof SpriteText !== "undefined")
+    .nodeThreeObject(typeof SpriteText !== "undefined" ? n => {
+      const sprite = new SpriteText(n.id.length>20?n.id.slice(0,18)+"…":n.id);
+      sprite.color = CTRY_COLOR[n.cc]||"#cdd9e5";
+      sprite.textHeight = 4;
+      sprite.backgroundColor = "rgba(14,17,22,0.65)";
+      sprite.padding = 1;
+      return sprite;
+    } : undefined)
+    .linkColor(l => {
+      if(_3dSelCC.size===0) return "rgba(30,30,30,0.5)";
+      const sc = typeof l.source==="object"?l.source.cc:ORG_COUNTRY[l.source];
+      const tc = typeof l.target==="object"?l.target.cc:ORG_COUNTRY[l.target];
+      return (_3dSelCC.has(sc)||_3dSelCC.has(tc)) ? "rgba(0,0,0,0.8)" : "rgba(0,0,0,0.08)";
+    })
+    .linkWidth(l => Math.sqrt(l.value)*0.6)
+    .linkOpacity(0.8)
+    .onNodeClick(node => {
+      const dist = 100;
+      const r = 1 + dist/Math.hypot(node.x||1, node.y||1, node.z||1);
+      Graph.cameraPosition({x:(node.x||0)*r, y:(node.y||0)*r, z:(node.z||0)*r}, node, 800);
+    });
+
+  // Country별 클러스터 force — Country 수만큼 구면 위에 고르게 배치
+  const ccList = [...new Set(nodes.map(n=>n.cc))];
+  const clusterCenters = {};
+  const R = 500; // 클러스터 반지름
+  ccList.forEach((cc, i) => {
+    // 피보나치 구면 분포
+    const phi = Math.acos(1 - 2*(i+0.5)/ccList.length);
+    const theta = Math.PI*(1+Math.sqrt(5))*(i+0.5);
+    clusterCenters[cc] = {
+      x: R*Math.sin(phi)*Math.cos(theta),
+      y: R*Math.sin(phi)*Math.sin(theta),
+      z: R*Math.cos(phi)
+    };
+  });
+  Graph.d3Force("cluster", alpha => {
+    nodes.forEach(n => {
+      const c = clusterCenters[n.cc]; if(!c) return;
+      n.vx = (n.vx||0) + (c.x-(n.x||0))*0.04*alpha;
+      n.vy = (n.vy||0) + (c.y-(n.y||0))*0.04*alpha;
+      n.vz = (n.vz||0) + (c.z-(n.z||0))*0.04*alpha;
+    });
+  });
+  // 초기 카메라 위치 — All가 보이도록
+  setTimeout(() => {
+    if(_net3dInstance) _net3dInstance.cameraPosition({x:0, y:0, z: R*3.5});
+  }, 800);
+
+  _net3dInstance = Graph;
+  window._net3dNodes = nodes;
+  window._net3dCenters = clusterCenters;
+
+  // 나라명 레이블: 매 프레임 클러스터 중심 계산해서 위치 갱신
+  if(typeof SpriteText !== "undefined" && Graph.scene){
+    const ccList2 = [...new Set(nodes.map(n=>n.cc).filter(Boolean))];
+    const _labels = {};
+    const scene = Graph.scene();
+    if(scene){
+      ccList2.forEach(cc => {
+        const sp = new SpriteText(CTRY_KO[cc]||cc);
+        sp.color = CTRY_COLOR[cc]||"#ffffff";
+        sp.textHeight = 10;
+        sp.backgroundColor = "rgba(14,17,22,0.75)";
+        sp.padding = 3;
+        sp.borderRadius = 4;
+        sp.fontWeight = "bold";
+        scene.add(sp);
+        _labels[cc] = sp;
+      });
+
+      // 매 프레임 중심 좌표 갱신
+      Graph.onRenderFramePost(() => {
+        const cents = {};
+        nodes.forEach(n => {
+          if(!cents[n.cc]) cents[n.cc] = {x:0,y:0,z:0,k:0};
+          cents[n.cc].x += (n.x||0);
+          cents[n.cc].y += (n.y||0);
+          cents[n.cc].z += (n.z||0);
+          cents[n.cc].k++;
+        });
+        Object.entries(_labels).forEach(([cc, sp]) => {
+          const c = cents[cc];
+          if(c && c.k) sp.position.set(c.x/c.k, c.y/c.k+18, c.z/c.k);
+          // 선택 모드에서 미선택 나라 레이블 희미하게
+          sp.color = (!_3dSelCC.size || _3dSelCC.has(cc))
+            ? (CTRY_COLOR[cc]||"#ffffff")
+            : "rgba(100,100,100,0.3)";
+        });
+      });
+    }
+  }
+
+  // 나라 Legend — Institution 2items 이상인 나라만, 많은 순으로 정렬
+  const ccCount = {};
+  ORG_NODES.forEach(id=>{ const c=ORG_COUNTRY[id]; if(c) ccCount[c]=(ccCount[c]||0)+1; });
+  const usedCC = Object.entries(ccCount)
+    .filter(([,n])=>n>=2).sort((a,b)=>b[1]-a[1]).map(([cc])=>cc);
+  const legend = document.getElementById("net3dLegend");
+
+  function renderLegend(){
+    legend.innerHTML =
+      `<div style="font-size:11px;color:var(--muted);margin-bottom:6px">나라 클릭 = 다중 선택 · 빈 곳 클릭 = All</div>` +
+      usedCC.map(cc => {
+        const col = CTRY_COLOR[cc]||"#5c6b7a";
+        const sel = _3dSelCC.has(cc);
+        return `<div id="net3d-cc-${cc}" style="display:flex;align-items:center;gap:6px;cursor:pointer;margin-bottom:3px;
+          padding:2px 4px;border-radius:4px;background:${sel?"rgba(255,255,255,0.08)":"transparent"}"
+          onclick="toggle3DCountry('${cc}')">
+          <span style="width:10px;height:10px;border-radius:50%;background:${col};flex-shrink:0;
+            opacity:${sel||_3dSelCC.size===0?1:0.3}"></span>
+          <span style="color:${sel||_3dSelCC.size===0?"#cdd9e5":"#4a5568"}">${CTRY_KO[cc]||cc}</span>
+        </div>`;
+      }).join("") +
+      `<div style="margin-top:6px;font-size:10px;color:var(--muted);cursor:pointer" onclick="toggle3DCountry(null)">
+        ✕ Clear Selection
+      </div>`;
+  }
+
+  window.toggle3DCountry = function(cc){
+    if(!cc){ _3dSelCC.clear(); }
+    else if(_3dSelCC.has(cc)){ _3dSelCC.delete(cc); }
+    else { _3dSelCC.add(cc); }
+
+    renderLegend();
+    // 그래프 색상/투명도 갱신
+    Graph.nodeColor(Graph.nodeColor()).nodeOpacity(Graph.nodeOpacity()).linkColor(Graph.linkColor());
+
+    // 선택된 나라 노드 좌표 기반 카메라 이동
+    if(_3dSelCC.size > 0){
+      const sel = window._net3dNodes.filter(n=>_3dSelCC.has(n.cc));
+      const xs = sel.map(n=>n.x||0), ys = sel.map(n=>n.y||0), zs = sel.map(n=>n.z||0);
+      const cx = xs.reduce((a,b)=>a+b,0)/xs.length;
+      const cy = ys.reduce((a,b)=>a+b,0)/ys.length;
+      const cz = zs.reduce((a,b)=>a+b,0)/zs.length;
+      // 범위 계산
+      const spread = Math.max(
+        Math.max(...xs)-Math.min(...xs),
+        Math.max(...ys)-Math.min(...ys), 40
+      );
+      const camDist = spread * 1.8 + 80;
+      Graph.cameraPosition({x:cx, y:cy, z:cz+camDist}, {x:cx,y:cy,z:cz}, 1000);
+    }
+  };
+
+  renderLegend();
+}
+
+async function buildNetworkMap(){
+  const svgEl = document.getElementById("netGraph");
+  const box = svgEl.getBoundingClientRect();
+  const w = box.width, h = box.height;
+  const sv = d3.select(svgEl).attr("viewBox",[0,0,w,h]);
+  sv.selectAll("*").remove();
+
+  // 세계 지도 로드 (Country별 탭과 공유)
+  if(!WORLD){
+    try{
+      const topo = await (await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")).json();
+      WORLD = topojson.feature(topo, topo.objects.countries).features;
+    }catch(e){
+      sv.append("text").attr("x",24).attr("y",44).attr("fill","#8b97a6").attr("font-size","13")
+        .text("지도 데이터를 불러오지 못했습니다."); return;
+    }
+  }
+
+  const fc = {type:"FeatureCollection", features:WORLD};
+  const proj = d3.geoNaturalEarth1().fitSize([w, h], fc);
+  const path = d3.geoPath(proj);
+
+  const g = sv.append("g");
+  // 라벨 전용 레이어 — zoom transform 밖에 있어서 항상 화면 고정 크기
+  const labelLayer = sv.append("g").attr("pointer-events","none");
+
+  // 각 Institution 투영 좌표 저장 (줌 시 재계산용)
+  const orgPts = {};
+
+  let _zoomState = d3.zoomIdentity;
+  sv.call(d3.zoom().scaleExtent([0.5,500]).on("zoom", e => {
+    g.attr("transform", e.transform);
+    _zoomState = e.transform;
+    const k = e.transform.k;
+    // 원만 줌 반비례로 축소 — 화면 크기 일정 (stroke는 vector-effect로 자동 처리)
+    g.selectAll(".net-map-node").attr("r", function(){
+      return (+this.getAttribute("data-r")) / k;
+    });
+    // 라벨은 투영 좌표를 화면 좌표로 변환해서 위치 갱신
+    labelLayer.selectAll("text.net-map-label").each(function(){
+      const id = this.getAttribute("data-id");
+      const pt = orgPts[id];
+      if(!pt) return;
+      const sx = e.transform.applyX(pt[0]);
+      const sy = e.transform.applyY(pt[1]);
+      const r  = +this.getAttribute("data-r");
+      d3.select(this).attr("x", sx + r + 6).attr("y", sy + 4);
+    });
+  }));
+
+  // 지도 배경
+  g.append("g").selectAll("path").data(WORLD).join("path")
+    .attr("d", path)
+    .attr("fill","#1a2535").attr("stroke","#2a3a4d").attr("stroke-width",0.4)
+    .style("vector-effect","non-scaling-stroke");
+
+  // 좌표 있는 Institution만
+  const orgsWithCoord = ORG_NODES.filter(id => ORG_COORDS[id]);
+  const links = ORG_LINKS
+    .filter(l => ORG_COORDS[l[0]] && ORG_COORDS[l[1]])
+    .map(l => ({source:l[0], target:l[1], co:l[2]}));
+
+  // 동일 투영 좌표 Institution들 원형으로 펼치기
+  const ptKey = id => {
+    const [lat,lon] = ORG_COORDS[id];
+    const p = proj([lon,lat]);
+    return p ? `${Math.round(p[0])},${Math.round(p[1])}` : null;
+  };
+  const ptGroups = {};
+  orgsWithCoord.forEach(id => {
+    const k = ptKey(id); if(!k) return;
+    if(!ptGroups[k]) ptGroups[k] = [];
+    ptGroups[k].push(id);
+  });
+  // 같은 점에 여러 Institution → 원형 배치 오프셋 계산
+  // spread를 작게 유지해야 세계지도에서 국경 밖으로 튀어나가지 않음
+  const orgOffset = {};
+  Object.values(ptGroups).forEach(group => {
+    if(group.length === 1){ orgOffset[group[0]] = [0,0]; return; }
+    const spread = Math.min(4 + group.length * 1.5, 18); // 최대 18px
+    group.forEach((id, i) => {
+      const angle = (i / group.length) * 2 * Math.PI;
+      orgOffset[id] = [Math.cos(angle)*spread, Math.sin(angle)*spread];
+    });
+  });
+
+  const maxCo = Math.max(...links.map(l=>l.co), 1);
+
+  // 연결선 (대원호)
+  const arcG = g.append("g").attr("fill","none");
+  links.forEach(l => {
+    const [lat1,lon1] = ORG_COORDS[l.source];
+    const [lat2,lon2] = ORG_COORDS[l.target];
+    const p1 = proj([lon1, lat1]);
+    const p2 = proj([lon2, lat2]);
+    if(!p1||!p2) return;
+    const mx = (p1[0]+p2[0])/2, my = (p1[1]+p2[1])/2;
+    const dx = p2[0]-p1[0], dy = p2[1]-p1[1];
+    const dist = Math.sqrt(dx*dx+dy*dy);
+    const cx = mx - dy*0.3, cy = my + dx*0.3;
+    arcG.append("path")
+      .attr("d",`M${p1[0]},${p1[1]} Q${cx},${cy} ${p2[0]},${p2[1]}`)
+      .attr("data-src", l.source).attr("data-tgt", l.target)
+      .attr("stroke", "#4dabf7")
+      .attr("stroke-width", 0.5 + (l.co/maxCo)*2.5)
+      .attr("stroke-opacity", 0.4 + (l.co/maxCo)*0.4)
+      .style("vector-effect","non-scaling-stroke");
+  });
+
+  // 노드
+  const tip = d3.select(svgEl.parentNode).append("div")
+    .style("position","absolute").style("pointer-events","none")
+    .style("background","rgba(14,17,22,.96)").style("border","1px solid var(--line)")
+    .style("border-radius","6px").style("padding","7px 12px").style("font-size","12px")
+    .style("display","none").style("z-index","10").style("white-space","nowrap");
+
+  const nodeG = g.append("g");
+  orgsWithCoord.forEach(id => {
+    const [lat,lon] = ORG_COORDS[id];
+    const pt = proj([lon, lat]);
+    if(!pt) return;
+    // 동일 좌표 오프셋 application
+    const [ox, oy] = orgOffset[id] || [0,0];
+    const finalPt = [pt[0]+ox, pt[1]+oy];
+    const r = 5 + Math.sqrt(ORG_WEIGHT[id]||4)*0.8;
+    const color = ctryColor(ORG_COUNTRY[id]);
+
+    const ng = nodeG.append("g")
+      .attr("transform",`translate(${finalPt[0]},${finalPt[1]})`)
+      .attr("cursor","pointer")
+      .on("click", () => {
+        _netSelOrg = (_netSelOrg===id) ? null : id;
+        _updateNetMapSel(nodeG, arcG, links, tip);
+      })
+      .on("mouseover", (event) => {
+        tip.style("display","block")
+          .html(`<b style="color:${color}">${id}</b><br>${CTRY_KO[ORG_COUNTRY[id]]||ORG_COUNTRY[id]||"?"} · papers ${ORG_WEIGHT[id]||"?"}papers`);
+      })
+      .on("mousemove", (event) => {
+        const rect = svgEl.getBoundingClientRect();
+        tip.style("left",(event.clientX-rect.left+12)+"px").style("top",(event.clientY-rect.top-28)+"px");
+      })
+      .on("mouseout",()=>tip.style("display","none"));
+
+    // 투영 좌표 저장 (줌 이벤트에서 라벨 위치 계산용) — 오프셋 포함
+    orgPts[id] = finalPt;
+
+    ng.append("circle")
+      .attr("r", r).attr("class","net-map-node")
+      .attr("data-id", id).attr("data-r", r)
+      .attr("fill", color).attr("fill-opacity", 0.85)
+      .attr("stroke","#f4f6f9").attr("stroke-width", 1.5)
+      .style("vector-effect","non-scaling-stroke");  // 줌해도 테두리 두께 화면 기준 일정
+
+    // 라벨은 zoom 밖 레이어에 추가 → 항상 화면 기준 위치 추적
+    labelLayer.append("text")
+      .attr("class","net-map-label")
+      .attr("data-id", id).attr("data-r", r)
+      .attr("x", pt[0] + r + 6).attr("y", pt[1] + 4)
+      .attr("font-size", 10).attr("fill","#cdd9e5")
+      .attr("paint-order","stroke").attr("stroke","rgba(14,17,22,.88)").attr("stroke-width", 2)
+      .text(id.length>22 ? id.slice(0,20)+"…" : id);
+  });
+
+  // 좌표 없는 Institution 안내
+  const noCoord = ORG_NODES.filter(id=>!ORG_COORDS[id]);
+  if(noCoord.length){
+    sv.append("text").attr("x",w-10).attr("y",h-10).attr("text-anchor","end")
+      .attr("fill","#3d4d5e").attr("font-size",10)
+      .text(`No coords: ${noCoord.slice(0,3).join(", ")}${noCoord.length>3?" more "+(noCoord.length-3)+"items":""}`);
+  }
+}
+
+function _updateNetMapSel(nodeG, arcG, links, tip){
+  if(!_netSelOrg){
+    nodeG.selectAll("circle").attr("stroke","#f4f6f9").attr("stroke-width",1.5).attr("fill-opacity",0.85);
+    arcG.selectAll("path").attr("stroke-opacity", d=> d?0.4:0.4);
+    return;
+  }
+  // 연결된 Institution 집합
+  const connected = new Set([_netSelOrg]);
+  links.forEach(l=>{ if(l.source===_netSelOrg) connected.add(l.target); if(l.target===_netSelOrg) connected.add(l.source); });
+
+  nodeG.selectAll("g").each(function(){
+    const c = d3.select(this).select("circle");
+    const id = c.attr("data-id");
+    if(id===_netSelOrg){
+      c.attr("stroke","#fff").attr("stroke-width",3).attr("fill-opacity",1);
+    } else if(connected.has(id)){
+      c.attr("stroke","#ffd43b").attr("stroke-width",2).attr("fill-opacity",0.9);
+    } else {
+      c.attr("stroke","#f4f6f9").attr("stroke-width",1).attr("fill-opacity",0.25);
+    }
+  });
+
+  arcG.selectAll("path").attr("stroke-opacity", function(){
+    const src = this.getAttribute("data-src");
+    const tgt = this.getAttribute("data-tgt");
+    return (src===_netSelOrg||tgt===_netSelOrg) ? 0.9 : 0.08;
+  });
+}
+
+/* ===================== Impact Papers (FWCI/OA) ===================== */
+let _impactPeriod = "theme";
+
+function _paperDate(p){ return p.date || String(p.y); }
+
+function _filterPapers(period){
+  const now = new Date();
+  if(period === "all") return PAPERS;
+  if(period === "3y"){
+    const cutY = now.getFullYear() - 2;  // 3 간 = 올해 포함 3items 
+    return PAPERS.filter(p => (p.y||0) >= cutY);
+  }
+  if(period === "3m"){
+    const d = new Date(now); d.setMonth(d.getMonth() - 3);
+    const cutStr = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}`;
+    return PAPERS.filter(p => _paperDate(p) >= cutStr);
+  }
+  return PAPERS;
+}
+
+function renderImpact(period){
+  if(period === "theme"){ renderImpactByTheme(); return; }
+  const list = _filterPapers(period);
+  document.getElementById("impactList").innerHTML = list.length
+    ? list.map(p=>`
+      <div class="paper">
+        <div class="score">${p.score}</div>
+        <h4>${p.t}</h4>
+        <div class="meta">${p.j} · ${p.y}</div>
+        <div>${(p.tech||[]).map(t=>`<span class="pill">${t}</span>`).join("")}</div>
+        <div class="metric-bd">Impact = citations <b>${p.cit!=null?p.cit:'—'}</b> · FWCI <b>${p.fwci!=null?(+p.fwci).toFixed(2):'—'}</b> · ${p.oa?'<b style="color:var(--accent2)">OA</b>':'구독'} · 발행 <b>${p.y||'—'}</b></div>
+        ${p.doi ? `<a href="${p.doi}" target="_blank" rel="noopener" class="vid" style="text-decoration:none">→ Full Paper</a>` : '<span style="font-size:11px;color:var(--muted)">No DOI</span>'}
+      </div>`).join("")
+    : `<div style="padding:40px;color:var(--muted);text-align:center">No papers for this period</div>`;
+}
+
+function renderImpactByTheme(){
+  const kwGroup = {};
+  NODES.forEach(n => { kwGroup[n.id.toLowerCase()] = n.group; });
+
+  function paperTheme(p){
+    for(const t of (p.tech||[])){
+      const g = kwGroup[t.toLowerCase()];
+      if(g) return g;
+    }
+    return null;
+  }
+
+  // 테마별 상위 5개 수집
+  const themeTop = {};
+  PAPERS.forEach(p => {
+    const g = paperTheme(p);
+    if(!g) return;
+    if(!themeTop[g]) themeTop[g] = [];
+    themeTop[g].push(p);
+  });
+  Object.keys(themeTop).forEach(g => {
+    themeTop[g].sort((a,b)=>b.score-a.score);
+    themeTop[g] = themeTop[g].slice(0,5);
+  });
+
+  const themeOrder = Object.keys(GROUP_KO).filter(g => themeTop[g]?.length);
+  if(!themeOrder.length){
+    document.getElementById("impactList").innerHTML =
+      "<div style='padding:40px;color:var(--muted);text-align:center'>No theme data available.</div>";
+    return;
+  }
+
+  const paperCard = (p, rank, color) => `
+    <div style="display:flex;gap:10px;padding:10px 0;${rank>1?'border-top:1px solid var(--line)':''}">
+      <div style="font-size:18px;font-weight:800;color:${rank===1?color:'var(--muted)'};min-width:24px;text-align:center">${rank}</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:12px;font-weight:600;line-height:1.4;margin-bottom:4px;color:var(--txt)">${p.t}</div>
+        <div style="font-size:11px;color:var(--muted);margin-bottom:4px">${p.j} · ${p.y}</div>
+        <div style="margin-bottom:4px">${(p.tech||[]).slice(0,3).map(t=>`<span class="pill" style="font-size:10px;padding:2px 6px">${t}</span>`).join("")}</div>
+        <div style="font-size:11px;color:var(--muted)">
+          Score <b style="color:${color}">${p.score}</b> · Citations <b>${p.cit||'—'}</b> · FWCI <b>${p.fwci?(+p.fwci).toFixed(1):'—'}</b>
+          ${p.oa?' · <b style="color:var(--accent2)">OA</b>':''}
+          ${p.doi?` · <a href="${p.doi}" target="_blank" style="color:var(--accent)">Full Paper →</a>`:''}
+        </div>
+      </div>
+    </div>`;
+
+  document.getElementById("impactList").innerHTML =
+    "<div style='display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:16px;padding:16px 24px'>" +
+    themeOrder.map(g => {
+      const papers = themeTop[g];
+      const color = groupColor(g);
+      const label = GROUP_KO[g] || g;
+      return `<div style="background:var(--panel2);border:1px solid var(--line);border-top:3px solid ${color};border-radius:10px;padding:14px">
+        <div style="font-size:11px;font-weight:700;color:${color};letter-spacing:.5px;text-transform:uppercase;margin-bottom:10px">
+          ${label} <span style="font-size:10px;color:var(--muted);font-weight:400">— Top ${papers.length}</span>
+        </div>
+        ${papers.map((p,i)=>paperCard(p,i+1,color)).join('')}
+      </div>`;
+    }).join("") + "</div>";
+}
+
+function fillImpact(){
+  document.querySelectorAll(".impact-filter").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      document.querySelectorAll(".impact-filter").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      _impactPeriod = btn.dataset.period;
+      renderImpact(_impactPeriod);
+    });
+  });
+  renderImpact(_impactPeriod);
+}
+
+/* ===================== Journals ===================== */
+function fillJournals(){
+  const total = JOURNALS.reduce((s,j)=>s+j.papers,0) || 1;
+  const max = Math.max(...JOURNALS.map(j=>j.papers), 1);
+  const totalCites = JOURNALS.reduce((s,j)=>s+(j.cites||0),0);
+  document.getElementById("journalSub").textContent =
+    `${JOURNALS.length} journals collected · ${total.toLocaleString()} papers · ${totalCites.toLocaleString()} citations (OpenAlex)`;
+
+  document.querySelector("#journalTable tbody").innerHTML = JOURNALS.map((j,i)=>{
+    const m = getJournalMeta(j);
+    const ifVal = m.if2y ? m.if2y.toFixed(2) : '—';
+    const hVal  = m.h_index || '—';
+    const subj  = (m.subjects||[]).slice(0,2).join(' · ');
+    return `
+    <tr class="journal-row" onclick="toggleJournalDetail(${i})">
+      <td style="color:var(--muted);white-space:nowrap">${i+1}</td>
+      <td style="font-size:12px">
+        <a href="journal.html?issn=${m.issn_l||''}" target="_blank" style="color:var(--txt);text-decoration:none;font-weight:700" onclick="event.stopPropagation()">${j.name}</a>
+        ${m.publisher?`<div style="font-size:10px;color:var(--muted);margin-top:2px">${m.publisher}</div>`:''}
+        ${m.is_oa?'<span style="font-size:9px;background:var(--accent2);color:#0e1116;border-radius:3px;padding:1px 5px;margin-left:4px">OA</span>':''}
+      </td>
+      <td style="text-align:right;font-weight:700;white-space:nowrap">${j.papers.toLocaleString()}</td>
+      <td style="width:180px">
+        <div style="display:flex;align-items:center;gap:6px">
+          <div class="bar-track" style="flex:1;height:14px">
+            <div class="bar-fill" style="width:${j.papers/max*100}%;padding-right:0"></div>
+          </div>
+          <span style="font-size:11px;color:var(--txt);font-weight:700;min-width:40px;text-align:right">${(j.papers/total*100).toFixed(1)}%</span>
+        </div>
+      </td>
+      <td style="text-align:right;color:var(--muted);white-space:nowrap">${(j.cites||0).toLocaleString()}</td>
+      <td style="text-align:right;white-space:nowrap;color:var(--accent);font-weight:700">${ifVal}</td>
+      <td style="text-align:right;white-space:nowrap;color:var(--muted)">${hVal}</td>
+      <td style="color:var(--muted);font-size:10px">▼</td>
+    </tr>
+    <tr class="journal-detail" id="jd-${i}">
+      <td colspan="8" style="padding:0">
+        <!-- 주요 지표 -->
+        <div style="display:flex;flex-wrap:wrap;border-top:1px solid var(--line)">
+          ${m.if2y?`<div class="journal-stat"><div class="val">${m.if2y.toFixed(2)}</div><div class="lbl">IF (2yr)</div></div>`:''}
+          ${m.h_index?`<div class="journal-stat"><div class="val">${m.h_index}</div><div class="lbl">h-index</div></div>`:''}
+          ${m.i10_index?`<div class="journal-stat"><div class="val">${m.i10_index.toLocaleString()}</div><div class="lbl">i10-index</div></div>`:''}
+          ${m.works&&m.cites?`<div class="journal-stat"><div class="val">${(m.cites/Math.max(m.works,1)).toFixed(1)}</div><div class="lbl">Cites/Paper</div></div>`:''}
+          ${m.works?`<div class="journal-stat"><div class="val">${m.works.toLocaleString()}</div><div class="lbl">Total Papers</div></div>`:''}
+          ${m.oa_works&&m.works?`<div class="journal-stat"><div class="val" style="color:var(--accent2)">${Math.round(m.oa_works/m.works*100)}%</div><div class="lbl">OA Rate</div></div>`:''}
+          ${m.apc_usd?`<div class="journal-stat"><div class="val">$${m.apc_usd.toLocaleString()}</div><div class="lbl">APC (USD)</div></div>`:''}
+          ${m.first_year?`<div class="journal-stat"><div class="val">${m.first_year}</div><div class="lbl">Founded</div></div>`:''}
+          ${m.country?(()=>{
+            try{const cn=new Intl.DisplayNames(['en'],{type:'region'});
+            const fullName=cn.of(m.country);
+            return `<div class="journal-stat"><div class="val" style="font-size:13px">${m.country} <span style="font-size:11px;color:var(--muted)">(${fullName})</span></div><div class="lbl">Country</div></div>`;}
+            catch(e){return `<div class="journal-stat"><div class="val">${m.country}</div><div class="lbl">Country</div></div>`;}
+          })():''}
+          ${m.pub_city?`<div class="journal-stat"><div class="val" style="font-size:13px">${m.pub_city}</div><div class="lbl">Publisher City</div></div>`:''}
+        </div>
+        <!-- ISSN + 배지 -->
+        <div style="padding:8px 14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line)">
+          ${m.issn&&m.issn.length?`<span style="font-size:11px;color:var(--muted)">ISSN: <b>${m.issn.join(' / ')}</b></span>`:''}
+          ${m.is_doaj?'<span style="font-size:10px;background:#1a4731;color:#b7e4c7;border-radius:4px;padding:2px 7px;font-weight:600">DOAJ</span>':''}
+          ${m.is_core?'<span style="font-size:10px;background:#1e3a5f;color:#90e0ef;border-radius:4px;padding:2px 7px;font-weight:600">CORE</span>':''}
+          ${m.is_oa?'<span style="font-size:10px;background:#1a4731;color:#b7e4c7;border-radius:4px;padding:2px 7px;font-weight:600">Full OA</span>':''}
+          ${m.homepage?`<a href="${m.homepage}" target="_blank" style="font-size:11px;color:var(--accent);margin-left:auto">🔗 Journal Site →</a>`:''}
+        </div>
+        <!-- 주제 토픽 -->
+        ${m.topics&&m.topics.length?`<div style="padding:6px 14px;font-size:11px;color:var(--muted);border-top:1px solid var(--line)"><b style="color:var(--txt)">Topics:</b> ${m.topics.join(' · ')}</div>`:''}
+        <!-- 연도별 논문수 미니 바 차트 -->
+        ${m.counts_by_year&&m.counts_by_year.length?`<div style="padding:8px 14px;border-top:1px solid var(--line)">
+          <div style="font-size:10px;color:var(--muted);margin-bottom:4px">Papers published per year</div>
+          <div style="display:flex;align-items:flex-end;gap:2px;height:120px">
+            ${[...m.counts_by_year].reverse().map(d=>{const mx=Math.max(...m.counts_by_year.map(x=>x.works));const pct=Math.max(4,Math.round(d.works/mx*100));return '<div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;min-width:6px;position:relative"><span style="position:absolute;bottom:'+(pct+2)+'%;font-size:8px;color:var(--muted);white-space:nowrap;transform:translateX(-50%);left:50%">'+d.works+'</span><div title="'+d.year+': '+d.works+' papers" style="width:100%;background:var(--accent);opacity:0.7;height:'+pct+'%;border-radius:2px 2px 0 0"></div></div>';}).join('')}
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--muted);margin-top:2px">
+            <span>${[...m.counts_by_year].reverse()[0]?.year||''}</span>
+            <span>${[...m.counts_by_year].reverse().slice(-1)[0]?.year||''}</span>
+          </div>
+        </div>`:''}
+        <div style="padding:5px 14px;font-size:10px;color:var(--muted);border-top:1px solid var(--line)">
+          Source: OpenAlex · IF = 2yr mean citedness · JCR quartile/% requires Clarivate subscription
+        </div>
+      </td>
+    </tr>`;
+  }).join("");
+}
+
+function toggleJournalDetail(i){
+  const el = document.getElementById('jd-'+i);
+  if(!el) return;
+  el.classList.toggle('open');
+}
+
+/* ===================== Technology 발화 추적 (별 Rank Bump Chart) ===================== */
+let _evoLevel = "specific"; // "specific" | "all"
+
+function renderEvo(levelFilter){
+  const container = document.getElementById("evoTimeline");
+  const nodeMap = new Map(NODES.map(n=>[n.id, n]));
+
+  // 위계 필터 application: specific = parent 있는 level3만, all = level3 All
+  const pool = NODES.filter(n => {
+    if(n.level !== 3) return false;
+    if(!n.monthly || Object.keys(n.monthly).length < 3) return false;
+    if(levelFilter === "specific") return !!n.parent;
+    return true;
+  });
+
+  if(!pool.length){
+    container.innerHTML = '<p style="color:var(--muted);padding:40px">No data (regenerate graph.json)</p>';
+    return;
+  }
+
+  const allMonths = new Set();
+  pool.forEach(n => Object.keys(n.monthly).forEach(m => allMonths.add(m)));
+  const months = [...allMonths].sort();
+  const TOP_N = 15;
+
+  const monthRankMap = {};
+  months.forEach(m => {
+    const ranked = pool
+      .filter(n => (n.monthly[m]||0) > 0)
+      .sort((a,b) => (b.monthly[m]||0) - (a.monthly[m]||0))
+      .slice(0, TOP_N);
+    const map = new Map();
+    ranked.forEach((n,i) => map.set(n.id, {rank: i+1, n: n.monthly[m]}));
+    monthRankMap[m] = map;
+  });
+
+  const idsInTopN = new Set();
+  Object.values(monthRankMap).forEach(map => map.forEach((_,id) => idsInTopN.add(id)));
+
+  const series = {};
+  idsInTopN.forEach(id => {
+    series[id] = months.map(m => {
+      const e = monthRankMap[m].get(id);
+      return e ? {month: m, rank: e.rank, n: e.n} : null;
+    });
+  });
+
+  const emergences = [];
+  idsInTopN.forEach(id => {
+    let prevIdx = -99;
+    series[id].forEach((pt, i) => {
+      if(pt){
+        if(i - prevIdx >= 3) emergences.push({id, month: months[i], rank: pt.rank, isNew: prevIdx < 0});
+        prevIdx = i;
+      }
+    });
+  });
+
+  const prominence = {};
+  idsInTopN.forEach(id => { prominence[id] = series[id].filter(Boolean).length; });
+  const labeledIds = [...idsInTopN].sort((a,b) => prominence[b]-prominence[a]).slice(0, 12);
+
+  const recent5 = months.slice(-5);
+  const recentEmergences = emergences.filter(e => recent5.includes(e.month));
+
+  // ── D3 렌더 ──
+  container.innerHTML = '';
+
+  // 탭이 활성화된 후 호출되므로 실제 너비 사용
+  const totalW = Math.max(container.offsetWidth || 0, 700);
+  const LABEL_W = 160;
+  const H = 520;
+  const mg = {top: 40, right: LABEL_W + 10, bottom: 30, left: 38};
+  const iW = totalW - mg.left - mg.right;
+  const iH = H - mg.top - mg.bottom;
+
+  // SVG에 clipPath 설정으로 선이 라벨 영역 침범 방지
+  const svgEl = d3.select(container).append("svg")
+    .attr("width", totalW).attr("height", H).style("display","block");
+
+  svgEl.append("defs").append("clipPath").attr("id","evoClip")
+    .append("rect").attr("width", iW).attr("height", iH + mg.top).attr("y", -mg.top);
+
+  const g = svgEl.append("g").attr("transform", `translate(${mg.left},${mg.top})`);
+
+  const xSc = d3.scalePoint().domain(months).range([0, iW]).padding(0.2);
+  const ySc = d3.scaleLinear().domain([0.5, TOP_N+0.5]).range([0, iH]);
+
+  months.filter(mo => mo.endsWith('-01')).forEach(mo => {
+    g.append("line")
+      .attr("x1",xSc(mo)).attr("x2",xSc(mo)).attr("y1",0).attr("y2",iH)
+      .attr("stroke","#232d3d").attr("stroke-dasharray","3 5");
+    g.append("text")
+      .attr("x",xSc(mo)).attr("y",-20).attr("text-anchor","middle")
+      .attr("fill","#5c6b7a").attr("font-size",11)
+      .text(mo.slice(0,4)+" ");
+  });
+
+  [1,5,10,15].forEach(r => {
+    g.append("line").attr("x1",0).attr("x2",iW)
+      .attr("y1",ySc(r)).attr("y2",ySc(r))
+      .attr("stroke",r===1?"#2e3d50":"#1a2233").attr("stroke-width",r===1?1.5:0.7);
+    g.append("text").attr("x",-6).attr("y",ySc(r)+4)
+      .attr("text-anchor","end").attr("fill","#3d4d5e").attr("font-size",10)
+      .text(`#${r}`);
+  });
+
+  const lineGen = d3.line()
+    .x(d=>xSc(d.month)).y(d=>ySc(d.rank))
+    .curve(d3.curveCatmullRom.alpha(0.5));
+
+  function drawSegments(parent, pts, color, opacity, sw, dashed){
+    let seg=[];
+    pts.forEach(pt => {
+      if(pt){ seg.push(pt); }
+      else {
+        if(seg.length>=2){
+          const p = parent.append("path").datum(seg)
+            .attr("d",lineGen).attr("fill","none")
+            .attr("stroke",color).attr("stroke-width",sw).attr("opacity",opacity);
+          if(dashed) p.attr("stroke-dasharray","5 3");
+        }
+        seg=[];
+      }
+    });
+    if(seg.length>=2){
+      const p = parent.append("path").datum(seg)
+        .attr("d",lineGen).attr("fill","none")
+        .attr("stroke",color).attr("stroke-width",sw).attr("opacity",opacity);
+      if(dashed) p.attr("stroke-dasharray","5 3");
+    }
+  }
+
+  // 배경 선
+  const bgG = g.append("g").attr("clip-path","url(#evoClip)");
+  idsInTopN.forEach(id => {
+    if(labeledIds.includes(id)) return;
+    const nd = nodeMap.get(id);
+    const dashed = !nd?.parent;
+    drawSegments(bgG, series[id], groupColor(nd?.group), 0.12, 1, dashed);
+  });
+
+  // 툴팁
+  const tip = d3.select(container).append("div")
+    .style("position","absolute").style("pointer-events","none")
+    .style("background","rgba(14,17,22,.96)").style("border","1px solid var(--line)")
+    .style("border-radius","6px").style("padding","8px 12px").style("font-size","12px")
+    .style("display","none").style("z-index","10").style("white-space","nowrap");
+
+  // 전경 선 + 점
+  const fgG = g.append("g").attr("clip-path","url(#evoClip)");
+  labeledIds.forEach(id => {
+    const nd = nodeMap.get(id);
+    const color = groupColor(nd?.group);
+    const hasParent = !!nd?.parent;
+    const topRank = Math.min(...series[id].filter(Boolean).map(p=>p.rank));
+    drawSegments(fgG, series[id], color, hasParent?0.85:0.5, topRank<=3?1.5:1, !hasParent);
+
+    // 선 위에 투명한 넓은 히트 영역으로 툴팁 처리
+    series[id].forEach(pt => {
+      if(!pt) return;
+      fgG.append("circle")
+        .attr("cx",xSc(pt.month)).attr("cy",ySc(pt.rank))
+        .attr("r",6).attr("fill","transparent")
+        .style("cursor","pointer")
+        .on("mouseover",()=>{
+          const nd2 = nodeMap.get(id);
+          tip.style("display","block").html(
+            `<b style="color:${color}">${id}</b> <span style="color:var(--muted);font-size:10px">[${nd2?.group||'?'}]</span><br>`+
+            `${pt.month} · ${pt.n}papers · <b>#${pt.rank}</b>th`);
+        })
+        .on("mousemove",(event)=>{
+          const rect=container.getBoundingClientRect();
+          tip.style("left",(event.clientX-rect.left+14)+"px")
+             .style("top",(event.clientY-rect.top-36)+"px");
+        })
+        .on("mouseout",()=>tip.style("display","none"));
+    });
+  });
+
+  // 라벨 (클립 바깥 영역에 배치 — 잘리지 않음)
+  const lblG = g.append("g");
+  labeledIds.forEach(id => {
+    const nd = nodeMap.get(id);
+    const color = groupColor(nd?.group);
+    const lastPt = [...series[id]].reverse().find(Boolean);
+    if(!lastPt) return;
+    const label = id.length > 18 ? id.slice(0,16)+"…" : id;
+    const hasParent = !!nd?.parent;
+    lblG.append("text")
+      .attr("x", iW + 8)
+      .attr("y", ySc(lastPt.rank) + 4)
+      .attr("fill", color)
+      .attr("font-size", 11)
+      .attr("font-weight", hasParent ? 600 : 400)
+      .attr("font-style", hasParent ? "normal" : "italic")
+      .attr("opacity", hasParent ? 1 : 0.65)
+      .text(label);
+  });
+
+  // 발화 마커 — ★ First Top15 진입 / ● 재진입
+  const mrkG = g.append("g").attr("clip-path","url(#evoClip)");
+  emergences.filter(e=>labeledIds.includes(e.id)).forEach(e=>{
+    const color = groupColor(nodeMap.get(e.id)?.group);
+    if(e.isNew){
+      // ★ First Entry: 별 모양
+      mrkG.append("text")
+        .attr("x",xSc(e.month)).attr("y",ySc(e.rank)+5)
+        .attr("text-anchor","middle").attr("font-size",14)
+        .attr("fill",color).attr("stroke","#f4f6f9").attr("stroke-width",2)
+        .attr("paint-order","stroke").attr("opacity",0.95)
+        .text("★");
+    } else {
+      // ● 재진입: 속이 빈 원
+      mrkG.append("circle")
+        .attr("cx",xSc(e.month)).attr("cy",ySc(e.rank))
+        .attr("r",5).attr("fill","none")
+        .attr("stroke",color).attr("stroke-width",2).attr("opacity",0.85);
+    }
+  });
+
+  // Legend
+  const leg = svgEl.append("g").attr("transform",`translate(${mg.left},${iH+mg.top+14})`);
+  [[`★`,"First Top15 진입"],[`●`,"재진입 (2items+ 공백 후)"],["—","실선=세부Technology"],["- -","점선=광범주"]].forEach(([sym,label],i)=>{
+    const x = i * 170;
+    leg.append("text").attr("x",x).attr("font-size",11).attr("fill","#ffd43b").text(sym);
+    leg.append("text").attr("x",x+18).attr("font-size",11).attr("fill","#6e7f96").text(label);
+  });
+
+  // 최근 신규 발화 패널
+  if(recentEmergences.length){
+    const uniq = [...new Map(recentEmergences.map(e=>[e.id,e])).values()]
+      .sort((a,b)=>b.month.localeCompare(a.month)||a.rank-b.rank);
+    const panel = document.createElement("div");
+    panel.style.cssText = "margin-top:20px;padding:16px 20px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;border-left:3px solid #ffd43b";
+    panel.innerHTML = `
+      <div style="font-size:13px;font-weight:700;color:#ffd43b;margin-bottom:10px">🔥 최근 신규 발화 Technology (Top ${TOP_N} 첫 진입)</div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        ${uniq.map(e=>{
+          const nd2=nodeMap.get(e.id);
+          const c=groupColor(nd2?.group);
+          const parentLabel = nd2?.parent ? ` › ${nd2.parent}` : " (광범주)";
+          return `<span style="background:rgba(255,212,59,.1);border:1px solid rgba(255,212,59,.25);border-radius:20px;padding:4px 14px;font-size:12px">
+            <span style="color:#ffd43b;font-size:11px">${e.month}</span>
+            <span style="color:${c};font-weight:600;margin-left:6px">${e.id}</span>
+            <span style="color:var(--muted);font-size:11px">${parentLabel}</span>
+            <span style="color:var(--muted);font-size:11px;margin-left:4px">#${e.rank}th</span>
+          </span>`;
+        }).join("")}
+      </div>`;
+    container.appendChild(panel);
+  }
+}
+
+let _evoView = "tree"; // "tree" | "bump"
+
+function fillEvo(){
+  // 뷰 토글
+  document.querySelectorAll(".evo-view-btn").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      document.querySelectorAll(".evo-view-btn").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      _evoView = btn.dataset.eview;
+      _switchEvoView();
+    });
+  });
+  // 범프 위계 필터
+  document.querySelectorAll(".evo-filter").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      document.querySelectorAll(".evo-filter").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      _evoLevel = btn.dataset.level;
+      renderEvo(_evoLevel);
+    });
+  });
+  _switchEvoView();
+}
+
+function _switchEvoView(){
+  const isTree = _evoView === "tree";
+  document.getElementById("evoTitle").textContent = isTree ? "Technology Emergence Tree" : "Technology Emergence Tracking — Monthly Rank";
+  document.getElementById("evoTreeCtrl").style.display = isTree ? "block" : "none";
+  document.getElementById("evoBumpCtrl").style.display = isTree ? "none" : "flex";
+  if(isTree) buildEvoTree();
+  else renderEvo(_evoLevel);
+}
+
+/* ── Technology Emergence Tree ── */
+function buildEvoTree(){
+  const container = document.getElementById("evoTimeline");
+  container.innerHTML = '';
+
+  // 최근  기준 Growth Rate 계산
+  const nodeMap = new Map(NODES.map(n=>[n.id, n]));
+  const allMonths = new Set();
+  NODES.filter(n=>n.monthly).forEach(n=>Object.keys(n.monthly).forEach(m=>allMonths.add(m)));
+  const months = [...allMonths].sort();
+  const recent3 = months.slice(-3);
+  const prev3   = months.slice(-6, -3);
+  const recentN = n => recent3.reduce((s,m)=>s+(n.monthly[m]||0), 0);
+  const prevN   = n => prev3.reduce((s,m)=>s+(n.monthly[m]||0), 0);
+
+  // 계층 Structural 빌드: root → groups → level2 → level3
+  const groups = {};
+  NODES.filter(n=>n.level===3).forEach(n=>{
+    const g = n.group || "기타";
+    if(!groups[g]) groups[g] = {id:g, children:{}};
+    const par = n.parent || "__직접__";
+    if(!groups[g].children[par]) groups[g].children[par] = {id:par, children:[]};
+    groups[g].children[par].children.push(n);
+  });
+
+  const rootData = {
+    id: "건설Technology",
+    children: Object.values(groups).map(g=>({
+      id: g.id,
+      children: (() => {
+        // 중분류로 사용되는 id 집합 (중복 방지용)
+        const midKeys = new Set(Object.keys(g.children).filter(k => k !== "__직접__"));
+        return [
+          // parent=None 직속 잎 — 중분류 이름과 겹치는 것 제more
+          ...(g.children["__직접__"]?.children.filter(n => !midKeys.has(n.id)) || []),
+          // 중분류 노드
+          ...Object.entries(g.children)
+            .filter(([k]) => k !== "__직접__")
+            .map(([k, mid]) => ({id: mid.id, _label: mid.id, children: mid.children}))
+        ];
+      })()
+    }))
+  };
+
+  // D3 계층 + 트리 레이아웃
+  const root = d3.hierarchy(rootData, d=>d.children);
+  root.each(d=>{
+    if(d.data.level===3){
+      const rec = recentN(d.data), pre = prevN(d.data);
+      d.data._growth = pre>0 ? (rec-pre)/pre : (rec>0 ? 1 : 0);
+      d.data._recent = rec;
+    }
+  });
+
+  const W = container.offsetWidth || 900;
+  const LEAF_H = 34;
+  const leafCount = root.leaves().length;
+  const H = Math.max(700, leafCount * LEAF_H + 80);
+
+  const GANTT_W    = Math.min(220, W * 0.22); // Gantt 바 영역 너비
+  const LABEL_SPACE = 200 + GANTT_W + 20;      // 라벨 + Gantt
+  const treeLayout = d3.tree().size([H - 60, W - 90 - LABEL_SPACE]);
+  treeLayout(root);
+
+  // 각 리프의 첫/마지막 등장  계산
+  const firstMonth = n => {
+    if(!n.monthly) return null;
+    const ms = Object.keys(n.monthly).filter(m => n.monthly[m]>0).sort();
+    return ms[0] || null;
+  };
+  const lastMonth = n => {
+    if(!n.monthly) return null;
+    const ms = Object.keys(n.monthly).filter(m => n.monthly[m]>0).sort();
+    return ms[ms.length-1] || null;
+  };
+
+  // All  스케일 (Gantt 가로 축)
+  const ganttSc = d3.scalePoint().domain(months).range([0, GANTT_W]).padding(0);
+
+  const svg = d3.select(container).append("svg")
+    .attr("width", W).attr("height", H)
+    .style("display","block").style("overflow","visible");
+  svg.call(d3.zoom().scaleExtent([0.3,2]).on("zoom",e=>g.attr("transform",e.transform)));
+
+  const g = svg.append("g").attr("transform","translate(90,30)");
+
+  // 링크
+  g.append("g").attr("fill","none").selectAll("path")
+    .data(root.links())
+    .join("path")
+    .attr("d", d3.linkHorizontal().x(d=>d.y).y(d=>d.x))
+    .attr("stroke", d=>{
+      if(!d.target.data.group) return "#2a3a4d";
+      return groupColor(d.target.data.group) + "55";
+    })
+    .attr("stroke-width", d => d.source.depth===0 ? 2 : d.source.depth===1 ? 1.5 : 1);
+
+  // 노드
+  const node = g.append("g").selectAll("g")
+    .data(root.descendants())
+    .join("g")
+    .attr("transform", d=>`translate(${d.y},${d.x})`)
+    .style("cursor", d=>d.children?"pointer":"default");
+
+  // 원 / 사각형
+  node.each(function(d){
+    const el = d3.select(this);
+    // 모든 텍스트 공통: 선이 겹쳐도 읽히도록 배경 stroke 추가
+    const txt = (sel, txt, attrs={}) => sel.append("text")
+      .attr("paint-order","stroke")
+      .attr("stroke","rgba(14,17,22,.7)")
+      .attr("stroke-width",3)
+      .each(function(){ Object.entries(attrs).forEach(([k,v])=>d3.select(this).attr(k,v)); })
+      .text(txt);
+
+    if(d.depth === 0){
+      el.append("rect").attr("x",-36).attr("y",-10).attr("width",72).attr("height",20)
+        .attr("rx",5).attr("fill","#1c2d3d").attr("stroke","var(--accent)").attr("stroke-width",1.5);
+      txt(el, d.data.id, {"text-anchor":"middle","dy":4,"fill":"var(--accent)","font-size":12,"font-weight":700});
+    } else if(d.depth === 1){
+      const c = groupColor(d.data.id);
+      el.append("circle").attr("r",10).attr("fill",c).attr("fill-opacity",0.85)
+        .attr("stroke","#f4f6f9").attr("stroke-width",1.5);
+      txt(el, d.data.id, {"x":14,"dy":4,"fill":c,"font-size":12,"font-weight":700});
+    } else if(d.data.level === 3){
+      const n = d.data;
+      const r = Math.max(3, Math.min(Math.sqrt(n.papers||1)*1.1, 10));
+      const gr = n._growth || 0;
+      const fill = gr > 0.15 ? "#51cf66" : gr < -0.15 ? "#ff6b6b" : "#5c6b7a";
+      el.append("circle").attr("r",r)
+        .attr("fill",fill).attr("fill-opacity",0.85)
+        .attr("stroke","#f4f6f9").attr("stroke-width",1);
+      txt(el, n.id, {"x":r+5,"dy":4,"fill":gr>0.15?"#a9e34b":gr<-0.15?"#ff8787":"#8b97a6","font-size":10});
+      el.append("title").text(
+        `${n.id}\nGroup: ${n.group||"?"}  Parent: ${n.parent||"None"}\n`+
+        `Total papers: ${n.papers}papers  Recent 3mo: ${n._recent||0}papers\n`+
+        `Growth Rate: ${gr>=0?"+":""}${(gr*100).toFixed(0)}%`
+      );
+    } else {
+      const label = d.data._label || d.data.id || "";
+      if(label){
+        el.append("circle").attr("r",4)
+          .attr("fill","#2a3a4d").attr("stroke","#4a6a8a").attr("stroke-width",1)
+          .attr("stroke-dasharray","2 2");
+        txt(el, label, {"x":8,"dy":4,"fill":"#6e7f96","font-size":11});
+      }
+    }
+  });
+
+  // ── Gantt 타임라인 ──
+  const iW = W - 90 - LABEL_SPACE; // tree 가로 범위
+  const ganttOffX = iW + 210;      // g 좌표계 기준 Gantt 시작 X
+
+  // 배경 영역
+  g.append("rect")
+    .attr("x", ganttOffX - 6).attr("y", -20)
+    .attr("width", GANTT_W + 12).attr("height", H - 40)
+    .attr("fill","#111820").attr("rx",4);
+
+  // 연도 구분선 + 레이블 (상단 축)
+  months.filter(m=>m.endsWith('-01')).forEach(m=>{
+    const x = ganttOffX + (ganttSc(m)||0);
+    g.append("line")
+      .attr("x1",x).attr("x2",x).attr("y1",-20).attr("y2",H-60)
+      .attr("stroke","#1e2c3a").attr("stroke-dasharray","3 4");
+    g.append("text")
+      .attr("x",x).attr("y",-8).attr("text-anchor","middle")
+      .attr("fill","#3d4d5e").attr("font-size",9)
+      .text(m.slice(0,4));
+  });
+  // 축 레이블
+  g.append("text")
+    .attr("x", ganttOffX + GANTT_W/2).attr("y", -22)
+    .attr("text-anchor","middle").attr("fill","#4a5568").attr("font-size",10)
+    .text("First Appearance →");
+
+  // 각 리프 노드에 Gantt 바 추가
+  const ganttTip = d3.select(container).append("div")
+    .style("position","absolute").style("pointer-events","none")
+    .style("background","rgba(14,17,22,.96)").style("border","1px solid var(--line)")
+    .style("border-radius","6px").style("padding","6px 10px").style("font-size","11px")
+    .style("display","none").style("z-index","10").style("white-space","nowrap");
+
+  root.leaves().forEach(d => {
+    const n = d.data;
+    if(n.level !== 3 || !n.monthly) return;
+
+    const fm = firstMonth(n);
+    const lm = lastMonth(n);
+    if(!fm) return;
+
+    const x1 = ganttOffX + (ganttSc(fm)||0);
+    const x2 = ganttOffX + (ganttSc(lm)||GANTT_W);
+    const bw = Math.max(6, x2 - x1);
+    const color = groupColor(n.group);
+    const gr = n._growth || 0;
+    const barColor = gr > 0.15 ? "#51cf66" : gr < -0.15 ? "#ff6b6b" : color;
+
+    // All 스팬 (회색 배경)
+    g.append("rect")
+      .attr("x", ganttOffX).attr("y", d.x - 5)
+      .attr("width", GANTT_W).attr("height", 10)
+      .attr("rx", 3).attr("fill","#1a2535");
+
+    // 활동 바
+    g.append("rect")
+      .attr("x", x1).attr("y", d.x - 4)
+      .attr("width", bw).attr("height", 8)
+      .attr("rx", 3).attr("fill", barColor).attr("opacity", 0.75)
+      .on("mouseover", event => {
+        ganttTip.style("display","block")
+          .html(`<b style="color:${color}">${n.id}</b><br>첫 등장: <b>${fm}</b> · 최근: ${lm}<br>활동 Period: <b>${bw>1?Math.round(bw/GANTT_W*months.length):1}items</b>`);
+      })
+      .on("mousemove", event => {
+        const rect = container.getBoundingClientRect();
+        ganttTip.style("left",(event.clientX-rect.left+12)+"px").style("top",(event.clientY-rect.top-28)+"px");
+      })
+      .on("mouseout", ()=>ganttTip.style("display","none"));
+
+    // 첫 등장 마커 (◆)
+    g.append("text")
+      .attr("x", x1).attr("y", d.x + 4)
+      .attr("text-anchor","middle").attr("font-size",9)
+      .attr("fill","#ffd43b").attr("paint-order","stroke")
+      .attr("stroke","#f4f6f9").attr("stroke-width",2)
+      .text("◆");
+  });
+}
+
+/* ===================== KNOWLEDGE GRAPH (Force + Theme Meta) ===================== */
+let kgSel = null, kgGroupSel = new Set();
+
+/* MODE 분기: kgGroupSel 비어있으면 items별 노드, 있으면 테마 메타 */
+function buildKGraph(){
+  const svgEl = document.getElementById("kgSvg");
+  const box = svgEl.getBoundingClientRect();
+  const w = box.width, h = box.height;
+  const sv = d3.select(svgEl).attr("viewBox",[0,0,w,h]);
+  sv.selectAll("*").remove();
+  kgSel = null;
+  const g = sv.append("g");
+  sv.call(d3.zoom().scaleExtent([0.2,4]).on("zoom",e=>g.attr("transform",e.transform)));
+  if(kgGroupSel.size > 0) kgBuildThemeMeta(sv, g, w, h);
+  else kgBuildNodeForce(sv, g, w, h);
+  buildKGFilter();
+}
+
+/* ── items별 노드 Force ── */
+function kgBuildNodeForce(sv, g, w, h){
+  const nodeData = NODES.map(n=>({...n}));
+
+  // 약한 링크 필터: Top co 기준으로 의미있는 연결만 유지 (궤도 방지)
+  const allLinks = LINKS.map(l=>({source:l[0],target:l[1],co:l[2]})).filter(l=>l.co>=2);
+  const coVals = allLinks.map(l=>l.co).sort((a,b)=>b-a);
+  const coThresh = coVals[Math.floor(coVals.length * 0.4)] || 2; // Top 60% 링크만
+  const linkData = allLinks.filter(l=>l.co>=coThresh);
+
+  // 링크 없는 고립 노드 제거 (궤도 노드의 주범)
+  const linkedNodes = new Set(linkData.flatMap(l=>[l.source, l.target]));
+  const filteredNodes = nodeData.filter(n=>linkedNodes.has(n.id));
+
+  const maxP = Math.max(...filteredNodes.map(n=>n.papers),1);
+  const maxCo = Math.max(...linkData.map(l=>l.co),1);
+  const rFn = n => 6 + Math.sqrt(n.papers/maxP)*28;
+
+  // 공동출현 비율에 따라 선 색상 4단계 — 굵을수록 눈에 띄는 색
+  const linkColor = r =>
+    r > 0.7 ? "#4dabf7" :   // Top 30% — 진한 파랑 (핵심 관계)
+    r > 0.4 ? "#2d6a9f" :   // Top 60% — 중간 파랑
+    r > 0.2 ? "#1e4a6e" :   // Top 80% — 연파랑
+              "#1a3550";     // 하위 20% — 아주 연하게
+
+  const lnk = g.append("g").selectAll("line").data(linkData).join("line")
+    .attr("class","kg-link")
+    .attr("stroke", d=>linkColor(d.co/maxCo))
+    .attr("stroke-opacity", d=> d.co/maxCo > 0.7 ? 0.9 : d.co/maxCo > 0.4 ? 0.7 : 0.5)
+    .attr("stroke-width",d=>0.7+(d.co/maxCo)*5)
+    .style("vector-effect","non-scaling-stroke");
+
+  const nd = g.append("g").selectAll("g").data(nodeData).join("g")
+    .style("cursor","pointer")
+    .call(d3.drag()
+      .on("start",(e,d)=>{if(!e.active)fsim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on("end",(e,d)=>{if(!e.active)fsim.alphaTarget(0);d.fx=null;d.fy=null;}));
+
+  nd.append("circle")
+    .attr("class","kg-circle")
+    .attr("r",rFn).attr("fill",d=>groupColor(d.group)).attr("fill-opacity",0.88)
+    .style("vector-effect","non-scaling-stroke");
+
+  nd.append("text").attr("text-anchor","middle").attr("dominant-baseline","central")
+    .attr("font-size",d=>rFn(d)>20?Math.min(rFn(d)*0.38,13):10)
+    .attr("fill",d=>rFn(d)>18?"#fff":"var(--txt)")
+    .attr("dy",d=>rFn(d)>18?0:-(rFn(d)+4))
+    .attr("paint-order","stroke").attr("stroke","rgba(14,17,22,.8)").attr("stroke-width",2)
+    .attr("pointer-events","none").text(d=>d.id);
+
+  nd.append("title").text(d=>`${d.id} · papers ${d.papers} · ${d.growth>=0?'+':''}${d.growth}%`);
+  nd.on("click",(e,d)=>showNode(d));
+  kgSel = nd;
+
+  const fsim = d3.forceSimulation(nodeData)
+    .force("link",d3.forceLink(linkData).id(d=>d.id).distance(d=>120+200/(d.co||1)).strength(0.25))
+    .force("charge",d3.forceManyBody().strength(d=>-300-rFn(d)*18))
+    .force("center",d3.forceCenter(w/2,h/2).strength(0.5))
+    .force("collide",d3.forceCollide().radius(d=>rFn(d)+24))
+    .force("x",d3.forceX(w/2).strength(0.04))
+    .force("y",d3.forceY(h/2).strength(0.04));
+  fsim.stop();
+  for(let i=0;i<350;i++) fsim.tick();
+  const tick=()=>{
+    lnk.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+       .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nd.attr("transform",d=>`translate(${d.x},${d.y})`);
+  };
+  tick();
+  fsim.alpha(0.05).restart().on("tick",tick);
+}
+
+/* ── 테마 메타 그래프: 테마 자체가 노드, 선=테마간 공동출현 ── */
+function kgBuildThemeMeta(sv, g, w, h){
+  const tm={};
+  NODES.forEach(n=>{
+    if(!tm[n.group]) tm[n.group]={id:n.group,papers:0,gSum:0,cnt:0};
+    tm[n.group].papers+=n.papers; tm[n.group].gSum+=n.growth; tm[n.group].cnt++;
+  });
+  Object.values(tm).forEach(t=>{t.avgGrowth=Math.round(t.gSum/t.cnt);});
+
+  const nodeGroup={}; NODES.forEach(n=>nodeGroup[n.id]=n.group);
+  const pm={};
+  LINKS.forEach(l=>{
+    const sg=nodeGroup[l[0]], tg=nodeGroup[l[1]];
+    if(!sg||!tg||sg===tg) return;
+    const k=[sg,tg].sort().join("|||");
+    pm[k]=(pm[k]||0)+l[2];
+  });
+  const themeNodes=Object.values(tm);
+  const themeLinks=Object.entries(pm).map(([k,co])=>{
+    const[s,t]=k.split("|||"); return{source:s,target:t,co};
+  });
+  const maxCo=Math.max(...themeLinks.map(l=>l.co),1);
+  const maxP=Math.max(...themeNodes.map(t=>t.papers),1);
+  const rFn=t=>22+Math.sqrt(t.papers/maxP)*52;
+
+  const lnk=g.append("g").selectAll("line").data(themeLinks).join("line")
+    .attr("stroke", d=>d.co/maxCo>0.7?"#4dabf7":d.co/maxCo>0.4?"#2d6a9f":d.co/maxCo>0.2?"#1e4a6e":"#1a3550")
+    .attr("stroke-opacity", d=>d.co/maxCo>0.7?0.9:d.co/maxCo>0.4?0.75:0.55)
+    .attr("stroke-width",d=>1+(d.co/maxCo)*10);
+
+  const llbl=g.append("g").selectAll("text").data(themeLinks).join("text")
+    .attr("text-anchor","middle").attr("font-size",10).attr("fill","#5a7a90")
+    .attr("pointer-events","none").text(d=>d.co);
+
+  const nd=g.append("g").selectAll("g").data(themeNodes).join("g").style("cursor","pointer")
+    .call(d3.drag()
+      .on("start",(e,d)=>{if(!e.active)fsim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on("end",(e,d)=>{if(!e.active)fsim.alphaTarget(0);d.fx=null;d.fy=null;}));
+
+  nd.append("circle")
+    .attr("r",rFn).attr("fill",d=>groupColor(d.id)).attr("fill-opacity",0.85)
+    .attr("stroke",d=>kgGroupSel.has(d.id)?"#fff":"rgba(255,255,255,0.15)")
+    .attr("stroke-width",d=>kgGroupSel.has(d.id)?3:1);
+
+  nd.append("text").attr("text-anchor","middle").attr("font-weight","700")
+    .attr("font-size",d=>Math.min(rFn(d)*0.30,15)).attr("fill","#fff")
+    .attr("dy",d=>rFn(d)>34?"-0.5em":0)
+    .attr("pointer-events","none").text(d=>GROUP_KO[d.id]||d.id);
+
+  nd.filter(d=>rFn(d)>34).append("text").attr("text-anchor","middle")
+    .attr("font-size",10).attr("fill","rgba(255,255,255,0.75)").attr("dy","0.8em")
+    .attr("pointer-events","none").text(d=>`${d.papers.toLocaleString()}papers`);
+
+  nd.append("title").text(d=>`${GROUP_KO[d.id]||d.id} · ${d.papers.toLocaleString()}papers · avg ${d.avgGrowth>=0?'+':''}${d.avgGrowth}%`);
+  // 테마 클릭 → 해당 테마만 선택 후 items별 노드 뷰
+  nd.on("click",(e,d)=>{ kgGroupSel.clear(); kgGroupSel.add(d.id); buildKGraph(); });
+
+  const fsim=d3.forceSimulation(themeNodes)
+    .force("link",d3.forceLink(themeLinks).id(d=>d.id).distance(d=>110+180/(d.co||1)).strength(0.4))
+    .force("charge",d3.forceManyBody().strength(d=>-260-rFn(d)*6))
+    .force("center",d3.forceCenter(w/2,h/2))
+    .force("collide",d3.forceCollide().radius(d=>rFn(d)+24));
+  fsim.stop();
+  for(let i=0;i<300;i++) fsim.tick();
+  const tick=()=>{
+    lnk.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+       .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    llbl.attr("x",d=>(d.source.x+d.target.x)/2).attr("y",d=>(d.source.y+d.target.y)/2-3);
+    nd.attr("transform",d=>`translate(${d.x},${d.y})`);
+  };
+  tick();
+  fsim.alpha(0.05).restart().on("tick",tick);
+}
+
+function buildKGFilter(){
+  const groups=[...new Set(NODES.map(n=>n.group))]
+    .sort((a,b)=>NODES.filter(n=>n.group===b).length-NODES.filter(n=>n.group===a).length);
+  const wrap=document.getElementById("kgGroupFilter");
+  const mk=(key,label,color,on)=>
+    `<button data-g="${key}" class="${on?'on':''}">${color?`<span class="dot" style="background:${color}"></span>`:''}${label}</button>`;
+  wrap.innerHTML=mk("__all__","All (items별 노드)",null,kgGroupSel.size===0)
+    +groups.map(g=>mk(g,`${GROUP_KO[g]||g}`,groupColor(g),kgGroupSel.has(g))).join("");
+  wrap.querySelectorAll("button").forEach(b=>b.onclick=()=>{
+    const gk=b.dataset.g;
+    if(gk==="__all__") kgGroupSel.clear();
+    else{ if(kgGroupSel.has(gk)) kgGroupSel.delete(gk); else kgGroupSel.add(gk); }
+    buildKGraph();
+  });
+}
+function applyKGFilter(){
+  if(!kgSel) return;
+  kgSel.style("opacity",d=>(kgGroupSel.size===0||kgGroupSel.has(d.group))?1:0.07);
+}
+
+/* ===================== NAV (SCROLL) ===================== */
+function scrollSec(id){
+  const el=document.getElementById(id);
+  if(el) el.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function openGraph(){
+  document.getElementById("graphOverlay").classList.add("open");
+  document.body.style.overflow="hidden";
+  buildGraph();
+}
+function closeGraph(){
+  document.getElementById("graphOverlay").classList.remove("open");
+  document.body.style.overflow="";
+}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeGraph();});
+
+// scroll-spy
+const _spy=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const id=e.target.id;
+      document.querySelectorAll("#mainNav button").forEach(b=>{
+        b.classList.toggle("spy",b.dataset.spy===id);
+      });
+    }
+  });
+},{threshold:0.15,rootMargin:"-58px 0px 0px 0px"});
+
+// lazy-init
+let _mapOk=false,_netOk=false,_evoOk=false;
+const _lazy=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(!e.isIntersecting)return;
+    const id=e.target.id;
+    if(id==="view-country"&&!_mapOk){_mapOk=true;buildMap();}
+    if(id==="view-network"&&!_netOk){_netOk=true;switchNetView(_netView);}
+    if(id==="view-evo"    &&!_evoOk){_evoOk=true;_switchEvoView();}
+  });
+},{threshold:0.05,rootMargin:"-58px 0px 0px 0px"});
+document.getElementById("yr").oninput = e=>{
+  currentMonthIdx = +e.target.value;
+  document.getElementById("yrLabel").textContent =
+    MONTHS.length ? monthLabel(MONTHS[currentMonthIdx]) : e.target.value;
+  applyMonth();
+};
+document.getElementById("topN").oninput = ()=>{ applyMonth(); };
+
+/* ===================== DATA LOADER ===================== */
+async function tryFetch(name){
+  try{ const r = await fetch("data/"+name, {cache:"no-store"}); if(!r.ok) return null; return await r.json(); }
+  catch(e){ return null; }
+}
+async function loadData(){
+  const graph = await tryFetch("graph.json");
+  if(graph && graph.nodes && graph.nodes.length){ NODES = graph.nodes; LINKS = graph.links; }
+  const country = await tryFetch("country.json");
+  if(country && country.length){ COUNTRIES = country; }
+  const jmeta = await tryFetch("journal_meta.json");
+  if(jmeta) Object.assign(JOURNAL_META, jmeta);
+  const net = await tryFetch("network.json");
+  if(net && net.nodes && net.nodes.length){
+    ORG_NODES = net.nodes; ORG_LINKS = net.links;
+    ORG_NET_PERIOD = net; // 기간별 링크 데이터 보관
+    ORG_COUNTRY = net.country || {}; ORG_WEIGHT = net.weight || {};
+    // network.json의 좌표를 ORG_COORDS에 병합 (하드코딩 값보다 Live Data 우선)
+    Object.assign(ORG_COORDS, net.coords || {});
+  }
+  const papers = await tryFetch("papers.json");
+  if(papers && papers.length){ PAPERS = papers; }
+  const evo = await tryFetch("evolution.json");
+  if(evo && evo.length){ EVOLUTION = evo; }
+  const journals = await tryFetch("journals.json");
+  if(journals && journals.length){ JOURNALS = journals; }
+  const meta = await tryFetch("meta.json");
+  if(meta){
+    const subEl = document.querySelector("header .sub");
+    if(subEl) subEl.textContent = `Live Data · ${meta.total_papers.toLocaleString()} papers · ${meta.generated_at} collected`;
+  }
+}
+
+/* ===================== INIT ===================== */
+(async function init(){
+  await loadData();
+  initMonthSlider();
+  fillSidebar(); fillCountry(); fillImpact(); fillEvo(); fillJournals();
+  buildGroupFilter();
+  fillThemeLegend();
+  updateRankPanel();
+  precomputeTreeCache();
+  loadLatest();
+  document.querySelectorAll("#scrollMain .view[id]").forEach(el=>{
+    _spy.observe(el);
+    _lazy.observe(el);
+  });
+})();
+window.addEventListener("resize",()=>{
+  _treeCache.clear();
+  if(document.getElementById("graphOverlay").classList.contains("open")) buildGraph();
+  if(_mapOk) buildMap();
+});
+/* ===================== Latest Research ===================== */
+let LATEST = null;
+let _latestRange = 'month'; // 'month' | 'week'
+
+async function loadLatest(){
+  const grid = document.getElementById('latestGrid');
+  if(!grid) return;
+  grid.innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">Loading...</div>';
+  try {
+    const resp = await fetch('data/latest.json?v=' + Date.now());
+    if(!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    LATEST = data;
+    renderLatest();
+  } catch(e) {
+    grid.innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">Failed to load: ' + e.message + '</div>';
+  }
+}
+
+function setLatestRange(range){
+  _latestRange = range;
+  document.querySelectorAll('.latest-range-btn').forEach(b=>b.classList.toggle('active', b.dataset.range===range));
+  renderLatest();
+}
+
+async function refreshLatest(){
+  const btn = document.getElementById('latestRefreshBtn');
+  if(btn){ btn.textContent='↻ Loading...'; btn.disabled=true; }
+  await loadLatest();
+  if(btn){ btn.textContent='↻ Refresh'; btn.disabled=false; }
+}
+
+function renderLatest(){
+  if(!LATEST || !LATEST.papers) return;
+  const meta = document.getElementById('latestMeta');
+  if(meta){
+    const d = new Date(LATEST.generated_at);
+    meta.textContent = `Updated ${d.toLocaleDateString()} · ${LATEST.total} themes · from ${LATEST.date_from}`;
+  }
+  // 날짜 필터
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - (_latestRange === 'week' ? 7 : 30));
+  const cutStr = cutoff.toISOString().slice(0,10);
+  const papers = (LATEST.papers || []).filter(p => (p.date||'') >= cutStr);
+  const grid = document.getElementById('latestGrid');
+  if(!grid) return;
+  if(!papers.length){ grid.innerHTML='<div style="padding:40px;text-align:center;color:var(--muted)">No papers found.</div>'; return; }
+  const themeEmoji = {AI:'🤖',Material:'🧱',Structural:'🏗️',BIM:'📐',Robot:'🦾',Eco:'🌿',Mgmt:'👷',Geo:'⛏️',Vision:'📷',DT:'🔮',Sensing:'📡'};
+  grid.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px">' +
+    papers.map(p => {
+      const color = groupColor(p.group);
+      const img = p.image;
+      const abstract = p.abstract ? p.abstract.slice(0,500)+(p.abstract.length>500?'…':'') : '';
+      const imgHtml = img
+        ? `<img class="latest-card-img" src="${img.url}&w=600&q=80" alt="${img.alt||''}" loading="lazy" onerror="this.style.display='none'">
+           <div style="font-size:9px;color:var(--muted);padding:3px 10px;background:var(--panel)">Photo by <a href="${img.photographer_url}" target="_blank" style="color:var(--muted)">${img.photographer}</a> on <a href="https://unsplash.com" target="_blank" style="color:var(--muted)">Unsplash</a></div>`
+        : `<div style="height:80px;background:${color}22;display:flex;align-items:center;justify-content:center;font-size:32px">${themeEmoji[p.group]||'🔬'}</div>`;
+      return `<div class="latest-card" style="border-top:3px solid ${color}">
+        ${imgHtml}
+        <div class="latest-card-body">
+          <div class="latest-card-theme" style="color:${color}">${p.group_label}</div>
+          <div class="latest-card-title">${p.title}</div>
+          <div class="latest-card-meta">${p.journal||''} · ${p.date||''}</div>
+          <div class="latest-card-abstract">${abstract}</div>
+          <div class="latest-card-footer">
+            <span style="font-size:11px;color:var(--muted)">${p.fwci?`FWCI <b style="color:${color}">${(+p.fwci).toFixed(1)}</b> · `:''}Citations <b>${p.citations||0}</b>${p.oa?' · <b style="color:var(--accent2)">OA</b>':''}</span>
+            ${p.doi?`<a href="${p.doi}" target="_blank" rel="noopener" style="font-size:11px;color:var(--accent)">→ Full Paper</a>`:''}
+          </div>
+        </div>
+      </div>`;
+    }).join('') + '</div>';
+}
+
+/* ===================== 슬라이드인 광고 배너 ===================== */
+/* ── 좌측 고정 배너 ── */
+(function(){
+  const LEFT_KEY = "adLeftDismissed";
+  if(sessionStorage.getItem(LEFT_KEY)) return;
+
+  const el = document.createElement("div");
+  el.id = "adLeft";
+  el.innerHTML = `
+    <div class="adl-header">
+      <span class="adl-label">Advertisement</span>
+      <button class="adl-close" id="adLeftClose" title="닫기">✕</button>
+    </div>
+    <div class="adl-body">
+      <!--
+        ✅ 여기에 좌측 배너 광고 코드를 넣으세요.
+        Recommended size: 160×600 (wide skyscraper)
+
+        [AdSense example]
+        <ins class="adsbygoogle"
+          style="display:inline-block;width:140px;height:560px"
+          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+          data-ad-slot="XXXXXXXXXX"></ins>
+        <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
+
+        [Custom banner example]
+        <a href="https://your-sponsor.com" target="_blank">
+          <img src="banner_160x600.png" style="width:140px" alt="">
+        </a>
+      -->
+      <div style="width:140px;height:560px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px">
+        <div style="font-size:11px;font-weight:700;color:var(--accent);text-align:center">Ad Slot<br><span style="font-size:9px;color:#4a6a8a">160×600</span></div>
+        <div style="font-size:10px;color:#4a6a8a;text-align:center;line-height:1.5">adl-body 안에<br>AdSense 코드<br>또는 배너를<br>삽입하세요</div>
+      </div>
+    </div>
+    <div class="adl-tab" id="adLeftTab">광고</div>`;
+
+  document.body.appendChild(el);
+
+  // 탭 클릭: 접기/펴기 토글
+  document.getElementById("adLeftTab").onclick = () => el.classList.toggle("collapsed");
+  // 닫기: 완전히 제거 + 세션 저장
+  document.getElementById("adLeftClose").onclick = () => {
+    el.remove();
+    sessionStorage.setItem(LEFT_KEY, "1");
+  };
+})();
+
+/* ── 슬라이드인 팝업 배너 ── */
+(function(){
+  /* ── 설정 ── */
+  const AD_DELAY_SEC  = 12;      // 몇 초 후 표시
+  const AD_ONCE_PER   = "session"; // "session" | "day" | "always"
+  const STORAGE_KEY   = "adBannerDismissed";
+
+  /* ── 이미 닫은 경우 건너뜀 ── */
+  function isDismissed(){
+    if(AD_ONCE_PER === "always") return false;
+    const store = AD_ONCE_PER === "day" ? localStorage : sessionStorage;
+    return !!store.getItem(STORAGE_KEY);
+  }
+  function setDismissed(){
+    const store = AD_ONCE_PER === "day" ? localStorage : sessionStorage;
+    store.setItem(STORAGE_KEY, "1");
+  }
+
+  if(isDismissed()) return;
+
+  /* ── 배너 HTML 생성 ── */
+  const banner = document.createElement("div");
+  banner.id = "adBanner";
+  banner.innerHTML = `
+    <div class="ad-header">
+      <span class="ad-label">Advertisement</span>
+      <button class="ad-close" id="adClose" title="닫기">✕</button>
+    </div>
+    <div class="ad-body" id="adBody">
+      <!-- 테스트 배너 — 실제 광고로 교체 시 이 블록을 대체하세요 -->
+      <a href="#" onclick="return false" style="display:block;text-decoration:none">
+        <div style="background:linear-gradient(135deg,#1c3a5e,#0f2540);border-radius:8px;padding:16px;position:relative;overflow:hidden">
+          <!-- 배경 장식 -->
+          <div style="position:absolute;right:-20px;top:-20px;width:100px;height:100px;background:rgba(77,171,247,.08);border-radius:50%"></div>
+          <div style="position:absolute;right:20px;bottom:-30px;width:70px;height:70px;background:rgba(77,171,247,.06);border-radius:50%"></div>
+          <!-- 로고 영역 -->
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+            <div style="width:36px;height:36px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🏗️</div>
+            <div>
+              <div style="font-size:13px;font-weight:800;color:#fff">BuildTech Pro</div>
+              <div style="font-size:10px;color:#4dabf7">건설 AI 플랫폼</div>
+            </div>
+          </div>
+          <!-- 문구 -->
+          <div style="font-size:12px;color:#cdd9e5;line-height:1.5;margin-bottom:12px">
+            BIM·AI 기반 시공 자동화 솔루션.<br>
+            <b style="color:#fff">무료 데모 신청</b>하고 생산성 40% UP
+          </div>
+          <!-- CTA 버튼 -->
+          <div style="background:var(--accent);color:#0e1116;font-size:12px;font-weight:700;text-align:center;padding:7px 0;border-radius:6px">
+            지금 시작하기 →
+          </div>
+        </div>
+      </a>
+    </div>`;
+  document.body.appendChild(banner);
+
+  /* ── N초 후 표시 ── */
+  setTimeout(() => banner.classList.add("show"), AD_DELAY_SEC * 1000);
+
+  /* ── 닫기 ── */
+  document.getElementById("adClose").onclick = () => {
+    banner.classList.remove("show");
+    setDismissed();
+  };
+})();
+
+/* ============================================================
+ * Construction Knowledge Atlas
+ * Copyright (c) 2026. All Rights Reserved.
+ *
+ * Unauthorized reproduction, distribution, or use of this
+ * source code is strictly prohibited.
+ * This file contains canary tokens for origin tracking.
+ * Build signature: CKA-Q29uc3RydWN0
+ * ============================================================ */
+(function(){
+  /* Canary signature — do not remove */
+  const _BUILD_SIG = "CKA-2026-" + btoa("ConstructionKnowledgeAtlas").slice(0,10);
+  Object.defineProperty(window, "__cka_origin__", {value: _BUILD_SIG, writable: false});
+
+  /* Headless / automated browser detection */
+  const _checks = [
+    () => navigator.webdriver === true,
+    () => !window.chrome && !window.safari && !/Firefox/.test(navigator.userAgent),
+    () => typeof window.callPhantom !== "undefined",
+    () => typeof window._phantom !== "undefined",
+    () => navigator.plugins && navigator.plugins.length === 0 && !/Firefox/.test(navigator.userAgent),
+  ];
+  if (_checks.filter(f=>{ try{return f()}catch(e){return false} }).length >= 2){
+    /* Tarpit: silently consume resources in bot context */
+    (function _sink(){
+      requestIdleCallback ? requestIdleCallback(_sink) : setTimeout(_sink, 50);
+    })();
+    /* Suppress all outbound requests */
+    const _orig = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function(m, u){ if(u && !u.includes(location.host)) return; _orig.apply(this, arguments); };
+  }
+
+  /* Console fingerprint for legitimate developers */
+  console.log(
+    "%c Construction Knowledge Atlas %c © 2026 " ,
+    "background:#0e1116;color:#4dabf7;font-size:14px;font-weight:700;padding:4px 8px;border-radius:4px 0 0 4px",
+    "background:#4dabf7;color:#0e1116;font-size:14px;padding:4px 8px;border-radius:0 4px 4px 0"
+  );
+  console.log("%c Unauthorized use of this source is prohibited.", "color:#ff6b6b;font-size:11px");
+})();
+
+</script>
+</main><!-- scrollMain -->
+</body>
+</html>
