@@ -84,7 +84,25 @@ def get_group(concepts):
         if g: return g
     return None
 
-def extract_query(concepts):
+# 테마별 Unsplash 검색어 (히트율 높은 구체적 키워드)
+GROUP_IMG_QUERY = {
+    "AI":         "artificial intelligence technology",
+    "Vision":     "computer vision camera surveillance",
+    "Material":   "construction materials concrete",
+    "Structural": "bridge structural engineering",
+    "Eco":        "green building sustainable energy",
+    "Mgmt":       "construction site workers",
+    "BIM":        "building architecture blueprint",
+    "Geo":        "underground tunnel excavation",
+    "Robot":      "construction robot automation",
+    "DT":         "digital twin smart city",
+    "Sensing":    "sensor monitoring technology",
+}
+
+def extract_query(concepts, group=None):
+    # 그룹별 기본 검색어 우선
+    if group and group in GROUP_IMG_QUERY:
+        return GROUP_IMG_QUERY[group]
     kws = [c["display_name"] for c in
            sorted([c for c in (concepts or []) if c.get("score",0)>=0.4],
                   key=lambda c: c.get("level",0), reverse=True)[:3]]
@@ -178,7 +196,7 @@ def main():
     for group, w in sorted(theme_top.items()):
         abstract = reconstruct_abstract(w.get("abstract_inverted_index"))
         if not abstract: continue
-        query = extract_query(w.get("concepts"))
+        query = extract_query(w.get("concepts"), group)
         image = fetch_unsplash(query)
         time.sleep(0.5)
         loc = w.get("primary_location") or {}

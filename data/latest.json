@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T19:31:43.579731",
+  "generated_at": "2026-06-02T19:39:52.031662",
   "date_from": "2026-05-03",
   "total": 11,
   "papers": [
@@ -22,12 +22,12 @@
       ],
       "abstract": "While vision-based crack segmentation automates construction inspection, leading to enhanced safety and long-term cost reduction, it is still challenged by complex crack geometries, cluttered environments, and computational constraints. This paper proposes VTECSeg, an encoder-decoder deep learning (DL) architecture combining a Vision Transformer backbone with a Convolutional Neural Network-based edge encoder to enable local crack detail preservation and global contextual reasoning. To further improve crack segmentation accuracy, a zero-shot Vision-Language Model-guided region proposal mechanism is introduced. Results demonstrate that VTECSeg outperformed several baseline architectures, achieving a precision of 87.32%, a recall of 84.21%, an F1-score of 85.74%, a mean Intersection-over-Union (mIoU) of 86.15%, and an Intersection-over-Union (IoU) of 79.5% on the DeepCrack dataset. This paper contributes to the body of knowledge by developing an edge-aware hybrid crack segmentation framework combined with a zero-shot vision-language-guided region proposal stage for high-fidelity and improved crack segmentation, thus advancing vision-based infrastructure inspection and automation. • Zero-shot VLM–SAM workflow for crack patch localization. • Combined text prompts and image encoding for spatial region proposals. • Fusion of vision transformers and edge-aware CNN features. • Pipeline outperforms existing deep learning models. • Supports real-time automated infrastructure inspection.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1562408590-e32931084e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxUcmFuc2Zvcm1lciUyMFNlZ21lbnRhdGlvbiUyMENvbXB1dGVyJTIwc2NpZW5jZXxlbnwwfDB8fHwxNzgwMzM4NTc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1562408590-e32931084e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxUcmFuc2Zvcm1lciUyMFNlZ21lbnRhdGlvbiUyMENvbXB1dGVyJTIwc2NpZW5jZXxlbnwwfDB8fHwxNzgwMzM4NTc5fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "blue circuit board",
-        "photographer": "Umberto",
-        "photographer_url": "https://unsplash.com/@umby",
-        "unsplash_url": "https://unsplash.com/photos/blue-circuit-board-jXd2FSvcRr8"
+        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwMzk2Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwMzk2Nzc3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "a computer chip with the letter a on top of it",
+        "photographer": "Igor Omilaev",
+        "photographer_url": "https://unsplash.com/@omilaev",
+        "unsplash_url": "https://unsplash.com/photos/a-computer-chip-with-the-letter-a-on-top-of-it-eGGFZ5X2LnA"
       }
     },
     {
@@ -49,12 +49,12 @@
       ],
       "abstract": "Building-integrated photovoltaics (BIPVs) offer significant potential for energy-efficient building renovations by seamlessly integrating renewable energy generation into the built environment. This work highlights the strategic opportunity for BIPV within the current European and international context, where the building stock faces an increasingly urgent need for large-scale rehabilitation. BIPV solutions and products for building retrofit are reviewed holistically considering thermal insulation, solar control, daylighting, architectural design, aesthetics, and electrical performance to optimise energy savings and increase social acceptance. A selection of nine international case studies illustrates the versatility of BIPV across diverse building typologies, including projects focused on heritage preservation for which targeted measures are proposed. Despite the opportunities, BIPV adoption remains limited, primarily due to regulatory, economic, and socio-cultural barriers. The specific challenges of BIPV retrofitting in heritage and protected buildings are also examined. Multiple studies have demonstrated BIPV cost-effectiveness, especially when fiscal incentives, environmental co-benefits, and architectural factors are considered. Nonetheless, affordability remains a barrier for many households, highlighting the need for comprehensive financial support to accelerate market uptake. This review is intended to provide a broad audience—including researchers, architects, building professionals, and decision-makers—with a comprehensive, structured overview of BIPV renovation opportunities.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1648135327756-b606e2eb8caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxCdWlsZGluZy1pbnRlZ3JhdGVkJTIwcGhvdG92b2x0YWljcyUyMFBob3Rvdm9sdGFpY3MlMjBSZXRyb2ZpdHRpbmd8ZW58MHwwfHx8MTc4MDMzODU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1648135327756-b606e2eb8caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxCdWlsZGluZy1pbnRlZ3JhdGVkJTIwcGhvdG92b2x0YWljcyUyMFBob3Rvdm9sdGFpY3MlMjBSZXRyb2ZpdHRpbmd8ZW58MHwwfHx8MTc4MDMzODU4MHww&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "a white hard hat sitting on top of a solar panel",
-        "photographer": "Evgeniy Alyoshin",
-        "photographer_url": "https://unsplash.com/@oqtave",
-        "unsplash_url": "https://unsplash.com/photos/a-white-hard-hat-sitting-on-top-of-a-solar-panel-2ASQyjafflo"
+        "url": "https://images.unsplash.com/photo-1542621334-a254cf47733d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwMzk2Nzc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1542621334-a254cf47733d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwMzk2Nzc5fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "brown pencil on white printing paper",
+        "photographer": "Sven Mieke",
+        "photographer_url": "https://unsplash.com/@sxoxm",
+        "unsplash_url": "https://unsplash.com/photos/brown-pencil-on-white-printing-paper-fteR0e2BzKo"
       }
     },
     {
@@ -75,7 +75,14 @@
         "Environmental economics"
       ],
       "abstract": "Improving window performance is a key strategy for reducing heating energy demand in residential buildings; however, the economic feasibility of upgrading to higher performance grades remains uncertain, particularly for single-detached houses. This study quantitatively evaluates the energy-saving performance and economic feasibility of window performance grade improvements in single-detached houses in South Korea. Heating energy demand was estimated using ECO2-OD (Energy Conservation Optimization Tool for One-zone Dwelling), the national standard simulation tool adopted for the Building Energy Efficiency Certification (BEEC) and Zero Energy Building (ZEB) certification systems. Representative residential prototypes constructed in 1980, 1987, and 2001 were analyzed to reflect differences in envelope performance associated with construction vintage. Window upgrades from the baseline grade to Grades 3, 2, and 1 using polyvinyl chloride (PVC) windows were simulated under consistent building geometry and operating conditions. Heating energy demand reductions were converted into annual energy cost savings using market-based natural gas prices. Economic feasibility was assessed using annual indicator-based metrics—unit cost of energy saving (UCES), payback period (PBP), and return on investment (ROI)—as well as discounted cash flow-based life-cycle metrics, including net present value (NPV) and discounted payback period (DPB). The results show that heating energy demand decreases consistently with improved window performance across all construction years; however, marginal energy savings diminish at higher performance grades, while investment costs increase. Upgrading from the baseline to intermediate performance grades yields the most favorable economic outcomes, particularly for houses constructed in 2001, whereas upgrades to the highest performance grade often fail to achieve economic feasibility when time value is considered. These findings indicate that uniform application of the highest-grade windows may not be economically optimal. Unlike previous studies that mainly focused on thermal performance or case-specific retrofit outcomes, this study compares multiple window performance grades across construction-year-specific single-detached house prototypes under a unified economic evaluation framework. This study highlights the importance of construction year-specific and performance-tiered retrofit strategies and provides quantitative evidence to support cost-effective window retrofit policies for single-detached residential buildings.",
-      "image": null
+      "image": {
+        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwMzk2NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwMzk2NzgwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "cars on road during night time",
+        "photographer": "Julia Sadowska",
+        "photographer_url": "https://unsplash.com/@juliasadowska_2000",
+        "unsplash_url": "https://unsplash.com/photos/cars-on-road-during-night-time-5jwu-ppflfY"
+      }
     },
     {
       "group": "Eco",
@@ -96,12 +103,12 @@
       ],
       "abstract": "The urban housing sector plays a significant role in global energy consumption and carbon emissions, making the sustainable transformation of domestic buildings essential to achieving climate goals. Urban housing is also linked to the energy transition, social equity, public health, and environmental resilience. The UK’s Warm Homes Plan (WHP) is seen as a key policy initiative that aims to improve energy efficiency and living conditions, and to promote the transition to a low-carbon future. This study provides an integrated review of retrofit assessment, policy mechanisms, and socio-environmental factors in the context of urban housing decarbonization. This study adopts a structured critical review approach to analyze retrofit strategies, low-carbon heating systems, renewable energy integration, and smart control technologies. The study highlights that retrofit assessment is not limited to technical performance but also includes social acceptability, affordability, and urban infrastructure compatibility. Furthermore, case study comparisons show that decarbonization outcomes are improved when technical measures are integrated with effective governance, stakeholder engagement, and local policy support. This study presents an integrated conceptual framework that links technical retrofit measures, policy coordination, and socio-environmental indicators. The results show that isolated technical solutions are insufficient for decarbonizing urban housing. Rather, a multi-dimensional planning approach is necessary to enable a sustainable, resilient, and socially inclusive housing transition.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxFbmVyZ3klMjB0cmFuc2l0aW9uJTIwUmVuZXdhYmxlJTIwZW5lcmd5JTIwU3Rha2Vob2xkZXJ8ZW58MHwwfHx8MTc4MDMzODQ1NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxFbmVyZ3klMjB0cmFuc2l0aW9uJTIwUmVuZXdhYmxlJTIwZW5lcmd5JTIwU3Rha2Vob2xkZXJ8ZW58MHwwfHx8MTc4MDMzODQ1NXww&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "aerial photography of grass field with blue solar panels",
-        "photographer": "Andreas Gücklhorn",
-        "photographer_url": "https://unsplash.com/@draufsicht",
-        "unsplash_url": "https://unsplash.com/photos/aerial-photography-of-grass-field-with-blue-solar-panels-Ilpf2eUPpUE"
+        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDM5Njc4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDM5Njc4MXww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "gray concrete building covered trees",
+        "photographer": "Danist Soh",
+        "photographer_url": "https://unsplash.com/@danist07",
+        "unsplash_url": "https://unsplash.com/photos/gray-concrete-building-covered-trees-dqXiw7nCb9Q"
       }
     },
     {
@@ -123,12 +130,12 @@
       ],
       "abstract": "Given the challenges posed by high groundwater levels, thick sand layers, and strong permeability in water-rich sandy strata, cut-off walls often fail to fully isolate the hydraulic connection between the inside and outside of a foundation pit. As a result, dewatering inside the pit—especially from confined aquifers—can cause significant external groundwater drawdown and subsequent ground settlement. Using a deep excavation conducted in Xiamen as a case study, this study developed a two-dimensional hydro-mechanical coupled finite element model to systematically investigate the effects of various dewatering scenarios and soil permeability coefficients on surface settlement around the pit, and to reveal settlement patterns induced by dewatering and excavation in such strata. Field monitoring data were incorporated to validate the numerical model, ensuring accuracy and reliability. Key findings include the following: (1) Dewatering contributes to over 76% of the total settlement at each stage, with confined drawdown being the dominant factor, implying that dewatering optimization should take priority over controlling excavation rate. (2) Under confined dewatering, the settlement influence zone extends beyond 80 m, far exceeding the extension caused by excavation alone; thus, monitoring and protection ranges must be adjusted dynamically. (3) The horizontal permeability of sand shows a nonlinear positive correlation with settlement, and this sensitivity grows with depth, highlighting the need for accurate permeability determination and stricter controls in deep excavations within water-rich sand layers. From an engineering perspective, these findings underscore the importance of prioritizing confined aquifer dewatering management, dynamically expanding settlement monitoring zones, and rigorously characterizing permeability profiles to mitigate excessive ground settlement and protect adjacent infrastructure.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1754304342312-cace9df82c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxEcmF3ZG93biUyMCUyOGh5ZHJvbG9neSUyOSUyMFBlcm1lYWJpbGl0eSUyMCUyOGVsZWN0cm9tYWduZXRpc20lMjklMjBTZXR0bGVtZW50JTIwJTI4ZmluYW5jZSUyOXxlbnwwfDB8fHwxNzgwMzM4NTgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1754304342312-cace9df82c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxEcmF3ZG93biUyMCUyOGh5ZHJvbG9neSUyOSUyMFBlcm1lYWJpbGl0eSUyMCUyOGVsZWN0cm9tYWduZXRpc20lMjklMjBTZXR0bGVtZW50JTIwJTI4ZmluYW5jZSUyOXxlbnwwfDB8fHwxNzgwMzM4NTgyfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "Diagram of forces on an inclined plane.",
-        "photographer": "Bozhin Karaivanov",
-        "photographer_url": "https://unsplash.com/@bkaraivanov",
-        "unsplash_url": "https://unsplash.com/photos/diagram-of-forces-on-an-inclined-plane-FRtbTWtHz0g"
+        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4MDM5Njc4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4MDM5Njc4M3ww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "red and black truck in tunnel",
+        "photographer": "Ricardo Gomez Angel",
+        "photographer_url": "https://unsplash.com/@rgaleriacom",
+        "unsplash_url": "https://unsplash.com/photos/red-and-black-truck-in-tunnel-F2iCP_knaj8"
       }
     },
     {
@@ -149,7 +156,14 @@
         "Porosity"
       ],
       "abstract": "This review critically examines the roles, mechanisms, and future potential of polyvinyl alcohol (PVA) in self-healing concrete, with particular emphasis on the effects of polymer form, degree of polymerization (DP), and degree of alcoholysis (DA). Most of existing studies focus predominantly on PVA fibers for crack control. This review provides a comprehensive comparison between fiber-based and soluble PVA systems and evaluates their distinct influences on fresh properties, mechanical performance, durability, permeability, and self-healing efficiency. Recent experimental and simulation studies indicate that while PVA fibers mainly enhance autogenous self-healing by refining crack widths and providing nucleation sites, soluble PVA—especially low-DP variants—shows potential to actively promote autonomous healing through calcium-ion complexation and accelerated carbonate precipitation. Based on these comparisons and discussions, this review proposes a conceptual extension of the complexation–precipitation theory as a potential unifying framework to interpret PVA-enabled self-healing behavior. Key challenges related to workability, strength trade-offs, long-term durability, and cost are critically assessed. Finally, emerging perspectives are discussed, including synergistic use of multiscale PVA systems, integration with biomineralisation agents, and broader extension of complexation-based healing strategies. This review aims to bridge material engineering performance with underlying chemical mechanisms, providing guidance for the rational design of next-generation self-healing concrete systems incorporating PVA. • The effects of PVA on self-healing concrete depend on its form of incorporation. • Incorporation of PVA inevitably alters the fresh and hardened properties of concrete. • The polyhydroxyl molecular structure of PVA enables weak complexation with Ca 2+ ions. • Excessive PVA introduces porosity or retards hydration, highlighting the need for optimisation. • Research on the synergistic combination of PVA fibers with low-DP soluble PVA is promising.",
-      "image": null
+      "image": {
+        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgwMzk2Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgwMzk2Nzg0fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "a black and white photo of a concrete wall",
+        "photographer": "Wesley Tingey",
+        "photographer_url": "https://unsplash.com/@wesleyphotography",
+        "unsplash_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-concrete-wall--Irs24DzLxM"
+      }
     },
     {
       "group": "Mgmt",
@@ -170,12 +184,12 @@
       ],
       "abstract": "Construction relies on rapid, reliable information sharing among distributed teams to enable project success. This article presents an empirical exploration of eleven organizations that serve as early adopters of advanced information technologies for instantaneous, i.e., real-time or near real-time, project controls and reporting capabilities. The study employed a grounded theory approach, in which analyses informed subsequent steps. Constructs were coded from the transcription of interviews with corporate managers affiliated with owner, contractor, software developer, and manufacturing organizations. Contextual and processual findings were leveraged to support a theoretical model that captured the changes and implementation steps for successful technology diffusion. The study also defined the drivers that demand and justify an instantaneous or frequent reporting capability in the design and construction sector. Results offer actionable insights. Organizations can more effectively adopt advanced project controls by proactively planning and embracing necessary organizational changes. Researchers should consider both contextual and processual factors to support effective exploration of technology integration in construction.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1732304721505-7777969ce2da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxHcm91bmRlZCUyMHRoZW9yeSUyMFRyYW5zZm9ybWF0aXZlJTIwbGVhcm5pbmclMjBFbXBpcmljYWwlMjByZXNlYXJjaHxlbnwwfDB8fHwxNzgwMzk2Mjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1732304721505-7777969ce2da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxHcm91bmRlZCUyMHRoZW9yeSUyMFRyYW5zZm9ybWF0aXZlJTIwbGVhcm5pbmclMjBFbXBpcmljYWwlMjByZXNlYXJjaHxlbnwwfDB8fHwxNzgwMzk2Mjk4fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "A stack of books sitting on top of a table",
-        "photographer": "Thorium",
-        "photographer_url": "https://unsplash.com/@232_038t",
-        "unsplash_url": "https://unsplash.com/photos/a-stack-of-books-sitting-on-top-of-a-table-sliRfO-e6Sg"
+        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgwMzk2Nzg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgwMzk2Nzg1fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "two men working",
+        "photographer": "Etienne Girardet",
+        "photographer_url": "https://unsplash.com/@etiennegirardet",
+        "unsplash_url": "https://unsplash.com/photos/two-men-working-sgYamIzhAhg"
       }
     },
     {
@@ -197,12 +211,12 @@
       ],
       "abstract": "Concrete infrastructure maintenance for vertical structures remains constrained by the separation between crack inspection and manual repair, which is labor-intensive, hazardous, and inefficient. This paper presents an integrated on-site inspection and repair wall-climbing robot (IOIR) for concrete cracks, combining crack detection, quantification, task generation, and robotic sealing within a unified workflow. The robot integrates negative-pressure adhesion, a modular climbing mechanism, an onboard lightweight HrSegNet-B32-AD segmentation network, and a compact 3-DOF repair module. Pixel-wise crack masks generated onboard support accurate geometric measurement and automated repair trajectory planning for sealing. Full-scale wall experiments demonstrate stable adhesion, reliable locomotion, precise trajectory tracking, crack-width relative errors of 0.53% and 1.49%, mean coverage of 98.6%, underfill of 1.4%, and coverage uniformity of 96.8%. These findings show that IOIR can effectively connect inspection with field repair, providing a practical automated solution for high-access concrete infrastructure maintenance and future robotic maintenance applications. • Integrated wall-climbing robot for on-site concrete crack inspection and repair. • Negative-pressure adhesion platform combines perception, task generation, and sealing. • Lightweight HrSegNet-B32-AD enables real-time onboard crack segmentation. • Pixel-wise crack masks support width measurement and automated repair paths. • Full-scale wall tests show 98.6% repair coverage and 1.4% underfill rate.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxSb2JvdGljcyUyMFJvYm90JTIwTW9kdWxhciUyMGRlc2lnbnxlbnwwfDB8fHwxNzgwMzM4NTg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxSb2JvdGljcyUyMFJvYm90JTIwTW9kdWxhciUyMGRlc2lnbnxlbnwwfDB8fHwxNzgwMzM4NTg2fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "two white and black electronic device with wheels",
-        "photographer": "Jelleke Vanooteghem",
-        "photographer_url": "https://unsplash.com/@ilumire",
-        "unsplash_url": "https://unsplash.com/photos/two-white-and-black-electronic-device-with-wheels-6NUlOHM40w8"
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDM5Njc4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDM5Njc4N3ww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "a factory filled with lots of orange machines",
+        "photographer": "Simon Kadula",
+        "photographer_url": "https://unsplash.com/@simonkadula",
+        "unsplash_url": "https://unsplash.com/photos/a-factory-filled-with-lots-of-orange-machines-8gr6bObQLOI"
       }
     },
     {
@@ -224,12 +238,12 @@
       ],
       "abstract": "In hot and humid areas, combined shadows from buildings and trees are critical to imagery involving outdoor thermal environments, but are difficult to quantify in complex building–tree intertwined surroundings. This study introduces a shadow geographical ratio (SGR) to quantify combined shadow coverage and proposes a panoramic-photo-based measurement (PPM) framework to compute SGR. Field validation on the campus of Xiamen University, China, using UAV imagery as reference, gave a mean relative error of 1.69% and an RMSE of 0.03 for PPM-derived SGR. The results further showed that SGR was strongly correlated with the sky view factor (SVF) and exhibited significantly higher sensitivity to thermal environment and comfort indicators than SVF, except for relative humidity. Conversely, SVF correlated more strongly with thermal stability. The PPM framework features pedestrian-scale characterization, minimal hardware requirements, and robust error control. The SGR and PPM frameworks offer a practical method for shadow data acquisition in complex environments, supporting microclimate optimization in hot and humid climates. This approach facilitates field data collection and simulation calibration, advancing future studies of shadows.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1519342546310-fbf5a166716b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxTaGFkb3clMjAlMjhwc3ljaG9sb2d5JTI5JTIwTWljcm9jbGltYXRlJTIwTWVhbiUyMHNxdWFyZWQlMjBlcnJvcnxlbnwwfDB8fHwxNzgwMzk2MzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1519342546310-fbf5a166716b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxTaGFkb3clMjAlMjhwc3ljaG9sb2d5JTI5JTIwTWljcm9jbGltYXRlJTIwTWVhbiUyMHNxdWFyZWQlMjBlcnJvcnxlbnwwfDB8fHwxNzgwMzk2MzAwfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "person in black skinny jeans standing on the field",
-        "photographer": "Daniel Polo",
-        "photographer_url": "https://unsplash.com/@danielppolo",
-        "unsplash_url": "https://unsplash.com/photos/person-in-black-skinny-jeans-standing-on-the-field-1-rl6UsJCgE"
+        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwMzk2Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwMzk2Nzg4fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "a monitor is on a stand in a room",
+        "photographer": "Trnava University",
+        "photographer_url": "https://unsplash.com/@trnavskauni",
+        "unsplash_url": "https://unsplash.com/photos/a-monitor-is-on-a-stand-in-a-room-PoEbadI3mQQ"
       }
     },
     {
@@ -251,12 +265,12 @@
       ],
       "abstract": "Semi-prefabricated and prefabricated concrete construction is today widely accepted as the standard method for industrial facilities, warehouse halls, and similar structures. In addition to such buildings, increasing attention has recently been given to prefabricated construction of residential buildings using load-bearing prefabricated walls. System simplicity, rapid construction, efficient site organization, and robust load transfer have stimulated the development of multiple systems and technologies, mainly differing in panel infill and connection type. In all these systems, panel connections represent the key structural detail. The connections must transfer all foreseeable forces, but their number and complexity must not be excessive, so as not to compromise the fundamental advantages of this construction method. This paper presents a review of the current state of knowledge on the behavior of prefabricated concrete wall panels and their connections by analyzing the results of numerical and experimental investigations. Current codes and guidelines relevant to prefabricated wall systems are reviewed in the context of design and construction practice in Europe and worldwide, showing that they are largely based on general recommendations rather than explicit design provisions. Key disadvantages of existing models and areas requiring additional experimental validation and numerical model calibration are identified. Finally, the study contributes to a better understanding of the factors that affect the reliability and cost-effectiveness of prefabricated wall panels in the building industry.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1585419908131-9640f2914d64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxSZWxpYWJpbGl0eSUyMCUyOHNlbWljb25kdWN0b3IlMjklMjBQcmVmYWJyaWNhdGlvbiUyMENvbnRleHQlMjAlMjhhcmNoYWVvbG9neSUyOXxlbnwwfDB8fHwxNzgwMzM4NTg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1585419908131-9640f2914d64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxSZWxpYWJpbGl0eSUyMCUyOHNlbWljb25kdWN0b3IlMjklMjBQcmVmYWJyaWNhdGlvbiUyMENvbnRleHQlMjAlMjhhcmNoYWVvbG9neSUyOXxlbnwwfDB8fHwxNzgwMzM4NTg3fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "black and white box on blue surface",
-        "photographer": "Frantzou Fleurine",
-        "photographer_url": "https://unsplash.com/@frantzou",
-        "unsplash_url": "https://unsplash.com/photos/black-and-white-box-on-blue-surface-DjeM9dnYFH8"
+        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MDM5Njc4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MDM5Njc4OXww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "construction frame",
+        "photographer": "Alain Pham",
+        "photographer_url": "https://unsplash.com/@alain_pham",
+        "unsplash_url": "https://unsplash.com/photos/construction-frame-P_qvsF7Yodw"
       }
     },
     {
@@ -278,12 +292,12 @@
       ],
       "abstract": "This paper presents a computationally feasible/time-effective Scan-to-BrIM workflow for generating a highly detailed digital model of a complex steel pedestrian bridge. The proposed methodology integrates rapid and accurate point cloud acquisition with advanced parametric modelling and structural information management. First, a high-resolution point cloud is produced using a fast survey strategy that ensures the geometric precision required for a faithful representation of the existing structure. Second, the point cloud is processed in Rhinoceros/Grasshopper, where a custom Python (version 3.13) algorithm automatically detects and generates reference planes containing the structural components, enabling the creation of a consistent and fully parametric BrIM model. The latter approach includes metric normalization, voxel-based downsampling, reliable under tested conditions ground and outlier removal, and PCA (Principal Component Analysis)-based reorientation, followed by guided slicing of the point cloud and projection of each slice onto its section plane. The proposed workflow achieved a geometric RMSE of 2.5 mm with a total processing time of 7.3 h. The resulting parametric model achieves geometric consistency with the source point cloud within an operational tolerance range of approximately 5–10 mm, in line with the requirements of structural applications. Finally, the model is organised and managed within the BrIM environment and then transferred to a downstream FEM environment for preliminary structural application. The workflow is tested on a case study of a 40-m steel pedestrian bridge located in central Italy. Results demonstrate that the integrated approach provides a reproducible and semi-automated solution that reduces manual intervention in Scan-to-BrIM processes for producing accurate parametric models of steel pedestrian bridges, supporting structural assessment, asset management, and future maintenance strategies.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxQb2ludCUyMGNsb3VkJTIwUGFyYW1ldHJpYyUyMHN0YXRpc3RpY3MlMjBXb3JrZmxvd3xlbnwwfDB8fHwxNzgwMzk2MzAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxQb2ludCUyMGNsb3VkJTIwUGFyYW1ldHJpYyUyMHN0YXRpc3RpY3MlMjBXb3JrZmxvd3xlbnwwfDB8fHwxNzgwMzk2MzAyfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "graphical user interface",
-        "photographer": "Deng Xiang",
-        "photographer_url": "https://unsplash.com/@dengxiangs",
-        "unsplash_url": "https://unsplash.com/photos/graphical-user-interface--WXQm_NTK0U"
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwMzk2NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwMzk2NzkxfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "white and black camera on tripod",
+        "photographer": "Michał Jakubowski",
+        "photographer_url": "https://unsplash.com/@jaqbovsky",
+        "unsplash_url": "https://unsplash.com/photos/white-and-black-camera-on-tripod-oQD9uq4Rd4I"
       }
     }
   ]

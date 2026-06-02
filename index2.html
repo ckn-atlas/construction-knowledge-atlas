@@ -3506,7 +3506,10 @@ function renderLatest(){
       const imgHtml = img
         ? `<img class="latest-card-img" src="${img.url}&w=600&q=80" alt="${img.alt||''}" loading="lazy" onerror="this.style.display='none'">
            <div style="font-size:9px;color:var(--muted);padding:3px 10px;background:var(--panel)">Photo by <a href="${img.photographer_url}" target="_blank" style="color:var(--muted)">${img.photographer}</a> on <a href="https://unsplash.com" target="_blank" style="color:var(--muted)">Unsplash</a></div>`
-        : `<div style="height:80px;background:${color}22;display:flex;align-items:center;justify-content:center;font-size:32px">${themeEmoji[p.group]||'🔬'}</div>`;
+        : `<div style="height:80px;background:linear-gradient(135deg,${color}33 0%,${color}11 100%);border-bottom:1px solid ${color}44;display:flex;align-items:center;padding:0 16px;gap:10px">
+             <span style="font-size:22px">${themeEmoji[p.group]||'🔬'}</span>
+             <span style="font-size:12px;font-weight:700;color:${color};letter-spacing:.5px;text-transform:uppercase">${p.group_label||p.group}</span>
+           </div>`;
       return `<div class="latest-card" style="border-top:3px solid ${color}">
         ${imgHtml}
         <div class="latest-card-body">
