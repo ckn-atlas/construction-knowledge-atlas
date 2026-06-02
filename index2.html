@@ -457,6 +457,31 @@
 
 <!-- SCROLL MAIN -->
 <main id="scrollMain">
+<section class="view" id="view-latest">
+      <div class="panel-title">🔬 Latest Research Highlights</div>
+      <div class="panel-sub" id="latestSub">Top-cited recent paper per theme · FWCI-ranked · Updated regularly</div>
+      <div style="padding:0 24px 8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <div style="display:flex;gap:4px">
+          <button class="latest-range-btn active" data-range="month" onclick="setLatestRange('month')">Last 30 Days</button>
+          <button class="latest-range-btn" data-range="week" onclick="setLatestRange('week')">Last 7 Days</button>
+        </div>
+        <span id="latestMeta" style="font-size:11px;color:var(--muted)"></span>
+        <button id="latestRefreshBtn" onclick="refreshLatest()" style="margin-left:auto;background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 12px;font-size:11px;cursor:pointer">↻ Refresh</button>
+      </div>
+      <div id="latestGrid" style="padding:0 24px 24px"></div>
+    </section>
+
+<section class="view" id="view-impact">
+      <div class="panel-title">Impact Paper Analysis</div>
+      <div class="panel-sub">Impact Score = Citations + FWCI + Recency + Open Access</div>
+      <div style="padding:0 24px 12px;display:flex;gap:8px">
+        <button class="impact-filter active" data-period="theme">📌 By Theme</button>
+        <button class="impact-filter" data-period="3y">Last 3 Years</button>
+        <button class="impact-filter" data-period="3m">Last 3 Months</button>
+      </div>
+      <div class="net-wrap" id="impactList"></div>
+    </section>
+
     <section class="view" id="view-graph-ph">
       <div class="panel-title">🧬 Tech Ontology</div>
       <p class="panel-sub">Interactive visualization of construction technology concepts — explore hierarchy trees, force-directed networks, and theme summaries across 100+ tracked technologies.</p>
@@ -472,7 +497,7 @@
       </div>
     </section>
 
-<section class="view" id="view-country" style="overflow-y:auto">
+<section class="view" id="view-country">
       <div class="panel-title">Country Tech Influence</div>
       <div class="panel-sub">색이 진할수록 Paper Count가 많습니다. Click map or rank to see key institutions & technologies. <b>여러 나라를 클릭</b>하면 연도별 비교 차트가 표시됩니다.</div>
       <div class="map-zone">
@@ -540,31 +565,6 @@
         <!-- Country legend (click → fly to cluster) -->
         <div id="net3dLegend" style="position:absolute;top:12px;left:12px;background:rgba(14,17,22,.92);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:12px;z-index:5"></div>
       </div>
-    </section>
-
-<section class="view" id="view-impact">
-      <div class="panel-title">Impact Paper Analysis</div>
-      <div class="panel-sub">Impact Score = Citations + FWCI + Recency + Open Access</div>
-      <div style="padding:0 24px 12px;display:flex;gap:8px">
-        <button class="impact-filter active" data-period="theme">📌 By Theme</button>
-        <button class="impact-filter" data-period="3y">Last 3 Years</button>
-        <button class="impact-filter" data-period="3m">Last 3 Months</button>
-      </div>
-      <div class="net-wrap" id="impactList"></div>
-    </section>
-
-<section class="view active" id="view-latest" style="overflow-y:auto">
-      <div class="panel-title">🔬 Latest Research Highlights</div>
-      <div class="panel-sub" id="latestSub">Top-cited recent paper per theme · FWCI-ranked · Updated regularly</div>
-      <div style="padding:0 24px 8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-        <div style="display:flex;gap:4px">
-          <button class="latest-range-btn active" data-range="month" onclick="setLatestRange('month')">Last 30 Days</button>
-          <button class="latest-range-btn" data-range="week" onclick="setLatestRange('week')">Last 7 Days</button>
-        </div>
-        <span id="latestMeta" style="font-size:11px;color:var(--muted)"></span>
-        <button id="latestRefreshBtn" onclick="refreshLatest()" style="margin-left:auto;background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 12px;font-size:11px;cursor:pointer">↻ Refresh</button>
-      </div>
-      <div id="latestGrid" style="padding:0 24px 24px"></div>
     </section>
 
 <section class="view" id="view-journals">

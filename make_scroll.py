@@ -183,7 +183,24 @@ def patch_nav(h):
 # ──────────────────────────────────────────────────────────────
 # 9. 섹션별 HTML 패치
 # ──────────────────────────────────────────────────────────────
+def patch_latest(s):
+    # overflow-y:auto 는 scroll layout 에서 높이 없으면 내용 숨김
+    # 원본에 class="view active" 포함
+    s = s.replace(
+        '<section class="view active" id="view-latest" style="overflow-y:auto">',
+        '<section class="view" id="view-latest">'
+    )
+    s = s.replace(
+        '<section class="view" id="view-latest" style="overflow-y:auto">',
+        '<section class="view" id="view-latest">'
+    )
+    return s
+
 def patch_country(s):
+    s = s.replace(
+        '<section class="view" id="view-country" style="overflow-y:auto">',
+        '<section class="view" id="view-country">'
+    )
     return s.replace(
         '      <div style="display:flex;gap:16px;padding:0 24px;height:calc(100vh - 160px);min-height:280px;max-height:600px">',
         '      <div class="map-zone">'
@@ -351,11 +368,11 @@ graph_ph = """    <section class="view" id="view-graph-ph">
     </section>"""
 
 scroll_sections_html = (
-    graph_ph + "\n\n" +
-    patch_country(secs.get('view-country','')) + "\n\n" +
-    patch_network(secs.get('view-network','')) + "\n\n" +
-    patch_impact(secs.get('view-impact',''))   + "\n\n" +
-    secs.get('view-latest','')                 + "\n\n" +
+    patch_latest(secs.get('view-latest',''))     + "\n\n" +
+    patch_impact(secs.get('view-impact',''))     + "\n\n" +
+    graph_ph                                     + "\n\n" +
+    patch_country(secs.get('view-country',''))   + "\n\n" +
+    patch_network(secs.get('view-network',''))   + "\n\n" +
     patch_journals(secs.get('view-journals','')) + "\n\n" +
     secs.get('view-evo','')
 )
