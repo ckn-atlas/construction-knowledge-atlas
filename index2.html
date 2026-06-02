@@ -298,6 +298,15 @@
   .lang-btn.active{background:var(--accent);color:#0e1116}
   .lang-btn:hover:not(.active){color:var(--txt)}
 
+  @keyframes bubblePop{
+    0%{transform:scale(0);opacity:0}
+    70%{transform:scale(1.15)}
+    100%{transform:scale(1);opacity:1}
+  }
+  .evo-bubble{transition:transform .15s}
+  .evo-bubble:hover{transform:scale(1.08)!important}
+  .evo-bubble-new{animation-duration:.5s!important}
+
   /* ── Graph Full-Screen Overlay ── */
   #graphOverlay{display:none;position:fixed;inset:0;z-index:300;background:var(--bg);flex-direction:column}
   #graphOverlay.open{display:flex}
@@ -595,6 +604,7 @@
           <div style="display:flex;gap:4px;margin-left:auto">
             <button class="evo-view-btn active" data-eview="tree" data-i18n="btn_emerge">🌿 Emergence Tree</button>
             <button class="evo-view-btn" data-eview="bump" data-i18n="btn_bump">📈 Rank Trend</button>
+            <button class="evo-view-btn" data-eview="year">📅 Year View</button>
           </div>
         </div>
         <!-- 트리 전용 컨트롤 -->
@@ -607,6 +617,14 @@
           <button class="evo-filter active" data-level="specific" data-i18n="btn_specific">Specific only</button>
           <button class="evo-filter" data-level="all" data-i18n="btn_all">All</button>
           <span style="font-size:11px;color:var(--muted);margin-left:8px">Solid=specific · Dashed=broad · Hover for hierarchy</span>
+        </div>
+        <!-- year view controls -->
+        <div id="evoYearCtrl" style="display:none;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:20px">
+          <button id="evoPlayBtn" onclick="evoPlayToggle()" style="background:var(--accent);color:#0e1116;border:none;border-radius:8px;padding:6px 18px;font-size:13px;font-weight:700;cursor:pointer">▶ Play</button>
+          <input type="range" id="evoYearSlider" min="2020" max="2025" value="2020" step="1"
+            style="width:200px;accent-color:var(--accent)" oninput="evoSetYear(+this.value)">
+          <span id="evoYearLabel" style="font-size:32px;font-weight:800;color:var(--accent);min-width:70px">2020</span>
+          <span style="font-size:12px;color:var(--muted)">bubble size = papers · color = theme · ★ = new this year</span>
         </div>
         <div id="evoTimeline"></div>
       </div>
@@ -2938,14 +2956,129 @@ function fillEvo(){
 
 function _switchEvoView(){
   const isTree = _evoView === "tree";
-  document.getElementById("evoTitle").textContent = isTree ? "Technology Emergence Tree" : "Technology Emergence Tracking — Monthly Rank";
+  const isYear = _evoView === "year";
+  document.getElementById("evoTitle").textContent =
+    isTree ? T("title_evo") : isYear ? (`${T("nav_evo")} — Year by Year`) : "Technology Rank Trend";
   document.getElementById("evoTreeCtrl").style.display = isTree ? "block" : "none";
-  document.getElementById("evoBumpCtrl").style.display = isTree ? "none" : "flex";
+  document.getElementById("evoBumpCtrl").style.display = (!isTree && !isYear) ? "flex" : "none";
+  document.getElementById("evoYearCtrl").style.display = isYear ? "flex" : "none";
   if(isTree) buildEvoTree();
+  if(isYear){ evoStopPlay(); renderEvoYear(_evoCurrentYear||2020); }
   else renderEvo(_evoLevel);
 }
 
 /* ── Technology Emergence Tree ── */
+
+/* ===================== EVO YEAR VIEW ===================== */
+let _evoCurrentYear = 2020;
+let _evoPlayTimer = null;
+const EVO_YEARS = [2020,2021,2022,2023,2024,2025];
+
+// 연도별 노드 paper count 캐시
+function _evoYearData(){
+  const cache = {};
+  EVO_YEARS.forEach(yr=>{
+    cache[yr] = {};
+    NODES.forEach(n=>{
+      let total = 0;
+      Object.entries(n.monthly||{}).forEach(([m,cnt])=>{
+        if(parseInt(m.slice(0,4))===yr) total+=cnt;
+      });
+      if(total>0) cache[yr][n.id]={count:total, group:n.group, parent:n.parent||null};
+    });
+  });
+  return cache;
+}
+let _evoCache = null;
+
+function renderEvoYear(year){
+  _evoCurrentYear = year;
+  if(!_evoCache) _evoCache = _evoYearData();
+
+  document.getElementById('evoYearSlider').value = year;
+  document.getElementById('evoYearLabel').textContent = year;
+
+  const container = document.getElementById('evoTimeline');
+  const data = _evoCache[year] || {};
+  const prevData = year>2020 ? (_evoCache[year-1]||{}) : {};
+
+  // 신규 등장: 이전 연도에 없던 키워드
+  const isNew = id => !prevData[id];
+
+  // paper count 기준 정렬, 상위 60개
+  const items = Object.entries(data)
+    .sort((a,b)=>b[1].count-a[1].count)
+    .slice(0,60);
+
+  if(!items.length){
+    container.innerHTML = `<div style="padding:60px;text-align:center;color:var(--muted)">No data for ${year}</div>`;
+    return;
+  }
+
+  const maxCount = items[0][1].count;
+
+  // 그룹별 색상
+  const html = `
+    <div id="evoBubbleWrap" style="display:flex;flex-wrap:wrap;gap:10px;padding:16px 0;align-items:center">
+      ${items.map(([id,d])=>{
+        const pct = d.count/maxCount;
+        const sz = Math.max(28, Math.round(28 + pct*60));
+        const col = groupColor(d.group||'AI');
+        const novel = isNew(id);
+        return `<div class="evo-bubble${novel?' evo-bubble-new':''}"
+          title="${id}: ${d.count.toLocaleString()} papers${novel?' ★ New this year':''}"
+          style="
+            background:${col}22;
+            border:2px solid ${col}${novel?';box-shadow:0 0 8px '+col:''};
+            color:${col};
+            border-radius:${sz}px;
+            padding:0 ${Math.round(sz*0.5)}px;
+            height:${sz}px;
+            font-size:${Math.max(10,Math.round(sz*0.3))}px;
+            font-weight:700;
+            display:inline-flex;align-items:center;gap:4px;
+            cursor:default;white-space:nowrap;
+            animation:bubblePop .35s ease both;
+          ">${novel?'★ ':''}${id}
+          <span style="font-size:${Math.max(9,Math.round(sz*0.26))}px;opacity:.7">${d.count>999?(d.count/1000).toFixed(1)+'k':d.count}</span>
+        </div>`;
+      }).join('')}
+    </div>
+    <div style="margin-top:16px;font-size:12px;color:var(--muted)">
+      Showing top ${items.length} keywords · ${Object.keys(data).length} total active ·
+      <span style="color:var(--accent)">★ ${items.filter(([id])=>isNew(id)).length} new this year</span>
+    </div>`;
+
+  container.innerHTML = html;
+}
+
+function evoSetYear(yr){
+  renderEvoYear(yr);
+}
+
+function evoPlayToggle(){
+  if(_evoPlayTimer){ evoStopPlay(); return; }
+  const btn = document.getElementById('evoPlayBtn');
+  btn.textContent = '⏸ Pause';
+  if(_evoCurrentYear >= 2025) _evoCurrentYear = 2019;
+  function step(){
+    _evoCurrentYear = Math.min(_evoCurrentYear+1, 2025);
+    renderEvoYear(_evoCurrentYear);
+    if(_evoCurrentYear < 2025){
+      _evoPlayTimer = setTimeout(step, 1200);
+    } else {
+      evoStopPlay();
+    }
+  }
+  step();
+}
+
+function evoStopPlay(){
+  if(_evoPlayTimer){ clearTimeout(_evoPlayTimer); _evoPlayTimer=null; }
+  const btn = document.getElementById('evoPlayBtn');
+  if(btn) btn.textContent = '▶ Play';
+}
+
 function buildEvoTree(){
   const container = document.getElementById("evoTimeline");
   container.innerHTML = '';
