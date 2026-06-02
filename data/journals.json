@@ -2,91 +2,109 @@
   {
     "name": "Construction and Building Materials",
     "papers": 27210,
-    "cites": 667010
+    "cites": 667010,
+    "issn": "0950-0618"
   },
   {
     "name": "Buildings",
     "papers": 17166,
-    "cites": 132560
+    "cites": 132560,
+    "issn": "2075-5309"
   },
   {
     "name": "Journal of Building Engineering",
     "papers": 15088,
-    "cites": 259155
+    "cites": 259155,
+    "issn": "2352-7102"
   },
   {
     "name": "Case Studies in Construction Materials",
     "papers": 5777,
-    "cites": 74009
+    "cites": 74009,
+    "issn": "2214-5095"
   },
   {
     "name": "Automation in Construction",
     "papers": 3453,
-    "cites": 126523
+    "cites": 126523,
+    "issn": "0926-5805"
   },
   {
     "name": "Advanced Engineering Informatics",
     "papers": 3343,
-    "cites": 67230
+    "cites": 67230,
+    "issn": "1474-0346"
   },
   {
     "name": "KSCE Journal of Civil Engineering",
     "papers": 2528,
-    "cites": 19973
+    "cites": 19973,
+    "issn": "1226-7988"
   },
   {
     "name": "Journal of Rock Mechanics and Geotechnical Engineering",
     "papers": 2045,
-    "cites": 37920
+    "cites": 37920,
+    "issn": ""
   },
   {
     "name": "Journal of Structural Engineering",
     "papers": 1949,
-    "cites": 25806
+    "cites": 25806,
+    "issn": "0733-9445"
   },
   {
     "name": "Engineering Construction & Architectural Management",
     "papers": 1848,
-    "cites": 25524
+    "cites": 25524,
+    "issn": ""
   },
   {
     "name": "Frontiers in Built Environment",
     "papers": 1725,
-    "cites": 15659
+    "cites": 15659,
+    "issn": "2297-3362"
   },
   {
     "name": "Journal of Construction Engineering and Management",
     "papers": 1596,
-    "cites": 24355
+    "cites": 24355,
+    "issn": ""
   },
   {
     "name": "Journal of Geotechnical and Geoenvironmental Engineering",
     "papers": 1474,
-    "cites": 18679
+    "cites": 18679,
+    "issn": ""
   },
   {
     "name": "Computer-Aided Civil and Infrastructure Engineering",
     "papers": 1402,
-    "cites": 23871
+    "cites": 23871,
+    "issn": ""
   },
   {
     "name": "ACI Materials Journal",
     "papers": 562,
-    "cites": 2860
+    "cites": 2860,
+    "issn": "0889-325X"
   },
   {
     "name": "Journal of Computing in Civil Engineering",
     "papers": 541,
-    "cites": 8431
+    "cites": 8431,
+    "issn": "0887-3801"
   },
   {
     "name": "Journal of Information Technology in Construction",
     "papers": 355,
-    "cites": 4517
+    "cites": 4517,
+    "issn": ""
   },
   {
     "name": "Journal of Civil Engineering and Management",
     "papers": 333,
-    "cites": 4025
+    "cites": 4025,
+    "issn": "1392-3730"
   }
 ]

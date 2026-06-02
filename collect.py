@@ -739,7 +739,10 @@ def build_outputs(all_works):
 
     # ----- journals.json (수집된 저널별 논문수/인용수) -----
     # OpenAlex가 돌려준 실제 저널명(src) 기준 집계. 저널마다 표기가 갈릴 수 있어 그대로 노출.
-    journals = [{"name": name, "papers": cnt, "cites": journal_cites[name]}
+    # ISSN 역매핑 (저널명 → ISSN)
+    name_to_issn = {j["name"].lower(): j["issn"] for j in JOURNALS}
+    journals = [{"name": name, "papers": cnt, "cites": journal_cites[name],
+                 "issn": name_to_issn.get(name.lower(), "")}
                 for name, cnt in journal_papers.most_common()]
 
     return {

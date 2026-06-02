@@ -614,6 +614,16 @@ let PAPERS = [
   {t:"Foundation Models for Construction Inspection",j:"J. of Computing in Civil Eng.",y:2025,score:88,cit:206,fwci:9.1,oa:false,tech:["AI","Computer Vision"]},
 ];
 const JOURNAL_META = {}; // OpenAlex 저널 메타 (if2y, h_index, publisher...)
+// 이름으로 빠른 조회용 인덱스
+function getJournalMeta(j){
+  if(j.issn && JOURNAL_META[j.issn]) return JOURNAL_META[j.issn];
+  // 이름 매칭 fallback
+  const jn = (j.name||'').toLowerCase();
+  return Object.values(JOURNAL_META).find(m=>{
+    const mn = (m.name||'').toLowerCase();
+    return mn===jn || mn.includes(jn) || jn.includes(mn);
+  }) || {};
+}
 let JOURNALS = [
   {name:"Construction and Building Materials",papers:4524,cites:71244},
   {name:"Buildings",papers:3003,cites:9444},
@@ -2493,7 +2503,7 @@ function fillJournals(){
     `${JOURNALS.length} journals collected · ${total.toLocaleString()} papers · ${totalCites.toLocaleString()} citations (OpenAlex)`;
 
   document.querySelector("#journalTable tbody").innerHTML = JOURNALS.map((j,i)=>{
-    const m = JOURNAL_META[j.issn] || {};
+    const m = getJournalMeta(j);
     const ifVal = m.if2y ? m.if2y.toFixed(2) : '—';
     const hVal  = m.h_index || '—';
     const subj  = (m.subjects||[]).slice(0,2).join(' · ');
