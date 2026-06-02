@@ -2963,7 +2963,7 @@ function _switchEvoView(){
   document.getElementById("evoBumpCtrl").style.display = (!isTree && !isYear) ? "flex" : "none";
   document.getElementById("evoYearCtrl").style.display = isYear ? "flex" : "none";
   if(isTree) buildEvoTree();
-  if(isYear){ evoStopPlay(); renderEvoYear(_evoCurrentYear||2020); }
+  else if(isYear){ evoStopPlay(); renderEvoYear(_evoCurrentYear||2020); }
   else renderEvo(_evoLevel);
 }
 
