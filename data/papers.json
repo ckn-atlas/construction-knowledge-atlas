@@ -169,6 +169,40 @@
     "score": 36
   },
   {
+    "t": "Review of Bridge Structural Health Monitoring Aided by Big Data and Artificial Intelligence: From Condition Assessment to Damage Detection",
+    "j": "Journal of Structural Engineering",
+    "y": 2020,
+    "date": "2020-03",
+    "cit": 708,
+    "fwci": 49.0964,
+    "oa": false,
+    "doi": "https://doi.org/10.1061/(asce)st.1943-541x.0002535",
+    "tech": [
+      "SHM",
+      "Bridge (Graph Theory)",
+      "Computer Science",
+      "Field (Mathematics)"
+    ],
+    "score": 36
+  },
+  {
+    "t": "A novel approach to explain the black-box nature of machine learning in compressive strength predictions of concrete using Shapley additive explanations (SHAP)",
+    "j": "Case Studies in Construction Materials",
+    "y": 2022,
+    "date": "2022-04",
+    "cit": 457,
+    "fwci": 47.8909,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.cscm.2022.e01059",
+    "tech": [
+      "Interpretability",
+      "Compressive Strength",
+      "Machine Learning",
+      "Computer Science"
+    ],
+    "score": 36
+  },
+  {
     "t": "CNN parameter design based on fault signal analysis and its application in bearing fault diagnosis",
     "j": "Advanced Engineering Informatics",
     "y": 2023,
@@ -199,6 +233,23 @@
       "Neural Network",
       "Process (Computing)",
       "Computer Science"
+    ],
+    "score": 35
+  },
+  {
+    "t": "Potential applications of geopolymer concrete in construction: A review",
+    "j": "Case Studies in Construction Materials",
+    "y": 2021,
+    "date": "2021-10",
+    "cit": 463,
+    "fwci": 43.5136,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.cscm.2021.e00733",
+    "tech": [
+      "Geopolymer",
+      "Cementitious",
+      "Pozzolan",
+      "Raw Material"
     ],
     "score": 35
   },
@@ -288,57 +339,6 @@
     "score": 34
   },
   {
-    "t": "Bridging dual knowledge graphs for multi-hop question answering in construction safety",
-    "j": "Automation in Construction",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 3,
-    "fwci": 80.5866,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2026.106794",
-    "tech": [
-      "Computer Science",
-      "AI (general)",
-      "NLP",
-      "Graph"
-    ],
-    "score": 33
-  },
-  {
-    "t": "Automatic crack classification and segmentation on masonry surfaces using convolutional neural networks and transfer learning",
-    "j": "Automation in Construction",
-    "y": 2021,
-    "date": "2021-02",
-    "cit": 419,
-    "fwci": 38.2657,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2021.103606",
-    "tech": [
-      "Masonry",
-      "CNN",
-      "Segmentation",
-      "AI (general)"
-    ],
-    "score": 33
-  },
-  {
-    "t": "Cloud computing in construction industry: Use cases, benefits and challenges",
-    "j": "Automation in Construction",
-    "y": 2020,
-    "date": "2020-12",
-    "cit": 444,
-    "fwci": 26.6111,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.autcon.2020.103441",
-    "tech": [
-      "Cloud Computing",
-      "Statistics",
-      "Data Science",
-      "Computer Science"
-    ],
-    "score": 33
-  },
-  {
     "t": "How Music Alleviates Job Burnout: Uncovering the Mediating Mechanism of Leisure Crafting Among Construction Workers",
     "j": "Buildings",
     "y": 2026,
@@ -368,6 +368,23 @@
       "Materials Science",
       "Composite",
       "Mechanism (Biology)"
+    ],
+    "score": 30
+  },
+  {
+    "t": "Field and numerical investigations of the highest natural dam in the Jinsha River catchment formed by the Wangdalong landslide",
+    "j": "Journal of Rock Mechanics and Geotechnical Engineering",
+    "y": 2026,
+    "date": "2026-03",
+    "cit": 1,
+    "fwci": 52.1916,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.jrmge.2025.11.032",
+    "tech": [
+      "Geology",
+      "Geotechnical Engineering",
+      "Geological Fault",
+      "Field (Mathematics)"
     ],
     "score": 30
   },
@@ -490,20 +507,20 @@
     "score": 28
   },
   {
-    "t": "Quantifying the Spatial Antagonism Between Urban Morphology and Ecological Infrastructure on Land Surface Temperature: An Explainable Machine Learning Approach with Spatial Lags",
-    "j": "Buildings",
+    "t": "Bridging dual knowledge graphs for multi-hop question answering in construction safety",
+    "j": "Automation in Construction",
     "y": 2026,
-    "date": "2026-03",
+    "date": "2026-01",
     "cit": 3,
-    "fwci": 27.2548,
+    "fwci": 80.5866,
     "oa": true,
-    "doi": "https://doi.org/10.3390/buildings16050991",
+    "doi": "https://doi.org/10.1016/j.autcon.2026.106794",
     "tech": [
-      "Environmental Science",
-      "Machine Learning",
-      "Graph",
-      "Urban Planning"
+      "Computer Science",
+      "AI (general)",
+      "NLP",
+      "Graph"
     ],
-    "score": 28
+    "score": 33
   }
 ]

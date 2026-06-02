@@ -1,42 +1,42 @@
 [
   {
-    "id": "Construction Management",
-    "papers": 14221,
-    "growth": 0
+    "id": "Materials Science",
+    "papers": 22170,
+    "growth": 228
   },
   {
     "id": "Computer Science",
-    "papers": 14203,
-    "growth": 130
+    "papers": 19691,
+    "growth": 94
   },
   {
-    "id": "Materials Science",
-    "papers": 13640,
-    "growth": 535
+    "id": "Construction Management",
+    "papers": 19188,
+    "growth": 0
   },
   {
     "id": "Composite",
-    "papers": 10888,
-    "growth": 576
+    "papers": 18095,
+    "growth": 226
   },
   {
     "id": "Structural Engineering",
-    "papers": 7676,
-    "growth": 347
+    "papers": 12637,
+    "growth": 174
   },
   {
     "id": "Material Properties/Testing",
-    "papers": 7331,
+    "papers": 11725,
     "growth": 0
   },
   {
-    "id": "Digital Documentation",
-    "papers": 6320,
-    "growth": 0
+    "id": "Geology",
+    "papers": 9220,
+    "growth": 78
   },
   {
-    "id": "AI (general)",
-    "papers": 6187,
-    "growth": 84
+    "id": "Geotechnical Engineering",
+    "papers": 8408,
+    "growth": 102
   }
 ]

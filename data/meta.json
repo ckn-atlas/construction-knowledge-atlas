@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-02 02:17:12",
-  "total_papers": 31000,
+  "generated_at": "2026-06-02 16:02:07",
+  "total_papers": 46931,
   "journals": [
     "Automation in Construction",
     "Advanced Engineering Informatics",
@@ -10,7 +10,16 @@
     "Frontiers in Built Environment",
     "KSCE Journal of Civil Engineering",
     "J. of Information Technology in Construction",
-    "J. of Construction Engineering and Mgmt"
+    "J. of Construction Engineering and Mgmt",
+    "Journal of Structural Engineering",
+    "Case Studies in Construction Materials",
+    "Engineering Construction & Architectural Mgmt",
+    "Journal of Computing in Civil Engineering",
+    "Journal of Civil Engineering and Management",
+    "J. of Geotechnical and Geoenvironmental Eng",
+    "ACI Materials Journal",
+    "J. of Rock Mechanics and Geotechnical Eng",
+    "Computer-Aided Civil & Infrastructure Eng"
   ],
   "since": "2020-01-01"
 }

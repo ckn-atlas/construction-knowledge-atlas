@@ -2,13 +2,13 @@
   {
     "c": "중국",
     "code": "CN",
-    "papers": 17140,
-    "cites": 139521,
+    "papers": 24084,
+    "cites": 236663,
     "orgs": [
-      "Southeast University",
       "Tongji University",
-      "Xi'an University of Architecture and Technology",
-      "Chang'an University"
+      "Southeast University",
+      "Chang'an University",
+      "Chongqing University"
     ],
     "tech": [
       "Materials Science",
@@ -18,532 +18,316 @@
     "keywords": [
       [
         "Materials Science",
-        54602
+        77073
       ],
       [
         "Composite",
-        44471
+        63547
       ],
       [
         "Computer Science",
-        34440
+        44113
       ],
       [
         "Structural Engineering",
-        27004
-      ],
-      [
-        "AI (general)",
-        16965
+        37631
       ],
       [
         "Geology",
-        15345
+        28812
       ],
       [
         "Geotechnical Engineering",
-        14925
+        27137
+      ],
+      [
+        "AI (general)",
+        21279
       ],
       [
         "Cementitious",
-        14613
+        19505
       ],
       [
         "Chemistry",
-        11495
-      ],
-      [
-        "Graph",
-        11375
+        16797
       ],
       [
         "Compressive Strength",
-        11338
+        15963
       ],
       [
         "Environmental Science",
-        11181
+        15739
+      ],
+      [
+        "Graph",
+        14773
       ],
       [
         "Metallurgy",
-        10096
+        14006
       ],
       [
         "FEM",
-        6114
+        8528
       ],
       [
         "Fiber",
-        5919
+        7536
       ],
       [
         "Chemical Engineering",
-        5660
-      ],
-      [
-        "Waste Management",
-        5424
-      ],
-      [
-        "Machine Learning",
-        5393
-      ],
-      [
-        "Microstructure",
-        5208
+        7524
       ],
       [
         "UTS",
-        5189
+        7501
+      ],
+      [
+        "Waste Management",
+        7484
+      ],
+      [
+        "Microstructure",
+        7273
+      ],
+      [
+        "Deformation (Meteorology)",
+        7150
       ]
     ],
     "yearly": {
-      "2020": 437,
-      "2021": 647,
-      "2022": 731,
-      "2023": 839,
-      "2024": 2056,
-      "2025": 8984,
-      "2026": 3446
+      "2020": 818,
+      "2021": 1120,
+      "2022": 1637,
+      "2023": 1883,
+      "2024": 3741,
+      "2025": 10826,
+      "2026": 4059
     }
   },
   {
     "c": "미국",
     "code": "US",
-    "papers": 3099,
-    "cites": 54107,
+    "papers": 5626,
+    "cites": 95046,
     "orgs": [
-      "University of Florida",
       "ORCID",
       "Purdue University West Lafayette",
+      "University of Florida",
       "Texas A&M University"
     ],
     "tech": [
       "Computer Science",
-      "AI (general)",
-      "Materials Science"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        5365
-      ],
-      [
-        "AI (general)",
-        2366
-      ],
-      [
-        "Materials Science",
-        1860
-      ],
-      [
-        "Composite",
-        1473
-      ],
-      [
-        "Business",
-        1325
-      ],
-      [
-        "Structural Engineering",
-        1294
-      ],
-      [
-        "Graph",
-        1255
-      ],
-      [
-        "Environmental Science",
-        1174
-      ],
-      [
-        "Systems Engineering",
-        952
-      ],
-      [
-        "Psychology",
-        814
-      ],
-      [
-        "Machine Learning",
-        752
-      ],
-      [
-        "Geology",
-        723
-      ],
-      [
-        "Human-Computer Interaction",
-        702
-      ],
-      [
-        "Risk Analysis (Engineering)",
-        681
-      ],
-      [
-        "Construction Engineering",
-        637
-      ],
-      [
-        "Architectural Engineering",
-        612
-      ],
-      [
-        "Data Mining",
-        610
-      ],
-      [
-        "Process (Computing)",
-        591
-      ],
-      [
-        "Knowledge Mgmt",
-        579
-      ],
-      [
-        "Mechanical Engineering",
-        518
-      ]
-    ],
-    "yearly": {
-      "2020": 322,
-      "2021": 329,
-      "2022": 300,
-      "2023": 260,
-      "2024": 409,
-      "2025": 1033,
-      "2026": 446
-    }
-  },
-  {
-    "c": "한국",
-    "code": "KR",
-    "papers": 1541,
-    "cites": 15886,
-    "orgs": [
-      "Yonsei University",
-      "Hanyang University",
-      "Seoul National University",
-      "Sungkyunkwan University"
-    ],
-    "tech": [
-      "Computer Science",
       "Materials Science",
-      "AI (general)"
+      "Structural Engineering"
     ],
     "keywords": [
       [
         "Computer Science",
-        2950
+        8421
       ],
       [
         "Materials Science",
-        1527
-      ],
-      [
-        "AI (general)",
-        1427
-      ],
-      [
-        "Composite",
-        1164
+        4387
       ],
       [
         "Structural Engineering",
-        1062
-      ],
-      [
-        "Graph",
-        869
-      ],
-      [
-        "Environmental Science",
-        842
+        3936
       ],
       [
         "Geology",
-        753
+        3778
+      ],
+      [
+        "AI (general)",
+        3731
+      ],
+      [
+        "Composite",
+        3521
       ],
       [
         "Geotechnical Engineering",
-        677
+        3321
       ],
       [
-        "Machine Learning",
-        520
+        "Graph",
+        2300
+      ],
+      [
+        "Environmental Science",
+        2199
       ],
       [
         "Business",
-        436
+        1811
       ],
       [
-        "Computer Vision",
-        414
+        "Machine Learning",
+        1227
       ],
       [
-        "Cementitious",
-        414
-      ],
-      [
-        "Mechanical Engineering",
-        402
-      ],
-      [
-        "Data Mining",
-        394
-      ],
-      [
-        "Chemistry",
-        345
+        "Psychology",
+        1226
       ],
       [
         "Systems Engineering",
-        342
+        1152
+      ],
+      [
+        "Soil Mechanics",
+        1074
+      ],
+      [
+        "Data Mining",
+        1007
+      ],
+      [
+        "Mechanical Engineering",
+        904
       ],
       [
         "Statistics",
-        321
+        874
       ],
       [
-        "Architectural Engineering",
-        272
+        "Risk Analysis (Engineering)",
+        863
       ],
       [
-        "Construction Engineering",
-        260
+        "Human-Computer Interaction",
+        833
+      ],
+      [
+        "Process (Computing)",
+        815
       ]
     ],
     "yearly": {
-      "2020": 107,
-      "2021": 124,
-      "2022": 140,
-      "2023": 131,
-      "2024": 215,
-      "2025": 604,
-      "2026": 220
+      "2020": 779,
+      "2021": 740,
+      "2022": 683,
+      "2023": 575,
+      "2024": 799,
+      "2025": 1446,
+      "2026": 604
     }
   },
   {
     "c": "영국",
     "code": "GB",
-    "papers": 1476,
-    "cites": 26853,
+    "papers": 2380,
+    "cites": 41529,
     "orgs": [
-      "University College London",
       "University of Cambridge",
-      "Cardiff University",
-      "Imperial College London"
+      "University College London",
+      "Imperial College London",
+      "Cardiff University"
     ],
     "tech": [
       "Computer Science",
-      "AI (general)",
-      "Materials Science"
+      "Materials Science",
+      "Composite"
     ],
     "keywords": [
       [
         "Computer Science",
-        2046
-      ],
-      [
-        "AI (general)",
-        820
+        2745
       ],
       [
         "Materials Science",
-        796
+        1537
       ],
       [
         "Composite",
-        630
+        1204
       ],
       [
-        "Business",
-        528
-      ],
-      [
-        "Graph",
-        464
-      ],
-      [
-        "Systems Engineering",
-        455
+        "AI (general)",
+        1045
       ],
       [
         "Structural Engineering",
-        431
-      ],
-      [
-        "Architectural Engineering",
-        339
-      ],
-      [
-        "Construction Engineering",
-        324
-      ],
-      [
-        "Knowledge Mgmt",
-        319
-      ],
-      [
-        "Environmental Science",
-        293
-      ],
-      [
-        "Process Management",
-        288
+        1000
       ],
       [
         "Geology",
-        272
-      ],
-      [
-        "Process (Computing)",
-        272
-      ],
-      [
-        "Computer Security",
-        270
-      ],
-      [
-        "Data Mining",
-        267
-      ],
-      [
-        "Machine Learning",
-        267
-      ],
-      [
-        "BIM",
-        255
-      ],
-      [
-        "Risk Analysis (Engineering)",
-        240
-      ]
-    ],
-    "yearly": {
-      "2020": 100,
-      "2021": 114,
-      "2022": 131,
-      "2023": 97,
-      "2024": 183,
-      "2025": 606,
-      "2026": 245
-    }
-  },
-  {
-    "c": "홍콩",
-    "code": "HK",
-    "papers": 1445,
-    "cites": 29553,
-    "orgs": [
-      "Hong Kong Polytechnic University",
-      "Hong Kong University of Science and Technology",
-      "University of Hong Kong",
-      "City University of Hong Kong"
-    ],
-    "tech": [
-      "Computer Science",
-      "AI (general)",
-      "Materials Science"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        2497
-      ],
-      [
-        "AI (general)",
-        1282
-      ],
-      [
-        "Materials Science",
-        774
-      ],
-      [
-        "Composite",
-        637
-      ],
-      [
-        "Graph",
-        557
-      ],
-      [
-        "Structural Engineering",
-        474
+        893
       ],
       [
         "Business",
-        421
+        806
+      ],
+      [
+        "Geotechnical Engineering",
+        729
+      ],
+      [
+        "Graph",
+        637
       ],
       [
         "Systems Engineering",
-        384
-      ],
-      [
-        "Machine Learning",
-        384
-      ],
-      [
-        "Computer Vision",
-        308
-      ],
-      [
-        "Data Mining",
-        304
+        525
       ],
       [
         "Environmental Science",
-        295
+        493
       ],
       [
-        "Construction Engineering",
-        275
+        "Knowledge Mgmt",
+        475
       ],
       [
-        "Architectural Engineering",
-        272
+        "Process Management",
+        413
       ],
       [
         "Cementitious",
-        253
+        385
       ],
       [
-        "Psychology",
-        234
+        "Machine Learning",
+        377
       ],
       [
-        "Computer Security",
-        234
+        "Architectural Engineering",
+        365
       ],
       [
-        "Mechanical Engineering",
-        221
-      ],
-      [
-        "Algorithm",
-        218
+        "Construction Engineering",
+        361
       ],
       [
         "Process (Computing)",
-        213
+        359
+      ],
+      [
+        "Data Mining",
+        356
+      ],
+      [
+        "Psychology",
+        333
       ]
     ],
     "yearly": {
-      "2020": 84,
-      "2021": 96,
-      "2022": 117,
-      "2023": 121,
-      "2024": 229,
-      "2025": 594,
-      "2026": 204
+      "2020": 232,
+      "2021": 233,
+      "2022": 249,
+      "2023": 212,
+      "2024": 346,
+      "2025": 804,
+      "2026": 304
     }
   },
   {
     "c": "호주",
     "code": "AU",
-    "papers": 1220,
-    "cites": 23428,
+    "papers": 2246,
+    "cites": 43693,
     "orgs": [
       "UNSW Sydney",
       "RMIT University",
@@ -558,645 +342,105 @@
     "keywords": [
       [
         "Computer Science",
-        1537
+        2435
       ],
       [
         "Materials Science",
-        1119
+        2169
       ],
       [
         "Composite",
-        959
+        1823
       ],
       [
         "Business",
-        615
-      ],
-      [
-        "AI (general)",
-        569
+        1173
       ],
       [
         "Structural Engineering",
-        404
+        1101
       ],
       [
-        "Cementitious",
-        367
+        "Geology",
+        966
       ],
       [
-        "Systems Engineering",
-        346
+        "Geotechnical Engineering",
+        885
+      ],
+      [
+        "AI (general)",
+        837
+      ],
+      [
+        "Environmental Science",
+        625
       ],
       [
         "Knowledge Mgmt",
-        327
+        569
       ],
       [
-        "Construction Engineering",
-        326
-      ],
-      [
-        "Architectural Engineering",
-        317
-      ],
-      [
-        "Environmental Science",
-        294
+        "Cementitious",
+        555
       ],
       [
         "Compressive Strength",
-        286
-      ],
-      [
-        "Graph",
-        263
-      ],
-      [
-        "Process Management",
-        246
-      ],
-      [
-        "Psychology",
-        244
-      ],
-      [
-        "Metallurgy",
-        233
-      ],
-      [
-        "Risk Analysis (Engineering)",
-        219
-      ],
-      [
-        "Waste Management",
-        215
-      ],
-      [
-        "Chemistry",
-        194
-      ]
-    ],
-    "yearly": {
-      "2020": 80,
-      "2021": 91,
-      "2022": 104,
-      "2023": 101,
-      "2024": 116,
-      "2025": 529,
-      "2026": 199
-    }
-  },
-  {
-    "c": "캐나다",
-    "code": "CA",
-    "papers": 872,
-    "cites": 13551,
-    "orgs": [
-      "University of Alberta",
-      "Concordia University",
-      "University of British Columbia",
-      "University of Waterloo"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "AI (general)"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        1339
-      ],
-      [
-        "Materials Science",
-        576
-      ],
-      [
-        "AI (general)",
         527
       ],
       [
-        "Composite",
-        463
-      ],
-      [
-        "Structural Engineering",
-        414
-      ],
-      [
-        "Environmental Science",
-        311
+        "Process Management",
+        485
       ],
       [
         "Systems Engineering",
-        311
-      ],
-      [
-        "Graph",
-        228
-      ],
-      [
-        "Architectural Engineering",
-        209
-      ],
-      [
-        "Mechanical Engineering",
-        207
-      ],
-      [
-        "Business",
-        204
-      ],
-      [
-        "Geology",
-        196
-      ],
-      [
-        "Data Mining",
-        192
-      ],
-      [
-        "Process (Computing)",
-        180
-      ],
-      [
-        "Geotechnical Engineering",
-        177
-      ],
-      [
-        "Construction Engineering",
-        171
-      ],
-      [
-        "Machine Learning",
-        152
-      ],
-      [
-        "Forensic Engineering",
-        152
-      ],
-      [
-        "Operations Management",
-        146
-      ],
-      [
-        "Industrial Engineering",
-        128
-      ]
-    ],
-    "yearly": {
-      "2020": 75,
-      "2021": 72,
-      "2022": 89,
-      "2023": 79,
-      "2024": 135,
-      "2025": 319,
-      "2026": 103
-    }
-  },
-  {
-    "c": "인도",
-    "code": "IN",
-    "papers": 697,
-    "cites": 5936,
-    "orgs": [
-      "Vellore Institute of Technology University",
-      "Indian Institute of Technology Madras",
-      "Indian Institute of Technology Roorkee",
-      "Indian Institute of Technology Bombay"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Computer Science"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        1184
-      ],
-      [
-        "Composite",
-        981
-      ],
-      [
-        "Computer Science",
-        627
-      ],
-      [
-        "Cementitious",
-        421
-      ],
-      [
-        "Environmental Science",
-        419
-      ],
-      [
-        "Structural Engineering",
-        392
-      ],
-      [
-        "Chemistry",
-        294
-      ],
-      [
-        "Geology",
-        292
-      ],
-      [
-        "Compressive Strength",
-        279
-      ],
-      [
-        "AI (general)",
-        263
-      ],
-      [
-        "Geotechnical Engineering",
-        260
-      ],
-      [
-        "Durability",
-        251
-      ],
-      [
-        "Metallurgy",
-        238
-      ],
-      [
-        "Waste Management",
-        236
-      ],
-      [
-        "Graph",
-        196
-      ],
-      [
-        "Aggregate (Composite)",
-        193
-      ],
-      [
-        "Fly Ash",
-        191
-      ],
-      [
-        "Business",
-        164
-      ],
-      [
-        "Mortar",
-        138
-      ],
-      [
-        "Architectural Engineering",
-        118
-      ]
-    ],
-    "yearly": {
-      "2020": 29,
-      "2021": 33,
-      "2022": 31,
-      "2023": 37,
-      "2024": 94,
-      "2025": 333,
-      "2026": 140
-    }
-  },
-  {
-    "c": "이탈리아",
-    "code": "IT",
-    "papers": 694,
-    "cites": 7209,
-    "orgs": [
-      "Politecnico di Milano",
-      "University of Naples Federico II",
-      "University of Bologna",
-      "Marche Polytechnic University"
-    ],
-    "tech": [
-      "Computer Science",
-      "Structural Engineering",
-      "Materials Science"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        1088
-      ],
-      [
-        "Structural Engineering",
-        729
-      ],
-      [
-        "Materials Science",
-        691
-      ],
-      [
-        "Composite",
-        503
-      ],
-      [
-        "Environmental Science",
-        412
-      ],
-      [
-        "Architectural Engineering",
-        388
-      ],
-      [
-        "Geology",
-        271
-      ],
-      [
-        "AI (general)",
-        260
-      ],
-      [
-        "Business",
-        249
-      ],
-      [
-        "Systems Engineering",
-        247
-      ],
-      [
-        "Masonry",
-        240
-      ],
-      [
-        "Graph",
-        232
-      ],
-      [
-        "Forensic Engineering",
-        214
-      ],
-      [
-        "Geotechnical Engineering",
-        207
-      ],
-      [
-        "Construction Engineering",
-        181
-      ],
-      [
-        "Cementitious",
-        163
-      ],
-      [
-        "FEM",
-        159
-      ],
-      [
-        "Mechanical Engineering",
-        152
-      ],
-      [
-        "Building Energy",
-        152
-      ],
-      [
-        "Seismic",
-        152
-      ]
-    ],
-    "yearly": {
-      "2020": 57,
-      "2021": 44,
-      "2022": 41,
-      "2023": 48,
-      "2024": 69,
-      "2025": 306,
-      "2026": 129
-    }
-  },
-  {
-    "c": "튀르키예",
-    "code": "TR",
-    "papers": 689,
-    "cites": 5887,
-    "orgs": [
-      "Istanbul Technical University",
-      "Middle East Technical University",
-      "Yıldız Technical University",
-      "Karadeniz Technical University"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Computer Science"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        886
-      ],
-      [
-        "Composite",
-        733
-      ],
-      [
-        "Computer Science",
-        730
-      ],
-      [
-        "Structural Engineering",
-        417
-      ],
-      [
-        "AI (general)",
-        286
-      ],
-      [
-        "Geology",
-        286
-      ],
-      [
-        "Compressive Strength",
-        272
-      ],
-      [
-        "Cementitious",
-        256
-      ],
-      [
-        "Environmental Science",
-        234
-      ],
-      [
-        "Geotechnical Engineering",
-        207
-      ],
-      [
-        "Chemistry",
-        188
-      ],
-      [
-        "Waste Management",
-        186
-      ],
-      [
-        "Graph",
-        182
-      ],
-      [
-        "Business",
-        165
-      ],
-      [
-        "Flexural Strength",
-        164
-      ],
-      [
-        "Machine Learning",
-        163
-      ],
-      [
-        "Mortar",
-        149
-      ],
-      [
-        "Architectural Engineering",
-        148
-      ],
-      [
-        "Metallurgy",
-        145
-      ],
-      [
-        "Fiber",
-        139
-      ]
-    ],
-    "yearly": {
-      "2020": 23,
-      "2021": 37,
-      "2022": 40,
-      "2023": 44,
-      "2024": 65,
-      "2025": 329,
-      "2026": 151
-    }
-  },
-  {
-    "c": "일본",
-    "code": "JP",
-    "papers": 598,
-    "cites": 4587,
-    "orgs": [
-      "The University of Kitakyushu",
-      "Kyoto University",
-      "The University of Tokyo",
-      "Hokkaido University"
-    ],
-    "tech": [
-      "Computer Science",
-      "Structural Engineering",
-      "Materials Science"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        685
-      ],
-      [
-        "Structural Engineering",
-        559
-      ],
-      [
-        "Materials Science",
-        542
-      ],
-      [
-        "Composite",
-        406
-      ],
-      [
-        "AI (general)",
-        329
-      ],
-      [
-        "Geology",
-        313
-      ],
-      [
-        "Environmental Science",
-        250
-      ],
-      [
-        "Graph",
-        240
-      ],
-      [
-        "Geotechnical Engineering",
-        215
-      ],
-      [
-        "Mechanical Engineering",
-        155
-      ],
-      [
-        "Architectural Engineering",
-        118
-      ],
-      [
-        "Forensic Engineering",
-        117
-      ],
-      [
-        "Cementitious",
-        112
-      ],
-      [
-        "Mechanics",
-        110
-      ],
-      [
-        "Business",
-        106
-      ],
-      [
-        "Simulation",
-        105
-      ],
-      [
-        "Nonlinear System",
-        105
-      ],
-      [
-        "Compressive Strength",
-        104
+        451
       ],
       [
         "Psychology",
-        97
+        448
       ],
       [
-        "Seismic",
-        97
+        "Graph",
+        441
+      ],
+      [
+        "Economics",
+        416
+      ],
+      [
+        "Construction Engineering",
+        409
+      ],
+      [
+        "Architectural Engineering",
+        392
+      ],
+      [
+        "Metallurgy",
+        381
       ]
     ],
     "yearly": {
-      "2020": 44,
-      "2021": 47,
-      "2022": 47,
-      "2023": 23,
-      "2024": 68,
-      "2025": 256,
-      "2026": 113
+      "2020": 225,
+      "2021": 245,
+      "2022": 273,
+      "2023": 251,
+      "2024": 276,
+      "2025": 695,
+      "2026": 281
     }
   },
   {
-    "c": "독일",
-    "code": "DE",
-    "papers": 561,
-    "cites": 8594,
+    "c": "홍콩",
+    "code": "HK",
+    "papers": 2136,
+    "cites": 40965,
     "orgs": [
-      "Technical University of Munich",
-      "University of Stuttgart",
-      "RWTH Aachen University",
-      "Technische Universität Berlin"
+      "Hong Kong Polytechnic University",
+      "Hong Kong University of Science and Technology",
+      "University of Hong Kong",
+      "City University of Hong Kong"
     ],
     "tech": [
       "Computer Science",
@@ -1206,321 +450,321 @@
     "keywords": [
       [
         "Computer Science",
-        1208
+        3244
       ],
       [
         "AI (general)",
-        549
+        1584
       ],
       [
         "Materials Science",
-        474
-      ],
-      [
-        "Structural Engineering",
-        340
-      ],
-      [
-        "Systems Engineering",
-        329
+        1272
       ],
       [
         "Composite",
-        324
-      ],
-      [
-        "Mechanical Engineering",
-        264
-      ],
-      [
-        "Graph",
-        237
-      ],
-      [
-        "Process (Computing)",
-        218
-      ],
-      [
-        "Architectural Engineering",
-        190
-      ],
-      [
-        "Software Engineering",
-        183
-      ],
-      [
-        "Engineering Drawing",
-        172
-      ],
-      [
-        "Construction Engineering",
-        165
-      ],
-      [
-        "BIM",
-        164
-      ],
-      [
-        "Data Mining",
-        162
-      ],
-      [
-        "Environmental Science",
-        161
-      ],
-      [
-        "Construction Automation",
-        148
-      ],
-      [
-        "Geology",
-        136
-      ],
-      [
-        "Workflow",
-        123
-      ],
-      [
-        "Computer Vision",
-        113
-      ]
-    ],
-    "yearly": {
-      "2020": 45,
-      "2021": 36,
-      "2022": 63,
-      "2023": 50,
-      "2024": 69,
-      "2025": 213,
-      "2026": 85
-    }
-  },
-  {
-    "c": "스페인",
-    "code": "ES",
-    "papers": 534,
-    "cites": 5557,
-    "orgs": [
-      "Universitat Politècnica de Catalunya",
-      "Universitat Politècnica de València",
-      "Universidad Politécnica de Madrid",
-      "Universidad de Sevilla"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Composite"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        788
-      ],
-      [
-        "Materials Science",
-        674
-      ],
-      [
-        "Composite",
-        523
+        998
       ],
       [
         "Structural Engineering",
-        353
-      ],
-      [
-        "Environmental Science",
-        315
+        819
       ],
       [
         "Graph",
-        287
-      ],
-      [
-        "Architectural Engineering",
-        278
-      ],
-      [
-        "AI (general)",
-        277
-      ],
-      [
-        "Cementitious",
-        214
-      ],
-      [
-        "Building Energy",
-        193
-      ],
-      [
-        "Systems Engineering",
-        178
-      ],
-      [
-        "Waste Management",
-        175
-      ],
-      [
-        "Metallurgy",
-        158
-      ],
-      [
-        "Geology",
-        152
+        740
       ],
       [
         "Business",
-        152
-      ],
-      [
-        "Chemistry",
-        147
-      ],
-      [
-        "Thermal",
-        128
-      ],
-      [
-        "Compressive Strength",
-        128
-      ],
-      [
-        "Construction Engineering",
-        123
-      ],
-      [
-        "Mortar",
-        123
-      ]
-    ],
-    "yearly": {
-      "2020": 20,
-      "2021": 33,
-      "2022": 34,
-      "2023": 24,
-      "2024": 50,
-      "2025": 277,
-      "2026": 96
-    }
-  },
-  {
-    "c": "이란",
-    "code": "IR",
-    "papers": 532,
-    "cites": 6253,
-    "orgs": [
-      "University of Tehran",
-      "Iran University of Science and Technology",
-      "Amirkabir University of Technology",
-      "Tarbiat Modares University"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Composite"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        733
-      ],
-      [
-        "Materials Science",
-        623
-      ],
-      [
-        "Composite",
-        484
-      ],
-      [
-        "Structural Engineering",
-        451
-      ],
-      [
-        "AI (general)",
-        249
+        728
       ],
       [
         "Geology",
-        238
+        696
+      ],
+      [
+        "Environmental Science",
+        536
       ],
       [
         "Geotechnical Engineering",
-        216
-      ],
-      [
-        "Environmental Science",
-        212
-      ],
-      [
-        "Graph",
-        180
-      ],
-      [
-        "Business",
-        148
-      ],
-      [
-        "Mechanical Engineering",
-        142
-      ],
-      [
-        "Architectural Engineering",
-        135
-      ],
-      [
-        "Compressive Strength",
-        131
-      ],
-      [
-        "Systems Engineering",
-        115
-      ],
-      [
-        "Thermal",
-        111
-      ],
-      [
-        "Algorithm",
-        108
-      ],
-      [
-        "Waste Management",
-        103
-      ],
-      [
-        "Operations Research",
-        102
+        514
       ],
       [
         "Machine Learning",
-        101
+        474
+      ],
+      [
+        "Systems Engineering",
+        466
+      ],
+      [
+        "Data Mining",
+        380
+      ],
+      [
+        "Computer Vision",
+        380
+      ],
+      [
+        "Construction Engineering",
+        334
+      ],
+      [
+        "Psychology",
+        325
+      ],
+      [
+        "Knowledge Mgmt",
+        323
       ],
       [
         "Cementitious",
-        93
+        322
+      ],
+      [
+        "Architectural Engineering",
+        310
+      ],
+      [
+        "Computer Security",
+        301
       ]
     ],
     "yearly": {
-      "2020": 46,
-      "2021": 46,
-      "2022": 54,
-      "2023": 35,
-      "2024": 70,
-      "2025": 226,
-      "2026": 55
+      "2020": 147,
+      "2021": 174,
+      "2022": 182,
+      "2023": 220,
+      "2024": 390,
+      "2025": 759,
+      "2026": 264
     }
   },
   {
-    "c": "사우디",
-    "code": "SA",
-    "papers": 490,
-    "cites": 3246,
+    "c": "한국",
+    "code": "KR",
+    "papers": 2079,
+    "cites": 22239,
     "orgs": [
-      "King Saud University",
-      "King Fahd University of Petroleum and Minerals",
-      "Imam Mohammad ibn Saud Islamic University",
-      "King Abdulaziz University"
+      "Yonsei University",
+      "Hanyang University",
+      "Seoul National University",
+      "Korea Institute of Civil Engineering and Building Technology"
+    ],
+    "tech": [
+      "Computer Science",
+      "Materials Science",
+      "Composite"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        3574
+      ],
+      [
+        "Materials Science",
+        2471
+      ],
+      [
+        "Composite",
+        1995
+      ],
+      [
+        "AI (general)",
+        1765
+      ],
+      [
+        "Structural Engineering",
+        1569
+      ],
+      [
+        "Geology",
+        1195
+      ],
+      [
+        "Graph",
+        1074
+      ],
+      [
+        "Geotechnical Engineering",
+        1060
+      ],
+      [
+        "Environmental Science",
+        1041
+      ],
+      [
+        "Cementitious",
+        687
+      ],
+      [
+        "Machine Learning",
+        643
+      ],
+      [
+        "Chemistry",
+        537
+      ],
+      [
+        "Business",
+        510
+      ],
+      [
+        "Computer Vision",
+        509
+      ],
+      [
+        "Data Mining",
+        498
+      ],
+      [
+        "Mechanical Engineering",
+        488
+      ],
+      [
+        "Compressive Strength",
+        468
+      ],
+      [
+        "Systems Engineering",
+        400
+      ],
+      [
+        "Statistics",
+        391
+      ],
+      [
+        "Metallurgy",
+        373
+      ]
+    ],
+    "yearly": {
+      "2020": 161,
+      "2021": 185,
+      "2022": 220,
+      "2023": 219,
+      "2024": 308,
+      "2025": 726,
+      "2026": 260
+    }
+  },
+  {
+    "c": "캐나다",
+    "code": "CA",
+    "papers": 1565,
+    "cites": 24549,
+    "orgs": [
+      "University of Alberta",
+      "University of British Columbia",
+      "Concordia University",
+      "University of Toronto"
+    ],
+    "tech": [
+      "Computer Science",
+      "Materials Science",
+      "Structural Engineering"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        1984
+      ],
+      [
+        "Materials Science",
+        1296
+      ],
+      [
+        "Structural Engineering",
+        1259
+      ],
+      [
+        "Composite",
+        1036
+      ],
+      [
+        "Geology",
+        793
+      ],
+      [
+        "AI (general)",
+        734
+      ],
+      [
+        "Geotechnical Engineering",
+        725
+      ],
+      [
+        "Environmental Science",
+        460
+      ],
+      [
+        "Graph",
+        379
+      ],
+      [
+        "Systems Engineering",
+        364
+      ],
+      [
+        "Mechanical Engineering",
+        327
+      ],
+      [
+        "Business",
+        297
+      ],
+      [
+        "Shear (Geology)",
+        259
+      ],
+      [
+        "FEM",
+        251
+      ],
+      [
+        "Data Mining",
+        247
+      ],
+      [
+        "Forensic Engineering",
+        247
+      ],
+      [
+        "Architectural Engineering",
+        245
+      ],
+      [
+        "Machine Learning",
+        239
+      ],
+      [
+        "Process (Computing)",
+        211
+      ],
+      [
+        "Construction Engineering",
+        210
+      ]
+    ],
+    "yearly": {
+      "2020": 186,
+      "2021": 163,
+      "2022": 196,
+      "2023": 185,
+      "2024": 251,
+      "2025": 438,
+      "2026": 146
+    }
+  },
+  {
+    "c": "인도",
+    "code": "IN",
+    "papers": 1183,
+    "cites": 14689,
+    "orgs": [
+      "Vellore Institute of Technology University",
+      "Indian Institute of Technology Bombay",
+      "Indian Institute of Technology Madras",
+      "Indian Institute of Technology Delhi"
     ],
     "tech": [
       "Materials Science",
@@ -1530,100 +774,856 @@
     "keywords": [
       [
         "Materials Science",
-        520
+        1952
       ],
       [
         "Composite",
-        395
+        1661
       ],
       [
         "Computer Science",
-        368
-      ],
-      [
-        "Environmental Science",
-        255
+        944
       ],
       [
         "Structural Engineering",
-        192
-      ],
-      [
-        "Graph",
-        173
-      ],
-      [
-        "Waste Management",
-        158
-      ],
-      [
-        "Business",
-        155
+        782
       ],
       [
         "Cementitious",
-        155
+        654
       ],
       [
-        "Architectural Engineering",
-        146
-      ],
-      [
-        "Compressive Strength",
-        127
-      ],
-      [
-        "Building Energy",
-        123
-      ],
-      [
-        "AI (general)",
-        114
-      ],
-      [
-        "Sustainability",
-        106
+        "Environmental Science",
+        640
       ],
       [
         "Geology",
-        98
+        631
+      ],
+      [
+        "Compressive Strength",
+        561
       ],
       [
         "Geotechnical Engineering",
-        97
-      ],
-      [
-        "Thermal",
-        97
-      ],
-      [
-        "Construction Engineering",
-        83
+        558
       ],
       [
         "Chemistry",
-        77
+        481
       ],
       [
-        "Systems Engineering",
-        76
+        "Durability",
+        413
+      ],
+      [
+        "Waste Management",
+        401
+      ],
+      [
+        "Metallurgy",
+        380
+      ],
+      [
+        "AI (general)",
+        367
+      ],
+      [
+        "Fly Ash",
+        342
+      ],
+      [
+        "Graph",
+        326
+      ],
+      [
+        "Business",
+        300
+      ],
+      [
+        "Geopolymer",
+        273
+      ],
+      [
+        "Aggregate (Composite)",
+        269
+      ],
+      [
+        "UTS",
+        228
       ]
     ],
     "yearly": {
-      "2020": 6,
-      "2021": 12,
-      "2022": 11,
-      "2023": 22,
-      "2024": 65,
-      "2025": 244,
-      "2026": 130
+      "2020": 67,
+      "2021": 102,
+      "2022": 112,
+      "2023": 119,
+      "2024": 181,
+      "2025": 431,
+      "2026": 171
+    }
+  },
+  {
+    "c": "이탈리아",
+    "code": "IT",
+    "papers": 1001,
+    "cites": 12271,
+    "orgs": [
+      "Politecnico di Milano",
+      "University of Naples Federico II",
+      "University of Bologna",
+      "Politecnico di Torino"
+    ],
+    "tech": [
+      "Computer Science",
+      "Structural Engineering",
+      "Materials Science"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        1419
+      ],
+      [
+        "Structural Engineering",
+        1108
+      ],
+      [
+        "Materials Science",
+        1021
+      ],
+      [
+        "Composite",
+        760
+      ],
+      [
+        "Geology",
+        679
+      ],
+      [
+        "Environmental Science",
+        552
+      ],
+      [
+        "Geotechnical Engineering",
+        524
+      ],
+      [
+        "Architectural Engineering",
+        423
+      ],
+      [
+        "Graph",
+        375
+      ],
+      [
+        "AI (general)",
+        351
+      ],
+      [
+        "Forensic Engineering",
+        310
+      ],
+      [
+        "Masonry",
+        299
+      ],
+      [
+        "Business",
+        278
+      ],
+      [
+        "Systems Engineering",
+        263
+      ],
+      [
+        "FEM",
+        251
+      ],
+      [
+        "Chemistry",
+        216
+      ],
+      [
+        "Cementitious",
+        210
+      ],
+      [
+        "Seismic",
+        208
+      ],
+      [
+        "Construction Engineering",
+        206
+      ],
+      [
+        "Mechanical Engineering",
+        184
+      ]
+    ],
+    "yearly": {
+      "2020": 94,
+      "2021": 96,
+      "2022": 104,
+      "2023": 89,
+      "2024": 126,
+      "2025": 349,
+      "2026": 143
+    }
+  },
+  {
+    "c": "일본",
+    "code": "JP",
+    "papers": 991,
+    "cites": 9826,
+    "orgs": [
+      "The University of Tokyo",
+      "Kyoto University",
+      "The University of Kitakyushu",
+      "Japan Real Estate Institute"
+    ],
+    "tech": [
+      "Computer Science",
+      "Materials Science",
+      "Structural Engineering"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        1068
+      ],
+      [
+        "Materials Science",
+        1038
+      ],
+      [
+        "Structural Engineering",
+        910
+      ],
+      [
+        "Composite",
+        819
+      ],
+      [
+        "Geology",
+        651
+      ],
+      [
+        "AI (general)",
+        523
+      ],
+      [
+        "Geotechnical Engineering",
+        489
+      ],
+      [
+        "Environmental Science",
+        394
+      ],
+      [
+        "Graph",
+        389
+      ],
+      [
+        "Business",
+        236
+      ],
+      [
+        "Mechanical Engineering",
+        203
+      ],
+      [
+        "Mechanics",
+        185
+      ],
+      [
+        "Chemistry",
+        183
+      ],
+      [
+        "Cementitious",
+        181
+      ],
+      [
+        "Forensic Engineering",
+        173
+      ],
+      [
+        "Compressive Strength",
+        168
+      ],
+      [
+        "Shear (Geology)",
+        161
+      ],
+      [
+        "Stiffness",
+        154
+      ],
+      [
+        "Computer Vision",
+        151
+      ],
+      [
+        "Geometry",
+        149
+      ]
+    ],
+    "yearly": {
+      "2020": 85,
+      "2021": 77,
+      "2022": 94,
+      "2023": 75,
+      "2024": 158,
+      "2025": 356,
+      "2026": 146
+    }
+  },
+  {
+    "c": "이란",
+    "code": "IR",
+    "papers": 987,
+    "cites": 12879,
+    "orgs": [
+      "University of Tehran",
+      "Iran University of Science and Technology",
+      "Amirkabir University of Technology",
+      "Sharif University of Technology"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        1411
+      ],
+      [
+        "Composite",
+        1187
+      ],
+      [
+        "Computer Science",
+        1118
+      ],
+      [
+        "Structural Engineering",
+        823
+      ],
+      [
+        "Geology",
+        573
+      ],
+      [
+        "Geotechnical Engineering",
+        546
+      ],
+      [
+        "Environmental Science",
+        421
+      ],
+      [
+        "AI (general)",
+        390
+      ],
+      [
+        "Compressive Strength",
+        329
+      ],
+      [
+        "Graph",
+        290
+      ],
+      [
+        "Cementitious",
+        287
+      ],
+      [
+        "Chemistry",
+        277
+      ],
+      [
+        "Business",
+        265
+      ],
+      [
+        "Asphalt",
+        234
+      ],
+      [
+        "Machine Learning",
+        208
+      ],
+      [
+        "Metallurgy",
+        198
+      ],
+      [
+        "UTS",
+        192
+      ],
+      [
+        "Waste Management",
+        190
+      ],
+      [
+        "Flexural Strength",
+        173
+      ],
+      [
+        "Algorithm",
+        168
+      ]
+    ],
+    "yearly": {
+      "2020": 78,
+      "2021": 108,
+      "2022": 117,
+      "2023": 95,
+      "2024": 166,
+      "2025": 342,
+      "2026": 81
+    }
+  },
+  {
+    "c": "튀르키예",
+    "code": "TR",
+    "papers": 961,
+    "cites": 9937,
+    "orgs": [
+      "Istanbul Technical University",
+      "Middle East Technical University",
+      "Yıldız Technical University",
+      "Sakarya University"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        1249
+      ],
+      [
+        "Composite",
+        1073
+      ],
+      [
+        "Computer Science",
+        962
+      ],
+      [
+        "Structural Engineering",
+        659
+      ],
+      [
+        "Geology",
+        445
+      ],
+      [
+        "Compressive Strength",
+        389
+      ],
+      [
+        "AI (general)",
+        358
+      ],
+      [
+        "Cementitious",
+        338
+      ],
+      [
+        "Geotechnical Engineering",
+        329
+      ],
+      [
+        "Environmental Science",
+        294
+      ],
+      [
+        "Business",
+        269
+      ],
+      [
+        "Flexural Strength",
+        267
+      ],
+      [
+        "Chemistry",
+        242
+      ],
+      [
+        "Waste Management",
+        240
+      ],
+      [
+        "Graph",
+        219
+      ],
+      [
+        "FEM",
+        204
+      ],
+      [
+        "Fiber",
+        200
+      ],
+      [
+        "Metallurgy",
+        197
+      ],
+      [
+        "Machine Learning",
+        196
+      ],
+      [
+        "Geopolymer",
+        183
+      ]
+    ],
+    "yearly": {
+      "2020": 43,
+      "2021": 76,
+      "2022": 98,
+      "2023": 89,
+      "2024": 117,
+      "2025": 372,
+      "2026": 166
+    }
+  },
+  {
+    "c": "사우디",
+    "code": "SA",
+    "papers": 916,
+    "cites": 14906,
+    "orgs": [
+      "King Saud University",
+      "King Fahd University of Petroleum and Minerals",
+      "Prince Sattam Bin Abdulaziz University",
+      "Najran University"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        1263
+      ],
+      [
+        "Composite",
+        1092
+      ],
+      [
+        "Computer Science",
+        617
+      ],
+      [
+        "Compressive Strength",
+        477
+      ],
+      [
+        "Cementitious",
+        448
+      ],
+      [
+        "Environmental Science",
+        438
+      ],
+      [
+        "Structural Engineering",
+        433
+      ],
+      [
+        "Waste Management",
+        297
+      ],
+      [
+        "Geology",
+        285
+      ],
+      [
+        "Geotechnical Engineering",
+        273
+      ],
+      [
+        "Chemistry",
+        223
+      ],
+      [
+        "AI (general)",
+        220
+      ],
+      [
+        "Flexural Strength",
+        220
+      ],
+      [
+        "Graph",
+        208
+      ],
+      [
+        "Machine Learning",
+        203
+      ],
+      [
+        "Business",
+        201
+      ],
+      [
+        "Aggregate (Composite)",
+        184
+      ],
+      [
+        "UTS",
+        180
+      ],
+      [
+        "Durability",
+        175
+      ],
+      [
+        "Fiber",
+        169
+      ]
+    ],
+    "yearly": {
+      "2020": 15,
+      "2021": 47,
+      "2022": 100,
+      "2023": 125,
+      "2024": 167,
+      "2025": 308,
+      "2026": 154
+    }
+  },
+  {
+    "c": "독일",
+    "code": "DE",
+    "papers": 800,
+    "cites": 11678,
+    "orgs": [
+      "Technical University of Munich",
+      "RWTH Aachen University",
+      "University of Stuttgart",
+      "Technische Universität Berlin"
+    ],
+    "tech": [
+      "Computer Science",
+      "Materials Science",
+      "AI (general)"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        1390
+      ],
+      [
+        "Materials Science",
+        827
+      ],
+      [
+        "AI (general)",
+        627
+      ],
+      [
+        "Composite",
+        613
+      ],
+      [
+        "Structural Engineering",
+        529
+      ],
+      [
+        "Geology",
+        348
+      ],
+      [
+        "Systems Engineering",
+        339
+      ],
+      [
+        "Geotechnical Engineering",
+        304
+      ],
+      [
+        "Graph",
+        302
+      ],
+      [
+        "Mechanical Engineering",
+        301
+      ],
+      [
+        "Process (Computing)",
+        229
+      ],
+      [
+        "Environmental Science",
+        218
+      ],
+      [
+        "Architectural Engineering",
+        194
+      ],
+      [
+        "Software Engineering",
+        193
+      ],
+      [
+        "Chemistry",
+        193
+      ],
+      [
+        "Engineering Drawing",
+        183
+      ],
+      [
+        "Cementitious",
+        182
+      ],
+      [
+        "BIM",
+        174
+      ],
+      [
+        "Data Mining",
+        171
+      ],
+      [
+        "Construction Engineering",
+        169
+      ]
+    ],
+    "yearly": {
+      "2020": 64,
+      "2021": 55,
+      "2022": 92,
+      "2023": 81,
+      "2024": 131,
+      "2025": 276,
+      "2026": 101
+    }
+  },
+  {
+    "c": "스페인",
+    "code": "ES",
+    "papers": 744,
+    "cites": 8348,
+    "orgs": [
+      "Universitat Politècnica de Catalunya",
+      "Universidad Politécnica de Madrid",
+      "Universitat Politècnica de València",
+      "Universidade de Vigo"
+    ],
+    "tech": [
+      "Computer Science",
+      "Materials Science",
+      "Composite"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        1065
+      ],
+      [
+        "Materials Science",
+        1010
+      ],
+      [
+        "Composite",
+        816
+      ],
+      [
+        "Structural Engineering",
+        575
+      ],
+      [
+        "Environmental Science",
+        432
+      ],
+      [
+        "AI (general)",
+        389
+      ],
+      [
+        "Graph",
+        363
+      ],
+      [
+        "Geology",
+        344
+      ],
+      [
+        "Architectural Engineering",
+        319
+      ],
+      [
+        "Cementitious",
+        302
+      ],
+      [
+        "Geotechnical Engineering",
+        270
+      ],
+      [
+        "Waste Management",
+        232
+      ],
+      [
+        "Chemistry",
+        225
+      ],
+      [
+        "Compressive Strength",
+        212
+      ],
+      [
+        "Building Energy",
+        208
+      ],
+      [
+        "Metallurgy",
+        205
+      ],
+      [
+        "Systems Engineering",
+        201
+      ],
+      [
+        "Mortar",
+        199
+      ],
+      [
+        "Business",
+        198
+      ],
+      [
+        "Construction Engineering",
+        161
+      ]
+    ],
+    "yearly": {
+      "2020": 43,
+      "2021": 57,
+      "2022": 59,
+      "2023": 58,
+      "2024": 89,
+      "2025": 334,
+      "2026": 104
     }
   },
   {
     "c": "싱가포르",
     "code": "SG",
-    "papers": 479,
-    "cites": 12548,
+    "papers": 705,
+    "cites": 16948,
     "orgs": [
       "Nanyang Technological University",
       "National University of Singapore",
@@ -1638,105 +1638,429 @@
     "keywords": [
       [
         "Computer Science",
-        730
+        929
       ],
       [
         "AI (general)",
-        445
+        556
       ],
       [
         "Materials Science",
-        284
+        459
       ],
       [
         "Composite",
-        204
+        331
       ],
       [
         "Graph",
-        184
-      ],
-      [
-        "Machine Learning",
-        163
-      ],
-      [
-        "Data Mining",
-        132
+        256
       ],
       [
         "Structural Engineering",
-        131
+        244
       ],
       [
-        "Systems Engineering",
-        111
-      ],
-      [
-        "Computer Vision",
-        110
-      ],
-      [
-        "Pattern Recognition",
-        106
-      ],
-      [
-        "Process (Computing)",
-        104
-      ],
-      [
-        "Cementitious",
-        96
-      ],
-      [
-        "Psychology",
-        91
-      ],
-      [
-        "Mechanical Engineering",
-        85
-      ],
-      [
-        "Business",
-        81
-      ],
-      [
-        "Segmentation",
-        73
+        "Machine Learning",
+        216
       ],
       [
         "Geology",
-        65
+        203
       ],
       [
-        "Algorithm",
-        64
+        "Geotechnical Engineering",
+        190
+      ],
+      [
+        "Data Mining",
+        153
+      ],
+      [
+        "Cementitious",
+        143
+      ],
+      [
+        "Computer Vision",
+        137
+      ],
+      [
+        "Pattern Recognition",
+        130
+      ],
+      [
+        "Systems Engineering",
+        128
       ],
       [
         "Environmental Science",
-        61
+        126
+      ],
+      [
+        "Process (Computing)",
+        122
+      ],
+      [
+        "Psychology",
+        110
+      ],
+      [
+        "Business",
+        110
+      ],
+      [
+        "Mechanical Engineering",
+        106
+      ],
+      [
+        "Statistics",
+        103
       ]
     ],
     "yearly": {
-      "2020": 40,
-      "2021": 48,
-      "2022": 38,
-      "2023": 46,
-      "2024": 64,
-      "2025": 168,
-      "2026": 75
+      "2020": 62,
+      "2021": 78,
+      "2022": 71,
+      "2023": 78,
+      "2024": 111,
+      "2025": 209,
+      "2026": 96
+    }
+  },
+  {
+    "c": "이집트",
+    "code": "EG",
+    "papers": 691,
+    "cites": 12070,
+    "orgs": [
+      "Mansoura University",
+      "Cairo University",
+      "Zagazig University",
+      "Benha University"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Structural Engineering"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        1154
+      ],
+      [
+        "Composite",
+        1026
+      ],
+      [
+        "Structural Engineering",
+        638
+      ],
+      [
+        "Computer Science",
+        499
+      ],
+      [
+        "Compressive Strength",
+        394
+      ],
+      [
+        "Cementitious",
+        361
+      ],
+      [
+        "Environmental Science",
+        294
+      ],
+      [
+        "Geology",
+        274
+      ],
+      [
+        "Waste Management",
+        225
+      ],
+      [
+        "Geotechnical Engineering",
+        224
+      ],
+      [
+        "Flexural Strength",
+        204
+      ],
+      [
+        "UTS",
+        204
+      ],
+      [
+        "Reinforced Concrete",
+        198
+      ],
+      [
+        "FEM",
+        178
+      ],
+      [
+        "Chemistry",
+        168
+      ],
+      [
+        "Aggregate (Composite)",
+        159
+      ],
+      [
+        "Metallurgy",
+        157
+      ],
+      [
+        "Architectural Engineering",
+        145
+      ],
+      [
+        "Business",
+        144
+      ],
+      [
+        "AI (general)",
+        143
+      ]
+    ],
+    "yearly": {
+      "2020": 49,
+      "2021": 50,
+      "2022": 100,
+      "2023": 100,
+      "2024": 126,
+      "2025": 197,
+      "2026": 69
+    }
+  },
+  {
+    "c": "말레이시아",
+    "code": "MY",
+    "papers": 605,
+    "cites": 9620,
+    "orgs": [
+      "University of Malaya",
+      "Universiti Sains Malaysia",
+      "University of Technology Malaysia",
+      "Universiti Teknologi Petronas"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        861
+      ],
+      [
+        "Composite",
+        759
+      ],
+      [
+        "Computer Science",
+        625
+      ],
+      [
+        "Environmental Science",
+        415
+      ],
+      [
+        "Business",
+        389
+      ],
+      [
+        "Cementitious",
+        328
+      ],
+      [
+        "Compressive Strength",
+        303
+      ],
+      [
+        "Waste Management",
+        293
+      ],
+      [
+        "Structural Engineering",
+        265
+      ],
+      [
+        "Graph",
+        255
+      ],
+      [
+        "Chemistry",
+        212
+      ],
+      [
+        "Knowledge Mgmt",
+        207
+      ],
+      [
+        "Metallurgy",
+        190
+      ],
+      [
+        "AI (general)",
+        187
+      ],
+      [
+        "Fly Ash",
+        171
+      ],
+      [
+        "Construction Engineering",
+        166
+      ],
+      [
+        "Geology",
+        162
+      ],
+      [
+        "Process Management",
+        161
+      ],
+      [
+        "Aggregate (Composite)",
+        152
+      ],
+      [
+        "UTS",
+        151
+      ]
+    ],
+    "yearly": {
+      "2020": 29,
+      "2021": 56,
+      "2022": 88,
+      "2023": 64,
+      "2024": 104,
+      "2025": 188,
+      "2026": 76
+    }
+  },
+  {
+    "c": "프랑스",
+    "code": "FR",
+    "papers": 533,
+    "cites": 5322,
+    "orgs": [
+      "Centre National de la Recherche Scientifique",
+      "Université Gustave Eiffel",
+      "Université de Lille",
+      "École nationale des ponts et chaussées"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        1969
+      ],
+      [
+        "Composite",
+        1632
+      ],
+      [
+        "Computer Science",
+        878
+      ],
+      [
+        "Environmental Science",
+        773
+      ],
+      [
+        "Structural Engineering",
+        734
+      ],
+      [
+        "Geotechnical Engineering",
+        713
+      ],
+      [
+        "Geology",
+        691
+      ],
+      [
+        "Cementitious",
+        514
+      ],
+      [
+        "Chemistry",
+        454
+      ],
+      [
+        "Thermal",
+        374
+      ],
+      [
+        "Compressive Strength",
+        353
+      ],
+      [
+        "AI (general)",
+        312
+      ],
+      [
+        "Graph",
+        308
+      ],
+      [
+        "Waste Management",
+        299
+      ],
+      [
+        "Metallurgy",
+        276
+      ],
+      [
+        "Porosity",
+        260
+      ],
+      [
+        "Forensic Engineering",
+        233
+      ],
+      [
+        "Architectural Engineering",
+        187
+      ],
+      [
+        "Durability",
+        182
+      ],
+      [
+        "Mechanical Engineering",
+        168
+      ]
+    ],
+    "yearly": {
+      "2020": 33,
+      "2021": 35,
+      "2022": 42,
+      "2023": 44,
+      "2024": 77,
+      "2025": 224,
+      "2026": 78
     }
   },
   {
     "c": "대만",
     "code": "TW",
-    "papers": 365,
-    "cites": 5070,
+    "papers": 529,
+    "cites": 6676,
     "orgs": [
       "National Taiwan University",
       "National Taiwan University of Science and Technology",
-      "National Tsing Hua University",
-      "National Taipei University of Technology"
+      "National Central University",
+      "National Cheng Kung University"
     ],
     "tech": [
       "Computer Science",
@@ -1746,428 +2070,104 @@
     "keywords": [
       [
         "Computer Science",
-        682
+        901
       ],
       [
         "AI (general)",
-        387
+        521
       ],
       [
         "Materials Science",
-        201
+        417
       ],
       [
         "Structural Engineering",
-        191
+        376
+      ],
+      [
+        "Composite",
+        320
+      ],
+      [
+        "Graph",
+        194
+      ],
+      [
+        "Geotechnical Engineering",
+        185
+      ],
+      [
+        "Geology",
+        182
       ],
       [
         "Machine Learning",
-        137
-      ],
-      [
-        "Graph",
-        132
-      ],
-      [
-        "Composite",
-        130
-      ],
-      [
-        "Business",
-        117
-      ],
-      [
-        "Data Mining",
-        108
-      ],
-      [
-        "Systems Engineering",
-        107
-      ],
-      [
-        "Environmental Science",
-        104
-      ],
-      [
-        "Algorithm",
-        93
-      ],
-      [
-        "Geotechnical Engineering",
-        88
-      ],
-      [
-        "Computer Vision",
-        86
-      ],
-      [
-        "Architectural Engineering",
-        80
-      ],
-      [
-        "Operations Management",
-        79
-      ],
-      [
-        "Geology",
-        73
-      ],
-      [
-        "Process (Computing)",
-        69
-      ],
-      [
-        "Deep Learning",
-        67
-      ],
-      [
-        "Quality (Philosophy)",
-        64
-      ]
-    ],
-    "yearly": {
-      "2020": 27,
-      "2021": 36,
-      "2022": 27,
-      "2023": 28,
-      "2024": 61,
-      "2025": 131,
-      "2026": 55
-    }
-  },
-  {
-    "c": "이집트",
-    "code": "EG",
-    "papers": 350,
-    "cites": 3916,
-    "orgs": [
-      "Cairo University",
-      "Kafrelsheikh University",
-      "Zagazig University",
-      "Mansoura University"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Computer Science"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        427
-      ],
-      [
-        "Composite",
-        357
-      ],
-      [
-        "Computer Science",
-        286
-      ],
-      [
-        "Structural Engineering",
-        212
-      ],
-      [
-        "Environmental Science",
-        153
-      ],
-      [
-        "Compressive Strength",
-        139
-      ],
-      [
-        "Architectural Engineering",
-        136
-      ],
-      [
-        "Cementitious",
-        127
-      ],
-      [
-        "Geology",
-        103
-      ],
-      [
-        "Waste Management",
-        103
-      ],
-      [
-        "Business",
-        96
-      ],
-      [
-        "Graph",
-        83
-      ],
-      [
-        "AI (general)",
-        80
-      ],
-      [
-        "Geotechnical Engineering",
-        79
-      ],
-      [
-        "Aggregate (Composite)",
-        76
-      ],
-      [
-        "Construction Engineering",
-        73
-      ],
-      [
-        "Systems Engineering",
-        70
-      ],
-      [
-        "Building Energy",
-        65
-      ],
-      [
-        "UTS",
-        62
-      ],
-      [
-        "Metallurgy",
-        61
-      ]
-    ],
-    "yearly": {
-      "2020": 20,
-      "2021": 16,
-      "2022": 14,
-      "2023": 27,
-      "2024": 54,
-      "2025": 161,
-      "2026": 58
-    }
-  },
-  {
-    "c": "프랑스",
-    "code": "FR",
-    "papers": 339,
-    "cites": 2454,
-    "orgs": [
-      "Centre National de la Recherche Scientifique",
-      "Université Gustave Eiffel",
-      "Université de Lille",
-      "Laboratoire Navier"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Computer Science"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        1292
-      ],
-      [
-        "Composite",
-        1117
-      ],
-      [
-        "Computer Science",
-        684
-      ],
-      [
-        "Environmental Science",
-        509
-      ],
-      [
-        "Structural Engineering",
-        500
-      ],
-      [
-        "Cementitious",
-        322
-      ],
-      [
-        "Thermal",
-        309
-      ],
-      [
-        "AI (general)",
-        273
-      ],
-      [
-        "Geotechnical Engineering",
-        273
-      ],
-      [
-        "Compressive Strength",
-        252
-      ],
-      [
-        "Geology",
-        248
-      ],
-      [
-        "Chemistry",
-        233
-      ],
-      [
-        "Graph",
-        208
-      ],
-      [
-        "Porosity",
-        197
-      ],
-      [
-        "Waste Management",
         178
       ],
       [
-        "Architectural Engineering",
-        146
-      ],
-      [
-        "Metallurgy",
-        143
-      ],
-      [
-        "Mechanical Engineering",
-        141
-      ],
-      [
-        "Durability",
-        128
-      ],
-      [
-        "Systems Engineering",
-        121
-      ]
-    ],
-    "yearly": {
-      "2020": 12,
-      "2021": 10,
-      "2022": 18,
-      "2023": 16,
-      "2024": 30,
-      "2025": 183,
-      "2026": 70
-    }
-  },
-  {
-    "c": "말레이시아",
-    "code": "MY",
-    "papers": 334,
-    "cites": 3564,
-    "orgs": [
-      "University of Malaya",
-      "University of Technology Malaysia",
-      "Universiti Sains Malaysia",
-      "National University of Malaysia"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Composite"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        401
-      ],
-      [
-        "Materials Science",
-        389
-      ],
-      [
-        "Composite",
-        301
-      ],
-      [
         "Environmental Science",
-        249
+        175
       ],
       [
         "Business",
-        219
-      ],
-      [
-        "Graph",
-        173
-      ],
-      [
-        "Waste Management",
-        165
-      ],
-      [
-        "Cementitious",
-        129
-      ],
-      [
-        "AI (general)",
-        125
-      ],
-      [
-        "Structural Engineering",
-        124
-      ],
-      [
-        "Architectural Engineering",
-        120
-      ],
-      [
-        "Compressive Strength",
-        115
-      ],
-      [
-        "Metallurgy",
-        106
-      ],
-      [
-        "Knowledge Mgmt",
-        103
-      ],
-      [
-        "Construction Engineering",
-        99
-      ],
-      [
-        "Chemistry",
-        95
+        167
       ],
       [
         "Systems Engineering",
-        84
+        144
+      ],
+      [
+        "Data Mining",
+        131
+      ],
+      [
+        "Cementitious",
+        117
+      ],
+      [
+        "Computer Vision",
+        115
+      ],
+      [
+        "Algorithm",
+        110
       ],
       [
         "Operations Management",
-        82
+        105
       ],
       [
-        "Geotechnical Engineering",
-        76
+        "Architectural Engineering",
+        94
       ],
       [
-        "Process Management",
-        75
+        "Operations Research",
+        87
+      ],
+      [
+        "Process (Computing)",
+        84
       ]
     ],
     "yearly": {
-      "2020": 13,
-      "2021": 18,
-      "2022": 23,
-      "2023": 17,
-      "2024": 49,
-      "2025": 149,
-      "2026": 65
+      "2020": 43,
+      "2021": 52,
+      "2022": 42,
+      "2023": 59,
+      "2024": 101,
+      "2025": 169,
+      "2026": 63
     }
   },
   {
     "c": "브라질",
     "code": "BR",
-    "papers": 303,
-    "cites": 1892,
+    "papers": 480,
+    "cites": 4649,
     "orgs": [
-      "Universidade Federal do Rio de Janeiro",
-      "Universidade Federal de Viçosa",
+      "Universidade Federal do Rio Grande do Sul",
       "Universidade de São Paulo",
+      "Universidade Federal do Rio de Janeiro",
       "Universidade Federal de Santa Catarina"
     ],
     "tech": [
@@ -2178,105 +2178,105 @@
     "keywords": [
       [
         "Materials Science",
-        722
+        1249
       ],
       [
         "Composite",
-        612
+        1088
       ],
       [
         "Cementitious",
-        362
+        613
       ],
       [
         "Computer Science",
-        357
+        504
       ],
       [
         "Environmental Science",
-        261
-      ],
-      [
-        "Structural Engineering",
-        232
+        467
       ],
       [
         "Compressive Strength",
-        196
+        362
       ],
       [
-        "Waste Management",
-        162
+        "Structural Engineering",
+        335
       ],
       [
         "Chemistry",
-        152
-      ],
-      [
-        "Architectural Engineering",
-        137
-      ],
-      [
-        "Metallurgy",
-        133
-      ],
-      [
-        "Business",
-        120
-      ],
-      [
-        "Construction Engineering",
-        114
-      ],
-      [
-        "Flexural Strength",
-        104
-      ],
-      [
-        "Mortar",
-        104
-      ],
-      [
-        "Graph",
-        94
-      ],
-      [
-        "Durability",
-        93
-      ],
-      [
-        "Fiber",
-        92
+        320
       ],
       [
         "Geotechnical Engineering",
-        87
+        306
       ],
       [
-        "Sustainability",
-        83
+        "Metallurgy",
+        298
+      ],
+      [
+        "Geology",
+        283
+      ],
+      [
+        "Waste Management",
+        265
+      ],
+      [
+        "Business",
+        198
+      ],
+      [
+        "Graph",
+        172
+      ],
+      [
+        "Mortar",
+        168
+      ],
+      [
+        "UTS",
+        159
+      ],
+      [
+        "Architectural Engineering",
+        149
+      ],
+      [
+        "Construction Engineering",
+        146
+      ],
+      [
+        "Fiber",
+        137
+      ],
+      [
+        "Durability",
+        135
       ]
     ],
     "yearly": {
-      "2020": 15,
-      "2021": 14,
-      "2022": 14,
-      "2023": 10,
-      "2024": 34,
-      "2025": 158,
-      "2026": 58
+      "2020": 43,
+      "2021": 54,
+      "2022": 40,
+      "2023": 37,
+      "2024": 61,
+      "2025": 182,
+      "2026": 63
     }
   },
   {
     "c": "네덜란드",
     "code": "NL",
-    "papers": 298,
-    "cites": 5210,
+    "papers": 431,
+    "cites": 7379,
     "orgs": [
       "Delft University of Technology",
       "Eindhoven University of Technology",
       "University of Twente",
-      "Leiden University"
+      "Deltares"
     ],
     "tech": [
       "Computer Science",
@@ -2286,105 +2286,213 @@
     "keywords": [
       [
         "Computer Science",
-        381
+        502
       ],
       [
         "Materials Science",
-        227
+        370
       ],
       [
         "Composite",
-        170
-      ],
-      [
-        "AI (general)",
-        136
-      ],
-      [
-        "Business",
-        106
-      ],
-      [
-        "Environmental Science",
-        104
-      ],
-      [
-        "Systems Engineering",
-        103
+        293
       ],
       [
         "Structural Engineering",
-        103
+        192
       ],
       [
-        "Cementitious",
-        87
+        "AI (general)",
+        183
       ],
       [
-        "Process (Computing)",
-        68
-      ],
-      [
-        "Graph",
-        66
-      ],
-      [
-        "Waste Management",
-        63
-      ],
-      [
-        "Architectural Engineering",
-        59
-      ],
-      [
-        "Geology",
-        56
+        "Business",
+        150
       ],
       [
         "Geotechnical Engineering",
-        55
+        150
       ],
       [
-        "Process Management",
-        51
+        "Environmental Science",
+        145
+      ],
+      [
+        "Geology",
+        135
+      ],
+      [
+        "Cementitious",
+        109
+      ],
+      [
+        "Systems Engineering",
+        106
+      ],
+      [
+        "Graph",
+        98
+      ],
+      [
+        "Process (Computing)",
+        79
+      ],
+      [
+        "Waste Management",
+        70
       ],
       [
         "Knowledge Mgmt",
-        51
+        66
       ],
       [
-        "Software Engineering",
-        48
+        "Process Management",
+        62
       ],
       [
-        "BIM",
-        45
+        "Architectural Engineering",
+        61
+      ],
+      [
+        "Chemistry",
+        59
+      ],
+      [
+        "Machine Learning",
+        56
       ],
       [
         "Metallurgy",
-        45
+        55
       ]
     ],
     "yearly": {
-      "2020": 25,
-      "2021": 27,
-      "2022": 31,
-      "2023": 25,
-      "2024": 38,
-      "2025": 115,
-      "2026": 37
+      "2020": 40,
+      "2021": 46,
+      "2022": 51,
+      "2023": 46,
+      "2024": 71,
+      "2025": 136,
+      "2026": 41
+    }
+  },
+  {
+    "c": "파키스탄",
+    "code": "PK",
+    "papers": 407,
+    "cites": 8009,
+    "orgs": [
+      "National University of Sciences and Technology",
+      "University of Engineering and Technology Lahore",
+      "COMSATS University Islamabad",
+      "University of Engineering and Technology Taxila"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        587
+      ],
+      [
+        "Composite",
+        535
+      ],
+      [
+        "Computer Science",
+        378
+      ],
+      [
+        "Compressive Strength",
+        283
+      ],
+      [
+        "Cementitious",
+        265
+      ],
+      [
+        "Structural Engineering",
+        254
+      ],
+      [
+        "Environmental Science",
+        189
+      ],
+      [
+        "AI (general)",
+        157
+      ],
+      [
+        "Geotechnical Engineering",
+        148
+      ],
+      [
+        "Machine Learning",
+        141
+      ],
+      [
+        "UTS",
+        138
+      ],
+      [
+        "Waste Management",
+        134
+      ],
+      [
+        "Business",
+        120
+      ],
+      [
+        "Geology",
+        120
+      ],
+      [
+        "Aggregate (Composite)",
+        117
+      ],
+      [
+        "Flexural Strength",
+        108
+      ],
+      [
+        "Fly Ash",
+        91
+      ],
+      [
+        "Metallurgy",
+        88
+      ],
+      [
+        "Chemistry",
+        83
+      ],
+      [
+        "Graph",
+        77
+      ]
+    ],
+    "yearly": {
+      "2020": 17,
+      "2021": 37,
+      "2022": 59,
+      "2023": 56,
+      "2024": 80,
+      "2025": 110,
+      "2026": 48
     }
   },
   {
     "c": "폴란드",
     "code": "PL",
-    "papers": 246,
-    "cites": 1814,
+    "papers": 389,
+    "cites": 5184,
     "orgs": [
       "AGH University of Krakow",
       "Wrocław University of Science and Technology",
-      "Nano Carbon (Poland)",
-      "Silesian University of Technology"
+      "Silesian University of Technology",
+      "Nano Carbon (Poland)"
     ],
     "tech": [
       "Materials Science",
@@ -2394,208 +2502,424 @@
     "keywords": [
       [
         "Materials Science",
-        350
+        522
       ],
       [
         "Composite",
-        316
+        451
       ],
       [
         "Computer Science",
-        265
-      ],
-      [
-        "Cementitious",
-        143
+        419
       ],
       [
         "Structural Engineering",
-        122
+        207
+      ],
+      [
+        "Cementitious",
+        201
       ],
       [
         "Environmental Science",
-        114
-      ],
-      [
-        "Compressive Strength",
-        95
-      ],
-      [
-        "Graph",
-        92
-      ],
-      [
-        "AI (general)",
-        82
-      ],
-      [
-        "Architectural Engineering",
-        82
-      ],
-      [
-        "Waste Management",
-        59
-      ],
-      [
-        "Durability",
-        57
-      ],
-      [
-        "Business",
-        54
-      ],
-      [
-        "Porosity",
-        54
-      ],
-      [
-        "Mortar",
-        51
-      ],
-      [
-        "Chemistry",
-        49
-      ],
-      [
-        "Microstructure",
-        47
-      ],
-      [
-        "Flexural Strength",
-        46
+        190
       ],
       [
         "Geology",
-        45
+        184
       ],
       [
-        "Algorithm",
-        43
-      ]
-    ],
-    "yearly": {
-      "2020": 11,
-      "2021": 12,
-      "2022": 7,
-      "2023": 9,
-      "2024": 24,
-      "2025": 125,
-      "2026": 58
-    }
-  },
-  {
-    "c": "포르투갈",
-    "code": "PT",
-    "papers": 237,
-    "cites": 1388,
-    "orgs": [
-      "University of Minho",
-      "Universidade do Porto",
-      "University of Lisbon",
-      "University of Aveiro"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Computer Science"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        368
+        "Geotechnical Engineering",
+        168
       ],
       [
-        "Composite",
-        301
-      ],
-      [
-        "Computer Science",
-        254
-      ],
-      [
-        "Environmental Science",
-        182
-      ],
-      [
-        "Structural Engineering",
-        160
-      ],
-      [
-        "Architectural Engineering",
-        143
-      ],
-      [
-        "Waste Management",
-        120
-      ],
-      [
-        "Construction Engineering",
-        105
-      ],
-      [
-        "Cementitious",
-        96
-      ],
-      [
-        "Graph",
-        87
+        "AI (general)",
+        155
       ],
       [
         "Compressive Strength",
+        129
+      ],
+      [
+        "Graph",
+        125
+      ],
+      [
+        "Architectural Engineering",
+        93
+      ],
+      [
+        "Machine Learning",
+        88
+      ],
+      [
+        "Waste Management",
         85
       ],
       [
         "Business",
-        82
-      ],
-      [
-        "Systems Engineering",
         80
       ],
       [
         "Chemistry",
-        79
+        80
       ],
       [
-        "Durability",
-        79
-      ],
-      [
-        "Mortar",
+        "Algorithm",
         76
       ],
       [
-        "Forensic Engineering",
+        "Durability",
+        75
+      ],
+      [
+        "Flexural Strength",
+        67
+      ],
+      [
+        "Microstructure",
         66
-      ],
-      [
-        "Geology",
-        65
-      ],
-      [
-        "Geotechnical Engineering",
-        62
-      ],
-      [
-        "Metallurgy",
-        60
       ]
     ],
     "yearly": {
-      "2020": 8,
-      "2021": 7,
-      "2022": 8,
-      "2023": 8,
-      "2024": 24,
-      "2025": 121,
-      "2026": 61
+      "2020": 25,
+      "2021": 37,
+      "2022": 31,
+      "2023": 35,
+      "2024": 50,
+      "2025": 148,
+      "2026": 63
+    }
+  },
+  {
+    "c": "태국",
+    "code": "TH",
+    "papers": 354,
+    "cites": 4772,
+    "orgs": [
+      "Chulalongkorn University",
+      "Suranaree University of Technology",
+      "Thammasat University",
+      "King Mongkut's Institute of Technology Ladkrabang"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Compressive Strength"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        885
+      ],
+      [
+        "Composite",
+        819
+      ],
+      [
+        "Compressive Strength",
+        459
+      ],
+      [
+        "Cementitious",
+        436
+      ],
+      [
+        "Structural Engineering",
+        342
+      ],
+      [
+        "Computer Science",
+        307
+      ],
+      [
+        "Fly Ash",
+        274
+      ],
+      [
+        "Environmental Science",
+        247
+      ],
+      [
+        "Geotechnical Engineering",
+        239
+      ],
+      [
+        "Chemistry",
+        219
+      ],
+      [
+        "Geology",
+        198
+      ],
+      [
+        "Waste Management",
+        177
+      ],
+      [
+        "Metallurgy",
+        167
+      ],
+      [
+        "Mortar",
+        165
+      ],
+      [
+        "Geopolymer",
+        157
+      ],
+      [
+        "Aggregate (Composite)",
+        154
+      ],
+      [
+        "Graph",
+        141
+      ],
+      [
+        "Flexural Strength",
+        122
+      ],
+      [
+        "Fiber",
+        118
+      ],
+      [
+        "UTS",
+        117
+      ]
+    ],
+    "yearly": {
+      "2020": 20,
+      "2021": 40,
+      "2022": 35,
+      "2023": 32,
+      "2024": 47,
+      "2025": 127,
+      "2026": 53
+    }
+  },
+  {
+    "c": "뉴질랜드",
+    "code": "NZ",
+    "papers": 350,
+    "cites": 7394,
+    "orgs": [
+      "University of Auckland",
+      "Auckland University of Technology",
+      "Massey University",
+      "University of Canterbury"
+    ],
+    "tech": [
+      "Computer Science",
+      "Structural Engineering",
+      "Materials Science"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        502
+      ],
+      [
+        "Structural Engineering",
+        307
+      ],
+      [
+        "Materials Science",
+        277
+      ],
+      [
+        "Composite",
+        215
+      ],
+      [
+        "Geology",
+        172
+      ],
+      [
+        "Business",
+        149
+      ],
+      [
+        "AI (general)",
+        141
+      ],
+      [
+        "Geotechnical Engineering",
+        137
+      ],
+      [
+        "Graph",
+        133
+      ],
+      [
+        "Knowledge Mgmt",
+        113
+      ],
+      [
+        "Process Management",
+        109
+      ],
+      [
+        "Construction Engineering",
+        99
+      ],
+      [
+        "Systems Engineering",
+        95
+      ],
+      [
+        "FEM",
+        75
+      ],
+      [
+        "Stiffness",
+        71
+      ],
+      [
+        "Architectural Engineering",
+        69
+      ],
+      [
+        "Shear (Geology)",
+        69
+      ],
+      [
+        "Psychology",
+        64
+      ],
+      [
+        "BIM",
+        58
+      ],
+      [
+        "Mechanical Engineering",
+        56
+      ]
+    ],
+    "yearly": {
+      "2020": 42,
+      "2021": 41,
+      "2022": 32,
+      "2023": 43,
+      "2024": 53,
+      "2025": 106,
+      "2026": 33
+    }
+  },
+  {
+    "c": "IQ",
+    "code": "IQ",
+    "papers": 344,
+    "cites": 7593,
+    "orgs": [
+      "University of Sulaimani",
+      "University of Baghdad",
+      "Salahaddin University-Erbil",
+      "University of Duhok"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Structural Engineering"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        545
+      ],
+      [
+        "Composite",
+        490
+      ],
+      [
+        "Structural Engineering",
+        304
+      ],
+      [
+        "Compressive Strength",
+        236
+      ],
+      [
+        "Computer Science",
+        153
+      ],
+      [
+        "Cementitious",
+        135
+      ],
+      [
+        "Environmental Science",
+        131
+      ],
+      [
+        "Flexural Strength",
+        124
+      ],
+      [
+        "Geology",
+        123
+      ],
+      [
+        "UTS",
+        116
+      ],
+      [
+        "Reinforced Concrete",
+        113
+      ],
+      [
+        "Geotechnical Engineering",
+        91
+      ],
+      [
+        "Aggregate (Composite)",
+        87
+      ],
+      [
+        "Waste Management",
+        87
+      ],
+      [
+        "Chemistry",
+        86
+      ],
+      [
+        "Graph",
+        82
+      ],
+      [
+        "Durability",
+        81
+      ],
+      [
+        "Shear (Geology)",
+        75
+      ],
+      [
+        "AI (general)",
+        69
+      ],
+      [
+        "Mechanical Engineering",
+        67
+      ]
+    ],
+    "yearly": {
+      "2020": 33,
+      "2021": 45,
+      "2022": 73,
+      "2023": 39,
+      "2024": 46,
+      "2025": 73,
+      "2026": 35
     }
   },
   {
     "c": "AE",
     "code": "AE",
-    "papers": 218,
-    "cites": 2304,
+    "papers": 329,
+    "cites": 4043,
     "orgs": [
       "United Arab Emirates University",
       "American University of Sharjah",
@@ -2603,6 +2927,438 @@
       "New York University Abu Dhabi"
     ],
     "tech": [
+      "Materials Science",
+      "Computer Science",
+      "Composite"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        307
+      ],
+      [
+        "Computer Science",
+        276
+      ],
+      [
+        "Composite",
+        252
+      ],
+      [
+        "Environmental Science",
+        156
+      ],
+      [
+        "Graph",
+        139
+      ],
+      [
+        "Structural Engineering",
+        119
+      ],
+      [
+        "Business",
+        118
+      ],
+      [
+        "Cementitious",
+        102
+      ],
+      [
+        "Architectural Engineering",
+        94
+      ],
+      [
+        "AI (general)",
+        85
+      ],
+      [
+        "Geology",
+        85
+      ],
+      [
+        "Geotechnical Engineering",
+        81
+      ],
+      [
+        "Compressive Strength",
+        76
+      ],
+      [
+        "Chemistry",
+        76
+      ],
+      [
+        "Sustainability",
+        71
+      ],
+      [
+        "Waste Management",
+        68
+      ],
+      [
+        "Meteorology",
+        66
+      ],
+      [
+        "Construction Engineering",
+        60
+      ],
+      [
+        "Statistics",
+        56
+      ],
+      [
+        "Systems Engineering",
+        55
+      ]
+    ],
+    "yearly": {
+      "2020": 18,
+      "2021": 25,
+      "2022": 40,
+      "2023": 38,
+      "2024": 44,
+      "2025": 112,
+      "2026": 52
+    }
+  },
+  {
+    "c": "포르투갈",
+    "code": "PT",
+    "papers": 317,
+    "cites": 2306,
+    "orgs": [
+      "University of Minho",
+      "Universidade do Porto",
+      "University of Lisbon",
+      "University of Coimbra"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        484
+      ],
+      [
+        "Composite",
+        388
+      ],
+      [
+        "Computer Science",
+        332
+      ],
+      [
+        "Structural Engineering",
+        221
+      ],
+      [
+        "Environmental Science",
+        212
+      ],
+      [
+        "Architectural Engineering",
+        149
+      ],
+      [
+        "Waste Management",
+        139
+      ],
+      [
+        "Cementitious",
+        134
+      ],
+      [
+        "Construction Engineering",
+        117
+      ],
+      [
+        "Chemistry",
+        113
+      ],
+      [
+        "Business",
+        106
+      ],
+      [
+        "Graph",
+        105
+      ],
+      [
+        "Compressive Strength",
+        104
+      ],
+      [
+        "Geology",
+        100
+      ],
+      [
+        "Geotechnical Engineering",
+        98
+      ],
+      [
+        "Durability",
+        96
+      ],
+      [
+        "Systems Engineering",
+        95
+      ],
+      [
+        "Mortar",
+        90
+      ],
+      [
+        "Forensic Engineering",
+        81
+      ],
+      [
+        "Metallurgy",
+        77
+      ]
+    ],
+    "yearly": {
+      "2020": 16,
+      "2021": 17,
+      "2022": 18,
+      "2023": 27,
+      "2024": 36,
+      "2025": 139,
+      "2026": 64
+    }
+  },
+  {
+    "c": "스위스",
+    "code": "CH",
+    "papers": 305,
+    "cites": 5788,
+    "orgs": [
+      "ETH Zurich",
+      "École Polytechnique Fédérale de Lausanne",
+      "Swiss Federal Laboratories for Materials Science and Technology",
+      "Infrastructure Management Consultants (Switzerland)"
+    ],
+    "tech": [
+      "Computer Science",
+      "Structural Engineering",
+      "Materials Science"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        473
+      ],
+      [
+        "Structural Engineering",
+        262
+      ],
+      [
+        "Materials Science",
+        235
+      ],
+      [
+        "AI (general)",
+        196
+      ],
+      [
+        "Composite",
+        172
+      ],
+      [
+        "Geology",
+        127
+      ],
+      [
+        "Mechanical Engineering",
+        110
+      ],
+      [
+        "Geotechnical Engineering",
+        109
+      ],
+      [
+        "Process (Computing)",
+        95
+      ],
+      [
+        "Construction Engineering",
+        73
+      ],
+      [
+        "Architectural Engineering",
+        71
+      ],
+      [
+        "Machine Learning",
+        70
+      ],
+      [
+        "Systems Engineering",
+        69
+      ],
+      [
+        "Environmental Science",
+        64
+      ],
+      [
+        "Graph",
+        60
+      ],
+      [
+        "Engineering Drawing",
+        58
+      ],
+      [
+        "FEM",
+        56
+      ],
+      [
+        "Computer Vision",
+        56
+      ],
+      [
+        "Shear (Geology)",
+        55
+      ],
+      [
+        "Business",
+        51
+      ]
+    ],
+    "yearly": {
+      "2020": 41,
+      "2021": 39,
+      "2022": 43,
+      "2023": 35,
+      "2024": 44,
+      "2025": 81,
+      "2026": 22
+    }
+  },
+  {
+    "c": "베트남",
+    "code": "VN",
+    "papers": 297,
+    "cites": 4205,
+    "orgs": [
+      "Ho Chi Minh City University of Technology",
+      "Vietnam National University Ho Chi Minh City",
+      "University of Transport and Communications",
+      "University of Da Nang"
+    ],
+    "tech": [
+      "Materials Science",
+      "Computer Science",
+      "Composite"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        384
+      ],
+      [
+        "Computer Science",
+        350
+      ],
+      [
+        "Composite",
+        333
+      ],
+      [
+        "Structural Engineering",
+        232
+      ],
+      [
+        "Geotechnical Engineering",
+        151
+      ],
+      [
+        "Business",
+        139
+      ],
+      [
+        "AI (general)",
+        133
+      ],
+      [
+        "Geology",
+        128
+      ],
+      [
+        "Compressive Strength",
+        123
+      ],
+      [
+        "Environmental Science",
+        108
+      ],
+      [
+        "Machine Learning",
+        92
+      ],
+      [
+        "Cementitious",
+        87
+      ],
+      [
+        "Algorithm",
+        82
+      ],
+      [
+        "Psychology",
+        81
+      ],
+      [
+        "Chemistry",
+        81
+      ],
+      [
+        "Flexural Strength",
+        67
+      ],
+      [
+        "Fly Ash",
+        64
+      ],
+      [
+        "Graph",
+        62
+      ],
+      [
+        "Mathematical Optimization",
+        60
+      ],
+      [
+        "Concrete",
+        58
+      ]
+    ],
+    "yearly": {
+      "2020": 20,
+      "2021": 30,
+      "2022": 43,
+      "2023": 24,
+      "2024": 49,
+      "2025": 91,
+      "2026": 40
+    }
+  },
+  {
+    "c": "스웨덴",
+    "code": "SE",
+    "papers": 295,
+    "cites": 4585,
+    "orgs": [
+      "KTH Royal Institute of Technology",
+      "Luleå University of Technology",
+      "Chalmers University of Technology",
+      "University of Gävle"
+    ],
+    "tech": [
       "Computer Science",
       "Materials Science",
       "Composite"
@@ -2610,100 +3366,424 @@
     "keywords": [
       [
         "Computer Science",
-        194
+        324
       ],
       [
         "Materials Science",
-        183
+        193
       ],
       [
         "Composite",
-        153
-      ],
-      [
-        "Graph",
-        125
-      ],
-      [
-        "Environmental Science",
-        111
-      ],
-      [
-        "Business",
-        90
-      ],
-      [
-        "Architectural Engineering",
-        85
-      ],
-      [
-        "Structural Engineering",
-        77
-      ],
-      [
-        "AI (general)",
-        57
-      ],
-      [
-        "Sustainability",
-        57
-      ],
-      [
-        "Cementitious",
-        54
-      ],
-      [
-        "Meteorology",
-        48
-      ],
-      [
-        "Chemistry",
-        47
-      ],
-      [
-        "Waste Management",
-        45
-      ],
-      [
-        "Construction Engineering",
-        44
-      ],
-      [
-        "Systems Engineering",
-        44
-      ],
-      [
-        "Geotechnical Engineering",
-        44
+        150
       ],
       [
         "Geology",
-        42
+        132
       ],
       [
-        "Engineering Management",
-        41
+        "Structural Engineering",
+        126
       ],
       [
-        "Compressive Strength",
-        40
+        "AI (general)",
+        124
+      ],
+      [
+        "Geotechnical Engineering",
+        116
+      ],
+      [
+        "Environmental Science",
+        103
+      ],
+      [
+        "Business",
+        94
+      ],
+      [
+        "Graph",
+        87
+      ],
+      [
+        "Architectural Engineering",
+        67
+      ],
+      [
+        "Systems Engineering",
+        67
+      ],
+      [
+        "Waste Management",
+        64
+      ],
+      [
+        "Psychology",
+        54
+      ],
+      [
+        "Cementitious",
+        52
+      ],
+      [
+        "Chemistry",
+        48
+      ],
+      [
+        "Economics",
+        47
+      ],
+      [
+        "Production Economics",
+        46
+      ],
+      [
+        "Process (Computing)",
+        44
+      ],
+      [
+        "Process Management",
+        43
       ]
     ],
     "yearly": {
-      "2020": 7,
-      "2021": 12,
+      "2020": 23,
+      "2021": 27,
+      "2022": 26,
+      "2023": 45,
+      "2024": 60,
+      "2025": 89,
+      "2026": 25
+    }
+  },
+  {
+    "c": "벨기에",
+    "code": "BE",
+    "papers": 270,
+    "cites": 3339,
+    "orgs": [
+      "Ghent University",
+      "KU Leuven",
+      "University of Antwerp",
+      "UCLouvain"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        330
+      ],
+      [
+        "Composite",
+        268
+      ],
+      [
+        "Computer Science",
+        242
+      ],
+      [
+        "Structural Engineering",
+        178
+      ],
+      [
+        "Geology",
+        116
+      ],
+      [
+        "Environmental Science",
+        108
+      ],
+      [
+        "Geotechnical Engineering",
+        102
+      ],
+      [
+        "Cementitious",
+        83
+      ],
+      [
+        "AI (general)",
+        69
+      ],
+      [
+        "Chemistry",
+        66
+      ],
+      [
+        "Metallurgy",
+        62
+      ],
+      [
+        "Graph",
+        56
+      ],
+      [
+        "Architectural Engineering",
+        53
+      ],
+      [
+        "Compressive Strength",
+        51
+      ],
+      [
+        "Mechanical Engineering",
+        50
+      ],
+      [
+        "Stiffness",
+        46
+      ],
+      [
+        "Algorithm",
+        40
+      ],
+      [
+        "Construction Engineering",
+        40
+      ],
+      [
+        "Thermal",
+        38
+      ],
+      [
+        "Mortar",
+        38
+      ]
+    ],
+    "yearly": {
+      "2020": 25,
+      "2021": 14,
       "2022": 24,
-      "2023": 22,
-      "2024": 27,
-      "2025": 84,
-      "2026": 42
+      "2023": 17,
+      "2024": 40,
+      "2025": 109,
+      "2026": 41
+    }
+  },
+  {
+    "c": "노르웨이",
+    "code": "NO",
+    "papers": 270,
+    "cites": 3378,
+    "orgs": [
+      "Norwegian University of Science and Technology",
+      "Norwegian Geotechnical Institute",
+      "OsloMet – Oslo Metropolitan University",
+      "University of Stavanger"
+    ],
+    "tech": [
+      "Computer Science",
+      "Geology",
+      "Materials Science"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        234
+      ],
+      [
+        "Geology",
+        173
+      ],
+      [
+        "Materials Science",
+        169
+      ],
+      [
+        "Geotechnical Engineering",
+        164
+      ],
+      [
+        "Composite",
+        126
+      ],
+      [
+        "Structural Engineering",
+        113
+      ],
+      [
+        "Environmental Science",
+        95
+      ],
+      [
+        "AI (general)",
+        93
+      ],
+      [
+        "Business",
+        88
+      ],
+      [
+        "Cementitious",
+        68
+      ],
+      [
+        "Graph",
+        56
+      ],
+      [
+        "Architectural Engineering",
+        52
+      ],
+      [
+        "Process Management",
+        43
+      ],
+      [
+        "FEM",
+        42
+      ],
+      [
+        "Metallurgy",
+        40
+      ],
+      [
+        "Waste Management",
+        40
+      ],
+      [
+        "Systems Engineering",
+        39
+      ],
+      [
+        "Chemistry",
+        39
+      ],
+      [
+        "Psychology",
+        38
+      ],
+      [
+        "Compressive Strength",
+        36
+      ]
+    ],
+    "yearly": {
+      "2020": 28,
+      "2021": 20,
+      "2022": 28,
+      "2023": 31,
+      "2024": 50,
+      "2025": 80,
+      "2026": 33
+    }
+  },
+  {
+    "c": "방글라데시",
+    "code": "BD",
+    "papers": 268,
+    "cites": 2558,
+    "orgs": [
+      "Southeast University",
+      "Khulna University of Engineering and Technology",
+      "Ministry of Education",
+      "Bangladesh University of Engineering and Technology"
+    ],
+    "tech": [
+      "Materials Science",
+      "Computer Science",
+      "Composite"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        318
+      ],
+      [
+        "Computer Science",
+        304
+      ],
+      [
+        "Composite",
+        297
+      ],
+      [
+        "AI (general)",
+        134
+      ],
+      [
+        "Structural Engineering",
+        129
+      ],
+      [
+        "Cementitious",
+        110
+      ],
+      [
+        "Compressive Strength",
+        103
+      ],
+      [
+        "Environmental Science",
+        99
+      ],
+      [
+        "Business",
+        85
+      ],
+      [
+        "Waste Management",
+        81
+      ],
+      [
+        "Geotechnical Engineering",
+        81
+      ],
+      [
+        "Graph",
+        80
+      ],
+      [
+        "Geology",
+        72
+      ],
+      [
+        "Machine Learning",
+        60
+      ],
+      [
+        "UTS",
+        60
+      ],
+      [
+        "Metallurgy",
+        59
+      ],
+      [
+        "Asphalt",
+        59
+      ],
+      [
+        "Risk Analysis (Engineering)",
+        48
+      ],
+      [
+        "Knowledge Mgmt",
+        45
+      ],
+      [
+        "Process Management",
+        44
+      ]
+    ],
+    "yearly": {
+      "2020": 5,
+      "2021": 11,
+      "2022": 13,
+      "2023": 19,
+      "2024": 53,
+      "2025": 137,
+      "2026": 30
     }
   },
   {
     "c": "마카오",
     "code": "MO",
-    "papers": 209,
-    "cites": 1158,
+    "papers": 265,
+    "cites": 2053,
     "orgs": [
       "City University of Macau",
       "University of Macau",
@@ -2718,104 +3798,105 @@
     "keywords": [
       [
         "Computer Science",
-        253
+        338
       ],
       [
         "AI (general)",
-        159
+        220
       ],
       [
         "Materials Science",
-        155
-      ],
-      [
-        "Graph",
-        135
+        210
       ],
       [
         "Composite",
-        131
+        177
+      ],
+      [
+        "Graph",
+        149
       ],
       [
         "Cementitious",
-        109
+        121
+      ],
+      [
+        "Geology",
+        102
+      ],
+      [
+        "Geotechnical Engineering",
+        85
+      ],
+      [
+        "Chemistry",
+        76
+      ],
+      [
+        "Machine Learning",
+        73
+      ],
+      [
+        "Structural Engineering",
+        72
       ],
       [
         "Architectural Engineering",
         67
       ],
       [
-        "Psychology",
-        62
-      ],
-      [
-        "Chemistry",
-        61
-      ],
-      [
         "Business",
-        54
+        65
       ],
       [
-        "Geotechnical Engineering",
-        53
-      ],
-      [
-        "Geology",
-        49
-      ],
-      [
-        "Structural Engineering",
-        47
-      ],
-      [
-        "Machine Learning",
-        40
-      ],
-      [
-        "Polymer",
-        40
+        "Psychology",
+        63
       ],
       [
         "Environmental Science",
-        40
-      ],
-      [
-        "Compressive Strength",
-        34
-      ],
-      [
-        "Architecture",
-        33
+        59
       ],
       [
         "Data Mining",
-        32
+        56
+      ],
+      [
+        "Fiber",
+        49
+      ],
+      [
+        "Polymer",
+        45
       ],
       [
         "Metallurgy",
-        32
+        44
+      ],
+      [
+        "Algorithm",
+        39
       ]
     ],
     "yearly": {
-      "2021": 4,
-      "2022": 5,
-      "2023": 5,
-      "2024": 19,
-      "2025": 121,
-      "2026": 55
+      "2020": 2,
+      "2021": 10,
+      "2022": 12,
+      "2023": 10,
+      "2024": 31,
+      "2025": 139,
+      "2026": 61
     }
   },
   {
-    "c": "벨기에",
-    "code": "BE",
-    "papers": 199,
-    "cites": 2617,
+    "c": "JO",
+    "code": "JO",
+    "papers": 225,
+    "cites": 4911,
     "orgs": [
-      "Ghent University",
-      "KU Leuven",
-      "University of Antwerp",
-      "Hasselt University"
+      "Jordan University of Science and Technology",
+      "University of Jordan",
+      "Yarmouk University",
+      "Hashemite University"
     ],
     "tech": [
       "Materials Science",
@@ -2825,1496 +3906,417 @@
     "keywords": [
       [
         "Materials Science",
-        250
+        226
       ],
       [
         "Composite",
-        211
+        208
       ],
       [
         "Computer Science",
-        190
+        183
       ],
       [
         "Structural Engineering",
-        108
+        142
       ],
       [
-        "Geology",
+        "Business",
+        78
+      ],
+      [
+        "Compressive Strength",
+        76
+      ],
+      [
+        "Graph",
         75
       ],
       [
-        "Cementitious",
+        "AI (general)",
+        75
+      ],
+      [
+        "Geology",
         73
       ],
       [
         "Environmental Science",
-        72
-      ],
-      [
-        "AI (general)",
         61
       ],
       [
-        "Geotechnical Engineering",
-        57
+        "Machine Learning",
+        55
       ],
       [
-        "Architectural Engineering",
+        "Geotechnical Engineering",
         53
       ],
       [
-        "Chemistry",
-        52
+        "Cementitious",
+        51
       ],
       [
-        "Metallurgy",
+        "FEM",
         49
       ],
       [
-        "Mechanical Engineering",
-        44
+        "Statistics",
+        46
       ],
       [
-        "Construction Engineering",
-        40
+        "Chemistry",
+        45
       ],
       [
-        "Compressive Strength",
+        "Stiffness",
+        39
+      ],
+      [
+        "Reinforced Concrete",
         38
       ],
       [
-        "Mortar",
-        36
+        "Process Management",
+        38
       ],
       [
-        "Chemical Engineering",
-        33
-      ],
-      [
-        "Engineering Drawing",
-        31
-      ],
-      [
-        "Building Energy",
-        30
-      ],
-      [
-        "Systems Engineering",
-        28
+        "Reinforcement",
+        37
       ]
     ],
     "yearly": {
       "2020": 14,
-      "2021": 7,
-      "2022": 14,
-      "2023": 7,
-      "2024": 28,
-      "2025": 97,
-      "2026": 32
-    }
-  },
-  {
-    "c": "뉴질랜드",
-    "code": "NZ",
-    "papers": 196,
-    "cites": 4001,
-    "orgs": [
-      "University of Auckland",
-      "Massey University",
-      "Auckland University of Technology",
-      "University of Canterbury"
-    ],
-    "tech": [
-      "Computer Science",
-      "AI (general)",
-      "Graph"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        333
-      ],
-      [
-        "AI (general)",
-        115
-      ],
-      [
-        "Graph",
-        105
-      ],
-      [
-        "Materials Science",
-        104
-      ],
-      [
-        "Structural Engineering",
-        99
-      ],
-      [
-        "Systems Engineering",
-        78
-      ],
-      [
-        "Construction Engineering",
-        78
-      ],
-      [
-        "Business",
-        77
-      ],
-      [
-        "Knowledge Mgmt",
-        76
-      ],
-      [
-        "Composite",
-        72
-      ],
-      [
-        "Process Management",
-        65
-      ],
-      [
-        "Architectural Engineering",
-        59
-      ],
-      [
-        "Geology",
-        47
-      ],
-      [
-        "BIM",
-        46
-      ],
-      [
-        "Data Science",
-        45
-      ],
-      [
-        "Archaeological Context",
-        44
-      ],
-      [
-        "Environmental Science",
-        43
-      ],
-      [
-        "Human-Computer Interaction",
-        42
-      ],
-      [
-        "Psychology",
-        40
-      ],
-      [
-        "Process (Computing)",
-        38
-      ]
-    ],
-    "yearly": {
-      "2020": 13,
-      "2021": 10,
-      "2022": 12,
-      "2023": 18,
-      "2024": 28,
-      "2025": 88,
-      "2026": 27
-    }
-  },
-  {
-    "c": "스위스",
-    "code": "CH",
-    "papers": 195,
-    "cites": 4155,
-    "orgs": [
-      "ETH Zurich",
-      "École Polytechnique Fédérale de Lausanne",
-      "Infrastructure Management Consultants (Switzerland)",
-      "Swiss Federal Laboratories for Materials Science and Technology"
-    ],
-    "tech": [
-      "Computer Science",
-      "AI (general)",
-      "Structural Engineering"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        384
-      ],
-      [
-        "AI (general)",
-        165
-      ],
-      [
-        "Structural Engineering",
-        115
-      ],
-      [
-        "Materials Science",
-        109
-      ],
-      [
-        "Mechanical Engineering",
-        90
-      ],
-      [
-        "Process (Computing)",
-        77
-      ],
-      [
-        "Construction Engineering",
-        70
-      ],
-      [
-        "Systems Engineering",
-        69
-      ],
-      [
-        "Architectural Engineering",
-        67
-      ],
-      [
-        "Composite",
-        61
-      ],
-      [
-        "Machine Learning",
-        58
-      ],
-      [
-        "Engineering Drawing",
-        56
-      ],
-      [
-        "Environmental Science",
-        52
-      ],
-      [
-        "Computer Vision",
-        50
-      ],
-      [
-        "Geotechnical Engineering",
-        44
-      ],
-      [
-        "Construction Automation",
-        42
-      ],
-      [
-        "Robotics",
-        40
-      ],
-      [
-        "Graph",
-        39
-      ],
-      [
-        "Business",
-        39
-      ],
-      [
-        "Simulation",
-        37
-      ]
-    ],
-    "yearly": {
-      "2020": 23,
-      "2021": 25,
-      "2022": 26,
-      "2023": 18,
-      "2024": 28,
-      "2025": 58,
-      "2026": 17
-    }
-  },
-  {
-    "c": "스웨덴",
-    "code": "SE",
-    "papers": 193,
-    "cites": 2616,
-    "orgs": [
-      "KTH Royal Institute of Technology",
-      "Luleå University of Technology",
-      "Chalmers University of Technology",
-      "University of Gävle"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "AI (general)"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        249
-      ],
-      [
-        "Materials Science",
-        102
-      ],
-      [
-        "AI (general)",
-        93
-      ],
-      [
-        "Environmental Science",
-        81
-      ],
-      [
-        "Business",
-        75
-      ],
-      [
-        "Graph",
-        74
-      ],
-      [
-        "Composite",
-        74
-      ],
-      [
-        "Architectural Engineering",
-        66
-      ],
-      [
-        "Systems Engineering",
-        64
-      ],
-      [
-        "Structural Engineering",
-        62
-      ],
-      [
-        "Geology",
-        45
-      ],
-      [
-        "Waste Management",
-        43
-      ],
-      [
-        "Geotechnical Engineering",
-        43
-      ],
-      [
-        "Manufacturing Engineering",
-        38
-      ],
-      [
-        "Psychology",
-        37
-      ],
-      [
-        "Process Management",
-        36
-      ],
-      [
-        "Construction Engineering",
-        35
-      ],
-      [
-        "Human-Computer Interaction",
-        35
-      ],
-      [
-        "Production Economics",
-        32
-      ],
-      [
-        "Economics",
-        31
-      ]
-    ],
-    "yearly": {
-      "2020": 9,
-      "2021": 15,
-      "2022": 18,
-      "2023": 18,
-      "2024": 33,
-      "2025": 76,
-      "2026": 24
-    }
-  },
-  {
-    "c": "태국",
-    "code": "TH",
-    "papers": 186,
-    "cites": 1086,
-    "orgs": [
-      "Chulalongkorn University",
-      "Suranaree University of Technology",
-      "King Mongkut's Institute of Technology Ladkrabang",
-      "Thammasat University"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Computer Science"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        329
-      ],
-      [
-        "Composite",
-        289
-      ],
-      [
-        "Computer Science",
-        201
-      ],
-      [
-        "Structural Engineering",
-        162
-      ],
-      [
-        "Compressive Strength",
-        155
-      ],
-      [
-        "Cementitious",
-        154
-      ],
-      [
-        "Environmental Science",
-        134
-      ],
-      [
-        "Graph",
-        103
-      ],
-      [
-        "Geotechnical Engineering",
-        92
-      ],
-      [
-        "AI (general)",
-        82
-      ],
-      [
-        "Aggregate (Composite)",
-        80
-      ],
-      [
-        "Business",
-        77
-      ],
-      [
-        "Waste Management",
-        72
-      ],
-      [
-        "Mortar",
-        66
-      ],
-      [
-        "Fly Ash",
-        65
-      ],
-      [
-        "Transport Engineering",
-        55
-      ],
-      [
-        "UTS",
-        54
-      ],
-      [
-        "Architectural Engineering",
-        53
-      ],
-      [
-        "Geology",
-        52
-      ],
-      [
-        "Durability",
-        52
-      ]
-    ],
-    "yearly": {
-      "2020": 7,
-      "2021": 8,
-      "2022": 8,
-      "2023": 5,
-      "2024": 17,
-      "2025": 95,
-      "2026": 46
-    }
-  },
-  {
-    "c": "파키스탄",
-    "code": "PK",
-    "papers": 176,
-    "cites": 2013,
-    "orgs": [
-      "National University of Sciences and Technology",
-      "University of Engineering and Technology Lahore",
-      "University of Engineering and Technology Taxila",
-      "COMSATS University Islamabad"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Composite"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        173
-      ],
-      [
-        "Materials Science",
-        172
-      ],
-      [
-        "Composite",
-        140
-      ],
-      [
-        "Structural Engineering",
-        87
-      ],
-      [
-        "Environmental Science",
-        82
-      ],
-      [
-        "AI (general)",
-        70
-      ],
-      [
-        "Business",
-        69
-      ],
-      [
-        "Cementitious",
-        67
-      ],
-      [
-        "Compressive Strength",
-        65
-      ],
-      [
-        "Waste Management",
-        57
-      ],
-      [
-        "Architectural Engineering",
-        56
-      ],
-      [
-        "Geotechnical Engineering",
-        51
-      ],
-      [
-        "Construction Engineering",
-        50
-      ],
-      [
-        "Operations Management",
-        48
-      ],
-      [
-        "Graph",
-        44
-      ],
-      [
-        "Machine Learning",
-        42
-      ],
-      [
-        "Data Mining",
-        40
-      ],
-      [
-        "BIM",
-        36
-      ],
-      [
-        "Psychology",
-        35
-      ],
-      [
-        "Process (Computing)",
-        34
-      ]
-    ],
-    "yearly": {
-      "2020": 7,
-      "2021": 11,
-      "2022": 12,
-      "2023": 9,
-      "2024": 25,
-      "2025": 76,
-      "2026": 36
-    }
-  },
-  {
-    "c": "DK",
-    "code": "DK",
-    "papers": 146,
-    "cites": 2239,
-    "orgs": [
-      "Technical University of Denmark",
-      "Aarhus University",
-      "Aalborg University",
-      "Aarhus School of Architecture"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Environmental Science"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        261
-      ],
-      [
-        "Materials Science",
-        97
-      ],
-      [
-        "Environmental Science",
-        80
-      ],
-      [
-        "Architectural Engineering",
-        77
-      ],
-      [
-        "AI (general)",
-        75
-      ],
-      [
-        "Systems Engineering",
-        69
-      ],
-      [
-        "Composite",
-        68
-      ],
-      [
-        "Software Engineering",
-        60
-      ],
-      [
-        "Business",
-        56
-      ],
-      [
-        "Mechanical Engineering",
-        47
-      ],
-      [
-        "Structural Engineering",
-        44
-      ],
-      [
-        "Graph",
-        44
-      ],
-      [
-        "Cementitious",
-        43
-      ],
-      [
-        "Risk Analysis (Engineering)",
-        41
-      ],
-      [
-        "Process (Computing)",
-        40
-      ],
-      [
-        "Chemistry",
-        39
-      ],
-      [
-        "Construction Automation",
-        38
-      ],
-      [
-        "BIM",
-        35
-      ],
-      [
-        "Process Management",
-        35
-      ],
-      [
-        "Architecture",
-        33
-      ]
-    ],
-    "yearly": {
-      "2020": 11,
-      "2021": 17,
-      "2022": 13,
-      "2023": 8,
-      "2024": 18,
-      "2025": 50,
-      "2026": 29
-    }
-  },
-  {
-    "c": "IQ",
-    "code": "IQ",
-    "papers": 144,
-    "cites": 1213,
-    "orgs": [
-      "Salahaddin University-Erbil",
-      "University of Baghdad",
-      "Sulaimani Polytechnic University",
-      "University of Kerbala"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Computer Science"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        171
-      ],
-      [
-        "Composite",
-        138
-      ],
-      [
-        "Computer Science",
-        110
-      ],
-      [
-        "Structural Engineering",
-        106
-      ],
-      [
-        "Environmental Science",
-        71
-      ],
-      [
-        "Compressive Strength",
-        62
-      ],
-      [
-        "Graph",
-        59
-      ],
-      [
-        "AI (general)",
-        58
-      ],
-      [
-        "Mechanical Engineering",
-        54
-      ],
-      [
-        "Geology",
-        46
-      ],
-      [
-        "Machine Learning",
-        39
-      ],
-      [
-        "Statistics",
-        36
-      ],
-      [
-        "Building Energy",
-        35
-      ],
-      [
-        "Neural Network",
-        34
-      ],
-      [
-        "Business",
-        33
-      ],
-      [
-        "Waste Management",
-        31
-      ],
-      [
-        "Chemistry",
-        29
-      ],
-      [
-        "Aggregate (Composite)",
-        29
-      ],
-      [
-        "Architectural Engineering",
-        28
-      ],
-      [
-        "Thermal",
-        25
-      ]
-    ],
-    "yearly": {
-      "2020": 7,
-      "2021": 5,
-      "2022": 5,
-      "2023": 12,
-      "2024": 27,
-      "2025": 57,
-      "2026": 31
-    }
-  },
-  {
-    "c": "CL",
-    "code": "CL",
-    "papers": 142,
-    "cites": 1541,
-    "orgs": [
-      "Pontificia Universidad Católica de Chile",
-      "University of Bío-Bío",
-      "Pontificia Universidad Católica de Valparaíso",
-      "Universidad de Santiago de Chile"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Structural Engineering"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        172
-      ],
-      [
-        "Materials Science",
-        172
-      ],
-      [
-        "Structural Engineering",
-        134
-      ],
-      [
-        "Composite",
-        127
-      ],
-      [
-        "Environmental Science",
-        83
-      ],
-      [
-        "Business",
-        68
-      ],
-      [
-        "Architectural Engineering",
-        65
-      ],
-      [
-        "Construction Engineering",
-        62
-      ],
-      [
-        "AI (general)",
-        56
-      ],
-      [
-        "Geotechnical Engineering",
-        53
-      ],
-      [
-        "Cementitious",
-        47
-      ],
-      [
-        "Compressive Strength",
-        47
-      ],
-      [
-        "Waste Management",
-        46
-      ],
-      [
-        "Sustainability",
-        44
-      ],
-      [
-        "Graph",
-        43
-      ],
-      [
-        "Thermal",
-        42
-      ],
-      [
-        "Building Energy",
-        42
-      ],
-      [
-        "Geology",
-        41
-      ],
-      [
-        "Operations Management",
-        35
-      ],
-      [
-        "Shear (Geology)",
-        35
-      ]
-    ],
-    "yearly": {
-      "2020": 10,
-      "2021": 6,
-      "2022": 9,
-      "2023": 8,
-      "2024": 16,
-      "2025": 73,
+      "2021": 27,
+      "2022": 48,
+      "2023": 25,
+      "2024": 38,
+      "2025": 53,
       "2026": 20
-    }
-  },
-  {
-    "c": "노르웨이",
-    "code": "NO",
-    "papers": 138,
-    "cites": 1417,
-    "orgs": [
-      "Norwegian University of Science and Technology",
-      "OsloMet – Oslo Metropolitan University",
-      "SINTEF",
-      "University of Stavanger"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Business"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        152
-      ],
-      [
-        "Materials Science",
-        64
-      ],
-      [
-        "Business",
-        62
-      ],
-      [
-        "AI (general)",
-        57
-      ],
-      [
-        "Environmental Science",
-        56
-      ],
-      [
-        "Architectural Engineering",
-        50
-      ],
-      [
-        "Composite",
-        48
-      ],
-      [
-        "Graph",
-        41
-      ],
-      [
-        "Geology",
-        39
-      ],
-      [
-        "Structural Engineering",
-        36
-      ],
-      [
-        "Cementitious",
-        36
-      ],
-      [
-        "Systems Engineering",
-        32
-      ],
-      [
-        "Geotechnical Engineering",
-        30
-      ],
-      [
-        "Process Management",
-        29
-      ],
-      [
-        "Knowledge Mgmt",
-        27
-      ],
-      [
-        "Compressive Strength",
-        24
-      ],
-      [
-        "Data Science",
-        23
-      ],
-      [
-        "Waste Management",
-        22
-      ],
-      [
-        "Process (Computing)",
-        21
-      ],
-      [
-        "Engineering Management",
-        20
-      ]
-    ],
-    "yearly": {
-      "2020": 7,
-      "2021": 3,
-      "2022": 13,
-      "2023": 14,
-      "2024": 17,
-      "2025": 58,
-      "2026": 26
-    }
-  },
-  {
-    "c": "방글라데시",
-    "code": "BD",
-    "papers": 137,
-    "cites": 868,
-    "orgs": [
-      "Southeast University",
-      "Ministry of Education",
-      "Khulna University of Engineering and Technology",
-      "Bangladesh University of Engineering and Technology"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Composite"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        163
-      ],
-      [
-        "Materials Science",
-        135
-      ],
-      [
-        "Composite",
-        117
-      ],
-      [
-        "AI (general)",
-        74
-      ],
-      [
-        "Waste Management",
-        57
-      ],
-      [
-        "Environmental Science",
-        55
-      ],
-      [
-        "Business",
-        44
-      ],
-      [
-        "Cementitious",
-        43
-      ],
-      [
-        "Structural Engineering",
-        42
-      ],
-      [
-        "Graph",
-        40
-      ],
-      [
-        "Metallurgy",
-        38
-      ],
-      [
-        "Compressive Strength",
-        37
-      ],
-      [
-        "Risk Analysis (Engineering)",
-        34
-      ],
-      [
-        "Asphalt",
-        33
-      ],
-      [
-        "Systems Engineering",
-        29
-      ],
-      [
-        "Machine Learning",
-        28
-      ],
-      [
-        "Architectural Engineering",
-        28
-      ],
-      [
-        "Psychology",
-        25
-      ],
-      [
-        "Fiber",
-        24
-      ],
-      [
-        "Knowledge Mgmt",
-        23
-      ]
-    ],
-    "yearly": {
-      "2020": 2,
-      "2021": 4,
-      "2022": 6,
-      "2023": 8,
-      "2024": 17,
-      "2025": 80,
-      "2026": 20
-    }
-  },
-  {
-    "c": "베트남",
-    "code": "VN",
-    "papers": 136,
-    "cites": 1971,
-    "orgs": [
-      "Vietnam National University Ho Chi Minh City",
-      "Ho Chi Minh City University of Technology",
-      "University of Transport and Communications",
-      "University of Da Nang"
-    ],
-    "tech": [
-      "Materials Science",
-      "Computer Science",
-      "Composite"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        161
-      ],
-      [
-        "Computer Science",
-        160
-      ],
-      [
-        "Composite",
-        135
-      ],
-      [
-        "Structural Engineering",
-        122
-      ],
-      [
-        "AI (general)",
-        68
-      ],
-      [
-        "Environmental Science",
-        56
-      ],
-      [
-        "Machine Learning",
-        54
-      ],
-      [
-        "Compressive Strength",
-        49
-      ],
-      [
-        "Algorithm",
-        47
-      ],
-      [
-        "Mathematical Optimization",
-        41
-      ],
-      [
-        "Geotechnical Engineering",
-        41
-      ],
-      [
-        "Fly Ash",
-        41
-      ],
-      [
-        "Geology",
-        39
-      ],
-      [
-        "Cementitious",
-        38
-      ],
-      [
-        "Graph",
-        35
-      ],
-      [
-        "Waste Management",
-        29
-      ],
-      [
-        "Chemistry",
-        29
-      ],
-      [
-        "Beam",
-        27
-      ],
-      [
-        "Neural Network",
-        26
-      ],
-      [
-        "UTS",
-        26
-      ]
-    ],
-    "yearly": {
-      "2020": 9,
-      "2021": 12,
-      "2022": 13,
-      "2023": 3,
-      "2024": 18,
-      "2025": 58,
-      "2026": 23
-    }
-  },
-  {
-    "c": "CZ",
-    "code": "CZ",
-    "papers": 125,
-    "cites": 409,
-    "orgs": [
-      "Czech Technical University in Prague",
-      "Brno University of Technology",
-      "VSB - Technical University of Ostrava",
-      "University of Chemistry and Technology, Prague"
-    ],
-    "tech": [
-      "Materials Science",
-      "Composite",
-      "Cementitious"
-    ],
-    "keywords": [
-      [
-        "Materials Science",
-        336
-      ],
-      [
-        "Composite",
-        297
-      ],
-      [
-        "Cementitious",
-        177
-      ],
-      [
-        "Metallurgy",
-        102
-      ],
-      [
-        "Waste Management",
-        97
-      ],
-      [
-        "Structural Engineering",
-        88
-      ],
-      [
-        "Compressive Strength",
-        78
-      ],
-      [
-        "Environmental Science",
-        76
-      ],
-      [
-        "Chemistry",
-        75
-      ],
-      [
-        "Graph",
-        68
-      ],
-      [
-        "Thermal",
-        61
-      ],
-      [
-        "Computer Science",
-        54
-      ],
-      [
-        "Porosity",
-        39
-      ],
-      [
-        "Chemical Engineering",
-        39
-      ],
-      [
-        "Mortar",
-        38
-      ],
-      [
-        "Raw Material",
-        35
-      ],
-      [
-        "Fly Ash",
-        29
-      ],
-      [
-        "Forensic Engineering",
-        28
-      ],
-      [
-        "Aggregate (Composite)",
-        27
-      ],
-      [
-        "Architectural Engineering",
-        25
-      ]
-    ],
-    "yearly": {
-      "2020": 2,
-      "2022": 4,
-      "2023": 2,
-      "2024": 13,
-      "2025": 69,
-      "2026": 35
     }
   },
   {
     "c": "남아공",
     "code": "ZA",
-    "papers": 119,
-    "cites": 1385,
+    "papers": 208,
+    "cites": 2842,
     "orgs": [
       "University of Johannesburg",
-      "Durban University of Technology",
       "Stellenbosch University",
-      "Nelson Mandela University"
+      "University of the Witwatersrand",
+      "Durban University of Technology"
     ],
     "tech": [
       "Business",
       "Computer Science",
-      "Graph"
+      "Knowledge Mgmt"
     ],
     "keywords": [
       [
         "Business",
-        125
+        227
       ],
       [
         "Computer Science",
-        121
-      ],
-      [
-        "Graph",
-        77
-      ],
-      [
-        "Construction Engineering",
-        57
-      ],
-      [
-        "Environmental Planning",
-        56
+        199
       ],
       [
         "Knowledge Mgmt",
-        53
-      ],
-      [
-        "Process Management",
-        52
-      ],
-      [
-        "Architectural Engineering",
-        49
-      ],
-      [
-        "Environmental Science",
-        46
+        114
       ],
       [
         "Materials Science",
-        40
+        107
       ],
       [
-        "Economics",
-        40
-      ],
-      [
-        "Environmental Resource Management",
-        36
+        "Process Management",
+        100
       ],
       [
         "Composite",
-        35
+        96
       ],
       [
-        "Statistics",
-        30
+        "Graph",
+        91
+      ],
+      [
+        "Economics",
+        87
+      ],
+      [
+        "Construction Engineering",
+        86
+      ],
+      [
+        "Environmental Science",
+        68
+      ],
+      [
+        "Architectural Engineering",
+        65
+      ],
+      [
+        "Environmental Planning",
+        62
       ],
       [
         "Engineering Management",
-        29
+        54
       ],
       [
         "Operations Management",
-        27
+        52
       ],
       [
-        "AI (general)",
-        27
+        "Cementitious",
+        51
       ],
       [
-        "Systems Engineering",
-        25
-      ],
-      [
-        "Risk Analysis (Engineering)",
-        25
+        "Waste Management",
+        44
       ],
       [
         "Construction Industry",
-        22
+        43
+      ],
+      [
+        "Psychology",
+        43
+      ],
+      [
+        "Compressive Strength",
+        42
+      ],
+      [
+        "Statistics",
+        41
       ]
     ],
     "yearly": {
-      "2020": 5,
-      "2021": 4,
-      "2022": 11,
-      "2023": 11,
-      "2024": 14,
-      "2025": 54,
-      "2026": 20
+      "2020": 16,
+      "2021": 15,
+      "2022": 28,
+      "2023": 22,
+      "2024": 28,
+      "2025": 71,
+      "2026": 28
+    }
+  },
+  {
+    "c": "러시아",
+    "code": "RU",
+    "papers": 207,
+    "cites": 2915,
+    "orgs": [
+      "Don State Technical University",
+      "Far Eastern Federal University",
+      "Ural Federal University",
+      "Peter the Great St. Petersburg Polytechnic University"
+    ],
+    "tech": [
+      "Materials Science",
+      "Composite",
+      "Computer Science"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        377
+      ],
+      [
+        "Composite",
+        319
+      ],
+      [
+        "Computer Science",
+        173
+      ],
+      [
+        "Structural Engineering",
+        156
+      ],
+      [
+        "Compressive Strength",
+        138
+      ],
+      [
+        "Cementitious",
+        117
+      ],
+      [
+        "Geology",
+        108
+      ],
+      [
+        "Environmental Science",
+        104
+      ],
+      [
+        "Mechanical Engineering",
+        86
+      ],
+      [
+        "Geotechnical Engineering",
+        81
+      ],
+      [
+        "Thermal",
+        75
+      ],
+      [
+        "Chemistry",
+        73
+      ],
+      [
+        "AI (general)",
+        58
+      ],
+      [
+        "Microstructure",
+        57
+      ],
+      [
+        "Fiber",
+        56
+      ],
+      [
+        "Chemical Engineering",
+        54
+      ],
+      [
+        "Flexural Strength",
+        53
+      ],
+      [
+        "UTS",
+        52
+      ],
+      [
+        "Waste Management",
+        47
+      ],
+      [
+        "Concrete",
+        47
+      ]
+    ],
+    "yearly": {
+      "2020": 6,
+      "2021": 14,
+      "2022": 32,
+      "2023": 34,
+      "2024": 27,
+      "2025": 70,
+      "2026": 24
+    }
+  },
+  {
+    "c": "CL",
+    "code": "CL",
+    "papers": 202,
+    "cites": 2368,
+    "orgs": [
+      "Pontificia Universidad Católica de Chile",
+      "University of Bío-Bío",
+      "Pontificia Universidad Católica de Valparaíso",
+      "Federico Santa María Technical University"
+    ],
+    "tech": [
+      "Materials Science",
+      "Computer Science",
+      "Composite"
+    ],
+    "keywords": [
+      [
+        "Materials Science",
+        242
+      ],
+      [
+        "Computer Science",
+        225
+      ],
+      [
+        "Composite",
+        193
+      ],
+      [
+        "Structural Engineering",
+        180
+      ],
+      [
+        "Environmental Science",
+        122
+      ],
+      [
+        "Business",
+        90
+      ],
+      [
+        "Geotechnical Engineering",
+        87
+      ],
+      [
+        "Geology",
+        86
+      ],
+      [
+        "Cementitious",
+        77
+      ],
+      [
+        "Architectural Engineering",
+        69
+      ],
+      [
+        "Compressive Strength",
+        67
+      ],
+      [
+        "Graph",
+        66
+      ],
+      [
+        "Construction Engineering",
+        65
+      ],
+      [
+        "Waste Management",
+        61
+      ],
+      [
+        "AI (general)",
+        60
+      ],
+      [
+        "Sustainability",
+        51
+      ],
+      [
+        "Building Energy",
+        49
+      ],
+      [
+        "Thermal",
+        47
+      ],
+      [
+        "Shear (Geology)",
+        44
+      ],
+      [
+        "Seismic",
+        37
+      ]
+    ],
+    "yearly": {
+      "2020": 17,
+      "2021": 17,
+      "2022": 16,
+      "2023": 18,
+      "2024": 29,
+      "2025": 83,
+      "2026": 22
     }
   }
 ]

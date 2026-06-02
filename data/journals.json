@@ -15,6 +15,11 @@
     "cites": 8143
   },
   {
+    "name": "Case Studies in Construction Materials",
+    "papers": 5777,
+    "cites": 74009
+  },
+  {
     "name": "Automation in Construction",
     "papers": 3453,
     "cites": 126523
@@ -30,6 +35,21 @@
     "cites": 19973
   },
   {
+    "name": "Journal of Rock Mechanics and Geotechnical Engineering",
+    "papers": 2045,
+    "cites": 37920
+  },
+  {
+    "name": "Journal of Structural Engineering",
+    "papers": 1949,
+    "cites": 25806
+  },
+  {
+    "name": "Engineering Construction & Architectural Management",
+    "papers": 1848,
+    "cites": 25524
+  },
+  {
     "name": "Frontiers in Built Environment",
     "papers": 1725,
     "cites": 15659
@@ -40,8 +60,33 @@
     "cites": 24355
   },
   {
+    "name": "Journal of Geotechnical and Geoenvironmental Engineering",
+    "papers": 1474,
+    "cites": 18679
+  },
+  {
+    "name": "Computer-Aided Civil and Infrastructure Engineering",
+    "papers": 1402,
+    "cites": 23871
+  },
+  {
+    "name": "ACI Materials Journal",
+    "papers": 562,
+    "cites": 2860
+  },
+  {
+    "name": "Journal of Computing in Civil Engineering",
+    "papers": 541,
+    "cites": 8431
+  },
+  {
     "name": "Journal of Information Technology in Construction",
     "papers": 355,
     "cites": 4517
+  },
+  {
+    "name": "Journal of Civil Engineering and Management",
+    "papers": 333,
+    "cites": 4025
   }
 ]
