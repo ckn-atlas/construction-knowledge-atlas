@@ -2524,7 +2524,7 @@ function fillJournals(){
         <div style="display:flex;flex-wrap:wrap;border-top:1px solid var(--line)">
           ${m.if2y?`<div class="journal-stat"><div class="val">${m.if2y.toFixed(2)}</div><div class="lbl">2yr IF (OpenAlex)</div></div>`:''}
           ${m.h_index?`<div class="journal-stat"><div class="val">${m.h_index}</div><div class="lbl">h-index</div></div>`:''}
-          ${j.cites?`<div class="journal-stat"><div class="val">${(j.cites/Math.max(j.papers,1)).toFixed(1)}</div><div class="lbl">Cites / Paper</div></div>`:''}
+          ${m.works && m.cites?`<div class="journal-stat"><div class="val">${(m.cites/Math.max(m.works,1)).toFixed(1)}</div><div class="lbl">Cites / Paper (all-time)</div></div>`:''}
           ${m.works?`<div class="journal-stat"><div class="val">${m.works.toLocaleString()}</div><div class="lbl">Total Papers (all time)</div></div>`:''}
           ${m.oa?`<div class="journal-stat"><div class="val" style="color:var(--accent2)">Open</div><div class="lbl">Access</div></div>`:''}
           ${subj?`<div class="journal-stat" style="align-items:flex-start"><div style="font-size:11px;color:var(--txt)">${subj}</div><div class="lbl">Subject Areas</div></div>`:''}
