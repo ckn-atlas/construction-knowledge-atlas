@@ -2894,6 +2894,10 @@ function fillEvo(){
 function _switchEvoView(){
   const isTree = _evoView === "tree";
   const isYear = _evoView === "year";
+  // 이전 뷰 정리
+  if(_evoSim){ _evoSim.stop(); _evoSim=null; }
+  document.getElementById("evoTimeline").innerHTML = "";
+  d3.select("#evoTimeline").selectAll("*").remove();
   document.getElementById("evoTitle").textContent =
     isTree ? T("title_evo") : isYear ? (`${T("nav_evo")} — Year by Year`) : "Technology Rank Trend";
   document.getElementById("evoTreeCtrl").style.display = isTree ? "block" : "none";
@@ -2952,20 +2956,18 @@ function renderEvoYear(year){
   const maxCount = items[0]?.[1]?.count || 1;
   const r = d => Math.max(18, Math.round(18 + (d.count/maxCount)*44));
 
-  /* SVG 초기화 (최초 1회) */
-  let svg = d3.select('#evoTimeline').select('svg.evo-yr-svg');
-  if(svg.empty()){
-    svg = d3.select('#evoTimeline').append('svg')
-      .attr('class','evo-yr-svg')
-      .style('width','100%')
-      .style('overflow','visible');
-    d3.select('#evoTimeline').append('div')
-      .attr('id','evoYearStat')
-      .style('font-size','12px')
-      .style('color','var(--muted)')
-      .style('margin-top','8px');
-  }
-  svg.attr('height', H);
+  /* SVG — 항상 새로 생성 (다른 뷰 잔재 제거) */
+  d3.select('#evoTimeline').selectAll('*').remove();
+  const svg = d3.select('#evoTimeline').append('svg')
+    .attr('class','evo-yr-svg')
+    .style('width','100%')
+    .style('overflow','visible')
+    .attr('height', H);
+  d3.select('#evoTimeline').append('div')
+    .attr('id','evoYearStat')
+    .style('font-size','12px')
+    .style('color','var(--muted)')
+    .style('margin-top','8px');
 
   /* D3 data join */
   const nodeData = items.map(([id, d]) => {
