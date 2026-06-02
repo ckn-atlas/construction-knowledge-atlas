@@ -2541,7 +2541,11 @@ function fillJournals(){
           ${m.oa_works&&m.works?`<div class="journal-stat"><div class="val" style="color:var(--accent2)">${Math.round(m.oa_works/m.works*100)}%</div><div class="lbl">OA Rate</div></div>`:''}
           ${m.apc_usd?`<div class="journal-stat"><div class="val">$${m.apc_usd.toLocaleString()}</div><div class="lbl">APC (USD)</div></div>`:''}
           ${m.first_year?`<div class="journal-stat"><div class="val">${m.first_year}</div><div class="lbl">Founded</div></div>`:''}
-          ${m.country?`<div class="journal-stat"><div class="val">${m.country}</div><div class="lbl">Country</div></div>`:''}
+          ${m.country?(()=>{
+            try{const cn=new Intl.DisplayNames(['en'],{type:'region'});
+            return `<div class="journal-stat"><div class="val" style="font-size:13px">${m.country} <span style="font-size:11px;color:var(--muted)">(${cn.of(m.country)})</span></div><div class="lbl">Country</div></div>`;}
+            catch(e){return `<div class="journal-stat"><div class="val">${m.country}</div><div class="lbl">Country</div></div>`;}
+          })():''}
         </div>
         <!-- ISSN + 배지 -->
         <div style="padding:8px 14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line)">
