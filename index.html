@@ -2543,9 +2543,11 @@ function fillJournals(){
           ${m.first_year?`<div class="journal-stat"><div class="val">${m.first_year}</div><div class="lbl">Founded</div></div>`:''}
           ${m.country?(()=>{
             try{const cn=new Intl.DisplayNames(['en'],{type:'region'});
-            return `<div class="journal-stat"><div class="val" style="font-size:13px">${m.country} <span style="font-size:11px;color:var(--muted)">(${cn.of(m.country)})</span></div><div class="lbl">Country</div></div>`;}
+            const fullName=cn.of(m.country);
+            return `<div class="journal-stat"><div class="val" style="font-size:13px">${m.country} <span style="font-size:11px;color:var(--muted)">(${fullName})</span></div><div class="lbl">Country</div></div>`;}
             catch(e){return `<div class="journal-stat"><div class="val">${m.country}</div><div class="lbl">Country</div></div>`;}
           })():''}
+          ${m.pub_city?`<div class="journal-stat"><div class="val" style="font-size:13px">${m.pub_city}</div><div class="lbl">Publisher City</div></div>`:''}
         </div>
         <!-- ISSN + 배지 -->
         <div style="padding:8px 14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line)">
