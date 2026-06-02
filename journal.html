@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Journal Profile — Construction Knowledge Atlas</title>
+<meta name="description" id="pageDesc" content="Journal impact factor, h-index, citation metrics and publication trends from Construction Knowledge Atlas.">
+<meta name="robots" content="index, follow">
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5331661212294614" crossorigin="anonymous"></script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HWFQQXWF66"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-HWFQQXWF66');
+</script>
+
+<style>
+:root {
+  --bg:      #0e1116;
+  --panel:   #161b22;
+  --panel2:  #1c2330;
+  --line:    #30363d;
+  --txt:     #e6edf3;
+  --muted:   #8b949e;
+  --accent:  #58a6ff;
+  --accent2: #3fb950;
+  --warn:    #d29922;
+  --header:  #161b22;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--txt);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ── HEADER ── */
+.site-header {
+  background: var(--header);
+  border-bottom: 1px solid var(--line);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.site-header a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.site-header a:hover { text-decoration: underline; }
+.breadcrumb {
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.breadcrumb span { color: var(--line); }
+
+/* ── AD SLOTS ── */
+#adTop {
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+  padding: 8px;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ad-side {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  z-index: 50;
+}
+#adLeft  { left: 8px; }
+#adRight { right: 8px; }
+.ad-side ins { display: block; }
+
+/* ── LAYOUT ── */
+.page-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+/* ── JOURNAL HERO ── */
+.journal-hero {
+  padding: 28px 0 20px;
+  border-bottom: 2px solid var(--line);
+  margin-bottom: 32px;
+}
+.journal-hero .jname {
+  font-size: clamp(24px, 5vw, 40px);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--txt);
+  margin-bottom: 10px;
+}
+.journal-hero .jmeta-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 12px;
+  align-items: center;
+}
+.journal-hero .jmeta-line b { color: var(--txt); }
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px 8px;
+  letter-spacing: .3px;
+}
+.badge-oa   { background: #1a4731; color: #3fb950; }
+.badge-doaj { background: #1a3a20; color: #56d364; }
+.badge-core { background: #1e3a5f; color: #90e0ef; }
+.badge-sub  { background: #2d2416; color: #d29922; }
+
+.issn-row {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.issn-row b { color: var(--txt); }
+
+.journal-site-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  color: var(--accent);
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  padding: 6px 14px;
+  transition: background .15s;
+}
+.journal-site-link:hover { background: rgba(88,166,255,.1); }
+
+/* ── STAT GRID ── */
+.section-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin-bottom: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.stat-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px 16px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.stat-card .s-val {
+  font-size: clamp(28px, 4vw, 38px);
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+.stat-card .s-val.green { color: var(--accent2); }
+.stat-card .s-val.warn  { color: var(--warn); }
+.stat-card .s-val.white { color: var(--txt); }
+.stat-card .s-lbl {
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.stat-card .s-note {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* ── CHART SECTION ── */
+.chart-section {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+.chart-section .s-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--txt);
+  margin-bottom: 16px;
+}
+.year-chart-wrap {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 160px;
+  padding-top: 28px;
+  position: relative;
+}
+.bar-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  position: relative;
+  min-width: 0;
+}
+.bar-col .b-count {
+  position: absolute;
+  bottom: calc(var(--pct) + 4px);
+  font-size: 10px;
+  color: var(--muted);
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bar-col .b-bar {
+  width: 100%;
+  background: var(--accent);
+  opacity: .75;
+  border-radius: 3px 3px 0 0;
+  height: var(--pct);
+  transition: opacity .2s;
+}
+.bar-col:hover .b-bar { opacity: 1; }
+.bar-col .b-year {
+  font-size: 9px;
+  color: var(--muted);
+  margin-top: 4px;
+  white-space: nowrap;
+}
+.chart-x-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 4px;
+  padding: 0 2px;
+}
+
+/* ── TOPICS ── */
+.topics-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.topic-tag {
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 13px;
+  color: var(--txt);
+}
+
+/* ── SUBJECT AREAS ── */
+.subject-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.subject-tag {
+  background: var(--panel);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  border-radius: 6px;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ── INFO TABLE ── */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 32px;
+  font-size: 14px;
+}
+.info-table tr { border-bottom: 1px solid var(--line); }
+.info-table td {
+  padding: 12px 8px;
+  vertical-align: top;
+}
+.info-table td:first-child {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  width: 160px;
+  padding-right: 16px;
+}
+.info-table td:last-child {
+  font-weight: 600;
+  color: var(--txt);
+}
+
+/* ── BACK BUTTON ── */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  text-decoration: none;
+  margin-bottom: 24px;
+  transition: color .15s;
+}
+.back-btn:hover { color: var(--txt); }
+
+/* ── FOOTER ── */
+.page-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.page-footer a { color: var(--accent); text-decoration: none; }
+
+/* ── NOT FOUND ── */
+#notFound {
+  text-align: center;
+  padding: 80px 20px;
+  display: none;
+}
+#notFound h2 { font-size: 24px; margin-bottom: 12px; color: var(--muted); }
+
+/* ── MOBILE ── */
+@media (max-width: 1200px) {
+  .ad-side { display: none; }
+}
+@media (max-width: 640px) {
+  .page-wrap { padding: 20px 14px 60px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); }
+  .info-table td:first-child { width: 110px; font-size: 11px; }
+  #adTop { min-height: 60px; }
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BANNER AD -->
+<div id="adTop">
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-5331661212294614"
+       data-ad-slot="auto"
+       data-ad-format="horizontal"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="/">🏗 Construction Knowledge Atlas</a>
+  <div class="breadcrumb">
+    <span>/</span>
+    <a href="/?tab=journals">Journals</a>
+    <span>/</span>
+    <span id="headerJournalName">Journal Profile</span>
+  </div>
+</header>
+
+<!-- LEFT AD -->
+<div class="ad-side" id="adLeft">
+  <ins class="adsbygoogle"
+       style="display:block;width:160px;height:600px"
+       data-ad-client="ca-pub-5331661212294614"
+       data-ad-slot="auto"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<!-- RIGHT AD -->
+<div class="ad-side" id="adRight">
+  <ins class="adsbygoogle"
+       style="display:block;width:160px;height:600px"
+       data-ad-client="ca-pub-5331661212294614"
+       data-ad-slot="auto"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="page-wrap" id="mainContent">
+
+  <div id="notFound">
+    <h2>Journal not found</h2>
+    <p>The requested journal could not be found in our database.</p>
+    <br>
+    <a href="/?tab=journals" style="color:var(--accent)">← Browse all journals</a>
+  </div>
+
+  <div id="journalProfile">
+    <a href="javascript:history.back()" class="back-btn">← Back</a>
+
+    <!-- HERO -->
+    <div class="journal-hero">
+      <div class="jname" id="jName">—</div>
+      <div class="jmeta-line" id="jMetaLine"></div>
+      <div class="issn-row" id="jISSN"></div>
+      <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px" id="jBadges"></div>
+      <a id="jSiteLink" href="#" target="_blank" class="journal-site-link" style="display:none">
+        🔗 Visit Journal Site →
+      </a>
+    </div>
+
+    <!-- KEY METRICS -->
+    <div class="section-title">Key Metrics</div>
+    <div class="stat-grid" id="statGrid"></div>
+
+    <!-- PAPERS PER YEAR CHART -->
+    <div class="chart-section" id="chartSection" style="display:none">
+      <div class="s-title">Papers Published per Year</div>
+      <div class="year-chart-wrap" id="yearChart"></div>
+      <div class="chart-x-labels" id="chartXLabels"></div>
+    </div>
+
+    <!-- SUBJECT AREAS -->
+    <div id="subjectSection" style="display:none">
+      <div class="section-title">Subject Areas</div>
+      <div class="subject-list" id="subjectList"></div>
+    </div>
+
+    <!-- RESEARCH TOPICS -->
+    <div id="topicsSection" style="display:none">
+      <div class="section-title">Research Topics</div>
+      <div class="topics-wrap" id="topicsWrap"></div>
+    </div>
+
+    <!-- JOURNAL INFO TABLE -->
+    <div class="section-title">Journal Information</div>
+    <table class="info-table" id="infoTable"></table>
+
+    <!-- FOOTER NOTE -->
+    <div class="page-footer">
+      Data source: <a href="https://openalex.org" target="_blank">OpenAlex</a> ·
+      IF = 2-year mean citedness (OpenAlex calculation, not official JCR Impact Factor) ·
+      Citations = lifetime cumulative count ·
+      <a href="/">← Return to Construction Knowledge Atlas</a>
+    </div>
+  </div>
+
+</div><!-- .page-wrap -->
+
+<script>
+// ── DATA LOAD ──
+async function loadMeta() {
+  try {
+    const r = await fetch('./data/journal_meta.json');
+    return await r.json();
+  } catch(e) { return {}; }
+}
+
+function getParam(key) {
+  return new URLSearchParams(window.location.search).get(key) || '';
+}
+
+function countryName(code) {
+  if (!code) return '';
+  try {
+    return new Intl.DisplayNames(['en'], {type:'region'}).of(code) || code;
+  } catch(e) { return code; }
+}
+
+function buildChart(counts) {
+  if (!counts || !counts.length) return;
+  document.getElementById('chartSection').style.display = '';
+  const sorted = [...counts].reverse(); // oldest → newest
+  const max = Math.max(...sorted.map(d => d.works), 1);
+  const wrap = document.getElementById('yearChart');
+  wrap.innerHTML = sorted.map(d => {
+    const pct = Math.max(4, Math.round(d.works / max * 100));
+    return `<div class="bar-col" style="--pct:${pct}%"
+      title="${d.year}: ${d.works.toLocaleString()} papers">
+      <span class="b-count">${d.works}</span>
+      <div class="b-bar"></div>
+      <span class="b-year">${d.year}</span>
+    </div>`;
+  }).join('');
+}
+
+function render(m) {
+  // ── PAGE TITLE / META ──
+  const title = `${m.name} — Impact Factor, h-index & Metrics | Construction Knowledge Atlas`;
+  document.title = title;
+  document.getElementById('pageTitle').textContent = title;
+  document.getElementById('pageDesc').setAttribute('content',
+    `${m.name}: IF=${m.if2y||'—'}, h-index=${m.h_index||'—'}, ${(m.works||0).toLocaleString()} papers. Detailed citation metrics and publication trends.`);
+  document.getElementById('headerJournalName').textContent = m.name || '—';
+
+  // ── HERO ──
+  document.getElementById('jName').textContent = m.name || '—';
+
+  // Meta line
+  const parts = [];
+  if (m.publisher) parts.push(`<b>${m.publisher}</b>`);
+  if (m.country)   parts.push(`${countryName(m.country)}`);
+  if (m.pub_city)  parts.push(`📍 ${m.pub_city}`);
+  if (m.first_year) parts.push(`Est. ${m.first_year}`);
+  document.getElementById('jMetaLine').innerHTML = parts.join('<span style="color:var(--line)"> · </span>');
+
+  // ISSN
+  if (m.issn && m.issn.length) {
+    document.getElementById('jISSN').innerHTML =
+      `ISSN: <b>${m.issn.join(' / ')}</b>`;
+  }
+
+  // Badges
+  const badges = [];
+  if (m.is_oa)   badges.push('<span class="badge badge-oa">Full Open Access</span>');
+  if (m.is_doaj) badges.push('<span class="badge badge-doaj">DOAJ</span>');
+  if (m.is_core) badges.push('<span class="badge badge-core">CORE</span>');
+  if (!m.is_oa)  badges.push('<span class="badge badge-sub">Subscription</span>');
+  document.getElementById('jBadges').innerHTML = badges.join('');
+
+  // Site link
+  if (m.homepage) {
+    const link = document.getElementById('jSiteLink');
+    link.href = m.homepage;
+    link.style.display = '';
+  }
+
+  // ── STAT GRID ──
+  const stats = [];
+  if (m.if2y)    stats.push({ val: m.if2y.toFixed(2), lbl: 'IF (2yr)', note: 'OpenAlex 2yr mean citedness', cls: '' });
+  if (m.h_index) stats.push({ val: m.h_index, lbl: 'h-index', note: 'Hirsch index', cls: '' });
+  if (m.i10_index) stats.push({ val: m.i10_index.toLocaleString(), lbl: 'i10-index', note: '≥10 citations', cls: 'white' });
+  if (m.works && m.cites)
+    stats.push({ val: (m.cites / Math.max(m.works,1)).toFixed(1), lbl: 'Cites / Paper', note: 'lifetime avg', cls: '' });
+  if (m.works)   stats.push({ val: m.works.toLocaleString(), lbl: 'Total Papers', note: 'all time', cls: 'white' });
+  if (m.cites)   stats.push({ val: m.cites.toLocaleString(), lbl: 'Total Citations', note: 'cumulative', cls: 'white' });
+  if (m.oa_works && m.works)
+    stats.push({ val: Math.round(m.oa_works / m.works * 100) + '%', lbl: 'OA Rate', note: 'open access', cls: 'green' });
+  if (m.apc_usd) stats.push({ val: '$' + m.apc_usd.toLocaleString(), lbl: 'APC', note: 'article processing charge', cls: 'warn' });
+
+  document.getElementById('statGrid').innerHTML = stats.map(s =>
+    `<div class="stat-card">
+      <div class="s-val ${s.cls}">${s.val}</div>
+      <div class="s-lbl">${s.lbl}</div>
+      <div class="s-note">${s.note}</div>
+    </div>`
+  ).join('');
+
+  // ── CHART ──
+  buildChart(m.counts_by_year);
+
+  // ── SUBJECTS ──
+  const subjects = m.subjects || [];
+  if (subjects.length) {
+    document.getElementById('subjectSection').style.display = '';
+    document.getElementById('subjectList').innerHTML =
+      subjects.map(s => `<span class="subject-tag">${s}</span>`).join('');
+  }
+
+  // ── TOPICS ──
+  if (m.topics && m.topics.length) {
+    document.getElementById('topicsSection').style.display = '';
+    document.getElementById('topicsWrap').innerHTML =
+      m.topics.map(t => `<span class="topic-tag">${t}</span>`).join('');
+  }
+
+  // ── INFO TABLE ──
+  const rows = [];
+  if (m.publisher)   rows.push(['Publisher', m.publisher]);
+  if (m.country)     rows.push(['Country', `${m.country} (${countryName(m.country)})`]);
+  if (m.pub_city)    rows.push(['Publisher City', m.pub_city]);
+  if (m.first_year)  rows.push(['Founded', m.first_year]);
+  if (m.last_year)   rows.push(['Last Published', m.last_year]);
+  if (m.issn && m.issn.length) rows.push(['ISSN', m.issn.join(' / ')]);
+  if (m.homepage)    rows.push(['Homepage', `<a href="${m.homepage}" target="_blank" style="color:var(--accent)">${m.homepage}</a>`]);
+  if (m.apc_usd) {
+    const prices = (m.apc_prices || []).map(p => `${p.currency} ${p.price.toLocaleString()}`).join(' · ');
+    rows.push(['APC', prices || `USD ${m.apc_usd.toLocaleString()}`]);
+  }
+
+  document.getElementById('infoTable').innerHTML = rows.map(([k,v]) =>
+    `<tr><td>${k}</td><td>${v}</td></tr>`
+  ).join('');
+}
+
+// ── INIT ──
+(async () => {
+  const meta = await loadMeta();
+
+  // URL 파라미터: ?issn=0926-5805 또는 ?name=automation+in+construction
+  let issn = getParam('issn');
+  const nameParam = getParam('name').toLowerCase();
+
+  let journal = null;
+  if (issn && meta[issn]) {
+    journal = meta[issn];
+  } else if (nameParam) {
+    journal = Object.values(meta).find(m =>
+      (m.name || '').toLowerCase().includes(nameParam) ||
+      nameParam.includes((m.name || '').toLowerCase().slice(0, 10))
+    );
+  }
+
+  if (!journal) {
+    document.getElementById('journalProfile').style.display = 'none';
+    document.getElementById('notFound').style.display = '';
+    return;
+  }
+
+  render(journal);
+})();
+</script>
+
+</body>
+</html>
