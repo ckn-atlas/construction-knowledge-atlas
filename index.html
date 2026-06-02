@@ -228,6 +228,61 @@
   }
   #adBanner .ad-close:hover{color:#fff;background:#2a3a4d}
   #adBanner .ad-body{padding:14px;min-height:90px}
+
+  /* ── 모바일 반응형 ── */
+  @media (max-width: 768px) {
+    /* 헤더 */
+    header { padding:8px 12px; gap:8px; flex-wrap:wrap; }
+    header h1 { font-size:18px; }
+    .sub { display:none; }
+    #adHeader { display:none !important; }
+
+    /* 탭 네비게이션 가로 스크롤 */
+    nav { overflow-x:auto; flex-wrap:nowrap; gap:2px; -webkit-overflow-scrolling:touch; padding-bottom:2px; max-width:100%; }
+    nav button { padding:5px 10px; font-size:11px; white-space:nowrap; flex-shrink:0; }
+
+    /* 사이드바 숨기기 */
+    aside { display:none; }
+
+    /* 레이아웃 풀 너비 */
+    .layout { flex-direction:column; }
+    main { width:100%; }
+
+    /* 탭 뷰 padding 줄이기 */
+    .panel-title { font-size:16px; padding:12px 14px 4px; }
+    .panel-sub { font-size:11px; padding:0 14px 10px; }
+    .net-wrap { padding:0 12px; }
+    .evo { padding:16px 14px; }
+
+    /* 카드 그리드 모바일 1열 */
+    #latestGrid > div,
+    #impactList > div { grid-template-columns:1fr !important; }
+    .latest-card-img { height:120px; }
+
+    /* 국가별 분석 */
+    #view-country { overflow-y:auto; }
+    .map-wrap { min-height:200px; }
+    .ctry-side { width:100%; }
+
+    /* 기관 네트워크 탭 */
+    #netGraph { height:340px !important; }
+
+    /* 폰트 크기 축소 */
+    .paper h4 { font-size:12px; }
+    .metric-bd { font-size:10px; }
+
+    /* 좌측 광고 배너 숨기기 */
+    #adLeft { display:none !important; }
+
+    /* 타임바 */
+    .timebar { left:8px; right:8px; bottom:12px; font-size:11px; }
+    .timebar input { width:100px; }
+
+    /* 모드 토글 버튼 */
+    .mode-toggle { top:8px; right:8px; gap:2px; }
+    .mode-btn { padding:3px 8px; font-size:10px; }
+  }
+
 </style>
 </head>
 <body>
