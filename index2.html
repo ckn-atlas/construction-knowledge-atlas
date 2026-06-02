@@ -3425,7 +3425,7 @@ async function loadData(){
   if(journals && journals.length){ JOURNALS = journals; }
   const meta = await tryFetch("meta.json");
   if(meta){
-    const subEl = document.querySelector("header .sub");
+    const subEl = document.querySelector(".sub");
     if(subEl) subEl.textContent = `Live Data · ${meta.total_papers.toLocaleString()} papers · ${meta.generated_at} collected`;
   }
 }
