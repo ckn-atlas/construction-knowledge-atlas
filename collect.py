@@ -51,15 +51,26 @@ MAX_PAGES = 30          # 저널당 최대 페이지 확대 (2400 → 6000편)
 
 # ChatGPT 조사에서 확정한 1차 구축 저널 + ISSN (OpenAlex source 매칭용)
 JOURNALS = [
-    {"name": "Automation in Construction",                 "issn": "0926-5805"},
-    {"name": "Advanced Engineering Informatics",           "issn": "1474-0346"},
-    {"name": "Construction and Building Materials",        "issn": "0950-0618"},
-    {"name": "Journal of Building Engineering",            "issn": "2352-7102"},
-    {"name": "Buildings",                                  "issn": "2075-5309"},
-    {"name": "Frontiers in Built Environment",             "issn": "2297-3362"},
-    {"name": "KSCE Journal of Civil Engineering",          "issn": "1226-7988"},
-    {"name": "J. of Information Technology in Construction","issn": "1874-4753"},  # ITcon
-    {"name": "J. of Construction Engineering and Mgmt",    "issn": "0733-9364"},  # JCEM (ASCE)
+    # ── 기존 9개 ──
+    {"name": "Automation in Construction",                    "issn": "0926-5805"},
+    {"name": "Advanced Engineering Informatics",              "issn": "1474-0346"},
+    {"name": "Construction and Building Materials",           "issn": "0950-0618"},
+    {"name": "Journal of Building Engineering",               "issn": "2352-7102"},
+    {"name": "Buildings",                                     "issn": "2075-5309"},
+    {"name": "Frontiers in Built Environment",                "issn": "2297-3362"},
+    {"name": "KSCE Journal of Civil Engineering",             "issn": "1226-7988"},
+    {"name": "J. of Information Technology in Construction",  "issn": "1874-4753"},
+    {"name": "J. of Construction Engineering and Mgmt",       "issn": "0733-9364"},
+    # ── 신규 9개 ──
+    {"name": "Journal of Structural Engineering",             "issn": "0733-9445"},  # ASCE 구조
+    {"name": "Case Studies in Construction Materials",        "issn": "2214-5095"},  # 재료 사례
+    {"name": "Engineering Construction & Architectural Mgmt", "issn": "0969-9988"},  # 관리
+    {"name": "Journal of Computing in Civil Engineering",     "issn": "0887-3801"},  # BIM/AI
+    {"name": "Journal of Civil Engineering and Management",   "issn": "1392-3730"},  # 관리
+    {"name": "J. of Geotechnical and Geoenvironmental Eng",   "issn": "1090-0241"},  # 지반
+    {"name": "ACI Materials Journal",                         "issn": "0889-325X"},  # 콘크리트
+    {"name": "J. of Rock Mechanics and Geotechnical Eng",     "issn": "1674-7755"},  # 암반/지반
+    {"name": "Computer-Aided Civil & Infrastructure Eng",     "issn": "1093-9687"},  # AI/컴퓨팅
 ]
 
 # 기술 키워드 정규화 사전: OpenAlex concept/keyword -> 사이트 표준 노드명 (소문자 포함 매칭)
@@ -302,7 +313,7 @@ def fetch_journal(journal, since=None):
             "cursor": cursor,
             "select": ("id,title,publication_year,publication_date,cited_by_count,"
                        "fwci,open_access,authorships,concepts,keywords,doi,"
-                       "primary_location"),
+                       "primary_location,abstract_inverted_index"),
         }
         if MAILTO:
             params["mailto"] = MAILTO
