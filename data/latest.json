@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-02T03:31:32.950201",
+  "generated_at": "2026-06-02T19:31:43.579731",
   "date_from": "2026-05-03",
-  "total": 8,
+  "total": 11,
   "papers": [
     {
       "group": "AI",
@@ -56,6 +56,26 @@
         "photographer_url": "https://unsplash.com/@oqtave",
         "unsplash_url": "https://unsplash.com/photos/a-white-hard-hat-sitting-on-top-of-a-solar-panel-2ASQyjafflo"
       }
+    },
+    {
+      "group": "DT",
+      "group_label": "Digital Twin",
+      "title": "Energy-Saving Performance and Economic Evaluation of Window Performance Grades in Single-Detached Houses, South Korea",
+      "journal": "Buildings",
+      "date": "2026-05-28",
+      "fwci": 0.0,
+      "citations": 0,
+      "oa": true,
+      "doi": "https://doi.org/10.3390/buildings16112164",
+      "keywords": [
+        "Payback period",
+        "Economic evaluation",
+        "Baseline (sea)",
+        "Net present value",
+        "Environmental economics"
+      ],
+      "abstract": "Improving window performance is a key strategy for reducing heating energy demand in residential buildings; however, the economic feasibility of upgrading to higher performance grades remains uncertain, particularly for single-detached houses. This study quantitatively evaluates the energy-saving performance and economic feasibility of window performance grade improvements in single-detached houses in South Korea. Heating energy demand was estimated using ECO2-OD (Energy Conservation Optimization Tool for One-zone Dwelling), the national standard simulation tool adopted for the Building Energy Efficiency Certification (BEEC) and Zero Energy Building (ZEB) certification systems. Representative residential prototypes constructed in 1980, 1987, and 2001 were analyzed to reflect differences in envelope performance associated with construction vintage. Window upgrades from the baseline grade to Grades 3, 2, and 1 using polyvinyl chloride (PVC) windows were simulated under consistent building geometry and operating conditions. Heating energy demand reductions were converted into annual energy cost savings using market-based natural gas prices. Economic feasibility was assessed using annual indicator-based metrics—unit cost of energy saving (UCES), payback period (PBP), and return on investment (ROI)—as well as discounted cash flow-based life-cycle metrics, including net present value (NPV) and discounted payback period (DPB). The results show that heating energy demand decreases consistently with improved window performance across all construction years; however, marginal energy savings diminish at higher performance grades, while investment costs increase. Upgrading from the baseline to intermediate performance grades yields the most favorable economic outcomes, particularly for houses constructed in 2001, whereas upgrades to the highest performance grade often fail to achieve economic feasibility when time value is considered. These findings indicate that uniform application of the highest-grade windows may not be economically optimal. Unlike previous studies that mainly focused on thermal performance or case-specific retrofit outcomes, this study compares multiple window performance grades across construction-year-specific single-detached house prototypes under a unified economic evaluation framework. This study highlights the importance of construction year-specific and performance-tiered retrofit strategies and provides quantitative evidence to support cost-effective window retrofit policies for single-detached residential buildings.",
+      "image": null
     },
     {
       "group": "Eco",
@@ -134,28 +154,28 @@
     {
       "group": "Mgmt",
       "group_label": "Management",
-      "title": "An Extended Hybrid Decision-Making System for Prioritizing Construction Schemes: A Case Study of Hospital Projects in China During Public Health Emergencies",
-      "journal": "Buildings",
-      "date": "2026-05-09",
+      "title": "Instantaneous project controls as a source of innovation in design and construction: Exploring cumulative and transformative changes in complex systems development",
+      "journal": "Journal of Information Technology in Construction",
+      "date": "2026-05-06",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.3390/buildings16101878",
+      "doi": "https://doi.org/10.36680/j.itcon.2026.027",
       "keywords": [
-        "Risk analysis (engineering)",
-        "Fuzzy logic",
-        "Multiple-criteria decision analysis",
-        "Robustness (evolution)",
-        "Context (archaeology)"
+        "Transformative learning",
+        "Knowledge management",
+        "Grounded theory",
+        "Process management",
+        "Engineering"
       ],
-      "abstract": "As the construction industry faces increasing complexity and uncertainty, multi-criteria decision-making (MCDM) methods have been widely adopted in construction and project management. However, their application in the specific context of livelihood-related building projects during public health emergencies remains insufficiently explored. Existing MCDM approaches lack an integrated framework that combines qualitative factor identification with quantitative evaluation under emergency conditions. To address this gap, this study proposes an extended hybrid decision-making system based on multi-criteria decision-making theory, integrating grounded theory, the Fuzzy DEMATEL method, the CRITIC method, and the PFHWD-TOPSIS evaluation approach. Taking a hospital project in China during the COVID-19 pandemic as a case study, an evaluation indicator system tailored to livelihood-related building construction under public health emergencies is developed and a systematic analysis of the key influencing factors and scheme rankings is conducted. The results show that, besides traditional evaluation criteria, factors such as epidemic prevention and safety management play a critical role in construction decision-making under emergency conditions. Furthermore, the proposed hybrid MCDM framework significantly enhances the scientific rigor and robustness of scheme prioritization. This study not only provides theoretical support and practical guidance for livelihood-related building construction during public health emergencies but also offers valuable insights for optimizing decision-making in similar high-uncertainty contexts.",
+      "abstract": "Construction relies on rapid, reliable information sharing among distributed teams to enable project success. This article presents an empirical exploration of eleven organizations that serve as early adopters of advanced information technologies for instantaneous, i.e., real-time or near real-time, project controls and reporting capabilities. The study employed a grounded theory approach, in which analyses informed subsequent steps. Constructs were coded from the transcription of interviews with corporate managers affiliated with owner, contractor, software developer, and manufacturing organizations. Contextual and processual findings were leveraged to support a theoretical model that captured the changes and implementation steps for successful technology diffusion. The study also defined the drivers that demand and justify an instantaneous or frequent reporting capability in the design and construction sector. Results offer actionable insights. Organizations can more effectively adopt advanced project controls by proactively planning and embracing necessary organizational changes. Researchers should consider both contextual and processual factors to support effective exploration of technology integration in construction.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1666148723250-fffd75f148dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxSb2J1c3RuZXNzJTIwJTI4ZXZvbHV0aW9uJTI5JTIwRnV6enklMjBsb2dpYyUyME11bHRpcGxlLWNyaXRlcmlhJTIwZGVjaXNpb24lMjBhbmFseXNpc3xlbnwwfDB8fHwxNzgwMzM4NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1666148723250-fffd75f148dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxSb2J1c3RuZXNzJTIwJTI4ZXZvbHV0aW9uJTI5JTIwRnV6enklMjBsb2dpYyUyME11bHRpcGxlLWNyaXRlcmlhJTIwZGVjaXNpb24lMjBhbmFseXNpc3xlbnwwfDB8fHwxNzgwMzM4NTg1fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "graphical user interface",
-        "photographer": "kenny cheng",
-        "photographer_url": "https://unsplash.com/@kenny161616",
-        "unsplash_url": "https://unsplash.com/photos/graphical-user-interface-0uyL0GdasQg"
+        "url": "https://images.unsplash.com/photo-1732304721505-7777969ce2da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxHcm91bmRlZCUyMHRoZW9yeSUyMFRyYW5zZm9ybWF0aXZlJTIwbGVhcm5pbmclMjBFbXBpcmljYWwlMjByZXNlYXJjaHxlbnwwfDB8fHwxNzgwMzk2Mjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1732304721505-7777969ce2da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxHcm91bmRlZCUyMHRoZW9yeSUyMFRyYW5zZm9ybWF0aXZlJTIwbGVhcm5pbmclMjBFbXBpcmljYWwlMjByZXNlYXJjaHxlbnwwfDB8fHwxNzgwMzk2Mjk4fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "A stack of books sitting on top of a table",
+        "photographer": "Thorium",
+        "photographer_url": "https://unsplash.com/@232_038t",
+        "unsplash_url": "https://unsplash.com/photos/a-stack-of-books-sitting-on-top-of-a-table-sliRfO-e6Sg"
       }
     },
     {
@@ -186,6 +206,33 @@
       }
     },
     {
+      "group": "Sensing",
+      "group_label": "Sensing",
+      "title": "Quantification and Measurement of Combined Building–Tree Shadows via a Panoramic-Photo-Based Approach for Thermal Environment Assessment",
+      "journal": "Buildings",
+      "date": "2026-05-29",
+      "fwci": 0.0,
+      "citations": 0,
+      "oa": true,
+      "doi": "https://doi.org/10.3390/buildings16112190",
+      "keywords": [
+        "Shadow (psychology)",
+        "Microclimate",
+        "Mean squared error",
+        "Sky",
+        "Remote sensing"
+      ],
+      "abstract": "In hot and humid areas, combined shadows from buildings and trees are critical to imagery involving outdoor thermal environments, but are difficult to quantify in complex building–tree intertwined surroundings. This study introduces a shadow geographical ratio (SGR) to quantify combined shadow coverage and proposes a panoramic-photo-based measurement (PPM) framework to compute SGR. Field validation on the campus of Xiamen University, China, using UAV imagery as reference, gave a mean relative error of 1.69% and an RMSE of 0.03 for PPM-derived SGR. The results further showed that SGR was strongly correlated with the sky view factor (SVF) and exhibited significantly higher sensitivity to thermal environment and comfort indicators than SVF, except for relative humidity. Conversely, SVF correlated more strongly with thermal stability. The PPM framework features pedestrian-scale characterization, minimal hardware requirements, and robust error control. The SGR and PPM frameworks offer a practical method for shadow data acquisition in complex environments, supporting microclimate optimization in hot and humid climates. This approach facilitates field data collection and simulation calibration, advancing future studies of shadows.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1519342546310-fbf5a166716b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxTaGFkb3clMjAlMjhwc3ljaG9sb2d5JTI5JTIwTWljcm9jbGltYXRlJTIwTWVhbiUyMHNxdWFyZWQlMjBlcnJvcnxlbnwwfDB8fHwxNzgwMzk2MzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1519342546310-fbf5a166716b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxTaGFkb3clMjAlMjhwc3ljaG9sb2d5JTI5JTIwTWljcm9jbGltYXRlJTIwTWVhbiUyMHNxdWFyZWQlMjBlcnJvcnxlbnwwfDB8fHwxNzgwMzk2MzAwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "person in black skinny jeans standing on the field",
+        "photographer": "Daniel Polo",
+        "photographer_url": "https://unsplash.com/@danielppolo",
+        "unsplash_url": "https://unsplash.com/photos/person-in-black-skinny-jeans-standing-on-the-field-1-rl6UsJCgE"
+      }
+    },
+    {
       "group": "Structural",
       "group_label": "Structural",
       "title": "Structural Behavior of Prefabricated Concrete Wall Panels and Their Connections: A State-of-the-Art and Practice Review",
@@ -210,6 +257,33 @@
         "photographer": "Frantzou Fleurine",
         "photographer_url": "https://unsplash.com/@frantzou",
         "unsplash_url": "https://unsplash.com/photos/black-and-white-box-on-blue-surface-DjeM9dnYFH8"
+      }
+    },
+    {
+      "group": "Vision",
+      "group_label": "Vision",
+      "title": "Scan-to-BrIM Workflow for High-Detail Parametric Modelling of a Steel Pedestrian Structure from Point Clouds",
+      "journal": "Buildings",
+      "date": "2026-05-05",
+      "fwci": 0.0,
+      "citations": 0,
+      "oa": true,
+      "doi": "https://doi.org/10.3390/buildings16091838",
+      "keywords": [
+        "Point cloud",
+        "Parametric statistics",
+        "Workflow",
+        "Computer science",
+        "Python (programming language)"
+      ],
+      "abstract": "This paper presents a computationally feasible/time-effective Scan-to-BrIM workflow for generating a highly detailed digital model of a complex steel pedestrian bridge. The proposed methodology integrates rapid and accurate point cloud acquisition with advanced parametric modelling and structural information management. First, a high-resolution point cloud is produced using a fast survey strategy that ensures the geometric precision required for a faithful representation of the existing structure. Second, the point cloud is processed in Rhinoceros/Grasshopper, where a custom Python (version 3.13) algorithm automatically detects and generates reference planes containing the structural components, enabling the creation of a consistent and fully parametric BrIM model. The latter approach includes metric normalization, voxel-based downsampling, reliable under tested conditions ground and outlier removal, and PCA (Principal Component Analysis)-based reorientation, followed by guided slicing of the point cloud and projection of each slice onto its section plane. The proposed workflow achieved a geometric RMSE of 2.5 mm with a total processing time of 7.3 h. The resulting parametric model achieves geometric consistency with the source point cloud within an operational tolerance range of approximately 5–10 mm, in line with the requirements of structural applications. Finally, the model is organised and managed within the BrIM environment and then transferred to a downstream FEM environment for preliminary structural application. The workflow is tested on a case study of a 40-m steel pedestrian bridge located in central Italy. Results demonstrate that the integrated approach provides a reproducible and semi-automated solution that reduces manual intervention in Scan-to-BrIM processes for producing accurate parametric models of steel pedestrian bridges, supporting structural assessment, asset management, and future maintenance strategies.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxQb2ludCUyMGNsb3VkJTIwUGFyYW1ldHJpYyUyMHN0YXRpc3RpY3MlMjBXb3JrZmxvd3xlbnwwfDB8fHwxNzgwMzk2MzAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxQb2ludCUyMGNsb3VkJTIwUGFyYW1ldHJpYyUyMHN0YXRpc3RpY3MlMjBXb3JrZmxvd3xlbnwwfDB8fHwxNzgwMzk2MzAyfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "graphical user interface",
+        "photographer": "Deng Xiang",
+        "photographer_url": "https://unsplash.com/@dengxiangs",
+        "unsplash_url": "https://unsplash.com/photos/graphical-user-interface--WXQm_NTK0U"
       }
     }
   ]

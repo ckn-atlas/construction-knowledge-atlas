@@ -2445,8 +2445,9 @@ function renderImpactByTheme(){
     themeTop[g] = themeTop[g].slice(0,5);
   });
 
-  const themeOrder = Object.keys(GROUP_KO).filter(g => themeTop[g]?.length);
-  if(!themeOrder.length){
+  // GROUP_KO 순서 기준 11개 테마 전부 표시 (데이터 없는 테마도 포함)
+  const themeOrder = Object.keys(GROUP_KO);
+  if(!PAPERS.length){
     document.getElementById("impactList").innerHTML =
       "<div style='padding:40px;color:var(--muted);text-align:center'>No theme data available.</div>";
     return;
@@ -2473,6 +2474,13 @@ function renderImpactByTheme(){
       const papers = themeTop[g];
       const color = groupColor(g);
       const label = GROUP_KO[g] || g;
+      // 데이터 없는 테마 → 빈 카드
+      if(!papers || !papers.length){
+        return `<div style="background:var(--panel2);border:1px solid var(--line);border-top:3px solid ${color};border-radius:10px;padding:14px;opacity:.5">
+          <div style="font-size:11px;font-weight:700;color:${color};letter-spacing:.5px;text-transform:uppercase;margin-bottom:10px">${label}</div>
+          <div style="font-size:12px;color:var(--muted);text-align:center;padding:20px 0">No papers matched this theme</div>
+        </div>`;
+      }
       return `<div style="background:var(--panel2);border:1px solid var(--line);border-top:3px solid ${color};border-radius:10px;padding:14px">
         <div style="font-size:11px;font-weight:700;color:${color};letter-spacing:.5px;text-transform:uppercase;margin-bottom:10px">
           ${label} <span style="font-size:10px;color:var(--muted);font-weight:400">— Top ${papers.length}</span>

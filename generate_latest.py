@@ -19,17 +19,48 @@ JOURNAL_ISSNS = [
     "2075-5309","2297-3362","1226-7988","1874-4753","0733-9364",
 ]
 GROUP_MAP = {
-    "computer science":"AI","artificial intelligence":"AI","machine learning":"AI","deep learning":"AI",
+    # AI / ML
+    "computer science":"AI","artificial intelligence":"AI","machine learning":"AI",
+    "deep learning":"AI","neural network":"AI","natural language processing":"AI",
+    "large language model":"AI","reinforcement learning":"AI","data mining":"AI",
+    # Vision
     "computer vision":"Vision","image processing":"Vision","pattern recognition":"Vision",
+    "object detection":"Vision","point cloud":"Vision","3d reconstruction":"Vision",
+    "photogrammetry":"Vision","lidar":"Vision","slam":"Vision",
+    # Material
     "materials science":"Material","composite material":"Material","polymer":"Material",
+    "concrete":"Material","steel":"Material","cement":"Material",
+    "construction material":"Material","fiber reinforced":"Material",
+    # Structural
     "civil engineering":"Structural","structural engineering":"Structural","mechanics":"Structural",
+    "structural health monitoring":"Structural","finite element":"Structural",
+    "bridge":"Structural","seismic":"Structural","load":"Structural",
+    # Eco / Energy
     "environmental science":"Eco","sustainability":"Eco","green building":"Eco",
-    "construction management":"Mgmt","safety":"Mgmt",
-    "building information modeling":"BIM",
-    "geotechnical engineering":"Geo","geology":"Geo",
-    "robotics":"Robot","automation":"Robot",
-    "digital twin":"DT",
-    "sensor":"Sensing","remote sensing":"Sensing",
+    "energy efficiency":"Eco","life cycle assessment":"Eco","carbon emission":"Eco",
+    "indoor environment":"Eco","thermal comfort":"Eco",
+    # Management
+    "construction management":"Mgmt","safety":"Mgmt","project management":"Mgmt",
+    "risk management":"Mgmt","scheduling":"Mgmt","cost estimation":"Mgmt",
+    "lean construction":"Mgmt","supply chain":"Mgmt",
+    # BIM
+    "building information modeling":"BIM","bim":"BIM","ifc":"BIM",
+    "facility management":"BIM","smart building":"BIM",
+    # Geo
+    "geotechnical engineering":"Geo","geology":"Geo","soil":"Geo",
+    "foundation":"Geo","tunnel":"Geo","underground":"Geo","excavation":"Geo",
+    "slope":"Geo","pile":"Geo",
+    # Robotics
+    "robotics":"Robot","automation":"Robot","autonomous":"Robot",
+    "unmanned aerial vehicle":"Robot","drone":"Robot","uav":"Robot",
+    "construction robot":"Robot","exoskeleton":"Robot",
+    # Digital Twin
+    "digital twin":"DT","cyber-physical":"DT","simulation":"DT",
+    "virtual reality":"DT","augmented reality":"DT","mixed reality":"DT",
+    # Sensing / IoT
+    "sensor":"Sensing","remote sensing":"Sensing","iot":"Sensing",
+    "internet of things":"Sensing","wireless sensor":"Sensing",
+    "monitoring":"Sensing","accelerometer":"Sensing","strain gauge":"Sensing",
 }
 GROUP_KO = {
     "AI":"AI/ML","Vision":"Vision","Material":"Material","Structural":"Structural",
@@ -80,26 +111,19 @@ def fetch_unsplash(query):
         }
     except: return None
 
-def main():
-    args = sys.argv[1:]
-    if "--day" in args:
-        cutoff = str(datetime.now().date())
-    elif "--week" in args:
-        cutoff = str((datetime.now()-timedelta(days=7)).date())
-    else:
-        cutoff = str((datetime.now()-timedelta(days=30)).date())
+ALL_GROUPS = list(GROUP_KO.keys())  # 11개 테마
 
-    log(f"Querying OpenAlex from {cutoff} (has_abstract=true)...")
+def fetch_papers(cutoff):
     params = {
         "filter": f"primary_location.source.issn:{'|'.join(JOURNAL_ISSNS)},from_publication_date:{cutoff},has_abstract:true",
         "sort": "fwci:desc",
-        "per-page": 100,
+        "per-page": 200,
         "select": "id,title,publication_date,fwci,cited_by_count,doi,concepts,abstract_inverted_index,open_access,primary_location",
     }
     r = requests.get("https://api.openalex.org/works", params=params, timeout=30)
-    papers = r.json().get("results", [])
-    log(f"Found: {len(papers)} papers")
+    return r.json().get("results", [])
 
+def build_theme_top(papers):
     theme_top = {}
     for w in papers:
         g = get_group(w.get("concepts"))
@@ -108,6 +132,47 @@ def main():
         prev = theme_top.get(g)
         if not prev or fwci > (prev.get("fwci") or 0):
             theme_top[g] = w
+    return theme_top
+
+def main():
+    args = sys.argv[1:]
+    if "--day" in args:
+        days = 1
+    elif "--week" in args:
+        days = 7
+    else:
+        days = 30
+
+    cutoff = str((datetime.now()-timedelta(days=days)).date())
+    log(f"Querying OpenAlex from {cutoff} ({days}d, has_abstract=true)...")
+    papers = fetch_papers(cutoff)
+    log(f"Found: {len(papers)} papers (primary period)")
+    theme_top = build_theme_top(papers)
+
+    # 누락 테마 → 90일 fallback
+    missing = [g for g in ALL_GROUPS if g not in theme_top]
+    if missing:
+        log(f"Missing themes: {missing} → fallback 90d")
+        cutoff90 = str((datetime.now()-timedelta(days=90)).date())
+        papers90 = fetch_papers(cutoff90)
+        log(f"Found: {len(papers90)} papers (90d fallback)")
+        fallback_top = build_theme_top(papers90)
+        for g in missing:
+            if g in fallback_top:
+                theme_top[g] = fallback_top[g]
+                log(f"  [{g}] filled via fallback")
+
+    # 여전히 누락 → 365일 fallback
+    still_missing = [g for g in ALL_GROUPS if g not in theme_top]
+    if still_missing:
+        log(f"Still missing: {still_missing} → fallback 365d")
+        cutoff365 = str((datetime.now()-timedelta(days=365)).date())
+        papers365 = fetch_papers(cutoff365)
+        fallback365 = build_theme_top(papers365)
+        for g in still_missing:
+            if g in fallback365:
+                theme_top[g] = fallback365[g]
+                log(f"  [{g}] filled via 365d fallback")
 
     results = []
     for group, w in sorted(theme_top.items()):
