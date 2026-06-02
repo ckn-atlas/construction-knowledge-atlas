@@ -3593,6 +3593,7 @@ const I18N = {
   }
 };
 
+let _metaCache = null;
 let _lang = localStorage.getItem('ckn_lang') ||
             (navigator.language.startsWith('ko') ? 'ko' : 'en');
 
@@ -3612,6 +3613,9 @@ function applyLang(){
   if(typeof renderImpact === 'function' && PAPERS.length) renderImpact(_impactPeriod||'theme');
   if(typeof renderLatest === 'function' && LATEST) renderLatest();
   if(typeof fillSidebar === 'function') fillSidebar();
+  // data bar 재적용
+  const subEl2 = document.querySelector('.sub');
+  if(subEl2 && _metaCache) subEl2.textContent = T('live_data', _metaCache.n, _metaCache.d);
   // 토글 버튼 활성화
   document.querySelectorAll('.lang-btn').forEach(b=>{
     b.classList.toggle('active', b.dataset.lang===_lang);
@@ -3700,7 +3704,8 @@ async function loadData(){
   const meta = await tryFetch("meta.json");
   if(meta){
     const subEl = document.querySelector(".sub");
-    if(subEl) subEl.textContent = T('live_data', meta.total_papers.toLocaleString(), meta.generated_at);
+    _metaCache = {n: meta.total_papers.toLocaleString(), d: meta.generated_at};
+    if(subEl) subEl.textContent = T('live_data', _metaCache.n, _metaCache.d);
   }
 }
 
