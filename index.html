@@ -2562,8 +2562,8 @@ function fillJournals(){
         <!-- 연도별 논문수 미니 바 차트 -->
         ${m.counts_by_year&&m.counts_by_year.length?`<div style="padding:8px 14px;border-top:1px solid var(--line)">
           <div style="font-size:10px;color:var(--muted);margin-bottom:4px">Papers published per year</div>
-          <div style="display:flex;align-items:flex-end;gap:2px;height:120px;padding-top:20px">
-            ${[...m.counts_by_year].reverse().map(d=>{const mx=Math.max(...m.counts_by_year.map(x=>x.works));const pct=Math.round(d.works/mx*100);return '<div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;min-width:4px"><span style="font-size:8px;color:var(--muted);margin-bottom:2px;writing-mode:vertical-lr;transform:rotate(180deg)">'+d.works+'</span><div title="'+d.year+': '+d.works+' papers" style="width:100%;background:var(--accent);opacity:0.7;height:'+pct+'%;border-radius:2px 2px 0 0"></div></div>';}).join('')}
+          <div style="display:flex;align-items:flex-end;gap:2px;height:120px">
+            ${[...m.counts_by_year].reverse().map(d=>{const mx=Math.max(...m.counts_by_year.map(x=>x.works));const pct=Math.max(4,Math.round(d.works/mx*100));return '<div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;min-width:6px;position:relative"><span style="position:absolute;bottom:'+(pct+2)+'%;font-size:8px;color:var(--muted);white-space:nowrap;transform:translateX(-50%);left:50%">'+d.works+'</span><div title="'+d.year+': '+d.works+' papers" style="width:100%;background:var(--accent);opacity:0.7;height:'+pct+'%;border-radius:2px 2px 0 0"></div></div>';}).join('')}
           </div>
           <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--muted);margin-top:2px">
             <span>${[...m.counts_by_year].reverse()[0]?.year||''}</span>
