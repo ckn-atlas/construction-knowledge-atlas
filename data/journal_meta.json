@@ -1,200 +1,1988 @@
 {
   "0926-5805": {
+    "issn_l": "0926-5805",
+    "issn": [
+      "0926-5805",
+      "1872-7891"
+    ],
     "name": "Automation in Construction",
-    "publisher": "",
+    "publisher": "Elsevier BV",
+    "country": "NL",
+    "first_year": 1992,
+    "last_year": 2026,
+    "homepage": "https://www.journals.elsevier.com/automation-in-construction",
     "if2y": 10.64,
     "h_index": 237,
+    "i10_index": 4891,
     "works": 6828,
     "cites": 371839,
-    "oa": false,
-    "subjects": [],
-    "homepage": "https://www.journals.elsevier.com/automation-in-construction"
+    "oa_works": 1443,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": 4450,
+    "apc_prices": [
+      {
+        "price": 4450,
+        "currency": "USD"
+      },
+      {
+        "price": 4060,
+        "currency": "EUR"
+      },
+      {
+        "price": 3560,
+        "currency": "GBP"
+      },
+      {
+        "price": 500000,
+        "currency": "JPY"
+      }
+    ],
+    "topics": [
+      "BIM and Construction Integration",
+      "Infrastructure Maintenance and Monitoring",
+      "3D Surveying and Cultural Heritage",
+      "Occupational Health and Safety Research",
+      "Construction Project Management and Performance"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 270,
+        "oa": 71,
+        "cites": 109
+      },
+      {
+        "year": 2025,
+        "works": 717,
+        "oa": 221,
+        "cites": 4305
+      },
+      {
+        "year": 2024,
+        "works": 603,
+        "oa": 183,
+        "cites": 12504
+      },
+      {
+        "year": 2023,
+        "works": 453,
+        "oa": 141,
+        "cites": 17025
+      },
+      {
+        "year": 2022,
+        "works": 533,
+        "oa": 150,
+        "cites": 28297
+      },
+      {
+        "year": 2021,
+        "works": 506,
+        "oa": 148,
+        "cites": 31713
+      },
+      {
+        "year": 2020,
+        "works": 401,
+        "oa": 114,
+        "cites": 32671
+      },
+      {
+        "year": 2019,
+        "works": 307,
+        "oa": 71,
+        "cites": 28653
+      },
+      {
+        "year": 2018,
+        "works": 331,
+        "oa": 67,
+        "cites": 29967
+      },
+      {
+        "year": 2017,
+        "works": 224,
+        "oa": 49,
+        "cites": 22088
+      },
+      {
+        "year": 2016,
+        "works": 203,
+        "oa": 41,
+        "cites": 16930
+      },
+      {
+        "year": 2015,
+        "works": 170,
+        "oa": 30,
+        "cites": 14859
+      }
+    ]
   },
   "1474-0346": {
+    "issn_l": "1474-0346",
+    "issn": [
+      "1474-0346",
+      "1873-5320"
+    ],
     "name": "Advanced Engineering Informatics",
-    "publisher": "",
-    "if2y": 8.84,
+    "publisher": "Elsevier BV",
+    "country": "GB",
+    "first_year": 2002,
+    "last_year": 2026,
+    "homepage": "https://www.journals.elsevier.com/advanced-engineering-informatics",
+    "if2y": 8.835,
     "h_index": 144,
+    "i10_index": 2475,
     "works": 4463,
     "cites": 134271,
-    "oa": false,
-    "subjects": [],
-    "homepage": "https://www.journals.elsevier.com/advanced-engineering-informatics"
+    "oa_works": 747,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": 3570,
+    "apc_prices": [
+      {
+        "price": 3570,
+        "currency": "USD"
+      },
+      {
+        "price": 3260,
+        "currency": "EUR"
+      },
+      {
+        "price": 2860,
+        "currency": "GBP"
+      },
+      {
+        "price": 401130,
+        "currency": "JPY"
+      }
+    ],
+    "topics": [
+      "Manufacturing Process and Optimization",
+      "Machine Fault Diagnosis Techniques",
+      "BIM and Construction Integration",
+      "Infrastructure Maintenance and Monitoring",
+      "Fault Detection and Control Systems"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 506,
+        "oa": 97,
+        "cites": 190
+      },
+      {
+        "year": 2025,
+        "works": 1075,
+        "oa": 185,
+        "cites": 6600
+      },
+      {
+        "year": 2024,
+        "works": 674,
+        "oa": 89,
+        "cites": 13133
+      },
+      {
+        "year": 2023,
+        "works": 436,
+        "oa": 69,
+        "cites": 14041
+      },
+      {
+        "year": 2022,
+        "works": 298,
+        "oa": 50,
+        "cites": 11798
+      },
+      {
+        "year": 2021,
+        "works": 230,
+        "oa": 48,
+        "cites": 11781
+      },
+      {
+        "year": 2020,
+        "works": 156,
+        "oa": 36,
+        "cites": 9830
+      },
+      {
+        "year": 2019,
+        "works": 133,
+        "oa": 25,
+        "cites": 9061
+      },
+      {
+        "year": 2018,
+        "works": 113,
+        "oa": 23,
+        "cites": 6083
+      },
+      {
+        "year": 2017,
+        "works": 64,
+        "oa": 13,
+        "cites": 3786
+      },
+      {
+        "year": 2016,
+        "works": 72,
+        "oa": 17,
+        "cites": 4408
+      },
+      {
+        "year": 2015,
+        "works": 84,
+        "oa": 14,
+        "cites": 6174
+      }
+    ]
   },
   "0950-0618": {
+    "issn_l": "0950-0618",
+    "issn": [
+      "0950-0618",
+      "1879-0526"
+    ],
     "name": "Construction and Building Materials",
-    "publisher": "",
-    "if2y": 8.45,
+    "publisher": "Elsevier BV",
+    "country": "GB",
+    "first_year": 1987,
+    "last_year": 2026,
+    "homepage": "https://www.journals.elsevier.com/construction-and-building-materials",
+    "if2y": 8.454,
     "h_index": 345,
+    "i10_index": 34023,
     "works": 47851,
     "cites": 2069831,
-    "oa": false,
-    "subjects": [],
-    "homepage": "https://www.journals.elsevier.com/construction-and-building-materials"
+    "oa_works": 7002,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": 3780,
+    "apc_prices": [
+      {
+        "price": 3780,
+        "currency": "USD"
+      },
+      {
+        "price": 3450,
+        "currency": "EUR"
+      },
+      {
+        "price": 3030,
+        "currency": "GBP"
+      },
+      {
+        "price": 424720,
+        "currency": "JPY"
+      }
+    ],
+    "topics": [
+      "Concrete and Cement Materials Research",
+      "Innovative concrete reinforcement materials",
+      "Asphalt Pavement Performance Evaluation",
+      "Structural Behavior of Reinforced Concrete",
+      "Infrastructure Maintenance and Monitoring"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 1749,
+        "oa": 295,
+        "cites": 717
+      },
+      {
+        "year": 2025,
+        "works": 5219,
+        "oa": 1105,
+        "cites": 26233
+      },
+      {
+        "year": 2024,
+        "works": 4935,
+        "oa": 843,
+        "cites": 73675
+      },
+      {
+        "year": 2023,
+        "works": 4281,
+        "oa": 757,
+        "cites": 101533
+      },
+      {
+        "year": 2022,
+        "works": 3601,
+        "oa": 464,
+        "cites": 119399
+      },
+      {
+        "year": 2021,
+        "works": 3710,
+        "oa": 547,
+        "cites": 151745
+      },
+      {
+        "year": 2020,
+        "works": 3911,
+        "oa": 623,
+        "cites": 194294
+      },
+      {
+        "year": 2019,
+        "works": 3193,
+        "oa": 471,
+        "cites": 192043
+      },
+      {
+        "year": 2018,
+        "works": 2955,
+        "oa": 455,
+        "cites": 192997
+      },
+      {
+        "year": 2017,
+        "works": 2920,
+        "oa": 321,
+        "cites": 165088
+      },
+      {
+        "year": 2016,
+        "works": 2947,
+        "oa": 261,
+        "cites": 142896
+      },
+      {
+        "year": 2015,
+        "works": 1512,
+        "oa": 218,
+        "cites": 125666
+      }
+    ]
   },
   "2352-7102": {
+    "issn_l": "2352-7102",
+    "issn": [
+      "2352-7102"
+    ],
     "name": "Journal of Building Engineering",
-    "publisher": "",
-    "if2y": 5.91,
+    "publisher": "Elsevier BV",
+    "country": "GB",
+    "first_year": 2015,
+    "last_year": 2026,
+    "homepage": "https://www.journals.elsevier.com/journal-of-building-engineering",
+    "if2y": 5.913,
     "h_index": 149,
+    "i10_index": 8445,
     "works": 16361,
     "cites": 321700,
-    "oa": false,
-    "subjects": [],
-    "homepage": "https://www.journals.elsevier.com/journal-of-building-engineering"
+    "oa_works": 2917,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": 3050,
+    "apc_prices": [
+      {
+        "price": 3050,
+        "currency": "USD"
+      },
+      {
+        "price": 2910,
+        "currency": "EUR"
+      },
+      {
+        "price": 2550,
+        "currency": "GBP"
+      },
+      {
+        "price": 358430,
+        "currency": "JPY"
+      }
+    ],
+    "topics": [
+      "Concrete and Cement Materials Research",
+      "Innovative concrete reinforcement materials",
+      "Building Energy and Comfort Optimization",
+      "Structural Behavior of Reinforced Concrete",
+      "Seismic Performance and Analysis"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 1276,
+        "oa": 177,
+        "cites": 197
+      },
+      {
+        "year": 2025,
+        "works": 3387,
+        "oa": 672,
+        "cites": 9674
+      },
+      {
+        "year": 2024,
+        "works": 3297,
+        "oa": 637,
+        "cites": 37199
+      },
+      {
+        "year": 2023,
+        "works": 2592,
+        "oa": 452,
+        "cites": 53414
+      },
+      {
+        "year": 2022,
+        "works": 1811,
+        "oa": 279,
+        "cites": 53323
+      },
+      {
+        "year": 2021,
+        "works": 1825,
+        "oa": 321,
+        "cites": 61271
+      },
+      {
+        "year": 2020,
+        "works": 997,
+        "oa": 167,
+        "cites": 44305
+      },
+      {
+        "year": 2019,
+        "works": 485,
+        "oa": 85,
+        "cites": 25664
+      },
+      {
+        "year": 2018,
+        "works": 289,
+        "oa": 55,
+        "cites": 16350
+      },
+      {
+        "year": 2017,
+        "works": 184,
+        "oa": 32,
+        "cites": 9623
+      },
+      {
+        "year": 2016,
+        "works": 131,
+        "oa": 21,
+        "cites": 6056
+      },
+      {
+        "year": 2015,
+        "works": 87,
+        "oa": 19,
+        "cites": 4624
+      }
+    ]
   },
   "2075-5309": {
+    "issn_l": "2075-5309",
+    "issn": [
+      "2075-5309"
+    ],
     "name": "Buildings",
-    "publisher": "",
-    "if2y": 3.42,
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "country": "CH",
+    "first_year": 2011,
+    "last_year": 2026,
+    "homepage": "https://www.mdpi.com/journal/buildings",
+    "if2y": 3.417,
     "h_index": 96,
+    "i10_index": 4673,
     "works": 17982,
     "cites": 158433,
-    "oa": true,
-    "subjects": [],
-    "homepage": "https://www.mdpi.com/journal/buildings"
+    "oa_works": 17982,
+    "is_oa": true,
+    "is_doaj": true,
+    "is_core": true,
+    "apc_usd": 1949,
+    "apc_prices": [
+      {
+        "price": 1800,
+        "currency": "CHF"
+      }
+    ],
+    "topics": [
+      "Building Energy and Comfort Optimization",
+      "Structural Behavior of Reinforced Concrete",
+      "BIM and Construction Integration",
+      "Innovative concrete reinforcement materials",
+      "Concrete and Cement Materials Research"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 2017,
+        "oa": 2017,
+        "cites": 328
+      },
+      {
+        "year": 2025,
+        "works": 4640,
+        "oa": 4640,
+        "cites": 10666
+      },
+      {
+        "year": 2024,
+        "works": 4090,
+        "oa": 4090,
+        "cites": 25729
+      },
+      {
+        "year": 2023,
+        "works": 3140,
+        "oa": 3140,
+        "cites": 33764
+      },
+      {
+        "year": 2022,
+        "works": 2351,
+        "oa": 2351,
+        "cites": 38194
+      },
+      {
+        "year": 2021,
+        "works": 685,
+        "oa": 685,
+        "cites": 16647
+      },
+      {
+        "year": 2020,
+        "works": 260,
+        "oa": 260,
+        "cites": 7267
+      },
+      {
+        "year": 2019,
+        "works": 244,
+        "oa": 244,
+        "cites": 7203
+      },
+      {
+        "year": 2018,
+        "works": 188,
+        "oa": 188,
+        "cites": 6357
+      },
+      {
+        "year": 2017,
+        "works": 119,
+        "oa": 119,
+        "cites": 4221
+      },
+      {
+        "year": 2016,
+        "works": 55,
+        "oa": 55,
+        "cites": 1232
+      },
+      {
+        "year": 2015,
+        "works": 75,
+        "oa": 75,
+        "cites": 2610
+      }
+    ]
   },
   "2297-3362": {
+    "issn_l": "2297-3362",
+    "issn": [
+      "2297-3362"
+    ],
     "name": "Frontiers in Built Environment",
-    "publisher": "",
-    "if2y": 2.67,
+    "publisher": "Frontiers Media",
+    "country": "CH",
+    "first_year": 2015,
+    "last_year": 2026,
+    "homepage": "http://journal.frontiersin.org/journal/built-environment#",
+    "if2y": 2.671,
     "h_index": 58,
+    "i10_index": 751,
     "works": 2099,
     "cites": 24332,
-    "oa": true,
-    "subjects": [],
-    "homepage": "http://journal.frontiersin.org/journal/built-environment#"
+    "oa_works": 2099,
+    "is_oa": true,
+    "is_doaj": true,
+    "is_core": true,
+    "apc_usd": 1900,
+    "apc_prices": [
+      {
+        "price": 1900,
+        "currency": "USD"
+      }
+    ],
+    "topics": [
+      "Seismic Performance and Analysis",
+      "Structural Health Monitoring Techniques",
+      "BIM and Construction Integration",
+      "Building Energy and Comfort Optimization",
+      "Infrastructure Maintenance and Monitoring"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 213,
+        "oa": 213,
+        "cites": 30
+      },
+      {
+        "year": 2025,
+        "works": 350,
+        "oa": 350,
+        "cites": 701
+      },
+      {
+        "year": 2024,
+        "works": 246,
+        "oa": 246,
+        "cites": 1430
+      },
+      {
+        "year": 2023,
+        "works": 221,
+        "oa": 221,
+        "cites": 2068
+      },
+      {
+        "year": 2022,
+        "works": 304,
+        "oa": 304,
+        "cites": 4019
+      },
+      {
+        "year": 2021,
+        "works": 177,
+        "oa": 177,
+        "cites": 2884
+      },
+      {
+        "year": 2020,
+        "works": 217,
+        "oa": 217,
+        "cites": 4535
+      },
+      {
+        "year": 2019,
+        "works": 152,
+        "oa": 152,
+        "cites": 2945
+      },
+      {
+        "year": 2018,
+        "works": 81,
+        "oa": 81,
+        "cites": 1839
+      },
+      {
+        "year": 2017,
+        "works": 76,
+        "oa": 76,
+        "cites": 2068
+      },
+      {
+        "year": 2016,
+        "works": 39,
+        "oa": 39,
+        "cites": 1045
+      },
+      {
+        "year": 2015,
+        "works": 23,
+        "oa": 23,
+        "cites": 768
+      }
+    ]
   },
   "1226-7988": {
+    "issn_l": "1226-7988",
+    "issn": [
+      "1226-7988",
+      "1976-3808"
+    ],
     "name": "KSCE Journal of Civil Engineering",
-    "publisher": "",
-    "if2y": 3.06,
+    "publisher": "Springer Science+Business Media",
+    "country": "KR",
+    "first_year": 1995,
+    "last_year": 2026,
+    "homepage": "https://www.springer.com/journal/12205",
+    "if2y": 3.063,
     "h_index": 79,
+    "i10_index": 2568,
     "works": 5999,
     "cites": 81529,
-    "oa": true,
-    "subjects": [],
-    "homepage": "https://www.springer.com/journal/12205"
+    "oa_works": 750,
+    "is_oa": true,
+    "is_doaj": true,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "Geotechnical Engineering and Underground Structures",
+      "Geotechnical Engineering and Analysis",
+      "Geotechnical Engineering and Soil Stabilization",
+      "Structural Behavior of Reinforced Concrete",
+      "Innovative concrete reinforcement materials"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 97,
+        "oa": 97,
+        "cites": 8
+      },
+      {
+        "year": 2025,
+        "works": 407,
+        "oa": 407,
+        "cites": 973
+      },
+      {
+        "year": 2024,
+        "works": 397,
+        "oa": 74,
+        "cites": 1779
+      },
+      {
+        "year": 2023,
+        "works": 417,
+        "oa": 15,
+        "cites": 2726
+      },
+      {
+        "year": 2022,
+        "works": 376,
+        "oa": 18,
+        "cites": 3420
+      },
+      {
+        "year": 2021,
+        "works": 471,
+        "oa": 19,
+        "cites": 5338
+      },
+      {
+        "year": 2020,
+        "works": 366,
+        "oa": 11,
+        "cites": 5735
+      },
+      {
+        "year": 2019,
+        "works": 426,
+        "oa": 22,
+        "cites": 6863
+      },
+      {
+        "year": 2018,
+        "works": 319,
+        "oa": 12,
+        "cites": 5207
+      },
+      {
+        "year": 2017,
+        "works": 372,
+        "oa": 19,
+        "cites": 7516
+      },
+      {
+        "year": 2016,
+        "works": 316,
+        "oa": 13,
+        "cites": 6874
+      },
+      {
+        "year": 2015,
+        "works": 349,
+        "oa": 11,
+        "cites": 7187
+      }
+    ]
   },
   "1874-4753": {
+    "issn_l": "1874-4753",
+    "issn": [
+      "1874-4753"
+    ],
     "name": "Journal of Information Technology in Construction",
-    "publisher": "",
-    "if2y": 2.84,
+    "publisher": "Conseil International du Bâtiment",
+    "country": "NL",
+    "first_year": 1996,
+    "last_year": 2025,
+    "homepage": "http://www.itcon.org/",
+    "if2y": 2.837,
     "h_index": 54,
+    "i10_index": 307,
     "works": 645,
     "cites": 13119,
-    "oa": true,
-    "subjects": [],
-    "homepage": "http://www.itcon.org/"
+    "oa_works": 645,
+    "is_oa": true,
+    "is_doaj": true,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "BIM and Construction Integration",
+      "Construction Project Management and Performance",
+      "3D Surveying and Cultural Heritage",
+      "Infrastructure Maintenance and Monitoring",
+      "Occupational Health and Safety Research"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 28,
+        "oa": 28,
+        "cites": 4
+      },
+      {
+        "year": 2025,
+        "works": 79,
+        "oa": 79,
+        "cites": 137
+      },
+      {
+        "year": 2024,
+        "works": 59,
+        "oa": 59,
+        "cites": 330
+      },
+      {
+        "year": 2023,
+        "works": 46,
+        "oa": 46,
+        "cites": 514
+      },
+      {
+        "year": 2022,
+        "works": 53,
+        "oa": 53,
+        "cites": 928
+      },
+      {
+        "year": 2021,
+        "works": 58,
+        "oa": 58,
+        "cites": 1705
+      },
+      {
+        "year": 2020,
+        "works": 33,
+        "oa": 33,
+        "cites": 903
+      },
+      {
+        "year": 2019,
+        "works": 26,
+        "oa": 26,
+        "cites": 1247
+      },
+      {
+        "year": 2018,
+        "works": 9,
+        "oa": 9,
+        "cites": 187
+      },
+      {
+        "year": 2017,
+        "works": 3,
+        "oa": 3,
+        "cites": 43
+      },
+      {
+        "year": 2016,
+        "works": 17,
+        "oa": 17,
+        "cites": 555
+      },
+      {
+        "year": 2015,
+        "works": 18,
+        "oa": 18,
+        "cites": 416
+      }
+    ]
   },
   "0733-9364": {
+    "issn_l": "0733-9364",
+    "issn": [
+      "0733-9364",
+      "1943-7862"
+    ],
     "name": "Journal of Construction Engineering and Management",
-    "publisher": "",
-    "if2y": 3.92,
+    "publisher": "American Society of Civil Engineers",
+    "country": "US",
+    "first_year": 1957,
+    "last_year": 2026,
+    "homepage": null,
+    "if2y": 3.921,
     "h_index": 178,
+    "i10_index": 3653,
     "works": 5455,
     "cites": 225541,
-    "oa": false,
-    "subjects": [],
-    "homepage": null
+    "oa_works": 614,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "Construction Project Management and Performance",
+      "BIM and Construction Integration",
+      "Occupational Health and Safety Research",
+      "Infrastructure Maintenance and Monitoring",
+      "Risk and Safety Analysis"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 130,
+        "oa": 6,
+        "cites": 14
+      },
+      {
+        "year": 2025,
+        "works": 322,
+        "oa": 31,
+        "cites": 713
+      },
+      {
+        "year": 2024,
+        "works": 254,
+        "oa": 30,
+        "cites": 2041
+      },
+      {
+        "year": 2023,
+        "works": 206,
+        "oa": 30,
+        "cites": 2888
+      },
+      {
+        "year": 2022,
+        "works": 226,
+        "oa": 43,
+        "cites": 4547
+      },
+      {
+        "year": 2021,
+        "works": 247,
+        "oa": 44,
+        "cites": 6634
+      },
+      {
+        "year": 2020,
+        "works": 226,
+        "oa": 45,
+        "cites": 7552
+      },
+      {
+        "year": 2019,
+        "works": 157,
+        "oa": 41,
+        "cites": 7770
+      },
+      {
+        "year": 2018,
+        "works": 174,
+        "oa": 35,
+        "cites": 6947
+      },
+      {
+        "year": 2017,
+        "works": 163,
+        "oa": 39,
+        "cites": 7142
+      },
+      {
+        "year": 2016,
+        "works": 176,
+        "oa": 18,
+        "cites": 8514
+      },
+      {
+        "year": 2015,
+        "works": 137,
+        "oa": 20,
+        "cites": 6150
+      }
+    ]
   },
   "0733-9445": {
+    "issn_l": "0733-9445",
+    "issn": [
+      "0733-9445",
+      "1943-541X"
+    ],
     "name": "Journal of Structural Engineering",
-    "publisher": "",
-    "if2y": 3.66,
+    "publisher": "American Society of Civil Engineers",
+    "country": "US",
+    "first_year": 1967,
+    "last_year": 2026,
+    "homepage": null,
+    "if2y": 3.659,
     "h_index": 219,
+    "i10_index": 6532,
     "works": 11824,
     "cites": 403072,
-    "oa": false,
-    "subjects": [],
-    "homepage": null
+    "oa_works": 873,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "Structural Load-Bearing Analysis",
+      "Structural Behavior of Reinforced Concrete",
+      "Structural Engineering and Vibration Analysis",
+      "Seismic Performance and Analysis",
+      "Structural Response to Dynamic Loads"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 94,
+        "oa": 1,
+        "cites": 17
+      },
+      {
+        "year": 2025,
+        "works": 313,
+        "oa": 33,
+        "cites": 645
+      },
+      {
+        "year": 2024,
+        "works": 242,
+        "oa": 32,
+        "cites": 1713
+      },
+      {
+        "year": 2023,
+        "works": 257,
+        "oa": 35,
+        "cites": 2182
+      },
+      {
+        "year": 2022,
+        "works": 306,
+        "oa": 43,
+        "cites": 4495
+      },
+      {
+        "year": 2021,
+        "works": 342,
+        "oa": 54,
+        "cites": 7217
+      },
+      {
+        "year": 2020,
+        "works": 409,
+        "oa": 53,
+        "cites": 9584
+      },
+      {
+        "year": 2019,
+        "works": 255,
+        "oa": 42,
+        "cites": 6322
+      },
+      {
+        "year": 2018,
+        "works": 302,
+        "oa": 41,
+        "cites": 8519
+      },
+      {
+        "year": 2017,
+        "works": 266,
+        "oa": 44,
+        "cites": 8627
+      },
+      {
+        "year": 2016,
+        "works": 273,
+        "oa": 30,
+        "cites": 10227
+      },
+      {
+        "year": 2015,
+        "works": 232,
+        "oa": 22,
+        "cites": 8890
+      }
+    ]
   },
   "2214-5095": {
+    "issn_l": "2214-5095",
+    "issn": [
+      "2214-5095"
+    ],
     "name": "Case Studies in Construction Materials",
-    "publisher": "",
-    "if2y": 4.43,
+    "publisher": "Elsevier BV",
+    "country": "NL",
+    "first_year": 2013,
+    "last_year": 2026,
+    "homepage": "https://www.journals.elsevier.com/case-studies-in-construction-materials",
+    "if2y": 4.435,
     "h_index": 97,
+    "i10_index": 2440,
     "works": 6164,
     "cites": 88295,
-    "oa": true,
-    "subjects": [],
-    "homepage": "https://www.journals.elsevier.com/case-studies-in-construction-materials"
+    "oa_works": 6164,
+    "is_oa": true,
+    "is_doaj": true,
+    "is_core": true,
+    "apc_usd": 600,
+    "apc_prices": [
+      {
+        "price": 600,
+        "currency": "USD"
+      }
+    ],
+    "topics": [
+      "Concrete and Cement Materials Research",
+      "Innovative concrete reinforcement materials",
+      "Structural Behavior of Reinforced Concrete",
+      "Asphalt Pavement Performance Evaluation",
+      "Infrastructure Maintenance and Monitoring"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 443,
+        "oa": 443,
+        "cites": 53
+      },
+      {
+        "year": 2025,
+        "works": 1563,
+        "oa": 1563,
+        "cites": 3861
+      },
+      {
+        "year": 2024,
+        "works": 1337,
+        "oa": 1337,
+        "cites": 10911
+      },
+      {
+        "year": 2023,
+        "works": 1019,
+        "oa": 1019,
+        "cites": 16322
+      },
+      {
+        "year": 2022,
+        "works": 944,
+        "oa": 944,
+        "cites": 24681
+      },
+      {
+        "year": 2021,
+        "works": 373,
+        "oa": 373,
+        "cites": 13025
+      },
+      {
+        "year": 2020,
+        "works": 149,
+        "oa": 149,
+        "cites": 5190
+      },
+      {
+        "year": 2019,
+        "works": 112,
+        "oa": 112,
+        "cites": 4515
+      },
+      {
+        "year": 2018,
+        "works": 85,
+        "oa": 85,
+        "cites": 3999
+      },
+      {
+        "year": 2017,
+        "works": 59,
+        "oa": 59,
+        "cites": 2764
+      },
+      {
+        "year": 2016,
+        "works": 29,
+        "oa": 29,
+        "cites": 1389
+      },
+      {
+        "year": 2015,
+        "works": 31,
+        "oa": 31,
+        "cites": 902
+      }
+    ]
   },
   "0969-9988": {
+    "issn_l": "0969-9988",
+    "issn": [
+      "0969-9988",
+      "1365-232X"
+    ],
     "name": "Engineering Construction & Architectural Management",
-    "publisher": "",
-    "if2y": 3.21,
+    "publisher": "Emerald Publishing Limited",
+    "country": "GB",
+    "first_year": 1994,
+    "last_year": 2026,
+    "homepage": null,
+    "if2y": 3.212,
     "h_index": 103,
+    "i10_index": 1794,
     "works": 3371,
     "cites": 74644,
-    "oa": false,
-    "subjects": [],
-    "homepage": null
+    "oa_works": 545,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "Construction Project Management and Performance",
+      "BIM and Construction Integration",
+      "Occupational Health and Safety Research",
+      "Facilities and Workplace Management",
+      "Sustainable Building Design and Assessment"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 158,
+        "oa": 21,
+        "cites": 15
+      },
+      {
+        "year": 2025,
+        "works": 422,
+        "oa": 52,
+        "cites": 716
+      },
+      {
+        "year": 2024,
+        "works": 326,
+        "oa": 41,
+        "cites": 2179
+      },
+      {
+        "year": 2023,
+        "works": 237,
+        "oa": 39,
+        "cites": 3215
+      },
+      {
+        "year": 2022,
+        "works": 267,
+        "oa": 48,
+        "cites": 5491
+      },
+      {
+        "year": 2021,
+        "works": 269,
+        "oa": 60,
+        "cites": 6849
+      },
+      {
+        "year": 2020,
+        "works": 200,
+        "oa": 51,
+        "cites": 7091
+      },
+      {
+        "year": 2019,
+        "works": 194,
+        "oa": 61,
+        "cites": 6677
+      },
+      {
+        "year": 2018,
+        "works": 93,
+        "oa": 34,
+        "cites": 3741
+      },
+      {
+        "year": 2017,
+        "works": 72,
+        "oa": 18,
+        "cites": 3133
+      },
+      {
+        "year": 2016,
+        "works": 46,
+        "oa": 9,
+        "cites": 1632
+      },
+      {
+        "year": 2015,
+        "works": 43,
+        "oa": 11,
+        "cites": 2180
+      }
+    ]
   },
   "0887-3801": {
+    "issn_l": "0887-3801",
+    "issn": [
+      "0887-3801",
+      "1943-5487"
+    ],
     "name": "Journal of Computing in Civil Engineering",
-    "publisher": "",
+    "publisher": "American Society of Civil Engineers",
+    "country": "US",
+    "first_year": 1987,
+    "last_year": 2026,
+    "homepage": null,
     "if2y": 3.38,
     "h_index": 125,
+    "i10_index": 1443,
     "works": 2376,
     "cites": 79543,
-    "oa": false,
-    "subjects": [],
-    "homepage": null
+    "oa_works": 233,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "BIM and Construction Integration",
+      "Infrastructure Maintenance and Monitoring",
+      "3D Surveying and Cultural Heritage",
+      "Structural Health Monitoring Techniques",
+      "Construction Project Management and Performance"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 67,
+        "oa": 5,
+        "cites": 17
+      },
+      {
+        "year": 2025,
+        "works": 174,
+        "oa": 12,
+        "cites": 398
+      },
+      {
+        "year": 2024,
+        "works": 67,
+        "oa": 11,
+        "cites": 626
+      },
+      {
+        "year": 2023,
+        "works": 48,
+        "oa": 8,
+        "cites": 726
+      },
+      {
+        "year": 2022,
+        "works": 67,
+        "oa": 11,
+        "cites": 1456
+      },
+      {
+        "year": 2021,
+        "works": 47,
+        "oa": 6,
+        "cites": 1185
+      },
+      {
+        "year": 2020,
+        "works": 82,
+        "oa": 11,
+        "cites": 4033
+      },
+      {
+        "year": 2019,
+        "works": 65,
+        "oa": 8,
+        "cites": 3010
+      },
+      {
+        "year": 2018,
+        "works": 74,
+        "oa": 10,
+        "cites": 3375
+      },
+      {
+        "year": 2017,
+        "works": 93,
+        "oa": 8,
+        "cites": 3938
+      },
+      {
+        "year": 2016,
+        "works": 91,
+        "oa": 9,
+        "cites": 3876
+      },
+      {
+        "year": 2015,
+        "works": 89,
+        "oa": 12,
+        "cites": 3728
+      }
+    ]
   },
   "1392-3730": {
+    "issn_l": "1392-3730",
+    "issn": [
+      "1392-3730",
+      "1822-3605"
+    ],
     "name": "Journal of Civil Engineering and Management",
-    "publisher": "",
+    "publisher": "Taylor & Francis",
+    "country": "LT",
+    "first_year": 1995,
+    "last_year": 2026,
+    "homepage": "http://www.tandf.co.uk/journals/TCEM/",
     "if2y": 2.63,
     "h_index": 77,
+    "i10_index": 919,
     "works": 2317,
     "cites": 36331,
-    "oa": true,
-    "subjects": [],
-    "homepage": "http://www.tandf.co.uk/journals/TCEM/"
+    "oa_works": 2317,
+    "is_oa": true,
+    "is_doaj": true,
+    "is_core": true,
+    "apc_usd": 517,
+    "apc_prices": [
+      {
+        "price": 480,
+        "currency": "EUR"
+      }
+    ],
+    "topics": [
+      "Construction Project Management and Performance",
+      "BIM and Construction Integration",
+      "Structural Behavior of Reinforced Concrete",
+      "Structural Load-Bearing Analysis",
+      "Structural Engineering and Vibration Analysis"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 31,
+        "oa": 31,
+        "cites": 3
+      },
+      {
+        "year": 2025,
+        "works": 48,
+        "oa": 48,
+        "cites": 60
+      },
+      {
+        "year": 2024,
+        "works": 56,
+        "oa": 56,
+        "cites": 292
+      },
+      {
+        "year": 2023,
+        "works": 44,
+        "oa": 44,
+        "cites": 484
+      },
+      {
+        "year": 2022,
+        "works": 48,
+        "oa": 48,
+        "cites": 668
+      },
+      {
+        "year": 2021,
+        "works": 54,
+        "oa": 54,
+        "cites": 1136
+      },
+      {
+        "year": 2020,
+        "works": 53,
+        "oa": 53,
+        "cites": 1383
+      },
+      {
+        "year": 2019,
+        "works": 68,
+        "oa": 68,
+        "cites": 1684
+      },
+      {
+        "year": 2018,
+        "works": 53,
+        "oa": 53,
+        "cites": 1416
+      },
+      {
+        "year": 2017,
+        "works": 75,
+        "oa": 75,
+        "cites": 2243
+      },
+      {
+        "year": 2016,
+        "works": 91,
+        "oa": 91,
+        "cites": 2492
+      },
+      {
+        "year": 2015,
+        "works": 138,
+        "oa": 138,
+        "cites": 3679
+      }
+    ]
   },
   "1090-0241": {
+    "issn_l": "1090-0241",
+    "issn": [
+      "1090-0241",
+      "1943-5606"
+    ],
     "name": "Journal of Geotechnical and Geoenvironmental Engineering",
-    "publisher": "",
-    "if2y": 3.66,
+    "publisher": "American Society of Civil Engineers",
+    "country": "US",
+    "first_year": 1972,
+    "last_year": 2026,
+    "homepage": null,
+    "if2y": 3.664,
     "h_index": 211,
+    "i10_index": 3716,
     "works": 6592,
     "cites": 271169,
-    "oa": false,
-    "subjects": [],
-    "homepage": null
+    "oa_works": 761,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "Geotechnical Engineering and Underground Structures",
+      "Geotechnical Engineering and Soil Stabilization",
+      "Geotechnical Engineering and Soil Mechanics",
+      "Geotechnical Engineering and Analysis",
+      "Soil and Unsaturated Flow"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 76,
+        "oa": 15,
+        "cites": 12
+      },
+      {
+        "year": 2025,
+        "works": 240,
+        "oa": 50,
+        "cites": 497
+      },
+      {
+        "year": 2024,
+        "works": 225,
+        "oa": 44,
+        "cites": 1473
+      },
+      {
+        "year": 2023,
+        "works": 194,
+        "oa": 70,
+        "cites": 2285
+      },
+      {
+        "year": 2022,
+        "works": 200,
+        "oa": 37,
+        "cites": 2861
+      },
+      {
+        "year": 2021,
+        "works": 275,
+        "oa": 47,
+        "cites": 5156
+      },
+      {
+        "year": 2020,
+        "works": 272,
+        "oa": 68,
+        "cites": 6412
+      },
+      {
+        "year": 2019,
+        "works": 188,
+        "oa": 41,
+        "cites": 5937
+      },
+      {
+        "year": 2018,
+        "works": 175,
+        "oa": 48,
+        "cites": 6155
+      },
+      {
+        "year": 2017,
+        "works": 205,
+        "oa": 32,
+        "cites": 6375
+      },
+      {
+        "year": 2016,
+        "works": 203,
+        "oa": 41,
+        "cites": 7944
+      },
+      {
+        "year": 2015,
+        "works": 209,
+        "oa": 39,
+        "cites": 7984
+      }
+    ]
   },
   "0889-325X": {
+    "issn_l": "0889-325X",
+    "issn": [
+      "0889-325X",
+      "1944-737X"
+    ],
     "name": "ACI Materials Journal",
-    "publisher": "",
-    "if2y": 0.66,
+    "publisher": "American Concrete Institute",
+    "country": "US",
+    "first_year": 1973,
+    "last_year": 2025,
+    "homepage": null,
+    "if2y": 0.662,
     "h_index": 142,
+    "i10_index": 1870,
     "works": 3088,
     "cites": 111795,
-    "oa": false,
-    "subjects": [],
-    "homepage": null
+    "oa_works": 159,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "Concrete and Cement Materials Research",
+      "Innovative concrete reinforcement materials",
+      "Structural Behavior of Reinforced Concrete",
+      "Concrete Corrosion and Durability",
+      "Concrete Properties and Behavior"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 28,
+        "oa": 0,
+        "cites": 1
+      },
+      {
+        "year": 2025,
+        "works": 54,
+        "oa": 0,
+        "cites": 21
+      },
+      {
+        "year": 2024,
+        "works": 57,
+        "oa": 7,
+        "cites": 70
+      },
+      {
+        "year": 2023,
+        "works": 72,
+        "oa": 15,
+        "cites": 289
+      },
+      {
+        "year": 2022,
+        "works": 124,
+        "oa": 5,
+        "cites": 693
+      },
+      {
+        "year": 2021,
+        "works": 124,
+        "oa": 4,
+        "cites": 964
+      },
+      {
+        "year": 2020,
+        "works": 106,
+        "oa": 6,
+        "cites": 822
+      },
+      {
+        "year": 2019,
+        "works": 123,
+        "oa": 9,
+        "cites": 1716
+      },
+      {
+        "year": 2018,
+        "works": 91,
+        "oa": 8,
+        "cites": 1216
+      },
+      {
+        "year": 2017,
+        "works": 95,
+        "oa": 9,
+        "cites": 1946
+      },
+      {
+        "year": 2016,
+        "works": 79,
+        "oa": 8,
+        "cites": 1603
+      },
+      {
+        "year": 2015,
+        "works": 56,
+        "oa": 5,
+        "cites": 1173
+      }
+    ]
   },
   "1674-7755": {
+    "issn_l": "1674-7755",
+    "issn": [
+      "1674-7755",
+      "2589-0417"
+    ],
     "name": "Journal of Rock Mechanics and Geotechnical Engineering",
-    "publisher": "",
-    "if2y": 6.72,
+    "publisher": "Elsevier BV",
+    "country": "CN",
+    "first_year": 2009,
+    "last_year": 2026,
+    "homepage": "https://www.journals.elsevier.com/journal-of-rock-mechanics-and-geotechnical-engineering",
+    "if2y": 6.716,
     "h_index": 108,
+    "i10_index": 1618,
     "works": 2820,
     "cites": 78757,
-    "oa": true,
-    "subjects": [],
-    "homepage": "https://www.journals.elsevier.com/journal-of-rock-mechanics-and-geotechnical-engineering"
+    "oa_works": 2799,
+    "is_oa": true,
+    "is_doaj": true,
+    "is_core": true,
+    "apc_usd": null,
+    "apc_prices": [],
+    "topics": [
+      "Rock Mechanics and Modeling",
+      "Landslides and related hazards",
+      "Geotechnical Engineering and Analysis",
+      "Geotechnical Engineering and Underground Structures",
+      "Soil and Unsaturated Flow"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 279,
+        "oa": 279,
+        "cites": 66
+      },
+      {
+        "year": 2025,
+        "works": 514,
+        "oa": 514,
+        "cites": 1790
+      },
+      {
+        "year": 2024,
+        "works": 506,
+        "oa": 506,
+        "cites": 6868
+      },
+      {
+        "year": 2023,
+        "works": 267,
+        "oa": 267,
+        "cites": 6489
+      },
+      {
+        "year": 2022,
+        "works": 204,
+        "oa": 204,
+        "cites": 9103
+      },
+      {
+        "year": 2021,
+        "works": 158,
+        "oa": 158,
+        "cites": 8205
+      },
+      {
+        "year": 2020,
+        "works": 124,
+        "oa": 124,
+        "cites": 5433
+      },
+      {
+        "year": 2019,
+        "works": 95,
+        "oa": 95,
+        "cites": 4463
+      },
+      {
+        "year": 2018,
+        "works": 129,
+        "oa": 129,
+        "cites": 6056
+      },
+      {
+        "year": 2017,
+        "works": 87,
+        "oa": 87,
+        "cites": 4625
+      },
+      {
+        "year": 2016,
+        "works": 95,
+        "oa": 95,
+        "cites": 6550
+      },
+      {
+        "year": 2015,
+        "works": 102,
+        "oa": 102,
+        "cites": 4922
+      }
+    ]
   },
   "1093-9687": {
+    "issn_l": "1093-9687",
+    "issn": [
+      "1093-9687",
+      "1467-8667"
+    ],
     "name": "Computer-Aided Civil and Infrastructure Engineering",
-    "publisher": "",
-    "if2y": 5.71,
+    "publisher": "Wiley",
+    "country": "GB",
+    "first_year": 1986,
+    "last_year": 2026,
+    "homepage": "https://onlinelibrary.wiley.com/journal/14678667",
+    "if2y": 5.713,
     "h_index": 133,
+    "i10_index": 1587,
     "works": 3302,
     "cites": 98690,
-    "oa": false,
-    "subjects": [],
-    "homepage": "https://onlinelibrary.wiley.com/journal/14678667"
+    "oa_works": 1069,
+    "is_oa": false,
+    "is_doaj": false,
+    "is_core": true,
+    "apc_usd": 4740,
+    "apc_prices": [
+      {
+        "price": 4740,
+        "currency": "USD"
+      },
+      {
+        "price": 3140,
+        "currency": "GBP"
+      },
+      {
+        "price": 3970,
+        "currency": "EUR"
+      }
+    ],
+    "topics": [
+      "Infrastructure Maintenance and Monitoring",
+      "Structural Health Monitoring Techniques",
+      "BIM and Construction Integration",
+      "Transportation Planning and Optimization",
+      "Traffic control and management"
+    ],
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "works": 101,
+        "oa": 85,
+        "cites": 442
+      },
+      {
+        "year": 2025,
+        "works": 364,
+        "oa": 266,
+        "cites": 1037
+      },
+      {
+        "year": 2024,
+        "works": 274,
+        "oa": 223,
+        "cites": 2743
+      },
+      {
+        "year": 2023,
+        "works": 190,
+        "oa": 133,
+        "cites": 3542
+      },
+      {
+        "year": 2022,
+        "works": 175,
+        "oa": 42,
+        "cites": 4673
+      },
+      {
+        "year": 2021,
+        "works": 168,
+        "oa": 39,
+        "cites": 5831
+      },
+      {
+        "year": 2020,
+        "works": 130,
+        "oa": 25,
+        "cites": 5607
+      },
+      {
+        "year": 2019,
+        "works": 107,
+        "oa": 25,
+        "cites": 6350
+      },
+      {
+        "year": 2018,
+        "works": 100,
+        "oa": 19,
+        "cites": 7294
+      },
+      {
+        "year": 2017,
+        "works": 95,
+        "oa": 24,
+        "cites": 9762
+      },
+      {
+        "year": 2016,
+        "works": 74,
+        "oa": 24,
+        "cites": 1824
+      },
+      {
+        "year": 2015,
+        "works": 87,
+        "oa": 13,
+        "cites": 4264
+      }
+    ]
   }
 }

@@ -2521,17 +2521,41 @@ function fillJournals(){
     </tr>
     <tr class="journal-detail" id="jd-${i}">
       <td colspan="8" style="padding:0">
+        <!-- 주요 지표 -->
         <div style="display:flex;flex-wrap:wrap;border-top:1px solid var(--line)">
-          ${m.if2y?`<div class="journal-stat"><div class="val">${m.if2y.toFixed(2)}</div><div class="lbl">2yr IF (OpenAlex)</div></div>`:''}
+          ${m.if2y?`<div class="journal-stat"><div class="val">${m.if2y.toFixed(2)}</div><div class="lbl">IF (2yr)</div></div>`:''}
           ${m.h_index?`<div class="journal-stat"><div class="val">${m.h_index}</div><div class="lbl">h-index</div></div>`:''}
-          ${m.works && m.cites?`<div class="journal-stat"><div class="val">${(m.cites/Math.max(m.works,1)).toFixed(1)}</div><div class="lbl">Cites / Paper (all-time)</div></div>`:''}
-          ${m.works?`<div class="journal-stat"><div class="val">${m.works.toLocaleString()}</div><div class="lbl">Total Papers (all time)</div></div>`:''}
-          ${m.oa?`<div class="journal-stat"><div class="val" style="color:var(--accent2)">Open</div><div class="lbl">Access</div></div>`:''}
-          ${subj?`<div class="journal-stat" style="align-items:flex-start"><div style="font-size:11px;color:var(--txt)">${subj}</div><div class="lbl">Subject Areas</div></div>`:''}
-          ${m.homepage?`<div class="journal-stat"><a href="${m.homepage}" target="_blank" style="color:var(--accent);font-size:11px">🔗 Journal Site</a><div class="lbl">Homepage</div></div>`:''}
+          ${m.i10_index?`<div class="journal-stat"><div class="val">${m.i10_index.toLocaleString()}</div><div class="lbl">i10-index</div></div>`:''}
+          ${m.works&&m.cites?`<div class="journal-stat"><div class="val">${(m.cites/Math.max(m.works,1)).toFixed(1)}</div><div class="lbl">Cites/Paper</div></div>`:''}
+          ${m.works?`<div class="journal-stat"><div class="val">${m.works.toLocaleString()}</div><div class="lbl">Total Papers</div></div>`:''}
+          ${m.oa_works&&m.works?`<div class="journal-stat"><div class="val" style="color:var(--accent2)">${Math.round(m.oa_works/m.works*100)}%</div><div class="lbl">OA Rate</div></div>`:''}
+          ${m.apc_usd?`<div class="journal-stat"><div class="val">$${m.apc_usd.toLocaleString()}</div><div class="lbl">APC (USD)</div></div>`:''}
+          ${m.first_year?`<div class="journal-stat"><div class="val">${m.first_year}</div><div class="lbl">Founded</div></div>`:''}
+          ${m.country?`<div class="journal-stat"><div class="val">${m.country}</div><div class="lbl">Country</div></div>`:''}
         </div>
-        <div style="padding:8px 14px;font-size:10px;color:var(--muted);border-top:1px solid var(--line)">
-          Source: OpenAlex · IF = 2-year mean citedness · JCR quartile/percentile requires Clarivate subscription
+        <!-- ISSN + 배지 -->
+        <div style="padding:8px 14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line)">
+          ${m.issn&&m.issn.length?`<span style="font-size:11px;color:var(--muted)">ISSN: <b>${m.issn.join(' / ')}</b></span>`:''}
+          ${m.is_doaj?'<span style="font-size:10px;background:#1a4731;color:#b7e4c7;border-radius:4px;padding:2px 7px;font-weight:600">DOAJ</span>':''}
+          ${m.is_core?'<span style="font-size:10px;background:#1e3a5f;color:#90e0ef;border-radius:4px;padding:2px 7px;font-weight:600">CORE</span>':''}
+          ${m.is_oa?'<span style="font-size:10px;background:#1a4731;color:#b7e4c7;border-radius:4px;padding:2px 7px;font-weight:600">Full OA</span>':''}
+          ${m.homepage?`<a href="${m.homepage}" target="_blank" style="font-size:11px;color:var(--accent);margin-left:auto">🔗 Journal Site →</a>`:''}
+        </div>
+        <!-- 주제 토픽 -->
+        ${m.topics&&m.topics.length?`<div style="padding:6px 14px;font-size:11px;color:var(--muted);border-top:1px solid var(--line)"><b style="color:var(--txt)">Topics:</b> ${m.topics.join(' · ')}</div>`:''}
+        <!-- 연도별 논문수 미니 바 차트 -->
+        ${m.counts_by_year&&m.counts_by_year.length?`<div style="padding:8px 14px;border-top:1px solid var(--line)">
+          <div style="font-size:10px;color:var(--muted);margin-bottom:4px">Papers published per year</div>
+          <div style="display:flex;align-items:flex-end;gap:2px;height:40px">
+            ${m.counts_by_year.map(d=>{const mx=Math.max(...m.counts_by_year.map(x=>x.works));const pct=Math.round(d.works/mx*100);return '<div title="'+d.year+': '+d.works+' papers" style="flex:1;background:var(--accent);opacity:0.65;height:'+pct+'%;min-width:4px;border-radius:2px 2px 0 0"></div>';}).join('')}
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--muted);margin-top:2px">
+            <span>${m.counts_by_year[0]?m.counts_by_year[0].year:''}</span>
+            <span>${m.counts_by_year[m.counts_by_year.length-1]?m.counts_by_year[m.counts_by_year.length-1].year:''}</span>
+          </div>
+        </div>`:''}
+        <div style="padding:5px 14px;font-size:10px;color:var(--muted);border-top:1px solid var(--line)">
+          Source: OpenAlex · IF = 2yr mean citedness · JCR quartile/% requires Clarivate subscription
         </div>
       </td>
     </tr>`;
