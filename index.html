@@ -2900,7 +2900,6 @@ function _switchEvoView(){
   const isTree = _evoView === "tree";
   const isYear = _evoView === "year";
   // 이전 뷰 정리
-  if(_evoSim){ _evoSim.stop(); _evoSim=null; }
   const _et = document.getElementById("evoTimeline");
   _et.innerHTML = "";
   _et.className = (_evoView==="year") ? "evo-pill-wrap" : "";
