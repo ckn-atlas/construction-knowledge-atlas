@@ -47,7 +47,7 @@ SINCE = "2020-01-01"
 PREV_YEAR = 2024        # 증가율 기준 이전 완결연도
 LAST_YEAR = 2025        # 증가율 기준 최신 완결연도
 PER_PAGE = 200          # OpenAlex 최대 200
-MAX_PAGES = 30          # 저널당 최대 페이지 확대 (2400 → 6000편)
+MAX_PAGES = 999         # 무제한 — 저널 전체 수집
 
 # ChatGPT 조사에서 확정한 1차 구축 저널 + ISSN (OpenAlex source 매칭용)
 JOURNALS = [
