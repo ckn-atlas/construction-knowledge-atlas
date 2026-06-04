@@ -315,6 +315,10 @@
   .ctry-ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;pointer-events:none;text-align:center;padding:0 20px}
   .ctry-vbar{display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;flex-shrink:0;width:30px;transition:opacity .15s}
   .ctry-vbar .vb{width:18px;border-radius:2px 2px 0 0;transition:height .3s,opacity .15s}
+  #countryBars{display:grid;grid-template-columns:repeat(10,1fr);gap:8px 4px;align-items:end;padding:10px 10px 6px}
+  #countryBars .ctry-vbar{width:auto}
+  #countryBars .vb{width:60%;max-width:20px;margin:0 auto}
+
 
   /* ── Graph Full-Screen Overlay ── */
   #graphOverlay{display:none;position:fixed;inset:0;z-index:300;background:var(--bg);flex-direction:column}
@@ -535,6 +539,7 @@
             <svg id="worldMap"></svg>
             <div class="maptip" id="mapTip"></div>
             <div class="map-legend" style="position:absolute;left:8px;bottom:8px">Paper Count<div class="grad"></div><span id="legLo">0</span> ~ <span id="legHi">max</span></div>
+            <div class="country-detail card" id="countryDetail" style="display:none;position:absolute;right:8px;top:8px;width:180px;max-height:calc(100% - 16px);overflow-y:auto;font-size:12px;z-index:5;background:rgba(20,25,32,.95)"></div>
           </div>
         </div>
       </div>
@@ -548,17 +553,15 @@
         </div>
       </div>
 
-      <!-- BL: Paper Rank -->
+      <!-- BL: Paper Rank (10-col wrap grid) -->
       <div class="ctry-cell" style="border-right:1px solid var(--line)">
         <div class="ctry-cell-hd">
           <span data-i18n="ctry_rank">Paper Rank</span>
+          <span class="sub" id="ctryRankCount"></span>
           <button id="ctryChartClear" onclick="clearCtrySelection()" style="margin-left:auto;display:none;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:5px;padding:2px 8px;font-size:10px;cursor:pointer">Clear Selection</button>
         </div>
-        <div class="ctry-cell-body" style="display:flex">
-          <div style="flex:1;overflow-x:auto;overflow-y:hidden;padding:6px 8px 0">
-            <div id="countryBars" style="display:flex;gap:3px;align-items:flex-end;height:100%;min-width:max-content;padding-bottom:18px"></div>
-          </div>
-          <div class="country-detail card" id="countryDetail" style="display:none;width:170px;flex-shrink:0;overflow-y:auto;margin:6px;font-size:12px"></div>
+        <div class="ctry-cell-body" style="overflow-y:auto">
+          <div id="countryBars"></div>
         </div>
       </div>
 
@@ -1827,7 +1830,7 @@ function fillCountry(){
   const max = Math.max(...sorted.map(c=>c.papers), 1);
   const bars = document.getElementById("countryBars");
   if(!bars) return;
-  const MAXBAR = 90;  // px
+  const MAXBAR = 44;  // px (3행 그리드 맞춤)
   bars.innerHTML = sorted.map((c,i)=>{
     const px = Math.max(3, Math.round(c.papers/max*MAXBAR));
     const col = _ctryColor(c.code);
