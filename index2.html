@@ -1533,7 +1533,8 @@ const NUM = {US:840,CN:156,GB:826,DE:276,KR:410,JP:392,IT:380,AU:36,CA:124,ES:72
   FR:250,NL:528,IN:356,SG:702,CH:756,SE:752,BE:56,AT:40,DK:208,NO:578,FI:246,PL:616,
   PT:620,GR:300,IE:372,BR:76,RU:643,TR:792,IR:364,SA:682,AE:784,EG:818,ZA:710,MY:458,
   ID:360,TH:764,VN:704,TW:158,NZ:554,MX:484,CL:152,PK:586,BD:50,CZ:203,HU:348,RO:642,
-  IL:376,QA:634,LU:442,HK:344,CO:170,MO:446,NG:566};
+  IL:376,QA:634,LU:442,HK:344,CO:170,MO:446,NG:566,
+  IQ:368,DZ:12,JO:400,LK:144,MA:504,SK:703,ET:231,CY:196,RS:688,SI:705,LB:422,GH:288,HR:191,LT:440,KZ:398,AR:32,OM:512,TN:788,PE:604,UA:804,KW:414,EC:218,PS:275,EE:233,NP:524,MK:807,PH:608};
 const CTRY_COLOR = {
   CN:"#ff6b6b",US:"#4dabf7",GB:"#9775fa",KR:"#63e6be",DE:"#ffd43b",
   AU:"#ffa94d",HK:"#f783ac",IT:"#69db7c",CA:"#74c0fc",JP:"#e599f7",ES:"#ffc078",
@@ -1826,13 +1827,14 @@ function fillCountry(){
   const max = Math.max(...sorted.map(c=>c.papers), 1);
   const bars = document.getElementById("countryBars");
   if(!bars) return;
+  const MAXBAR = 90;  // px
   bars.innerHTML = sorted.map((c,i)=>{
-    const pct = Math.max(4, Math.round(c.papers/max*100));
+    const px = Math.max(3, Math.round(c.papers/max*MAXBAR));
     const col = _ctryColor(c.code);
     const lbl = c.papers>9999 ? (c.papers/1000).toFixed(0)+'k' : c.papers>999 ? (c.papers/1000).toFixed(1)+'k' : String(c.papers);
     return '<div class="ctry-vbar" data-i="'+i+'" data-code="'+c.code+'" title="'+cName(c)+': '+c.papers.toLocaleString()+' papers">'+
       '<span style="font-size:8px;color:var(--muted);line-height:1">'+lbl+'</span>'+
-      '<div class="vb" style="height:'+pct+'%;min-height:3px;background:'+col+'"></div>'+
+      '<div class="vb" style="height:'+px+'px;background:'+col+'"></div>'+
       '<span style="font-size:7px;color:var(--muted);max-width:28px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">'+c.code+'</span>'+
       '</div>';
   }).join("");
