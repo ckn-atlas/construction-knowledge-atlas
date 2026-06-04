@@ -23,6 +23,38 @@ Supports **EN / KO** bilingual interface with automatic browser language detecti
 
 ---
 
+## 📸 Screenshots
+
+### 🔬 Latest Research Highlights
+Top-cited recent paper per theme with auto-matched cover images.
+![Latest](docs/01-latest.png)
+
+### 🏆 Impact Paper Analysis
+Papers ranked by composite impact score (Citations + FWCI + Recency + OA).
+![Impact](docs/02-impact.png)
+
+### 🧬 Tech Ontology
+Interactive radial knowledge graph of construction technology concepts.
+![Tech Ontology](docs/03-ontology.png)
+
+### 🌍 Country Analysis
+World map, keyword ontology, paper rank, and annual comparison in one view.
+![Country Analysis](docs/04-country.png)
+
+### 🏛 Institution Co-author Network
+Collaboration network by geographic location and force-directed graph.
+![Network](docs/05-network.png)
+
+### 📈 Tech Evolution
+Year-by-year emergence of technology keywords.
+![Evolution](docs/06-evolution.png)
+
+### 📚 Journal Coverage
+222 journals with official JCR metrics (IF, Quartile, Rank) + OpenAlex data.
+![Journals](docs/07-journals.png)
+
+---
+
 ## 📑 Pages & Features
 
 ### 🔬 Latest Research Highlights
