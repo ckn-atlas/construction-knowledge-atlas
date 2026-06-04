@@ -83,6 +83,7 @@
   main{display:block}
   aside{width:320px;border-left:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:16px;display:none}
   .view{position:absolute;inset:0;display:none;height:100%}
+  #view-country.active{display:grid !important}
   .view.active{display:block}
   /* graph */
   svg{width:100%;height:100%;display:block;cursor:grab}
@@ -514,7 +515,7 @@
       </div>
     </section>
 
-<section class="view" id="view-country" style="display:grid;grid-template-rows:36px 1fr 1fr;grid-template-columns:1fr 1fr;height:100%;overflow:hidden">
+<section class="view" id="view-country" style="grid-template-rows:36px 1fr 1fr;grid-template-columns:1fr 1fr;height:100%;overflow:hidden">
 
       <!-- 헤더 (전체 너비) -->
       <div style="grid-column:1/-1;display:flex;align-items:center;gap:12px;padding:0 16px;border-bottom:1px solid var(--line);background:var(--panel)">
@@ -545,7 +546,7 @@
       <!-- BOTTOM-LEFT: Paper Rank (세로 막대, 가로 스크롤) -->
       <div style="border-right:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column">
         <div style="padding:6px 12px 2px;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;flex-shrink:0">Paper Rank</div>
-        <div style="flex:1;overflow-x:auto;overflow-y:hidden;padding:0 8px 4px">
+        <div style="flex:1;min-height:0;overflow-x:auto;overflow-y:hidden;padding:0 8px 4px">
           <div id="countryBars" style="display:flex;gap:4px;align-items:flex-end;height:100%;min-width:max-content;padding-bottom:22px"></div>
         </div>
       </div>
@@ -1816,12 +1817,12 @@ function fillCountry(){
   const max = Math.max(...sorted.map(c=>c.papers), 1);
   // 세로 막대 형식 (가로 스크롤)
   document.getElementById("countryBars").innerHTML = sorted.map((c,i)=>{
-    const pct = Math.max(4, Math.round(c.papers/max*100));
+    const barH = Math.max(4, Math.round(c.papers/max*120));
     const col = _ctryColor(c.code);
     return `<div class="ctry-bar-col" data-i="${i}" data-code="${c.code}" title="${cName(c)}: ${c.papers.toLocaleString()} papers"
       style="display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;flex-shrink:0;width:36px">
       <span style="font-size:9px;color:var(--muted);writing-mode:horizontal-tb">${c.papers>999?(c.papers/1000).toFixed(1)+'k':''+(c.papers)}</span>
-      <div style="width:22px;height:${pct}%;min-height:4px;background:${col};border-radius:3px 3px 0 0;transition:opacity .2s"></div>
+      <div style="width:22px;height:${barH}px;background:${col};border-radius:3px 3px 0 0;transition:opacity .2s"></div>
       <span style="font-size:8px;color:var(--muted);text-align:center;line-height:1.2;word-break:break-all;max-width:34px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">${c.code}</span>
     </div>`;
   }).join("");
