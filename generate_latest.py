@@ -139,15 +139,52 @@ def fetch_unsplash(query):
 
 ALL_GROUPS = list(GROUP_KO.keys())  # 11개 테마
 
-def fetch_papers(cutoff):
-    params = {
-        "filter": f"primary_location.source.issn:{'|'.join(JOURNAL_ISSNS)},from_publication_date:{cutoff},has_abstract:true",
-        "sort": "fwci:desc",
-        "per-page": 200,
-        "select": "id,title,publication_date,fwci,cited_by_count,doi,concepts,abstract_inverted_index,open_access,primary_location",
-    }
-    r = requests.get("https://api.openalex.org/works", params=params, timeout=30)
-    return r.json().get("results", [])
+MAILTO = "ckn.atlas@gmail.com"  # OpenAlex polite pool
+
+def _get(url, params, timeout=30, retries=4):
+    import time as _t
+    params = dict(params); params["mailto"] = MAILTO
+    for attempt in range(retries):
+        try:
+            r = requests.get(url, params=params, timeout=timeout)
+            if r.status_code == 429:
+                _t.sleep(5 * (attempt+1)); continue
+            return r
+        except Exception:
+            _t.sleep(2)
+    return None
+
+def fetch_papers(cutoff, batch=40):
+    """ISSN 목록이 길면 URL 길이 초과 → 배치로 나눠 조회 후 병합"""
+    select = ("id,title,publication_date,fwci,cited_by_count,doi,concepts,"
+              "abstract_inverted_index,open_access,primary_location")
+    all_results = []
+    seen = set()
+    for k in range(0, len(JOURNAL_ISSNS), batch):
+        chunk = JOURNAL_ISSNS[k:k+batch]
+        params = {
+            "filter": f"primary_location.source.issn:{'|'.join(chunk)},from_publication_date:{cutoff},has_abstract:true",
+            "sort": "fwci:desc",
+            "per-page": 100,
+            "select": select,
+        }
+        try:
+            r = _get("https://api.openalex.org/works", params)
+            if not r or r.status_code != 200:
+                continue
+            for w in r.json().get("results", []):
+                wid = w.get("id")
+                if wid and wid in seen:
+                    continue
+                if wid:
+                    seen.add(wid)
+                all_results.append(w)
+        except Exception:
+            continue
+        time.sleep(0.2)
+    # 전체 FWCI 내림차순 정렬
+    all_results.sort(key=lambda w: (w.get("fwci") or 0), reverse=True)
+    return all_results
 
 def build_theme_top(papers):
     theme_top = {}
