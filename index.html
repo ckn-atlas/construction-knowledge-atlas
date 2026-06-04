@@ -82,8 +82,9 @@
   .layout{display:flex;flex:1;overflow:hidden}
   main{flex:1;position:relative;overflow:hidden}
   aside{width:320px;border-left:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:16px}
-  .view{position:absolute;inset:0;display:none;height:100%}
+  .view{position:absolute;inset:0;display:none;height:100%;overflow:hidden}
   .view.active{display:block}
+  #view-latest.active,#view-country.active{overflow-y:auto}
   /* graph */
   svg{width:100%;height:100%;display:block;cursor:grab}
   svg:active{cursor:grabbing}
@@ -395,7 +396,7 @@
     </section>
 
     <!-- COUNTRY -->
-    <section class="view" id="view-country" style="overflow-y:auto">
+    <section class="view" id="view-country">
       <div class="panel-title" data-i18n="title_country">Country Tech Influence</div>
       <div class="panel-sub" data-i18n="sub_country">색이 진할수록 Paper Count가 많습니다. Click map or rank to see key institutions & technologies. 여러 나라를 클릭하면 연도별 비교 차트가 표시됩니다.</div>
       <div style="display:flex;gap:16px;padding:0 24px;height:420px;min-height:240px">
@@ -479,7 +480,7 @@
     </section>
 
     <!-- LATEST -->
-    <section class="view active" id="view-latest" style="overflow-y:auto;height:100%">
+    <section class="view active" id="view-latest" style="overflow-y:auto">
       <div class="panel-title" data-i18n="title_latest">🔬 Latest Research Highlights</div>
       <div class="panel-sub" id="latestSub" data-i18n="sub_latest">Top-cited recent paper per theme · FWCI-ranked · Updated regularly</div>
       <div style="padding:0 24px 8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap">
@@ -3755,7 +3756,29 @@ function setLang(lang){
 }
 
 /* ===================== NAV ===================== */
+function _cleanupView(v){
+  // 이전 탭 떠날 때 floating 요소 정리
+  if(v !== "graph"){
+    // graph 오버레이 패널들은 graph 뷰 안에 있으므로 overflow:hidden으로 이미 격리됨
+  }
+  if(v !== "network"){
+    // 기관 네트워크 선택 초기화
+    _net2dSel.clear();
+  }
+  if(v !== "evo"){
+    // evo 자동재생 중지
+    evoStopPlay();
+  }
+  if(v !== "country"){
+    // 지도 툴팁 숨기기
+    const tip = document.getElementById("mapTip");
+    if(tip) tip.style.display = "none";
+  }
+}
+
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
+  const prev = document.querySelector("nav button.active")?.dataset?.view;
+  if(prev) _cleanupView(prev);
   document.querySelectorAll("nav button").forEach(x=>x.classList.remove("active"));
   b.classList.add("active");
   const v=b.dataset.view;
