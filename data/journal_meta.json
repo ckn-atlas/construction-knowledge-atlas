@@ -776,7 +776,11 @@
     "pub_city": "Lausanne",
     "pub_region": "",
     "pub_country": "",
-    "pub_country_full": "Switzerland"
+    "pub_country_full": "Switzerland",
+    "jif": 2.7,
+    "jif_no_self": 2.6,
+    "total_cites_jcr": 3427,
+    "jif_year": 2024
   },
   "1226-7988": {
     "issn_l": "1226-7988",

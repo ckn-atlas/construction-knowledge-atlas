@@ -31,6 +31,7 @@ JOURNALS = [
     ("CONSTR BUILD MATER",    "0950-0618", "Construction and Building Materials"),
     ("J BUILD ENG",           "2352-7102", "Journal of Building Engineering"),
     ("BUILDINGS-BASEL",       "2075-5309", "Buildings"),
+    ("FRONT BUILT ENVIRON",   "2297-3362", "Frontiers in Built Environment"),
     ("KSCE J CIV ENG",        "1226-7988", "KSCE Journal of Civil Engineering"),
     ("J INF TECHNOL CONSTR",  "1874-4753", "J. of Information Technology in Construction"),
     ("J CONSTR ENG M",        "0733-9364", "J. of Construction Engineering and Mgmt"),
