@@ -2321,7 +2321,13 @@ async function buildNetworkMap(){
     .style("vector-effect","non-scaling-stroke");
 
   // 좌표 있는 Institution만
-  const orgsWithCoord = ORG_NODES.filter(id => ORG_COORDS[id]);
+  const orgsWithCoord = ORG_NODES.filter(id => {
+    if(!ORG_COORDS[id]) return false;
+    const [lat, lon] = ORG_COORDS[id];
+    // 기본 범위 검증 (위도 -90~90, 경도 -180~180)
+    if(lat < -90 || lat > 90 || lon < -180 || lon > 180) return false;
+    return true;
+  });
   const links = getNetLinks()
     .filter(l => ORG_COORDS[l[0]] && ORG_COORDS[l[1]])
     .map(l => ({source:l[0], target:l[1], co:l[2]}));
@@ -2388,7 +2394,7 @@ async function buildNetworkMap(){
     // 동일 좌표 오프셋 application
     const [ox, oy] = orgOffset[id] || [0,0];
     const finalPt = [pt[0]+ox, pt[1]+oy];
-    const r = 5 + Math.sqrt(ORG_WEIGHT[id]||4)*0.8;
+    const r = 8; // fixed size - all nodes same
     const color = ctryColor(ORG_COUNTRY[id]);
 
     const ng = nodeG.append("g")
