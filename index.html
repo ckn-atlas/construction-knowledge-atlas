@@ -3332,10 +3332,10 @@ function kgBuildNodeForce(sv, g, w, h){
 
   // 공동출현 비율에 따라 선 색상 4단계 — 굵을수록 눈에 띄는 색
   const linkColor = r =>
-    r > 0.7 ? "#4dabf7" :   // Top 30% — 진한 파랑 (핵심 관계)
-    r > 0.4 ? "#2d6a9f" :   // Top 60% — 중간 파랑
-    r > 0.2 ? "#1e4a6e" :   // Top 80% — 연파랑
-              "#1a3550";     // 하위 20% — 아주 연하게
+    r > 0.7 ? "rgba(255,255,255,0.9)" :
+    r > 0.4 ? "rgba(255,255,255,0.6)" :
+    r > 0.2 ? "rgba(255,255,255,0.35)" :
+              "rgba(255,255,255,0.15)";     // 하위 20% — 아주 연하게
 
   const lnk = g.append("g").selectAll("line").data(linkData).join("line")
     .attr("class","kg-link")
