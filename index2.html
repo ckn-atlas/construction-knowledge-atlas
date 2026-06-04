@@ -2321,7 +2321,7 @@ async function buildNetworkMap(){
 
   // 좌표 있는 Institution만
   const orgsWithCoord = ORG_NODES.filter(id => ORG_COORDS[id]);
-  const links = ORG_LINKS
+  const links = getNetLinks()
     .filter(l => ORG_COORDS[l[0]] && ORG_COORDS[l[1]])
     .map(l => ({source:l[0], target:l[1], co:l[2]}));
 
