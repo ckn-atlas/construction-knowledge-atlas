@@ -1827,11 +1827,11 @@ function renderCountryChart(){
 }
 
 function fillCountry(){
-  const sorted = [...COUNTRIES].sort((a,b)=>b.papers-a.papers).slice(0,30);
+  const sorted = [...COUNTRIES].sort((a,b)=>b.papers-a.papers);
   const max = Math.max(...sorted.map(c=>c.papers), 1);
   const bars = document.getElementById("countryBars");
   if(!bars) return;
-  const MAXBAR = 70;  // px
+  const MAXBAR = 70;  // px (크게 — 보이는 영역에 ~3행, 나머지 스크롤)
   bars.innerHTML = sorted.map((c,i)=>{
     const px = Math.max(3, Math.round(c.papers/max*MAXBAR));
     const col = _ctryColor(c.code);
