@@ -166,18 +166,6 @@ Monthly (1st of month): `jcr_categories.py` refreshes the JCR category journal l
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Frontend | Vanilla JS + D3.js v7 + 3d-force-graph |
-| Data pipeline | Python 3.10 (collect.py, generate_latest.py) |
-| Hosting | Cloudflare Pages (auto-deploy from GitHub) |
-| Analytics | Google Analytics 4 |
-| Ads | Google AdSense |
-
----
-
 ## 📦 File Structure
 
 ```
