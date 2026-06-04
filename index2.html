@@ -306,6 +306,16 @@
     padding:12px 0;align-items:center;min-height:120px;
   }
 
+  /* ── Country 2x2 grid ── */
+  #view-country.active{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;height:100%;overflow:hidden}
+  .ctry-cell{position:relative;overflow:hidden;display:flex;flex-direction:column}
+  .ctry-cell-hd{display:flex;align-items:center;gap:8px;padding:6px 12px;font-size:12px;font-weight:700;color:var(--txt);flex-shrink:0;border-bottom:1px solid var(--line);background:rgba(255,255,255,.02)}
+  .ctry-cell-hd .sub{font-size:10px;color:var(--muted);font-weight:400}
+  .ctry-cell-body{flex:1;position:relative;min-height:0}
+  .ctry-ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;pointer-events:none;text-align:center;padding:0 20px}
+  .ctry-vbar{display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;flex-shrink:0;width:30px;transition:opacity .15s}
+  .ctry-vbar .vb{width:18px;border-radius:2px 2px 0 0;transition:height .3s,opacity .15s}
+
   /* ── Graph Full-Screen Overlay ── */
   #graphOverlay{display:none;position:fixed;inset:0;z-index:300;background:var(--bg);flex-direction:column}
   #graphOverlay.open{display:flex}
@@ -516,40 +526,57 @@
     </section>
 
 <section class="view" id="view-country">
-      <div class="panel-title" data-i18n="title_country">Country Tech Influence</div>
-      <div class="panel-sub" data-i18n="sub_country">색이 진할수록 Paper Count가 많습니다. Click map or rank to see key institutions & technologies. 여러 나라를 클릭하면 연도별 비교 차트가 표시됩니다.</div>
-      <div style="display:flex;gap:16px;padding:0 24px;height:420px;min-height:240px">
-        <div class="map-wrap">
-          <svg id="worldMap"></svg>
-          <div class="maptip" id="mapTip"></div>
-          <div class="map-legend">Paper Count<div class="grad"></div><span id="legLo">0</span> ~ <span id="legHi">max</span></div>
-        </div>
-        <div class="ctry-side">
-          <h3 data-i18n="ctry_rank">Paper Rank</h3>
-          <div id="countryBars"></div>
-          <div class="country-detail card" id="countryDetail" style="display:none"></div>
+
+      <!-- TL: Map -->
+      <div class="ctry-cell" style="border-right:1px solid var(--line);border-bottom:1px solid var(--line)">
+        <div class="ctry-cell-hd"><span data-i18n="title_country">Country Tech Influence</span></div>
+        <div class="ctry-cell-body">
+          <div class="map-wrap" style="position:absolute;inset:0">
+            <svg id="worldMap"></svg>
+            <div class="maptip" id="mapTip"></div>
+            <div class="map-legend" style="position:absolute;left:8px;bottom:8px">Paper Count<div class="grad"></div><span id="legLo">0</span> ~ <span id="legHi">max</span></div>
+          </div>
         </div>
       </div>
-      <!-- Comparison chart + ontology layout -->
-      <div id="countryChartWrap" style="padding:8px 24px 20px;display:none;gap:16px;min-height:320px">
-        <!-- Left: annual comparison chart -->
-        <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:8px">
-          <div style="display:flex;align-items:center;gap:10px">
-            <span style="font-size:13px;font-weight:700;color:var(--txt)">Annual Paper Comparison</span>
-            <div id="ctryChipList" style="display:flex;gap:6px;flex-wrap:wrap"></div>
-            <button id="ctryChartClear" style="margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:3px 10px;font-size:11px;cursor:pointer">Clear Selection</button>
-          </div>
-          <div id="countryChart" style="height:280px;min-height:280px;position:relative"></div>
-        </div>
-        <!-- Right: Keyword Ontology (shown when 1 country selected) -->
-        <div id="ctryOntologyWrap" style="flex:1;min-width:0;display:none;flex-direction:column;gap:6px">
-          <div style="display:flex;align-items:center;gap:8px">
-            <span id="ctryOntologyTitle" style="font-size:13px;font-weight:700;color:var(--txt)">Keyword Ontology</span>
-            <span style="font-size:11px;color:var(--muted)">Node size = papers</span>
-          </div>
-          <div id="ctryOntologyGraph" style="flex:1;height:0;min-height:260px;position:relative;background:var(--panel2);border:1px solid var(--line);border-radius:8px;overflow:hidden"></div>
+
+      <!-- TR: Keyword Ontology -->
+      <div class="ctry-cell" style="border-bottom:1px solid var(--line);background:var(--panel2)">
+        <div class="ctry-cell-hd"><span id="ctryOntologyTitle">Keyword Ontology</span><span class="sub">Node size = papers</span></div>
+        <div class="ctry-cell-body">
+          <div id="ctryOntologyGraph" style="position:absolute;inset:0"></div>
+          <div class="ctry-ph" id="ctryOntoPh">Click a country on the map to see its keyword ontology</div>
         </div>
       </div>
+
+      <!-- BL: Paper Rank -->
+      <div class="ctry-cell" style="border-right:1px solid var(--line)">
+        <div class="ctry-cell-hd">
+          <span data-i18n="ctry_rank">Paper Rank</span>
+          <button id="ctryChartClear" onclick="clearCtrySelection()" style="margin-left:auto;display:none;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:5px;padding:2px 8px;font-size:10px;cursor:pointer">Clear Selection</button>
+        </div>
+        <div class="ctry-cell-body" style="display:flex">
+          <div style="flex:1;overflow-x:auto;overflow-y:hidden;padding:6px 8px 0">
+            <div id="countryBars" style="display:flex;gap:3px;align-items:flex-end;height:100%;min-width:max-content;padding-bottom:18px"></div>
+          </div>
+          <div class="country-detail card" id="countryDetail" style="display:none;width:170px;flex-shrink:0;overflow-y:auto;margin:6px;font-size:12px"></div>
+        </div>
+      </div>
+
+      <!-- BR: Annual Comparison -->
+      <div class="ctry-cell">
+        <div class="ctry-cell-hd">
+          <span data-i18n="ctry_compare">Annual Paper Comparison</span>
+          <div id="ctryChipList" style="display:flex;gap:4px;flex-wrap:wrap"></div>
+        </div>
+        <div class="ctry-cell-body">
+          <div id="countryChart" style="position:absolute;inset:0;padding:8px"></div>
+          <div class="ctry-ph" id="ctryChartPh">Click countries on the map to compare annual trends</div>
+        </div>
+      </div>
+
+      <!-- 호환용 dummy (함수 display 토글 흡수) -->
+      <div id="countryChartWrap" style="display:none"></div>
+      <div id="ctryOntologyWrap" style="display:none"></div>
     </section>
 
 <section class="view" id="view-network">
@@ -1563,19 +1590,16 @@ function toggleCountry(c){
       <div style="font-size:13px"><b>주요 Technology</b><br>${(c.tech||[]).map(t=>`<span class="pill hot">${t}</span>`).join("")||"—"}</div>`;
   }
   // 바 하이라이트
-  document.querySelectorAll(".bar-row").forEach(r=>{
-    const cc = r.dataset.code;
-    r.style.opacity = (_selCountries.size === 0 || _selCountries.has(cc)) ? 1 : 0.4;
+  document.querySelectorAll(".ctry-vbar").forEach(el=>{
+    const cc = el.dataset.code;
+    el.style.opacity = (_selCountries.size === 0 || _selCountries.has(cc)) ? '1' : '0.3';
   });
-  // show/hide 먼저 확정 → rAF 2회 후 레이아웃 기반 렌더
   const n = _selCountries.size;
-  const chartWrap = document.getElementById("countryChartWrap");
-  const ontWrap   = document.getElementById("ctryOntologyWrap");
-  chartWrap.style.display = n > 0 ? "flex" : "none";
-  ontWrap.style.display   = n === 1 ? "flex" : "none";
+  const clrBtn = document.getElementById("ctryChartClear");
+  if(clrBtn) clrBtn.style.display = n > 0 ? "" : "none";
   requestAnimationFrame(() => requestAnimationFrame(() => {
     renderCountryChart();
-    if(n === 1) buildCountryOntology();
+    buildCountryOntology();
   }));
 }
 
@@ -1584,9 +1608,14 @@ function buildCountryOntology(){
   const container = document.getElementById("ctryOntologyGraph");
   const title = document.getElementById("ctryOntologyTitle");
 
-  // 1items 선택일 때만 표시
-  if(_selCountries.size !== 1){ wrap.style.display = "none"; return; }
-  wrap.style.display = "flex";
+  // 1개 선택일 때만 표시
+  const ph = document.getElementById("ctryOntoPh");
+  if(_selCountries.size !== 1){
+    if(container) container.innerHTML = "";
+    if(ph) ph.style.display = "flex";
+    return;
+  }
+  if(ph) ph.style.display = "none";
 
   const cc = [..._selCountries][0];
   const ctry = COUNTRIES.find(c => c.code === cc);
@@ -1691,12 +1720,14 @@ function renderCountryChart(){
   const container = document.getElementById("countryChart");
   const chipList = document.getElementById("ctryChipList");
 
+  const ph = document.getElementById("ctryChartPh");
   if(_selCountries.size === 0){
-    wrap.style.display = "none";
-    document.getElementById("ctryOntologyWrap").style.display = "none";
+    if(container) container.innerHTML = "";
+    if(chipList) chipList.innerHTML = "";
+    if(ph) ph.style.display = "flex";
     return;
   }
-  wrap.style.display = "flex";
+  if(ph) ph.style.display = "none";
 
   // 칩 목록
   const selData = COUNTRIES.filter(c=>_selCountries.has(c.code));
@@ -1791,24 +1822,36 @@ function renderCountryChart(){
 }
 
 function fillCountry(){
-  const top = [...COUNTRIES].sort((a,b)=>b.papers-a.papers);
-  const max = Math.max(...top.map(c=>c.papers), 1);
-  document.getElementById("countryBars").innerHTML = top.map((c,i)=>`
-    <div class="bar-row" data-i="${i}" data-code="${c.code}" style="align-items:center">
-      <div class="bar-label">${cName(c)}</div>
-      <div class="bar-track" style="flex:1"><div class="bar-fill" style="width:${c.papers/max*100}%;padding-right:0"></div></div>
-      <span style="font-size:12px;font-weight:700;color:var(--txt);margin-left:8px;min-width:52px;text-align:right">${c.papers.toLocaleString()}papers</span>
-    </div>`).join("");
-  document.querySelectorAll(".bar-row").forEach(r=>r.onclick=()=>toggleCountry(top[+r.dataset.i]));
-  document.getElementById("ctryChartClear").onclick=()=>{
-    _selCountries.clear();
-    Object.keys(_cmpColorMap).forEach(k=>delete _cmpColorMap[k]);
-    document.querySelectorAll(".bar-row").forEach(r=>r.style.opacity=1);
-    document.getElementById("countryDetail").style.display="none";
-    renderCountryChart();
-    buildCountryOntology();
-    if(window._mapSvEl) window._mapSvEl.selectAll(".country-shape").classed("sel",false);
-  };
+  const sorted = [...COUNTRIES].sort((a,b)=>b.papers-a.papers);
+  const max = Math.max(...sorted.map(c=>c.papers), 1);
+  const bars = document.getElementById("countryBars");
+  if(!bars) return;
+  bars.innerHTML = sorted.map((c,i)=>{
+    const pct = Math.max(4, Math.round(c.papers/max*100));
+    const col = _ctryColor(c.code);
+    const lbl = c.papers>9999 ? (c.papers/1000).toFixed(0)+'k' : c.papers>999 ? (c.papers/1000).toFixed(1)+'k' : String(c.papers);
+    return '<div class="ctry-vbar" data-i="'+i+'" data-code="'+c.code+'" title="'+cName(c)+': '+c.papers.toLocaleString()+' papers">'+
+      '<span style="font-size:8px;color:var(--muted);line-height:1">'+lbl+'</span>'+
+      '<div class="vb" style="height:'+pct+'%;min-height:3px;background:'+col+'"></div>'+
+      '<span style="font-size:7px;color:var(--muted);max-width:28px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">'+c.code+'</span>'+
+      '</div>';
+  }).join("");
+  bars.querySelectorAll(".ctry-vbar").forEach(el=>{
+    el.onmouseenter = ()=>{ if(!_selCountries.has(el.dataset.code)) el.style.opacity='.7'; };
+    el.onmouseleave = ()=>{ el.style.opacity='1'; };
+    el.onclick = ()=> toggleCountry(sorted[+el.dataset.i]);
+  });
+}
+
+function clearCtrySelection(){
+  _selCountries.clear();
+  Object.keys(_cmpColorMap).forEach(k=>delete _cmpColorMap[k]);
+  document.querySelectorAll(".ctry-vbar").forEach(el=>el.style.opacity='1');
+  const det=document.getElementById("countryDetail"); if(det) det.style.display="none";
+  const clr=document.getElementById("ctryChartClear"); if(clr) clr.style.display="none";
+  renderCountryChart();
+  buildCountryOntology();
+  if(window._mapSvEl) window._mapSvEl.selectAll(".country-shape").classed("sel",false);
 }
 let WORLD = null;
 async function buildMap(){
@@ -1816,6 +1859,10 @@ async function buildMap(){
   const wrap = svgEl.parentNode;
   const box = wrap.getBoundingClientRect();
   const w = box.width, h = box.height;
+  if(w < 50 || h < 50){
+    requestAnimationFrame(()=>requestAnimationFrame(()=>buildMap()));
+    return;
+  }
   const sv = d3.select(svgEl).attr("viewBox",[0,0,w,h]);
   sv.selectAll("*").remove();
   if(!WORLD){
