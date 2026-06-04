@@ -1,13 +1,13 @@
 [
   {
     "name": "Construction and Building Materials",
-    "papers": 27210,
+    "papers": 27224,
     "cites": 667010,
     "issn": "0950-0618"
   },
   {
     "name": "Buildings",
-    "papers": 17166,
+    "papers": 17180,
     "cites": 132560,
     "issn": "2075-5309"
   },
@@ -25,13 +25,13 @@
   },
   {
     "name": "Automation in Construction",
-    "papers": 3453,
+    "papers": 3458,
     "cites": 126523,
     "issn": "0926-5805"
   },
   {
     "name": "Advanced Engineering Informatics",
-    "papers": 3343,
+    "papers": 3344,
     "cites": 67230,
     "issn": "1474-0346"
   },
@@ -49,31 +49,31 @@
   },
   {
     "name": "Journal of Structural Engineering",
-    "papers": 1949,
+    "papers": 1950,
     "cites": 25806,
     "issn": "0733-9445"
   },
   {
     "name": "Engineering Construction & Architectural Management",
-    "papers": 1848,
+    "papers": 1850,
     "cites": 25524,
     "issn": ""
   },
   {
     "name": "Frontiers in Built Environment",
-    "papers": 1725,
+    "papers": 1727,
     "cites": 15659,
     "issn": "2297-3362"
   },
   {
     "name": "Journal of Construction Engineering and Management",
-    "papers": 1596,
+    "papers": 1598,
     "cites": 24355,
     "issn": ""
   },
   {
     "name": "Journal of Geotechnical and Geoenvironmental Engineering",
-    "papers": 1474,
+    "papers": 1475,
     "cites": 18679,
     "issn": ""
   },
@@ -91,7 +91,7 @@
   },
   {
     "name": "Journal of Computing in Civil Engineering",
-    "papers": 541,
+    "papers": 544,
     "cites": 8431,
     "issn": "0887-3801"
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "Journal of Civil Engineering and Management",
-    "papers": 333,
+    "papers": 335,
     "cites": 4025,
     "issn": "1392-3730"
   }

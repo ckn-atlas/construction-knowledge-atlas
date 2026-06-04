@@ -80,36 +80,36 @@
     "top_keywords": [
       {
         "id": "Materials Science",
-        "n": 3793
+        "n": 3811
       },
       {
         "id": "Composite",
-        "n": 2906
+        "n": 2918
       },
       {
         "id": "Computer Science",
-        "n": 2316
+        "n": 2336
       },
       {
         "id": "Structural Engineering",
-        "n": 1706
+        "n": 1716
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 2906
+        "co": 2918
       },
       {
         "a": "Cementitious",
         "b": "Materials Science",
-        "co": 1189
+        "co": 1193
       },
       {
         "a": "Compressive Strength",
         "b": "Materials Science",
-        "co": 1130
+        "co": 1134
       }
     ]
   }

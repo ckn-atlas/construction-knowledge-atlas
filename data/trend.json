@@ -1,42 +1,42 @@
 [
   {
     "id": "Materials Science",
-    "papers": 52984,
+    "papers": 53002,
     "growth": 1
   },
   {
     "id": "Composite",
-    "papers": 46080,
+    "papers": 46092,
     "growth": -3
   },
   {
     "id": "Material Properties/Testing",
-    "papers": 32777,
+    "papers": 32785,
     "growth": 0
   },
   {
     "id": "Computer Science",
-    "papers": 29870,
+    "papers": 29890,
     "growth": 9
   },
   {
     "id": "Construction Management",
-    "papers": 29602,
+    "papers": 29630,
     "growth": 0
   },
   {
     "id": "Structural Engineering",
-    "papers": 24718,
+    "papers": 24728,
     "growth": 5
   },
   {
     "id": "Geology",
-    "papers": 15963,
+    "papers": 15968,
     "growth": -13
   },
   {
     "id": "Digital Documentation",
-    "papers": 15791,
+    "papers": 15797,
     "growth": 0
   }
 ]

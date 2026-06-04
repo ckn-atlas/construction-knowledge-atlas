@@ -50,8 +50,8 @@
     "University of Tehran",
     "Pennsylvania State University",
     "Prince Sattam Bin Abdulaziz University",
-    "University of Cambridge",
     "Universidad Politécnica de Madrid",
+    "University of Cambridge",
     "Norwegian University of Science and Technology",
     "University of Florida",
     "Universiti Sains Malaysia",
@@ -97,9 +97,9 @@
     "Northumbria University",
     "Universidade de São Paulo",
     "KU Leuven",
+    "Politecnico di Torino",
     "Technical University of Denmark",
     "Universidad de Sevilla",
-    "Politecnico di Torino",
     "Czech Technical University in Prague",
     "Istanbul Technical University",
     "Universidade do Porto",
@@ -112,8 +112,8 @@
     "University of Birmingham",
     "National Taiwan University of Science and Technology",
     "Michigan Technological University",
-    "Vilnius Gediminas Technical University",
     "Universidad de Granada",
+    "Vilnius Gediminas Technical University",
     "Korea Advanced Institute of Science and Technology",
     "Oregon State University",
     "Pontificia Universidad Católica de Chile",
@@ -1154,25 +1154,25 @@
     ]
   ],
   "weight": {
-    "Southeast University": 3290,
-    "Tongji University": 3098,
+    "Southeast University": 3291,
+    "Tongji University": 3099,
     "Hong Kong Polytechnic University": 1924,
     "Chang'an University": 1768,
-    "Harbin Institute of Technology": 1584,
+    "Harbin Institute of Technology": 1585,
     "Central South University": 1516,
     "Chongqing University": 1507,
     "Xi'an University of Architecture and Technology": 1465,
     "China University of Mining and Technology": 1264,
-    "Hohai University": 1253,
+    "Hohai University": 1254,
     "Wuhan University of Technology": 1233,
     "Zhejiang University": 1220,
     "Tsinghua University": 1159,
-    "Shenzhen University": 1141,
+    "Shenzhen University": 1142,
     "Beijing University of Technology": 1060,
-    "Dalian University of Technology": 1010,
+    "Dalian University of Technology": 1011,
     "ORCID": 801,
     "University of Hong Kong": 564,
-    "National University of Singapore": 555,
+    "National University of Singapore": 556,
     "UNSW Sydney": 546,
     "Centre National de la Recherche Scientifique": 545,
     "Delft University of Technology": 521,
@@ -1182,15 +1182,15 @@
     "RMIT University": 406,
     "Curtin University": 376,
     "Hanyang University": 364,
-    "Western Sydney University": 357,
+    "Western Sydney University": 358,
     "University College London": 349,
     "University of Technology Sydney": 345,
     "University of Alberta": 345,
     "King Saud University": 328,
-    "Politecnico di Milano": 326,
+    "Politecnico di Milano": 327,
     "University of British Columbia": 322,
-    "University of Lisbon": 319,
-    "Yonsei University": 296,
+    "University of Lisbon": 320,
+    "Yonsei University": 298,
     "The University of Melbourne": 292,
     "Seoul National University": 288,
     "Iran University of Science and Technology": 278,
@@ -1204,11 +1204,11 @@
     "University of Tehran": 254,
     "Pennsylvania State University": 254,
     "Prince Sattam Bin Abdulaziz University": 251,
+    "Universidad Politécnica de Madrid": 250,
     "University of Cambridge": 249,
-    "Universidad Politécnica de Madrid": 249,
     "Norwegian University of Science and Technology": 242,
     "University of Florida": 241,
-    "Universiti Sains Malaysia": 239,
+    "Universiti Sains Malaysia": 240,
     "Deakin University": 238,
     "RWTH Aachen University": 234,
     "King Fahd University of Petroleum and Minerals": 232,
@@ -1231,15 +1231,15 @@
     "Georgia Institute of Technology": 190,
     "Swinburne University of Technology": 190,
     "Queensland University of Technology": 188,
-    "University of Toronto": 187,
+    "University of Toronto": 188,
     "The University of Western Australia": 187,
     "University of Manchester": 187,
     "Korea University": 185,
     "University of Johannesburg": 185,
     "Ministry of Education": 184,
-    "The University of Texas at Austin": 181,
+    "The University of Texas at Austin": 182,
     "ETH Zurich": 181,
-    "University of Macau": 178,
+    "University of Macau": 179,
     "University of Bologna": 177,
     "City University of Macau": 176,
     "AGH University of Krakow": 173,
@@ -1251,9 +1251,9 @@
     "Northumbria University": 166,
     "Universidade de São Paulo": 165,
     "KU Leuven": 162,
+    "Politecnico di Torino": 162,
     "Technical University of Denmark": 161,
     "Universidad de Sevilla": 161,
-    "Politecnico di Torino": 161,
     "Czech Technical University in Prague": 159,
     "Istanbul Technical University": 158,
     "Universidade do Porto": 158,
@@ -1266,8 +1266,8 @@
     "University of Birmingham": 150,
     "National Taiwan University of Science and Technology": 149,
     "Michigan Technological University": 148,
+    "Universidad de Granada": 148,
     "Vilnius Gediminas Technical University": 147,
-    "Universidad de Granada": 147,
     "Korea Advanced Institute of Science and Technology": 146,
     "Oregon State University": 146,
     "Pontificia Universidad Católica de Chile": 146,
@@ -1356,8 +1356,8 @@
     "University of Tehran": "IR",
     "Pennsylvania State University": "US",
     "Prince Sattam Bin Abdulaziz University": "SA",
-    "University of Cambridge": "GB",
     "Universidad Politécnica de Madrid": "ES",
+    "University of Cambridge": "GB",
     "Norwegian University of Science and Technology": "NO",
     "University of Florida": "US",
     "Universiti Sains Malaysia": "MY",
@@ -1403,9 +1403,9 @@
     "Northumbria University": "GB",
     "Universidade de São Paulo": "BR",
     "KU Leuven": "BE",
+    "Politecnico di Torino": "IT",
     "Technical University of Denmark": "DK",
     "Universidad de Sevilla": "ES",
-    "Politecnico di Torino": "IT",
     "Czech Technical University in Prague": "CZ",
     "Istanbul Technical University": "TR",
     "Universidade do Porto": "PT",
@@ -1418,8 +1418,8 @@
     "University of Birmingham": "GB",
     "National Taiwan University of Science and Technology": "TW",
     "Michigan Technological University": "US",
-    "Vilnius Gediminas Technical University": "LT",
     "Universidad de Granada": "ES",
+    "Vilnius Gediminas Technical University": "LT",
     "Korea Advanced Institute of Science and Technology": "KR",
     "Oregon State University": "US",
     "Pontificia Universidad Católica de Chile": "CL",
@@ -1658,13 +1658,13 @@
       24.155410766601562,
       47.334571838378906
     ],
-    "University of Cambridge": [
-      52.2,
-      0.11667
-    ],
     "Universidad Politécnica de Madrid": [
       40.4165,
       -3.70256
+    ],
+    "University of Cambridge": [
+      52.2,
+      0.11667
     ],
     "Norwegian University of Science and Technology": [
       63.43049,
@@ -1846,6 +1846,10 @@
       50.87959,
       4.70093
     ],
+    "Politecnico di Torino": [
+      45.07049,
+      7.68682
+    ],
     "Technical University of Denmark": [
       55.77043914794922,
       12.503780364990234
@@ -1853,10 +1857,6 @@
     "Universidad de Sevilla": [
       37.38283,
       -5.97317
-    ],
-    "Politecnico di Torino": [
-      45.07049,
-      7.68682
     ],
     "Czech Technical University in Prague": [
       50.08804,
@@ -1906,13 +1906,13 @@
       47.12186813354492,
       -88.56900787353516
     ],
-    "Vilnius Gediminas Technical University": [
-      54.68916,
-      25.2798
-    ],
     "Universidad de Granada": [
       37.18817,
       -3.60667
+    ],
+    "Vilnius Gediminas Technical University": [
+      54.68916,
+      25.2798
     ],
     "Korea Advanced Institute of Science and Technology": [
       36.34912872314453,
@@ -8494,6 +8494,11 @@
         2
       ],
       [
+        "The University of Texas at Austin",
+        "Yonsei University",
+        2
+      ],
+      [
         "Chung-Ang University",
         "Korea University",
         2
@@ -8956,11 +8961,6 @@
       [
         "Cairo University",
         "Housing and Building National Research Center",
-        1
-      ],
-      [
-        "The University of Texas at Austin",
-        "Yonsei University",
         1
       ],
       [
@@ -21522,6 +21522,11 @@
         2
       ],
       [
+        "The University of Texas at Austin",
+        "Yonsei University",
+        2
+      ],
+      [
         "Chung-Ang University",
         "Korea University",
         2
@@ -21984,11 +21989,6 @@
       [
         "Cairo University",
         "Housing and Building National Research Center",
-        1
-      ],
-      [
-        "The University of Texas at Austin",
-        "Yonsei University",
         1
       ],
       [
