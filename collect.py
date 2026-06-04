@@ -605,9 +605,9 @@ def build_outputs(all_works):
             links.append([a, b, co, monthly_co])
     graph = {"nodes": nodes, "links": links}
 
-    # ----- country.json (상위 40개국 + ISO 코드) -----
+    # ----- country.json (상위 80개국 + ISO 코드) -----
     countries = []
-    for cc, cnt in country_papers.most_common(40):
+    for cc, cnt in country_papers.most_common(80):
         countries.append({
             "c": CC_NAME.get(cc, cc),
             "code": cc,

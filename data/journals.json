@@ -1,110 +1,1292 @@
 [
   {
     "name": "Construction and Building Materials",
-    "papers": 27224,
-    "cites": 667010,
+    "papers": 27244,
+    "cites": 668849,
     "issn": "0950-0618"
   },
   {
-    "name": "Buildings",
-    "papers": 17180,
-    "cites": 132560,
-    "issn": "2075-5309"
+    "name": "Ocean Engineering",
+    "papers": 16785,
+    "cites": 233970,
+    "issn": "0029-8018"
   },
   {
-    "name": "Journal of Building Engineering",
-    "papers": 15088,
-    "cites": 259155,
-    "issn": "2352-7102"
+    "name": "Structures",
+    "papers": 11502,
+    "cites": 120397,
+    "issn": "2352-0124"
+  },
+  {
+    "name": "Engineering Structures",
+    "papers": 11357,
+    "cites": 207426,
+    "issn": "0141-0296"
+  },
+  {
+    "name": "IEEE Transactions on Intelligent Transportation Systems",
+    "papers": 8085,
+    "cites": 204621,
+    "issn": "1524-9050"
+  },
+  {
+    "name": "Building and Environment",
+    "papers": 6876,
+    "cites": 157762,
+    "issn": "0360-1323"
+  },
+  {
+    "name": "Energy and Buildings",
+    "papers": 6798,
+    "cites": 140002,
+    "issn": "0378-7788"
+  },
+  {
+    "name": "Thin-Walled Structures",
+    "papers": 6565,
+    "cites": 110984,
+    "issn": "0263-8231"
   },
   {
     "name": "Case Studies in Construction Materials",
-    "papers": 5777,
-    "cites": 74009,
+    "papers": 5792,
+    "cites": 74149,
     "issn": "2214-5095"
   },
   {
+    "name": "Transportation Research Record Journal of the Transportation Research Board",
+    "papers": 5649,
+    "cites": 39446,
+    "issn": ""
+  },
+  {
+    "name": "Sustainable Cities and Society",
+    "papers": 5381,
+    "cites": 200370,
+    "issn": "2210-6707"
+  },
+  {
+    "name": "Advances in Civil Engineering",
+    "papers": 4206,
+    "cites": 33385,
+    "issn": "1687-8086"
+  },
+  {
+    "name": "Journal of Hydrology",
+    "papers": 4000,
+    "cites": 20457,
+    "issn": "0022-1694"
+  },
+  {
+    "name": "Journal of Constructional Steel Research",
+    "papers": 3921,
+    "cites": 48893,
+    "issn": "0143-974X"
+  },
+  {
+    "name": "Tunnelling and Underground Space Technology",
+    "papers": 3911,
+    "cites": 78301,
+    "issn": "0886-7798"
+  },
+  {
+    "name": "Journal of Materials in Civil Engineering",
+    "papers": 3780,
+    "cites": 36580,
+    "issn": "0899-1561"
+  },
+  {
     "name": "Automation in Construction",
-    "papers": 3458,
-    "cites": 126523,
+    "papers": 3462,
+    "cites": 126980,
     "issn": "0926-5805"
   },
   {
-    "name": "Advanced Engineering Informatics",
-    "papers": 3344,
-    "cites": 67230,
-    "issn": "1474-0346"
+    "name": "Cement and Concrete Composites",
+    "papers": 2700,
+    "cites": 101936,
+    "issn": ""
   },
   {
     "name": "KSCE Journal of Civil Engineering",
-    "papers": 2528,
-    "cites": 19973,
+    "papers": 2538,
+    "cites": 20036,
     "issn": "1226-7988"
   },
   {
-    "name": "Journal of Rock Mechanics and Geotechnical Engineering",
-    "papers": 2045,
-    "cites": 37920,
+    "name": "Innovative Infrastructure Solutions",
+    "papers": 2471,
+    "cites": 16950,
+    "issn": "2364-4176"
+  },
+  {
+    "name": "Structural Concrete",
+    "papers": 2461,
+    "cites": 20084,
+    "issn": "1464-4177"
+  },
+  {
+    "name": "International Journal of Structural Stability and Dynamics",
+    "papers": 2458,
+    "cites": 15367,
+    "issn": "0219-4554"
+  },
+  {
+    "name": "Transportation Research Part E Logistics and Transportation Review",
+    "papers": 2399,
+    "cites": 63605,
     "issn": ""
+  },
+  {
+    "name": "Water Resources Management",
+    "papers": 2297,
+    "cites": 30993,
+    "issn": "0920-4741"
+  },
+  {
+    "name": "Journal of Advanced Transportation",
+    "papers": 2050,
+    "cites": 21212,
+    "issn": "0197-6729"
   },
   {
     "name": "Journal of Structural Engineering",
-    "papers": 1950,
-    "cites": 25806,
+    "papers": 1951,
+    "cites": 25856,
     "issn": "0733-9445"
   },
   {
+    "name": "Journal of Wind Engineering and Industrial Aerodynamics",
+    "papers": 1865,
+    "cites": 29664,
+    "issn": "0167-6105"
+  },
+  {
     "name": "Engineering Construction & Architectural Management",
-    "papers": 1850,
-    "cites": 25524,
+    "papers": 1854,
+    "cites": 25614,
     "issn": ""
   },
   {
-    "name": "Frontiers in Built Environment",
-    "papers": 1727,
-    "cites": 15659,
-    "issn": "2297-3362"
+    "name": "Transportation Geotechnics",
+    "papers": 1792,
+    "cites": 25019,
+    "issn": "2214-3912"
+  },
+  {
+    "name": "Cement and Concrete Research",
+    "papers": 1791,
+    "cites": 77083,
+    "issn": "0008-8846"
+  },
+  {
+    "name": "Materials and Structures",
+    "papers": 1696,
+    "cites": 17916,
+    "issn": "1359-5997"
+  },
+  {
+    "name": "International Journal of Geomate",
+    "papers": 1691,
+    "cites": 5042,
+    "issn": "2186-2982"
+  },
+  {
+    "name": "Journal of Asian Architecture and Building Engineering",
+    "papers": 1679,
+    "cites": 7662,
+    "issn": "1346-7581"
+  },
+  {
+    "name": "International Journal of Pavement Engineering",
+    "papers": 1643,
+    "cites": 18073,
+    "issn": "1029-8436"
   },
   {
     "name": "Journal of Construction Engineering and Management",
     "papers": 1598,
-    "cites": 24355,
+    "cites": 24458,
+    "issn": "0733-9364"
+  },
+  {
+    "name": "Fire Safety Journal",
+    "papers": 1559,
+    "cites": 16691,
+    "issn": "0379-7112"
+  },
+  {
+    "name": "Archives of Civil and Mechanical Engineering",
+    "papers": 1531,
+    "cites": 18226,
+    "issn": "1644-9665"
+  },
+  {
+    "name": "Cold Regions Science and Technology",
+    "papers": 1518,
+    "cites": 17539,
+    "issn": "0165-232X"
+  },
+  {
+    "name": "Stochastic Environmental Research and Risk Assessment",
+    "papers": 1503,
+    "cites": 18887,
+    "issn": "1436-3240"
+  },
+  {
+    "name": "Civil Engineering Journal",
+    "papers": 1474,
+    "cites": 15511,
     "issn": ""
   },
   {
-    "name": "Journal of Geotechnical and Geoenvironmental Engineering",
-    "papers": 1475,
-    "cites": 18679,
-    "issn": ""
+    "name": "Earthquake Engineering & Structural Dynamics",
+    "papers": 1462,
+    "cites": 17753,
+    "issn": "0098-8847"
   },
   {
     "name": "Computer-Aided Civil and Infrastructure Engineering",
-    "papers": 1402,
-    "cites": 23871,
+    "papers": 1404,
+    "cites": 23940,
+    "issn": "1093-9687"
+  },
+  {
+    "name": "Advances in Structural Engineering",
+    "papers": 1382,
+    "cites": 10711,
+    "issn": "1369-4332"
+  },
+  {
+    "name": "Computers & Structures",
+    "papers": 1362,
+    "cites": 15937,
+    "issn": "0045-7949"
+  },
+  {
+    "name": "Bautechnik",
+    "papers": 1286,
+    "cites": 1288,
+    "issn": "0932-8351"
+  },
+  {
+    "name": "American Water Works Association",
+    "papers": 1254,
+    "cites": 901,
     "issn": ""
+  },
+  {
+    "name": "Beton- und Stahlbetonbau",
+    "papers": 1247,
+    "cites": 2262,
+    "issn": "0005-9900"
+  },
+  {
+    "name": "Structural Control and Health Monitoring",
+    "papers": 1195,
+    "cites": 18643,
+    "issn": ""
+  },
+  {
+    "name": "European Journal of Environmental and Civil engineering",
+    "papers": 1180,
+    "cites": 8755,
+    "issn": "1964-8189"
+  },
+  {
+    "name": "Stahlbau",
+    "papers": 1150,
+    "cites": 825,
+    "issn": "0038-9145"
+  },
+  {
+    "name": "Road Materials and Pavement Design",
+    "papers": 1085,
+    "cites": 11265,
+    "issn": "1468-0629"
+  },
+  {
+    "name": "Marine Structures",
+    "papers": 1077,
+    "cites": 15450,
+    "issn": "0951-8339"
+  },
+  {
+    "name": "International Journal of Construction Management",
+    "papers": 1069,
+    "cites": 12587,
+    "issn": "1562-3599"
+  },
+  {
+    "name": "Journal of Transportation Engineering Part A Systems",
+    "papers": 1041,
+    "cites": 6733,
+    "issn": ""
+  },
+  {
+    "name": "Coastal Engineering",
+    "papers": 1033,
+    "cites": 15007,
+    "issn": "0378-3839"
+  },
+  {
+    "name": "Journal of Earthquake Engineering",
+    "papers": 1029,
+    "cites": 9145,
+    "issn": "1363-2469"
+  },
+  {
+    "name": "Transportation Research Part B Methodological",
+    "papers": 976,
+    "cites": 21239,
+    "issn": ""
+  },
+  {
+    "name": "Structure and Infrastructure Engineering",
+    "papers": 967,
+    "cites": 10663,
+    "issn": "1573-2479"
+  },
+  {
+    "name": "International Journal of Pavement Research and Technology",
+    "papers": 928,
+    "cites": 7768,
+    "issn": "1996-6814"
+  },
+  {
+    "name": "Journal of Bridge Engineering",
+    "papers": 918,
+    "cites": 10854,
+    "issn": "1084-0702"
+  },
+  {
+    "name": "Earthquake Spectra",
+    "papers": 867,
+    "cites": 11990,
+    "issn": "8755-2930"
+  },
+  {
+    "name": "Journal of Environmental Engineering",
+    "papers": 864,
+    "cites": 5465,
+    "issn": "0733-9372"
+  },
+  {
+    "name": "Journal of Water Resources Planning and Management",
+    "papers": 862,
+    "cites": 8929,
+    "issn": "0733-9496"
+  },
+  {
+    "name": "Journal of Aerospace Engineering",
+    "papers": 857,
+    "cites": 4496,
+    "issn": "0893-1321"
+  },
+  {
+    "name": "Journal of Urban Planning and Development",
+    "papers": 845,
+    "cites": 6117,
+    "issn": "0733-9488"
+  },
+  {
+    "name": "Building Simulation",
+    "papers": 837,
+    "cites": 14363,
+    "issn": "1996-3599"
+  },
+  {
+    "name": "Indoor Air",
+    "papers": 831,
+    "cites": 15160,
+    "issn": "0905-6947"
+  },
+  {
+    "name": "Bauingenieur",
+    "papers": 811,
+    "cites": 500,
+    "issn": "0005-6650"
+  },
+  {
+    "name": "Transportation Infrastructure Geotechnology",
+    "papers": 808,
+    "cites": 3873,
+    "issn": "2196-7202"
+  },
+  {
+    "name": "IEEE Journal of Oceanic Engineering",
+    "papers": 796,
+    "cites": 8359,
+    "issn": "0364-9059"
+  },
+  {
+    "name": "The Structural Design of Tall and Special Buildings",
+    "papers": 786,
+    "cites": 3438,
+    "issn": ""
+  },
+  {
+    "name": "Canadian Journal of Civil Engineering",
+    "papers": 781,
+    "cites": 3378,
+    "issn": "0315-1468"
+  },
+  {
+    "name": "ACI Structural Journal",
+    "papers": 770,
+    "cites": 3112,
+    "issn": "0889-3241"
+  },
+  {
+    "name": "International Journal of Steel Structures",
+    "papers": 748,
+    "cites": 3641,
+    "issn": "1598-2351"
+  },
+  {
+    "name": "Indoor and Built Environment",
+    "papers": 747,
+    "cites": 6992,
+    "issn": "1420-326X"
+  },
+  {
+    "name": "Archives of Civil Engineering",
+    "papers": 747,
+    "cites": 1374,
+    "issn": "1230-2945"
+  },
+  {
+    "name": "International Journal of Civil Engineering",
+    "papers": 737,
+    "cites": 4562,
+    "issn": "1735-0522"
+  },
+  {
+    "name": "International Journal of Architectural Heritage",
+    "papers": 726,
+    "cites": 5261,
+    "issn": "1558-3058"
+  },
+  {
+    "name": "Journal of Hydroinformatics",
+    "papers": 702,
+    "cites": 6658,
+    "issn": "1464-7141"
+  },
+  {
+    "name": "Journal of Civil Structural Health Monitoring",
+    "papers": 696,
+    "cites": 9522,
+    "issn": "2190-5452"
+  },
+  {
+    "name": "Transportation",
+    "papers": 695,
+    "cites": 8810,
+    "issn": "0049-4488"
+  },
+  {
+    "name": "Structural Engineering International",
+    "papers": 690,
+    "cites": 1832,
+    "issn": "1016-8664"
+  },
+  {
+    "name": "Periodica Polytechnica Civil Engineering",
+    "papers": 687,
+    "cites": 3622,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Hydraulic Engineering",
+    "papers": 672,
+    "cites": 4539,
+    "issn": "0733-9429"
+  },
+  {
+    "name": "Journal of Hydrologic Engineering",
+    "papers": 669,
+    "cites": 4842,
+    "issn": "1084-0699"
+  },
+  {
+    "name": "Journal of Performance of Constructed Facilities",
+    "papers": 668,
+    "cites": 5336,
+    "issn": "0887-3828"
+  },
+  {
+    "name": "Journal of Sustainable Cement-Based Materials",
+    "papers": 660,
+    "cites": 4378,
+    "issn": "2165-0373"
+  },
+  {
+    "name": "Journal of Management in Engineering",
+    "papers": 657,
+    "cites": 14684,
+    "issn": "0742-597X"
+  },
+  {
+    "name": "Frontiers of Structural and Civil Engineering",
+    "papers": 640,
+    "cites": 7254,
+    "issn": "2095-2430"
+  },
+  {
+    "name": "Smart and Sustainable Built Environment",
+    "papers": 621,
+    "cites": 9139,
+    "issn": "2046-6099"
+  },
+  {
+    "name": "Journal of Pipeline Systems Engineering and Practice",
+    "papers": 616,
+    "cites": 3590,
+    "issn": "1949-1190"
+  },
+  {
+    "name": "Proceedings of the Institution of Mechanical Engineers Part F Journal of Rail and Rapid Transit",
+    "papers": 600,
+    "cites": 4076,
+    "issn": ""
+  },
+  {
+    "name": "International Journal of Sustainable Construction Engineering Technology",
+    "papers": 598,
+    "cites": 1542,
+    "issn": ""
+  },
+  {
+    "name": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems Part A Civil Engineering",
+    "papers": 590,
+    "cites": 4386,
+    "issn": ""
+  },
+  {
+    "name": "Natural Hazards Review",
+    "papers": 581,
+    "cites": 5359,
+    "issn": "1527-6988"
+  },
+  {
+    "name": "Journal of Composites for Construction",
+    "papers": 577,
+    "cites": 7570,
+    "issn": "1090-0268"
+  },
+  {
+    "name": "China Ocean Engineering",
+    "papers": 569,
+    "cites": 3610,
+    "issn": "0890-5487"
+  },
+  {
+    "name": "Science and Technology for the Built Environment",
+    "papers": 567,
+    "cites": 3426,
+    "issn": "2374-4731"
   },
   {
     "name": "ACI Materials Journal",
     "papers": 562,
-    "cites": 2860,
+    "cites": 2867,
     "issn": "0889-325X"
   },
   {
+    "name": "Civil and Environmental Engineering",
+    "papers": 557,
+    "cites": 2073,
+    "issn": "1336-5835"
+  },
+  {
+    "name": "Underground Space",
+    "papers": 556,
+    "cites": 11285,
+    "issn": "2096-2754"
+  },
+  {
     "name": "Journal of Computing in Civil Engineering",
-    "papers": 544,
-    "cites": 8431,
+    "papers": 546,
+    "cites": 8467,
     "issn": "0887-3801"
+  },
+  {
+    "name": "Journal of Irrigation and Drainage Engineering",
+    "papers": 533,
+    "cites": 2718,
+    "issn": "0733-9437"
+  },
+  {
+    "name": "International Journal of Concrete Structures and Materials",
+    "papers": 527,
+    "cites": 5982,
+    "issn": "1976-0485"
+  },
+  {
+    "name": "Journal of Energy Engineering",
+    "papers": 524,
+    "cites": 3191,
+    "issn": "0733-9402"
+  },
+  {
+    "name": "Structural Safety",
+    "papers": 521,
+    "cites": 9314,
+    "issn": "0167-4730"
+  },
+  {
+    "name": "Bauphysik",
+    "papers": 512,
+    "cites": 284,
+    "issn": "0171-5445"
+  },
+  {
+    "name": "Construction Innovation",
+    "papers": 501,
+    "cites": 7058,
+    "issn": ""
+  },
+  {
+    "name": "Water International",
+    "papers": 497,
+    "cites": 3081,
+    "issn": "0250-8060"
+  },
+  {
+    "name": "Gefahrstoffe Reinhaltung der Luft",
+    "papers": 489,
+    "cites": 450,
+    "issn": "0949-8036"
+  },
+  {
+    "name": "Magazine of Concrete Research",
+    "papers": 485,
+    "cites": 2469,
+    "issn": "0024-9831"
+  },
+  {
+    "name": "Practice Periodical on Structural Design and Construction",
+    "papers": 474,
+    "cites": 3538,
+    "issn": "1084-0680"
+  },
+  {
+    "name": "International Journal of Building Pathology and Adaptation",
+    "papers": 461,
+    "cites": 4186,
+    "issn": "2398-4708"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Structures and Buildings",
+    "papers": 460,
+    "cites": 1522,
+    "issn": ""
+  },
+  {
+    "name": "Earthquake Engineering and Engineering Vibration",
+    "papers": 441,
+    "cites": 4215,
+    "issn": "1671-3664"
+  },
+  {
+    "name": "Journal of Architectural Engineering",
+    "papers": 437,
+    "cites": 2800,
+    "issn": "1076-0431"
+  },
+  {
+    "name": "International Journal of Masonry Research and Innovation",
+    "papers": 423,
+    "cites": 747,
+    "issn": "2056-9459"
+  },
+  {
+    "name": "Journal of the Croatian Association of Civil Engineers",
+    "papers": 420,
+    "cites": 1079,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Marine Science and Technology",
+    "papers": 419,
+    "cites": 3904,
+    "issn": "0948-4280"
+  },
+  {
+    "name": "Architectural Engineering and Design Management",
+    "papers": 417,
+    "cites": 3305,
+    "issn": "1745-2007"
+  },
+  {
+    "name": "Lighting Research & Technology",
+    "papers": 412,
+    "cites": 2616,
+    "issn": "1477-1535"
+  },
+  {
+    "name": "Journal of Advanced Concrete Technology",
+    "papers": 401,
+    "cites": 3212,
+    "issn": "1346-8014"
+  },
+  {
+    "name": "Latin American Journal of Solids and Structures",
+    "papers": 397,
+    "cites": 1803,
+    "issn": "1679-7825"
+  },
+  {
+    "name": "STRUCTURAL ENGINEERING AND MECHANICS",
+    "papers": 396,
+    "cites": 1983,
+    "issn": "1225-4568"
+  },
+  {
+    "name": "Journal of Infrastructure Systems",
+    "papers": 395,
+    "cites": 3935,
+    "issn": "1076-0342"
+  },
+  {
+    "name": "Civil And Environmental Engineering Reports",
+    "papers": 390,
+    "cites": 826,
+    "issn": "2080-5187"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Civil Engineering",
+    "papers": 389,
+    "cites": 617,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Traffic and Transportation Engineering (English Edition)",
+    "papers": 387,
+    "cites": 9290,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Hydraulic Research",
+    "papers": 384,
+    "cites": 2573,
+    "issn": "0022-1686"
+  },
+  {
+    "name": "Built Environment Project and Asset Management",
+    "papers": 376,
+    "cites": 3604,
+    "issn": "2044-124X"
+  },
+  {
+    "name": "Steel and Composite Structures",
+    "papers": 369,
+    "cites": 3993,
+    "issn": "1229-9367"
+  },
+  {
+    "name": "Architecture",
+    "papers": 369,
+    "cites": 1193,
+    "issn": ""
+  },
+  {
+    "name": "AQUA - Water Infrastructure Ecosystems and Society",
+    "papers": 361,
+    "cites": 1898,
+    "issn": ""
+  },
+  {
+    "name": "Buildings and Cities",
+    "papers": 360,
+    "cites": 4525,
+    "issn": ""
   },
   {
     "name": "Journal of Information Technology in Construction",
     "papers": 355,
-    "cites": 4517,
+    "cites": 4522,
+    "issn": "1874-4753"
+  },
+  {
+    "name": "Building Research & Information",
+    "papers": 346,
+    "cites": 4814,
     "issn": ""
+  },
+  {
+    "name": "Journal of Building Performance Simulation",
+    "papers": 345,
+    "cites": 3167,
+    "issn": "1940-1493"
+  },
+  {
+    "name": "International Journal of Offshore and Polar Engineering",
+    "papers": 338,
+    "cites": 1500,
+    "issn": "1053-5381"
   },
   {
     "name": "Journal of Civil Engineering and Management",
     "papers": 335,
-    "cites": 4025,
+    "cites": 4040,
     "issn": "1392-3730"
+  },
+  {
+    "name": "Geomechanics and Engineering",
+    "papers": 326,
+    "cites": 3164,
+    "issn": "2005-307X"
+  },
+  {
+    "name": "Journal of Waterway Port Coastal and Ocean Engineering",
+    "papers": 320,
+    "cites": 1988,
+    "issn": "0733-950X"
+  },
+  {
+    "name": "Informes de la Construcción",
+    "papers": 320,
+    "cites": 447,
+    "issn": ""
+  },
+  {
+    "name": "Stavební obzor",
+    "papers": 317,
+    "cites": 391,
+    "issn": ""
+  },
+  {
+    "name": "Advances in Cement Research",
+    "papers": 310,
+    "cites": 1306,
+    "issn": "0951-7197"
+  },
+  {
+    "name": "Building Services Engineering Research and Technology",
+    "papers": 302,
+    "cites": 1750,
+    "issn": ""
+  },
+  {
+    "name": "Survey Review",
+    "papers": 297,
+    "cites": 1288,
+    "issn": "0039-6265"
+  },
+  {
+    "name": "ZKG International",
+    "papers": 287,
+    "cites": 2,
+    "issn": "2366-1313"
+  },
+  {
+    "name": "Journal of Cold Regions Engineering",
+    "papers": 285,
+    "cites": 1420,
+    "issn": "0887-381X"
+  },
+  {
+    "name": "International Journal of Structural Engineering",
+    "papers": 278,
+    "cites": 371,
+    "issn": "1758-7328"
+  },
+  {
+    "name": "Technology|Architecture + Design",
+    "papers": 269,
+    "cites": 588,
+    "issn": ""
+  },
+  {
+    "name": "International Journal of Protective Structures",
+    "papers": 267,
+    "cites": 1490,
+    "issn": "2041-4196"
+  },
+  {
+    "name": "Architecture Civil Engineering Environment",
+    "papers": 265,
+    "cites": 485,
+    "issn": "1899-0142"
+  },
+  {
+    "name": "PCI Journal",
+    "papers": 258,
+    "cites": 510,
+    "issn": "0887-9672"
+  },
+  {
+    "name": "Coastal Engineering Journal",
+    "papers": 257,
+    "cites": 2121,
+    "issn": "2166-4250"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Transport",
+    "papers": 256,
+    "cites": 530,
+    "issn": ""
+  },
+  {
+    "name": "Sustainable and Resilient Infrastructure",
+    "papers": 250,
+    "cites": 2308,
+    "issn": "2378-9689"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Engineering Sustainability",
+    "papers": 247,
+    "cites": 1079,
+    "issn": ""
+  },
+  {
+    "name": "Russian Journal of Building Construction and Architecture",
+    "papers": 238,
+    "cites": 153,
+    "issn": "2542-0526"
+  },
+  {
+    "name": "Journal of Earthquake and Tsunami",
+    "papers": 231,
+    "cites": 1190,
+    "issn": "1793-4311"
+  },
+  {
+    "name": "The Baltic Journal of Road and Bridge Engineering",
+    "papers": 225,
+    "cites": 996,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Surveying Engineering",
+    "papers": 224,
+    "cites": 1087,
+    "issn": "0733-9453"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Bridge Engineering",
+    "papers": 223,
+    "cites": 749,
+    "issn": ""
+  },
+  {
+    "name": "Materiales de Construcción",
+    "papers": 218,
+    "cites": 1273,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Building Physics",
+    "papers": 215,
+    "cites": 1185,
+    "issn": "1744-2591"
+  },
+  {
+    "name": "Hormigón y Acero",
+    "papers": 214,
+    "cites": 143,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Hydro-environment Research",
+    "papers": 210,
+    "cites": 1672,
+    "issn": "1570-6443"
+  },
+  {
+    "name": "Journal of Applied Engineering Sciences",
+    "papers": 205,
+    "cites": 446,
+    "issn": "2247-3769"
+  },
+  {
+    "name": "Smart Structures and Systems",
+    "papers": 201,
+    "cites": 1965,
+    "issn": "1738-1584"
+  },
+  {
+    "name": "Glass Structures & Engineering",
+    "papers": 201,
+    "cites": 1145,
+    "issn": "2363-5142"
+  },
+  {
+    "name": "Journal of Construction in Developing Countries",
+    "papers": 200,
+    "cites": 629,
+    "issn": "1823-6499"
+  },
+  {
+    "name": "Jordan Journal of Civil Engineering",
+    "papers": 198,
+    "cites": 556,
+    "issn": "1993-0461"
+  },
+  {
+    "name": "Cement Wapno Beton",
+    "papers": 197,
+    "cites": 498,
+    "issn": "1425-8129"
+  },
+  {
+    "name": "Australian Journal of Structural Engineering",
+    "papers": 193,
+    "cites": 753,
+    "issn": "1328-7982"
+  },
+  {
+    "name": "Journal of Structural Integrity and Maintenance",
+    "papers": 192,
+    "cites": 1522,
+    "issn": "2470-5314"
+  },
+  {
+    "name": "Journal of Structural Fire Engineering",
+    "papers": 187,
+    "cites": 739,
+    "issn": "2040-2317"
+  },
+  {
+    "name": "Intelligent Buildings International",
+    "papers": 186,
+    "cites": 1018,
+    "issn": "1750-8975"
+  },
+  {
+    "name": "Roads and Bridges - Drogi i Mosty",
+    "papers": 179,
+    "cites": 344,
+    "issn": ""
+  },
+  {
+    "name": "Advances in concrete construction",
+    "papers": 178,
+    "cites": 1201,
+    "issn": "2287-5301"
+  },
+  {
+    "name": "LEUKOS The Journal of the Illuminating Engineering Society of North America",
+    "papers": 177,
+    "cites": 1531,
+    "issn": ""
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Water Management",
+    "papers": 168,
+    "cites": 526,
+    "issn": ""
+  },
+  {
+    "name": "Earthquake Engineering and Resilience",
+    "papers": 165,
+    "cites": 415,
+    "issn": "2770-5714"
+  },
+  {
+    "name": "Slovak Journal of Civil Engineering",
+    "papers": 165,
+    "cites": 404,
+    "issn": "1210-3896"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Construction Materials",
+    "papers": 159,
+    "cites": 501,
+    "issn": ""
+  },
+  {
+    "name": "Computers and Concrete, an International Journal",
+    "papers": 158,
+    "cites": 2151,
+    "issn": ""
+  },
+  {
+    "name": "Wind and Structures",
+    "papers": 152,
+    "cites": 859,
+    "issn": "1226-6116"
+  },
+  {
+    "name": "Advances in Building Energy Research",
+    "papers": 151,
+    "cites": 1070,
+    "issn": "1751-2549"
+  },
+  {
+    "name": "Electronic Journal of Structural Engineering",
+    "papers": 150,
+    "cites": 344,
+    "issn": "1443-9255"
+  },
+  {
+    "name": "Australian Journal of Civil Engineering",
+    "papers": 149,
+    "cites": 1052,
+    "issn": "1448-8353"
+  },
+  {
+    "name": "International Journal of Ventilation",
+    "papers": 148,
+    "cites": 455,
+    "issn": "1473-3315"
+  },
+  {
+    "name": "Earthquakes and Structures",
+    "papers": 148,
+    "cites": 699,
+    "issn": "2092-7614"
+  },
+  {
+    "name": "Journal of the International Association for Shell and Spatial Structures",
+    "papers": 144,
+    "cites": 326,
+    "issn": "1028-365X"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Municipal Engineer",
+    "papers": 142,
+    "cites": 313,
+    "issn": ""
+  },
+  {
+    "name": "Turkish Journal of Civil Engineering",
+    "papers": 138,
+    "cites": 225,
+    "issn": "2822-6836"
+  },
+  {
+    "name": "Journal of Road Engineering",
+    "papers": 133,
+    "cites": 2615,
+    "issn": "2097-0498"
+  },
+  {
+    "name": "Ingeniería del agua",
+    "papers": 129,
+    "cites": 284,
+    "issn": ""
+  },
+  {
+    "name": "Gradjevinski materijali i konstrukcije",
+    "papers": 126,
+    "cites": 206,
+    "issn": ""
+  },
+  {
+    "name": "Civil Engineering and Environmental Systems",
+    "papers": 123,
+    "cites": 517,
+    "issn": "1028-6608"
+  },
+  {
+    "name": "Journal of the South African Institution of Civil Engineering",
+    "papers": 121,
+    "cites": 526,
+    "issn": "1021-2019"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Engineering History and Heritage",
+    "papers": 117,
+    "cites": 118,
+    "issn": ""
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Forensic Engineering",
+    "papers": 112,
+    "cites": 205,
+    "issn": ""
+  },
+  {
+    "name": "Revista de ingeniería de construcción",
+    "papers": 107,
+    "cites": 265,
+    "issn": ""
+  },
+  {
+    "name": "Journal of Ship Research",
+    "papers": 104,
+    "cites": 654,
+    "issn": "0022-4502"
+  },
+  {
+    "name": "Engineering Journal",
+    "papers": 104,
+    "cites": 163,
+    "issn": ""
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Maritime Engineering",
+    "papers": 102,
+    "cites": 587,
+    "issn": ""
+  },
+  {
+    "name": "Nordic Concrete Research/Nordic concrete research",
+    "papers": 100,
+    "cites": 339,
+    "issn": ""
+  },
+  {
+    "name": "Advances in Civil and Architectural Engineering",
+    "papers": 91,
+    "cites": 118,
+    "issn": "2975-3848"
+  },
+  {
+    "name": "Romanian Journal of Transport Infrastructure",
+    "papers": 91,
+    "cites": 102,
+    "issn": "2286-2218"
+  },
+  {
+    "name": "Proceedings of the Institution of Civil Engineers - Engineering and Computational Mechanics",
+    "papers": 85,
+    "cites": 196,
+    "issn": ""
+  },
+  {
+    "name": "Bridge Structures",
+    "papers": 84,
+    "cites": 160,
+    "issn": "1573-2487"
+  },
+  {
+    "name": "ITE journal",
+    "papers": 35,
+    "cites": 42,
+    "issn": ""
+  },
+  {
+    "name": "Structural Monitoring and Maintenance",
+    "papers": 32,
+    "cites": 130,
+    "issn": ""
+  },
+  {
+    "name": "The Masonry Society Journal",
+    "papers": 28,
+    "cites": 1,
+    "issn": ""
+  },
+  {
+    "name": "Revista de la construcción",
+    "papers": 22,
+    "cites": 8,
+    "issn": ""
+  },
+  {
+    "name": "Civil engineering infrastructures journal",
+    "papers": 1,
+    "cites": 0,
+    "issn": ""
+  },
+  {
+    "name": "IMTA-TC",
+    "papers": 1,
+    "cites": 0,
+    "issn": ""
   }
 ]

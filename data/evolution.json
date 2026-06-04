@@ -4,36 +4,36 @@
     "top_keywords": [
       {
         "id": "Materials Science",
-        "n": 10834
-      },
-      {
-        "id": "Composite",
-        "n": 9288
+        "n": 19815
       },
       {
         "id": "Computer Science",
-        "n": 6052
+        "n": 17494
+      },
+      {
+        "id": "Composite",
+        "n": 15657
       },
       {
         "id": "Structural Engineering",
-        "n": 5070
+        "n": 14173
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 9288
+        "co": 15657
       },
       {
         "a": "Materials Science",
         "b": "Structural Engineering",
-        "co": 3693
+        "co": 9322
       },
       {
         "a": "Composite",
         "b": "Structural Engineering",
-        "co": 3115
+        "co": 7384
       }
     ]
   },
@@ -42,36 +42,36 @@
     "top_keywords": [
       {
         "id": "Materials Science",
-        "n": 10992
-      },
-      {
-        "id": "Composite",
-        "n": 8978
+        "n": 20912
       },
       {
         "id": "Computer Science",
-        "n": 6624
+        "n": 18260
+      },
+      {
+        "id": "Composite",
+        "n": 15784
       },
       {
         "id": "Structural Engineering",
-        "n": 5315
+        "n": 15059
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 8978
+        "co": 15784
       },
       {
         "a": "Materials Science",
         "b": "Structural Engineering",
-        "co": 3763
+        "co": 9650
       },
       {
         "a": "Composite",
         "b": "Structural Engineering",
-        "co": 2962
+        "co": 7240
       }
     ]
   },
@@ -80,36 +80,36 @@
     "top_keywords": [
       {
         "id": "Materials Science",
-        "n": 3811
-      },
-      {
-        "id": "Composite",
-        "n": 2918
+        "n": 7807
       },
       {
         "id": "Computer Science",
-        "n": 2336
+        "n": 6932
       },
       {
         "id": "Structural Engineering",
-        "n": 1716
+        "n": 5851
+      },
+      {
+        "id": "Composite",
+        "n": 5112
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 2918
+        "co": 5112
       },
       {
-        "a": "Cementitious",
-        "b": "Materials Science",
-        "co": 1193
+        "a": "Materials Science",
+        "b": "Structural Engineering",
+        "co": 3319
       },
       {
-        "a": "Compressive Strength",
-        "b": "Materials Science",
-        "co": 1134
+        "a": "FEM",
+        "b": "Structural Engineering",
+        "co": 2052
       }
     ]
   }
