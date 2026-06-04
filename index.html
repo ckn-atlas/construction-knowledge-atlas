@@ -84,7 +84,7 @@
   aside{width:320px;border-left:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:16px}
   .view{position:absolute;inset:0;display:none;height:100%;overflow:hidden}
   .view.active{display:block}
-  #view-latest.active,#view-country.active{overflow-y:auto}
+  #view-latest.active,#view-country.active,#view-impact.active,#view-journals.active,#view-evo.active{overflow-y:auto}
   /* graph */
   svg{width:100%;height:100%;display:block;cursor:grab}
   svg:active{cursor:grabbing}
@@ -396,7 +396,7 @@
     </section>
 
     <!-- COUNTRY -->
-    <section class="view" id="view-country" style="overflow-y:auto">
+    <section class="view" id="view-country">
       <!-- 상단: 지도 + Paper Rank 나란히 -->
       <div style="display:flex;gap:0;padding:8px 20px 0;align-items:flex-start">
         <div style="font-size:20px;font-weight:800;padding-bottom:2px" data-i18n="title_country">Country Tech Influence</div>
