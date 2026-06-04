@@ -49,29 +49,40 @@ LAST_YEAR = 2025        # 증가율 기준 최신 완결연도
 PER_PAGE = 200          # OpenAlex 최대 200
 MAX_PAGES = 999         # 무제한 — 저널 전체 수집
 
-# ChatGPT 조사에서 확정한 1차 구축 저널 + ISSN (OpenAlex source 매칭용)
-JOURNALS = [
-    # ── 기존 9개 ──
-    {"name": "Automation in Construction",                    "issn": "0926-5805"},
-    {"name": "Advanced Engineering Informatics",              "issn": "1474-0346"},
-    {"name": "Construction and Building Materials",           "issn": "0950-0618"},
-    {"name": "Journal of Building Engineering",               "issn": "2352-7102"},
-    {"name": "Buildings",                                     "issn": "2075-5309"},
-    {"name": "Frontiers in Built Environment",                "issn": "2297-3362"},
-    {"name": "KSCE Journal of Civil Engineering",             "issn": "1226-7988"},
-    {"name": "J. of Information Technology in Construction",  "issn": "1874-4753"},
-    {"name": "J. of Construction Engineering and Mgmt",       "issn": "0733-9364"},
-    # ── 신규 9개 ──
-    {"name": "Journal of Structural Engineering",             "issn": "0733-9445"},  # ASCE 구조
-    {"name": "Case Studies in Construction Materials",        "issn": "2214-5095"},  # 재료 사례
-    {"name": "Engineering Construction & Architectural Mgmt", "issn": "0969-9988"},  # 관리
-    {"name": "Journal of Computing in Civil Engineering",     "issn": "0887-3801"},  # BIM/AI
-    {"name": "Journal of Civil Engineering and Management",   "issn": "1392-3730"},  # 관리
-    {"name": "J. of Geotechnical and Geoenvironmental Eng",   "issn": "1090-0241"},  # 지반
-    {"name": "ACI Materials Journal",                         "issn": "0889-325X"},  # 콘크리트
-    {"name": "J. of Rock Mechanics and Geotechnical Eng",     "issn": "1674-7755"},  # 암반/지반
-    {"name": "Computer-Aided Civil & Infrastructure Eng",     "issn": "1093-9687"},  # AI/컴퓨팅
-]
+# JCR CONSTRUCTION & BUILDING TECHNOLOGY (FA) + ENGINEERING, CIVIL (IM) 카테고리 전체
+# jcr_categories.json 에서 동적 로딩 (jcr_categories.py 로 갱신)
+def _load_journals():
+    _path = os.path.join(OUT_DIR, "jcr_categories.json")
+    if os.path.isfile(_path):
+        try:
+            _d = json.load(open(_path, encoding="utf-8"))
+            return [{"name": j.get("name", issn), "issn": issn}
+                    for issn, j in _d.items() if issn]
+        except Exception:
+            pass
+    # fallback: 기존 18개 저널
+    return [
+        {"name": "Automation in Construction",                    "issn": "0926-5805"},
+        {"name": "Advanced Engineering Informatics",              "issn": "1474-0346"},
+        {"name": "Construction and Building Materials",           "issn": "0950-0618"},
+        {"name": "Journal of Building Engineering",               "issn": "2352-7102"},
+        {"name": "Buildings",                                     "issn": "2075-5309"},
+        {"name": "Frontiers in Built Environment",                "issn": "2297-3362"},
+        {"name": "KSCE Journal of Civil Engineering",             "issn": "1226-7988"},
+        {"name": "J. of Information Technology in Construction",  "issn": "1874-4753"},
+        {"name": "J. of Construction Engineering and Mgmt",       "issn": "0733-9364"},
+        {"name": "Journal of Structural Engineering",             "issn": "0733-9445"},
+        {"name": "Case Studies in Construction Materials",        "issn": "2214-5095"},
+        {"name": "Engineering Construction & Architectural Mgmt", "issn": "0969-9988"},
+        {"name": "Journal of Computing in Civil Engineering",     "issn": "0887-3801"},
+        {"name": "Journal of Civil Engineering and Management",   "issn": "1392-3730"},
+        {"name": "J. of Geotechnical and Geoenvironmental Eng",   "issn": "1090-0241"},
+        {"name": "ACI Materials Journal",                         "issn": "0889-325X"},
+        {"name": "J. of Rock Mechanics and Geotechnical Eng",     "issn": "1674-7755"},
+        {"name": "Computer-Aided Civil & Infrastructure Eng",     "issn": "1093-9687"},
+    ]
+
+JOURNALS = _load_journals()
 
 # 기술 키워드 정규화 사전: OpenAlex concept/keyword -> 사이트 표준 노드명 (소문자 포함 매칭)
 # 세분화된 키워드 정규화 사전.

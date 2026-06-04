@@ -14,14 +14,18 @@ BASE_DIR     = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_PATH  = os.path.join(BASE_DIR, "data", "latest.json")
 UNSPLASH_KEY = "s4ZnXZruiQfi-8HQp_7DtcoKU7-qevTvhMuktNV0K-s"
 
-JOURNAL_ISSNS = [
-    # 기존 9개
-    "0926-5805","1474-0346","0950-0618","2352-7102",
-    "2075-5309","2297-3362","1226-7988","1874-4753","0733-9364",
-    # 신규 9개
-    "0733-9445","2214-5095","0969-9988","0887-3801",
-    "1392-3730","1090-0241","0889-325X","1674-7755","1093-9687",
-]
+def _load_issns():
+    import json, os
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "jcr_categories.json")
+    if os.path.isfile(p):
+        try:
+            return list(json.load(open(p, encoding="utf-8")).keys())
+        except Exception:
+            pass
+    return ["0926-5805","1474-0346","0950-0618","2352-7102",
+            "2075-5309","2297-3362","1226-7988","1874-4753","0733-9364"]
+
+JOURNAL_ISSNS = _load_issns()
 GROUP_MAP = {
     # AI / ML
     "computer science":"AI","artificial intelligence":"AI","machine learning":"AI",
