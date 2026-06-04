@@ -3,7 +3,7 @@
 > **Interactive knowledge map of global construction technology research**
 
 [![Live Demo](https://img.shields.io/badge/Live-construction--knowledge--atlas.pages.dev-4dabf7?style=flat-square)](https://construction-knowledge-atlas.pages.dev)
-[![Papers](https://img.shields.io/badge/Papers-88%2C000%2B-green?style=flat-square)](https://construction-knowledge-atlas.pages.dev)
+[![Papers](https://img.shields.io/badge/Papers-260%2C000%2B-green?style=flat-square)](https://construction-knowledge-atlas.pages.dev)
 [![Journals](https://img.shields.io/badge/Journals-222-blue?style=flat-square)](https://construction-knowledge-atlas.pages.dev)
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=flat-square)](#license)
 
@@ -15,7 +15,7 @@
 
 ## 📖 Overview
 
-Construction Knowledge Atlas is an interactive visualization platform for **88,000+ academic papers** from **222 journals** in the JCR categories:
+Construction Knowledge Atlas is an interactive visualization platform for **260,000+ academic papers** from **222 journals** in the JCR categories:
 - **CONSTRUCTION & BUILDING TECHNOLOGY** (95 journals)
 - **ENGINEERING, CIVIL** (184 journals)
 
@@ -111,7 +111,7 @@ Coverage statistics for 222 journals from JCR FA + IM categories.
 
 | Source | Data |
 |--------|------|
-| [OpenAlex API](https://openalex.org/) | 88,000+ papers, citations, concepts, institutions |
+| [OpenAlex API](https://openalex.org/) | 260,000+ papers, citations, concepts, institutions |
 | [JCR (Clarivate)](https://jcr.clarivate.com/) | Official IF, Quartile, Rank, Percentile |
 | [Unsplash API](https://unsplash.com/developers) | Theme images for Latest tab |
 
@@ -167,8 +167,10 @@ Monthly (1st of month): `jcr_categories.py` refreshes the JCR category journal l
 │   └── meta.json           # Collection metadata
 ├── collect.py              # Main data collection (OpenAlex)
 ├── generate_latest.py      # Latest papers + Unsplash images
-├── jcr_auto.py             # JCR official IF/Quartile collection
-├── jcr_categories.py       # JCR category journal list collection
+├── jcr_auto.py             # JCR official IF/Quartile (single journal, API)
+├── jcr_categories.py       # JCR category journal list (JIF/JCI/Quartile/Rank)
+├── journal_meta_gen.py     # OpenAlex source metadata for all journals
+├── jcr_parse.py            # JCR MHTML parser (offline fallback)
 ├── make_scroll.py          # Generate scroll layout from index.html
 ├── daily_update.ps1        # Automated daily update script
 └── sitemap.xml
