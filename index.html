@@ -1506,7 +1506,8 @@ function ctryColor(cc){ return CTRY_COLOR[cc] || "#5c6b7a"; }
 
 // 선택된 Country 코드 Set
 const _selCountries = new Set();
-const cName = c => CTRY_KO[c.code] || c.c || c.code; // country display name (fallback: name field -> code)
+const _ctryEN = (()=>{ try{ return new Intl.DisplayNames(['en'],{type:'region'}); }catch(e){ return null; } })();
+const cName = c => CTRY_KO[c.code] || (_ctryEN ? (_ctryEN.of(c.code)||c.code) : c.code); // EN name -> code
 
 // Country별 색상 (비교 차트용 — 최대 8items)
 const _cmpColors = ["#4dabf7","#ff6b6b","#51cf66","#ffd43b","#cc5de8","#ff922b","#74c0fc","#a9e34b"];
@@ -1770,11 +1771,11 @@ function renderCountryChart(){
 }
 
 function fillCountry(){
-  const sorted = [...COUNTRIES].sort((a,b)=>b.papers-a.papers);
+  const sorted = [...COUNTRIES].sort((a,b)=>b.papers-a.papers).slice(0,30);
   const max = Math.max(...sorted.map(c=>c.papers), 1);
   const bars = document.getElementById("countryBars");
   if(!bars) return;
-  const MAXBAR = 44;  // px (3행 그리드 맞춤)
+  const MAXBAR = 70;  // px
   bars.innerHTML = sorted.map((c,i)=>{
     const px = Math.max(3, Math.round(c.papers/max*MAXBAR));
     const col = _ctryColor(c.code);
