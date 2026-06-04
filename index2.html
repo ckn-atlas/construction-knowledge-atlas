@@ -1801,6 +1801,7 @@ function renderCountryChart(){
 }
 
 function fillCountry(){
+  try{
   const sorted = [...COUNTRIES].sort((a,b)=>b.papers-a.papers);
   const max = Math.max(...sorted.map(c=>c.papers), 1);
   // 세로 막대 (전체 국가)
@@ -1821,6 +1822,7 @@ function fillCountry(){
     el.onmouseleave = ()=>{ el.style.opacity='1'; };
     el.onclick = ()=> toggleCountry(sorted[+el.dataset.i]);
   });
+  }catch(e){ console.error("fillCountry error:",e); }
 }
 
 function clearCtrySelection(){
