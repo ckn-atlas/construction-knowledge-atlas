@@ -2268,7 +2268,12 @@ function buildNetwork3D(){
 async function buildNetworkMap(){
   const svgEl = document.getElementById("netGraph");
   const box = svgEl.getBoundingClientRect();
-  const w = box.width, h = box.height;
+  let w = box.width, h = box.height;
+  // 크기 미확정(뷰 전환 직후) → 다음 프레임 재시도
+  if(w < 50 || h < 50){
+    requestAnimationFrame(()=>requestAnimationFrame(()=>buildNetworkMap()));
+    return;
+  }
   const sv = d3.select(svgEl).attr("viewBox",[0,0,w,h]);
   sv.selectAll("*").remove();
 
