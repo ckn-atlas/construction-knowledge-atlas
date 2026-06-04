@@ -3891,16 +3891,21 @@ async function loadData(){
 
 /* ===================== INIT ===================== */
 (async function init(){
+  const _safe = (label, fn) => { try { fn(); } catch(e){ console.error("[init] "+label+" failed:", e); } };
   await loadData();
-  initMonthSlider();
-  fillSidebar(); fillCountry(); fillImpact(); fillEvo(); fillJournals();
-  buildGroupFilter();
-  fillThemeLegend();
-  buildGraph();
-  updateRankPanel();
-  precomputeTreeCache();
-  loadLatest();
-  applyLang();
+  _safe("initMonthSlider", initMonthSlider);
+  _safe("fillSidebar",  fillSidebar);
+  _safe("fillCountry",  fillCountry);
+  _safe("fillImpact",   fillImpact);
+  _safe("fillEvo",      fillEvo);
+  _safe("fillJournals", fillJournals);
+  _safe("buildGroupFilter", buildGroupFilter);
+  _safe("fillThemeLegend",  fillThemeLegend);
+  _safe("buildGraph",   buildGraph);
+  _safe("updateRankPanel",  updateRankPanel);
+  _safe("precomputeTreeCache", precomputeTreeCache);
+  _safe("applyLang",    applyLang);
+  loadLatest();  // async, 별도 처리
 })();
 window.addEventListener("resize",()=>{
   _treeCache.clear(); // 크기 변경 시 cluster 재계산 필요
