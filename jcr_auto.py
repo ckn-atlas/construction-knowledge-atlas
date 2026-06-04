@@ -42,7 +42,7 @@ JOURNALS = [
     ("J GEOTECH GEOENVIRON",  "1090-0241", "J. of Geotechnical and Geoenvironmental Eng"),
     ("ACI MATER J",           "0889-325X", "ACI Materials Journal"),
     ("J ROCK MECH GEOTECH",   "1674-7755", "J. of Rock Mechanics and Geotechnical Eng"),
-    ("COMPUT-AID CIV INF",    "1093-9687", "Computer-Aided Civil & Infrastructure Eng"),
+    ("COMPUT-AIDED CIV INF",  "1093-9687", "Computer-Aided Civil & Infrastructure Eng"),
 ]
 
 

@@ -2196,6 +2196,14 @@
     "pub_city": "Hoboken, NJ",
     "pub_region": "",
     "pub_country": "",
-    "pub_country_full": "USA"
+    "pub_country_full": "USA",
+    "jif": 9.1,
+    "jif_no_self": 6.8,
+    "jcr_rank": 10,
+    "jcr_rank_of": 110,
+    "quartile": "Q1",
+    "jcr_category": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+    "total_cites_jcr": 9967,
+    "jif_year": 2024
   }
 }
