@@ -1,22 +1,22 @@
 [
   {
     "id": "Materials Science",
-    "papers": 112521,
+    "papers": 112522,
     "growth": 6
   },
   {
     "id": "Computer Science",
-    "papers": 102136,
+    "papers": 102138,
     "growth": 4
   },
   {
     "id": "Composite",
-    "papers": 90539,
+    "papers": 90540,
     "growth": 1
   },
   {
     "id": "Structural Engineering",
-    "papers": 85060,
+    "papers": 85061,
     "growth": 6
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "id": "Construction Management",
-    "papers": 57660,
+    "papers": 57663,
     "growth": 0
   },
   {

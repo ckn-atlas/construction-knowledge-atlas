@@ -650,7 +650,7 @@
   {
     "c": "캐나다",
     "code": "CA",
-    "papers": 9389,
+    "papers": 9390,
     "cites": 166858,
     "orgs": [
       "University of Alberta",
@@ -666,7 +666,7 @@
     "keywords": [
       [
         "Computer Science",
-        10264
+        10267
       ],
       [
         "Materials Science",
@@ -752,7 +752,7 @@
       "2023": 1363,
       "2024": 1468,
       "2025": 1518,
-      "2026": 559
+      "2026": 560
     }
   },
   {

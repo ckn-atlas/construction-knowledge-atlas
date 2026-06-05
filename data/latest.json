@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-05T10:42:55.566219",
-  "date_from": "2026-05-06",
+  "generated_at": "2026-06-06T03:06:12.136508",
+  "date_from": "2026-05-07",
   "total": 11,
   "papers": [
     {
@@ -33,21 +33,21 @@
     {
       "group": "BIM",
       "group_label": "BIM/Info",
-      "title": "BIM for highway infrastructure: a systems thinking insight into the impeding factors",
-      "journal": "Engineering Construction & Architectural Management",
-      "date": "2026-05-06",
+      "title": "Unveiling critical success factors for BIM stakeholder collaboration in Ghana: a Delphi study",
+      "journal": "Built Environment Project and Asset Management",
+      "date": "2026-05-25",
       "fwci": 0.0,
       "citations": 0,
       "oa": false,
-      "doi": "https://doi.org/10.1108/ecam-02-2025-0232",
+      "doi": "https://doi.org/10.1108/bepam-01-2025-0011",
       "keywords": [
-        "Causal loop diagram",
-        "Systems thinking",
-        "Categorization",
+        "Stakeholder",
         "Building information modeling",
-        "Key (lock)"
+        "Delphi method",
+        "Critical success factor",
+        "Knowledge management"
       ],
-      "abstract": "Purpose While building information modeling (BIM) adoption has received considerable attention in buildings, its implementation in highway infrastructure projects remains limited. This study aims to identify and contextualize the critical factors impeding BIM adoption in highways and to examine their causal interrelationships. Design/methodology/approach A four-stage mixed-method research framework was employed. First, a systematic literature review identified 20 factors and quantified their relative importance using normalized literature scores. Second, a cross-country industry survey generated corresponding normalized empirical scores. Third, these datasets were integrated to rank and categorize the factors and to identify critical impediments using Pareto analysis. Finally, causal interrelationships among the critical factors were examined through causal loop diagram developed using systems thinking–based modeling. Findings Thirteen key impediments, classified into five categories (financial, technical, management, environmental and legal) were found to impede BIM adoption in highway infrastructure projects. Nineteen causal interrelationships and seven feedback loops were identified. The findings provide quantitative evidence that BIM implementation in highways is hindered not by fundamentally new barriers, but by the intensification and interaction of well-documented challenges observed in building projects within the linear infrastructure context. Originality/value This study extends BIM adoption research by identifying impediments specific to highway infrastructure. By uncovering underlying causal interrelationships and feedback structures through systems thinking and causal loop modeling as a methodological novelty, it provides a system-level understanding of BIM adoption dynamics. It also offers strategic insights for policymakers and industry stakeholders to design targeted, system-aware interventions aimed at improving BIM adoption in highway infrastructure projects.",
+      "abstract": "Purpose This study applies critical success factors (CSF) theory to address collaboration challenges in Ghana’s building information modeling (BIM) construction projects, where stakeholder engagement is hindered by fragmentation, misaligned expectations, and limited digital integration. It identifies and prioritizes CSF influencing stakeholder collaboration and proposes structured strategies that align with Sustainable Development Goals (SDG) 9 and SDG 11. Design/methodology/approach A two-round Delphi method was conducted with 17 experts in the first round and 13 in the second, selected through purposive sampling for their BIM expertise in Ghana. The iterative process facilitated expert consensus on the most critical collaboration challenges and success factors in BIM-enabled construction. Findings The study identifies 16 CSF for BIM stakeholder collaboration. Seven were ranked as very highly influential (VHI: 9.00–10.00), including communication, collaborative attitudes, early involvement, coordination, joint decision-making, BIM infrastructures and fostering trust, mutual respect and understanding. The remaining nine were categorized as highly influential (HI: 7.00–8.99). These findings support SDG 9 by promoting digital innovation in infrastructure and SDG 11 by enhancing inclusive and sustainable urban development. Originality/value This research integrates CSF theory with collaborative delivery models such as integrated project delivery (IPD) and lean project delivery (LPD), offering a validated framework for improving stakeholder collaboration in BIM projects. It contributes to both academic understanding and practical implementation of BIM in developing contexts.",
       "image": {
         "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNTMyNzY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNTMyNzY0fDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -211,8 +211,8 @@
       ],
       "abstract": "The construction sector faces major challenges in terms of resource efficiency and environmental impact. To address the lack of sustainability in infrastructural development, this paper proposes an innovative concept for the reuse of aged reinforced concrete elements. The aim is to enable the selective reconditioning, segmentation and reintegration of concrete components into new structures through an automated production system. The system combines advanced automation technologies with suitable connection designs and comprehensive quality assurance methods to ensure structural integrity and long‐term performance. By applying a cradle to cradle philosophy and establishing a closed‐loop supply chain for concrete elements, the approach significantly reduces waste, conserves natural resources, and lowers CO 2 emissions. Building on this foundation, the paper reviews the state of the art in fine processing of aged concrete elements, with a focus on connection designs, automated processing, and quality assurance as key enablers of sustainable manufacturing and resilient infrastructure.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDUzMjc2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDUzMjc2OXww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDYyMzc3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDYyMzc3Mnww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a factory filled with lots of orange machines",
         "photographer": "Simon Kadula",
         "photographer_url": "https://unsplash.com/@simonkadula",
@@ -238,8 +238,8 @@
       ],
       "abstract": "Following the major Brazilian tailings disasters at Samarco in 2015 and Brumadinho in 2019, the National Mining Agency implemented rigorous safety ranking and monitoring procedures. This paper advocates for a transition in geotechnical practice from purely ‘slow’ static monitoring to an integrated approach using triaxial accelerometers. By capturing both tilt and dynamic signatures, engineers can identify internal structural changes – such as those preceding liquefaction – that conventional instruments often fail to detect.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNTMyNzcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNTMyNzcwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNjIzNzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNjIzNzczfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a monitor is on a stand in a room",
         "photographer": "Trnava University",
         "photographer_url": "https://unsplash.com/@trnavskauni",
