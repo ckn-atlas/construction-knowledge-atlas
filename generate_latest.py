@@ -78,7 +78,11 @@ GROUP_KO = {
 
 def log(msg):
     ts = datetime.now().strftime("%H:%M:%S")
-    print(f"[{ts}] {msg}", flush=True)
+    line = f"[{ts}] {msg}"
+    try:
+        print(line, flush=True)
+    except UnicodeEncodeError:
+        print(line.encode("ascii","replace").decode("ascii"), flush=True)
 
 def reconstruct_abstract(inv):
     if not inv: return None
