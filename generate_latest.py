@@ -266,6 +266,11 @@ def main():
         })
         log(f"  [{group}] FWCI={w.get('fwci')} | {w.get('title','')[:50]}")
 
+    # 결과가 비었으면(rate limit 등) 기존 파일 보존 — 빈 데이터로 덮어쓰지 않음
+    if not results:
+        log("WARNING: 결과 0개 — 기존 latest.json 유지 (덮어쓰기 안 함)")
+        return
+
     output = {
         "generated_at": datetime.now().isoformat(),
         "date_from": cutoff,
