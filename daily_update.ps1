@@ -36,9 +36,9 @@ Log "Step 3: make_scroll.py"
 Log "Step 3-1: generate_social_card.py"
 & $Python generate_social_card.py 2>&1 | ForEach-Object { Log "  $_" }
 
-# 3-2. LinkedIn 게시 (flag=1 + 토큰 설정 있을 때만)
-Log "Step 3-2: post_linkedin.py"
-& $Python post_linkedin.py 2>&1 | ForEach-Object { Log "  $_" }
+# 3-2. X(Twitter) 게시 (flag=1 + 토큰 설정 있을 때만)
+Log "Step 3-2: post_x.py"
+& $Python post_x.py 2>&1 | ForEach-Object { Log "  $_" }
 
 # 4. sitemap 날짜 업데이트
 $dateStr = $today.ToString("yyyy-MM-dd")
