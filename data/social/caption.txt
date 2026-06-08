@@ -1,0 +1,14 @@
+🏗️ Construction Knowledge Atlas — Latest Research Highlights
+Top construction & civil engineering papers (since 2026-05-09):
+
+⛏️ Controls on Isolated Boulder Incipient Motion: Experimental Insights into Froude Number, R — Journal of Hydraulic Engineering
+🏗️ Stochastic modelling of imposed floor loads in modern office buildings — Structures
+🦾 Reuse of Existing Reinforced Concrete Elements ‐ Automated Fine Processing, Connection Des — Beton- und Stahlbetonbau
+🤖 City pulse aware graph neural network for joint volume and speed estimation in urban traff — Computer-Aided Civil and Infrastructure Engineering
+🧱 Low-carbon cementitious grouts with straw biochar and ladle furnace slag: A micro- to macr — Construction and Building Materials
+📐 Unveiling critical success factors for BIM stakeholder collaboration in Ghana: a Delphi st — Built Environment Project and Asset Management
+
+Explore all 11 themes, 222 journals, 260K+ papers:
+https://construction-knowledge-atlas.pages.dev
+
+#construction #civilengineering #BIM #research #AEC #structuralengineering #constructiontech

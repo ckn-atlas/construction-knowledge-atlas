@@ -17,3 +17,9 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# LinkedIn 토큰 (노출 금지)
+data/social/linkedin_config.json
+data/social/last_signature.txt
+data/social/changed.flag
+data/social/_card.html
