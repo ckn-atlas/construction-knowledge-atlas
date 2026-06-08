@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-06-07T10:06:54.554783",
-  "date_from": "2026-05-08",
+  "generated_at": "2026-06-08T10:15:39.453885",
+  "date_from": "2026-05-09",
   "total": 11,
   "papers": [
     {
       "group": "AI",
       "group_label": "AI/ML",
-      "title": "Integral dynamic event-triggered control for surface-underwater vehicles via an improved LVS guidance",
-      "journal": "Ocean Engineering",
-      "date": "2026-05-08",
-      "fwci": 11.2318,
+      "title": "City pulse aware graph neural network for joint volume and speed estimation in urban traffic",
+      "journal": "Computer-Aided Civil and Infrastructure Engineering",
+      "date": "2026-05-12",
+      "fwci": 9.7824,
       "citations": 1,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.oceaneng.2026.125750",
+      "doi": "https://doi.org/10.1016/j.cacaie.2026.100080",
       "keywords": [
         "Computer science",
-        "Control (management)",
-        "Control theory (sociology)",
-        "Control engineering",
-        "Vehicle dynamics"
+        "Fuse (electrical)",
+        "Graph",
+        "Data mining",
+        "Artificial intelligence"
       ],
-      "abstract": "This paper investigates a cooperative path-following control algorithm for an underactuated surface vehicle (USV) and an unmanned underwater vehicle (UUV) under external disturbances. For guidance design, a novel adaptive logic virtual ship (LVS) guidance principle is developed to generate real-time reference signals for both the USV and the UUV. It incorporates an adaptive drift angle compensation term to counteract external disturbances. This enhanced guidance law ensures smooth switching between path-following and cooperative modes, while accounting for the kinematic constraints of both vehicles. For control design, the robust bounded compensating technique is integrated with an integral dynamic event-triggered mechanism (IDTM) to approximate the uncertain nonlinear terms and reduce the communication burden between the controller and actuators. Furthermore, the servo system dynamics are explicitly incorporated into the controller design to enhance tracking performance and system robustness. Based on the Lyapunov theory, it is proved that all signals in the closed-loop system are semi-globally uniformly ultimately bounded (SGUUB). Numerical simulations are conducted to validate the effectiveness and superiority of the proposed cooperative control strategy under time-varying external disturbances. • An adaptive LVS guidance law is developed for cooperative path following, incorporating real-time drift angle compensation to enhance robustness. • An integral dynamic event-triggered mechanism (IDTM) is designed for reducing communication burden. • All signals in the closed-loop cooperative system are proven to be SGUUB stable via Lyapunov analysis.",
+      "abstract": "Accurate perception of traffic states is crucial for intelligent urban transportation systems. However, in reality, due to the high cost of detector deployment, our observation is often limited to only a portion of road segments. To acquire the dynamics of all road segments, we propose a novel model named City Pulse Aware Graph Neural Network (CPA-Net), which estimates traffic volume and speed in urban transport networks. Multi-head self-attention layers are used to enhance temporal feature extraction. We introduce dynamic correlation graph and functional similarity graph to adaptively capture spatial correlations, and then fuse different graphs through a gated diffusion convolutional layer. Additionally, we design a tailored external feature extraction module to efficiently integrate various external data into the model. We develop a multi-task learning architecture to achieve joint estimation of traffic volume and speed. Experimental results on real-world urban traffic datasets demonstrate that CPA-Net achieves better performance than baseline models. Furthermore, extensive tests under different missing rates and time windows are performed to reveal the model’s strong robustness. Finally, we identify the significant effects of each module through ablation analysis.",
       "image": {
         "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNjgyNzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNjgyNzYyfDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -49,12 +49,12 @@
       ],
       "abstract": "Purpose This study applies critical success factors (CSF) theory to address collaboration challenges in Ghana’s building information modeling (BIM) construction projects, where stakeholder engagement is hindered by fragmentation, misaligned expectations, and limited digital integration. It identifies and prioritizes CSF influencing stakeholder collaboration and proposes structured strategies that align with Sustainable Development Goals (SDG) 9 and SDG 11. Design/methodology/approach A two-round Delphi method was conducted with 17 experts in the first round and 13 in the second, selected through purposive sampling for their BIM expertise in Ghana. The iterative process facilitated expert consensus on the most critical collaboration challenges and success factors in BIM-enabled construction. Findings The study identifies 16 CSF for BIM stakeholder collaboration. Seven were ranked as very highly influential (VHI: 9.00–10.00), including communication, collaborative attitudes, early involvement, coordination, joint decision-making, BIM infrastructures and fostering trust, mutual respect and understanding. The remaining nine were categorized as highly influential (HI: 7.00–8.99). These findings support SDG 9 by promoting digital innovation in infrastructure and SDG 11 by enhancing inclusive and sustainable urban development. Originality/value This research integrates CSF theory with collaborative delivery models such as integrated project delivery (IPD) and lean project delivery (LPD), offering a validated framework for improving stakeholder collaboration in BIM projects. It contributes to both academic understanding and practical implementation of BIM in developing contexts.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNjgyNzYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNjgyNzYzfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "Architectural blueprint of a multi-story building",
+        "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNzk0NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNzk0NDA1fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "A blueprint of a building with a bunch of windows",
         "photographer": "Amsterdam City Archives",
         "photographer_url": "https://unsplash.com/@amsterdamcityarchives",
-        "unsplash_url": "https://unsplash.com/photos/architectural-blueprint-of-a-multi-story-building-9tmKEDz03uw"
+        "unsplash_url": "https://unsplash.com/photos/a-blueprint-of-a-building-with-a-bunch-of-windows-URnyBZCnlIs"
       }
     },
     {
@@ -76,8 +76,8 @@
       ],
       "abstract": "Prolonged driving in tunnel environments may result in driver fatigue. Although tunnel murals have been suggested as a potential enhancement, their impact on drivers remains controversial. This study investigates the impact of murals on driver attention in an extra-long tunnel through driving simulation experiments with 27 participants. Driver responses were analyzed through pupil area, reflecting driving load, and glance indicators, which track attention distribution. These indicators were analyzed using statistical tests and Markov chain methods. Results reveal that (1) murals significantly increased the pupil area, indicating higher driving load and alertness; (2) the influence of the murals persists even when they are no longer visible; (3) based on glance duration, murals not excessively distract drivers, with driver attention diminishing near tunnel exits; (4) discontinuous murals with moderate length and rhythm enhance the driver’s perception of speed; and (5) varied mural styles are advised for sustained visual stimulation. These findings provide valuable insights for the design of tunnel interior environments to enhance the overall driving experience and improve driver safety and attention.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwNjgyNzY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwNjgyNzY0fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwNzk0NDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwNzk0NDA2fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "cars on road during night time",
         "photographer": "Julia Sadowska",
         "photographer_url": "https://unsplash.com/@juliasadowska_2000",
@@ -103,8 +103,8 @@
       ],
       "abstract": "This study provides a long-term assessment of remote sensing-based water indices (NDWI, MNDWI, ANDWI, AWEIsh, and WI2015) for delineating surface water bodies in the semi-arid region of Northeast Brazil under both wet and dry conditions, using 38 Landsat satellite images from 2006 to 2022. Validation compared the indices with manually vectorised maps, using statistical metrics (R², RMSE, and MAE) and spatial metrics (commission and omission). The influence of turbidity and chlorophyll a was examined using the Normalised Difference Turbidity Index (NDTI) and the ratio of NIR/Red bands (β) as proxies, respectively. Results showed that AWEIsh and MNDWI exhibited the highest agreement, particularly in larger reservoirs during the wet season. Chlorophyll a was found to reduce index accuracy, notably in smaller reservoirs during dry periods, whereas turbidity’s effect was seasonally dependent. Overall, the findings underscore the importance of seasonally adaptive methods and integrating water quality indicators to enhance surface water mapping in semi-arid areas. Finally, this research offers a comparative overview of the performance and utility of various water indices for semi-arid reservoir mapping, highlighting their strengths and limitations.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDY4Mjc2NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDY4Mjc2NXww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDc5NDQwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDc5NDQwNnww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "gray concrete building covered trees",
         "photographer": "Danist Soh",
         "photographer_url": "https://unsplash.com/@danist07",
@@ -157,8 +157,8 @@
       ],
       "abstract": "Combining agricultural and industrial-derived wastes offers a promising strategy to develop low-carbon cementitious materials. In this study, twelve cementitious grout formulations incorporating straw biochar (BC), fly ash (FA), and ladle furnace slag (LFS) were designed for application in grouted macadam pavements. The grouts were characterised in terms of fresh properties (flow spread, efflux time, and bleeding), hardened performance (mechanical properties, drying shrinkage, and water penetrability parameters), and microstructural features (hydration kinetics, XRD, TGA, and SEM-EDS). In addition, sustainability impacts were briefly assessed by considering only the material production stage, encompassing cost, embodied carbon, and energy. The results show that BC contents up to 15% can be effectively incorporated into ternary grout systems while meeting workability requirements, whereas higher BC dosages (25%) markedly increase viscosity and reduce flowability. BC-containing mixes exhibited comparable 3-day compressive strength (fc) to other blended systems under water curing, likely due to micro-filler effects, but reduced fc at longer ages because of clinker dilution and limited chemical reactivity. Nevertheless, mixes containing ≥ 70% Portland cement (PC) with 15% BC achieved an acceptable 28-day fc (≥40 MPa). Under air curing, all mixes showed strength reductions relative to water curing; however, BC-modified systems experienced lower strength losses (at least 20%) than BC-free mixes, likely benefiting the potential BC internal-curing effect. Flexural strength was maintained in BC-modified grouts, particularly when combined with LFS, even at reduced PC contents. Although high BC content generally increased water absorption and drying shrinkage due to its intrinsic porosity, FA partially improved dimensional stability. Simplified material-level sustainability analysis showed that ternary mixes with 15% BC plus 15% LFS reduced the normalized embodied carbon per flexural and compressive strength units by 66% and 40%, respectively, suggesting the suitability for semi-structural low-carbon applications.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgwNjgyNzY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgwNjgyNzY3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgwNzk0NDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgwNzk0NDA5fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a black and white photo of a concrete wall",
         "photographer": "Wesley Tingey",
         "photographer_url": "https://unsplash.com/@wesleyphotography",
@@ -168,21 +168,21 @@
     {
       "group": "Mgmt",
       "group_label": "Management",
-      "title": "Multi‐Hazard Shaking‐Tsunami Fatality Risk Estimation for Coastal Communities",
-      "journal": "Earthquake Engineering & Structural Dynamics",
-      "date": "2026-05-31",
+      "title": "A Data-Driven Assessment and Roadmap for Improving Risk Management Maturity in the Australian Construction Industry",
+      "journal": "Journal of Computing in Civil Engineering",
+      "date": "2026-06-06",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1002/eqe.70220",
+      "doi": "https://doi.org/10.1061/jccee5.cpeng-7547",
       "keywords": [
-        "Risk assessment",
         "Risk management",
-        "Population",
-        "Estimation",
-        "Geography"
+        "Interdependence",
+        "Maturity (psychological)",
+        "Capability Maturity Model",
+        "Knowledge management"
       ],
-      "abstract": "ABSTRACT This study develops a multi‐hazard fatality risk model for a coastal community (Tofino) on Vancouver Island, Canada, subjected to earthquake‐tsunami threats from the Cascadia subduction megathrust events. The model incorporates variable population distributions and uncertain fatality rate models, in addition to other key model components, such as time‐dependent earthquake occurrence, stochastic rupture source, ground motion simulation, and tsunami inundation simulation. Using the developed risk model, exceedance frequency ( F ) plots in terms of the number of anticipated fatalities ( N ) are derived for single‐hazard and multi‐hazard cases. The F ‐ N curves can be used for evaluating the adequacy of current earthquake‐tsunami risk situations, compared with the acceptable risk tolerability limits. The obtained F ‐ N curves for Tofino intersect with the local scrutiny line set by the UK Health and Safety Executive, indicating that the earthquake‐tsunami risk levels for Tofino residents and visitors fall within the As Low As Reasonably Practicable (ALARP) region. Thereby, when effective risk mitigation measures are available, such actions should be pursued. Moreover, the community‐level earthquake‐tsunami risk management approach is discussed by considering joint characteristics of fatality and financial risks. The results show very different risk characteristics of the fatality and financial risks due to intense ground motions and tsunami inundations. Such multivariate risk quantification will be essential because more generalized risk management approaches are adopted and implemented across technological and disaster risk domains.",
+      "abstract": "This study presents a comprehensive assessment of risk management maturity in the Australian construction industry using a structured, data-driven approach based on the generic risk maturity model (GRMM). Although effective risk management is critical for organizational performance and project outcomes, existing literature has highlighted gaps in empirical benchmarking, item-level diagnostics, and progression pathways for maturity enhancement. This research addresses these gaps through a structured survey of 25 criteria across five dimensions: (1) Management Commitment and Leadership, (2) Organizational Risk Culture, (3) Risk Identification, (4) Risk Analysis, and (5) Standardized Risk Management Processes. Results indicate that organizations generally operate between Level 2 (Repeatable) and Level 3 (Managed), with leadership engagement and risk identification emerging as early strengths, whereas organizational culture and standardized processes lag behind. Detailed item-level analysis reveals critical weaknesses in communication, resource allocation, team ownership, and analytical capability, particularly among smaller firms and lower-tier organizations. Progression mapping illustrates the typical sequence in which risk management capabilities develop, beginning with leadership support, trust, and basic risk identification, followed by procedural formalization and cultural adoption, and culminating in optimized, fully integrated practices at Level 4. Correlation analysis further demonstrates strong interdependencies among criteria, indicating that improvements in leadership, standardization, and communication reinforce overall maturity. Sectoral, size, and tier-based analyses reveal nuanced patterns: top-tier and larger firms achieve higher maturity earlier, and industrial and commercial projects outperform infrastructure in certain dimensions. Collectively, these findings provide actionable, data-informed guidance for organizations seeking to enhance risk governance, offering a framework for prioritizing improvements, fostering cultural change, and embedding systematic risk management practices across all operational levels. The study contributes to academic understanding of risk maturity dynamics and equips practitioners and policymakers with practical strategies to advance risk management capabilities systematically in construction contexts.",
       "image": {
         "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgwNjgyNzY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgwNjgyNzY3fDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -211,8 +211,8 @@
       ],
       "abstract": "The construction sector faces major challenges in terms of resource efficiency and environmental impact. To address the lack of sustainability in infrastructural development, this paper proposes an innovative concept for the reuse of aged reinforced concrete elements. The aim is to enable the selective reconditioning, segmentation and reintegration of concrete components into new structures through an automated production system. The system combines advanced automation technologies with suitable connection designs and comprehensive quality assurance methods to ensure structural integrity and long‐term performance. By applying a cradle to cradle philosophy and establishing a closed‐loop supply chain for concrete elements, the approach significantly reduces waste, conserves natural resources, and lowers CO 2 emissions. Building on this foundation, the paper reviews the state of the art in fine processing of aged concrete elements, with a focus on connection designs, automated processing, and quality assurance as key enablers of sustainable manufacturing and resilient infrastructure.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDYyMzc3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDYyMzc3Mnww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDc5NDQxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDc5NDQxMXww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a factory filled with lots of orange machines",
         "photographer": "Simon Kadula",
         "photographer_url": "https://unsplash.com/@simonkadula",
@@ -238,8 +238,8 @@
       ],
       "abstract": "Following the major Brazilian tailings disasters at Samarco in 2015 and Brumadinho in 2019, the National Mining Agency implemented rigorous safety ranking and monitoring procedures. This paper advocates for a transition in geotechnical practice from purely ‘slow’ static monitoring to an integrated approach using triaxial accelerometers. By capturing both tilt and dynamic signatures, engineers can identify internal structural changes – such as those preceding liquefaction – that conventional instruments often fail to detect.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNjIzNzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNjIzNzczfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNzk0NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgwNzk0NDEyfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a monitor is on a stand in a room",
         "photographer": "Trnava University",
         "photographer_url": "https://unsplash.com/@trnavskauni",
@@ -292,8 +292,8 @@
       ],
       "abstract": "Phase-based vibration estimation using video has attracted significant attention in civil engineering due to its noncontact characteristic and high sensitivity. However, camera motion often introduces spurious phase disturbances, significantly reducing the accuracy of vibration frequency estimation. To address this issue, a novel phase-based vibration frequency measurement with multidimensional camera motion suppression (PVMC) approach is proposed, which integrates directional, spatial, and temporal dimensions to effectively suppress camera motion interference. Specifically, in the directional dimension, a complex steerable filter is used to extract phase responses along the structural vibration direction, thereby suppressing motion interference from nontarget directions. In the spatial dimension, a region-growing algorithm is employed to segment structural vibration target regions and remove background interference caused by camera motion. In the temporal dimension, based on the periodic characteristics of vibration signals, a sparse coding method leveraging the fast iterative shrinkage thresholding algorithm (FISTA) is designed to suppress camera motion interference and accurately extract structural vibration frequencies. Experimental results from both indoor and outdoor scenarios demonstrate the effectiveness of the proposed method. It outperforms existing state-of-the-art techniques in vibration frequency measurement accuracy under camera motion interference, demonstrating its suitability for engineering applications.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwNjgyNzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwNjgyNzcyfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwNzk0NDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwNzk0NDE0fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "white and black camera on tripod",
         "photographer": "Michał Jakubowski",
         "photographer_url": "https://unsplash.com/@jaqbovsky",
