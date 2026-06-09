@@ -2,7 +2,7 @@
   {
     "c": "중국",
     "code": "CN",
-    "papers": 114869,
+    "papers": 114874,
     "cites": 1855575,
     "orgs": [
       "Tongji University",
@@ -18,23 +18,23 @@
     "keywords": [
       [
         "Materials Science",
-        300060
+        300071
       ],
       [
         "Composite",
-        243566
+        243575
       ],
       [
         "Structural Engineering",
-        210697
+        210701
       ],
       [
         "Computer Science",
-        207983
+        207984
       ],
       [
         "Geology",
-        159641
+        159643
       ],
       [
         "Geotechnical Engineering",
@@ -46,19 +46,19 @@
       ],
       [
         "Graph",
-        96345
+        96347
       ],
       [
         "AI (general)",
-        77221
+        77222
       ],
       [
         "Mechanics",
-        67197
+        67199
       ],
       [
         "Chemistry",
-        66274
+        66279
       ],
       [
         "FEM",
@@ -78,7 +78,7 @@
       ],
       [
         "Compressive Strength",
-        43744
+        43749
       ],
       [
         "Meteorology",
@@ -104,13 +104,13 @@
       "2023": 17272,
       "2024": 22160,
       "2025": 25668,
-      "2026": 9657
+      "2026": 9662
     }
   },
   {
     "c": "미국",
     "code": "US",
-    "papers": 31757,
+    "papers": 31758,
     "cites": 516160,
     "orgs": [
       "Virginia Tech",
@@ -150,7 +150,7 @@
       ],
       [
         "Graph",
-        18226
+        18228
       ],
       [
         "Transport Engineering",
@@ -166,7 +166,7 @@
       ],
       [
         "Business",
-        10729
+        10731
       ],
       [
         "Statistics",
@@ -182,7 +182,7 @@
       ],
       [
         "Economics",
-        6329
+        6331
       ],
       [
         "Asphalt",
@@ -212,7 +212,7 @@
       "2023": 4453,
       "2024": 4845,
       "2025": 5298,
-      "2026": 2085
+      "2026": 2086
     }
   },
   {
@@ -650,7 +650,7 @@
   {
     "c": "캐나다",
     "code": "CA",
-    "papers": 9390,
+    "papers": 9391,
     "cites": 166858,
     "orgs": [
       "University of Alberta",
@@ -666,7 +666,7 @@
     "keywords": [
       [
         "Computer Science",
-        10267
+        10268
       ],
       [
         "Materials Science",
@@ -682,7 +682,7 @@
       ],
       [
         "Environmental Science",
-        6155
+        6156
       ],
       [
         "Geology",
@@ -752,7 +752,7 @@
       "2023": 1363,
       "2024": 1468,
       "2025": 1518,
-      "2026": 560
+      "2026": 561
     }
   },
   {
@@ -866,7 +866,7 @@
   {
     "c": "한국",
     "code": "KR",
-    "papers": 7253,
+    "papers": 7254,
     "cites": 116553,
     "orgs": [
       "Seoul National University",
@@ -882,7 +882,7 @@
     "keywords": [
       [
         "Computer Science",
-        10283
+        10285
       ],
       [
         "Materials Science",
@@ -898,7 +898,7 @@
       ],
       [
         "Environmental Science",
-        4418
+        4420
       ],
       [
         "AI (general)",
@@ -968,7 +968,7 @@
       "2023": 1072,
       "2024": 1254,
       "2025": 1487,
-      "2026": 516
+      "2026": 517
     }
   },
   {
@@ -2162,7 +2162,7 @@
   {
     "c": "말레이시아",
     "code": "MY",
-    "papers": 2881,
+    "papers": 2882,
     "cites": 53693,
     "orgs": [
       "University of Technology Malaysia",
@@ -2178,11 +2178,11 @@
     "keywords": [
       [
         "Materials Science",
-        3810
+        3811
       ],
       [
         "Composite",
-        3296
+        3297
       ],
       [
         "Computer Science",
@@ -2210,7 +2210,7 @@
       ],
       [
         "Compressive Strength",
-        1199
+        1200
       ],
       [
         "Geology",
@@ -2218,7 +2218,7 @@
       ],
       [
         "Chemistry",
-        923
+        924
       ],
       [
         "Waste Management",
@@ -2264,7 +2264,7 @@
       "2023": 473,
       "2024": 447,
       "2025": 461,
-      "2026": 194
+      "2026": 195
     }
   },
   {
