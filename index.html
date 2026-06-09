@@ -164,12 +164,14 @@
   .latest-range-btn{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:16px;padding:3px 12px;font-size:11px;font-weight:600;cursor:pointer;transition:all .15s}
   .latest-range-btn.active{background:var(--accent);color:#0e1116;border-color:var(--accent)}
   .latest-card{background:var(--panel2);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
-  .latest-card-img{width:100%;height:160px;object-fit:cover;display:block}
+  .latest-card-img{width:100%;height:180px;object-fit:cover;display:block}
   .latest-card-body{padding:14px;flex:1;display:flex;flex-direction:column;gap:8px}
   .latest-card-theme{font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
   .latest-card-title{font-size:13px;font-weight:600;line-height:1.4;color:var(--txt)}
   .latest-card-meta{font-size:11px;color:var(--muted)}
-  .latest-card-abstract{font-size:12px;color:var(--txt);line-height:1.6;flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical}
+  .latest-card-abstract{font-size:12px;color:var(--txt);line-height:1.6;flex:1}
+  .latest-card-take{background:rgba(99,179,237,.08);border-left:3px solid var(--accent);border-radius:0 6px 6px 0;padding:8px 10px;font-size:12px;line-height:1.5;color:var(--txt);margin-top:4px}
+  .latest-card-take-label{font-size:10px;font-weight:700;color:var(--accent);letter-spacing:.4px;margin-bottom:3px}
   .latest-card-footer{display:flex;align-items:center;justify-content:space-between;padding-top:8px;border-top:1px solid var(--line);margin-top:auto}
   .evo-filter{background:var(--panel2);color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:4px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s}
   .evo-filter.active{background:#3d4f64;color:#fff;border-color:#4a6080}
@@ -2551,6 +2553,7 @@ function renderImpactByTheme(){
         <div style="font-size:12px;font-weight:600;line-height:1.4;margin-bottom:4px;color:var(--txt)">${p.t}</div>
         <div style="font-size:11px;color:var(--muted);margin-bottom:4px">${p.j} · ${p.y}</div>
         <div style="margin-bottom:4px">${(p.tech||[]).slice(0,3).map(t=>`<span class="pill" style="font-size:10px;padding:2px 6px">${t}</span>`).join("")}</div>
+        ${p.ck_take?`<div style="background:rgba(99,179,237,.08);border-left:3px solid #4a90d9;border-radius:0 4px 4px 0;padding:5px 8px;font-size:11px;line-height:1.5;color:var(--txt);margin-bottom:4px"><span style="font-size:10px;font-weight:700;color:#4a90d9;letter-spacing:.3px">💬 CKAtlas' Take  </span>${p.ck_take}</div>`:''}
         <div style="font-size:11px;color:var(--muted)">
           Score <b style="color:${color}">${p.score}</b> · Citations <b>${p.cit||'—'}</b> · FWCI <b>${p.fwci?(+p.fwci).toFixed(1):'—'}</b>
           ${p.oa?' · <b style="color:var(--accent2)">OA</b>':''}
@@ -3965,22 +3968,33 @@ function renderLatest(){
   grid.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px">' +
     papers.map(p => {
       const color = groupColor(p.group);
-      const img = p.image;
-      const abstract = p.abstract ? p.abstract.slice(0,500)+(p.abstract.length>500?'…':'') : '';
-      const imgHtml = img
-        ? `<img class="latest-card-img" src="${img.url}&w=600&q=80" alt="${img.alt||''}" loading="lazy" onerror="this.style.display='none'">
-           <div style="font-size:9px;color:var(--muted);padding:3px 10px;background:var(--panel)">Photo by <a href="${img.photographer_url}" target="_blank" style="color:var(--muted)">${img.photographer}</a> on <a href="https://unsplash.com" target="_blank" style="color:var(--muted)">Unsplash</a></div>`
-        : `<div style="height:80px;background:linear-gradient(135deg,${color}33 0%,${color}11 100%);border-bottom:1px solid ${color}44;display:flex;align-items:center;padding:0 16px;gap:10px">
+      // 이미지: Grok 생성 이미지 우선, 없으면 Unsplash, 없으면 색상 배너
+      const grokImg = p.grok_image;
+      const unsplashImg = p.image;
+      let imgHtml = '';
+      if (grokImg) {
+        imgHtml = `<img class="latest-card-img" src="${grokImg}" alt="${p.group_label||p.group}" loading="lazy" onerror="this.style.display='none'">
+           <div style="font-size:9px;color:var(--muted);padding:3px 10px;background:var(--panel)">Image by Grok AI</div>`;
+      } else if (unsplashImg) {
+        imgHtml = `<img class="latest-card-img" src="${unsplashImg.url}&w=600&q=80" alt="${unsplashImg.alt||''}" loading="lazy" onerror="this.style.display='none'">
+           <div style="font-size:9px;color:var(--muted);padding:3px 10px;background:var(--panel)">Photo by <a href="${unsplashImg.photographer_url}" target="_blank" style="color:var(--muted)">${unsplashImg.photographer}</a> on <a href="https://unsplash.com" target="_blank" style="color:var(--muted)">Unsplash</a></div>`;
+      } else {
+        imgHtml = `<div style="height:80px;background:linear-gradient(135deg,${color}33 0%,${color}11 100%);border-bottom:1px solid ${color}44;display:flex;align-items:center;padding:0 16px;gap:10px">
              <span style="font-size:22px">${themeEmoji[p.group]||'🔬'}</span>
              <span style="font-size:12px;font-weight:700;color:${color};letter-spacing:.5px;text-transform:uppercase">${p.group_label||p.group}</span>
            </div>`;
+      }
+      const takeHtml = p.ck_take
+        ? `<div class="latest-card-take"><div class="latest-card-take-label">💬 CKAtlas' Take</div>${p.ck_take}</div>`
+        : '';
       return `<div class="latest-card" style="border-top:3px solid ${color}">
         ${imgHtml}
         <div class="latest-card-body">
           <div class="latest-card-theme" style="color:${color}">${p.group_label}</div>
           <div class="latest-card-title">${p.title}</div>
           <div class="latest-card-meta">${p.journal||''} · ${p.date||''}</div>
-          <div class="latest-card-abstract">${abstract}</div>
+          <div class="latest-card-abstract">${p.abstract||''}</div>
+          ${takeHtml}
           <div class="latest-card-footer">
             <span style="font-size:11px;color:var(--muted)">${p.fwci?`FWCI <b style="color:${color}">${(+p.fwci).toFixed(1)}</b> · `:''}Citations <b>${p.citations||0}</b>${p.oa?' · <b style="color:var(--accent2)">OA</b>':''}</span>
             ${p.doi?`<a href="${p.doi}" target="_blank" rel="noopener" style="font-size:11px;color:var(--accent)">→ Full Paper</a>`:''}

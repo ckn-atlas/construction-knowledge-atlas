@@ -28,7 +28,9 @@
         "photographer": "Igor Omilaev",
         "photographer_url": "https://unsplash.com/@omilaev",
         "unsplash_url": "https://unsplash.com/photos/a-computer-chip-with-the-letter-a-on-top-of-it-eGGFZ5X2LnA"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "BIM",
@@ -55,7 +57,9 @@
         "photographer": "Amsterdam City Archives",
         "photographer_url": "https://unsplash.com/@amsterdamcityarchives",
         "unsplash_url": "https://unsplash.com/photos/a-blueprint-of-a-building-with-a-bunch-of-windows-URnyBZCnlIs"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "DT",
@@ -82,7 +86,9 @@
         "photographer": "Julia Sadowska",
         "photographer_url": "https://unsplash.com/@juliasadowska_2000",
         "unsplash_url": "https://unsplash.com/photos/cars-on-road-during-night-time-5jwu-ppflfY"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Eco",
@@ -109,7 +115,9 @@
         "photographer": "Danist Soh",
         "photographer_url": "https://unsplash.com/@danist07",
         "unsplash_url": "https://unsplash.com/photos/gray-concrete-building-covered-trees-dqXiw7nCb9Q"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Geo",
@@ -136,7 +144,9 @@
         "photographer": "Ricardo Gomez Angel",
         "photographer_url": "https://unsplash.com/@rgaleriacom",
         "unsplash_url": "https://unsplash.com/photos/red-and-black-truck-in-tunnel-F2iCP_knaj8"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Material",
@@ -163,7 +173,9 @@
         "photographer": "Wesley Tingey",
         "photographer_url": "https://unsplash.com/@wesleyphotography",
         "unsplash_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-concrete-wall--Irs24DzLxM"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Mgmt",
@@ -190,7 +202,9 @@
         "photographer": "Etienne Girardet",
         "photographer_url": "https://unsplash.com/@etiennegirardet",
         "unsplash_url": "https://unsplash.com/photos/two-men-working-sgYamIzhAhg"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Robot",
@@ -217,7 +231,9 @@
         "photographer": "Simon Kadula",
         "photographer_url": "https://unsplash.com/@simonkadula",
         "unsplash_url": "https://unsplash.com/photos/a-factory-filled-with-lots-of-orange-machines-8gr6bObQLOI"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Sensing",
@@ -244,7 +260,9 @@
         "photographer": "Trnava University",
         "photographer_url": "https://unsplash.com/@trnavskauni",
         "unsplash_url": "https://unsplash.com/photos/a-monitor-is-on-a-stand-in-a-room-PoEbadI3mQQ"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Structural",
@@ -271,7 +289,9 @@
         "photographer": "Alain Pham",
         "photographer_url": "https://unsplash.com/@alain_pham",
         "unsplash_url": "https://unsplash.com/photos/construction-frame-P_qvsF7Yodw"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     },
     {
       "group": "Vision",
@@ -298,7 +318,9 @@
         "photographer": "Michał Jakubowski",
         "photographer_url": "https://unsplash.com/@jaqbovsky",
         "unsplash_url": "https://unsplash.com/photos/white-and-black-camera-on-tripod-oQD9uq4Rd4I"
-      }
+      },
+      "ck_take": "",
+      "grok_image": ""
     }
   ]
 }

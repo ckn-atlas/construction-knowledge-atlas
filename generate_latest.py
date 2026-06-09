@@ -241,7 +241,94 @@ def main():
                 theme_top[g] = fallback365[g]
                 log(f"  [{g}] filled via 365d fallback")
 
+    # 기존 latest.json에서 DOI 기반 ck_take / grok_image 캐시 로드
+    cached_ai = {}  # doi → {"ck_take": str, "grok_image": str}
+    if os.path.exists(OUTPUT_PATH):
+        try:
+            old = json.load(open(OUTPUT_PATH, encoding="utf-8"))
+            for p in old.get("papers", []):
+                doi = p.get("doi", "")
+                if doi and (p.get("ck_take") or p.get("grok_image")):
+                    cached_ai[doi] = {
+                        "ck_take":    p.get("ck_take", ""),
+                        "grok_image": p.get("grok_image", ""),
+                    }
+        except Exception:
+            pass
+    log(f"AI 캐시 로드: {len(cached_ai)}개 DOI")
+
+    # 033_AICollabWorkflow 경로
+    COLLAB_DIR   = os.path.join(BASE_DIR, "..", "033_AICollabWorkflow")
+    CODEX_INBOX  = os.path.join(COLLAB_DIR, "inbox", "codex")
+    CODEX_OUTBOX = os.path.join(COLLAB_DIR, "outbox", "codex")
+    GROK_INBOX   = os.path.join(COLLAB_DIR, "inbox", "grok")
+
+    def _next_task_id():
+        """outbox/codex의 RESULT-NNN.md 최대 번호 + 1"""
+        max_n = 0
+        for d in [CODEX_OUTBOX, CODEX_INBOX, GROK_INBOX]:
+            if not os.path.isdir(d): continue
+            for fn in os.listdir(d):
+                import re as _re
+                m = _re.search(r"(\d{3,})", fn)
+                if m: max_n = max(max_n, int(m.group(1)))
+        return max_n + 1
+
+    def _write_codex_task(task_id, title, abstract, journal):
+        os.makedirs(CODEX_INBOX, exist_ok=True)
+        path = os.path.join(CODEX_INBOX, f"TASK-{task_id:03d}.md")
+        content = f"""# TASK-{task_id:03d}: CKAtlas Paper Summary
+
+## Instructions
+Read the paper abstract below and write ONE sentence (max 25 words) as a casual, insightful comment from a construction research expert's perspective. Write in English only.
+
+Output format (exactly):
+SUMMARY: <your one sentence here>
+
+## Paper
+Title: {title}
+Journal: {journal}
+Abstract:
+{abstract[:800]}
+"""
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        return path
+
+    def _write_grok_task(task_id, title, group_label, keywords):
+        os.makedirs(GROK_INBOX, exist_ok=True)
+        path = os.path.join(GROK_INBOX, f"TASK-{task_id:03d}.md")
+        kw_str = ", ".join(keywords[:4]) if keywords else group_label
+        content = f"""# TASK-{task_id:03d}: CKAtlas Background Image
+
+## Instructions
+Generate a high-quality photorealistic background image for a construction research paper card.
+Theme: {group_label}
+Keywords: {kw_str}
+Style: professional, wide landscape (1200x675), no text overlay, scientific/engineering atmosphere.
+
+Save the image as: data/social/grok_images/{group_label.lower().replace(' ','_')}_{task_id:03d}.jpg
+
+## Paper context
+{title}
+"""
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        return path
+
+    def _read_codex_result(task_id):
+        path = os.path.join(CODEX_OUTBOX, f"RESULT-{task_id:03d}.md")
+        if not os.path.exists(path): return ""
+        for line in open(path, encoding="utf-8"):
+            if line.startswith("SUMMARY:"):
+                return line.replace("SUMMARY:", "").strip()
+        return ""
+
     results = []
+    task_counter = _next_task_id()
+    grok_img_dir = os.path.join(BASE_DIR, "data", "social", "grok_images")
+    os.makedirs(grok_img_dir, exist_ok=True)
+
     for group, w in sorted(theme_top.items()):
         abstract = reconstruct_abstract(w.get("abstract_inverted_index"))
         if not abstract: continue
@@ -250,19 +337,49 @@ def main():
         time.sleep(0.5)
         loc = w.get("primary_location") or {}
         journal = (loc.get("source") or {}).get("display_name","")
+        doi = w.get("doi", "")
+        keywords = [c["display_name"] for c in (w.get("concepts") or []) if c.get("score",0)>=0.3][:5]
+        group_label = GROUP_KO.get(group, group)
+
+        # AI 캐시 확인 (DOI 기준)
+        cached = cached_ai.get(doi, {})
+        ck_take   = cached.get("ck_take", "")
+        grok_image = cached.get("grok_image", "")
+
+        # 캐시 없으면 → Codex 태스크 생성
+        if not ck_take and os.path.isdir(COLLAB_DIR):
+            _write_codex_task(task_counter, w.get("title",""), abstract, journal)
+            log(f"  [{group}] Codex 태스크 생성: TASK-{task_counter:03d}.md")
+            # 즉시 결과 확인 (이미 처리된 경우)
+            ck_take = _read_codex_result(task_counter)
+            if ck_take:
+                log(f"  [{group}] Codex 결과 즉시 로드")
+
+        # Grok 이미지 캐시 없으면 → Grok 태스크 생성
+        if not grok_image and os.path.isdir(COLLAB_DIR):
+            _write_grok_task(task_counter, w.get("title",""), group_label, keywords)
+            # 기존 grok_images 폴더에서 해당 그룹 이미지 확인
+            expected = os.path.join(grok_img_dir, f"{group_label.lower().replace(' ','_')}_{task_counter:03d}.jpg")
+            if os.path.exists(expected):
+                grok_image = f"data/social/grok_images/{group_label.lower().replace(' ','_')}_{task_counter:03d}.jpg"
+
+        task_counter += 1
+
         results.append({
             "group": group,
-            "group_label": GROUP_KO.get(group, group),
+            "group_label": group_label,
             "title": w.get("title",""),
             "journal": journal,
             "date": w.get("publication_date",""),
             "fwci": w.get("fwci"),
             "citations": w.get("cited_by_count",0),
             "oa": bool((w.get("open_access") or {}).get("is_oa")),
-            "doi": w.get("doi",""),
-            "keywords": [c["display_name"] for c in (w.get("concepts") or []) if c.get("score",0)>=0.3][:5],
+            "doi": doi,
+            "keywords": keywords,
             "abstract": abstract,
             "image": image,
+            "ck_take": ck_take,
+            "grok_image": grok_image,
         })
         log(f"  [{group}] FWCI={w.get('fwci')} | {w.get('title','')[:50]}")
 
