@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T10:06:21.059900",
+  "generated_at": "2026-06-09T18:23:50.666882",
   "date_from": "2026-05-10",
   "total": 11,
   "papers": [
@@ -29,7 +29,7 @@
         "photographer_url": "https://unsplash.com/@omilaev",
         "unsplash_url": "https://unsplash.com/photos/a-computer-chip-with-the-letter-a-on-top-of-it-eGGFZ5X2LnA"
       },
-      "ck_take": "",
+      "ck_take": "Estimating traffic flow where sensors are missing using GNNs could transform how smart cities optimize construction detour planning in real time.",
       "grok_image": ""
     },
     {
@@ -51,14 +51,14 @@
       ],
       "abstract": "Purpose This study applies critical success factors (CSF) theory to address collaboration challenges in Ghana’s building information modeling (BIM) construction projects, where stakeholder engagement is hindered by fragmentation, misaligned expectations, and limited digital integration. It identifies and prioritizes CSF influencing stakeholder collaboration and proposes structured strategies that align with Sustainable Development Goals (SDG) 9 and SDG 11. Design/methodology/approach A two-round Delphi method was conducted with 17 experts in the first round and 13 in the second, selected through purposive sampling for their BIM expertise in Ghana. The iterative process facilitated expert consensus on the most critical collaboration challenges and success factors in BIM-enabled construction. Findings The study identifies 16 CSF for BIM stakeholder collaboration. Seven were ranked as very highly influential (VHI: 9.00–10.00), including communication, collaborative attitudes, early involvement, coordination, joint decision-making, BIM infrastructures and fostering trust, mutual respect and understanding. The remaining nine were categorized as highly influential (HI: 7.00–8.99). These findings support SDG 9 by promoting digital innovation in infrastructure and SDG 11 by enhancing inclusive and sustainable urban development. Originality/value This research integrates CSF theory with collaborative delivery models such as integrated project delivery (IPD) and lean project delivery (LPD), offering a validated framework for improving stakeholder collaboration in BIM projects. It contributes to both academic understanding and practical implementation of BIM in developing contexts.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNzk0NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwNzk0NDA1fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwOTY3MTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgwOTY3MTcxfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "A blueprint of a building with a bunch of windows",
         "photographer": "Amsterdam City Archives",
         "photographer_url": "https://unsplash.com/@amsterdamcityarchives",
         "unsplash_url": "https://unsplash.com/photos/a-blueprint-of-a-building-with-a-bunch-of-windows-URnyBZCnlIs"
       },
-      "ck_take": "",
+      "ck_take": "BIM adoption in developing markets like Ghana hinges less on software and more on aligning stakeholder expectations from day one.",
       "grok_image": ""
     },
     {
@@ -80,14 +80,14 @@
       ],
       "abstract": "Prolonged driving in tunnel environments may result in driver fatigue. Although tunnel murals have been suggested as a potential enhancement, their impact on drivers remains controversial. This study investigates the impact of murals on driver attention in an extra-long tunnel through driving simulation experiments with 27 participants. Driver responses were analyzed through pupil area, reflecting driving load, and glance indicators, which track attention distribution. These indicators were analyzed using statistical tests and Markov chain methods. Results reveal that (1) murals significantly increased the pupil area, indicating higher driving load and alertness; (2) the influence of the murals persists even when they are no longer visible; (3) based on glance duration, murals not excessively distract drivers, with driver attention diminishing near tunnel exits; (4) discontinuous murals with moderate length and rhythm enhance the driver’s perception of speed; and (5) varied mural styles are advised for sustained visual stimulation. These findings provide valuable insights for the design of tunnel interior environments to enhance the overall driving experience and improve driver safety and attention.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwNzk0NDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwNzk0NDA2fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwOTY3MTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzgwOTY3MTcyfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "cars on road during night time",
         "photographer": "Julia Sadowska",
         "photographer_url": "https://unsplash.com/@juliasadowska_2000",
         "unsplash_url": "https://unsplash.com/photos/cars-on-road-during-night-time-5jwu-ppflfY"
       },
-      "ck_take": "",
+      "ck_take": "Simple visual interventions like murals could be a low-cost way to combat driver fatigue in long tunnels — worth embedding in tunnel design standards.",
       "grok_image": ""
     },
     {
@@ -109,14 +109,14 @@
       ],
       "abstract": "This study provides a long-term assessment of remote sensing-based water indices (NDWI, MNDWI, ANDWI, AWEIsh, and WI2015) for delineating surface water bodies in the semi-arid region of Northeast Brazil under both wet and dry conditions, using 38 Landsat satellite images from 2006 to 2022. Validation compared the indices with manually vectorised maps, using statistical metrics (R², RMSE, and MAE) and spatial metrics (commission and omission). The influence of turbidity and chlorophyll a was examined using the Normalised Difference Turbidity Index (NDTI) and the ratio of NIR/Red bands (β) as proxies, respectively. Results showed that AWEIsh and MNDWI exhibited the highest agreement, particularly in larger reservoirs during the wet season. Chlorophyll a was found to reduce index accuracy, notably in smaller reservoirs during dry periods, whereas turbidity’s effect was seasonally dependent. Overall, the findings underscore the importance of seasonally adaptive methods and integrating water quality indicators to enhance surface water mapping in semi-arid areas. Finally, this research offers a comparative overview of the performance and utility of various water indices for semi-arid reservoir mapping, highlighting their strengths and limitations.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDc5NDQwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDc5NDQwNnww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDk2NzE3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MDk2NzE3Mnww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "gray concrete building covered trees",
         "photographer": "Danist Soh",
         "photographer_url": "https://unsplash.com/@danist07",
         "unsplash_url": "https://unsplash.com/photos/gray-concrete-building-covered-trees-dqXiw7nCb9Q"
       },
-      "ck_take": "",
+      "ck_take": "Satellite-based water indices vary widely in semi-arid regions — engineers must calibrate their choice of index to local seasonal conditions before relying on them.",
       "grok_image": ""
     },
     {
@@ -138,14 +138,14 @@
       ],
       "abstract": "Predicting boulder incipient motion is critical for designing hydraulic structures, river restoration, and hazard mitigation, yet the process remains poorly understood. This study investigates incipient motion through controlled flume tests on smooth beds with three slopes, varying discharge, and Froude number (Fr). Three concrete cube sizes were tested as angular reference cases, along with a worn cubical rock with rounded edges, to assess whether entrainment trends also apply to broader, rounded forms. The results indicate that the boulders began to move at an initial discharge (Qinit), but global transport was only achieved at a higher discharge (Qfull), indicating a transitional process rather than a single threshold. Entrainment was strongly controlled by the Froude number. While higher Fr≈2.3 (shallow, supercritical flow) required greater velocities for motion, near-critical conditions (Fr≈1.1, greater submergence) showed the least resistance despite lower velocities, as undular instabilities enhanced drag and reduced stabilizing lift. A new dimensionless threshold parameter, θcrit, was derived from a static force balance incorporating drag, lift, effective weight, and bed friction, to predict boulder entrainment on bedrock or artificial beds.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4MDc5NDQwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4MDc5NDQwOHww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4MDk2NzE3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4MDk2NzE3NHww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "red and black truck in tunnel",
         "photographer": "Ricardo Gomez Angel",
         "photographer_url": "https://unsplash.com/@rgaleriacom",
         "unsplash_url": "https://unsplash.com/photos/red-and-black-truck-in-tunnel-F2iCP_knaj8"
       },
-      "ck_take": "",
+      "ck_take": "Better boulder motion prediction directly reduces structural overdesign in river crossings — this flume data could reshape how engineers size riprap and foundations.",
       "grok_image": ""
     },
     {
@@ -174,7 +174,7 @@
         "photographer_url": "https://unsplash.com/@wesleyphotography",
         "unsplash_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-concrete-wall--Irs24DzLxM"
       },
-      "ck_take": "",
+      "ck_take": "Turning agricultural waste like straw biochar into structural grout components is exactly the kind of circular economy thinking the construction industry needs at scale.",
       "grok_image": ""
     },
     {
@@ -203,7 +203,7 @@
         "photographer_url": "https://unsplash.com/@etiennegirardet",
         "unsplash_url": "https://unsplash.com/photos/two-men-working-sgYamIzhAhg"
       },
-      "ck_take": "",
+      "ck_take": "Australian construction's risk management maturity gap is a wake-up call — data shows most firms are still reactive rather than proactively managing project risks.",
       "grok_image": ""
     },
     {
@@ -225,14 +225,14 @@
       ],
       "abstract": "The construction sector faces major challenges in terms of resource efficiency and environmental impact. To address the lack of sustainability in infrastructural development, this paper proposes an innovative concept for the reuse of aged reinforced concrete elements. The aim is to enable the selective reconditioning, segmentation and reintegration of concrete components into new structures through an automated production system. The system combines advanced automation technologies with suitable connection designs and comprehensive quality assurance methods to ensure structural integrity and long‐term performance. By applying a cradle to cradle philosophy and establishing a closed‐loop supply chain for concrete elements, the approach significantly reduces waste, conserves natural resources, and lowers CO 2 emissions. Building on this foundation, the paper reviews the state of the art in fine processing of aged concrete elements, with a focus on connection designs, automated processing, and quality assurance as key enablers of sustainable manufacturing and resilient infrastructure.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDc5NDQxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDc5NDQxMXww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDk2NzE3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MDk2NzE3N3ww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a factory filled with lots of orange machines",
         "photographer": "Simon Kadula",
         "photographer_url": "https://unsplash.com/@simonkadula",
         "unsplash_url": "https://unsplash.com/photos/a-factory-filled-with-lots-of-orange-machines-8gr6bObQLOI"
       },
-      "ck_take": "",
+      "ck_take": "Automated robotic reuse of old RC elements could slash demolition waste — this is the missing link between circular economy ambitions and real construction practice.",
       "grok_image": ""
     },
     {
@@ -261,7 +261,7 @@
         "photographer_url": "https://unsplash.com/@trnavskauni",
         "unsplash_url": "https://unsplash.com/photos/a-monitor-is-on-a-stand-in-a-room-PoEbadI3mQQ"
       },
-      "ck_take": "",
+      "ck_take": "Post-Brumadinho, accelerometer-based dynamic monitoring is no longer optional — it's the most reliable early warning system we have for preventing dam failures.",
       "grok_image": ""
     },
     {
@@ -283,14 +283,14 @@
       ],
       "abstract": "Imposed floor loads directly influence the embodied carbon of new building structures, and often determine the reuse potential of existing ones, with important sustainability impacts. Despite this, engineering design codes and practices predominantly adopt loads based on historical precedents, rather than empirical evidence or statistical analysis. Existing physical survey data for office loadings is scarce, outdated, and fails to capture extreme scenarios. This paper introduces a novel stochastic methodology based on realistic modern office layouts (from 29 industry fit-out drawings), probabilistic models of furniture and partition weights (derived from approximately 500 individual product specifications) and occupancy scenarios (informed by surveys and interviews). The resulting dataset contains over 55 million load samples, capturing spatial, temporal and specification variations across variety of office uses. A mean loading of 0.35–0.38 kN/m 2 was determined, with increasing variance over smaller areas. Annual maximum loads were analysed, revealing that extreme loads are influenced by tall, heavily loaded items of storage furniture, particularly at smaller sampled areas, with high occupancy events increasingly important over larger areas. A standard minimum UK office imposed load of 2.5 kN/m 2 was found to have a return period of 11 years for serviceability, or 397 years if factored for ultimate limit state design; however these return periods increase significantly if the maximum storage furniture pressure is limited. Partitions added a mean load of 0.25–0.26 kN/m 2 , increasing to approximately 0.5 kN/m 2 for extreme loads with a 50-year return period, with little influence from area size. There is potential for this new approach to be applied to new building uses and across multiple storeys, with the study also revealing the need for additional extreme loading data regarding storage furniture and high occupancy events. The novel stochastic framework, and the resulting outputs, enable informed serviceability loading decision-making based on return-periods and show how offices can be designed and managed to minimise extreme loads. Moreover, they allow realistic load specification in buildings, guidance documents and design codes, avoiding over-design and unnecessary demolition and consumption of emissions-intensive structural materials.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MDc5NDQxMnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MDc5NDQxMnww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MDk2NzE3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MDk2NzE3OXww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "construction frame",
         "photographer": "Alain Pham",
         "photographer_url": "https://unsplash.com/@alain_pham",
         "unsplash_url": "https://unsplash.com/photos/construction-frame-P_qvsF7Yodw"
       },
-      "ck_take": "",
+      "ck_take": "Stochastic floor load modeling reveals that design codes are often too conservative — getting this right could significantly cut embodied carbon in new office buildings.",
       "grok_image": ""
     },
     {
@@ -312,14 +312,14 @@
       ],
       "abstract": "Phase-based vibration estimation using video has attracted significant attention in civil engineering due to its noncontact characteristic and high sensitivity. However, camera motion often introduces spurious phase disturbances, significantly reducing the accuracy of vibration frequency estimation. To address this issue, a novel phase-based vibration frequency measurement with multidimensional camera motion suppression (PVMC) approach is proposed, which integrates directional, spatial, and temporal dimensions to effectively suppress camera motion interference. Specifically, in the directional dimension, a complex steerable filter is used to extract phase responses along the structural vibration direction, thereby suppressing motion interference from nontarget directions. In the spatial dimension, a region-growing algorithm is employed to segment structural vibration target regions and remove background interference caused by camera motion. In the temporal dimension, based on the periodic characteristics of vibration signals, a sparse coding method leveraging the fast iterative shrinkage thresholding algorithm (FISTA) is designed to suppress camera motion interference and accurately extract structural vibration frequencies. Experimental results from both indoor and outdoor scenarios demonstrate the effectiveness of the proposed method. It outperforms existing state-of-the-art techniques in vibration frequency measurement accuracy under camera motion interference, demonstrating its suitability for engineering applications.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwNzk0NDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwNzk0NDE0fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwOTY3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgwOTY3MTgwfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "white and black camera on tripod",
         "photographer": "Michał Jakubowski",
         "photographer_url": "https://unsplash.com/@jaqbovsky",
         "unsplash_url": "https://unsplash.com/photos/white-and-black-camera-on-tripod-oQD9uq4Rd4I"
       },
-      "ck_take": "",
+      "ck_take": "Video-based vibration monitoring that compensates for camera shake could finally make noncontact structural health monitoring practical on real job sites.",
       "grok_image": ""
     }
   ]

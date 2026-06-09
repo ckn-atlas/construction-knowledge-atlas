@@ -241,18 +241,30 @@ def main():
                 theme_top[g] = fallback365[g]
                 log(f"  [{g}] filled via 365d fallback")
 
-    # 기존 latest.json에서 DOI 기반 ck_take / grok_image 캐시 로드
+    # DOI 기반 ck_take / grok_image 캐시 로드 (우선순위: ck_cache.json > latest.json)
+    CACHE_PATH = os.path.join(BASE_DIR, "data", "social", "ck_cache.json")
     cached_ai = {}  # doi → {"ck_take": str, "grok_image": str}
+
+    # 1) ck_cache.json (RESULT-NNN.md 파싱 결과 누적)
+    if os.path.exists(CACHE_PATH):
+        try:
+            ck_map = json.load(open(CACHE_PATH, encoding="utf-8"))
+            for doi, take in ck_map.items():
+                cached_ai.setdefault(doi, {})["ck_take"] = take
+        except Exception:
+            pass
+
+    # 2) latest.json (grok_image 캐시)
     if os.path.exists(OUTPUT_PATH):
         try:
             old = json.load(open(OUTPUT_PATH, encoding="utf-8"))
             for p in old.get("papers", []):
                 doi = p.get("doi", "")
-                if doi and (p.get("ck_take") or p.get("grok_image")):
-                    cached_ai[doi] = {
-                        "ck_take":    p.get("ck_take", ""),
-                        "grok_image": p.get("grok_image", ""),
-                    }
+                if doi and p.get("grok_image"):
+                    cached_ai.setdefault(doi, {})["grok_image"] = p["grok_image"]
+                # latest.json ck_take도 폴백
+                if doi and p.get("ck_take") and doi not in cached_ai:
+                    cached_ai[doi] = {"ck_take": p["ck_take"]}
         except Exception:
             pass
     log(f"AI 캐시 로드: {len(cached_ai)}개 DOI")
