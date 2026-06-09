@@ -24,8 +24,16 @@ if ($today.Day -eq 1) {
 Log "Step 1: collect.py update"
 & $Python collect.py update 2>&1 | ForEach-Object { Log "  $_" }
 
-# 2. Latest 논문 (222개 저널, abstract + Unsplash 이미지)
-Log "Step 2: generate_latest.py"
+# 2. Latest 논문 (222개 저널, abstract + Unsplash 이미지) → Codex TASK 생성
+Log "Step 2: generate_latest.py (1차 — TASK 파일 생성)"
+& $Python generate_latest.py 2>&1 | ForEach-Object { Log "  $_" }
+
+# 2-1. Codex RESULT → ck_cache.json 갱신 (RESULT-NNN.md 이미 있으면 즉시 반영)
+Log "Step 2-1: _write_ck_cache.py"
+& $Python _write_ck_cache.py 2>&1 | ForEach-Object { Log "  $_" }
+
+# 2-2. ck_cache 반영 후 latest.json 재생성 (ck_take 채움)
+Log "Step 2-2: generate_latest.py (2차 — ck_take 반영)"
 & $Python generate_latest.py 2>&1 | ForEach-Object { Log "  $_" }
 
 # 3. index2.html 재생성 (스크롤 레이아웃)
