@@ -734,6 +734,36 @@ def build_outputs(all_works):
                 seen.add(key)
                 papers.append(p)
 
+    # 테마별 최소 1개 보장 (Vision, DT 등 임팩트 낮은 테마 누락 방지)
+    try:
+        import json as _json
+        _graph_path = os.path.join(OUT_DIR, "graph.json")
+        if os.path.exists(_graph_path):
+            _graph = _json.load(open(_graph_path, encoding="utf-8"))
+            _kw_group = {n["id"].lower(): n.get("group") for n in _graph.get("nodes", [])}
+            _theme_covered = set()
+            for p in papers:
+                for t in (p.get("tech") or []):
+                    g = _kw_group.get(t.lower())
+                    if g:
+                        _theme_covered.add(g)
+                        break
+            _all_groups = list({n.get("group") for n in _graph.get("nodes", []) if n.get("group")})
+            _missing_groups = [g for g in _all_groups if g not in _theme_covered]
+            for g in _missing_groups:
+                # 해당 테마 노드 id 목록
+                _gids = {n["id"].lower() for n in _graph.get("nodes", []) if n.get("group") == g}
+                # papers_scored에서 이 테마에 해당하는 최고점 논문 1개 추가
+                for p in papers_scored:
+                    if any(t.lower() in _gids for t in (p.get("tech") or [])):
+                        key = p.get("doi") or p["t"]
+                        if key not in seen:
+                            seen.add(key)
+                            papers.append(p)
+                        break
+    except Exception:
+        pass
+
     # ----- trend.json -----
     trend = sorted(
         [{"id": n["id"], "papers": n["papers"], "growth": n["growth"]} for n in nodes],

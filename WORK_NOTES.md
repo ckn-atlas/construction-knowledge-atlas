@@ -110,6 +110,63 @@
 8. **탭 격리** (.view overflow:hidden + 탭별 cleanup) — 페이지 간 오염 방지
 9. **README + 7페이지 스크린샷** (docs/)
 10. **rate limit 대응** — 실행시간 10시 변경 + 빈결과 보호
+11. **X(@cknatlas48) 자동 게시 파이프라인** (2026-06-09)
+
+---
+
+## X 소셜 자동 게시 파이프라인
+
+### 계정
+- X: **@cknatlas48** (cknatlas48@gmail.com)
+- X Developer App: `20638454251199928320cknatlas48` (Pay Per Use, Free tier — 쓰기 API 불가)
+
+### 파이프라인 구성
+```
+daily_update.ps1
+  └─ Step 3-1: generate_social_card.py  → 카드 이미지 + 트윗 텍스트 생성
+  └─ Step 3-2: post_x_browser.py        → Playwright 브라우저로 X.com 직접 게시
+```
+
+### 핵심 파일
+| 파일 | 역할 |
+|------|------|
+| `generate_social_card.py` | FWCI 최고 논문 선택 → Grok 이미지 + Codex 요약 → 1200×675 카드 PNG |
+| `_force_card.py` | 강제 카드 재생성 (changed.flag 무시, 테스트용) |
+| `post_x_browser.py` | Playwright로 X.com 브라우저 자동화 게시 |
+| `data/social/card.png` | 생성된 카드 이미지 |
+| `data/social/caption.txt` | 트윗 본문 텍스트 |
+| `data/social/changed.flag` | 1=신규변경/0=변경없음 |
+| `data/social/pw_profile/` | Playwright 전용 Chrome 프로필 (로그인 세션 유지) |
+
+### 트윗 포맷
+```
+{emoji} New paper published in {theme} research!
+
+💬 CKAtlas' Take : {AI 요약 1문장}
+
+🔗 https://construction-knowledge-atlas.pages.dev
+#{테마태그} #CivilEngineering #Research #{저널명태그} #CKAtlas
+```
+
+### AI 협업 프로토콜 (033_AICollabWorkflow 연동)
+- **이미지**: Grok → 논문 주제 맞춤 이미지 생성 → `data/social/_grok_bg.jpg`
+- **요약**: Codex(GPT) → abstract → 대화체 영어 1문장 → `outbox/codex/RESULT-NNN.md`
+- TASK 파일: `inbox/codex/TASK-NNN.md`, `inbox/grok/TASK-NNN.md`
+- 결과 파싱: `SUMMARY: ` 접두어로 시작하는 줄 추출
+
+### X API 관련 주의사항
+- X API 무료 티어는 쓰기(트윗 게시) **불가** (2023년 2월부터)
+- Basic 플랜 $100/월부터 API 게시 가능
+- **현재 방식: Playwright 브라우저 자동화** (API 없이 직접 게시)
+- `pw_profile/` — Playwright 전용 Chrome 프로필, 최초 1회 수동 로그인 후 세션 유지
+- `post_x_browser.py --force` — 강제 게시 (테스트용)
+
+### 수동 실행
+```powershell
+python _force_card.py          # 카드 강제 재생성
+python post_x_browser.py --force   # X 강제 게시
+python post_x_browser.py --dry    # 게시 내용 미리보기만
+```
 
 ---
 
