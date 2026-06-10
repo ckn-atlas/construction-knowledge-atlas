@@ -1,12 +1,12 @@
 [
   {
     "id": "Materials Science",
-    "papers": 112543,
+    "papers": 112545,
     "growth": 6
   },
   {
     "id": "Computer Science",
-    "papers": 102151,
+    "papers": 102155,
     "growth": 4
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "id": "Structural Engineering",
-    "papers": 85072,
+    "papers": 85074,
     "growth": 6
   },
   {
@@ -26,17 +26,17 @@
   },
   {
     "id": "Construction Management",
-    "papers": 57668,
+    "papers": 57669,
     "growth": 0
   },
   {
     "id": "Material Properties/Testing",
-    "papers": 53151,
+    "papers": 53152,
     "growth": 0
   },
   {
     "id": "Environmental Science",
-    "papers": 51178,
+    "papers": 51179,
     "growth": 12
   }
 ]

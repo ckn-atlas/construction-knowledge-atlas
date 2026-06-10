@@ -161,7 +161,6 @@
     "oa": true,
     "doi": "https://doi.org/10.1016/j.autcon.2020.103179",
     "tech": [
-      "Digital Twin",
       "Computer Science",
       "Data Science",
       "BIM",
@@ -521,5 +520,22 @@
       "Mathematical Optimization"
     ],
     "score": 33
+  },
+  {
+    "t": "Towards cyber-physical internet: A systematic review, fundamental model and future perspectives",
+    "j": "Transportation Research Part E Logistics and Transportation Review",
+    "y": 2025,
+    "date": "2025-03",
+    "cit": 19,
+    "fwci": 18.7715,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.tre.2025.104051",
+    "tech": [
+      "Cyber-Physical Sys",
+      "Computer Security",
+      "Computer Science",
+      "Management Science"
+    ],
+    "score": 21
   }
 ]
