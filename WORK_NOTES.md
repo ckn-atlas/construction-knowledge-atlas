@@ -1,7 +1,7 @@
 # Construction Knowledge Atlas — 작업 노트
 
 > 새 세션에서 이 파일을 먼저 읽으면 프로젝트 전체 상태를 바로 파악할 수 있습니다.
-> 최종 업데이트: 2026-06-07
+> 최종 업데이트: 2026-06-10
 
 ## 프로젝트 개요
 전 세계 건설기술 연구를 시각화하는 인터랙티브 웹 플랫폼.
@@ -111,6 +111,8 @@
 9. **README + 7페이지 스크린샷** (docs/)
 10. **rate limit 대응** — 실행시간 10시 변경 + 빈결과 보호
 11. **X(@cknatlas48) 자동 게시 파이프라인** (2026-06-09)
+12. **Impact Papers Vision/DT 빈 테마 수정** (2026-06-10) — graph.json 노드 추가 + papers.json 패치 + collect.py 테마별 최소 보장
+13. **CKAtlas' Take 카드 통합** (2026-06-10) — Latest 카드 full abstract + Take 블록, Impact Papers 카드 Take 인라인, latest.json ck_take/grok_image 필드, ck_cache.json DOI 캐시
 
 ---
 
@@ -123,20 +125,28 @@
 ### 파이프라인 구성
 ```
 daily_update.ps1
-  └─ Step 3-1: generate_social_card.py  → 카드 이미지 + 트윗 텍스트 생성
-  └─ Step 3-2: post_x_browser.py        → Playwright 브라우저로 X.com 직접 게시
+  └─ Step 2:   generate_latest.py (1차)  → 새 논문 감지 + TASK-NNN.md 생성
+  └─ Step 2-1: _write_ck_cache.py        → RESULT-NNN.md → ck_cache.json 갱신
+  └─ Step 2-2: generate_latest.py (2차)  → ck_take 반영 latest.json 저장
+  └─ Step 3-1: generate_social_card.py   → 카드 이미지 + 트윗 텍스트 생성
+  └─ Step 3-2: post_x_browser.py         → Playwright 브라우저로 X.com 직접 게시
 ```
 
 ### 핵심 파일
 | 파일 | 역할 |
 |------|------|
-| `generate_social_card.py` | FWCI 최고 논문 선택 → Grok 이미지 + Codex 요약 → 1200×675 카드 PNG |
+| `generate_social_card.py` | FWCI 최고 논문 선택 → Grok 이미지 + ck_cache 요약 → 1200×675 카드 PNG |
 | `_force_card.py` | 강제 카드 재생성 (changed.flag 무시, 테스트용) |
+| `_write_ck_cache.py` | RESULT-NNN.md 파싱 → `data/social/ck_cache.json` 갱신 |
+| `_patch_graph_nodes.py` | graph.json 노드 수동 추가 패치 (일회성) |
+| `_patch_papers_themes.py` | papers.json 테마별 최소 보장 패치 (일회성) |
 | `post_x_browser.py` | Playwright로 X.com 브라우저 자동화 게시 |
 | `data/social/card.png` | 생성된 카드 이미지 |
 | `data/social/caption.txt` | 트윗 본문 텍스트 |
 | `data/social/changed.flag` | 1=신규변경/0=변경없음 |
+| `data/social/ck_cache.json` | DOI → ck_take 매핑 캐시 (단일 진실 공급원) |
 | `data/social/pw_profile/` | Playwright 전용 Chrome 프로필 (로그인 세션 유지) |
+| `data/latest.json` | 논문 + `ck_take` + `grok_image` 필드 포함 |
 
 ### 트윗 포맷
 ```
@@ -148,11 +158,17 @@ daily_update.ps1
 #{테마태그} #CivilEngineering #Research #{저널명태그} #CKAtlas
 ```
 
+### CKAtlas' Take 카드 표시
+- **Latest 카드** (1페이지): full abstract + `💬 CKAtlas' Take` 파란 좌측선 블록
+- **Impact Papers 카드** (2페이지): Take 인라인 표시 (ck_take 있을 때)
+- **이미지 우선순위**: `grok_image` (Grok AI) > `image` (Unsplash) > 색상 배너
+
 ### AI 협업 프로토콜 (033_AICollabWorkflow 연동)
-- **이미지**: Grok → 논문 주제 맞춤 이미지 생성 → `data/social/_grok_bg.jpg`
-- **요약**: Codex(GPT) → abstract → 대화체 영어 1문장 → `outbox/codex/RESULT-NNN.md`
+- **이미지**: Grok → 논문 주제 맞춤 이미지 생성 → `data/social/grok_images/`
+- **요약(ck_take)**: `generate_latest.py` → TASK-NNN.md 생성 → RESULT-NNN.md 작성 → `_write_ck_cache.py` → `ck_cache.json` → `generate_latest.py` 2차 실행 → `latest.json`에 반영
 - TASK 파일: `inbox/codex/TASK-NNN.md`, `inbox/grok/TASK-NNN.md`
 - 결과 파싱: `SUMMARY: ` 접두어로 시작하는 줄 추출
+- **캐시 전략**: DOI 기반, ck_cache.json에 누적 → 동일 논문 재등장 시 API 호출 없이 재사용
 
 ### X API 관련 주의사항
 - X API 무료 티어는 쓰기(트윗 게시) **불가** (2023년 2월부터)
