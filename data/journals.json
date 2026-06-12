@@ -1,7 +1,7 @@
 [
   {
     "name": "Construction and Building Materials",
-    "papers": 27253,
+    "papers": 27255,
     "cites": 668849,
     "issn": "0950-0618"
   },
@@ -13,7 +13,7 @@
   },
   {
     "name": "Structures",
-    "papers": 11509,
+    "papers": 11513,
     "cites": 120397,
     "issn": "2352-0124"
   },
@@ -85,7 +85,7 @@
   },
   {
     "name": "Tunnelling and Underground Space Technology",
-    "papers": 3914,
+    "papers": 3915,
     "cites": 78301,
     "issn": "0886-7798"
   },
@@ -115,7 +115,7 @@
   },
   {
     "name": "Innovative Infrastructure Solutions",
-    "papers": 2484,
+    "papers": 2487,
     "cites": 16950,
     "issn": "2364-4176"
   },
@@ -133,7 +133,7 @@
   },
   {
     "name": "Transportation Research Part E Logistics and Transportation Review",
-    "papers": 2401,
+    "papers": 2402,
     "cites": 63605,
     "issn": ""
   },
@@ -307,7 +307,7 @@
   },
   {
     "name": "Marine Structures",
-    "papers": 1077,
+    "papers": 1078,
     "cites": 15450,
     "issn": "0951-8339"
   },
@@ -319,7 +319,7 @@
   },
   {
     "name": "Journal of Transportation Engineering Part A Systems",
-    "papers": 1042,
+    "papers": 1043,
     "cites": 6733,
     "issn": ""
   },
@@ -337,7 +337,7 @@
   },
   {
     "name": "Transportation Research Part B Methodological",
-    "papers": 976,
+    "papers": 977,
     "cites": 21239,
     "issn": ""
   },
@@ -367,7 +367,7 @@
   },
   {
     "name": "Journal of Environmental Engineering",
-    "papers": 864,
+    "papers": 865,
     "cites": 5465,
     "issn": "0733-9372"
   },
@@ -391,7 +391,7 @@
   },
   {
     "name": "Building Simulation",
-    "papers": 839,
+    "papers": 840,
     "cites": 14363,
     "issn": "1996-3599"
   },

@@ -110,7 +110,7 @@
   {
     "c": "미국",
     "code": "US",
-    "papers": 31758,
+    "papers": 31760,
     "cites": 516160,
     "orgs": [
       "Virginia Tech",
@@ -126,11 +126,11 @@
     "keywords": [
       [
         "Computer Science",
-        49949
+        49951
       ],
       [
         "Materials Science",
-        26195
+        26203
       ],
       [
         "Environmental Science",
@@ -178,7 +178,7 @@
       ],
       [
         "Chemistry",
-        6501
+        6509
       ],
       [
         "Economics",
@@ -212,7 +212,7 @@
       "2023": 4453,
       "2024": 4845,
       "2025": 5298,
-      "2026": 2086
+      "2026": 2088
     }
   },
   {
@@ -3674,7 +3674,7 @@
   {
     "c": "방글라데시",
     "code": "BD",
-    "papers": 1360,
+    "papers": 1361,
     "cites": 17430,
     "orgs": [
       "Southeast University",
@@ -3698,7 +3698,7 @@
       ],
       [
         "Computer Science",
-        1344
+        1346
       ],
       [
         "Structural Engineering",
@@ -3776,7 +3776,7 @@
       "2023": 134,
       "2024": 248,
       "2025": 424,
-      "2026": 186
+      "2026": 187
     }
   },
   {

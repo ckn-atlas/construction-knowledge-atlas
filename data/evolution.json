@@ -80,36 +80,36 @@
     "top_keywords": [
       {
         "id": "Materials Science",
-        "n": 7838
+        "n": 7849
       },
       {
         "id": "Computer Science",
-        "n": 6954
+        "n": 6958
       },
       {
         "id": "Structural Engineering",
-        "n": 5867
+        "n": 5872
       },
       {
         "id": "Composite",
-        "n": 5128
+        "n": 5136
       }
     ],
     "top_pairs": [
       {
         "a": "Composite",
         "b": "Materials Science",
-        "co": 5128
+        "co": 5136
       },
       {
         "a": "Materials Science",
         "b": "Structural Engineering",
-        "co": 3330
+        "co": 3334
       },
       {
         "a": "FEM",
         "b": "Structural Engineering",
-        "co": 2057
+        "co": 2060
       }
     ]
   }
