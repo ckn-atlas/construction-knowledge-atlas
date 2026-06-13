@@ -2,7 +2,7 @@
   {
     "c": "중국",
     "code": "CN",
-    "papers": 114875,
+    "papers": 114877,
     "cites": 1855575,
     "orgs": [
       "Tongji University",
@@ -18,7 +18,7 @@
     "keywords": [
       [
         "Materials Science",
-        300071
+        300072
       ],
       [
         "Composite",
@@ -30,11 +30,11 @@
       ],
       [
         "Computer Science",
-        207989
+        207994
       ],
       [
         "Geology",
-        159643
+        159644
       ],
       [
         "Geotechnical Engineering",
@@ -54,7 +54,7 @@
       ],
       [
         "Mechanics",
-        67199
+        67200
       ],
       [
         "Chemistry",
@@ -104,13 +104,13 @@
       "2023": 17272,
       "2024": 22160,
       "2025": 25668,
-      "2026": 9663
+      "2026": 9665
     }
   },
   {
     "c": "미국",
     "code": "US",
-    "papers": 31760,
+    "papers": 31762,
     "cites": 516160,
     "orgs": [
       "Virginia Tech",
@@ -126,15 +126,15 @@
     "keywords": [
       [
         "Computer Science",
-        49951
+        49955
       ],
       [
         "Materials Science",
-        26203
+        26204
       ],
       [
         "Environmental Science",
-        23493
+        23497
       ],
       [
         "Composite",
@@ -146,7 +146,7 @@
       ],
       [
         "Geology",
-        18408
+        18409
       ],
       [
         "Graph",
@@ -212,7 +212,7 @@
       "2023": 4453,
       "2024": 4845,
       "2025": 5298,
-      "2026": 2088
+      "2026": 2090
     }
   },
   {
@@ -1730,7 +1730,7 @@
   {
     "c": "브라질",
     "code": "BR",
-    "papers": 3392,
+    "papers": 3393,
     "cites": 50417,
     "orgs": [
       "Universidade de São Paulo",
@@ -1758,11 +1758,11 @@
       ],
       [
         "Computer Science",
-        3828
+        3829
       ],
       [
         "Environmental Science",
-        3053
+        3054
       ],
       [
         "Geology",
@@ -1832,7 +1832,7 @@
       "2023": 494,
       "2024": 543,
       "2025": 531,
-      "2026": 166
+      "2026": 167
     }
   },
   {
