@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T10:06:13.272106",
-  "date_from": "2026-05-14",
+  "generated_at": "2026-06-14T10:06:11.830869",
+  "date_from": "2026-05-15",
   "total": 11,
   "papers": [
     {
@@ -22,8 +22,8 @@
       ],
       "abstract": "As an important component of the catenary system in electrified railways, the operating status of the catenary support components (CSC) is related to the operational safety of the railway. They are usually detected by a camera on the inspection equipment using computer vision techniques. However, current CSC detection research faces the following challenges. 1) The components in the captured images have issues of multi-scale and multiple categories; 2) Some components are covered because of the limited shooting angle; 3) The existing detectors based on CNN and Transformer are difficult to associate features between long-interval regions. To solve these problems, a novel graph-guided Mamba-DETR detector (Graph-MDETR) is proposed for detecting CSC. Firstly, a new backbone network (DAMamba-Adapter) is proposed to enhance the model’s ability to associate features between long-interval regions, and multi-scale training (MST) is used for solving multi-scale problems. Secondly, the semantic graph-guided module (SGM) and positional graph-guided module (PGM) are designed to alleviate the problems of occlusion and multi-category components by extracting prior category relationships with global semantic features and component geometric information. Finally, a CSC dataset taken by a UAV is established, and various experiments are conducted to verify the effectiveness and superiority of the proposed method.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgxMjI2MzYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgxMjI2MzYwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgxMzk5MTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgxMzk5MTM0fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a computer chip with the letter a on top of it",
         "photographer": "Igor Omilaev",
         "photographer_url": "https://unsplash.com/@omilaev",
@@ -35,21 +35,21 @@
     {
       "group": "BIM",
       "group_label": "BIM/Info",
-      "title": "Unveiling critical success factors for BIM stakeholder collaboration in Ghana: a Delphi study",
-      "journal": "Built Environment Project and Asset Management",
-      "date": "2026-05-25",
+      "title": "Optimising virtual site assessment process for mounted PV array design: an immersive BIM-based approach for existing buildings",
+      "journal": "Smart and Sustainable Built Environment",
+      "date": "2026-06-12",
       "fwci": 0.0,
       "citations": 0,
-      "oa": false,
-      "doi": "https://doi.org/10.1108/bepam-01-2025-0011",
+      "oa": true,
+      "doi": "https://doi.org/10.1108/sasbe-05-2025-0225",
       "keywords": [
-        "Stakeholder",
-        "Building information modeling",
-        "Delphi method",
-        "Critical success factor",
-        "Knowledge management"
+        "Workflow",
+        "Photovoltaic system",
+        "Process (computing)",
+        "Systems engineering",
+        "Building information modeling"
       ],
-      "abstract": "Purpose This study applies critical success factors (CSF) theory to address collaboration challenges in Ghana’s building information modeling (BIM) construction projects, where stakeholder engagement is hindered by fragmentation, misaligned expectations, and limited digital integration. It identifies and prioritizes CSF influencing stakeholder collaboration and proposes structured strategies that align with Sustainable Development Goals (SDG) 9 and SDG 11. Design/methodology/approach A two-round Delphi method was conducted with 17 experts in the first round and 13 in the second, selected through purposive sampling for their BIM expertise in Ghana. The iterative process facilitated expert consensus on the most critical collaboration challenges and success factors in BIM-enabled construction. Findings The study identifies 16 CSF for BIM stakeholder collaboration. Seven were ranked as very highly influential (VHI: 9.00–10.00), including communication, collaborative attitudes, early involvement, coordination, joint decision-making, BIM infrastructures and fostering trust, mutual respect and understanding. The remaining nine were categorized as highly influential (HI: 7.00–8.99). These findings support SDG 9 by promoting digital innovation in infrastructure and SDG 11 by enhancing inclusive and sustainable urban development. Originality/value This research integrates CSF theory with collaborative delivery models such as integrated project delivery (IPD) and lean project delivery (LPD), offering a validated framework for improving stakeholder collaboration in BIM projects. It contributes to both academic understanding and practical implementation of BIM in developing contexts.",
+      "abstract": "Purpose The assessment and performance evaluation of photovoltaic (PV) systems depend heavily on the site characteristics of existing buildings. However, when physical site inspections are impractical or impossible due to restricted access, this creates a significant barrier to the assessment of PV layout design. This research uses an instrumental case-study methodology to optimise PV array design in existing buildings by integrating Building Information Modelling (BIM) with immersive technologies. Design/methodology/approach A two-stage optimisation approach was developed to address challenges associated with physical site assessments and fixed building locations. By utilising optimisation algorithms, the grasshopper optimisation algorithm, and Unreal Engine 5 (UE5) for immersive visualisation, this method facilitates detailed shadow analysis and optimal placement of fixed-mounted PV panels. The methodology was validated through a case study involving the modelling of an office building in Melbourne, Australia, using Revit. A rigorous comparative analysis of the developed workflow and the Solar Engineer tool was conducted on the same building to assess the efficiency and accuracy of the workflow. Findings Results demonstrated that integrating BIM with immersive technologies substantially enhanced the efficiency and accuracy of PV installation assessments. The analysis identified a roof utilisation factor (Roof UF) of 39.62% for PV panels, enabling the installation of 90 solar panels with an annual energy yield of 152,091.64 kWh. Originality/value The optimisation workflow introduced in the paper highlights its potential to reduce the reliance on physical site visits while improving design precision and maximising energy output. These findings provide valuable insights for solar engineers and building professionals, contributing to the advancement of efficient and sustainable urban energy solutions.",
       "image": {
         "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgxMzEyNzM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgxMzEyNzM0fDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -196,8 +196,8 @@
       ],
       "abstract": "This study presents a comprehensive assessment of risk management maturity in the Australian construction industry using a structured, data-driven approach based on the generic risk maturity model (GRMM). Although effective risk management is critical for organizational performance and project outcomes, existing literature has highlighted gaps in empirical benchmarking, item-level diagnostics, and progression pathways for maturity enhancement. This research addresses these gaps through a structured survey of 25 criteria across five dimensions: (1) Management Commitment and Leadership, (2) Organizational Risk Culture, (3) Risk Identification, (4) Risk Analysis, and (5) Standardized Risk Management Processes. Results indicate that organizations generally operate between Level 2 (Repeatable) and Level 3 (Managed), with leadership engagement and risk identification emerging as early strengths, whereas organizational culture and standardized processes lag behind. Detailed item-level analysis reveals critical weaknesses in communication, resource allocation, team ownership, and analytical capability, particularly among smaller firms and lower-tier organizations. Progression mapping illustrates the typical sequence in which risk management capabilities develop, beginning with leadership support, trust, and basic risk identification, followed by procedural formalization and cultural adoption, and culminating in optimized, fully integrated practices at Level 4. Correlation analysis further demonstrates strong interdependencies among criteria, indicating that improvements in leadership, standardization, and communication reinforce overall maturity. Sectoral, size, and tier-based analyses reveal nuanced patterns: top-tier and larger firms achieve higher maturity earlier, and industrial and commercial projects outperform infrastructure in certain dimensions. Collectively, these findings provide actionable, data-informed guidance for organizations seeking to enhance risk governance, offering a framework for prioritizing improvements, fostering cultural change, and embedding systematic risk management practices across all operational levels. The study contributes to academic understanding of risk maturity dynamics and equips practitioners and policymakers with practical strategies to advance risk management capabilities systematically in construction contexts.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgxMjI2MzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgxMjI2MzY1fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgxMzk5MTM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzgxMzk5MTM5fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "two men working",
         "photographer": "Etienne Girardet",
         "photographer_url": "https://unsplash.com/@etiennegirardet",
