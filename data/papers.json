@@ -522,23 +522,6 @@
     "score": 33
   },
   {
-    "t": "Towards cyber-physical internet: A systematic review, fundamental model and future perspectives",
-    "j": "Transportation Research Part E Logistics and Transportation Review",
-    "y": 2025,
-    "date": "2025-03",
-    "cit": 19,
-    "fwci": 18.7715,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.tre.2025.104051",
-    "tech": [
-      "Cyber-Physical Sys",
-      "Computer Security",
-      "Computer Science",
-      "Management Science"
-    ],
-    "score": 21
-  },
-  {
     "t": "Identification of mechanism-specific persistent scatterers for enhancing MT-InSAR in Structural Health Monitoring applications",
     "j": "Engineering Structures",
     "y": 2026,
@@ -554,5 +537,22 @@
       "Identification (Biology)"
     ],
     "score": 30
+  },
+  {
+    "t": "Towards cyber-physical internet: A systematic review, fundamental model and future perspectives",
+    "j": "Transportation Research Part E Logistics and Transportation Review",
+    "y": 2025,
+    "date": "2025-03",
+    "cit": 19,
+    "fwci": 18.7715,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.tre.2025.104051",
+    "tech": [
+      "Cyber-Physical Sys",
+      "Computer Security",
+      "Computer Science",
+      "Management Science"
+    ],
+    "score": 21
   }
 ]
