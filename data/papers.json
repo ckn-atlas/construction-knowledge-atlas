@@ -522,23 +522,6 @@
     "score": 33
   },
   {
-    "t": "Identification of mechanism-specific persistent scatterers for enhancing MT-InSAR in Structural Health Monitoring applications",
-    "j": "Engineering Structures",
-    "y": 2026,
-    "date": "2026-01",
-    "cit": 2,
-    "fwci": 71.2552,
-    "oa": true,
-    "doi": "https://doi.org/10.1016/j.engstruct.2026.122103",
-    "tech": [
-      "SHM",
-      "Displacement (Psychology)",
-      "Computer Science",
-      "Identification (Biology)"
-    ],
-    "score": 30
-  },
-  {
     "t": "Towards cyber-physical internet: A systematic review, fundamental model and future perspectives",
     "j": "Transportation Research Part E Logistics and Transportation Review",
     "y": 2025,
@@ -554,5 +537,22 @@
       "Management Science"
     ],
     "score": 21
+  },
+  {
+    "t": "Identification of mechanism-specific persistent scatterers for enhancing MT-InSAR in Structural Health Monitoring applications",
+    "j": "Engineering Structures",
+    "y": 2026,
+    "date": "2026-01",
+    "cit": 2,
+    "fwci": 71.2552,
+    "oa": true,
+    "doi": "https://doi.org/10.1016/j.engstruct.2026.122103",
+    "tech": [
+      "SHM",
+      "Displacement (Psychology)",
+      "Computer Science",
+      "Identification (Biology)"
+    ],
+    "score": 30
   }
 ]

@@ -53,8 +53,8 @@
     "Yonsei University",
     "Pennsylvania State University",
     "Western Sydney University",
-    "University of Auckland",
     "The University of Texas at Austin",
+    "University of Auckland",
     "RWTH Aachen University",
     "Istanbul Technical University",
     "Hanyang University",
@@ -66,8 +66,8 @@
     "Universidad Politécnica de Madrid",
     "Monash University",
     "The University of Melbourne",
-    "KU Leuven",
     "Amirkabir University of Technology",
+    "KU Leuven",
     "Eindhoven University of Technology",
     "University of Waterloo",
     "Ministry of Education",
@@ -105,10 +105,10 @@
     "University of Michigan",
     "Korea University",
     "Universitat Politècnica de València",
-    "King Fahd University of Petroleum and Minerals",
-    "Technische Universität Dresden",
     "Oregon State University",
     "Indian Institute of Technology Kharagpur",
+    "King Fahd University of Petroleum and Minerals",
+    "Technische Universität Dresden",
     "National Taiwan University",
     "Politecnico di Torino",
     "Warsaw University of Technology",
@@ -138,14 +138,14 @@
     "Czech Technical University in Prague",
     "Carleton University",
     "Université de Sherbrooke",
-    "Sejong University",
     "University of Johannesburg",
+    "Sejong University",
     "The University of Western Australia",
     "Korea Institute of Civil Engineering and Building Technology",
     "Toronto Metropolitan University",
     "Isfahan University of Technology",
-    "University of Southampton",
     "McMaster University",
+    "University of Southampton",
     "The University of Adelaide",
     "Korea Advanced Institute of Science and Technology",
     "Yıldız Technical University",
@@ -230,7 +230,7 @@
     [
       "Hong Kong Polytechnic University",
       "Zhejiang University",
-      148
+      149
     ],
     [
       "Chang'an University",
@@ -300,7 +300,7 @@
     [
       "Dalian University of Technology",
       "Hong Kong Polytechnic University",
-      101
+      102
     ],
     [
       "Hong Kong Polytechnic University",
@@ -378,14 +378,14 @@
       87
     ],
     [
-      "Chang'an University",
-      "Chongqing University",
+      "Hong Kong Polytechnic University",
+      "Southwest Jiaotong University",
       86
     ],
     [
-      "Hong Kong Polytechnic University",
-      "Southwest Jiaotong University",
-      85
+      "Chang'an University",
+      "Chongqing University",
+      86
     ],
     [
       "Southeast University",
@@ -1154,20 +1154,20 @@
     ]
   ],
   "weight": {
-    "Tongji University": 7989,
+    "Tongji University": 7991,
     "Southeast University": 7119,
-    "Hong Kong Polytechnic University": 4658,
+    "Hong Kong Polytechnic University": 4662,
     "Harbin Institute of Technology": 4126,
-    "Tsinghua University": 3806,
-    "Dalian University of Technology": 3778,
-    "Chongqing University": 3535,
-    "Chang'an University": 3522,
-    "Southwest Jiaotong University": 3486,
+    "Tsinghua University": 3807,
+    "Dalian University of Technology": 3779,
+    "Chongqing University": 3536,
+    "Chang'an University": 3524,
+    "Southwest Jiaotong University": 3487,
     "Central South University": 3480,
-    "Zhejiang University": 3225,
+    "Zhejiang University": 3226,
     "Tianjin University": 3152,
-    "Hohai University": 3135,
-    "Beijing University of Technology": 2972,
+    "Hohai University": 3136,
+    "Beijing University of Technology": 2973,
     "Shanghai Jiao Tong University": 2820,
     "Xi'an University of Architecture and Technology": 2681,
     "ORCID": 2342,
@@ -1175,7 +1175,7 @@
     "Centre National de la Recherche Scientifique": 1842,
     "National University of Singapore": 1647,
     "University of Hong Kong": 1570,
-    "Nanyang Technological University": 1379,
+    "Nanyang Technological University": 1380,
     "Norwegian University of Science and Technology": 1176,
     "City University of Hong Kong": 1176,
     "University College London": 1168,
@@ -1183,32 +1183,32 @@
     "University of Tehran": 1048,
     "Politecnico di Milano": 1043,
     "Texas A&M University": 1029,
-    "Hong Kong University of Science and Technology": 969,
+    "Hong Kong University of Science and Technology": 970,
     "University of Illinois Urbana-Champaign": 932,
-    "University of Lisbon": 909,
+    "University of Lisbon": 910,
     "RMIT University": 908,
     "The University of Tokyo": 902,
     "University of British Columbia": 879,
     "ETH Zurich": 864,
     "Seoul National University": 863,
-    "Curtin University": 852,
+    "Curtin University": 853,
     "Imperial College London": 847,
     "Iran University of Science and Technology": 833,
     "Technical University of Denmark": 824,
-    "University of Alberta": 819,
+    "University of Alberta": 820,
     "Purdue University West Lafayette": 817,
     "University of Technology Sydney": 814,
     "Ghent University": 760,
     "Universitat Politècnica de Catalunya": 741,
     "University of California, Berkeley": 719,
     "Technical University of Munich": 698,
-    "Virginia Tech": 680,
+    "Virginia Tech": 681,
     "University of Naples Federico II": 668,
     "Yonsei University": 668,
     "Pennsylvania State University": 665,
     "Western Sydney University": 662,
+    "The University of Texas at Austin": 660,
     "University of Auckland": 660,
-    "The University of Texas at Austin": 659,
     "RWTH Aachen University": 653,
     "Istanbul Technical University": 651,
     "Hanyang University": 646,
@@ -1220,8 +1220,8 @@
     "Universidad Politécnica de Madrid": 625,
     "Monash University": 620,
     "The University of Melbourne": 616,
+    "Amirkabir University of Technology": 616,
     "KU Leuven": 615,
-    "Amirkabir University of Technology": 615,
     "Eindhoven University of Technology": 601,
     "University of Waterloo": 582,
     "Ministry of Education": 580,
@@ -1234,7 +1234,7 @@
     "Université Gustave Eiffel": 546,
     "Queensland University of Technology": 545,
     "Swinburne University of Technology": 541,
-    "University of Strathclyde": 533,
+    "University of Strathclyde": 534,
     "Missouri University of Science and Technology": 530,
     "University of Minho": 529,
     "Georgia Institute of Technology": 528,
@@ -1246,7 +1246,7 @@
     "University of Florida": 501,
     "Chalmers University of Technology": 497,
     "Indian Institute of Technology Delhi": 491,
-    "Arizona State University": 488,
+    "Arizona State University": 489,
     "Iowa State University": 483,
     "Tarbiat Modares University": 482,
     "AGH University of Krakow": 481,
@@ -1255,14 +1255,14 @@
     "University of Technology Malaysia": 463,
     "Western University": 462,
     "Universiti Sains Malaysia": 461,
-    "KTH Royal Institute of Technology": 458,
+    "KTH Royal Institute of Technology": 459,
     "University of Michigan": 456,
     "Korea University": 450,
     "Universitat Politècnica de València": 447,
+    "Oregon State University": 446,
+    "Indian Institute of Technology Kharagpur": 446,
     "King Fahd University of Petroleum and Minerals": 446,
     "Technische Universität Dresden": 445,
-    "Oregon State University": 445,
-    "Indian Institute of Technology Kharagpur": 445,
     "National Taiwan University": 445,
     "Politecnico di Torino": 440,
     "Warsaw University of Technology": 432,
@@ -1292,14 +1292,14 @@
     "Czech Technical University in Prague": 359,
     "Carleton University": 358,
     "Université de Sherbrooke": 355,
+    "University of Johannesburg": 355,
     "Sejong University": 354,
-    "University of Johannesburg": 354,
     "The University of Western Australia": 353,
     "Korea Institute of Civil Engineering and Building Technology": 350,
     "Toronto Metropolitan University": 349,
     "Isfahan University of Technology": 349,
+    "McMaster University": 344,
     "University of Southampton": 344,
-    "McMaster University": 343,
     "The University of Adelaide": 343,
     "Korea Advanced Institute of Science and Technology": 342,
     "Yıldız Technical University": 342,
@@ -1359,8 +1359,8 @@
     "Yonsei University": "KR",
     "Pennsylvania State University": "US",
     "Western Sydney University": "AU",
-    "University of Auckland": "NZ",
     "The University of Texas at Austin": "US",
+    "University of Auckland": "NZ",
     "RWTH Aachen University": "DE",
     "Istanbul Technical University": "TR",
     "Hanyang University": "KR",
@@ -1372,8 +1372,8 @@
     "Universidad Politécnica de Madrid": "ES",
     "Monash University": "AU",
     "The University of Melbourne": "AU",
-    "KU Leuven": "BE",
     "Amirkabir University of Technology": "IR",
+    "KU Leuven": "BE",
     "Eindhoven University of Technology": "NL",
     "University of Waterloo": "CA",
     "Ministry of Education": "NZ",
@@ -1411,10 +1411,10 @@
     "University of Michigan": "US",
     "Korea University": "KR",
     "Universitat Politècnica de València": "ES",
-    "King Fahd University of Petroleum and Minerals": "SA",
-    "Technische Universität Dresden": "DE",
     "Oregon State University": "US",
     "Indian Institute of Technology Kharagpur": "IN",
+    "King Fahd University of Petroleum and Minerals": "SA",
+    "Technische Universität Dresden": "DE",
     "National Taiwan University": "TW",
     "Politecnico di Torino": "IT",
     "Warsaw University of Technology": "PL",
@@ -1444,14 +1444,14 @@
     "Czech Technical University in Prague": "CZ",
     "Carleton University": "CA",
     "Université de Sherbrooke": "CA",
-    "Sejong University": "KR",
     "University of Johannesburg": "ZA",
+    "Sejong University": "KR",
     "The University of Western Australia": "AU",
     "Korea Institute of Civil Engineering and Building Technology": "KR",
     "Toronto Metropolitan University": "CA",
     "Isfahan University of Technology": "IR",
-    "University of Southampton": "GB",
     "McMaster University": "CA",
+    "University of Southampton": "GB",
     "The University of Adelaide": "AU",
     "Korea Advanced Institute of Science and Technology": "KR",
     "Yıldız Technical University": "TR",
@@ -1670,13 +1670,13 @@
       -33.59955978393555,
       150.7514190673828
     ],
-    "University of Auckland": [
-      -36.84853,
-      174.76349
-    ],
     "The University of Texas at Austin": [
       30.26715,
       -97.74306
+    ],
+    "University of Auckland": [
+      -36.84853,
+      174.76349
     ],
     "RWTH Aachen University": [
       50.776641845703125,
@@ -1722,13 +1722,13 @@
       -37.814,
       144.96332
     ],
-    "KU Leuven": [
-      50.87959,
-      4.70093
-    ],
     "Amirkabir University of Technology": [
       35.704345703125,
       51.40967559814453
+    ],
+    "KU Leuven": [
+      50.87959,
+      4.70093
     ],
     "Eindhoven University of Technology": [
       51.44083,
@@ -1878,14 +1878,6 @@
       39.47391128540039,
       -0.3796600103378296
     ],
-    "King Fahd University of Petroleum and Minerals": [
-      26.288639068603516,
-      50.11396026611328
-    ],
-    "Technische Universität Dresden": [
-      51.05089,
-      13.73832
-    ],
     "Oregon State University": [
       44.56457,
       -123.26204
@@ -1893,6 +1885,14 @@
     "Indian Institute of Technology Kharagpur": [
       22.339710235595703,
       87.32501220703125
+    ],
+    "King Fahd University of Petroleum and Minerals": [
+      26.288639068603516,
+      50.11396026611328
+    ],
+    "Technische Universität Dresden": [
+      51.05089,
+      13.73832
     ],
     "National Taiwan University": [
       25.05306,
@@ -2010,13 +2010,13 @@
       45.40008,
       -71.89908
     ],
-    "Sejong University": [
-      37.5508,
-      127.0743
-    ],
     "University of Johannesburg": [
       -26.20227,
       28.04363
+    ],
+    "Sejong University": [
+      37.5508,
+      127.0743
     ],
     "The University of Western Australia": [
       -31.95224,
@@ -2034,13 +2034,13 @@
       32.7203254699707,
       51.52477264404297
     ],
-    "University of Southampton": [
-      50.90395,
-      -1.40428
-    ],
     "McMaster University": [
       43.25011,
       -79.84963
+    ],
+    "University of Southampton": [
+      50.90395,
+      -1.40428
     ],
     "The University of Adelaide": [
       -34.92866,
@@ -8121,17 +8121,17 @@
       [
         "Hong Kong Polytechnic University",
         "Zhejiang University",
+        16
+      ],
+      [
+        "Dalian University of Technology",
+        "Hong Kong Polytechnic University",
         15
       ],
       [
         "Chongqing University",
         "Tongji University",
         15
-      ],
-      [
-        "Dalian University of Technology",
-        "Hong Kong Polytechnic University",
-        14
       ],
       [
         "Centre National de la Recherche Scientifique",
@@ -8156,6 +8156,11 @@
       [
         "Southeast University",
         "Tsinghua University",
+        11
+      ],
+      [
+        "Hong Kong Polytechnic University",
+        "Southwest Jiaotong University",
         11
       ],
       [
@@ -8186,11 +8191,6 @@
       [
         "Tongji University",
         "University of Hong Kong",
-        10
-      ],
-      [
-        "Hong Kong Polytechnic University",
-        "Southwest Jiaotong University",
         10
       ],
       [
@@ -9034,6 +9034,11 @@
         3
       ],
       [
+        "Southwest Jiaotong University",
+        "University of Strathclyde",
+        3
+      ],
+      [
         "Harbin Institute of Technology",
         "Nanyang Technological University",
         3
@@ -9066,11 +9071,6 @@
       [
         "University of California, Berkeley",
         "Xi'an University of Architecture and Technology",
-        3
-      ],
-      [
-        "Harbin Institute of Technology",
-        "University College London",
         3
       ]
     ]
@@ -21149,17 +21149,17 @@
       [
         "Hong Kong Polytechnic University",
         "Zhejiang University",
+        16
+      ],
+      [
+        "Dalian University of Technology",
+        "Hong Kong Polytechnic University",
         15
       ],
       [
         "Chongqing University",
         "Tongji University",
         15
-      ],
-      [
-        "Dalian University of Technology",
-        "Hong Kong Polytechnic University",
-        14
       ],
       [
         "Centre National de la Recherche Scientifique",
@@ -21184,6 +21184,11 @@
       [
         "Southeast University",
         "Tsinghua University",
+        11
+      ],
+      [
+        "Hong Kong Polytechnic University",
+        "Southwest Jiaotong University",
         11
       ],
       [
@@ -21214,11 +21219,6 @@
       [
         "Tongji University",
         "University of Hong Kong",
-        10
-      ],
-      [
-        "Hong Kong Polytechnic University",
-        "Southwest Jiaotong University",
         10
       ],
       [
@@ -22062,6 +22062,11 @@
         3
       ],
       [
+        "Southwest Jiaotong University",
+        "University of Strathclyde",
+        3
+      ],
+      [
         "Harbin Institute of Technology",
         "Nanyang Technological University",
         3
@@ -22094,11 +22099,6 @@
       [
         "University of California, Berkeley",
         "Xi'an University of Architecture and Technology",
-        3
-      ],
-      [
-        "Harbin Institute of Technology",
-        "University College London",
         3
       ]
     ]

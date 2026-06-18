@@ -2,7 +2,7 @@
   {
     "c": "중국",
     "code": "CN",
-    "papers": 114877,
+    "papers": 114916,
     "cites": 1855575,
     "orgs": [
       "Tongji University",
@@ -18,55 +18,55 @@
     "keywords": [
       [
         "Materials Science",
-        300072
+        300159
       ],
       [
         "Composite",
-        243575
+        243629
       ],
       [
         "Structural Engineering",
-        210701
+        210776
       ],
       [
         "Computer Science",
-        207994
+        208073
       ],
       [
         "Geology",
-        159644
+        159674
       ],
       [
         "Geotechnical Engineering",
-        118514
+        118531
       ],
       [
         "Environmental Science",
-        113006
+        113035
       ],
       [
         "Graph",
-        96347
+        96353
       ],
       [
         "AI (general)",
-        77222
+        77243
       ],
       [
         "Mechanics",
-        67200
+        67207
       ],
       [
         "Chemistry",
-        66279
+        66292
       ],
       [
         "FEM",
-        56015
+        56067
       ],
       [
         "Cementitious",
-        54710
+        54722
       ],
       [
         "Mechanical Engineering",
@@ -78,15 +78,15 @@
       ],
       [
         "Compressive Strength",
-        43749
+        43766
       ],
       [
         "Meteorology",
-        39745
+        39756
       ],
       [
         "Acoustics",
-        35588
+        35601
       ],
       [
         "Geometry",
@@ -94,7 +94,7 @@
       ],
       [
         "Algorithm",
-        31281
+        31294
       ]
     ],
     "yearly": {
@@ -104,13 +104,13 @@
       "2023": 17272,
       "2024": 22160,
       "2025": 25668,
-      "2026": 9665
+      "2026": 9704
     }
   },
   {
     "c": "미국",
     "code": "US",
-    "papers": 31762,
+    "papers": 31775,
     "cites": 516160,
     "orgs": [
       "Virginia Tech",
@@ -126,31 +126,31 @@
     "keywords": [
       [
         "Computer Science",
-        49955
+        49957
       ],
       [
         "Materials Science",
-        26204
+        26219
       ],
       [
         "Environmental Science",
-        23497
+        23514
       ],
       [
         "Composite",
-        21131
+        21135
       ],
       [
         "Structural Engineering",
-        19951
+        19957
       ],
       [
         "Geology",
-        18409
+        18411
       ],
       [
         "Graph",
-        18228
+        18233
       ],
       [
         "Transport Engineering",
@@ -162,7 +162,7 @@
       ],
       [
         "Geotechnical Engineering",
-        12670
+        12674
       ],
       [
         "Business",
@@ -170,19 +170,19 @@
       ],
       [
         "Statistics",
-        7783
+        7784
       ],
       [
         "Meteorology",
-        7667
+        7669
       ],
       [
         "Chemistry",
-        6509
+        6513
       ],
       [
         "Economics",
-        6331
+        6334
       ],
       [
         "Asphalt",
@@ -212,13 +212,13 @@
       "2023": 4453,
       "2024": 4845,
       "2025": 5298,
-      "2026": 2090
+      "2026": 2103
     }
   },
   {
     "c": "영국",
     "code": "GB",
-    "papers": 14261,
+    "papers": 14262,
     "cites": 285426,
     "orgs": [
       "University College London",
@@ -234,7 +234,7 @@
     "keywords": [
       [
         "Computer Science",
-        14490
+        14491
       ],
       [
         "Materials Science",
@@ -242,7 +242,7 @@
       ],
       [
         "Structural Engineering",
-        8699
+        8700
       ],
       [
         "Composite",
@@ -286,7 +286,7 @@
       ],
       [
         "FEM",
-        2640
+        2641
       ],
       [
         "Economics",
@@ -320,13 +320,13 @@
       "2023": 1979,
       "2024": 2414,
       "2025": 2594,
-      "2026": 980
+      "2026": 981
     }
   },
   {
     "c": "인도",
     "code": "IN",
-    "papers": 11531,
+    "papers": 11535,
     "cites": 174462,
     "orgs": [
       "Indian Institute of Technology Madras",
@@ -342,15 +342,15 @@
     "keywords": [
       [
         "Materials Science",
-        16196
+        16198
       ],
       [
         "Composite",
-        13606
+        13608
       ],
       [
         "Computer Science",
-        10058
+        10062
       ],
       [
         "Structural Engineering",
@@ -358,7 +358,7 @@
       ],
       [
         "Geology",
-        8357
+        8361
       ],
       [
         "Environmental Science",
@@ -370,19 +370,19 @@
       ],
       [
         "Graph",
-        5366
+        5372
       ],
       [
         "Cementitious",
-        4305
+        4307
       ],
       [
         "Compressive Strength",
-        3866
+        3868
       ],
       [
         "Chemistry",
-        3445
+        3447
       ],
       [
         "AI (general)",
@@ -398,7 +398,7 @@
       ],
       [
         "Mechanics",
-        2773
+        2775
       ],
       [
         "FEM",
@@ -414,11 +414,11 @@
       ],
       [
         "UTS",
-        2189
+        2191
       ],
       [
         "Durability",
-        2116
+        2118
       ]
     ],
     "yearly": {
@@ -428,13 +428,13 @@
       "2023": 1868,
       "2024": 2027,
       "2025": 2191,
-      "2026": 895
+      "2026": 899
     }
   },
   {
     "c": "호주",
     "code": "AU",
-    "papers": 10640,
+    "papers": 10641,
     "cites": 253853,
     "orgs": [
       "UNSW Sydney",
@@ -450,7 +450,7 @@
     "keywords": [
       [
         "Materials Science",
-        12518
+        12521
       ],
       [
         "Composite",
@@ -470,7 +470,7 @@
       ],
       [
         "Environmental Science",
-        5293
+        5296
       ],
       [
         "Graph",
@@ -522,7 +522,7 @@
       ],
       [
         "Metallurgy",
-        1637
+        1640
       ],
       [
         "UTS",
@@ -536,13 +536,121 @@
       "2023": 1475,
       "2024": 1697,
       "2025": 1760,
-      "2026": 662
+      "2026": 663
+    }
+  },
+  {
+    "c": "캐나다",
+    "code": "CA",
+    "papers": 9394,
+    "cites": 166858,
+    "orgs": [
+      "University of Alberta",
+      "University of British Columbia",
+      "Concordia University",
+      "University of Toronto"
+    ],
+    "tech": [
+      "Computer Science",
+      "Materials Science",
+      "Structural Engineering"
+    ],
+    "keywords": [
+      [
+        "Computer Science",
+        10268
+      ],
+      [
+        "Materials Science",
+        8015
+      ],
+      [
+        "Structural Engineering",
+        7541
+      ],
+      [
+        "Composite",
+        6543
+      ],
+      [
+        "Environmental Science",
+        6160
+      ],
+      [
+        "Geology",
+        5655
+      ],
+      [
+        "Graph",
+        4367
+      ],
+      [
+        "Geotechnical Engineering",
+        3907
+      ],
+      [
+        "AI (general)",
+        3157
+      ],
+      [
+        "Meteorology",
+        2208
+      ],
+      [
+        "Business",
+        2124
+      ],
+      [
+        "Mechanical Engineering",
+        2057
+      ],
+      [
+        "Mechanics",
+        1731
+      ],
+      [
+        "FEM",
+        1724
+      ],
+      [
+        "Statistics",
+        1708
+      ],
+      [
+        "Chemistry",
+        1700
+      ],
+      [
+        "Transport Engineering",
+        1672
+      ],
+      [
+        "Cementitious",
+        1370
+      ],
+      [
+        "Machine Learning",
+        1365
+      ],
+      [
+        "Forensic Engineering",
+        1328
+      ]
+    ],
+    "yearly": {
+      "2020": 1494,
+      "2021": 1542,
+      "2022": 1445,
+      "2023": 1363,
+      "2024": 1468,
+      "2025": 1518,
+      "2026": 564
     }
   },
   {
     "c": "이란",
     "code": "IR",
-    "papers": 9393,
+    "papers": 9394,
     "cites": 157669,
     "orgs": [
       "University of Tehran",
@@ -566,7 +674,7 @@
       ],
       [
         "Computer Science",
-        9985
+        9989
       ],
       [
         "Structural Engineering",
@@ -594,7 +702,7 @@
       ],
       [
         "AI (general)",
-        2940
+        2944
       ],
       [
         "FEM",
@@ -644,121 +752,13 @@
       "2023": 1445,
       "2024": 1387,
       "2025": 1325,
-      "2026": 401
-    }
-  },
-  {
-    "c": "캐나다",
-    "code": "CA",
-    "papers": 9391,
-    "cites": 166858,
-    "orgs": [
-      "University of Alberta",
-      "University of British Columbia",
-      "Concordia University",
-      "University of Toronto"
-    ],
-    "tech": [
-      "Computer Science",
-      "Materials Science",
-      "Structural Engineering"
-    ],
-    "keywords": [
-      [
-        "Computer Science",
-        10268
-      ],
-      [
-        "Materials Science",
-        8009
-      ],
-      [
-        "Structural Engineering",
-        7535
-      ],
-      [
-        "Composite",
-        6540
-      ],
-      [
-        "Environmental Science",
-        6156
-      ],
-      [
-        "Geology",
-        5655
-      ],
-      [
-        "Graph",
-        4366
-      ],
-      [
-        "Geotechnical Engineering",
-        3904
-      ],
-      [
-        "AI (general)",
-        3157
-      ],
-      [
-        "Meteorology",
-        2208
-      ],
-      [
-        "Business",
-        2124
-      ],
-      [
-        "Mechanical Engineering",
-        2057
-      ],
-      [
-        "Mechanics",
-        1731
-      ],
-      [
-        "FEM",
-        1721
-      ],
-      [
-        "Statistics",
-        1708
-      ],
-      [
-        "Chemistry",
-        1700
-      ],
-      [
-        "Transport Engineering",
-        1672
-      ],
-      [
-        "Cementitious",
-        1370
-      ],
-      [
-        "Machine Learning",
-        1365
-      ],
-      [
-        "Forensic Engineering",
-        1328
-      ]
-    ],
-    "yearly": {
-      "2020": 1494,
-      "2021": 1542,
-      "2022": 1445,
-      "2023": 1363,
-      "2024": 1468,
-      "2025": 1518,
-      "2026": 561
+      "2026": 402
     }
   },
   {
     "c": "홍콩",
     "code": "HK",
-    "papers": 7797,
+    "papers": 7802,
     "cites": 178415,
     "orgs": [
       "Hong Kong Polytechnic University",
@@ -774,23 +774,23 @@
     "keywords": [
       [
         "Computer Science",
-        8472
+        8475
       ],
       [
         "Materials Science",
-        6179
+        6182
       ],
       [
         "Composite",
-        4981
+        4984
       ],
       [
         "Structural Engineering",
-        4123
+        4129
       ],
       [
         "Environmental Science",
-        3583
+        3584
       ],
       [
         "Graph",
@@ -802,7 +802,7 @@
       ],
       [
         "Geology",
-        2353
+        2356
       ],
       [
         "Business",
@@ -810,7 +810,7 @@
       ],
       [
         "Meteorology",
-        2004
+        2005
       ],
       [
         "Cementitious",
@@ -826,7 +826,7 @@
       ],
       [
         "Geotechnical Engineering",
-        1173
+        1175
       ],
       [
         "Mechanics",
@@ -842,7 +842,7 @@
       ],
       [
         "FEM",
-        1065
+        1066
       ],
       [
         "Architectural Engineering",
@@ -860,7 +860,7 @@
       "2023": 1143,
       "2024": 1474,
       "2025": 1696,
-      "2026": 680
+      "2026": 685
     }
   },
   {
@@ -974,7 +974,7 @@
   {
     "c": "이탈리아",
     "code": "IT",
-    "papers": 7193,
+    "papers": 7195,
     "cites": 133815,
     "orgs": [
       "Politecnico di Milano",
@@ -994,11 +994,11 @@
       ],
       [
         "Structural Engineering",
-        9059
+        9064
       ],
       [
         "Materials Science",
-        7295
+        7300
       ],
       [
         "Geology",
@@ -1006,11 +1006,11 @@
       ],
       [
         "Composite",
-        5663
+        5668
       ],
       [
         "Environmental Science",
-        5093
+        5094
       ],
       [
         "Graph",
@@ -1018,11 +1018,11 @@
       ],
       [
         "Geotechnical Engineering",
-        3599
+        3604
       ],
       [
         "Masonry",
-        2527
+        2531
       ],
       [
         "Mechanical Engineering",
@@ -1030,7 +1030,7 @@
       ],
       [
         "FEM",
-        2278
+        2282
       ],
       [
         "AI (general)",
@@ -1038,7 +1038,7 @@
       ],
       [
         "Mechanics",
-        2055
+        2059
       ],
       [
         "Meteorology",
@@ -1076,13 +1076,13 @@
       "2023": 1062,
       "2024": 1132,
       "2025": 1171,
-      "2026": 441
+      "2026": 443
     }
   },
   {
     "c": "독일",
     "code": "DE",
-    "papers": 6687,
+    "papers": 6689,
     "cites": 102581,
     "orgs": [
       "RWTH Aachen University",
@@ -1102,7 +1102,7 @@
       ],
       [
         "Computer Science",
-        6809
+        6812
       ],
       [
         "Composite",
@@ -1118,7 +1118,7 @@
       ],
       [
         "Geology",
-        3135
+        3137
       ],
       [
         "Graph",
@@ -1158,7 +1158,7 @@
       ],
       [
         "Statistics",
-        970
+        971
       ],
       [
         "Chemical Engineering",
@@ -1184,13 +1184,13 @@
       "2023": 998,
       "2024": 1189,
       "2025": 1188,
-      "2026": 465
+      "2026": 467
     }
   },
   {
     "c": "일본",
     "code": "JP",
-    "papers": 6285,
+    "papers": 6286,
     "cites": 84124,
     "orgs": [
       "The University of Tokyo",
@@ -1210,7 +1210,7 @@
       ],
       [
         "Computer Science",
-        6080
+        6081
       ],
       [
         "Structural Engineering",
@@ -1270,7 +1270,7 @@
       ],
       [
         "Statistics",
-        1117
+        1118
       ],
       [
         "Simulation",
@@ -1292,13 +1292,13 @@
       "2023": 923,
       "2024": 1139,
       "2025": 1217,
-      "2026": 432
+      "2026": 433
     }
   },
   {
     "c": "튀르키예",
     "code": "TR",
-    "papers": 5204,
+    "papers": 5205,
     "cites": 83416,
     "orgs": [
       "Istanbul Technical University",
@@ -1322,7 +1322,7 @@
       ],
       [
         "Structural Engineering",
-        4263
+        4264
       ],
       [
         "Computer Science",
@@ -1330,7 +1330,7 @@
       ],
       [
         "Geology",
-        3354
+        3355
       ],
       [
         "Environmental Science",
@@ -1338,7 +1338,7 @@
       ],
       [
         "Geotechnical Engineering",
-        2332
+        2333
       ],
       [
         "Compressive Strength",
@@ -1400,7 +1400,7 @@
       "2023": 862,
       "2024": 849,
       "2025": 908,
-      "2026": 438
+      "2026": 439
     }
   },
   {
@@ -1514,7 +1514,7 @@
   {
     "c": "프랑스",
     "code": "FR",
-    "papers": 4458,
+    "papers": 4459,
     "cites": 71013,
     "orgs": [
       "Centre National de la Recherche Scientifique",
@@ -1538,7 +1538,7 @@
       ],
       [
         "Computer Science",
-        9600
+        9608
       ],
       [
         "Environmental Science",
@@ -1616,7 +1616,7 @@
       "2023": 661,
       "2024": 739,
       "2025": 766,
-      "2026": 283
+      "2026": 284
     }
   },
   {
@@ -1730,7 +1730,7 @@
   {
     "c": "브라질",
     "code": "BR",
-    "papers": 3393,
+    "papers": 3396,
     "cites": 50417,
     "orgs": [
       "Universidade de São Paulo",
@@ -1746,11 +1746,11 @@
     "keywords": [
       [
         "Materials Science",
-        7145
+        7153
       ],
       [
         "Composite",
-        6204
+        6212
       ],
       [
         "Structural Engineering",
@@ -1758,11 +1758,11 @@
       ],
       [
         "Computer Science",
-        3829
+        3831
       ],
       [
         "Environmental Science",
-        3054
+        3056
       ],
       [
         "Geology",
@@ -1770,7 +1770,7 @@
       ],
       [
         "Cementitious",
-        2393
+        2401
       ],
       [
         "Graph",
@@ -1786,7 +1786,7 @@
       ],
       [
         "Compressive Strength",
-        1598
+        1601
       ],
       [
         "Metallurgy",
@@ -1817,12 +1817,12 @@
         793
       ],
       [
-        "Mechanical Engineering",
-        782
+        "Chemical Engineering",
+        785
       ],
       [
-        "Chemical Engineering",
-        778
+        "Mechanical Engineering",
+        782
       ]
     ],
     "yearly": {
@@ -1832,13 +1832,13 @@
       "2023": 494,
       "2024": 543,
       "2025": 531,
-      "2026": 167
+      "2026": 170
     }
   },
   {
     "c": "싱가포르",
     "code": "SG",
-    "papers": 3367,
+    "papers": 3368,
     "cites": 77746,
     "orgs": [
       "National University of Singapore",
@@ -1858,11 +1858,11 @@
       ],
       [
         "Materials Science",
-        2678
+        2682
       ],
       [
         "Composite",
-        2149
+        2153
       ],
       [
         "Structural Engineering",
@@ -1890,7 +1890,7 @@
       ],
       [
         "Cementitious",
-        645
+        649
       ],
       [
         "Geotechnical Engineering",
@@ -1940,7 +1940,7 @@
       "2023": 523,
       "2024": 588,
       "2025": 729,
-      "2026": 258
+      "2026": 259
     }
   },
   {
@@ -2270,7 +2270,7 @@
   {
     "c": "포르투갈",
     "code": "PT",
-    "papers": 2875,
+    "papers": 2877,
     "cites": 55202,
     "orgs": [
       "University of Lisbon",
@@ -2286,7 +2286,7 @@
     "keywords": [
       [
         "Materials Science",
-        3964
+        3965
       ],
       [
         "Structural Engineering",
@@ -2294,15 +2294,15 @@
       ],
       [
         "Computer Science",
-        3366
+        3369
       ],
       [
         "Composite",
-        3220
+        3221
       ],
       [
         "Environmental Science",
-        1912
+        1915
       ],
       [
         "Geology",
@@ -2334,7 +2334,7 @@
       ],
       [
         "Forensic Engineering",
-        693
+        694
       ],
       [
         "AI (general)",
@@ -2342,7 +2342,7 @@
       ],
       [
         "Cementitious",
-        659
+        660
       ],
       [
         "Business",
@@ -2357,12 +2357,12 @@
         597
       ],
       [
-        "Mortar",
-        578
+        "Architectural Engineering",
+        581
       ],
       [
-        "Architectural Engineering",
-        578
+        "Mortar",
+        579
       ]
     ],
     "yearly": {
@@ -2372,13 +2372,13 @@
       "2023": 395,
       "2024": 472,
       "2025": 410,
-      "2026": 146
+      "2026": 148
     }
   },
   {
     "c": "사우디",
     "code": "SA",
-    "papers": 2813,
+    "papers": 2814,
     "cites": 66037,
     "orgs": [
       "King Fahd University of Petroleum and Minerals",
@@ -2394,11 +2394,11 @@
     "keywords": [
       [
         "Materials Science",
-        3305
+        3307
       ],
       [
         "Composite",
-        2944
+        2946
       ],
       [
         "Computer Science",
@@ -2480,7 +2480,7 @@
       "2023": 447,
       "2024": 523,
       "2025": 578,
-      "2026": 225
+      "2026": 226
     }
   },
   {
@@ -2918,7 +2918,7 @@
   {
     "c": "스웨덴",
     "code": "SE",
-    "papers": 2141,
+    "papers": 2142,
     "cites": 41251,
     "orgs": [
       "Chalmers University of Technology",
@@ -2942,11 +2942,11 @@
       ],
       [
         "Materials Science",
-        1431
+        1433
       ],
       [
         "Structural Engineering",
-        1258
+        1260
       ],
       [
         "Composite",
@@ -3020,13 +3020,13 @@
       "2023": 348,
       "2024": 348,
       "2025": 347,
-      "2026": 152
+      "2026": 153
     }
   },
   {
     "c": "대만",
     "code": "TW",
-    "papers": 2094,
+    "papers": 2095,
     "cites": 31925,
     "orgs": [
       "National Taiwan University",
@@ -3046,7 +3046,7 @@
       ],
       [
         "Structural Engineering",
-        1717
+        1720
       ],
       [
         "Materials Science",
@@ -3054,7 +3054,7 @@
       ],
       [
         "Geology",
-        1464
+        1467
       ],
       [
         "Graph",
@@ -3074,7 +3074,7 @@
       ],
       [
         "Geotechnical Engineering",
-        934
+        937
       ],
       [
         "Meteorology",
@@ -3128,13 +3128,13 @@
       "2023": 312,
       "2024": 376,
       "2025": 401,
-      "2026": 144
+      "2026": 145
     }
   },
   {
     "c": "IQ",
     "code": "IQ",
-    "papers": 1974,
+    "papers": 1975,
     "cites": 31213,
     "orgs": [
       "University of Baghdad",
@@ -3150,11 +3150,11 @@
     "keywords": [
       [
         "Materials Science",
-        3354
+        3356
       ],
       [
         "Composite",
-        3008
+        3010
       ],
       [
         "Structural Engineering",
@@ -3162,7 +3162,7 @@
       ],
       [
         "Compressive Strength",
-        1182
+        1184
       ],
       [
         "Geology",
@@ -3186,7 +3186,7 @@
       ],
       [
         "Flexural Strength",
-        704
+        706
       ],
       [
         "UTS",
@@ -3198,7 +3198,7 @@
       ],
       [
         "Chemistry",
-        552
+        554
       ],
       [
         "Waste Management",
@@ -3218,7 +3218,7 @@
       ],
       [
         "Fiber",
-        478
+        480
       ],
       [
         "Shear (Geology)",
@@ -3236,13 +3236,13 @@
       "2023": 310,
       "2024": 319,
       "2025": 372,
-      "2026": 146
+      "2026": 147
     }
   },
   {
     "c": "파키스탄",
     "code": "PK",
-    "papers": 1844,
+    "papers": 1846,
     "cites": 41672,
     "orgs": [
       "National University of Sciences and Technology",
@@ -3258,15 +3258,15 @@
     "keywords": [
       [
         "Materials Science",
-        2826
+        2827
       ],
       [
         "Composite",
-        2398
+        2399
       ],
       [
         "Computer Science",
-        1687
+        1689
       ],
       [
         "Structural Engineering",
@@ -3278,7 +3278,7 @@
       ],
       [
         "Geology",
-        1147
+        1149
       ],
       [
         "Compressive Strength",
@@ -3344,7 +3344,7 @@
       "2023": 261,
       "2024": 303,
       "2025": 301,
-      "2026": 120
+      "2026": 122
     }
   },
   {
@@ -3782,7 +3782,7 @@
   {
     "c": "ID",
     "code": "ID",
-    "papers": 1303,
+    "papers": 1304,
     "cites": 10897,
     "orgs": [
       "Bandung Institute of Technology",
@@ -3884,13 +3884,13 @@
       "2023": 257,
       "2024": 234,
       "2025": 228,
-      "2026": 112
+      "2026": 113
     }
   },
   {
     "c": "그리스",
     "code": "GR",
-    "papers": 1225,
+    "papers": 1226,
     "cites": 24736,
     "orgs": [
       "National Technical University of Athens",
@@ -3918,7 +3918,7 @@
       ],
       [
         "Geology",
-        682
+        683
       ],
       [
         "Environmental Science",
@@ -3992,7 +3992,7 @@
       "2023": 174,
       "2024": 197,
       "2025": 191,
-      "2026": 75
+      "2026": 76
     }
   },
   {
@@ -4214,7 +4214,7 @@
   {
     "c": "남아공",
     "code": "ZA",
-    "papers": 1137,
+    "papers": 1138,
     "cites": 17136,
     "orgs": [
       "University of Johannesburg",
@@ -4238,11 +4238,11 @@
       ],
       [
         "Materials Science",
-        702
+        704
       ],
       [
         "Composite",
-        591
+        593
       ],
       [
         "Environmental Science",
@@ -4316,13 +4316,13 @@
       "2023": 156,
       "2024": 179,
       "2025": 179,
-      "2026": 90
+      "2026": 91
     }
   },
   {
     "c": "CZ",
     "code": "CZ",
-    "papers": 1112,
+    "papers": 1113,
     "cites": 15471,
     "orgs": [
       "Czech Technical University in Prague",
@@ -4338,11 +4338,11 @@
     "keywords": [
       [
         "Materials Science",
-        1676
+        1680
       ],
       [
         "Composite",
-        1453
+        1457
       ],
       [
         "Computer Science",
@@ -4362,7 +4362,7 @@
       ],
       [
         "Cementitious",
-        515
+        519
       ],
       [
         "Graph",
@@ -4370,7 +4370,7 @@
       ],
       [
         "Chemistry",
-        444
+        448
       ],
       [
         "Metallurgy",
@@ -4394,11 +4394,11 @@
       ],
       [
         "Compressive Strength",
-        245
+        249
       ],
       [
         "Waste Management",
-        221
+        225
       ],
       [
         "Meteorology",
@@ -4424,7 +4424,7 @@
       "2023": 159,
       "2024": 174,
       "2025": 229,
-      "2026": 72
+      "2026": 73
     }
   },
   {
@@ -4646,7 +4646,7 @@
   {
     "c": "DZ",
     "code": "DZ",
-    "papers": 968,
+    "papers": 969,
     "cites": 11342,
     "orgs": [
       "University of Biskra",
@@ -4662,11 +4662,11 @@
     "keywords": [
       [
         "Materials Science",
-        2135
+        2141
       ],
       [
         "Composite",
-        1843
+        1849
       ],
       [
         "Structural Engineering",
@@ -4678,7 +4678,7 @@
       ],
       [
         "Geotechnical Engineering",
-        919
+        925
       ],
       [
         "Environmental Science",
@@ -4690,11 +4690,11 @@
       ],
       [
         "Cementitious",
-        616
+        622
       ],
       [
         "Compressive Strength",
-        594
+        600
       ],
       [
         "FEM",
@@ -4714,7 +4714,7 @@
       ],
       [
         "Mortar",
-        346
+        352
       ],
       [
         "Waste Management",
@@ -4748,7 +4748,7 @@
       "2023": 169,
       "2024": 165,
       "2025": 172,
-      "2026": 75
+      "2026": 76
     }
   },
   {
@@ -5402,7 +5402,7 @@
   {
     "c": "MX",
     "code": "MX",
-    "papers": 678,
+    "papers": 679,
     "cites": 7901,
     "orgs": [
       "Universidad Nacional Autónoma de México",
@@ -5438,7 +5438,7 @@
       ],
       [
         "Structural Engineering",
-        614
+        619
       ],
       [
         "Graph",
@@ -5504,7 +5504,7 @@
       "2023": 86,
       "2024": 94,
       "2025": 112,
-      "2026": 43
+      "2026": 44
     }
   },
   {
@@ -6914,7 +6914,7 @@
   {
     "c": "HR",
     "code": "HR",
-    "papers": 334,
+    "papers": 335,
     "cites": 4695,
     "orgs": [
       "University of Zagreb",
@@ -6962,7 +6962,7 @@
       ],
       [
         "Mechanics",
-        95
+        96
       ],
       [
         "Chemistry",
@@ -7016,7 +7016,7 @@
       "2023": 61,
       "2024": 39,
       "2025": 53,
-      "2026": 20
+      "2026": 21
     }
   },
   {
