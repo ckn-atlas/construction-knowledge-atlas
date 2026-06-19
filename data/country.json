@@ -110,7 +110,7 @@
   {
     "c": "미국",
     "code": "US",
-    "papers": 31775,
+    "papers": 31776,
     "cites": 516160,
     "orgs": [
       "Virginia Tech",
@@ -126,7 +126,7 @@
     "keywords": [
       [
         "Computer Science",
-        49957
+        49963
       ],
       [
         "Materials Science",
@@ -212,7 +212,7 @@
       "2023": 4453,
       "2024": 4845,
       "2025": 5298,
-      "2026": 2103
+      "2026": 2104
     }
   },
   {
@@ -1406,7 +1406,7 @@
   {
     "c": "스페인",
     "code": "ES",
-    "papers": 4734,
+    "papers": 4735,
     "cites": 76368,
     "orgs": [
       "Universitat Politècnica de Catalunya",
@@ -1426,7 +1426,7 @@
       ],
       [
         "Computer Science",
-        5690
+        5691
       ],
       [
         "Composite",
@@ -1508,7 +1508,7 @@
       "2023": 745,
       "2024": 715,
       "2025": 759,
-      "2026": 278
+      "2026": 279
     }
   },
   {
