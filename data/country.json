@@ -2,7 +2,7 @@
   {
     "c": "중국",
     "code": "CN",
-    "papers": 114916,
+    "papers": 114940,
     "cites": 1855575,
     "orgs": [
       "Tongji University",
@@ -18,67 +18,67 @@
     "keywords": [
       [
         "Materials Science",
-        300159
+        300258
       ],
       [
         "Composite",
-        243629
+        243683
       ],
       [
         "Structural Engineering",
-        210776
+        210840
       ],
       [
         "Computer Science",
-        208073
+        208103
       ],
       [
         "Geology",
-        159674
+        159696
       ],
       [
         "Geotechnical Engineering",
-        118531
+        118561
       ],
       [
         "Environmental Science",
-        113035
+        113063
       ],
       [
         "Graph",
-        96353
+        96366
       ],
       [
         "AI (general)",
-        77243
+        77253
       ],
       [
         "Mechanics",
-        67207
+        67232
       ],
       [
         "Chemistry",
-        66292
+        66317
       ],
       [
         "FEM",
-        56067
+        56100
       ],
       [
         "Cementitious",
-        54722
+        54739
       ],
       [
         "Mechanical Engineering",
-        46945
+        46955
       ],
       [
         "Metallurgy",
-        45905
+        45911
       ],
       [
         "Compressive Strength",
-        43766
+        43797
       ],
       [
         "Meteorology",
@@ -90,7 +90,7 @@
       ],
       [
         "Geometry",
-        31575
+        31580
       ],
       [
         "Algorithm",
@@ -104,13 +104,13 @@
       "2023": 17272,
       "2024": 22160,
       "2025": 25668,
-      "2026": 9704
+      "2026": 9728
     }
   },
   {
     "c": "미국",
     "code": "US",
-    "papers": 31776,
+    "papers": 31783,
     "cites": 516160,
     "orgs": [
       "Virginia Tech",
@@ -126,11 +126,11 @@
     "keywords": [
       [
         "Computer Science",
-        49963
+        49971
       ],
       [
         "Materials Science",
-        26219
+        26230
       ],
       [
         "Environmental Science",
@@ -138,19 +138,19 @@
       ],
       [
         "Composite",
-        21135
+        21141
       ],
       [
         "Structural Engineering",
-        19957
+        19967
       ],
       [
         "Geology",
-        18411
+        18414
       ],
       [
         "Graph",
-        18233
+        18238
       ],
       [
         "Transport Engineering",
@@ -162,7 +162,7 @@
       ],
       [
         "Geotechnical Engineering",
-        12674
+        12677
       ],
       [
         "Business",
@@ -186,7 +186,7 @@
       ],
       [
         "Asphalt",
-        6236
+        6244
       ],
       [
         "Computer Security",
@@ -198,11 +198,11 @@
       ],
       [
         "Simulation",
-        5654
+        5658
       ],
       [
         "Forensic Engineering",
-        5535
+        5542
       ]
     ],
     "yearly": {
@@ -212,7 +212,7 @@
       "2023": 4453,
       "2024": 4845,
       "2025": 5298,
-      "2026": 2104
+      "2026": 2111
     }
   },
   {
@@ -326,7 +326,7 @@
   {
     "c": "인도",
     "code": "IN",
-    "papers": 11535,
+    "papers": 11538,
     "cites": 174462,
     "orgs": [
       "Indian Institute of Technology Madras",
@@ -342,11 +342,11 @@
     "keywords": [
       [
         "Materials Science",
-        16198
+        16208
       ],
       [
         "Composite",
-        13608
+        13612
       ],
       [
         "Computer Science",
@@ -358,11 +358,11 @@
       ],
       [
         "Geology",
-        8361
+        8364
       ],
       [
         "Environmental Science",
-        8136
+        8143
       ],
       [
         "Geotechnical Engineering",
@@ -374,11 +374,11 @@
       ],
       [
         "Cementitious",
-        4307
+        4314
       ],
       [
         "Compressive Strength",
-        3868
+        3872
       ],
       [
         "Chemistry",
@@ -390,11 +390,11 @@
       ],
       [
         "Waste Management",
-        2910
+        2917
       ],
       [
         "Metallurgy",
-        2850
+        2856
       ],
       [
         "Mechanics",
@@ -410,7 +410,7 @@
       ],
       [
         "Fly Ash",
-        2216
+        2220
       ],
       [
         "UTS",
@@ -418,7 +418,7 @@
       ],
       [
         "Durability",
-        2118
+        2122
       ]
     ],
     "yearly": {
@@ -428,7 +428,7 @@
       "2023": 1868,
       "2024": 2027,
       "2025": 2191,
-      "2026": 899
+      "2026": 902
     }
   },
   {
@@ -542,7 +542,7 @@
   {
     "c": "캐나다",
     "code": "CA",
-    "papers": 9394,
+    "papers": 9395,
     "cites": 166858,
     "orgs": [
       "University of Alberta",
@@ -558,7 +558,7 @@
     "keywords": [
       [
         "Computer Science",
-        10268
+        10270
       ],
       [
         "Materials Science",
@@ -598,7 +598,7 @@
       ],
       [
         "Business",
-        2124
+        2126
       ],
       [
         "Mechanical Engineering",
@@ -622,7 +622,7 @@
       ],
       [
         "Transport Engineering",
-        1672
+        1674
       ],
       [
         "Cementitious",
@@ -644,7 +644,7 @@
       "2023": 1363,
       "2024": 1468,
       "2025": 1518,
-      "2026": 564
+      "2026": 565
     }
   },
   {
@@ -758,7 +758,7 @@
   {
     "c": "홍콩",
     "code": "HK",
-    "papers": 7802,
+    "papers": 7804,
     "cites": 178415,
     "orgs": [
       "Hong Kong Polytechnic University",
@@ -774,15 +774,15 @@
     "keywords": [
       [
         "Computer Science",
-        8475
+        8479
       ],
       [
         "Materials Science",
-        6182
+        6185
       ],
       [
         "Composite",
-        4984
+        4987
       ],
       [
         "Structural Engineering",
@@ -790,7 +790,7 @@
       ],
       [
         "Environmental Science",
-        3584
+        3587
       ],
       [
         "Graph",
@@ -814,7 +814,7 @@
       ],
       [
         "Cementitious",
-        1564
+        1567
       ],
       [
         "Chemistry",
@@ -860,13 +860,13 @@
       "2023": 1143,
       "2024": 1474,
       "2025": 1696,
-      "2026": 685
+      "2026": 687
     }
   },
   {
     "c": "한국",
     "code": "KR",
-    "papers": 7254,
+    "papers": 7255,
     "cites": 116553,
     "orgs": [
       "Seoul National University",
@@ -886,11 +886,11 @@
       ],
       [
         "Materials Science",
-        8993
+        8994
       ],
       [
         "Composite",
-        7497
+        7498
       ],
       [
         "Structural Engineering",
@@ -918,7 +918,7 @@
       ],
       [
         "Cementitious",
-        2421
+        2422
       ],
       [
         "Chemistry",
@@ -938,7 +938,7 @@
       ],
       [
         "Compressive Strength",
-        1664
+        1665
       ],
       [
         "Statistics",
@@ -968,13 +968,13 @@
       "2023": 1072,
       "2024": 1254,
       "2025": 1487,
-      "2026": 517
+      "2026": 518
     }
   },
   {
     "c": "이탈리아",
     "code": "IT",
-    "papers": 7195,
+    "papers": 7196,
     "cites": 133815,
     "orgs": [
       "Politecnico di Milano",
@@ -1002,7 +1002,7 @@
       ],
       [
         "Geology",
-        6188
+        6191
       ],
       [
         "Composite",
@@ -1010,7 +1010,7 @@
       ],
       [
         "Environmental Science",
-        5094
+        5097
       ],
       [
         "Graph",
@@ -1076,13 +1076,13 @@
       "2023": 1062,
       "2024": 1132,
       "2025": 1171,
-      "2026": 443
+      "2026": 444
     }
   },
   {
     "c": "독일",
     "code": "DE",
-    "papers": 6689,
+    "papers": 6690,
     "cites": 102581,
     "orgs": [
       "RWTH Aachen University",
@@ -1184,7 +1184,7 @@
       "2023": 998,
       "2024": 1189,
       "2025": 1188,
-      "2026": 467
+      "2026": 468
     }
   },
   {
@@ -1298,7 +1298,7 @@
   {
     "c": "튀르키예",
     "code": "TR",
-    "papers": 5205,
+    "papers": 5207,
     "cites": 83416,
     "orgs": [
       "Istanbul Technical University",
@@ -1322,7 +1322,7 @@
       ],
       [
         "Structural Engineering",
-        4264
+        4267
       ],
       [
         "Computer Science",
@@ -1330,7 +1330,7 @@
       ],
       [
         "Geology",
-        3355
+        3358
       ],
       [
         "Environmental Science",
@@ -1338,7 +1338,7 @@
       ],
       [
         "Geotechnical Engineering",
-        2333
+        2336
       ],
       [
         "Compressive Strength",
@@ -1400,7 +1400,7 @@
       "2023": 862,
       "2024": 849,
       "2025": 908,
-      "2026": 439
+      "2026": 441
     }
   },
   {
@@ -1838,7 +1838,7 @@
   {
     "c": "싱가포르",
     "code": "SG",
-    "papers": 3368,
+    "papers": 3369,
     "cites": 77746,
     "orgs": [
       "National University of Singapore",
@@ -1858,11 +1858,11 @@
       ],
       [
         "Materials Science",
-        2682
+        2683
       ],
       [
         "Composite",
-        2153
+        2154
       ],
       [
         "Structural Engineering",
@@ -1940,7 +1940,7 @@
       "2023": 523,
       "2024": 588,
       "2025": 729,
-      "2026": 259
+      "2026": 260
     }
   },
   {
@@ -2594,7 +2594,7 @@
   {
     "c": "스위스",
     "code": "CH",
-    "papers": 2203,
+    "papers": 2204,
     "cites": 51009,
     "orgs": [
       "ETH Zurich",
@@ -2610,7 +2610,7 @@
     "keywords": [
       [
         "Materials Science",
-        2796
+        2797
       ],
       [
         "Computer Science",
@@ -2622,7 +2622,7 @@
       ],
       [
         "Structural Engineering",
-        1644
+        1645
       ],
       [
         "Environmental Science",
@@ -2696,7 +2696,7 @@
       "2023": 314,
       "2024": 353,
       "2025": 361,
-      "2026": 121
+      "2026": 122
     }
   },
   {
@@ -3242,7 +3242,7 @@
   {
     "c": "파키스탄",
     "code": "PK",
-    "papers": 1846,
+    "papers": 1847,
     "cites": 41672,
     "orgs": [
       "National University of Sciences and Technology",
@@ -3258,11 +3258,11 @@
     "keywords": [
       [
         "Materials Science",
-        2827
+        2828
       ],
       [
         "Composite",
-        2399
+        2400
       ],
       [
         "Computer Science",
@@ -3274,7 +3274,7 @@
       ],
       [
         "Environmental Science",
-        1159
+        1160
       ],
       [
         "Geology",
@@ -3282,7 +3282,7 @@
       ],
       [
         "Compressive Strength",
-        1063
+        1064
       ],
       [
         "Geotechnical Engineering",
@@ -3290,7 +3290,7 @@
       ],
       [
         "Cementitious",
-        911
+        912
       ],
       [
         "Graph",
@@ -3310,7 +3310,7 @@
       ],
       [
         "Waste Management",
-        495
+        496
       ],
       [
         "Flexural Strength",
@@ -3334,7 +3334,7 @@
       ],
       [
         "Durability",
-        365
+        366
       ]
     ],
     "yearly": {
@@ -3344,7 +3344,7 @@
       "2023": 261,
       "2024": 303,
       "2025": 301,
-      "2026": 122
+      "2026": 123
     }
   },
   {
@@ -3566,7 +3566,7 @@
   {
     "c": "태국",
     "code": "TH",
-    "papers": 1362,
+    "papers": 1363,
     "cites": 22103,
     "orgs": [
       "Chulalongkorn University",
@@ -3582,7 +3582,7 @@
     "keywords": [
       [
         "Materials Science",
-        2881
+        2882
       ],
       [
         "Composite",
@@ -3590,7 +3590,7 @@
       ],
       [
         "Structural Engineering",
-        1112
+        1113
       ],
       [
         "Cementitious",
@@ -3610,7 +3610,7 @@
       ],
       [
         "Geology",
-        898
+        899
       ],
       [
         "Environmental Science",
@@ -3650,7 +3650,7 @@
       ],
       [
         "FEM",
-        366
+        367
       ],
       [
         "UTS",
@@ -3668,7 +3668,7 @@
       "2023": 204,
       "2024": 273,
       "2025": 270,
-      "2026": 108
+      "2026": 109
     }
   },
   {
@@ -5618,7 +5618,7 @@
   {
     "c": "LK",
     "code": "LK",
-    "papers": 510,
+    "papers": 511,
     "cites": 6685,
     "orgs": [
       "University of Moratuwa",
@@ -5650,7 +5650,7 @@
       ],
       [
         "Environmental Science",
-        287
+        290
       ],
       [
         "Structural Engineering",
@@ -5674,7 +5674,7 @@
       ],
       [
         "Compressive Strength",
-        156
+        159
       ],
       [
         "Operations Management",
@@ -5693,24 +5693,24 @@
         139
       ],
       [
+        "Construction Engineering",
+        128
+      ],
+      [
         "Knowledge Mgmt",
         127
       ],
       [
-        "Construction Engineering",
-        125
+        "Sustainability",
+        114
       ],
       [
         "Architectural Engineering",
         112
       ],
       [
-        "Sustainability",
-        111
-      ],
-      [
         "Waste Management",
-        103
+        106
       ]
     ],
     "yearly": {
@@ -5720,7 +5720,7 @@
       "2023": 78,
       "2024": 89,
       "2025": 86,
-      "2026": 36
+      "2026": 37
     }
   },
   {
@@ -6266,7 +6266,7 @@
   {
     "c": "ET",
     "code": "ET",
-    "papers": 435,
+    "papers": 436,
     "cites": 4475,
     "orgs": [
       "Addis Ababa Science and Technology University",
@@ -6282,7 +6282,7 @@
     "keywords": [
       [
         "Materials Science",
-        410
+        411
       ],
       [
         "Composite",
@@ -6342,7 +6342,7 @@
       ],
       [
         "Chemistry",
-        82
+        83
       ],
       [
         "Statistics",
@@ -6368,7 +6368,7 @@
       "2023": 78,
       "2024": 78,
       "2025": 91,
-      "2026": 37
+      "2026": 38
     }
   },
   {
@@ -6698,7 +6698,7 @@
   {
     "c": "LB",
     "code": "LB",
-    "papers": 391,
+    "papers": 392,
     "cites": 7256,
     "orgs": [
       "American University of Beirut",
@@ -6714,11 +6714,11 @@
     "keywords": [
       [
         "Materials Science",
-        435
+        436
       ],
       [
         "Composite",
-        372
+        373
       ],
       [
         "Computer Science",
@@ -6726,7 +6726,7 @@
       ],
       [
         "Environmental Science",
-        237
+        238
       ],
       [
         "Structural Engineering",
@@ -6738,7 +6738,7 @@
       ],
       [
         "Cementitious",
-        124
+        125
       ],
       [
         "Meteorology",
@@ -6754,7 +6754,7 @@
       ],
       [
         "Compressive Strength",
-        103
+        104
       ],
       [
         "Geotechnical Engineering",
@@ -6770,7 +6770,7 @@
       ],
       [
         "Waste Management",
-        79
+        80
       ],
       [
         "Mechanical Engineering",
@@ -6800,7 +6800,7 @@
       "2023": 55,
       "2024": 92,
       "2025": 50,
-      "2026": 16
+      "2026": 17
     }
   },
   {
@@ -7346,7 +7346,7 @@
   {
     "c": "OM",
     "code": "OM",
-    "papers": 241,
+    "papers": 242,
     "cites": 4188,
     "orgs": [
       "Sultan Qaboos University",
@@ -7362,15 +7362,15 @@
     "keywords": [
       [
         "Materials Science",
-        212
+        213
       ],
       [
         "Environmental Science",
-        169
+        170
       ],
       [
         "Composite",
-        164
+        165
       ],
       [
         "Computer Science",
@@ -7390,7 +7390,7 @@
       ],
       [
         "Cementitious",
-        79
+        80
       ],
       [
         "Structural Engineering",
@@ -7402,7 +7402,7 @@
       ],
       [
         "Compressive Strength",
-        67
+        68
       ],
       [
         "Metallurgy",
@@ -7414,14 +7414,14 @@
       ],
       [
         "Waste Management",
-        51
-      ],
-      [
-        "AI (general)",
-        42
+        52
       ],
       [
         "Durability",
+        43
+      ],
+      [
+        "AI (general)",
         42
       ],
       [
@@ -7448,7 +7448,7 @@
       "2023": 41,
       "2024": 42,
       "2025": 61,
-      "2026": 15
+      "2026": 16
     }
   },
   {
@@ -8318,7 +8318,7 @@
   {
     "c": "MK",
     "code": "MK",
-    "papers": 163,
+    "papers": 164,
     "cites": 1485,
     "orgs": [
       "MIT University",
@@ -8354,7 +8354,7 @@
       ],
       [
         "Environmental Science",
-        75
+        79
       ],
       [
         "Geotechnical Engineering",
@@ -8369,24 +8369,24 @@
         51
       ],
       [
+        "Sustainability",
+        42
+      ],
+      [
         "Graph",
         41
       ],
       [
-        "Sustainability",
-        38
+        "Construction Engineering",
+        39
       ],
       [
-        "Construction Engineering",
-        35
+        "Compressive Strength",
+        37
       ],
       [
         "Cementitious",
         34
-      ],
-      [
-        "Compressive Strength",
-        33
       ],
       [
         "Economics",
@@ -8420,7 +8420,7 @@
       "2023": 11,
       "2024": 26,
       "2025": 60,
-      "2026": 22
+      "2026": 23
     }
   },
   {

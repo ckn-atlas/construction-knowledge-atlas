@@ -1,25 +1,25 @@
 [
   {
     "name": "Construction and Building Materials",
-    "papers": 27275,
+    "papers": 27283,
     "cites": 668849,
     "issn": "0950-0618"
   },
   {
     "name": "Ocean Engineering",
-    "papers": 16813,
+    "papers": 16827,
     "cites": 233970,
     "issn": "0029-8018"
   },
   {
     "name": "Structures",
-    "papers": 11541,
+    "papers": 11545,
     "cites": 120397,
     "issn": "2352-0124"
   },
   {
     "name": "Engineering Structures",
-    "papers": 11371,
+    "papers": 11378,
     "cites": 207426,
     "issn": "0141-0296"
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "Transportation Research Record Journal of the Transportation Research Board",
-    "papers": 5649,
+    "papers": 5652,
     "cites": 39446,
     "issn": ""
   },
@@ -85,13 +85,13 @@
   },
   {
     "name": "Tunnelling and Underground Space Technology",
-    "papers": 3917,
+    "papers": 3920,
     "cites": 78301,
     "issn": "0886-7798"
   },
   {
     "name": "Journal of Materials in Civil Engineering",
-    "papers": 3782,
+    "papers": 3786,
     "cites": 36580,
     "issn": "0899-1561"
   },
@@ -121,13 +121,13 @@
   },
   {
     "name": "Structural Concrete",
-    "papers": 2461,
+    "papers": 2463,
     "cites": 20084,
     "issn": "1464-4177"
   },
   {
     "name": "International Journal of Structural Stability and Dynamics",
-    "papers": 2460,
+    "papers": 2461,
     "cites": 15367,
     "issn": "0219-4554"
   },
@@ -139,7 +139,7 @@
   },
   {
     "name": "Water Resources Management",
-    "papers": 2306,
+    "papers": 2307,
     "cites": 30993,
     "issn": "0920-4741"
   },
@@ -151,13 +151,13 @@
   },
   {
     "name": "Journal of Structural Engineering",
-    "papers": 1952,
+    "papers": 1953,
     "cites": 25856,
     "issn": "0733-9445"
   },
   {
     "name": "Journal of Wind Engineering and Industrial Aerodynamics",
-    "papers": 1868,
+    "papers": 1869,
     "cites": 29664,
     "issn": "0167-6105"
   },
@@ -181,7 +181,7 @@
   },
   {
     "name": "Materials and Structures",
-    "papers": 1698,
+    "papers": 1700,
     "cites": 17916,
     "issn": "1359-5997"
   },
@@ -199,7 +199,7 @@
   },
   {
     "name": "International Journal of Pavement Engineering",
-    "papers": 1643,
+    "papers": 1644,
     "cites": 18073,
     "issn": "1029-8436"
   },
@@ -289,7 +289,7 @@
   },
   {
     "name": "European Journal of Environmental and Civil engineering",
-    "papers": 1181,
+    "papers": 1183,
     "cites": 8755,
     "issn": "1964-8189"
   },
@@ -301,7 +301,7 @@
   },
   {
     "name": "Road Materials and Pavement Design",
-    "papers": 1087,
+    "papers": 1088,
     "cites": 11265,
     "issn": "1468-0629"
   },
@@ -355,7 +355,7 @@
   },
   {
     "name": "Journal of Bridge Engineering",
-    "papers": 918,
+    "papers": 920,
     "cites": 10854,
     "issn": "1084-0702"
   },
@@ -487,7 +487,7 @@
   },
   {
     "name": "Structural Engineering International",
-    "papers": 690,
+    "papers": 694,
     "cites": 1832,
     "issn": "1016-8664"
   },
@@ -619,7 +619,7 @@
   },
   {
     "name": "International Journal of Concrete Structures and Materials",
-    "papers": 527,
+    "papers": 528,
     "cites": 5982,
     "issn": "1976-0485"
   },
@@ -691,7 +691,7 @@
   },
   {
     "name": "Journal of Architectural Engineering",
-    "papers": 437,
+    "papers": 438,
     "cites": 2800,
     "issn": "1076-0431"
   },
@@ -954,16 +954,16 @@
     "issn": "1793-4311"
   },
   {
+    "name": "Journal of Surveying Engineering",
+    "papers": 225,
+    "cites": 1087,
+    "issn": "0733-9453"
+  },
+  {
     "name": "The Baltic Journal of Road and Bridge Engineering",
     "papers": 225,
     "cites": 996,
     "issn": ""
-  },
-  {
-    "name": "Journal of Surveying Engineering",
-    "papers": 224,
-    "cites": 1087,
-    "issn": "0733-9453"
   },
   {
     "name": "Proceedings of the Institution of Civil Engineers - Bridge Engineering",
@@ -1003,7 +1003,7 @@
   },
   {
     "name": "Glass Structures & Engineering",
-    "papers": 203,
+    "papers": 204,
     "cites": 1145,
     "issn": "2363-5142"
   },

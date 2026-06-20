@@ -22,8 +22,8 @@
     "National University of Singapore",
     "University of Hong Kong",
     "Nanyang Technological University",
-    "Norwegian University of Science and Technology",
     "City University of Hong Kong",
+    "Norwegian University of Science and Technology",
     "University College London",
     "UNSW Sydney",
     "University of Tehran",
@@ -210,7 +210,7 @@
     [
       "City University of Hong Kong",
       "Hong Kong Polytechnic University",
-      166
+      167
     ],
     [
       "Chongqing University",
@@ -220,7 +220,7 @@
     [
       "Central South University",
       "Hong Kong Polytechnic University",
-      151
+      152
     ],
     [
       "Harbin Institute of Technology",
@@ -413,14 +413,14 @@
       82
     ],
     [
-      "Dalian University of Technology",
-      "Tianjin University",
+      "Central South University",
+      "City University of Hong Kong",
       80
     ],
     [
-      "Central South University",
-      "City University of Hong Kong",
-      79
+      "Dalian University of Technology",
+      "Tianjin University",
+      80
     ],
     [
       "Nanyang Technological University",
@@ -1154,17 +1154,17 @@
     ]
   ],
   "weight": {
-    "Tongji University": 7991,
-    "Southeast University": 7119,
-    "Hong Kong Polytechnic University": 4662,
+    "Tongji University": 7992,
+    "Southeast University": 7120,
+    "Hong Kong Polytechnic University": 4664,
     "Harbin Institute of Technology": 4126,
-    "Tsinghua University": 3807,
+    "Tsinghua University": 3808,
     "Dalian University of Technology": 3779,
     "Chongqing University": 3536,
-    "Chang'an University": 3524,
-    "Southwest Jiaotong University": 3487,
-    "Central South University": 3480,
-    "Zhejiang University": 3226,
+    "Chang'an University": 3525,
+    "Southwest Jiaotong University": 3488,
+    "Central South University": 3481,
+    "Zhejiang University": 3227,
     "Tianjin University": 3152,
     "Hohai University": 3136,
     "Beijing University of Technology": 2973,
@@ -1173,16 +1173,16 @@
     "ORCID": 2342,
     "Delft University of Technology": 1894,
     "Centre National de la Recherche Scientifique": 1842,
-    "National University of Singapore": 1647,
+    "National University of Singapore": 1648,
     "University of Hong Kong": 1570,
     "Nanyang Technological University": 1380,
+    "City University of Hong Kong": 1177,
     "Norwegian University of Science and Technology": 1176,
-    "City University of Hong Kong": 1176,
     "University College London": 1168,
     "UNSW Sydney": 1159,
     "University of Tehran": 1048,
     "Politecnico di Milano": 1043,
-    "Texas A&M University": 1029,
+    "Texas A&M University": 1030,
     "Hong Kong University of Science and Technology": 970,
     "University of Illinois Urbana-Champaign": 932,
     "University of Lisbon": 910,
@@ -1196,7 +1196,7 @@
     "Iran University of Science and Technology": 833,
     "Technical University of Denmark": 824,
     "University of Alberta": 820,
-    "Purdue University West Lafayette": 817,
+    "Purdue University West Lafayette": 818,
     "University of Technology Sydney": 814,
     "Ghent University": 760,
     "Universitat Politècnica de Catalunya": 741,
@@ -1210,13 +1210,13 @@
     "The University of Texas at Austin": 660,
     "University of Auckland": 660,
     "RWTH Aachen University": 653,
-    "Istanbul Technical University": 651,
+    "Istanbul Technical University": 652,
     "Hanyang University": 646,
     "University of Toronto": 646,
     "Indian Institute of Technology Roorkee": 646,
     "Indian Institute of Technology Madras": 639,
     "Concordia University": 635,
-    "École Polytechnique Fédérale de Lausanne": 631,
+    "École Polytechnique Fédérale de Lausanne": 632,
     "Universidad Politécnica de Madrid": 625,
     "Monash University": 620,
     "The University of Melbourne": 616,
@@ -1243,7 +1243,7 @@
     "University of Manchester": 511,
     "Indian Institute of Technology Bombay": 509,
     "The University of Sydney": 506,
-    "University of Florida": 501,
+    "University of Florida": 502,
     "Chalmers University of Technology": 497,
     "Indian Institute of Technology Delhi": 491,
     "Arizona State University": 489,
@@ -1328,8 +1328,8 @@
     "National University of Singapore": "SG",
     "University of Hong Kong": "HK",
     "Nanyang Technological University": "SG",
-    "Norwegian University of Science and Technology": "NO",
     "City University of Hong Kong": "HK",
+    "Norwegian University of Science and Technology": "NO",
     "University College London": "GB",
     "UNSW Sydney": "AU",
     "University of Tehran": "IR",
@@ -1546,13 +1546,13 @@
       1.3483,
       103.6831
     ],
-    "Norwegian University of Science and Technology": [
-      63.43049,
-      10.39506
-    ],
     "City University of Hong Kong": [
       22.3364,
       114.1726
+    ],
+    "Norwegian University of Science and Technology": [
+      63.43049,
+      10.39506
     ],
     "University College London": [
       51.50853,
@@ -8129,6 +8129,11 @@
         15
       ],
       [
+        "City University of Hong Kong",
+        "Hong Kong Polytechnic University",
+        15
+      ],
+      [
         "Chongqing University",
         "Tongji University",
         15
@@ -8144,14 +8149,14 @@
         14
       ],
       [
-        "City University of Hong Kong",
-        "Hong Kong Polytechnic University",
-        14
-      ],
-      [
         "Southeast University",
         "Tongji University",
         13
+      ],
+      [
+        "Central South University",
+        "Hong Kong Polytechnic University",
+        11
       ],
       [
         "Southeast University",
@@ -8182,11 +8187,6 @@
         "Chongqing University",
         "University of Hong Kong",
         11
-      ],
-      [
-        "Central South University",
-        "Hong Kong Polytechnic University",
-        10
       ],
       [
         "Tongji University",
@@ -8369,6 +8369,11 @@
         6
       ],
       [
+        "Central South University",
+        "City University of Hong Kong",
+        6
+      ],
+      [
         "Tianjin University",
         "Tsinghua University",
         6
@@ -8456,11 +8461,6 @@
       [
         "Hong Kong University of Science and Technology",
         "Tongji University",
-        5
-      ],
-      [
-        "Central South University",
-        "City University of Hong Kong",
         5
       ],
       [
@@ -21157,6 +21157,11 @@
         15
       ],
       [
+        "City University of Hong Kong",
+        "Hong Kong Polytechnic University",
+        15
+      ],
+      [
         "Chongqing University",
         "Tongji University",
         15
@@ -21172,14 +21177,14 @@
         14
       ],
       [
-        "City University of Hong Kong",
-        "Hong Kong Polytechnic University",
-        14
-      ],
-      [
         "Southeast University",
         "Tongji University",
         13
+      ],
+      [
+        "Central South University",
+        "Hong Kong Polytechnic University",
+        11
       ],
       [
         "Southeast University",
@@ -21210,11 +21215,6 @@
         "Chongqing University",
         "University of Hong Kong",
         11
-      ],
-      [
-        "Central South University",
-        "Hong Kong Polytechnic University",
-        10
       ],
       [
         "Tongji University",
@@ -21397,6 +21397,11 @@
         6
       ],
       [
+        "Central South University",
+        "City University of Hong Kong",
+        6
+      ],
+      [
         "Tianjin University",
         "Tsinghua University",
         6
@@ -21484,11 +21489,6 @@
       [
         "Hong Kong University of Science and Technology",
         "Tongji University",
-        5
-      ],
-      [
-        "Central South University",
-        "City University of Hong Kong",
         5
       ],
       [
