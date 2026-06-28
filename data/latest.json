@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-27T10:01:00.691589",
-  "date_from": "2026-05-28",
+  "generated_at": "2026-06-28T10:00:59.419389",
+  "date_from": "2026-05-29",
   "total": 11,
   "papers": [
     {
@@ -154,7 +154,7 @@
       "title": "Tensile, bond and flexure strengthening response of textile reinforced mortars for reinforced concrete structures",
       "journal": "Materials and Structures",
       "date": "2026-06-01",
-      "fwci": 6.0254,
+      "fwci": 5.9141,
       "citations": 1,
       "oa": true,
       "doi": "https://doi.org/10.1617/s11527-026-03155-9",
@@ -267,21 +267,21 @@
     {
       "group": "Structural",
       "group_label": "Structural",
-      "title": "Stochastic modelling of imposed floor loads in modern office buildings",
-      "journal": "Structures",
-      "date": "2026-05-28",
-      "fwci": 13.2525,
+      "title": "A blind comparative study on isothermal sloshing in a circular tank (CCP-WSI Blind Test Series 5)",
+      "journal": "Ocean Engineering",
+      "date": "2026-06-07",
+      "fwci": 11.1481,
       "citations": 1,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.istruc.2026.112166",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.126290",
       "keywords": [
-        "Stochastic modelling",
-        "Structural engineering",
-        "Stochastic process",
-        "Engineering",
-        "Computer science"
+        "Slosh dynamics",
+        "Series (stratigraphy)",
+        "Isothermal process",
+        "Physics",
+        "Mechanics"
       ],
-      "abstract": "Imposed floor loads directly influence the embodied carbon of new building structures, and often determine the reuse potential of existing ones, with important sustainability impacts. Despite this, engineering design codes and practices predominantly adopt loads based on historical precedents, rather than empirical evidence or statistical analysis. Existing physical survey data for office loadings is scarce, outdated, and fails to capture extreme scenarios. This paper introduces a novel stochastic methodology based on realistic modern office layouts (from 29 industry fit-out drawings), probabilistic models of furniture and partition weights (derived from approximately 500 individual product specifications) and occupancy scenarios (informed by surveys and interviews). The resulting dataset contains over 55 million load samples, capturing spatial, temporal and specification variations across variety of office uses. A mean loading of 0.35–0.38 kN/m 2 was determined, with increasing variance over smaller areas. Annual maximum loads were analysed, revealing that extreme loads are influenced by tall, heavily loaded items of storage furniture, particularly at smaller sampled areas, with high occupancy events increasingly important over larger areas. A standard minimum UK office imposed load of 2.5 kN/m 2 was found to have a return period of 11 years for serviceability, or 397 years if factored for ultimate limit state design; however these return periods increase significantly if the maximum storage furniture pressure is limited. Partitions added a mean load of 0.25–0.26 kN/m 2 , increasing to approximately 0.5 kN/m 2 for extreme loads with a 50-year return period, with little influence from area size. There is potential for this new approach to be applied to new building uses and across multiple storeys, with the study also revealing the need for additional extreme loading data regarding storage furniture and high occupancy events. The novel stochastic framework, and the resulting outputs, enable informed serviceability loading decision-making based on return-periods and show how offices can be designed and managed to minimise extreme loads. Moreover, they allow realistic load specification in buildings, guidance documents and design codes, avoiding over-design and unnecessary demolition and consumption of emissions-intensive structural materials.",
+      "abstract": "Numerical modelling is important in many fluid dynamics applications, yet robust benchmarking is required to quantify uncertainty. This study presents results from a blind comparative benchmark of isothermal sloshing in a circular tank. Sloshing is relevant to many engineering applications, including offshore shipping, where vessel motions can excite internal fluid motion, generating impact loads and affecting stability. A series of horizontal and vertical excitation cases of increasing complexity are considered. Participant solutions for free surface displacements are compared against physical model data that was withheld until after submission. Across all cases, the numerical models generally capture the dominant frequency. Typical errors are 10–15%, with some participants achieving 2%. For vertical excitation, larger discrepancies occur at the sidewalls, attributed to over-predicted run-up and difficulties in modelling breaking processes. Most submissions employ high-fidelity approaches with moderate spread in the results. In addition, an AI–accelerated approach was submitted, showing promising performance for less severe cases but requiring further development for extreme conditions. The results highlight that current numerical models capture the primary sloshing dynamics, but accurate representation of damping remains a challenge. These test cases provide a long-term benchmark for assessing numerical sloshing models, and are freely available through the CCP-WSI catalogue.",
       "image": {
         "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MjUyMjAzNnww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MjUyMjAzNnww&ixlib=rb-4.1.0&q=80&w=200",
