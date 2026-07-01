@@ -305,7 +305,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "Multiple"
     ]
@@ -782,7 +782,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "Multiple"
     ]
@@ -1421,7 +1421,7 @@
         "5yr_jif_quartile": "Q3"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "ENGINEERING, CIVIL"
     ]
@@ -1676,7 +1676,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "ENGINEERING, CIVIL"
     ]
@@ -2046,7 +2046,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "Multiple"
     ]
@@ -2398,7 +2398,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "Multiple"
     ]
@@ -2570,7 +2570,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "Multiple"
     ]
@@ -3020,7 +3020,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "ENGINEERING, CIVIL"
     ]
@@ -3290,7 +3290,7 @@
         "5yr_jif_quartile": "Q2"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "ENGINEERING, CIVIL"
     ]
@@ -3784,7 +3784,7 @@
         "5yr_jif_quartile": "Q3"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ]
@@ -4244,7 +4244,7 @@
         "5yr_jif_quartile": "Q1"
       }
     },
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "categories": [
       "Multiple"
     ]
@@ -4665,7 +4665,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "21/184",
@@ -4678,7 +4678,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 10.76
   },
   "2352-0124": {
     "issn_l": "2352-0124",
@@ -4831,7 +4832,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "36/184",
@@ -4844,7 +4845,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 8.3
   },
   "0141-0296": {
     "issn_l": "0141-0296",
@@ -5202,7 +5204,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "17/184",
@@ -5215,7 +5217,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 16.72
   },
   "1524-9050": {
     "issn_l": "1524-9050",
@@ -5440,7 +5443,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "5/184",
@@ -5453,7 +5456,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 4.01
   },
   "0360-1323": {
     "issn_l": "0360-1323",
@@ -5823,7 +5827,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "9/95",
@@ -5847,7 +5851,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 19.96
   },
   "0378-7788": {
     "issn_l": "0378-7788",
@@ -6205,7 +6210,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "12/95",
@@ -6229,7 +6234,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 22.83
   },
   "0263-8231": {
     "issn_l": "0263-8231",
@@ -6563,7 +6569,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "15/184",
@@ -6576,7 +6582,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 8.41
   },
   "2210-6707": {
     "issn_l": "2210-6707",
@@ -6742,7 +6749,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "3/95",
@@ -6755,7 +6762,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 16.43
   },
   "1687-8086": {
     "issn_l": "1687-8086",
@@ -6920,7 +6928,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "54/95",
@@ -6944,7 +6952,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 99.77
   },
   "0022-1694": {
     "issn_l": "0022-1694",
@@ -7392,7 +7401,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "18/184",
@@ -7405,7 +7414,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 15.14
   },
   "0143-974X": {
     "issn_l": "0143-974X",
@@ -7751,7 +7761,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "18/95",
@@ -7775,7 +7785,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 8.09
   },
   "0886-7798": {
     "issn_l": "0886-7798",
@@ -8085,7 +8096,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "10/95",
@@ -8109,7 +8120,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 6.9
   },
   "0899-1561": {
     "issn_l": "0899-1561",
@@ -8383,7 +8395,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "32/95",
@@ -8407,7 +8419,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 0.58
   },
   "2364-4176": {
     "issn_l": "2364-4176",
@@ -8533,7 +8546,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "79/184",
@@ -8546,7 +8559,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 6.99
   },
   "1464-4177": {
     "issn_l": "1464-4177",
@@ -8780,7 +8794,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "28/95",
@@ -8804,7 +8818,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 22.3
   },
   "0219-4554": {
     "issn_l": "0219-4554",
@@ -9005,7 +9020,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "52/184",
@@ -9018,7 +9033,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 0.83
   },
   "0920-4741": {
     "issn_l": "0920-4741",
@@ -9318,7 +9334,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "32/184",
@@ -9331,7 +9347,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 15.91
   },
   "0197-6729": {
     "issn_l": "0197-6729",
@@ -9670,7 +9687,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "110/184",
@@ -9683,7 +9700,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 100.0
   },
   "0167-6105": {
     "issn_l": "0167-6105",
@@ -10053,7 +10071,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "29/184",
@@ -10066,7 +10084,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 17.09
   },
   "2214-3912": {
     "issn_l": "2214-3912",
@@ -10207,7 +10226,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "21/184",
@@ -10220,7 +10239,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 14.08
   },
   "0008-8846": {
     "issn_l": "0008-8846",
@@ -10620,7 +10640,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "1/95",
@@ -10633,7 +10653,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 31.98
   },
   "1359-5997": {
     "issn_l": "1359-5997",
@@ -11047,7 +11068,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "21/95",
@@ -11071,7 +11092,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 33.23
   },
   "2186-2982": {
     "issn_l": "2186-2982",
@@ -11210,7 +11232,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "149/184",
@@ -11223,7 +11245,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 98.51
   },
   "1346-7581": {
     "issn_l": "1346-7581",
@@ -11425,7 +11448,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "54/95",
@@ -11438,7 +11461,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 99.57
   },
   "1029-8436": {
     "issn_l": "1029-8436",
@@ -11652,7 +11676,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "28/95",
@@ -11676,7 +11700,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 4.6
   },
   "0379-7112": {
     "issn_l": "0379-7112",
@@ -12040,7 +12065,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "54/184",
@@ -12053,7 +12078,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 26.58
   },
   "1644-9665": {
     "issn_l": "1644-9665",
@@ -12269,7 +12295,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "35/184",
@@ -12282,7 +12308,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 23.05
   },
   "0165-232X": {
     "issn_l": "0165-232X",
@@ -12634,7 +12661,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "44/184",
@@ -12647,7 +12674,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 15.96
   },
   "1436-3240": {
     "issn_l": "1436-3240",
@@ -12941,7 +12969,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "48/184",
@@ -12954,7 +12982,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 16.41
   },
   "0098-8847": {
     "issn_l": "0098-8847",
@@ -13344,7 +13373,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "28/184",
@@ -13357,7 +13386,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 27.41
   },
   "1369-4332": {
     "issn_l": "1369-4332",
@@ -13582,7 +13612,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "37/95",
@@ -13606,7 +13636,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 2.97
   },
   "0045-7949": {
     "issn_l": "0045-7949",
@@ -14006,7 +14037,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "31/184",
@@ -14019,7 +14050,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 21.56
   },
   "0932-8351": {
     "issn_l": "0932-8351",
@@ -14449,7 +14481,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "160/184",
@@ -14462,7 +14494,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "0005-9900": {
     "issn_l": "0005-9900",
@@ -14898,7 +14931,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "79/95",
@@ -14922,7 +14955,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.36
   },
   "1964-8189": {
     "issn_l": "1964-8189",
@@ -15082,7 +15116,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "83/184",
@@ -15095,7 +15129,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 1.28
   },
   "0038-9145": {
     "issn_l": "0038-9145",
@@ -15489,7 +15524,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "88/95",
@@ -15513,7 +15548,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "1468-0629": {
     "issn_l": "1468-0629",
@@ -15721,7 +15757,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "32/95",
@@ -15745,7 +15781,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 7.63
   },
   "0951-8339": {
     "issn_l": "0951-8339",
@@ -16043,7 +16080,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "25/184",
@@ -16056,7 +16093,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 20.51
   },
   "1562-3599": {
     "issn_l": "1562-3599",
@@ -16258,7 +16296,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "26/95",
@@ -16282,7 +16320,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 7.66
   },
   "0378-3839": {
     "issn_l": "0378-3839",
@@ -16658,7 +16697,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "34/184",
@@ -16671,7 +16710,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 38.42
   },
   "1363-2469": {
     "issn_l": "1363-2469",
@@ -16897,7 +16937,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "68/184",
@@ -16910,7 +16950,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 1.88
   },
   "1573-2479": {
     "issn_l": "1573-2479",
@@ -17094,7 +17135,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "72/184",
@@ -17107,7 +17148,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 6.99
   },
   "1996-6814": {
     "issn_l": "1996-6814",
@@ -17280,7 +17322,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "39/95",
@@ -17304,7 +17346,8 @@
         "ais_quartile": "N/A",
         "5yr_jif_quartile": "N/A"
       }
-    }
+    },
+    "oa_pct": 5.24
   },
   "1084-0702": {
     "issn_l": "1084-0702",
@@ -17536,7 +17579,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "51/184",
@@ -17549,7 +17592,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 1.78
   },
   "8755-2930": {
     "issn_l": "1944-8201",
@@ -17852,7 +17896,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "46/184",
@@ -17865,7 +17909,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 19.34
   },
   "0733-9372": {
     "issn_l": "0733-9372",
@@ -18193,7 +18238,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "117/184",
@@ -18206,7 +18251,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 3.76
   },
   "0733-9496": {
     "issn_l": "0733-9496",
@@ -18522,7 +18568,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "68/184",
@@ -18535,7 +18581,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 9.94
   },
   "0893-1321": {
     "issn_l": "0893-1321",
@@ -18815,7 +18862,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "117/184",
@@ -18828,7 +18875,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.25
   },
   "0733-9488": {
     "issn_l": "0733-9488",
@@ -19138,7 +19186,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "105/184",
@@ -19151,7 +19199,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 3.6
   },
   "1996-3599": {
     "issn_l": "1996-3599",
@@ -19331,7 +19380,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "14/95",
@@ -19344,7 +19393,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 13.37
   },
   "0905-6947": {
     "issn_l": "0905-6947",
@@ -19624,7 +19674,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "18/95",
@@ -19637,7 +19687,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 63.73
   },
   "0005-6650": {
     "issn_l": "0005-6650",
@@ -20048,7 +20099,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "88/95",
@@ -20072,7 +20123,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 3.94
   },
   "2196-7202": {
     "issn_l": "2196-7202",
@@ -20210,7 +20262,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "83/184",
@@ -20223,7 +20275,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 9.75
   },
   "0364-9059": {
     "issn_l": "0364-9059",
@@ -20575,7 +20628,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "23/184",
@@ -20588,7 +20641,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 14.38
   },
   "0315-1468": {
     "issn_l": "0315-1468",
@@ -20951,7 +21005,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "131/184",
@@ -20964,7 +21018,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 6.76
   },
   "0889-3241": {
     "issn_l": "0889-3241",
@@ -21256,7 +21311,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "60/95",
@@ -21280,7 +21335,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "1598-2351": {
     "issn_l": "1598-2351",
@@ -21496,7 +21552,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "66/95",
@@ -21520,7 +21576,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 5.37
   },
   "1420-326X": {
     "issn_l": "1420-326X",
@@ -21775,7 +21832,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "34/95",
@@ -21788,7 +21845,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 8.31
   },
   "1230-2945": {
     "issn_l": "1230-2945",
@@ -22023,7 +22081,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "139/184",
@@ -22036,7 +22094,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 81.72
   },
   "1735-0522": {
     "issn_l": "1735-0522",
@@ -22162,7 +22221,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "100/184",
@@ -22175,7 +22234,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 6.09
   },
   "1558-3058": {
     "issn_l": "1558-3058",
@@ -22341,7 +22401,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "42/95",
@@ -22365,7 +22425,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 11.92
   },
   "1464-7141": {
     "issn_l": "1464-7141",
@@ -22577,7 +22638,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "79/184",
@@ -22590,7 +22651,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 98.72
   },
   "2190-5452": {
     "issn_l": "2190-5452",
@@ -22746,7 +22808,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "36/184",
@@ -22759,7 +22821,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 23.3
   },
   "0049-4488": {
     "issn_l": "0049-4488",
@@ -23149,7 +23212,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "54/184",
@@ -23162,7 +23225,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 43.04
   },
   "1016-8664": {
     "issn_l": "1016-8664",
@@ -23423,7 +23487,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "66/95",
@@ -23447,7 +23511,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 3.09
   },
   "0733-9429": {
     "issn_l": "0733-9429",
@@ -23757,7 +23822,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "67/184",
@@ -23770,7 +23835,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 7.33
   },
   "1084-0699": {
     "issn_l": "1084-0699",
@@ -24008,7 +24074,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "105/184",
@@ -24021,7 +24087,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 2.99
   },
   "0887-3828": {
     "issn_l": "0887-3828",
@@ -24307,7 +24374,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "45/95",
@@ -24331,7 +24398,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 1.25
   },
   "2165-0373": {
     "issn_l": "2165-0373",
@@ -24467,7 +24535,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "20/95",
@@ -24480,7 +24548,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 4.07
   },
   "0742-597X": {
     "issn_l": "0742-597X",
@@ -24778,7 +24847,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "13/184",
@@ -24791,7 +24860,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 2.03
   },
   "2095-2430": {
     "issn_l": "2095-2430",
@@ -24934,7 +25004,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "60/184",
@@ -24947,7 +25017,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 11.17
   },
   "2046-6099": {
     "issn_l": "2046-6099",
@@ -25081,7 +25152,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "17/95",
@@ -25105,7 +25176,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 6.51
   },
   "1949-1190": {
     "issn_l": "1949-1190",
@@ -25253,7 +25325,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "114/184",
@@ -25266,7 +25338,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 1.65
   },
   "1527-6988": {
     "issn_l": "1527-6988",
@@ -25475,7 +25548,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "88/184",
@@ -25488,7 +25561,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 10.33
   },
   "1090-0268": {
     "issn_l": "1090-0268",
@@ -25714,7 +25788,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "39/184",
@@ -25727,7 +25801,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 1.78
   },
   "0890-5487": {
     "issn_l": "0890-5487",
@@ -25991,7 +26066,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "88/184",
@@ -26004,7 +26079,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 19.53
   },
   "2374-4731": {
     "issn_l": "2374-4731",
@@ -26128,7 +26204,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "54/95",
@@ -26141,7 +26217,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 13.27
   },
   "1336-5835": {
     "issn_l": "1336-5835",
@@ -26282,7 +26359,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "139/184",
@@ -26295,7 +26372,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 99.14
   },
   "2096-2754": {
     "issn_l": "2096-2754",
@@ -26515,7 +26593,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "6/184",
@@ -26528,7 +26606,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 99.29
   },
   "0733-9437": {
     "issn_l": "0733-9437",
@@ -26861,7 +26940,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "94/184",
@@ -26874,7 +26953,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 3.61
   },
   "1976-0485": {
     "issn_l": "1976-0485",
@@ -27082,7 +27162,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "24/95",
@@ -27106,7 +27186,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 100.0
   },
   "0733-9402": {
     "issn_l": "0733-9402",
@@ -27415,7 +27496,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "110/184",
@@ -27428,7 +27509,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.57
   },
   "0167-4730": {
     "issn_l": "0167-4730",
@@ -27756,7 +27838,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "18/184",
@@ -27769,7 +27851,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 23.14
   },
   "0171-5445": {
     "issn_l": "0171-5445",
@@ -28025,7 +28108,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "90/95",
@@ -28038,7 +28121,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "0250-8060": {
     "issn_l": "0250-8060",
@@ -28396,7 +28480,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "125/184",
@@ -28409,7 +28493,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 32.3
   },
   "0949-8036": {
     "issn_l": "0949-8036",
@@ -28638,7 +28723,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "183/184",
@@ -28651,7 +28736,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 3.61
   },
   "0024-9831": {
     "issn_l": "0024-9831",
@@ -29165,7 +29251,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "54/95",
@@ -29178,7 +29264,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.65
   },
   "1084-0680": {
     "issn_l": "1084-0680",
@@ -29398,7 +29485,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "94/184",
@@ -29411,7 +29498,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.98
   },
   "2398-4708": {
     "issn_l": "2398-4708",
@@ -29521,7 +29609,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "45/95",
@@ -29534,7 +29622,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 7.96
   },
   "1671-3664": {
     "issn_l": "1671-3664",
@@ -29780,7 +29869,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "54/184",
@@ -29793,7 +29882,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 0.51
   },
   "1076-0431": {
     "issn_l": "1076-0431",
@@ -30030,7 +30120,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "60/95",
@@ -30043,7 +30133,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 2.66
   },
   "2056-9459": {
     "issn_l": "2056-9459",
@@ -30153,7 +30244,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "80/95",
@@ -30166,7 +30257,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 3.06
   },
   "0948-4280": {
     "issn_l": "0948-4280",
@@ -30418,7 +30510,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "100/184",
@@ -30431,7 +30523,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 29.76
   },
   "1745-2007": {
     "issn_l": "1745-2007",
@@ -30609,7 +30702,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "39/95",
@@ -30633,7 +30726,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 10.56
   },
   "1477-1535": {
     "issn_l": "1477-0938",
@@ -30894,7 +30988,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "44/95",
@@ -30907,7 +31001,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 32.12
   },
   "1346-8014": {
     "issn_l": "1346-8014",
@@ -31095,7 +31190,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "49/95",
@@ -31119,7 +31214,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 96.51
   },
   "1679-7825": {
     "issn_l": "1679-7817",
@@ -31314,7 +31410,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "135/184",
@@ -31327,7 +31423,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 98.72
   },
   "1225-4568": {
     "issn_l": "1225-4568",
@@ -31545,7 +31642,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "63/184",
@@ -31558,7 +31655,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "1076-0342": {
     "issn_l": "1076-0342",
@@ -31796,7 +31894,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "88/184",
@@ -31809,7 +31907,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 7.93
   },
   "2080-5187": {
     "issn_l": "2080-5187",
@@ -31974,7 +32073,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "152/184",
@@ -31987,7 +32086,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 98.9
   },
   "0022-1686": {
     "issn_l": "0022-1686",
@@ -32416,7 +32516,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "114/184",
@@ -32429,7 +32529,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 10.9
   },
   "2044-124X": {
     "issn_l": "2044-124X",
@@ -32569,7 +32670,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "88/184",
@@ -32582,7 +32683,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 6.45
   },
   "1229-9367": {
     "issn_l": "1229-9367",
@@ -32751,7 +32853,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "21/95",
@@ -32775,7 +32877,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "1940-1493": {
     "issn_l": "1940-1493",
@@ -32935,7 +33038,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "43/95",
@@ -32948,7 +33051,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 22.29
   },
   "1053-5381": {
     "issn_l": "1053-5381",
@@ -33225,7 +33329,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "156/184",
@@ -33238,7 +33342,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "2005-307X": {
     "issn_l": "2005-307X",
@@ -33360,7 +33465,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "79/184",
@@ -33373,7 +33478,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "0733-950X": {
     "issn_l": "0733-950X",
@@ -33682,7 +33788,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "117/184",
@@ -33695,7 +33801,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 17.43
   },
   "0951-7197": {
     "issn_l": "0951-7197",
@@ -33979,7 +34086,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "71/95",
@@ -33992,7 +34099,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 1.13
   },
   "0039-6265": {
     "issn_l": "0039-6265",
@@ -34614,7 +34722,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "139/184",
@@ -34627,7 +34735,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 7.02
   },
   "2366-1313": {
     "issn_l": "2366-1313",
@@ -34686,7 +34795,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "93/95",
@@ -34699,7 +34808,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "0887-381X": {
     "issn_l": "0887-381X",
@@ -34985,7 +35095,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "83/184",
@@ -34998,7 +35108,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 4.08
   },
   "1758-7328": {
     "issn_l": "1758-7328",
@@ -35149,7 +35260,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "166/184",
@@ -35162,7 +35273,8 @@
         "ais_quartile": "N/A",
         "5yr_jif_quartile": "N/A"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "2041-4196": {
     "issn_l": "2041-4196",
@@ -35309,7 +35421,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "114/184",
@@ -35322,7 +35434,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 18.38
   },
   "1899-0142": {
     "issn_l": "1899-0142",
@@ -35474,7 +35587,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "166/184",
@@ -35487,7 +35600,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 100.0
   },
   "0887-9672": {
     "issn_l": "0887-9672",
@@ -35956,7 +36070,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "75/95",
@@ -35969,7 +36083,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "2166-4250": {
     "issn_l": "1793-6292",
@@ -36189,7 +36304,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "105/184",
@@ -36202,7 +36317,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 24.04
   },
   "2378-9689": {
     "issn_l": "2378-9689",
@@ -36314,7 +36430,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "88/184",
@@ -36327,7 +36443,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 22.22
   },
   "2542-0526": {
     "issn_l": "2542-0526",
@@ -36411,7 +36528,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "93/95",
@@ -36424,7 +36541,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 100.0
   },
   "1793-4311": {
     "issn_l": "1793-4311",
@@ -36585,7 +36703,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "N/A",
@@ -36598,7 +36716,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "N/A"
       }
-    }
+    },
+    "oa_pct": 0.95
   },
   "0733-9453": {
     "issn_l": "0733-9453",
@@ -36907,7 +37026,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "117/184",
@@ -36920,7 +37039,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 9.52
   },
   "1744-2591": {
     "issn_l": "1744-2583",
@@ -37103,7 +37223,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "66/95",
@@ -37116,7 +37236,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 17.72
   },
   "1570-6443": {
     "issn_l": "1570-6443",
@@ -37300,7 +37421,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "83/184",
@@ -37313,7 +37434,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 8.33
   },
   "2247-3769": {
     "issn_l": "2247-3769",
@@ -37429,7 +37551,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "152/184",
@@ -37442,7 +37564,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 92.66
   },
   "1738-1584": {
     "issn_l": "1738-1584",
@@ -37588,7 +37711,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "88/184",
@@ -37601,7 +37724,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "2363-5142": {
     "issn_l": "2363-5142",
@@ -37733,7 +37857,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "60/95",
@@ -37746,7 +37870,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 56.31
   },
   "1823-6499": {
     "issn_l": "1823-6499",
@@ -37887,7 +38012,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "75/95",
@@ -37900,7 +38025,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 98.91
   },
   "1993-0461": {
     "issn_l": "1993-0461",
@@ -38047,7 +38173,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "139/184",
@@ -38060,7 +38186,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 4.29
   },
   "1425-8129": {
     "issn_l": "1425-8129",
@@ -38277,7 +38404,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "83/95",
@@ -38290,7 +38417,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "1328-7982": {
     "issn_l": "1328-7982",
@@ -38498,7 +38626,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "131/184",
@@ -38511,7 +38639,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 9.78
   },
   "2470-5314": {
     "issn_l": "2470-5314",
@@ -38623,7 +38752,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "60/184",
@@ -38636,7 +38765,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 7.59
   },
   "2040-2317": {
     "issn_l": "2040-2317",
@@ -38783,7 +38913,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "73/95",
@@ -38796,7 +38926,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 6.41
   },
   "1750-8975": {
     "issn_l": "1750-8975",
@@ -38956,7 +39087,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "53/95",
@@ -38969,7 +39100,8 @@
         "ais_quartile": "Q2",
         "5yr_jif_quartile": "Q2"
       }
-    }
+    },
+    "oa_pct": 12.9
   },
   "2287-5301": {
     "issn_l": "2287-5301",
@@ -39065,7 +39197,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "51/95",
@@ -39089,7 +39221,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "2770-5714": {
     "issn_l": "2770-5706",
@@ -39164,7 +39297,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "105/184",
@@ -39177,7 +39310,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 17.24
   },
   "1210-3896": {
     "issn_l": "1210-3896",
@@ -39360,7 +39494,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "166/184",
@@ -39373,7 +39507,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 100.0
   },
   "1226-6116": {
     "issn_l": "1226-6116",
@@ -39559,7 +39694,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "50/95",
@@ -39583,7 +39718,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "1751-2549": {
     "issn_l": "1751-2549",
@@ -39749,7 +39885,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "39/95",
@@ -39773,7 +39909,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 9.23
   },
   "1443-9255": {
     "issn_l": "1443-9255",
@@ -39971,7 +40108,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "152/184",
@@ -39984,7 +40121,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 78.16
   },
   "1448-8353": {
     "issn_l": "1448-8353",
@@ -40156,7 +40294,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "117/184",
@@ -40169,7 +40307,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 3.33
   },
   "1473-3315": {
     "issn_l": "1473-3315",
@@ -40365,7 +40504,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "60/95",
@@ -40378,7 +40517,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 15.49
   },
   "2092-7614": {
     "issn_l": "2092-7614",
@@ -40492,7 +40632,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "135/184",
@@ -40505,7 +40645,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "1028-365X": {
     "issn_l": "1028-365X",
@@ -40727,7 +40868,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "160/184",
@@ -40740,7 +40881,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 1.39
   },
   "2822-6836": {
     "issn_l": "2822-6836",
@@ -40811,7 +40953,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "156/184",
@@ -40824,7 +40966,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 17.33
   },
   "2097-0498": {
     "issn_l": "2097-0498",
@@ -40905,7 +41048,7 @@
     "categories": [
       "Multiple"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "6/95",
@@ -40929,7 +41072,8 @@
         "ais_quartile": "Q1",
         "5yr_jif_quartile": "Q1"
       }
-    }
+    },
+    "oa_pct": 100.0
   },
   "1028-6608": {
     "issn_l": "1028-6608",
@@ -41155,7 +41299,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "135/184",
@@ -41168,7 +41312,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 25.71
   },
   "1021-2019": {
     "issn_l": "1021-2019",
@@ -41344,7 +41489,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "156/184",
@@ -41357,7 +41502,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 96.36
   },
   "0022-4502": {
     "issn_l": "0022-4502",
@@ -41816,7 +41962,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "139/184",
@@ -41829,7 +41975,8 @@
         "ais_quartile": "Q3",
         "5yr_jif_quartile": "Q3"
       }
-    }
+    },
+    "oa_pct": 0.0
   },
   "2975-3848": {
     "issn_l": "2975-3848",
@@ -41900,7 +42047,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "160/184",
@@ -41913,7 +42060,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 98.28
   },
   "2286-2218": {
     "issn_l": "2286-2218",
@@ -42047,7 +42195,7 @@
     "categories": [
       "ENGINEERING, CIVIL"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "ENGINEERING, CIVIL": {
         "jif_rank": "181/184",
@@ -42060,7 +42208,8 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 100.0
   },
   "1573-2487": {
     "issn_l": "1573-2487",
@@ -42242,7 +42391,7 @@
     "categories": [
       "CONSTRUCTION & BUILDING TECHNOLOGY"
     ],
-    "jcr_year": "2024",
+    "jcr_year": 2024,
     "category_ranks": {
       "CONSTRUCTION & BUILDING TECHNOLOGY": {
         "jif_rank": "85/95",
@@ -42255,6 +42404,7 @@
         "ais_quartile": "Q4",
         "5yr_jif_quartile": "Q4"
       }
-    }
+    },
+    "oa_pct": 13.79
   }
 }

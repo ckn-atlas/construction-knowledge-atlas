@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-30T10:01:03.088340",
-  "date_from": "2026-05-31",
+  "generated_at": "2026-07-01T10:02:05.399243",
+  "date_from": "2026-06-01",
   "total": 11,
   "papers": [
     {
@@ -312,8 +312,8 @@
       ],
       "abstract": "Monitoring dam-breaching experiments is challenging because imaging techniques like photogrammetry cannot penetrate turbid, aerated water to track bed elevation changes. This study presents a measurement campaign of small-scale dike breaching experiments using distributed optical fibre sensors (DOFS) to complement photogrammetric measurements. The fibre was placed transversally across the dike below the crest to monitor breach dynamics with minimal flow disturbance. Results show that optical fibre effectively tracks the breach bottom location and deepening process. However, careful post-treatment is necessary since optical fibres are sensitive to temperature gradients from infiltration. Strain and strain rate data distinguish between infiltration effects and mechanical processes such as erosion and block failure. Distributed optical fibre proves to be a promising tool that simultaneously generates valuable data on both infiltration and erosion, offering a powerful complement to traditional non-invasive imaging methods for experimental dam breach monitoring.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgyNzgxMjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgyNzgxMjM4fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgyODY3NjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgyODY3NjgwfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "white and black camera on tripod",
         "photographer": "Michał Jakubowski",
         "photographer_url": "https://unsplash.com/@jaqbovsky",
