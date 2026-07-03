@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-02T10:00:51.969506",
-  "date_from": "2026-06-02",
+  "generated_at": "2026-07-03T10:01:00.119741",
+  "date_from": "2026-06-03",
   "total": 11,
   "papers": [
     {
@@ -49,8 +49,8 @@
       ],
       "abstract": "Purpose The assessment and performance evaluation of photovoltaic (PV) systems depend heavily on the site characteristics of existing buildings. However, when physical site inspections are impractical or impossible due to restricted access, this creates a significant barrier to the assessment of PV layout design. This research uses an instrumental case-study methodology to optimise PV array design in existing buildings by integrating Building Information Modelling (BIM) with immersive technologies. Design/methodology/approach A two-stage optimisation approach was developed to address challenges associated with physical site assessments and fixed building locations. By utilising optimisation algorithms, the grasshopper optimisation algorithm, and Unreal Engine 5 (UE5) for immersive visualisation, this method facilitates detailed shadow analysis and optimal placement of fixed-mounted PV panels. The methodology was validated through a case study involving the modelling of an office building in Melbourne, Australia, using Revit. A rigorous comparative analysis of the developed workflow and the Solar Engineer tool was conducted on the same building to assess the efficiency and accuracy of the workflow. Findings Results demonstrated that integrating BIM with immersive technologies substantially enhanced the efficiency and accuracy of PV installation assessments. The analysis identified a roof utilisation factor (Roof UF) of 39.62% for PV panels, enabling the installation of 90 solar panels with an annual energy yield of 152,091.64 kWh. Originality/value The optimisation workflow introduced in the paper highlights its potential to reduce the reliance on physical site visits while improving design precision and maximising energy output. These findings provide valuable insights for solar engineers and building professionals, contributing to the advancement of efficient and sustainable urban energy solutions.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgyOTU0MDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgyOTU0MDIzfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgzMDQwNDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzgzMDQwNDIxfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "Architectural blueprint of a multi-story building",
         "photographer": "Amsterdam City Archives",
         "photographer_url": "https://unsplash.com/@amsterdamcityarchives",
@@ -107,8 +107,8 @@
       ],
       "abstract": "This study evaluates hybrid vibration control for jacket-supported 15 MW offshore wind turbines under coupled wind–wave–seismic excitation using nonlinear finite-element time-domain analysis. Four configurations, namely the baseline system, viscous dampers, lead rubber bearings (LRBs), and a hybrid control scheme, are assessed under two soil conditions with shear wave velocities of approximately 150 and 300 ms −1 . Five recorded earthquake pairs representing near-field and far-field motions are considered. The hybrid configuration consistently delivers the greatest response reduction. Tower accelerations decrease by up to 97% in peak, satisfying the 2.943 ms - ² operational limit in stiff soil across all records. Peak lateral displacements are reduced by up to 35%, while rotational responses remain well below the 5° serviceability threshold, reaching approximately 0.02° about the X-axis and 2.7° about the Y-axis. Peak shear forces decline by 65∼80%, and bending moments by about 70%. Von Mises stresses at the tower top decrease by up to 75% in stiff soil, with comparable improvements observed in softer soil. Energy analysis further indicates a 20∼21% reduction in tower-level viscous dissipation for the LRB and hybrid systems. These results demonstrate that hybrid control provides a robust and scalable strategy for reducing multi-hazard seismic demand in offshore wind turbines.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4Mjk1NDAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4Mjk1NDAyNXww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MzA0MDQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4MzA0MDQyNHww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "gray concrete building covered trees",
         "photographer": "Danist Soh",
         "photographer_url": "https://unsplash.com/@danist07",
@@ -120,21 +120,21 @@
     {
       "group": "Geo",
       "group_label": "Geo",
-      "title": "Experimental Study on the Propagation Law of Hydraulic Fractures in the Roof of Fragmented Soft-Coal Seams",
-      "journal": "Journal of Energy Engineering",
-      "date": "2026-06-02",
-      "fwci": 5.7633,
-      "citations": 1,
-      "oa": false,
-      "doi": "https://doi.org/10.1061/jleed9.eyeng-6053",
+      "title": "Combined FEM-DEM approach for concrete mesoscale modeling",
+      "journal": "Computers & Structures",
+      "date": "2026-06-14",
+      "fwci": 0.0,
+      "citations": 0,
+      "oa": true,
+      "doi": "https://doi.org/10.1016/j.compstruc.2026.108325",
       "keywords": [
-        "Roof",
-        "Coal mining",
-        "Geotechnical engineering",
+        "Mesoscale meteorology",
         "Geology",
-        "Hydraulic fracturing"
+        "Numerical models",
+        "Environmental science",
+        "Geotechnical engineering"
       ],
-      "abstract": "The use of horizontal wells for directional perforation fracturing in the coal seam roof can effectively avoid defects such as structural fragmentation, poor mechanical properties, and construction difficulties in fragmented-soft coal seams with low-permeability characteristics, which improves the efficiency of gas extraction from fragmented-soft coal seams. Based on the rock samples from a coal mine site in northern Anhui Province, China, physical and mechanical parameters were obtained by indoor rock mechanics experiments, a roof-interface-coal seam similar fracturing specimen was prepared. According to the measured ground stress range of the sampling section, three sets of ground stress conditions of 16-12-12, 30-16-12, and 30-16-6.4 MPa were selected. The self-developed indoor rock mechanics true triaxial hydraulic fracturing simulation system was used to carry out hydraulic fracturing true triaxial physical simulation tests of a coal seam roof. The characteristics and causes of each stage of the fracturing curve were analyzed, and the influence laws of coal seam tensile strength, coal-rock interface tensile strength, and ground stress conditions on the expansion of hydraulic fractures in the roof were clarified. The morphologies of hydraulic fracturing fractures were summarized. The experiment used fracturing fluid with a viscosity of 1 mPa·s and mixed with red tracer, with a constant pumping rate of 15 mL/min. The results indicate that: (1) Low tensile strength of coal seams is conducive to the formation of complex fracture networks. When the tensile strength of coal seams is low and there is a significant difference from the tensile strength of overlying rock layers, cracks are sensitive to weak cementation at interlayer joints and are prone to deflection when extended to this point. (2) The lower tensile strength of the coal-rock interface leads to a thicker weak layer under the roof, and after the accumulation of fracturing fluid, it infiltrates along the joint planes to form horizontal bedding fractures, which is not conducive to the formation of longitudinal cracks that penetrate through. (3) Cracks always have a tendency to propagate along the direction of the maximum principal stress, and larger vertical stresses are conducive to the formation of longitudinal main cracks that connect the internal cracks of each layer. The key to forming a complex crack network is high vertical stresses and the small difference of stresses between two horizontal directions.",
+      "abstract": "A Discrete Element Method (DEM) framework is employed to generate mesoscale representations of concrete specimens using fully three-dimensional polyhedral aggregates, which are seldom adopted due to their high computational cost. The proposed approach addresses two distinct limitations of existing methods. First, it overcomes the geometric constraints of X-ray computed tomography-based reconstructions, including size limitations and voxelized aggregate surfaces. Second, it achieves high aggregate volume fractions (up to 51%), which are difficult to attain with conventional random generation algorithms, particularly when filling complex-shaped containers. Validation is performed by generating multiple standard specimens and verifying their agreement with the target Fuller grading curve. Finite Element Method (FEM) simulations are subsequently conducted using an in-house nonlinear constitutive model for confined concrete to evaluate the compressive mechanical response.",
       "image": {
         "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4Mjk1NDAyNnww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4Mjk1NDAyNnww&ixlib=rb-4.1.0&q=80&w=200",
@@ -149,21 +149,21 @@
     {
       "group": "Material",
       "group_label": "Material",
-      "title": "<scp>An</scp> interpretable tabular meta‐learning method for predicting the compressive strength of glass powder concrete",
-      "journal": "Structural Concrete",
-      "date": "2026-06-11",
-      "fwci": 5.8875,
+      "title": "FRP-reinforced Ultra-High-Strength Engineered Cementitious Composites (UHS-ECC) permanent formwork with post-cast joint for reinforced concrete members",
+      "journal": "Case Studies in Construction Materials",
+      "date": "2026-06-05",
+      "fwci": 6.9743,
       "citations": 1,
-      "oa": false,
-      "doi": "https://doi.org/10.1002/suco.70681",
+      "oa": true,
+      "doi": "https://doi.org/10.1016/j.cscm.2026.e06216",
       "keywords": [
-        "Compressive strength",
-        "Curing (chemistry)",
-        "Cement",
+        "Formwork",
+        "Joint (building)",
+        "Reinforced concrete",
         "Materials science",
-        "Monte Carlo method"
+        "Composite material"
       ],
-      "abstract": "Abstract Glass powder (GP) can partially replace cement and promote the resource utilization of waste glass, but its effect on compressive strength is governed by multiple coupled factors, making cross‐literature prediction uncertain. This study developed an interpretable TabPFN‐based tabular meta‐learning framework for predicting the compressive strength of ordinary GP concrete. A database of 728 records from 29 peer‐reviewed studies was compiled, with all mixtures restricted to GP as the sole partial cement replacement. Input variables included mix proportions, curing age, admixtures, and major oxide composition. The effects of GP replacement level, model accuracy, robustness, and variable influence patterns were evaluated using the relative strength ratio (RSR), 10‐fold cross‐validation, 2000 Monte Carlo random splits, and SHAP‐GAM analysis. The median RSR values at 5% and 10% replacement levels were close to or slightly above 1, with RSR&gt;1 proportions of approximately 67% and 52%, respectively; this proportion decreased below 50% when the replacement level reached 15% or higher. TabPFN achieved the best performance, with MAE, RMSE, MAPE, and R 2 values of 1.5787 MPa, 2.3465 MPa, 6.6399%, and 0.9625, respectively. Compared with CatBoost, MAE and RMSE were reduced by approximately 12.0% and 10.9%. SHAP‐GAM analysis identified curing age and water‐to‐binder ratio (W/B) as the dominant variables, with critical thresholds at a W/B of approximately 0.49 and a GP dosage of approximately 105.77 kg/m 3 . The proposed framework provides interpretable data‐driven support for mixture optimization, quality control, and engineering applicability assessment of GP concrete.",
+      "abstract": "This study investigates the flexural behavior of reinforced concrete (RC) beams incorporating post-cast-jointed FRP-reinforced ultra-high-strength engineered cementitious composites (UHS-ECC) as stay-in-place permanent formwork. A post-cast UHS-ECC joint was introduced into the bottom formwork to represent a realistic segmented construction scenario. Four-point bending tests were conducted on two composite beam specimens (UE50-J), and the results were compared with those of the conventional RC control beams (CON). Digital image correlation was employed to capture strain-field evolution and crack localization during loading. A refined three-dimensional finite element model was developed and validated against the experimental results, and a modified sectional analysis method was proposed to evaluate the flexural capacity of the jointed composite beams. The experimental results show that the post-cast joint has limited influence on the cracking load but substantially reduces the post-cracking and yield stiffness. Nevertheless, the jointed composite beam retains a comparable ultimate load to the reference beam. The UHS-ECC formwork remains effective in crack control despite the joint-induced discontinuity, maintaining smaller maximum crack widths and a more uniform crack distribution throughout loading. The finite element analysis reveals that the post-cast joint interrupts uniform tensile stress transfer along the bottom formwork, yet does not cause abrupt loss of composite action. The modified sectional analysis method, which accounts for joint-induced nonuniform FRP stress development, yields predictions in reasonable agreement with the test results. These findings demonstrate the feasibility of employing jointed FRP-reinforced UHS-ECC permanent formwork in segmented construction and provide a practical basis for its flexural design.",
       "image": {
         "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgyOTU0MDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzgyOTU0MDI3fDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -223,8 +223,8 @@
       ],
       "abstract": "Purpose The increasing automation of construction sites demands real-time monitoring of machinery and operations. Most existing studies identify individual machines or activities, but few recognize construction workflows. This study proposes an intelligent monitoring methodology for detecting subgrade filling workflows to enhance progress tracking and productivity management. Design/methodology/approach This study proposes a multi-source data fusion framework for intelligent monitoring of subgrade filling workflows. The framework integrates three critical approaches: (1) a hierarchical construction sequence library with a knowledge graph capturing temporal dependencies of construction elements operations; (2) a multi-source data fusion approach incorporating YOLOv11-CSA based object detection and Random Forest-based sensor analysis for automatic recognition of construction elements and their states; and (3) an expert decision-making algorithm inferring construction stages by combining multi-source fusion results with the construction sequence library. Findings Validation was conducted in a laboratory scenario using roadside camera video and onboard sensor data. Results demonstrate that construction elements and activity identification achieved accuracy above 98%, construction time recognition errors below 1.7 s, and machinery productivity estimation errors within 5%. Originality/value The main contributions are threefold: (1) a domain-specific recognition framework for subgrade filling workflows supported by a construction-sequence library; (2) a multi-source data fusion approach integrating visual and sensor data to address the limitations of single-source methods; and (3) laboratory validation showing robust performance in identifying construction elements and workflows.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4Mjk1NDAyOHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4Mjk1NDAyOHww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MzA0MDQyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4MzA0MDQyOXww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a factory filled with lots of orange machines",
         "photographer": "Simon Kadula",
         "photographer_url": "https://unsplash.com/@simonkadula",
@@ -252,8 +252,8 @@
       ],
       "abstract": "Combining total station and camera, the system measures large dynamic objects. Current calibration mainly covers coaxial and external cameras, lacking research on the vital built-in overview camera of image-assisted total stations. This paper builds its image measurement model and develops overall and stepwise calibration methods. The overall method is unstable and range-limited, whereas stepwise calibration achieves effective parameter decoupling. On this basis, fourth-order bivariate Fourier APs are used for distortion compensation. After correction, MAE and Std reach 0.07 and 0.09 pixels in both x and y directions, offering reliable references for practical calibration.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgyOTU0MDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgyOTU0MDI5fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgzMDQwNDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzgzMDQwNDMxfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a monitor is on a stand in a room",
         "photographer": "Trnava University",
         "photographer_url": "https://unsplash.com/@trnavskauni",
@@ -281,8 +281,8 @@
       ],
       "abstract": "Numerical modelling is important in many fluid dynamics applications, yet robust benchmarking is required to quantify uncertainty. This study presents results from a blind comparative benchmark of isothermal sloshing in a circular tank. Sloshing is relevant to many engineering applications, including offshore shipping, where vessel motions can excite internal fluid motion, generating impact loads and affecting stability. A series of horizontal and vertical excitation cases of increasing complexity are considered. Participant solutions for free surface displacements are compared against physical model data that was withheld until after submission. Across all cases, the numerical models generally capture the dominant frequency. Typical errors are 10–15%, with some participants achieving 2%. For vertical excitation, larger discrepancies occur at the sidewalls, attributed to over-predicted run-up and difficulties in modelling breaking processes. Most submissions employ high-fidelity approaches with moderate spread in the results. In addition, an AI–accelerated approach was submitted, showing promising performance for less severe cases but requiring further development for extreme conditions. The results highlight that current numerical models capture the primary sloshing dynamics, but accurate representation of damping remains a challenge. These test cases provide a long-term benchmark for assessing numerical sloshing models, and are freely available through the CCP-WSI catalogue.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4Mjk1NDAzMHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4Mjk1NDAzMHww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MzA0MDQzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4MzA0MDQzMnww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "construction frame",
         "photographer": "Alain Pham",
         "photographer_url": "https://unsplash.com/@alain_pham",
@@ -310,8 +310,8 @@
       ],
       "abstract": "Monitoring dam-breaching experiments is challenging because imaging techniques like photogrammetry cannot penetrate turbid, aerated water to track bed elevation changes. This study presents a measurement campaign of small-scale dike breaching experiments using distributed optical fibre sensors (DOFS) to complement photogrammetric measurements. The fibre was placed transversally across the dike below the crest to monitor breach dynamics with minimal flow disturbance. Results show that optical fibre effectively tracks the breach bottom location and deepening process. However, careful post-treatment is necessary since optical fibres are sensitive to temperature gradients from infiltration. Strain and strain rate data distinguish between infiltration effects and mechanical processes such as erosion and block failure. Distributed optical fibre proves to be a promising tool that simultaneously generates valuable data on both infiltration and erosion, offering a powerful complement to traditional non-invasive imaging methods for experimental dam breach monitoring.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgyODY3NjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgyODY3NjgwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgzMDQwNDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzgzMDQwNDM0fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "white and black camera on tripod",
         "photographer": "Michał Jakubowski",
         "photographer_url": "https://unsplash.com/@jaqbovsky",
