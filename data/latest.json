@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17T10:01:16.293386",
-  "date_from": "2026-06-17",
+  "generated_at": "2026-07-18T10:01:17.088666",
+  "date_from": "2026-06-18",
   "total": 11,
   "papers": [
     {
@@ -151,21 +151,21 @@
     {
       "group": "Material",
       "group_label": "Material",
-      "title": "Upcycling waste tires into High-Strength Engineered Geopolymer Composites (HS-EGC): Double-stage modeling of over-saturated cracking behavior",
-      "journal": "Construction and Building Materials",
+      "title": "Sequential triple treatment of recycled coarse aggregates: mechanical, durability, and microstructural performance of concrete with mechanistic insights",
+      "journal": "Journal of Sustainable Cement-Based Materials",
       "date": "2026-06-22",
-      "fwci": 5.5052,
+      "fwci": 5.5563,
       "citations": 1,
-      "oa": true,
-      "doi": "https://doi.org/10.1016/j.conbuildmat.2026.147122",
+      "oa": false,
+      "doi": "https://doi.org/10.1080/21650373.2026.2691300",
       "keywords": [
         "Materials science",
-        "Weibull distribution",
-        "Cracking",
-        "Crumb rubber",
-        "Composite material"
+        "Flexural strength",
+        "Shrinkage",
+        "Ultimate tensile strength",
+        "Slurry"
       ],
-      "abstract": "Under uniaxial tension, Engineered Geopolymer Composites (EGC) typically exhibit over-saturated cracking behaviors. This study aims to assess and model the double-stage crack evolutions of rubberized EGC, which is of significance to its future applications. A Weibull-based probabilistic model was developed based on crack width data and the modification of Weibull parameters. The modeling results showed good agreement with the experimental and best-fit results, demonstrating its capability in characterizing crack width evolution. In addition, compared with the reported rubberized ECC and EGC, the mixture incorporating 100% crumb rubber developed in this study exhibited a more favorable balance between mechanical performance and sustainability. It yielded the lowest VIKOR index of 0.02 under the equal-weighting multi-criteria decision analysis (MCDA) framework and showed the strongest ranking robustness in the Monte Carlo Simulation (MCS) analysis with randomly assigned weights. These findings demonstrate a viable pathway for upcycling waste tires into sustainable high-performance construction materials.",
+      "abstract": "The weak interfacial transition zone (ITZ) and high porosity of recycled coarse aggregates (RCA) limit their use in structural concrete. A sequential triple-treatment: HCl chemical treatment, mechanical abrasion, and cement slurry coating, was developed to densify the ITZ. Testing 198 specimens across six mix designs (0–100% RCA), TTRCA at 25% and 50% retained 92.1% and 87.3% of compressive strength, 93.6% and 87.7% of flexural strength, and 95.6% and 89.9% of splitting tensile strength versus the NCA control. Resistivity reached 81–91% of control; shrinkage remained 8–18% above control. XRD confirmed reduced Ca(OH)2 content with enhanced C–S–H formation; SEM revealed reduced ITZ porosity. ITZ densification was identified as the primary governing mechanism, supported by microstructural, mechanical, and durability evidence. Statistical analysis confirmed significant treatment effects (ANOVA, p < 0.001). A critical 50% replacement threshold was established, supporting regulatory RCA limit revision and circular economy goals.",
       "image": {
         "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg0MjUwMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg0MjUwMDM5fDA&ixlib=rb-4.1.0&q=80&w=200",
