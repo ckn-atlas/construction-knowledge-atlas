@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T10:02:03.339459",
-  "date_from": "2026-06-23",
+  "generated_at": "2026-07-24T10:01:28.239473",
+  "date_from": "2026-06-24",
   "total": 11,
   "papers": [
     {
@@ -22,8 +22,8 @@
       ],
       "abstract": "ABSTRACT Wind-induced excitations can significantly affect the structural behavior and serviceability of long-span cable-supported bridges, potentially leading to aeroelastic instabilities, traffic disruption, and operational safety concerns. Timely detection of variability in vibration responses is important for ensuring structural safety and response-informed operational assessment. This study proposes an unsupervised deep neural network, termed Transformer-based Contrastive Denoising Autoencoder (T-CDAE), for vibration-based change detection in cable-supported bridges using only measured acceleration responses. The core idea is to learn the baseline vibration behavior of multi-sensor bridge responses under normal operating conditions and to identify deviations from this learned baseline through reconstruction errors combined with contrastive feature alignment for extracting stable latent representations. The Transformer architecture captures spatial correlations among distributed sensors through a self-attention mechanism. A combined reconstruction-contrastive learning framework enhances separability between baseline and out-of-baseline response patterns and also robustness to measurement noise. The main contributions of this study include: (i) a unified artificial neural network for unsupervised vibration-response change detection, (ii) a Transformer-based architecture for capturing global sensor dependencies, and (iii) a contrastive denoising representation learning framework for enhancing feature separability and robustness against noisy data. Field-recorded acceleration responses of the Ting-Kau Bridge are used to evaluate the proposed method, with historically documented typhoon events serving as extreme-event cases for validating its effectiveness. Results demonstrate the reliability of T-CDAE in detecting out-of-baseline vibration-response changes in the monitored bridge subjected to tropical-cyclone-type windstorms.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg0NzY4NDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg0NzY4NDUxfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg0ODU0ODM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg0ODU0ODM2fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a computer chip with the letter a on top of it",
         "photographer": "Igor Omilaev",
         "photographer_url": "https://unsplash.com/@omilaev",
@@ -122,21 +122,21 @@
     {
       "group": "Geo",
       "group_label": "Geo",
-      "title": "The AFRGDB_V3.1 updated gravity database for Africa implementing Moho information",
-      "journal": "Survey Review",
-      "date": "2026-06-23",
-      "fwci": 9.7588,
-      "citations": 1,
-      "oa": false,
-      "doi": "https://doi.org/10.1080/00396265.2026.2664266",
+      "title": "Drag embedment anchor penetration in layered sands and through cable and pipeline trenches",
+      "journal": "Ocean Engineering",
+      "date": "2026-07-07",
+      "fwci": 0.0,
+      "citations": 0,
+      "oa": true,
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.126853",
       "keywords": [
+        "Embedment",
+        "Penetration (warfare)",
         "Geology",
-        "Geodesy",
-        "Database",
-        "Geography",
-        "Remote sensing"
+        "Drag",
+        "Geotechnical engineering"
       ],
-      "abstract": "Africa suffers from sparse gravity data coverage, limiting geodetic and geophysical applications. This study investigates the integration of Moho information to improve gravity anomaly estimation across large African data gaps. Using the window remove-restore technique, gravity values were estimated with both constant and variable crust-mantle density contrasts. The resulting AFRGDB_V3.1 (5′×5′) gravity database was generated through unequal-weight least-squares interpolation with optimized weighting of data sources. Accuracy assessment and comparison with previous African gravity databases demonstrate that incorporating Moho information significantly improves gravity anomaly estimation and provides a more reliable gravity database for geodetic and geophysical applications across Africa.",
+      "abstract": "Cable Burial Risk assessment (CBRA) is undertaken to identify risks to offshore renewable energy cable infrastructure. CBRA assumes uniform soil conditions and does not recognise the effect of the cable installation methods. Centrifuge model testing was undertaken to explore the performance of a shipping anchor (AC-14) when encountering layered sand soil profiles. In addition, anchor interaction with both cable plough trenches and backfilled V-shaped pipeline plough trench routes were investigated. For a specific anchor, in loose over dense sand layers, penetration is stopped with minimal penetration into the underlying dense layer irrespective of the thickness of the loose layer for the anchor size investigated. Testing a recent layered soil CBRA approach indicated that it performed well when inputs were based upon well-characterised model anchor performance. Anchor interaction with vertical cable plough trenches showed limited modification of anchor behaviour. Similar observations were made for the V-shaped backfilled trenches where the anchor approached at 90 or 45° to the trench. When the anchor followed the route of the trench it dived through the trench and backfilled material and into the underlying dense soil. For CBRA methods to improve there is a need for high-quality characterisation of different anchor types in a wider range of soil conditions where realistic installation practices are considered.",
       "image": {
         "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4NDc2ODQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4NDc2ODQ1Nnww&ixlib=rb-4.1.0&q=80&w=200",
@@ -267,21 +267,21 @@
     {
       "group": "Structural",
       "group_label": "Structural",
-      "title": "3D simulation of masonry bridges under earthquake loading using an enhanced macroscale masonry model with embedded discontinuities",
-      "journal": "Engineering Structures",
-      "date": "2026-07-16",
-      "fwci": 4.4636,
+      "title": "Shake Table Test of a Resilient High‐Rise Controlled Rocking Outrigger Core Wall System",
+      "journal": "Earthquake Engineering & Structural Dynamics",
+      "date": "2026-07-09",
+      "fwci": 4.3624,
       "citations": 1,
-      "oa": true,
-      "doi": "https://doi.org/10.1016/j.engstruct.2026.123279",
+      "oa": false,
+      "doi": "https://doi.org/10.1002/eqe.70240",
       "keywords": [
-        "Masonry",
-        "Classification of discontinuities",
-        "Unreinforced masonry building",
+        "Outrigger",
+        "Earthquake shaking table",
         "Structural engineering",
-        "Geology"
+        "Truss",
+        "Resilience (materials science)"
       ],
-      "abstract": "This paper investigates the 3D response of masonry arch bridges under earthquake loading, focusing on the interaction between the masonry components and the backfill under static and dynamic loading up to collapse. An advanced 3D modelling strategy is employed, in which masonry arches, piers, and spandrel walls are represented by an efficient continuum macroscale model that accurately captures masonry anisotropy through practical calibration of material parameters. Furthermore, zero-thickness plastic-damage interface elements are employed to simulate the interaction between masonry and backfill, which is modelled as a continuum elastoplastic frictional-cohesive material. Two realistic single and multi-span brick-masonry multi-ring arch bridges are investigated. Numerical predictions obtained by the proposed macroscale strategy are compared with detailed, yet more computationally expensive, mesoscale simulations. The results shed light on the complex response of masonry bridges under earthquake loading, confirming the accuracy of the developed macroscale modelling approach, which significantly reduces the computational cost while enabling detailed 3D nonlinear static and dynamic analysis of realistic bridges.",
+      "abstract": "ABSTRACT In recent years, low‐damage seismic structural systems have attracted significant attention and have been implemented in various buildings. However, current research has predominantly focused on low‐ and mid‐rise structures. With the ongoing global urbanization, enhancing the seismic resilience of high‐rise buildings and minimizing post‐earthquake repair costs and time have become critical research focuses in earthquake engineering. In response, a novel high‐rise seismic‐resilient structural system named the controlled rocking outrigger core wall (CROCW) system was developed. CROCW consists of a self‐centering reinforced concrete rocking core wall and an outrigger truss system. The seismic behavior of the CROCW was verified from a series of shaking table tests. The tested specimen was a 1/6.5 scaled model from a 24‐storey tall building and had a height of 15.4 m and a weight of 116 t. The tested specimen was subjected to a total of 142 shaking table tests with a range of ground motions, incorporating both unidirectional and bidirectional shaking and with different combinations of energy dissipating devices. The results of the shaking table tests show that the CROCW can achieve superior performance with minor damage and no structural capacity or integrity degradation. The results from these large‐scale shake‐table tests support the viability of utilizing CROCW in high‐rise structures located in high‐seismic zones. The data collected from the shaking table test provides a rich data set needed to demonstrate seismic resilience for future low‐damage seismic design in high‐rise structures.",
       "image": {
         "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4NDc2ODQ2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4NDc2ODQ2M3ww&ixlib=rb-4.1.0&q=80&w=200",
