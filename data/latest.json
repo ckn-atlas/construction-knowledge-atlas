@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T10:27:14.090608",
-  "date_from": "2026-06-25",
+  "generated_at": "2026-07-26T10:01:26.813116",
+  "date_from": "2026-06-26",
   "total": 11,
   "papers": [
     {
@@ -9,8 +9,8 @@
       "title": "Transformer-based contrastive denoising autoencoder for unsupervised detection of wind-induced vibration changes in cable-supported bridges",
       "journal": "Computer-Aided Civil and Infrastructure Engineering",
       "date": "2026-06-27",
-      "fwci": 9.2114,
-      "citations": 2,
+      "fwci": 12.5487,
+      "citations": 3,
       "oa": true,
       "doi": "https://doi.org/10.1016/j.cacaie.2026.100114",
       "keywords": [
