@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T10:01:31.215859",
-  "date_from": "2026-07-07",
+  "generated_at": "2026-08-07T10:00:52.489649",
+  "date_from": "2026-07-08",
   "total": 11,
   "papers": [
     {
@@ -125,7 +125,7 @@
       "title": "Free-Surface Maps and Profiles of Hydraulic Jumps Measured with a Depth Camera",
       "journal": "Journal of Hydraulic Engineering",
       "date": "2026-07-26",
-      "fwci": 3.8726,
+      "fwci": 3.8559,
       "citations": 1,
       "oa": true,
       "doi": "https://doi.org/10.1061/jhend8.hyeng-14716",
@@ -154,7 +154,7 @@
       "title": "Thermal and mechanical behaviour of high-performance concrete incorporating recycled concrete aggregate",
       "journal": "Construction and Building Materials",
       "date": "2026-08-04",
-      "fwci": 4.8654,
+      "fwci": 4.8129,
       "citations": 1,
       "oa": true,
       "doi": "https://doi.org/10.1016/j.conbuildmat.2026.147649",
@@ -209,21 +209,21 @@
     {
       "group": "Robot",
       "group_label": "Robotics",
-      "title": "Truck-drone collaborative delivery with a mobile drone station trailer",
-      "journal": "Transportation Research Part E Logistics and Transportation Review",
-      "date": "2026-05-28",
-      "fwci": 13.0964,
-      "citations": 1,
-      "oa": true,
-      "doi": "https://doi.org/10.1016/j.tre.2026.104975",
+      "title": "Research on automated methods for fastener disassembly and collection in railway maintenance and construction",
+      "journal": "Proceedings of the Institution of Mechanical Engineers Part F Journal of Rail and Rapid Transit",
+      "date": "2026-08-05",
+      "fwci": 0.0,
+      "citations": 0,
+      "oa": false,
+      "doi": "https://doi.org/10.1177/09544097261475049",
       "keywords": [
-        "Drone",
-        "Trailer",
-        "Computer science",
-        "Travelling salesman problem",
-        "Scheduling (production processes)"
+        "Fastener",
+        "Modular design",
+        "Engineering",
+        "Reliability engineering",
+        "Automation"
       ],
-      "abstract": "Truck–drone collaborative delivery systems have garnered significant interest in recent years. This paper introduces a novel model, called the Parallel Drone Scheduling Traveling Salesman Problem with a Mobile Drone Station Trailer (PDSTSP-MDST). The model integrates a truck and multiple drones that collaborate through a Mobile Drone Station Trailer (MDST). The proposed MDST is a trailer transported by a truck and deployed at designated sites to serve as a temporary drone station. Once deployed, the site is activated, and drones can pick up packages from the MDST to serve customers. While drones are in service, the truck may either remain on-site or continue independently to serve other customers. We formulate the PDSTSP-MDST as a mixed-integer linear programming (MILP) model to minimize the total delivery makespan. To enhance computational efficiency, especially for large-scale cases, we design a customized metaheuristic algorithm based on the Adaptive Large Neighborhood Search (ALNS) framework. We introduce a problem-specific destroy operator with a perturbation mechanism in the repair phase, which enables the ALNS to explore neighborhoods under different activated sites. Numerical experiments validate the effectiveness of both the MILP formulation and the proposed ALNS algorithm. These tests show that our ALNS consistently outperforms the state-of-the-art commercial solver, Gurobi, in both solution quality and runtime. The algorithm also remains robust for large-scale instances where exact approaches struggle. Comparative analyses against benchmark models highlight the operational advantages of this novel truck-drone collaborative delivery approach, while sensitivity analyses yield managerial insights for practical implementation.",
+      "abstract": "The disassembly and collection of railway fasteners are critical components of track maintenance, directly influencing the efficiency, safety, and sustainability of railway operations. Currently, manual operations are hindered by high labour intensity and safety risks, while semi-automatic equipment remains limited by its reliance on manual positioning. Specialized machinery often suffers from low collection rates and poor compatibility across diverse fastener types. Although various robotic disassembly technologies have been proposed, existing solutions face significant challenges, including coaxiality deviations between the end-effector and the nut assembly, and insufficient compensation for angular and positional misalignments during high-speed execution. To address these issues, this paper proposes a novel fully automated railway fastener disassembly and collection system. The system integrates a specialized pneumatic end-effector with a universal joint limiting mechanism designed for angular deviation compensation and high-speed swing suppression. Furthermore, a modular mechanical architecture comprising six core functional modules is developed to realize a continuous material handling sequence from disassembly to centralized storage. A test platform simulating realistic railway operating conditions was constructed to conduct comparative experiments under varying lateral offsets. The results demonstrate that the proposed configuration achieves a 100% operational success rate under lateral deviations of 0–2.0 mm and maintains an 80% success rate at a maximum deviation of 3.0 mm, significantly outperforming conventional configurations. These findings provide a robust technical reference for the intelligent transformation of railway maintenance by enhancing operational reliability and reducing manual intervention.",
       "image": {
         "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4NTk3ODA0NHww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4NTk3ODA0NHww&ixlib=rb-4.1.0&q=80&w=200",
@@ -238,21 +238,21 @@
     {
       "group": "Sensing",
       "group_label": "Sensing",
-      "title": "Accessible remote sensing of bridge movement monitoring with UAV-based SfM photogrammetry and unsupervised machine learning",
-      "journal": "Structure and Infrastructure Engineering",
-      "date": "2026-07-07",
+      "title": "Regime-Aware Bridge Scour Depth Estimation Using Mixture of Experts and Accelerometer Data",
+      "journal": "Transportation Research Record Journal of the Transportation Research Board",
+      "date": "2026-07-26",
       "fwci": 0.0,
       "citations": 0,
       "oa": false,
-      "doi": "https://doi.org/10.1080/15732479.2026.2698097",
+      "doi": "https://doi.org/10.1177/03611981261465412",
       "keywords": [
+        "Accelerometer",
+        "Bridge scour",
         "Bridge (graph theory)",
-        "Remote sensing",
-        "Photogrammetry",
-        "Computer science",
-        "Artificial intelligence"
+        "Pier",
+        "Structural health monitoring"
       ],
-      "abstract": "Bridge infrastructure in seismically active regions is highly vulnerable to damage from major seismic events. Post-disaster structural assessments are critical but are often hindered by traditional, contact-based methods that are labour-intensive, hazardous and slow. This study introduces a novel framework for rapid, remote assessment using a combination of Unmanned Aerial Vehicles (UAVs) and Structure from Motion (SfM) photogrammetry. By generating high-fidelity 3D point clouds, an unsupervised machine learning algorithm (RANSAC) is used to automatically extract key regions of interest (ROIs) without requiring labelled training data, enabling the precise measurement of post-seismic bridge movement. The analysis focuses on common failure modes: translational, rotational and settlement movements of supports. A systematic comparative analysis of three point-cloud-based change detection methods, M3C2, C2C and C2M, is conducted to identify the most suitable technique for different movement types. Experimental results validate the framework’s high accuracy and efficiency, presenting a viable, readily deployable solution to enhance the safety and resilience of critical infrastructure in disaster-prone areas.",
+      "abstract": "Bridge scour remains a leading cause of bridge failure worldwide. Traditional monitoring methods, such as visual inspection and in-stream probes, are often costly, intrusive, and unsafe to operate during flood events. To address these limitations, a data-driven framework was developed to estimate scour depth in real time under both flood and non-flood conditions, using accelerometer data. Triaxial accelerometer and ultrasonic depth measurements were acquired from a bridge in Georgia, U.S., segmented into 10 s windows, and scaled by Z-Score normalization. A finite element model, calibrated to field modal characteristics, was used to generate 200,000 synthetic windows spanning scour depth from 3.4 to 6.4 ft. These were combined with field data and split into training, validation, and test sets in an 8:1:1 ratio. We benchmarked a baseline convolutional neural network (CNN) and a mixture of experts (MoE) architecture comprising a gating network and two specialized expert networks. Both models were trained with the Adam optimizer. The baseline CNN attained a test normalized root mean square error (NRMSE) of 29.65%, with 1.54M parameters and 8.2M FLOPs. The MoE model significantly outperformed it, reducing test NRMSE to 14.88%, while using only 772K effective parameters and 5.94M FLOPs. The gating network, which is essentially a classifier for distinguishing flood and non-flood conditions, achieved 96.55% classification accuracy, enabling regime-aware learning and faster convergence by recognizing varying hydraulic conditions. The MoE approach enable continuous, non-intrusive scour monitoring with standard accelerometers and support automated alerting, offering a scalable, cost-effective enhancement to bridge health monitoring systems.",
       "image": {
         "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg1OTc4MDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg1OTc4MDQ1fDA&ixlib=rb-4.1.0&q=80&w=200",
