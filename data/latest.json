@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T10:01:10.788712",
-  "date_from": "2026-07-13",
+  "generated_at": "2026-08-13T10:00:56.893960",
+  "date_from": "2026-07-14",
   "total": 11,
   "papers": [
     {
@@ -154,7 +154,7 @@
       "title": "Transient behavior of pure bitumen forced burning under ambient air and oxygen-deprived atmospheres",
       "journal": "Fire Safety Journal",
       "date": "2026-07-18",
-      "fwci": 5.7301,
+      "fwci": 5.6967,
       "citations": 1,
       "oa": true,
       "doi": "https://doi.org/10.1016/j.firesaf.2026.104931",
@@ -196,8 +196,8 @@
       ],
       "abstract": "Abstract This study investigated how contractors’ trust in project owners influences contractors’ perceptions of open-book contracts. Open-book contracting is often considered a key enabler of advanced project delivery methods, such as integrated project delivery and construction management at risk. However, contractors may perceive it negatively because cost information reveals profit margins and performance. This study hypothesized that contractors with higher trust in project owners are likely to perceive open-book contracts favorably. To test this hypothesis, a research model was developed comprising the perception of open-book contracting (perceived usefulness and intention to use), trust (calculative and relational trust), and antecedents of trust. Survey data collected from 138 practitioners in South Korean contractor firms were tested using structural equation modeling. The findings showed that relational trust positively affects perceived usefulness, which, in turn, enhances the intention to use. Moreover, calculative trust indirectly influences perceived usefulness through relational trust. By providing empirical evidence of the relationship between trust and the perception of open-book contracting, this paper offers practical insights into how contractors and project owners can build trust, thereby contributing to the wider adoption of advanced project delivery methods in the construction industry.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg2NDk2NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg2NDk2NDMyfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg2NTgyODI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg2NTgyODI3fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "two men working",
         "photographer": "Etienne Girardet",
         "photographer_url": "https://unsplash.com/@etiennegirardet",
@@ -254,8 +254,8 @@
       ],
       "abstract": "Bridge scour remains a leading cause of bridge failure worldwide. Traditional monitoring methods, such as visual inspection and in-stream probes, are often costly, intrusive, and unsafe to operate during flood events. To address these limitations, a data-driven framework was developed to estimate scour depth in real time under both flood and non-flood conditions, using accelerometer data. Triaxial accelerometer and ultrasonic depth measurements were acquired from a bridge in Georgia, U.S., segmented into 10 s windows, and scaled by Z-Score normalization. A finite element model, calibrated to field modal characteristics, was used to generate 200,000 synthetic windows spanning scour depth from 3.4 to 6.4 ft. These were combined with field data and split into training, validation, and test sets in an 8:1:1 ratio. We benchmarked a baseline convolutional neural network (CNN) and a mixture of experts (MoE) architecture comprising a gating network and two specialized expert networks. Both models were trained with the Adam optimizer. The baseline CNN attained a test normalized root mean square error (NRMSE) of 29.65%, with 1.54M parameters and 8.2M FLOPs. The MoE model significantly outperformed it, reducing test NRMSE to 14.88%, while using only 772K effective parameters and 5.94M FLOPs. The gating network, which is essentially a classifier for distinguishing flood and non-flood conditions, achieved 96.55% classification accuracy, enabling regime-aware learning and faster convergence by recognizing varying hydraulic conditions. The MoE approach enable continuous, non-intrusive scour monitoring with standard accelerometers and support automated alerting, offering a scalable, cost-effective enhancement to bridge health monitoring systems.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg2NDk2NDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg2NDk2NDM1fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg2NTgyODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg2NTgyODMwfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a monitor is on a stand in a room",
         "photographer": "Trnava University",
         "photographer_url": "https://unsplash.com/@trnavskauni",
