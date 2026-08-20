@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T10:01:01.942706",
-  "date_from": "2026-07-20",
+  "generated_at": "2026-08-20T10:00:56.412527",
+  "date_from": "2026-07-21",
   "total": 11,
   "papers": [
     {
@@ -22,8 +22,8 @@
       ],
       "abstract": "Port channel safety is essential for reliable vessel movements and efficient logistics operations in intelligent ports. Waterborne ASVs can support inspection, monitoring, and auxiliary transportation in restricted port waters, but their deployment requires accurate trajectory tracking to avoid additional port-channel navigational safety risks. However, reliable ASV tracking remains challenging under dynamic disturbances and strict ship-to-shore communication constraints. This study proposes an Asynchronous Distributed Deep Reinforcement Learning (AD-DRL) control scheme for robust ASV trajectory tracking under dynamic marine disturbances. Unlike traditional centralized training, the proposed framework enables distributed ASVs to collaboratively update policies by exchanging model gradients rather than raw sensor data, thereby reducing communication requirements. To improve decision-making in dynamic waters, a gated hybrid attention mechanism is integrated into the Twin Delayed Deep Deterministic Policy Gradient (TD3) architecture. This mechanism helps the agent capture spatiotemporal disturbance features and delayed vessel responses caused by hydrodynamic lag. Moreover, an ERA5-informed data-driven simulation environment is constructed using real-world ocean current, wind, and wave data to train and evaluate the controller. Experiments across five representative international ports show that the proposed method achieves lower tracking errors and higher success rates than baseline methods under varying environmental disturbances. Additional safety-corridor analysis further confirms its ability to maintain reliable trajectory execution in port channels. These results demonstrate the robustness and practical relevance of AD-DRL, providing technical support for safer and more reliable ASV operations in intelligent port logistics scenarios.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg3MTAxMjIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg3MTAxMjIzfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg3MTg3NjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg3MTg3NjIxfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a computer chip with the letter a on top of it",
         "photographer": "Igor Omilaev",
         "photographer_url": "https://unsplash.com/@omilaev",
@@ -138,8 +138,8 @@
       ],
       "abstract": "Abstract Hydraulic jumps are natural energy dissipation mechanisms characterized by highly complex phenomena such as turbulence, air entrainment, and bubble transport. Recent technological advances have facilitated the increasing use of nonintrusive instruments for measuring free-surface profiles and fluctuations in aerated flows. In this experimental study, five different hydraulic jumps with Froude numbers ranging from 4.5 to 9.1 and Reynolds numbers from <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"9.2 times 10 Superscript 4\" display=\"inline\" overflow=\"scroll\"> <mml:mn>9.1</mml:mn> <mml:mo>×</mml:mo> <mml:msup> <mml:mn>10</mml:mn> <mml:mn>4</mml:mn> </mml:msup> </mml:math> to <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"1.2 times 10 Superscript 5\" display=\"inline\" overflow=\"scroll\"> <mml:mn>1.2</mml:mn> <mml:mo>×</mml:mo> <mml:msup> <mml:mn>10</mml:mn> <mml:mn>5</mml:mn> </mml:msup> </mml:math> were investigated in a 1-m-wide horizontal flume. A depth camera (Intel RealSense D435if) was used to acquire three-dimensional free-surface data, enabling the reconstruction of the three-dimensional free-surface geometry, allowing to extract different longitudinal and transverse sections. The camera-based results were compared against air fraction profiles obtained from a single-tip conductivity probe with a 0.20-mm copper electrode, previously tested in a calibration bench. Close agreement between both methods confirmed that the depth camera accurately captured the aerated free-surface fluctuations and free-surface profiles of the hydraulic jumps. The dominant free-surface fluctuation frequencies in the longitudinal direction ranged from 0.35 to 3.0 Hz, aligning well with previous hydraulic jump research. Overall, the use of a depth camera offers a reliable, economic, and nonintrusive approach for three-dimensional free-surface characterization in highly aerated, turbulent flows.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4NzEwMTIyOXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4NzEwMTIyOXww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4NzE4NzYyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4NzE4NzYyNnww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "A construction truck inside a dark tunnel with a large ventilation pipe overhead",
         "photographer": "Ricardo Gomez Angel",
         "photographer_url": "https://unsplash.com/@rgaleriacom",
@@ -167,8 +167,8 @@
       ],
       "abstract": "The construction industry contributes substantially to environmental problems through the extraction of non-renewable resources and the generation of construction and demolition waste. In concrete production, replacing natural aggregate with recycled concrete aggregate (RCA) has the potential to improve environmental sustainability. Although RCA is widely recognised as environmentally beneficial, its current use in high-performance concrete (HPC) remains limited because recycled aggregates generally exhibit poorer properties than natural aggregates, particularly in terms of porosity, water absorption, and compressive strength. This study investigates the influence of varying RCA replacement levels (15%, 30%, 50%, 75%, and 100%) and thermal loading of up to 900 °C on the key physico-mechanical properties and microstructural integrity of HPC. The methodology involved the preparation of HPC mixtures incorporating different RCA contents, followed by testing of flexural strength, compressive strength, and bulk density after exposure to thermal loading. The results showed a decline in both strength characteristics with increasing RCA content and temperature. However, certain mixtures, particularly those with 15% and 50% RCA, demonstrated comparable or improved performance under specific conditions. The 15% RCA mixture reached a compressive strength similar to that of the reference mixture after 28 d, while the 50% RCA mixture exhibited better flexural strength retention at 105 °C. Bulk density consistently decreased with increasing RCA content and temperature, with the greatest loss observed in the 100% RCA mixture at 900 °C. These findings clarify the potential and limitations of using RCA in HPC, especially where high-temperature resistance is required. Scanning electron microscopy analysis confirmed that, while internal curing at 105 °C contributed to densification of the interfacial transition zone (ITZ), the ITZ between the adhered mortar and the new cement matrix became the critical failure region at 900 °C. Thermal loading caused cracks to form in this ITZ, with their width increasing by up to four times at 75% RCA replacement. The results identify this ITZ as the weakest link in the structure and show that its degradation directly causes the loss of mechanical integrity of HPC containing RCA at high temperatures.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg3MTAxMjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg3MTAxMjMwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg3MTg3NjI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg3MTg3NjI3fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a black and white photo of a concrete wall",
         "photographer": "Wesley Tingey",
         "photographer_url": "https://unsplash.com/@wesleyphotography",
@@ -180,21 +180,21 @@
     {
       "group": "Mgmt",
       "group_label": "Management",
-      "title": "Barriers, education and promotion mechanisms for green construction adoption at construction site level in Australia",
-      "journal": "Building Research & Information",
-      "date": "2026-07-20",
+      "title": "Blockchain for fire-risk reduction in long-scale tunnel construction",
+      "journal": "Journal of Civil Engineering and Management",
+      "date": "2026-07-29",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1080/09613218.2026.2692024",
+      "doi": "https://doi.org/10.3846/jcem.2025.25511",
       "keywords": [
-        "Promotion (chess)",
-        "Business",
-        "Construction industry",
-        "Environmental planning",
-        "Construction management"
+        "Fault tree analysis",
+        "Reduction (mathematics)",
+        "Risk analysis (engineering)",
+        "Risk management",
+        "Engineering"
       ],
-      "abstract": "Green construction (GC) is increasingly recognized as a key pathway towards sustainable built environment transformation; however, its implementation at the construction site level remains fragmented and insufficiently understood. Existing research has largely focussed on strategic planning and design stages, providing limited empirical evidence on how education, barriers and promotion mechanisms interact on construction sites. This study addresses this gap in the Australian construction context through a questionnaire survey (n = 97) analysed using exploratory factor analysis, reliability testing and correlation analysis. The results identify four categories of barriers, two categories of promotion mechanisms and two categories of education factors, indicating that constraints on GC adoption extend beyond site-level practices to organizational, technical and economic dimensions. Promotion mechanisms are found to rely on coordinated organizational arrangements and supportive regulatory conditions that facilitate resource allocation and innovation uptake. Importantly, the study proposes a knowledge–skills–abilities framework that structures the knowledge and competency requirements necessary for effective GC implementation. Overall, the findings provide an empirically grounded implementation framework that integrates education, barriers and promotion mechanisms, offering practical insights for enhancing GC adoption at the construction site level.",
+      "abstract": "Tunnel construction fire risk reduction is an integral component for tunnel construction safety. Recent fire cases during tunnel construction illustrate how existing management and prevention measures may fail in a fundamental and critical guarantee in the accuracy and authenticity of on-site information, thereby limiting the effectiveness of dynamic risk assessment management. To address this issue of information assurance, a fire risk reduction framework that integrates the Fault Tree analysis method with blockchain technology has been proposed. This framework develops some smart contracts and leverages digital signature to maintain data authenticity and ensure data immutability, contributing toward tunnel fire risk reduction by revealing responsible parties and maintaining information-source integrity. Based on this framework, a tunnel fire risk reduction platform using blockchain technology has been developed and applied in a practical engineering case study. The results indicate that this platform promotes open sharing of risk information, facilitates accident liability tracing, and supports dynamic risk assessment, ultimately improving the efficiency of fire risk reduction in tunnel construction.",
       "image": {
         "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg3MTAxMjMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg3MTAxMjMyfDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -267,21 +267,21 @@
     {
       "group": "Structural",
       "group_label": "Structural",
-      "title": "Compressive capacity of concrete dry joints across shotcrete, extrusion, and particle-bed additive manufacturing with robotic subtractive finishing",
-      "journal": "Materials and Structures",
-      "date": "2026-07-20",
-      "fwci": 4.7016,
+      "title": "Jerk hypothesis in seismic loading of structures with the development of Duhamel's integral: part II",
+      "journal": "Proceedings of the Institution of Civil Engineers - Structures and Buildings",
+      "date": "2026-07-30",
+      "fwci": 3.8559,
       "citations": 1,
-      "oa": true,
-      "doi": "https://doi.org/10.1617/s11527-026-03187-1",
+      "oa": false,
+      "doi": "https://doi.org/10.1680/jstbu.24.00167",
       "keywords": [
-        "Shotcrete",
-        "Subtractive color",
-        "Machining",
-        "Interlocking",
-        "Compressive strength"
+        "Jerk",
+        "Acceleration",
+        "Natural frequency",
+        "Mathematics",
+        "Differential equation"
       ],
-      "abstract": "Abstract Additively manufactured (AM) concrete segments often require reliable, repeatable dry-joint interfaces, yet segmentation quality and dimensional accuracy remain challenging. This study evaluates dry joints produced by robotic subtractive finishing (sawing/milling) as a practical interface strategy for segmented AM concrete construction. Four joint geometries (Smooth, Triangular, Arc, and Trun-Pyramid) were fabricated as interlocking pairs from blanks produced by three AM routes (shotcrete, extrusion, and particle-bed printing). Specimens with build orientations of $$0^\\circ$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msup> <mml:mn>0</mml:mn> <mml:mo>∘</mml:mo> </mml:msup> </mml:math> and/or $$90^\\circ$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msup> <mml:mn>90</mml:mn> <mml:mo>∘</mml:mo> </mml:msup> </mml:math> were tested under monotonic uniaxial compression. Cross-method comparability was supported by batch-matched companion-cube tests, laser-scan-to-CAD geometric assessments, and process measurements, including recorded machining durations for milled/sawn configurations. In total, 120 tests were performed (102 monolithic/jointed compression tests and 18 companion-cube tests). Several joint configurations reached compressive capacities close to the corresponding monolithic references. The Arc geometry showed the most consistent high performance across all AM routes. For shotcrete printing, the sawn Triangular joint provided the most favorable performance-to-machining-time trade-off, indicating substantial reductions in finishing effort. Joint geometry, AM route, build orientation, and subtractive finishing jointly govern both compressive capacity and fabrication efficiency. The reported dataset provides quantitative guidance for selecting dry-joint details in segmented AM concrete elements.",
+      "abstract": "This research examined the hypothesis of the existence of a force due to acceleration changes in structures. The existence of a jerk force was first mathematically proven in the presence of initial acceleration conditions. By defining a third-order equation that has the capability to consider the jerk force, its solution was derived. The solution of this differential equation was performed both directly with initial conditions and through generalisation of Duhamel's integral. Comparison of the solutions of second- and third-order equations with experimental results using the proportional jerk coefficient showed good agreement. The greatest differences were when the ratio of loading frequency to the natural frequency of the structure, considering the damping ratio, was greater than 6.75. The effect of earthquakes as loads on structures, considering the ground jerk effect, showed that, in the third-order equation, the acceleration of tall or damaged structures with a small natural frequency and high damping was greater than in the second-order equation. Due to the out-of-phase nature of acceleration and jerk, the maximum values of these two do not occur together. The ratio of maximum jerk to maximum acceleration is an important variable in calculating the jerk effect.",
       "image": {
         "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4NzEwMTIzNnww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4NzEwMTIzNnww&ixlib=rb-4.1.0&q=80&w=200",
