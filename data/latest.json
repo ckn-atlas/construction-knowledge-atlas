@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-02T10:01:32.858879",
-  "date_from": "2026-08-03",
+  "generated_at": "2026-09-05T10:06:44.475864",
+  "date_from": "2026-08-06",
   "total": 11,
   "papers": [
     {
       "group": "AI",
       "group_label": "AI/ML",
-      "title": "Driving Digital Transformation in Construction: Unveiling Key Drivers and Effective Pathways",
-      "journal": "Journal of Construction Engineering and Management",
-      "date": "2026-08-31",
-      "fwci": 0.0,
-      "citations": 0,
-      "oa": false,
-      "doi": "https://doi.org/10.1061/jcemd4.coeng-17507",
+      "title": "Integrating large language models for automated structural analysis",
+      "journal": "Automation in Construction",
+      "date": "2026-09-01",
+      "fwci": 10.8609,
+      "citations": 1,
+      "oa": true,
+      "doi": "https://doi.org/10.1016/j.autcon.2026.107215",
       "keywords": [
-        "Leverage (statistics)",
-        "Digital transformation",
-        "Key (lock)",
-        "Process management",
-        "Knowledge management"
+        "Computer science",
+        "Parsing",
+        "Executable",
+        "Generative grammar",
+        "Automation"
       ],
-      "abstract": "Abstract Construction enterprises face mounting pressures from an aging workforce, rising labor costs, and significant waste generation, yet digital transformation (DT) presents an effective avenue for addressing these challenges and achieving rapid, sustainable growth. While the technical feasibility of digital transformation has been established over the past decade, the configurational logic, i.e., how organizational structures, strategic design, and technical infrastructure collectively interact, remains a critical knowledge gap. To address this gap, this study identifies key antecedents of DT and employs fuzzy-set qualitative comparative analysis to reveal distinct configurations of these antecedents that lead to successful outcomes. This research yields two primary contributions: first, it identifies three effective configurational strategies for successful DT; and second, it pinpoints the critical drivers essential for navigating this complex process. Across all paths, technology and strategy and top-level design consistently appear together as core prerequisites: the talents factor is peripheral absence in Path 1; while organization and digital infrastructure and platform are only peripheral presence in certain paths. Finally, it provides construction enterprises with actionable strategies and a practical framework to leverage these drivers, thereby facilitating DT and enhancing organizational performance.",
+      "abstract": "Automated analysis for engineering structures offers considerable potential for boosting efficiency by minimizing repetitive tasks. Although AI-driven methods are increasingly common, no systematic framework yet leverages Large Language Models (LLMs) for automatic structural analysis. This paper proposes a framework that employs domain-specific prompt design and in-context learning strategies to enhance LLM problem-solving capabilities and generative stability, enabling fully automated structural analysis from descriptive text to model outputs. A small-scale benchmark dataset consisting of 20 structural analysis word problems (SAWPs) is also introduced to evaluate the performance of different LLMs within the proposed framework. The results demonstrate that the proposed approach can increase the level of automation in solving SAWPs compared with traditional methods. Quantitatively, the framework built on GPT-5.4 and GPT-4o both achieved 100% accuracy, outperforming GPT-4 (85%), Gemini 1.5 Pro (80%), and Llama-3.3 (30%) on the test examples. Furthermore, integrating domain-specific instructions enhanced performance by 30% on problems with asymmetrical structural configurations.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4MjI0NDg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4MjI0NDg5fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4NTcwMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4NTcwMzUxfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a computer chip with the letter a on top of it",
         "photographer": "Igor Omilaev",
         "photographer_url": "https://unsplash.com/@omilaev",
@@ -51,12 +51,12 @@
       ],
       "abstract": "Following the global environmental crisis, most countries were committed to mitigating their share of carbon emissions. Hence, several regulations and codes have been implemented in building design and construction in developed countries for decades. In Iran, the 19th topic of the National Building Regulations is the sole code related to energy efficiency in buildings. Approved more than two decades ago, this code is not followed in design or construction. This study investigates the current energy knowledge Iranian architects need to implement building energy codes. A survey-based method and a semi-structured questionnaire are used to collect data. The results identify deficiencies in architects’ energy knowledge and in architectural education. More than 56% of professional architects have limited knowledge of building energy. Meanwhile, 66% of them self-reported that they cannot use building energy simulation tools. Currently, only 12% of companies have employees familiar with energy simulation tools, with more than half of respondents never using such software in their projects. Recommendations are prioritized in short- and long-term actions aligned with stakeholder responsibilities to create a feasible path to raise architectural energy literacy, integrate energy considerations into design projects, and move toward a built environment that complies with the national building energy code.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzg4MjI0NDkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzg4MjI0NDkwfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "A blueprint of a building with a bunch of windows",
+        "url": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzg4NTcwMzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1721244654394-36a7bc2da288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzg4NTcwMzUzfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "Architectural blueprint of a multi-story building",
         "photographer": "Amsterdam City Archives",
         "photographer_url": "https://unsplash.com/@amsterdamcityarchives",
-        "unsplash_url": "https://unsplash.com/photos/a-blueprint-of-a-building-with-a-bunch-of-windows-URnyBZCnlIs"
+        "unsplash_url": "https://unsplash.com/photos/architectural-blueprint-of-a-multi-story-building-9tmKEDz03uw"
       },
       "ck_take": "BIM adoption in developing markets like Ghana hinges less on software and more on aligning stakeholder expectations from day one.",
       "grok_image": ""
@@ -64,28 +64,28 @@
     {
       "group": "DT",
       "group_label": "Digital Twin",
-      "title": "Optimization of Evacuation Strategy for High-Speed Maglev Train Carriages in a Fire",
-      "journal": "Transportation Research Record Journal of the Transportation Research Board",
-      "date": "2026-08-24",
+      "title": "Immersive Augmented Reality storytelling for smart governance and resilient local culture in heritage tourism",
+      "journal": "Journal of Asian Architecture and Building Engineering",
+      "date": "2026-08-27",
       "fwci": 0.0,
       "citations": 0,
-      "oa": false,
-      "doi": "https://doi.org/10.1177/03611981261468745",
+      "oa": true,
+      "doi": "https://doi.org/10.1080/13467581.2026.2724166",
       "keywords": [
-        "Maglev",
-        "Smoke",
-        "Pedestrian",
-        "Visibility",
-        "Engineering"
+        "Augmented reality",
+        "Storytelling",
+        "Cultural heritage",
+        "Heritage tourism",
+        "Citizen journalism"
       ],
-      "abstract": "High-speed maglev train carriages feature an enclosed and narrow space with high passenger density. In the event of a fire, toxic smoke and low visibility prolong the required safe egress time. To dynamically assess fire development and evacuation conditions, this study conducted evacuation experiments in the train carriage under a smoke environment, established a coupled simulation model integrating smoke spread and pedestrian evacuation, revealed evacuee behavioral characteristics under spatiotemporal smoke dynamics, and proposed an optimal strategy considering smoke spread. The findings indicate that the evacuation speed of pedestrians under a smoke environment tends to initially increase, then decrease, and ultimately stabilize. When a fire occurs at the end of the carriage, the evacuation process can be divided into three stages, with an evacuation time of 142 s for pedestrians in the burning carriage. The implementation of evacuation strategies can effectively mitigate the severity and duration of localized congestion inside the carriage. The optimal evacuation strategy considering smoke spread reduces congestion duration in the aisle area by 35.2%, significantly improving evacuation safety. The conclusions drawn from this study provide important references and methodological support for developing efficient emergency evacuation strategies for high-speed maglev trains.",
+      "abstract": "Immersive digital technologies are transforming heritage tourism through more interactive and participatory interpretation models. This research creates and tests ARchive, a mobile augmented reality (AR) storytelling app that aims to combine architectural visualization, narrative immersion, and participatory heritage governance in the historic urban setting of Kampoeng Heritage Kayutangan, Malang, Indonesia. Unlike conventional AR heritage applications that primarily emphasize visualization or usability, this study conceptualizes AR storytelling as a socio-technical interface connecting spatial experience, historical interpretation, and digital heritage governance. The development process involved historical data extraction, narrative scenario formulation, three-dimensional heritage reconstruction, multimedia integration, and mobile AR implementation using Unity and ARFoundation. Empirical evaluation through structured focus group discussions demonstrates that immersive visual representation, interface composition, and narrative interaction significantly enhance visitor engagement, emotional connection, and interpretive understanding of heritage spaces. At the same time, technical limitations related to interaction precision, marker detection stability, and cross-device compatibility remain critical challenges affecting experiential continuity. The findings highlight the importance of integrating visual authenticity, interaction quality, and storytelling mechanisms within a unified immersive environment. This study contributes a transferable framework for narrative-driven AR heritage systems that advances digital conservation practices, participatory interpretation, and smart heritage governance in rapidly developing historic urban contexts.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1522124012782-163815c216f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzg4MjI0NDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1522124012782-163815c216f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzg4MjI0NDUyfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "people walking in the city",
-        "photographer": "Hugh Han",
-        "photographer_url": "https://unsplash.com/@hughhan",
-        "unsplash_url": "https://unsplash.com/photos/people-walking-in-the-city-eT8YmUWJjQ0"
+        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzg4NTcwMzU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzg4NTcwMzU0fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "cars on road during night time",
+        "photographer": "Julia Sadowska",
+        "photographer_url": "https://unsplash.com/@juliasadowska_2000",
+        "unsplash_url": "https://unsplash.com/photos/cars-on-road-during-night-time-5jwu-ppflfY"
       },
       "ck_take": "Simple visual interventions like murals could be a low-cost way to combat driver fatigue in long tunnels — worth embedding in tunnel design standards.",
       "grok_image": ""
@@ -109,12 +109,12 @@
       ],
       "abstract": "River–aquifer interactions play a significant role during floods, yet they are often simplified or neglected in hydrodynamic models. Horizontal infiltration across the riverbed and vertical infiltration through the floodplain jointly contribute to bank storage, delaying and attenuating flood waves. This study presents a conceptual numerical framework that couples 1D surface hydrodynamics, 2D groundwater flow, and a vertical infiltration module to represent these exchanges during overbank flooding. Applied to a simplified lowland river system, the model captures both lateral and vertical flux components and quantifies their contributions to flood wave attenuation. Our findings indicate that, in a 50-km river reach, vertical infiltration through the floodplain accounts for approximately 90% of total bank storage. Total bank storage can contribute up to 4.3% of flow attenuation and reduce peak river water levels by as much as 24 cm. These results highlight the substantial influence of bank storage on extreme flood events and underscore the importance of representing groundwater pathways in flood modelling. The proposed model provides a practical, process-based framework for representing bank storage through a two-way coupled surface water-groundwater formulation with a few physically based parameter set. By explicitly resolving the governing exchange processes, the model enables improved inclusion of bank storage dynamics in flood modelling, while avoiding both simplified loss-type formulations and the complexity of fully multidimensional coupled SW–GW models.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1769697714710-4fce4b88a215?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4ODIyNDQ1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1769697714710-4fce4b88a215?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4ODIyNDQ1NHww&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "Rooftop solar panels partially covered in snow",
-        "photographer": "LEDC",
-        "photographer_url": "https://unsplash.com/@ledc",
-        "unsplash_url": "https://unsplash.com/photos/rooftop-solar-panels-partially-covered-in-snow-XlQetkv28uQ"
+        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4ODU3MDM1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc4ODU3MDM1Nnww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "gray concrete building covered trees",
+        "photographer": "Danist Soh",
+        "photographer_url": "https://unsplash.com/@danist07",
+        "unsplash_url": "https://unsplash.com/photos/gray-concrete-building-covered-trees-dqXiw7nCb9Q"
       },
       "ck_take": "Satellite-based water indices vary widely in semi-arid regions — engineers must calibrate their choice of index to local seasonal conditions before relying on them.",
       "grok_image": ""
@@ -122,27 +122,28 @@
     {
       "group": "Geo",
       "group_label": "Geo",
-      "title": "An experimental study of pipe-soil interaction for free-spanning pipelines subjected to cross-flow VIV in carbonate silty sand",
+      "title": "Numerical evaluation of the motion response of a truss-type aquaculture vessel",
       "journal": "Ocean Engineering",
-      "date": "2026-08-05",
-      "fwci": 3.3902,
-      "citations": 1,
+      "date": "2026-09-01",
+      "fwci": 0.0,
+      "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.oceaneng.2026.127419",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.127853",
       "keywords": [
-        "Pipeline transport",
-        "Geology",
-        "Carbonate",
-        "Geotechnical engineering"
+        "Mooring",
+        "Marine engineering",
+        "Added mass",
+        "Hull",
+        "Morison equation"
       ],
-      "abstract": "This paper presents findings from a series of geotechnical centrifuge tests investigating the vertical cyclic response of a pipeline ‘element’, and form part of a broader study into pipe-soil interaction (PSI) of pipeline segments at a free-span ‘shoulder’. The tests were performed on natural carbonate silty sand from the North West Shelf of Australia. A total of five tests were conducted, examining the influence of cyclic displacement amplitude, static vertical load, initial embedment, and pipe installation method on soil stiffness, soil material damping and embedment under cross-flow Vortex-Induced Vibration (VIV). The results show nonlinearity and dependence on both cyclic amplitude and vertical load, with progressive soil densification and embedment leading to increasing stiffness and reducing damping – but with trends that appear to converge with continued cycling. Comparison with current design guidance DNV-RP-F114 ‘Pipe-Soil Interaction’ (DNV, 2021a) shows broad agreement between these tests and industry practice, although some uncertainty remains over the selection of appropriate soil inputs when undertaking code-based assessments. Experimentally derived damping ratios provide new data for modelling hysteretic soil energy dissipation. Overall, the presented data improve the basis for selecting soil springs and dashpots in free-spanning pipeline assessments.",
+      "abstract": "The hydrodynamic responses and mooring characteristics of an aquaculture vessel are evaluated using the AQWA software based on potential theory and the Morison equation. The numerical accuracy is validated through comparison with experimental data. A frequency-domain analysis is first conducted to obtain the hydrodynamic coefficients and to investigate the effects of the net and bottom plate on the motion responses. The results indicate that the motion amplitudes are more pronounced under low-frequency wave conditions, and the presence of nets increases heave, pitch, and roll responses. The installation of the bottom plates of the truss structure will reduce pitch response but increase heave response. Furthermore, a time-domain analysis is performed for the vessel with a single-point mooring system using the lumped mass method. The influences of the net, draft depth and environmental water depth on the mooring performance are analysed. The findings reveal that the presence of nets amplifies sway and roll motions and increases the maximum mooring force to approximately 1.35 times that of the case without nets. An increase in draft enhances sway but reduces heave motion response. In addition, increasing water depth from 15 m to 30 m reduces the maximum mooring force by about 22%-34%.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1662986817133-50e1e633d965?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4ODIyNDQ1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1662986817133-50e1e633d965?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4ODIyNDQ1NHww&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "a man climbing a rock wall",
-        "photographer": "Marjan Taghipour",
-        "photographer_url": "https://unsplash.com/@marjantaghipour",
-        "unsplash_url": "https://unsplash.com/photos/a-man-climbing-a-rock-wall-BY5YTHVglGI"
+        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4ODU3MDM1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4ODU3MDM1N3ww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "A construction truck inside a dark tunnel with a large ventilation pipe overhead",
+        "photographer": "Ricardo Gomez Angel",
+        "photographer_url": "https://unsplash.com/@rgaleriacom",
+        "unsplash_url": "https://unsplash.com/photos/construction-truck-inside-dark-tunnel-F2iCP_knaj8"
       },
       "ck_take": "Better boulder motion prediction directly reduces structural overdesign in river crossings — this flume data could reshape how engineers size riprap and foundations.",
       "grok_image": ""
@@ -150,28 +151,28 @@
     {
       "group": "Material",
       "group_label": "Material",
-      "title": "Thermal and mechanical behaviour of high-performance concrete incorporating recycled concrete aggregate",
-      "journal": "Construction and Building Materials",
-      "date": "2026-08-04",
-      "fwci": 4.0302,
+      "title": "Development of Self-Healing Cement Mortar Through the Integration of Sodium Silicate-Impregnated Expanded Vermiculite",
+      "journal": "International Journal of Concrete Structures and Materials",
+      "date": "2026-08-11",
+      "fwci": 3.2451,
       "citations": 1,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.conbuildmat.2026.147649",
+      "doi": "https://doi.org/10.1186/s40069-026-00946-w",
       "keywords": [
+        "Vermiculite",
+        "Sodium silicate",
         "Materials science",
-        "Compressive strength",
-        "Flexural strength",
-        "Aggregate (composite)",
-        "Composite material"
+        "Cement",
+        "Coating"
       ],
-      "abstract": "The construction industry contributes substantially to environmental problems through the extraction of non-renewable resources and the generation of construction and demolition waste. In concrete production, replacing natural aggregate with recycled concrete aggregate (RCA) has the potential to improve environmental sustainability. Although RCA is widely recognised as environmentally beneficial, its current use in high-performance concrete (HPC) remains limited because recycled aggregates generally exhibit poorer properties than natural aggregates, particularly in terms of porosity, water absorption, and compressive strength. This study investigates the influence of varying RCA replacement levels (15%, 30%, 50%, 75%, and 100%) and thermal loading of up to 900 °C on the key physico-mechanical properties and microstructural integrity of HPC. The methodology involved the preparation of HPC mixtures incorporating different RCA contents, followed by testing of flexural strength, compressive strength, and bulk density after exposure to thermal loading. The results showed a decline in both strength characteristics with increasing RCA content and temperature. However, certain mixtures, particularly those with 15% and 50% RCA, demonstrated comparable or improved performance under specific conditions. The 15% RCA mixture reached a compressive strength similar to that of the reference mixture after 28 d, while the 50% RCA mixture exhibited better flexural strength retention at 105 °C. Bulk density consistently decreased with increasing RCA content and temperature, with the greatest loss observed in the 100% RCA mixture at 900 °C. These findings clarify the potential and limitations of using RCA in HPC, especially where high-temperature resistance is required. Scanning electron microscopy analysis confirmed that, while internal curing at 105 °C contributed to densification of the interfacial transition zone (ITZ), the ITZ between the adhered mortar and the new cement matrix became the critical failure region at 900 °C. Thermal loading caused cracks to form in this ITZ, with their width increasing by up to four times at 75% RCA replacement. The results identify this ITZ as the weakest link in the structure and show that its degradation directly causes the loss of mechanical integrity of HPC containing RCA at high temperatures.",
+      "abstract": "Cracks in concrete structures are common which compromises its structural integrity, durability, by permitting the penetration of detrimental elements such as water and chemicals, resulting in accelerated deterioration. Over the past decades, extensive research has been conducted to address this problem with the introduction of self-healing concrete. However, existing self-healing approaches often face limitations such as reduced efficiency for wider cracks, limited availability of healing agents, and poor long-term performance. Therefore, there is a need to develop efficient self-healing systems capable of enhancing healing performance without compromising the strength and durability. The current study examined the influence of sodium silicate impregnated expanded vermiculite as a fine aggregate in cement mortar, which can act as a self-healing agent. Here, raw vermiculite heated at a temperature of 1000 ℃, expanded vermiculite, was impregnated with sodium silicate solution using a vacuum impregnation process and, coated with polyvinyl alcohol to prevent premature leakage of sodium silicate during mixing and curing. The coating enables controlled release of the healing agent upon crack formation, thereby enhancing the self-healing efficiency. The fine aggregate is partially substituted with expanded vermiculite and impregnated expanded vermiculite in 5, 10, 15, and 20% proportions. The study evaluated the strength, durability, and crack-healing efficiency of the developed cement mortar. The crack width was examined and assessed at every 7, 28, 56, and 90 days using ImageJ software. Test results revealed that mix containing 15% expanded vermiculite impregnated with sodium silicate (IEV-15) achieved a healing efficiency of 75% within 90 days. Thus, the ideal dosage of expanded vermiculite was determined to be 15% replacement to fine aggregate, indicating improved self-healing efficiency. The improved crack-healing efficiency is attributed to the controlled release of sodium silicate from the expanded vermiculite. Once released, sodium silicate reacts with the available calcium hydroxide in the surrounding cement matrix to form additional C–S–H gel within the crack region, thereby enhancing crack sealing and durability. The study provides insight into the healing mechanism and contributes to the development of efficient self-healing cementitious materials.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1530863506128-dc9eb5c3e0fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg4MjI0NDU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1530863506128-dc9eb5c3e0fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg4MjI0NDU1fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "worm's-eye view photography of rebar",
-        "photographer": "Michael  Bader",
-        "photographer_url": "https://unsplash.com/@badermich1",
-        "unsplash_url": "https://unsplash.com/photos/worms-eye-view-photography-of-rebar-eyq7H7gO0EY"
+        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg4NTcwMzU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzg4NTcwMzU4fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "a black and white photo of a concrete wall",
+        "photographer": "Wesley Tingey",
+        "photographer_url": "https://unsplash.com/@wesleyphotography",
+        "unsplash_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-concrete-wall--Irs24DzLxM"
       },
       "ck_take": "Turning agricultural waste like straw biochar into structural grout components is exactly the kind of circular economy thinking the construction industry needs at scale.",
       "grok_image": ""
@@ -179,28 +180,28 @@
     {
       "group": "Mgmt",
       "group_label": "Management",
-      "title": "From current reality to SDG-driven residential building sector: relationship between retrofit awareness, critical success factors, barriers and implementation",
-      "journal": "Smart and Sustainable Built Environment",
-      "date": "2026-08-29",
+      "title": "Tapping into the Potential of Construction Technologies to Increase the Participation of Women in the Construction Industry",
+      "journal": "Journal of Construction Engineering and Management",
+      "date": "2026-09-03",
       "fwci": 0.0,
       "citations": 0,
-      "oa": true,
-      "doi": "https://doi.org/10.1108/sasbe-03-2026-0226",
+      "oa": false,
+      "doi": "https://doi.org/10.1061/jcemd4.coeng-17774",
       "keywords": [
-        "Stakeholder",
-        "Structural equation modeling",
-        "Business",
-        "Stakeholder engagement",
-        "Compliance (psychology)"
+        "Incentive",
+        "Construction industry",
+        "Empowerment",
+        "Equity (law)",
+        "Public relations"
       ],
-      "abstract": "Purpose Despite the significant benefits of passive retrofitting, various dimensions of awareness, critical success factors (CSFs) and barriers have been examined in isolation by past studies. In this study, however, a relationship is drawn amongst the different dimensions of these variables to promote a successful implementation of passive retrofitting of residential buildings in Lagos, Nigeria. Design/methodology/approach A total of 118 property managers and 163 homeowners were surveyed in Lagos State. The direct, mediating and moderating relationships between the variables were analysed using partial least squares structural equation modelling (PLS-SEM), while the configurational pathways to successful implementation were identified in both groups of stakeholders using fuzzy-set qualitative comparative analysis (fsQCA). Findings The positive association of the perceived importance of passive measures (PIPM) with both resource management and communication (RMAC: β = 0.600, p < 0.001) and project planning and risk management (PPRM: β = 0.355, p < 0.001) can be highlighted. An increased understanding of retrofit benefits was positively associated with financial support and stakeholder engagement (FSSE: β = 0.464, p < 0.001). Also, awareness of retrofit policies was found to be positively associated with PPRM (β = 0.355, p < 0.001) and regulatory compliance and expert involvement (RCEI: β = 0.311, p < 0.001). Amongst all the implementation enabling factors, only RMAC had a weak positive relationship (β = 0.351, p < 0.054). Conversely, for homeowners, PIPM was positively associated with professional expertise and knowledge management (β = 0.328, p < 0.001), PPRM (β = 0.349, p < 0.001) and RMAC (β = 0.377, p < 0.001). Awareness of retrofit benefits (ARB) was positively associated with FSSE (β = 0.277, p < 0.001) and PPRM (β = 0.239, p < 0.016). Furthermore, PPRM (β = 0.382, p < 0.001) and RCEI (β = 0.315, p = 0.005) were positively associated with retrofit implementation intention. The fsQCA results revealed 16 configurational pathways for managers and eight for homeowners. For managers, the minimal presence of institutional/awareness and technical/planning barriers (∼iac, ∼tpc) could be offset by other facilitating conditions. For homeowners, ARB was consistently present in all configurations; PPRM and RCEI were present in most pathways, meaning they compensate for the absence of financial support/stakeholder engagement and RMAC in several pathways. Practical implications Property managers need to improve on the management of resources and communication rather than finding solutions solely in financial instruments. Homeowners can be motivated to retrofit their buildings if financial incentives are guaranteed, professional advice is provided and community-based approaches are used, since mere awareness does not guarantee that action will be taken. Originality/value To the best of the authors’ knowledge, this research is the first empirical attempt to integrate retrofit benefits, policy awareness, perceived importance of measures, CSFs and barriers into a single framework using a two-stakeholder approach in Sub-Saharan Africa, showing that the success of retrofit implementation is not only additive but also configurational.",
+      "abstract": "Abstract Women remain significantly underrepresented in the construction sector, a pattern shaped by persistent structural and cultural barriers. Although digital transformation is reshaping the industry, the potential of adopting technologies to alleviate these gender-related challenges has been largely overlooked. Addressing this critical gap, this study examines how Construction 4.0 innovations can advance gender equity by enhancing women’s participation and empowerment within the construction industry. By employing a Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)-guided systematic literature review of 169 articles, the research identifies 29 technologies deployed across 26 construction tasks. These technologies are categorized as either enabling (supporting women to overcome physical barriers) or enhancing (facilitating women’s advancement in technical and leadership roles). The study adopts a sociomaterial theoretical lens, emphasizing that technology and social structures are coconstitutive. The study posits that digital tools can reinforce or challenge existing gendered divisions of labor depending on how they are embedded within workplace cultures and power relations. These technologies are further analyzed across three job role categories: on-site, off-site, and fluid roles with the most cited technologies being building information modeling (BIM) (63 mentions); augmented, virtual, or mixed reality (AR/VR/MR) (37 mentions); and smart robots (26 mentions). Crucially, the findings reveal that technology’s impact is not automatic; rather, its potential to disrupt exclusionary norms and promote gender equity depends on intentional integration with organizational policies and practices. Implications include investing in inclusive technology training, gender-sensitive design and deployment, and analytics for monitoring diversity, alongside policy incentives that align adoption with organizational change. Future research is needed to empirically test the enabling versus enhancing effects across the job roles and evaluate the longitudinal outcomes of technology in the industry.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1694521787162-5373b598945c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg4MjI0NDU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1694521787162-5373b598945c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg4MjI0NDU2fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "a group of men standing on top of a construction site",
-        "photographer": "Glenov Brankovic",
-        "photographer_url": "https://unsplash.com/@glenovbrankovic",
-        "unsplash_url": "https://unsplash.com/photos/a-group-of-men-standing-on-top-of-a-construction-site-DWp5nUqTn6E"
+        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg4NTcwMzYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzg4NTcwMzYwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "two men working",
+        "photographer": "Etienne Girardet",
+        "photographer_url": "https://unsplash.com/@etiennegirardet",
+        "unsplash_url": "https://unsplash.com/photos/two-men-working-sgYamIzhAhg"
       },
       "ck_take": "Australian construction's risk management maturity gap is a wake-up call — data shows most firms are still reactive rather than proactively managing project risks.",
       "grok_image": ""
@@ -224,12 +225,12 @@
       ],
       "abstract": "The ethical and social implications of smart contracts (SC) in the construction industry are examined, with a particular focus on their interaction with the Joint Contracts Tribunal (JCT) suite of standard forms. Using a qualitative, narrative literature review, this article compares blockchain-enabled automation with established contractual mechanisms, concentrating on payment processes, governance and the role of professional judgement. Although the findings suggest that SC can enhance transparency and payment integrity, especially in a building information modelling enabled environment, they also introduce rigidity, reduce the scope for discretionary decision making and raise concerns regarding fairness, inclusivity and legal certainty. A hybrid model is proposed in which SC complement, rather than replace, JCT mechanisms, preserving relational trust and interpretative flexibility while delivering auditable efficiency where automation adds genuine value. The review draws on peer-reviewed academic literature, industry reports and material relevant to contemporary UK construction practice. Academic databases (Scopus, ScienceDirect, Taylor & Francis Online and the ICE Virtual library) were searched using targeted keywords. Sources were selected based on relevance, academic rigour and recency, with priority given to publications from the past decade.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1655393001768-d946c97d6fd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4ODIyNDQ1OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1655393001768-d946c97d6fd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4ODIyNDQ1OHww&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "white robotic arm in display showroom",
-        "photographer": "ZHENYU LUO",
-        "photographer_url": "https://unsplash.com/@mrnuclear",
-        "unsplash_url": "https://unsplash.com/photos/white-robotic-arm-in-display-showroom-kE0JmtbvXxM"
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4ODU3MDM2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4ODU3MDM2MXww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "a factory filled with lots of orange machines",
+        "photographer": "Simon Kadula",
+        "photographer_url": "https://unsplash.com/@simonkadula",
+        "unsplash_url": "https://unsplash.com/photos/a-factory-filled-with-lots-of-orange-machines-8gr6bObQLOI"
       },
       "ck_take": "Automated robotic reuse of old RC elements could slash demolition waste — this is the missing link between circular economy ambitions and real construction practice.",
       "grok_image": ""
@@ -237,28 +238,28 @@
     {
       "group": "Sensing",
       "group_label": "Sensing",
-      "title": "Cable Tension Identification for Short Cables with Added Mass Based on Single-point Measurement",
-      "journal": "International Journal of Structural Stability and Dynamics",
-      "date": "2026-08-27",
+      "title": "Chromatic organization of historic streetscape segments along the Yellow River in Lanzhou: a semi-quantitative street-level image-based study",
+      "journal": "Journal of Asian Architecture and Building Engineering",
+      "date": "2026-09-03",
       "fwci": 0.0,
       "citations": 0,
-      "oa": false,
-      "doi": "https://doi.org/10.1142/s0219455427504992",
+      "oa": true,
+      "doi": "https://doi.org/10.1080/13467581.2026.2727834",
       "keywords": [
-        "Vibration",
-        "Accelerometer",
-        "Acoustics",
-        "Hinge",
-        "Robustness (evolution)"
+        "Chromatic scale",
+        "Geography",
+        "Harmony (color)",
+        "Cartography",
+        "Natural (archaeology)"
       ],
-      "abstract": "For short cables with complex boundary conditions, the frequency-based method for cable tensionidentification relying on string/beam theoretical models yields significant errors. The introduction of the concept of Effective Vibration Length(EVL) allows the frequency method to circumvent the influence of boundary conditions. To address the limitations in EVL identification, this paper proposes a single-point measurement-based cable tensionidentification method for short cables under addedmass conditions. Its core advantages are simplifying the acceleration sensor for vibration signal acquisition and eliminating the original methods reliance on mode shape calculation to determine virtual hinges. During optimization, a length segment is selected and divided into multiple virtual hinge points; effective vibration lengths corresponding to these points are calculated under various mass conditions to generate a virtual hingeeffective vibration length diagram. Leveraging the invariant virtual hinge position and effective vibration length across different conditions, the true optimal effective vibration length is locked via curve intersections, enabling high-precision cable tensionidentification with a single sensor and without exact boundary conditions. Numerical simulations validate the robustness and accuracy of the method. Under various complex boundary conditions and mass block arrangements, the relative error in cable tension identification is generally below 3%, demonstrating good engineering adaptability. A full-scale indoor experiment further confirms that in a short cable with unknown boundaries, using only single-point accelerometer measurements and two added mass block conditions, the cable tension identification error is as low as 1.15%.",
+      "abstract": "This study examines the chromatic organization of historic streetscape segments along the Yellow River in Lanzhou from a street-level visual perspective. Rather than providing a comprehensive assessment of the entire corridor, it adopts a semi-quantitative and interpretive comparative case-study approach based on five typical sampled segments. Field-collected street-level images were used for major interface extraction, representative CIELAB sampling, mask-based calculation of dominant/secondary/auxiliary (D/S/A) area proportions, relative color-harmony assessment, and segment-based interpretation of streetscape environmental conditions. The results show that all five segments share a stable low-saturation chromatic base, with dominant areas accounting for more than 60% of extracted D/S/A interface areas. Differences among segments are shaped by the coherence of dominant interfaces, foreground–middle-ground–background continuity, and integration of localized auxiliary elements. S1 shows the strongest harmony, S3 performs well through stable natural background participation, S2 and S5 occupy intermediate positions, and S4 shows weaker harmony because of heterogeneous dominant interfaces and less stable spatial hierarchy. The study provides exploratory, case-specific evidence for understanding color organization in a composite riverfront historic environment and informs streetscape color management.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1776761916500-f639da084b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4MjI0NDU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1776761916500-f639da084b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4MjI0NDU5fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "A yellow medical sensor attached to a person's arm",
-        "photographer": "Salahuddin Ahmed",
-        "photographer_url": "https://unsplash.com/@saladinazad",
-        "unsplash_url": "https://unsplash.com/photos/a-yellow-medical-sensor-attached-to-a-persons-arm-tIEsUnmLaKY"
+        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4NTcwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzg4NTcwMzYyfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "a monitor is on a stand in a room",
+        "photographer": "Trnava University",
+        "photographer_url": "https://unsplash.com/@trnavskauni",
+        "unsplash_url": "https://unsplash.com/photos/a-monitor-is-on-a-stand-in-a-room-PoEbadI3mQQ"
       },
       "ck_take": "Post-Brumadinho, accelerometer-based dynamic monitoring is no longer optional — it's the most reliable early warning system we have for preventing dam failures.",
       "grok_image": ""
@@ -266,28 +267,28 @@
     {
       "group": "Structural",
       "group_label": "Structural",
-      "title": "Axial compressive behavior and failure mechanisms of ECC-strengthened brick masonry columns with different joint materials",
-      "journal": "Case Studies in Construction Materials",
-      "date": "2026-08-03",
-      "fwci": 3.3082,
-      "citations": 1,
+      "title": "Moment capacity of back-to-back cold-formed steel channel bolted joints: An experimentally validated design approach",
+      "journal": "Engineering Structures",
+      "date": "2026-09-03",
+      "fwci": 0.0,
+      "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.cscm.2026.e06374",
+      "doi": "https://doi.org/10.1016/j.engstruct.2026.123664",
       "keywords": [
-        "Joint (building)",
         "Structural engineering",
-        "Masonry",
-        "Materials science",
-        "Compressive strength"
+        "Bolted joint",
+        "Parametric statistics",
+        "Joint (building)",
+        "Moment (physics)"
       ],
-      "abstract": "Brick masonry columns with weak joint materials are prone to brittle splitting under axial compression, and engineered cementitious composites (ECC), owing to their multiple cracking and fiber bridging capacities, provide a promising material solution for improving their integrity and deformation capacity. However, the strengthening effectiveness of ECC depends strongly on the joint material of the masonry core and the cooperative behavior between the ECC layer and the masonry core. This study investigates the axial compressive behavior and failure mechanisms of ECC-strengthened brick masonry columns with different joint materials. Twelve short-column specimens were designed and tested under monotonic axial compression, including mud-jointed brick masonry columns (MBMCs), ECC-strengthened mud-jointed brick masonry columns (ECC-MBMCs), cement mortar-jointed brick masonry columns (CMBMCs), and ECC-strengthened cement mortar-jointed brick masonry columns (ECC-CMBMCs). The failure process, bearing capacity, deformation behavior, load–displacement response, load–strain behavior, and bearing capacity calculation method were analyzed. The results show that ECC strengthening significantly improved the behavior of MBMCs. Compared with MBMCs, the average bearing capacity and peak deformation capacity of ECC-MBMCs increased by 131.84% and 39.67%, respectively, and the ultimate deformation capacity increased by approximately four times. The failure mechanism revealed that ECC strengthening changed MBMCs from sudden brittle splitting to ductile failure with post-peak load fluctuations caused by progressive bulging-induced interfacial debonding of the ECC layer. For CMBMCs, ECC strengthening increased the average bearing capacity by 35.81%, but the ductility improvement was limited because interfacial shear stress induced premature debonding of the ECC layer after cracking of the masonry core. A modified bearing capacity model considering fiber bridging and bulging-induced interfacial debonding was proposed. The prediction error for ECC-MBMCs decreased from −25.15% to −7.73%, indicating improved prediction accuracy. Based on the limited experimental data in this study, a conservative bulging-induced interfacial debonding coefficient of 0.35 is recommended as a preliminary value for design-oriented calculations.",
+      "abstract": "Cold-formed steel (CFS) bolted joints formed with back-to-back channel sections are widely used in portal frame construction due to their efficiency and ease of fabrication. However, the discrete force transfer between individual channels produces non-uniform stress distributions within the joint region, leading to localised stress concentrations, shear lag effects, bimoment-induced stresses due to restrained warping, and premature web buckling. These effects can reduce the moment capacity of typical joints by up to 40% compared with the nominal capacity of the connected members; however, this reduction is not explicitly addressed in current CFS design standards, including AISI S100, AS/NZS 4600, and EN 1993–1–3, which treat member and joint capacities independently. To address this gap, this paper presents a comprehensive experimental and parametric investigation to quantify the capacity reduction in CFS bolted joints and provide a reliable design method for practical applications. A detailed finite element (FE) model was first developed and validated against experimental results from CFS portal frame joint tests. Subsequently, an extensive parametric study comprising over 3400 FE simulations was performed to capture the influence of cross-sectional non-dimensional slenderness, as well as a wide range of geometric, material, and joint parameters. Based on these findings, a simplified design equation is proposed to enable reliable prediction of the reduced moment capacity of back-to-back channel bolted joints. The application of the proposed design equation is then verified against both numerical and experimental results of CFS frames, demonstrating excellent accuracy, with predictions within 1–3% of the actual capacities on average and coefficients of variation ranging from 0.06 to 0.09.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1593460622437-4f00208ae4e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4ODIyNDQ2MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1593460622437-4f00208ae4e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4ODIyNDQ2MHww&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "white and blue bridge over blue sea during daytime",
-        "photographer": "Daniel Costa",
-        "photographer_url": "https://unsplash.com/@danielpcosta",
-        "unsplash_url": "https://unsplash.com/photos/white-and-blue-bridge-over-blue-sea-during-daytime-HAcGmaV1RYg"
+        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4ODU3MDM2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc4ODU3MDM2NHww&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "Orange illuminated steel girders of Tokyo Tower against a dark night sky",
+        "photographer": "Alain Pham",
+        "photographer_url": "https://unsplash.com/@alain_pham",
+        "unsplash_url": "https://unsplash.com/photos/tokyo-tower-steel-girders-at-night-P_qvsF7Yodw"
       },
       "ck_take": "Stochastic floor load modeling reveals that design codes are often too conservative — getting this right could significantly cut embodied carbon in new office buildings.",
       "grok_image": ""
@@ -295,28 +296,28 @@
     {
       "group": "Vision",
       "group_label": "Vision",
-      "title": "Parallel Dual-Level Attention-Enhanced Semantic Segmentation of 3D Point Clouds in Tunnel Construction",
-      "journal": "Journal of Computing in Civil Engineering",
-      "date": "2026-08-25",
+      "title": "Assessing the Impact of Intersection Geometry and Driver Eye Position on A-Pillar-Induced Pedestrian Occlusion during Left Turns",
+      "journal": "Transportation Research Record Journal of the Transportation Research Board",
+      "date": "2026-08-31",
       "fwci": 0.0,
       "citations": 0,
-      "oa": false,
-      "doi": "https://doi.org/10.1061/jccee5.cpeng-7706",
+      "oa": true,
+      "doi": "https://doi.org/10.1177/03611981261476656",
       "keywords": [
-        "Segmentation",
-        "Point cloud",
-        "Computer science",
-        "Abstraction",
-        "Convolutional neural network"
+        "Intersection (aeronautics)",
+        "Visibility",
+        "Pedestrian",
+        "Position (finance)",
+        "Computer vision"
       ],
-      "abstract": "Abstract Drill-and-blast is the primary method used for constructing mountain tunnels in China. The tunnel face area contains rich geological and structural information, necessitating high-precision semantic segmentation to support automated measurement during the construction process. This paper proposes PDAPointNet++, a novel network for semantic segmentation of point clouds in tunnel construction scenarios. The method introduces three key innovations: (1) a parallel dual-level attention module (PDAM) to enhance spatial and channel feature focus; (2) integration of PDAM into the set abstraction and feature propagation layers; and (3) a weighted dice focal loss (WDFL) to address data imbalance. Validated on real tunnel data, PDAPointNet++ outperforms models such as PointNet, PointNet++, PointMLP, and dynamic graph convolutional neural network (DGCNN). From the perspective of practical engineering applications, the accuracy of the segmentation results is further verified through rock mass discontinuity measurement on the tunnel face, and the impact of different WDFL balancing coefficients on model performance is discussed.",
+      "abstract": "Left-turn maneuvers are among the most hazardous intersection movements due to conflicts with oncoming vehicles and crossing pedestrians. Existing traffic standards rely mainly on vehicle volumes and collision history, overlooking how intersection geometry and driver seating position affect pedestrian visibility. Without protected left-turn phases, pedestrians remain especially vulnerable where A-pillar obstructions impair the driver’s line of sight. This study examines the relationship between intersection geometric configurations and driver eye positions and their effect on pedestrian visibility losses caused by A-pillar occlusion during left turns. A microscopic simulation framework was developed using 3D point clouds from 198 left-turn movements in Edmonton, Alberta, integrating 25 driver eye positions per movement to capture realistic seating variability. Ray-tracing methods were applied to quantify A-pillar occlusion and regions outside the driver’s field of view. Occlusion metrics were analyzed in relation to the geometric features, including the lateral distance to the left-turning vehicle, crossing width, and pedestrian crossing length. Results revealed that larger adjacent widths reduced maximum A-pillar blind zones but increased average occlusion, while longer crosswalks decreased average A-pillar occlusions but expanded the area outside the driver’s field of view. Driver eye position significantly influenced occlusion, with positions farther back reducing A-pillar obstruction and positions forward and upward increasing it, resulting in approximately 11% change in average occlusion and 21% in maximum occlusion. These findings underscore the influence of intersection geometry and driver seating position on pedestrian visibility and offer a data-driven foundation for proactive intersection design, especially where volume-based criteria may overlook safety risks.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzg4MjI0NDYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzg4MjI0NDYwfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "assorted-color security cameras",
-        "photographer": "Lianhao Qu",
-        "photographer_url": "https://unsplash.com/@lianhao",
-        "unsplash_url": "https://unsplash.com/photos/assorted-color-security-cameras-LfaN1gswV5c"
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzg4NTcwMzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzg4NTcwMzY1fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "Two white security cameras mounted on a pole against a clear blue sky",
+        "photographer": "Michał Jakubowski",
+        "photographer_url": "https://unsplash.com/@jaqbovsky",
+        "unsplash_url": "https://unsplash.com/photos/security-cameras-on-pole-against-sky-oQD9uq4Rd4I"
       },
       "ck_take": "Video-based vibration monitoring that compensates for camera shake could finally make noncontact structural health monitoring practical on real job sites.",
       "grok_image": ""
