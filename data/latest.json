@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T10:06:44.475864",
-  "date_from": "2026-08-06",
+  "generated_at": "2026-09-06T10:01:04.846137",
+  "date_from": "2026-08-07",
   "total": 11,
   "papers": [
     {
@@ -122,21 +122,21 @@
     {
       "group": "Geo",
       "group_label": "Geo",
-      "title": "Numerical evaluation of the motion response of a truss-type aquaculture vessel",
-      "journal": "Ocean Engineering",
-      "date": "2026-09-01",
+      "title": "Development and Validation of a Seismic Design Method for Anchored Retaining Walls",
+      "journal": "Earthquake Engineering & Structural Dynamics",
+      "date": "2026-09-03",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.oceaneng.2026.127853",
+      "doi": "https://doi.org/10.1002/eqe.70290",
       "keywords": [
-        "Mooring",
-        "Marine engineering",
-        "Added mass",
-        "Hull",
-        "Morison equation"
+        "Geology",
+        "Development (topology)",
+        "Seismic analysis",
+        "Engineering",
+        "Structural engineering"
       ],
-      "abstract": "The hydrodynamic responses and mooring characteristics of an aquaculture vessel are evaluated using the AQWA software based on potential theory and the Morison equation. The numerical accuracy is validated through comparison with experimental data. A frequency-domain analysis is first conducted to obtain the hydrodynamic coefficients and to investigate the effects of the net and bottom plate on the motion responses. The results indicate that the motion amplitudes are more pronounced under low-frequency wave conditions, and the presence of nets increases heave, pitch, and roll responses. The installation of the bottom plates of the truss structure will reduce pitch response but increase heave response. Furthermore, a time-domain analysis is performed for the vessel with a single-point mooring system using the lumped mass method. The influences of the net, draft depth and environmental water depth on the mooring performance are analysed. The findings reveal that the presence of nets amplifies sway and roll motions and increases the maximum mooring force to approximately 1.35 times that of the case without nets. An increase in draft enhances sway but reduces heave motion response. In addition, increasing water depth from 15 m to 30 m reduces the maximum mooring force by about 22%-34%.",
+      "abstract": "ABSTRACT Retaining walls with multiple anchor levels are widely used as permanent excavation support systems for the construction of linear infrastructures. Yet, their seismic behaviour remains largely unexplored, and current design approaches rely on conventional procedures that do not adequately reflect the actual dynamic response of these systems. This paper addresses this gap by introducing a rational framework for the seismic design of multi‐anchored retaining walls based on a reliable prediction of their dynamic performance. A high‐fidelity numerical benchmark is first developed, consisting of a series of nonlinear dynamic analyses of a case study carried out using the OpenSees finite element framework. The resulting response is then reproduced using a practice‐oriented model with a clear physical basis and negligible computational cost. The comparison shows that the simplified method is able to capture the seismic response of the retaining structure with reasonable accuracy, while providing useful insight into the governing dynamic mechanisms. The robustness of the approach is further supported by its successful application to a second, independent case study. Overall, the results indicate that the proposed simplified method represents a promising tool for the seismic design of multi‐anchored retaining structures.",
       "image": {
         "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4ODU3MDM1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc4ODU3MDM1N3ww&ixlib=rb-4.1.0&q=80&w=200",
@@ -209,21 +209,21 @@
     {
       "group": "Robot",
       "group_label": "Robotics",
-      "title": "Ethical and social implications of smart contracts in construction: comparison with Joint Contracts Tribunal procedures",
-      "journal": "Proceedings of the Institution of Civil Engineers - Civil Engineering",
-      "date": "2026-06-27",
-      "fwci": 19.2103,
-      "citations": 1,
+      "title": "Structural Analysis, CAD, and Design Optimization for the Oosterweelknoop Tunnel Connection, Antwerp",
+      "journal": "Advances in Structural Engineering",
+      "date": "2026-09-04",
+      "fwci": 0.0,
+      "citations": 0,
       "oa": false,
-      "doi": "https://doi.org/10.1680/jcien.25.00559",
+      "doi": "https://doi.org/10.1201/9781003797012-59",
       "keywords": [
-        "Transparency (behavior)",
-        "Tribunal",
-        "Payment",
-        "Scope (computer science)",
-        "Flexibility (engineering)"
+        "Workflow",
+        "Constructability",
+        "Engineering",
+        "Design–build",
+        "Automation"
       ],
-      "abstract": "The ethical and social implications of smart contracts (SC) in the construction industry are examined, with a particular focus on their interaction with the Joint Contracts Tribunal (JCT) suite of standard forms. Using a qualitative, narrative literature review, this article compares blockchain-enabled automation with established contractual mechanisms, concentrating on payment processes, governance and the role of professional judgement. Although the findings suggest that SC can enhance transparency and payment integrity, especially in a building information modelling enabled environment, they also introduce rigidity, reduce the scope for discretionary decision making and raise concerns regarding fairness, inclusivity and legal certainty. A hybrid model is proposed in which SC complement, rather than replace, JCT mechanisms, preserving relational trust and interpretative flexibility while delivering auditable efficiency where automation adds genuine value. The review draws on peer-reviewed academic literature, industry reports and material relevant to contemporary UK construction practice. Academic databases (Scopus, ScienceDirect, Taylor & Francis Online and the ICE Virtual library) were searched using targeted keywords. Sources were selected based on relevance, academic rigour and recency, with priority given to publications from the past decade.",
+      "abstract": "The Oosterweelknoop connection in Antwerp is a key component of the Oosterweel Link, a major infrastructure initiative to complete the Antwerp Ring. Commissioned by Rinkoniên, WSP was responsible for the detailed structural design and digital coordination of the tunnel network. The tunnel elements were analysed using SCIA Engineering software, aligned with Eurocode requirements. The combination of complex geometry, staged‑construction effects, and varied load cases necessitated a rigorous analytical approach to ensure accurate prediction of both short- and long-term behaviour. Key ULS/SLS checks were completed and reported. A key focus of the design was structural rebar optimisation, to manage reinforcement congestion and optimise bar layouts while maintaining constructability under tight programme constraints. Autodesk Revit served as the central platform for reinforced concrete modelling. Due to the high reinforcement density, Dynamo scripts enhanced with Python automation were used to improve project efficiency and detailing accuracy. Project delivery benefited from Autodesk Construction Cloud (BIM 360), which streamlined design reviews, issue management, and version control for WSP teams internationally. Communication with the client was facilitated by the Lantis platform, providing clear visualisations and data outputs. The Oosterweelknoop project highlights the significant value of integrated design tools, automation and global collaboration. This paper outlines the engineering methodologies and digital workflows applied, with emphasis on Structural Analysis, Computer-Aided Design (CAD), and Structural Optimization.",
       "image": {
         "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4ODU3MDM2MXww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc4ODU3MDM2MXww&ixlib=rb-4.1.0&q=80&w=200",
