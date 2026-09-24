@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T10:01:24.086539",
-  "date_from": "2026-08-24",
+  "generated_at": "2026-09-24T10:01:20.989930",
+  "date_from": "2026-08-25",
   "total": 11,
   "papers": [
     {
@@ -9,7 +9,7 @@
       "title": "Integrating large language models for automated structural analysis",
       "journal": "Automation in Construction",
       "date": "2026-09-01",
-      "fwci": 28.0319,
+      "fwci": 27.7972,
       "citations": 3,
       "oa": true,
       "doi": "https://doi.org/10.1016/j.autcon.2026.107215",
@@ -122,21 +122,21 @@
     {
       "group": "Geo",
       "group_label": "Geo",
-      "title": "Experimental study on early scour resistance of solidified sludge for protection of tripod suction bucket foundations",
-      "journal": "Marine Structures",
-      "date": "2026-09-21",
+      "title": "Machine-learning-improved tide–wave simulations and joint extreme analysis for wave energy assessment in the Taiwan Strait",
+      "journal": "Ocean Engineering",
+      "date": "2026-09-23",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.marstruc.2026.104235",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.128225",
       "keywords": [
-        "Geotechnical engineering",
-        "Flume",
-        "Submarine pipeline",
-        "Engineering",
-        "Geology"
+        "Joint (building)",
+        "Geology",
+        "Rogue wave",
+        "Energy (signal processing)",
+        "Wind wave"
       ],
-      "abstract": "Using dredged marine sludge as a scour-protection material offers a route to reuse waste while protecting offshore foundations, but its early-age resistance under hydrodynamic loading remains insufficiently quantified. This study evaluates a novel five-component binder system (cement, fly ash, slag powder, silica fume, and PAM) for tripod suction bucket foundations. Incipient-velocity tests and flume tests were conducted to examine stabilizer proportion (5%–20%), water-to-material ratio (60%–70%), and early curing time (2–64 h). Incipient shear stress reached 8.24 Pa at 16 h for 20% stabilizer proportion and a 65% water-to-material ratio. Performance generally increased with stabilizer proportion and curing time, whereas the water-to-material ratio showed a non-monotonic response with the best performance near 65%. Flume tests showed a progressive failure sequence from surface erosion to boundary block detachment and localized scour behind the rear buckets; a 2.5D protection radius reduced maximum scour depth by 87.1%. A preliminary multiple-linear-regression model was incorporated into an LRFD-based scour framework to link material resistance with scour development within the tested parameter range. These results provide early-age design information for solidified dredged sludge used as scour protection.",
+      "abstract": "High-accuracy environmental characterization is essential for reliable mooring system design and safety assessment of wave energy converters (WECs). This study employed the Finite-Volume Community Ocean Model (FVCOM) and Simulating Waves Nearshore (SWAN) to simulate tidal and wave conditions over 2005–2024. Holland-type typhoon wind fields were constructed for 197 historical typhoons during this interval. Bagged Regression Trees (BRT) machine learning model corrected modeled surface current velocity, significant wave height (H s ), and mean wave period (T m ) to enhance fidelity, reducing RMSEs by 45.5%, 32.5%, and 52.7%. Extreme environmental parameters were estimated using univariate statistics for current velocity and bivariate copula models for wave-period and wave-wind dependence. A floating oscillating water column (FOWC) was modeled in ANSYS/AQWA to evaluate the maximum mooring tension under a comprehensive range of environmental loading scenarios. Results indicate that the BRT model demonstrates a corrective effect in both cross-typhoon and cross-station validations, as well as in multi-year typhoon “leave-one-typhoon-out” cross-validation. Compared with univariate approach, copula-based modeling reduced 50-year return values by 0.32 m and 0.30 s for wave-period and by 0.52 m and 1.92 m/s for wave-wind. Furthermore, the environmental condition corresponding to the highest joint probability density does not necessarily yield the maximum mooring response.",
       "image": {
         "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MDEyNTIzOXww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MDEyNTIzOXww&ixlib=rb-4.1.0&q=80&w=200",
@@ -238,21 +238,21 @@
     {
       "group": "Sensing",
       "group_label": "Sensing",
-      "title": "UTILIZATION OF IOT TECHNOLOGY FOR REAL-TIME MONITORING OF CONCRETE DEFORMATION USING SURFACE-MOUNTED STRAIN GAUGES",
-      "journal": "International Journal of Geomate",
-      "date": "2026-09-20",
+      "title": "A hybrid Fuzzy–PSO framework for across-track radiometric beam pattern extraction from multi-sector multibeam backscatter",
+      "journal": "Ocean Engineering",
+      "date": "2026-09-22",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.21660/2026.145.5656",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.128099",
       "keywords": [
-        "Internet of Things",
-        "Deformation (meteorology)",
-        "Deformation monitoring",
-        "Strain gauge",
-        "Strain (injury)"
+        "Backscatter (email)",
+        "Remote sensing",
+        "Optics",
+        "Extraction (chemistry)",
+        "Beam (structure)"
       ],
-      "abstract": "Shrinkage and creep of concrete are major causes of cracking, load capacity reduction, and shortened service life of structures. Traditional monitoring methods are often discontinuous, expensive, and unable to detect early anomalies. This paper presents the design, fabrication, and pilot validation of a real‑time concrete deformation monitoring system using Internet of Things (IoT) technology with a resistive strain gauge directly attached to the specimen surface. The system comprises KC‑70‑120‑A1‑11 strain gauges, NTC 10K temperature sensors, an ESP32 microcontroller, and an MQTT server. A detailed experimental procedure was carried out on three prismatic concrete specimens (100×100×400 mm; n = 3). Results over 28 days showed a shrinkage strain of 245.8 με, a creep coefficient φ = 1.292, and an average error of 4.5% compared to the CEB‑FIP 2010 model. As a pilot observation on one poorly cured specimen (M3), the system detected abnormal deformation (cracking) 42 hours earlier than manual visual inspection. Due to the small sample size, these findings should be considered preliminary; further validation with larger sample sizes and reference instruments (e.g., LVDT) is necessary. This study demonstrates a low‑cost IoT application direction for structural health monitoring in laboratory and pilot field conditions.",
+      "abstract": "Radiometric correction of multibeam echosounder (MBES) backscatter is critical for quantitative seabed interpretation. MBES beam patterns are pre-calibrated but drift over time. Hiroji’s framework extracts relative beam patterns from measured data by separating seafloor angular response from system response, performing well under large roll and pitch. However, under limited roll variation, the retrieved across-track pattern suffers from discontinuities, gain jumps, and stitching errors at sector boundaries. To improve stability, we propose a hybrid Fuzzy–PSO soft-computing framework. It preserves the GRA–SRA separation principle, replaces hard-threshold outlier rejection with fuzzy reliability weighting, and replaces local common-GRA offset estimation followed by chain-wise stitching with PSO-based global alignment. In this paper, we conduct a 2 2 ablation experiment using Kongsberg EM2040 field datasets to evaluate the individual and coupled effects of the two modules and explore the applicability boundaries of the proposed framework, specifically that under severe conflicting boundary constraints, improving the dominant boundary may lead to degradation of secondary-boundary consistency. Furthermore, generalization validation was conducted on 32 datasets spanning different platforms, water depths, and sea-state conditions, and the experimental results show that the dominant-boundary consistency improvement rate surpasses 90% for low-to-medium baseline cases, while retaining about 50% positive improvement even under severe fracture scenarios. Additionally, sensitivity analysis uncovers a complementary interplay between the smoothness weight λ and the Huber threshold δ , which guarantees robust repair performance across an extensive parameter space. The framework effectively preserves intra-sector radiometric patterns without introducing noticeable statistical noise or nonphysical fluctuations. 2D backscatter imagery correction on the representative dataset demonstrates that the framework effectively suppresses systematic intensity variations while preserving textural features of seafloor morphology and geology.",
       "image": {
         "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkwMTI1MjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkwMTI1MjQyfDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -267,21 +267,21 @@
     {
       "group": "Structural",
       "group_label": "Structural",
-      "title": "A two-tier SHM framework for nonlinear identification of friction pendulum isolators in base-isolated buildings",
-      "journal": "Engineering Structures",
-      "date": "2026-08-27",
-      "fwci": 2.8261,
+      "title": "Experimental Investigation on Seismic Retrofitting Scheme of Using Self-Centering Damping Braces for Deficient RC Frames",
+      "journal": "Journal of Structural Engineering",
+      "date": "2026-08-26",
+      "fwci": 2.7942,
       "citations": 1,
-      "oa": true,
-      "doi": "https://doi.org/10.1016/j.engstruct.2026.123645",
+      "oa": false,
+      "doi": "https://doi.org/10.1061/jsendh.steng-16465",
       "keywords": [
-        "Isolator",
-        "Nonlinear system",
-        "Vibration isolation",
-        "Finite element method",
-        "Parametric statistics"
+        "Retrofitting",
+        "Structural engineering",
+        "Residual",
+        "Connection (principal bundle)",
+        "Frame (networking)"
       ],
-      "abstract": "This paper presents a structural health monitoring (SHM)–oriented framework for the nonlinear identification of friction pendulum isolators in a real base isolated school building. Based on a parametric investigation carried out for this study, which identifies the high-speed friction coefficient and the stiffness parameter as the most influential variables governing isolator deformations and base shear, the proposed identification strategy focuses on the high-speed friction coefficient while assuming the linear stiffness properties to be known from independent calibration using ambient vibration data. A detailed three-dimensional finite element model is paired with a condensed representation characterized by a limited number of degrees of freedom, where the isolation system is replaced by a single equivalent FP isolator. A genetic algorithm–based identification procedure is first applied to the full finite element model, accurately recovering the family-wise high-speed friction coefficients and reproducing target accelerations and isolator deformations with very small discrepancies, even in the presence of realistic Gaussian noise. The same optimization framework is then applied to a condensed model with only few degrees of freedom, where the isolation system is represented by a single equivalent FP isolator and the search space is reduced to two decision variables, one for each horizontal direction. The results show that the simplified model retains sufficient accuracy, yielding response histories comparable to those of the full model while requiring only about 6% of the corresponding computational time. This makes the condensed model suitable for rapid event-by-event updating, whereas the detailed FE model is reserved for less frequent in-depth analyses when significant changes are detected.",
+      "abstract": "Abstract Many deficient reinforced concrete (RC) frames have been damaged in recent earthquakes, suggesting that their collapse prevention capacity should be improved. Conventional braces can efficiently improve structural strength and damping capacity, but they may not necessarily address after-event functional recovery. In contrast, self-centering damping braces (SCDBs) are emerging as a more versatile solution. However, experimental investigations on this solution are rarely found, although the feasibility has been discussed by some numerical studies. In this experimental study, pseudo-static cyclic loading tests were conducted to verify the retrofitting scheme of using SCDBs for deficient RC frames. Considering that the connection between braces and frame is critical to retrofitting efficacy, this study explored the feasibility of using a group of postinstalled chemical anchors to fix the brackets. The test results showed that the suggested connection activated the SCDBs at small drifts and the chemical anchors remained intact until 5% drift. Compared with the original frame, the retrofitted frame had increased lateral strength, higher energy-dissipating capacity, and reduced residual deformations. In addition, due to the restraining effects provided by the anchor brackets, the occurrence and propagations of concrete cracks at the column bases were well delayed in the retrofitted frame.",
       "image": {
         "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc5MDEyNTI0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc5MDEyNTI0M3ww&ixlib=rb-4.1.0&q=80&w=200",
