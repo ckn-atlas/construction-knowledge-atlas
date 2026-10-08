@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T10:00:52.719003",
-  "date_from": "2026-09-07",
+  "generated_at": "2026-10-08T10:00:53.463441",
+  "date_from": "2026-09-08",
   "total": 11,
   "papers": [
     {
@@ -9,7 +9,7 @@
       "title": "A data-driven approach for learning traffic assignment using an artificial neural network",
       "journal": "Proceedings of the Institution of Civil Engineers - Transport",
       "date": "2026-09-26",
-      "fwci": 7.1231,
+      "fwci": 6.7258,
       "citations": 1,
       "oa": false,
       "doi": "https://doi.org/10.1680/jtran.25.00136",
@@ -80,8 +80,8 @@
       ],
       "abstract": "Accurate modelling and experimental characterization of railway coupling devices are essential to reliably estimate the maximum longitudinal compressive and tensile forces to which a trainset is subjected. These estimates are paramount to ensure safe and efficient operations, particularly for longer and heavier freight trains. However, traditional testing of couplers is based on simple, standardized tests which fail to correctly reproduce their behaviour under realistic conditions. Moreover, these methodologies cannot be easily interfaced with numerical simulation tools. This paper presents the design and development of an innovative test bench for the experimental analysis of several types of railway couplers. The test bench can actuate a moving frame with two translational and one rotational degree of freedom in the horizontal plane, allowing indoor reproduction of relative motions between adjacent wagons. The bench is compatible with both conventional buffer-and-hook systems and Digital Automatic Couplers (DACs) and is equipped with a comprehensive measurement system for forces, moments, and displacements. The effects of uncertainties on the measurement setup are also discussed. The capabilities of the test bench are assessed through an experimental campaign on a standard UIC coupling system assembly, including compression and traction tests up to realistic load levels and an open-loop simulation of a trainset negotiating a double switch. The proposed test bench represents a flexible and effective tool for advanced experimental characterization of railway couplers and a solid basis for future Hardware-in-the-Loop based longitudinal dynamics investigations.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkxMzM0ODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkxMzM0ODIxfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkxNDIxMjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkxNDIxMjIxfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "cars on road during night time",
         "photographer": "Julia Sadowska",
         "photographer_url": "https://unsplash.com/@juliasadowska_2000",
@@ -122,21 +122,21 @@
     {
       "group": "Geo",
       "group_label": "Geo",
-      "title": "Numerical investigation of dynamic characteristics of water entry of a wedge constrained by an ice floe",
+      "title": "Wing-assisted electric catamaran designed for zero-emission operation across the Aeolian Islands",
       "journal": "Ocean Engineering",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.oceaneng.2026.128556",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.128634",
       "keywords": [
-        "Wedge (geometry)",
-        "Ice wedge",
         "Geology",
-        "Sea ice",
-        "Mechanics"
+        "Aeolian processes",
+        "Marine engineering",
+        "Erosion",
+        "Magnetotellurics"
       ],
-      "abstract": "The water entry of a wedge is a canonical model for studying hull-slamming dynamics. However, existing studies have not considered the combined effects of the three-degree-of-freedom (3-DOF) motion of a nearby ice floe and hydroelasticity. This study aims to elucidate the dynamic characteristics of the water entry of an elastic wedge constrained by an ice floe. A two-dimensional numerical model was established by combining computational fluid dynamics and the finite-element method and was validated through comparisons with benchmark experimental results of the water entry of a wedge. The results revealed that the 3-DOF motion of the ice floe decreased the normalised force by approximately 22% on the left side and 48% on the right side and decreased the stress by approximately 20% at the top of the right side compared with those obtained during the water entry of a wedge without the constraint of an ice floe. The effects of the initial velocity, distance between the wedge and ice floe, length of the ice floe, and thickness of the ice floe were also clarified. This study provides useful guidance for the design and navigation of ships in polar regions.",
+      "abstract": "This study examines an innovative rigid wing sail incorporated into an electric catamaran with zero-emission potential in the Aeolian Islands. The catamaran has an overall length of 5 m, a breadth of 2.5 m, a draft of 0.20 m, and a displacement of 500 kg. The analysis quantifies the system's contribution to the annual energy balance by integrating photovoltaic panels. Sea trials provided the boat's power–speed profile, which was used to calibrate the developed model. Inspired by the Oceanbird concept, the wind propulsion system includes a 2.4 m 2 NACA 0015 rigid wing that an actuator rotates on its vertical axis. Solar irradiance and real wind data for 2025 were obtained from Open-Meteo and used to test the model. Renewable energy sources constitute 9.7% of annual energy needs, with photovoltaic energy accounting for 7% and wind energy for 2.7%. The seasonal inputs are complementary, as solar energy peaks in June and wind energy peaks during the equinoxes. The study's key innovation is a route-specific numerical approach that combines full-scale experimental data to evaluate annual energy savings achievable with an automated rigid-wing wind system on a fixed route under realistic environmental conditions. The approach is developed for a small catamaran, and the results are not scalable to large ships. The research highlights the potential of automated wind-assisted propulsion systems for eco-friendly, smart catamarans that operate between the Aeolian Islands.",
       "image": {
         "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MTMzNDgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MTMzNDgyM3ww&ixlib=rb-4.1.0&q=80&w=200",
@@ -180,24 +180,24 @@
     {
       "group": "Mgmt",
       "group_label": "Management",
-      "title": "Building an Error Management Climate in Construction Projects",
-      "journal": "Journal of Construction Engineering and Management",
-      "date": "2026-10-03",
+      "title": "Impact of artificial intelligence on project planning, scheduling, and control",
+      "journal": "International Journal of Construction Management",
+      "date": "2026-10-14",
       "fwci": 0.0,
       "citations": 0,
-      "oa": false,
-      "doi": "https://doi.org/10.1061/jcemd4.coeng-18565",
+      "oa": true,
+      "doi": "https://doi.org/10.5281/zenodo.22753692",
       "keywords": [
-        "Corporate governance",
-        "Constructive",
-        "Social constructionism",
-        "Triangulation",
-        "Alliance"
+        "Project management",
+        "Project planning",
+        "Flexibility (engineering)",
+        "Project management triangle",
+        "Computer science"
       ],
-      "abstract": "Abstract An error management climate (EMC) promotes open discussion, analysis, and constructive handling of errors, fostering learning and innovation. However, how to develop such a climate in construction organizations remains poorly understood. This paper examines practical mechanisms for cultivating EMC in project environments. Drawing on 5 years of field observations from 19 alliance management and continuous improvement meetings and semistructured interviews, a rework workshop, informal discussions with project participants, and triangulation with project documents from an alliance forming part of the AU$19.8 billion Level Crossing Removal Project in Melbourne, Australia, this paper identifies two complementary pathways for building an EMC: (1) direct encouragement by leadership; and (2) indirect reinforcement through social norms. Observations and resulting insights show that leadership framing, structured reflection, and aligned governance can transform error avoidance into a collective learning environment. The findings highlight that building an EMC is not a matter of rhetoric but of deliberate managerial action supported by trust, communication, and incentives that reward transparency. The contributions of this paper are twofold: (1) it provides empirically grounded insights showing how leadership practices, social norms, and governance structures can be orchestrated to foster an EMC; and (2) it offers insights from which managers and others can learn to cultivate openness, reflection, and learning through (i.e., how to handle them effectively) errors within construction projects.",
+      "abstract": "Abstract The growing complexity of engineering and construction projects has revealed the weaknesses of conventional project planning, scheduling, and control approaches. Traditional tools often employ fixed assumptions, deterministic models, and past averages, which are inadequate for dealing with uncertainty, dynamic environments, and large-scale data. Artificial intelligence has become a disruptive technology that can be used to improve decision-making, prediction, and automation in project management processes. This paper examines the application of artificial intelligence in project planning, scheduling, and control within the engineering and construction sector. The paper summarises the application of artificial intelligence methods, including machine learning, optimization algorithms, and predictive analytics, in enhancing project performance using a methodical review of the recent scholarly literature and industry practise. The results show that artificial intelligence promotes the planning accuracy, flexibility of scheduling, and real-time project control to a great extent, as it allows data-driven insights and flexible responses. Issues of data quality, company preparedness, and ethical issues are major obstacles to implementation. The research paper adds to the project management literature because it develops the application of artificial intelligence in the three fundamental project management functions and provides practical advice to practitioners interested in introducing intelligent project management systems. Keywords Artificial intelligence, project planning, project scheduling, project control, construction management, digital transformation",
       "image": {
-        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkxMzM0ODI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkxMzM0ODI1fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkxNDIxMjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkxNDIxMjI0fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "two men working",
         "photographer": "Etienne Girardet",
         "photographer_url": "https://unsplash.com/@etiennegirardet",
@@ -296,21 +296,21 @@
     {
       "group": "Vision",
       "group_label": "Vision",
-      "title": "An automated scan-to-FE model workflow for steel box girder exterior surfaces based on in-situ point clouds",
-      "journal": "Engineering Structures",
+      "title": "Video photogrammetry for dimensional measurement and construction period estimation of post-tensioned PCT girder bridges lacking original records",
+      "journal": "Structure and Infrastructure Engineering",
       "date": "2026-10-03",
       "fwci": 0.0,
       "citations": 0,
-      "oa": true,
-      "doi": "https://doi.org/10.1016/j.engstruct.2026.123837",
+      "oa": false,
+      "doi": "https://doi.org/10.1080/15732479.2026.2740699",
       "keywords": [
-        "Point cloud",
-        "Robustness (evolution)",
-        "Parametric statistics",
-        "Workflow",
-        "Finite element method"
+        "Photogrammetry",
+        "Period (music)",
+        "Estimation",
+        "Geology",
+        "Girder"
       ],
-      "abstract": "High-fidelity finite element (FE) models are crucial for bridge analysis, where detailed geometric information acquired by 3D laser scanning is key to ensuring model accuracy. However, direct generation of FE models from as-built point cloud data remains challenging due to computational inefficiency and data incompleteness. To address this, this paper presents a structured Scan-to-FE Model framework that reconstructs steel box-girder exterior topology from preprocessed point clouds and automatically instantiates a solver-ready FE model via command scripting. The methodology is implemented on the scanning data from a large-span bridge, covering multiple girder segments. Geometric fidelity is quantified using cloud-to-mesh distance statistics, confirming that the reconstructed mesh preserves measured surface features. Computational feasibility and the fidelity robustness of the generated FE model was validated through simulation under representative static load cases and parametric sensitivity analysis.",
+      "abstract": "There are significant maintenance challenges worldwide due to deteriorating bridge infrastructure and the lack of construction records. In the absence of original drawings, reconstruction designs must rely on external dimensions and period-specific standards, as these are necessary to determine the internal configuration of the structure, including the placement of reinforcing bars. The main objective of this study is to present and validate a workflow that estimates the construction year range from cross-sectional dimensions obtained by Structure-from-Motion (SfM) photogrammetry. Optimal imaging parameters were first established through controlled experiments on a concrete laboratory specimen and a dismantled post-tensioned prestressed concrete T-shaped (PCT) girder. These parameters were then applied to field surveys of five in-service PCT girder bridges managed by a Japanese municipal authority. Video-based SfM reduced field acquisition time by up to 83% compared with still-image SfM. Dimensional accuracy was within 3.6–4.8%, which is sufficient for restoration design. The measured cross-sectional dimensions were compared with historical Japanese design standard records. This comparison enabled correct identification of the applicable standard edition and construction year range for all five bridges. The framework has been validated for post-tensioned PCT girder bridges designed in accordance with Japanese standard cross-sectional dimension specifications.",
       "image": {
         "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkxMzM0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkxMzM0ODI4fDA&ixlib=rb-4.1.0&q=80&w=200",
