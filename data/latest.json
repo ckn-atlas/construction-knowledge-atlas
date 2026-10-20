@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T10:00:55.599076",
-  "date_from": "2026-09-18",
+  "generated_at": "2026-10-20T10:01:13.928713",
+  "date_from": "2026-09-20",
   "total": 11,
   "papers": [
     {
@@ -22,8 +22,8 @@
       ],
       "abstract": "Solving transportation network design problems using traffic assignment models becomes increasingly impractical as the size of the considered network grows, due to the need to evaluate numerous candidate solutions. This study aims to model the traffic assignment process through a data-driven approach, and introduces a model based on an artificial neural network (ANN) to predict the total travel time in a network under various link capacity modifications for a specified set of links. ANN-based prediction models are trained and validated on a synthetic data set generated from a medium-sized network to evaluate the feasibility of the proposed approach. Models developed using different ANN architectures highlight the importance of selecting the most suitable architecture specific to the problem. The practical value of the ANN-based prediction model becomes apparent when used in optimising a transportation network design problem instead of the traditional traffic-assignment model: the ANN-based model reduced by up to 60 000 times the computation time required for the optimisation.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyMjg1MjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyMjg1MjIxfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNDU4MDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNDU4MDI4fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a computer chip with the letter a on top of it",
         "photographer": "Igor Omilaev",
         "photographer_url": "https://unsplash.com/@omilaev",
@@ -51,12 +51,12 @@
       ],
       "abstract": "Purpose Urban road infrastructure (roads, bridges, pavement and drainage systems) is increasingly vulnerable to climate change impacts, such as extreme weather events, flooding and heat stress, threatening its structural integrity and long-term functionality. This systematic literature review investigates how smart technologies can enhance the climate resilience of urban road systems. Design/methodology/approach A four-phase systematic literature review was conducted, beginning with the selection of 78 key studies from 1,684 Scopus-indexed publications. This was followed by bibliometric analysis using VOSviewer and qualitative content analysis with NVivo. The review employed an inductive approach, focusing on identifying technological applications, integration patterns, challenges and frameworks through systematic content analysis. Findings Through systematic content analysis, the review identified seven core technologies, including Geographic Information Systems (GIS), Building Information Modelling (BIM), Digital Twin (DT) systems, the Internet of Things (IoT), Artificial Intelligence (AI), Big Data (BD) and Remote Sensing (RS). These technologies form an integrated digital ecosystem: GIS and RS supply spatial and environmental data; IoT sensors provide real-time monitoring; BIM supports infrastructure design and lifecycle modelling; DT systems simulate infrastructure performance using live and historical data; and AI, in conjunction with BD, facilitates predictive analytics and automated decision-making. Despite their potential, implementing these technologies presents several challenges, including data interoperability issues, technological immaturity, fragmented policies and socio-technical barriers. Originality/value The study proposes a conceptual framework to guide the integration of smart technologies into climate resilience strategies for urban road infrastructure. It also recommends developing standardised integration frameworks to enhance interoperability, cross-sectoral governance structures and capacity-building initiatives to support practical implementation.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1542621334-a254cf47733d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzkyMjg1MjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1542621334-a254cf47733d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzkyMjg1MjIxfDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "brown pencil on white printing paper",
-        "photographer": "Sven Mieke",
-        "photographer_url": "https://unsplash.com/@sxoxm",
-        "unsplash_url": "https://unsplash.com/photos/brown-pencil-on-white-printing-paper-fteR0e2BzKo"
+        "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzkyNDU4MDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzkyNDU4MDI5fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "A blueprint of a building with a bunch of windows",
+        "photographer": "Amsterdam City Archives",
+        "photographer_url": "https://unsplash.com/@amsterdamcityarchives",
+        "unsplash_url": "https://unsplash.com/photos/a-blueprint-of-a-building-with-a-bunch-of-windows-URnyBZCnlIs"
       },
       "ck_take": "BIM adoption in developing markets like Ghana hinges less on software and more on aligning stakeholder expectations from day one.",
       "grok_image": ""
@@ -80,8 +80,8 @@
       ],
       "abstract": "Horizontal curves are often associated with roadway crashes because of speed misjudgment and loss of control. With the growing adoption of connected and autonomous vehicles (CAVs), the accurate estimation of safe speed at curves is becoming increasingly important. The widely used AASHTO design method for safe curve speed estimation relies on an analytical equation based on a simplified point mass model, which often uses conservative parameters to account for vehicular and environmental variations. This paper presents a digital twin–based framework for estimating safe speed at curves using a physics-driven virtual environment developed in the Unity engine. In this framework, a real-world horizontal road curve is selected, and vehicle speed data are collected using a radar gun under various weather conditions. A 3-D model of the road curve is constructed in a Unity environment using roadway geometric and elevation data. A parameterized vehicle model is integrated, allowing for variations in mass, acceleration, and center of gravity to reflect different vehicle types and loading scenarios. The simulation identifies the maximum safe speed at which a vehicle can traverse the given curve, providing a more vehicle- and environment-specific estimate of the safe operating speed. The study validated that the safe curve speed estimates generated by the simulation were consistent with the real-world speed values observed at the curve. This study demonstrates how a physics-based digital twin can estimate a safer and more adaptive operating speed for vehicles traversing horizontal curves.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkyMjg1MjIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkyMjg1MjIyfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkyNDU4MDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1604528935023-74e0a7b2d23f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHdpbiUyMHNtYXJ0JTIwY2l0eXxlbnwwfDB8fHwxNzkyNDU4MDMxfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "cars on road during night time",
         "photographer": "Julia Sadowska",
         "photographer_url": "https://unsplash.com/@juliasadowska_2000",
@@ -93,24 +93,24 @@
     {
       "group": "Eco",
       "group_label": "Eco/Energy",
-      "title": "Degradation behavior and mechanism of marine concrete with crushed waste seashells as complete fine aggregates under sulfate attack",
-      "journal": "Ocean Engineering",
-      "date": "2026-10-16",
+      "title": "Load distribution patterns and structural effects of IEA 15MW wind turbine under downburst wind field",
+      "journal": "Engineering Structures",
+      "date": "2026-10-17",
       "fwci": 0.0,
       "citations": 0,
       "oa": true,
-      "doi": "https://doi.org/10.1016/j.oceaneng.2026.128618",
+      "doi": "https://doi.org/10.1016/j.engstruct.2026.123966",
       "keywords": [
-        "Sulfate",
-        "Aggregate (composite)",
-        "Porosity",
-        "Degradation (telecommunications)",
-        "Cracking"
+        "Aerodynamics",
+        "Turbine",
+        "Wind engineering",
+        "Wind gradient",
+        "Wind tunnel"
       ],
-      "abstract": "Restricted by insufficient local aggregate resources and the prohibitive transportation cost of conventional aggregates in remote offshore regions, crushed waste seashells (CWS) can be recycled as fine aggregates for marine concrete fabrication. To verify the engineering feasibility of CWS recycling for marine concrete structures, a one-year accelerated sulfate attack test was conducted in this work. CWS concrete, with CWS serving as 100% of the fine aggregate, and a reference mixture using natural river sand with the same mix proportion were prepared for comparative analysis. Sulfate ion distribution, surface morphology, mass change, relative dynamic elastic modulus and damaged layer depth were studied to explore the damage process of CWS concrete, and a damage evolution equation was established accordingly. In addition, mineralogical composition and pore size distribution were analyzed to reveal the underlying damage mechanism. The results showed that the higher porosity and rough texture of CWS fine aggregate enable more sulfate erosion products to be accommodated and raise the cracking threshold. Consequently, CWS concrete exhibited better sulfate resistance than river sand concrete with the same mix proportion and was more suitable for marine engineering structures. This study offers a feasible application pathway and experimental support for the resource utilization of waste seashells in ocean engineering.",
+      "abstract": "Downbursts, which are intense, short-duration, highly non-stationary and non-synoptic outflows generated by severe thunderstorms, pose a significant threat to the structural safety of large-scale wind turbines, particularly in regions with abundant wind resources but frequent convective storms. Although numerical approaches have been widely used to assess downburst-induced loads, experimental investigations remain limited due to the challenges of reproducing realistic transient non-synoptic wind fields in controlled environments. In this study, a combined wind tunnel and numerical simulation framework is developed to quantify the aerodynamic load distribution and structural responses of a 15 MW reference wind turbine under downburst conditions. Scaled wind tunnel tests were conducted to reproduce representative downburst wind fields with varying turbulence intensities, enabling high-fidelity measurements of unsteady surface pressures and global aerodynamic forces. The experimental data were incorporated into an aeroelastic-structural coupling framework that links OpenFAST aerodynamic load simulations with detailed FEM analyses to evaluate stress distributions, displacement responses and potential failure modes. By comparing these results with those obtained under synoptic wind conditions, the study reveals the substantially more severe aerodynamic loading and structural instability induced by downbursts. A systematic investigation was conducted on the effects of radial position, wind profile type, turbulence intensity, and operational conditions on blade responses and tower stability, highlighting the importance of incorporating downburst-related wind fields into wind turbine design standards and operational strategies to enhance the structural resilience of turbines in regions susceptible to convective storms, like downbursts, tornadoes, etc.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc5MjE5ODgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc5MjE5ODgyM3ww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc5MjQ1ODAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc5MjQ1ODAzMnww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "gray concrete building covered trees",
         "photographer": "Danist Soh",
         "photographer_url": "https://unsplash.com/@danist07",
@@ -138,8 +138,8 @@
       ],
       "abstract": "This paper presents the outcomes of nonlinear static pushover and time history analyses, using both recorded and simulated ground motion signals, on 3D finite element macro-models of four buildings representative of Bagan’s monumental heritage: Myin-pya-gu (1493), Zan-thi (east) (558), Tha-mu-ti-hpaya (844), and Kya-zin-hpaya (1219). The simulations are validated against the observed seismic damage in the 1975 and 2016 earthquakes. The results of the nonlinear finite element method (NLFEM) analyses are complemented by seismic rocking analysis conducted on nonstructural elements, such as spires, through nonlinear kinematic analysis. Analytical estimates of acceleration levels capable of causing shear failure in spires are provided, focusing on elements with a slenderness ratio that makes them vulnerable to shearing rather than rocking (i.e. flexure-controlled) failure modes. A comparative assessment of seismic performance is presented for the four buildings, highlighting the influence of plan symmetry and vertical continuity. These attributes are proposed as key criteria for selecting appropriate retrofit schemes to protect Bagan’s monuments against future seismic events.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MjE5ODgyNXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MjE5ODgyNXww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MjQ1ODAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1586161148512-64a1b3dac527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmdyb3VuZCUyMHR1bm5lbCUyMGV4Y2F2YXRpb258ZW58MHwwfHx8MTc5MjQ1ODAzM3ww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "A construction truck inside a dark tunnel with a large ventilation pipe overhead",
         "photographer": "Ricardo Gomez Angel",
         "photographer_url": "https://unsplash.com/@rgaleriacom",
@@ -167,8 +167,8 @@
       ],
       "abstract": "Serving as critical load supports and transfer components in shear wall structures, beams require layout designs that balance mechanical rationality with architectural functionality constraints. Conventional design methods, which rely on engineers' expertise, are challenging to systematize and are inherently inefficient. Moreover, existing intelligent design algorithms have attempted to integrate constraints related to architectural space and mechanical topology while delivering sufficiently detailed outputs, ultimately resulting in suboptimal outcomes. To address these challenges, this study synthesizes engineering experience rules pertaining to spatial functionality and load-bearing constraints and encodes them into a mask that delineates potential beam placement locations on a building plan. Subsequently, a diffusion model, well-known for its ability to generate intricate design details, is employed to produce the corresponding beam layout from the image mask. This approach, designated as the mask-constrained diffusion model for beam layout design in shear wall structures, introduces a key innovation: mitigating the uncontrolled generative range typically associated with diffusion models during beam layout configuration. By embedding engineering knowledge into a mask that constrains the diffusion process, the generation boundaries are effectively regulated, ensuring controllable and effective design outcomes. Analysis indicates that the designs produced by the mask-constrained diffusion model surpass the quality of existing intelligent design methods, achieving a relative 35.0% improvement in consistency with engineer-generated designs while concurrently satisfying critical mechanical performance criteria. This study provides a novel perspective on the intelligent design of beam layouts and serves as a valuable reference for the application of diffusion models in the structural design of buildings.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzkyMTk4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzkyMTk4ODI2fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzkyNDU4MDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBjb25jcmV0ZXxlbnwwfDB8fHwxNzkyNDU4MDM0fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a black and white photo of a concrete wall",
         "photographer": "Wesley Tingey",
         "photographer_url": "https://unsplash.com/@wesleyphotography",
@@ -180,24 +180,24 @@
     {
       "group": "Mgmt",
       "group_label": "Management",
-      "title": "Impact of artificial intelligence on project planning, scheduling, and control",
-      "journal": "International Journal of Construction Management",
-      "date": "2026-10-14",
+      "title": "A Review of Human-Centric Construction Manufacturing: Current Practices and Research Opportunities",
+      "journal": "Journal of Construction Engineering and Management",
+      "date": "2026-10-17",
       "fwci": 0.0,
       "citations": 0,
-      "oa": true,
-      "doi": "https://doi.org/10.5281/zenodo.22753692",
+      "oa": false,
+      "doi": "https://doi.org/10.1061/jcemd4.coeng-19176",
       "keywords": [
-        "Project management",
-        "Project planning",
-        "Flexibility (engineering)",
-        "Project management triangle",
-        "Computer science"
+        "Engineering",
+        "Workforce",
+        "Production (economics)",
+        "Construction industry",
+        "Industrialisation"
       ],
-      "abstract": "Abstract The growing complexity of engineering and construction projects has revealed the weaknesses of conventional project planning, scheduling, and control approaches. Traditional tools often employ fixed assumptions, deterministic models, and past averages, which are inadequate for dealing with uncertainty, dynamic environments, and large-scale data. Artificial intelligence has become a disruptive technology that can be used to improve decision-making, prediction, and automation in project management processes. This paper examines the application of artificial intelligence in project planning, scheduling, and control within the engineering and construction sector. The paper summarises the application of artificial intelligence methods, including machine learning, optimization algorithms, and predictive analytics, in enhancing project performance using a methodical review of the recent scholarly literature and industry practise. The results show that artificial intelligence promotes the planning accuracy, flexibility of scheduling, and real-time project control to a great extent, as it allows data-driven insights and flexible responses. Issues of data quality, company preparedness, and ethical issues are major obstacles to implementation. The research paper adds to the project management literature because it develops the application of artificial intelligence in the three fundamental project management functions and provides practical advice to practitioners interested in introducing intelligent project management systems. Keywords Artificial intelligence, project planning, project scheduling, project control, construction management, digital transformation",
+      "abstract": "Abstract The industrialization of the construction industry has transformed traditional practices by streamlining construction processes in controlled, factory-based environments through construction manufacturing production systems, in which building components are produced in factories and assembled on-site. Beyond improvements in efficiency and environmental performance, this production paradigm establishes long-term relationships between workers and management, creating an opportunity for human-centric construction manufacturing that prioritizes workers’ well-being as a core element of production within the Industry 5.0 paradigm. Human-centric construction manufacturing offers a practical means of integrating worker well-being, safety, mental health, inclusiveness, and skill development into construction production systems. Despite growing interest in human-centric considerations, existing research remains fragmented, loosely defined, and predominantly technology-driven. To address these gaps, this paper presents a scoping review on human-centric construction manufacturing that synthesizes key research themes, enabling technologies, emerging trends, research gaps, and future research directions within construction production systems. A total of 54 articles were included in the review, spanning three research areas examined from a human-centric perspective, i.e., ergonomics, safety, and workforce planning, each further categorized into subresearch areas. Workers’ mental health, equity, diversity, inclusion, and holistic well-being in the construction manufacturing paradigm remain significant and underexplored research opportunities. Among the most prominent technologies were simulation, virtual reality, optimization, sensing technologies, and 3D modeling, while computer vision, machine learning, robotics, and digital twins were less frequently applied, despite their strong potential to support human-centric construction manufacturing. Overall, this review establishes a comprehensive foundation for understanding the current state of human-centric construction manufacturing, identifies critical research needs, and provides guidance for future efforts toward developing safer, healthier, and more productive factory environments that support resilient construction manufacturing systems.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkyMTk4ODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkyMTk4ODI2fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkyNDU4MDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwd29ya2Vyc3xlbnwwfDB8fHwxNzkyNDU4MDM0fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "two men working",
         "photographer": "Etienne Girardet",
         "photographer_url": "https://unsplash.com/@etiennegirardet",
@@ -225,8 +225,8 @@
       ],
       "abstract": "Abstract Articulated steering vehicles are key equipment for mining transportation, underground roadways, and heavy-duty material handling infrastructure, where insufficient path-tracking accuracy may reduce roadway safety margins and increase the risk of lane encroachment, collision, and traffic interruption in confined haulage corridors. Hydraulic actuator delay is a practical source of steering lag in such vehicles, but it is often simplified or neglected in existing path-tracking control studies. To address this gap, this study develops a delay-compensated model predictive control (MPC) framework by incorporating experimentally identified hydraulic actuator delay into the pre‍dictive control model. Simulation results showed that MPC provided better stability performance than linear quadratic regulator (LQR), reducing sideslip angle, yaw rate, and lateral acceleration by 21%–48% under representative lane-change maneuvers. With actuator-delay compensation, the proposed MPC further reduced the tractor lateral deviation by 53.12% under single lane change (SLC) and 83.63% under double lane change (DLC) conditions. These results indicate that the proposed method can improve the operational safety, tracking reliability, and automation readiness of articulated vehicles used in mining and infrastructure transportation scenarios.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjE5ODgyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjE5ODgyN3ww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjQ1ODAzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjQ1ODAzNnww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a factory filled with lots of orange machines",
         "photographer": "Simon Kadula",
         "photographer_url": "https://unsplash.com/@simonkadula",
@@ -254,12 +254,12 @@
       ],
       "abstract": "Abstract This study examines the spatial implications of urbanization policies on urban expansion and sprawl. While the shortcomings of urban containment policies have garnered considerable scholarly attention, policies promoting urbanization remain underexplored, with limited empirical research assessing their spatial impacts. To address this gap, we integrate key urbanization policies into a spatiotemporal analysis of 50 years, enabling a nuanced evaluation of policy interventions on urban growth and sprawl through the analysis of their rates, directions, and spatial patterns. This is accomplished using remote sensing techniques and GIS, complemented by standard deviational ellipse, multibuffer ring, landscape metrics, and other spatial indices, to quantify and analyze urban dynamics. The study focuses on Tiaret, a medium-sized Algerian city characterized by a dynamic urban governance trajectory, contributing to research on underexplored urban contexts. The findings demonstrate a significant correlation between urbanization policies and the rate, direction, and patterns of urban expansion and sprawl. Over four decades of policy-driven urbanization, the city experienced an overall average annual urban expansion rate of 28.2%, with urban sprawl dominating 99% of newly developed areas, which were marked by low density and high fragmentation. This study provides an evidence-based framework that quantifies how urbanization policies shape the extent, direction, and spatial patterns of urban growth, enabling planners to anticipate unintended consequences and design more sustainable, policy-sensitive urban strategies.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyMjg1MjI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1645685491865-42a4fbbc9912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyMjg1MjI4fDA&ixlib=rb-4.1.0&q=80&w=200",
-        "alt": "a monitor is on a stand in a room",
-        "photographer": "Trnava University",
-        "photographer_url": "https://unsplash.com/@trnavskauni",
-        "unsplash_url": "https://unsplash.com/photos/a-monitor-is-on-a-stand-in-a-room-PoEbadI3mQQ"
+        "url": "https://images.unsplash.com/photo-1721114989769-0423619f03d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNDU4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1721114989769-0423619f03d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNDU4MDM3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "alt": "A large monitor displaying a number of times",
+        "photographer": "Samuel Ramos",
+        "photographer_url": "https://unsplash.com/@idgeek",
+        "unsplash_url": "https://unsplash.com/photos/a-large-monitor-displaying-a-number-of-times-0V7aC2SEm5U"
       },
       "ck_take": "Post-Brumadinho, accelerometer-based dynamic monitoring is no longer optional — it's the most reliable early warning system we have for preventing dam failures.",
       "grok_image": ""
@@ -283,8 +283,8 @@
       ],
       "abstract": "Engineered bamboo products, represented by laminated bamboo and bamboo scrimber, have attracted increasing attention in sustainable construction. Connections in engineered bamboo structures often rely on bolted joints, for which half-hole dowel-bearing strength is a key parameter for characterizing the local bearing response. This study reviewed the manufacturing processes of laminated bamboo and bamboo scrimber and summarized common testing methods for evaluating the dowel-bearing strength of engineered bamboo products. After introducing the failure modes of dowel-bearing test specimens, the primary influencing factors for dowel-bearing strength were discussed. Based on a database of 1634 half-hole specimens, dowel-bearing strength was predicted using a data-driven machine learning (ML) approach. A new theoretical model based on stress dispersion theory was developed, considering specimen dimensions, dowel diameter, and the corresponding material yield strength in compression. The coefficients in the developed theoretical model were determined using a combined algorithm in which the model was embedded into ML algorithms. It was found that, for specimens loaded parallel and perpendicular to the grain, the dowel significantly influenced a region extending up to 4.50 times its diameter along the corresponding dispersion angle; for specimens loaded parallel to the grain, within the theoretical region of significant influence described above, the dowel also significantly affected a region within 0.45 times the specimen length along the corresponding dispersion angle. The predictive performance of the proposed theoretical model was slightly lower than that of most of the data-driven ML models, but it markedly outperformed the models adopted in current design codes and offered good physical interpretability.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc5MjI4NTIyOXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc5MjI4NTIyOXww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc5MjQ1ODAzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxicmlkZ2UlMjBzdHJ1Y3R1cmFsJTIwZW5naW5lZXJpbmd8ZW58MHwwfHx8MTc5MjQ1ODAzOHww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "Orange illuminated steel girders of Tokyo Tower against a dark night sky",
         "photographer": "Alain Pham",
         "photographer_url": "https://unsplash.com/@alain_pham",
@@ -296,24 +296,24 @@
     {
       "group": "Vision",
       "group_label": "Vision",
-      "title": "FRGB3D: Fast Reliability-Weighted Gaussian Background Modeling for Roadside LiDAR Traffic Monitoring",
-      "journal": "Journal of Computing in Civil Engineering",
-      "date": "2026-10-16",
+      "title": "Cross-modal semantic–geometric filtering for USV LiDAR SLAM in dynamic water-surface environments",
+      "journal": "Ocean Engineering",
+      "date": "2026-10-17",
       "fwci": 0.0,
       "citations": 0,
-      "oa": false,
-      "doi": "https://doi.org/10.1061/jccee5.cpeng-7710",
+      "oa": true,
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.128879",
       "keywords": [
         "Lidar",
         "Computer science",
-        "Point cloud",
-        "Reliability (semiconductor)",
-        "Gaussian"
+        "Trajectory",
+        "Consistency (knowledge bases)",
+        "Computer vision"
       ],
-      "abstract": "Abstract Intelligent transportation systems rely on accurate perception technologies for traffic monitoring, with light detection and ranging (LiDAR) emerging as a critical sensing modality. However, effective background–foreground separation is challenging due to the varying measurement reliability across point clouds caused by distance, reflectivity, and atmospheric conditions. This paper presents fast reliability-weighted Gaussian background modeling for 3D LiDAR traffic monitoring (FRGB3D), a novel unsupervised approach for LiDAR point cloud background modeling and foreground detection that explicitly incorporates physics-based reliability assessment with adaptive learning mechanisms. The key contributions include (1) a physics-based reliability metric that quantifies measurement quality using range and reflectivity characteristics, (2) a reliability-weighted adaptive learning approach for Gaussian background modeling that dynamically adjusts learning rates based on point reliability, and (3) an adaptive thresholding mechanism that incorporates both measurement reliability and learned model uncertainty. Through comprehensive experiments using both the Car Learning to Act (CARLA) simulator and real-world LiDAR data collected in Lowell, Massachusetts, we demonstrate that FRGB3D achieves superior foreground detection performance compared with baseline methods. FRGB3D achieved F1-scores of 0.84, 0.68, and 0.77 across base, adverse-weather, and high-density traffic scenarios, respectively, consistently outperforming simple difference, moving average, and standard Gaussian background modeling approaches. Real-world experiments demonstrated competitive object-level performance average precision (AP) (AP@0.5 = 0.48) while maintaining real-time processing capabilities with 19.1 frames per second (FPS), making it suitable for practical traffic monitoring applications.",
+      "abstract": "Unmanned surface vehicles (USVs) require stable three-dimensional maps for port inspection, nearshore monitoring, and autonomous berthing. In dynamic water-surface environments, however, moving vessels and reflection-induced LiDAR returns contaminate front-end point clouds. These observations weaken registration constraints, introduce map artifacts, and obscure static structures near the water–shore interface. We propose a cross-modal semantic–geometric filtering module for USV LiDAR simultaneous localization and mapping (SLAM). The module converts visual semantic probabilities into point-level LiDAR confidence through temporal association, camera–LiDAR calibration, and continuous pixel-wise probability querying. This confidence provides a soft prior for interference regions. A water-surface boundary distance constraint and a vessel-range-adaptive attenuation mechanism then selectively suppress reflection-induced anomalous points and residual dynamic-vessel observations while preserving valid waterside structures. In the primary quantitative port-basin sequence S1, Joint reduced point counts by 87.18% in the vessel-residual region and 77.98% in the reflection-affected water region, while retaining 91.37% in the building region. Sim(3)-aligned absolute pose error RMSE decreased from 2.591 m to 1.962 m (24.28%). Regional statistics, spatial map comparisons and protection-term ablations provide complementary evidence that joint semantic–geometric selection balances interference suppression and structural preservation, with improved aligned trajectory consistency under the evaluated conditions.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyMTk4ODMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyMTk4ODMxfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyNDU4MDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyNDU4MDQwfDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "Two white security cameras mounted on a pole against a clear blue sky",
         "photographer": "Michał Jakubowski",
         "photographer_url": "https://unsplash.com/@jaqbovsky",
