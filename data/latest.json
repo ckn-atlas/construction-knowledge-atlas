@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T10:01:13.928713",
-  "date_from": "2026-09-20",
+  "generated_at": "2026-10-21T10:01:09.496447",
+  "date_from": "2026-09-21",
   "total": 11,
   "papers": [
     {
@@ -35,21 +35,21 @@
     {
       "group": "BIM",
       "group_label": "BIM/Info",
-      "title": "Multi-scale integration of smart technologies for climate-resilient urban road infrastructure: a systematic literature review and conceptual framework",
-      "journal": "Smart and Sustainable Built Environment",
-      "date": "2026-10-16",
+      "title": "Development of lifecycle-based building information modelling (BIM) implementation model for the Sarawak construction industry: an empirical structural equation modelling approach",
+      "journal": "International Journal of Building Pathology and Adaptation",
+      "date": "2026-10-19",
       "fwci": 0.0,
       "citations": 0,
-      "oa": true,
-      "doi": "https://doi.org/10.1108/sasbe-06-2025-0350",
+      "oa": false,
+      "doi": "https://doi.org/10.1108/ijbpa-06-2026-0194",
       "keywords": [
-        "Interoperability",
-        "Systematic review",
-        "Conceptual framework",
-        "Resilience (materials science)",
-        "Smart city"
+        "Building information modeling",
+        "Structural equation modeling",
+        "Process management",
+        "Procurement",
+        "Exploratory factor analysis"
       ],
-      "abstract": "Purpose Urban road infrastructure (roads, bridges, pavement and drainage systems) is increasingly vulnerable to climate change impacts, such as extreme weather events, flooding and heat stress, threatening its structural integrity and long-term functionality. This systematic literature review investigates how smart technologies can enhance the climate resilience of urban road systems. Design/methodology/approach A four-phase systematic literature review was conducted, beginning with the selection of 78 key studies from 1,684 Scopus-indexed publications. This was followed by bibliometric analysis using VOSviewer and qualitative content analysis with NVivo. The review employed an inductive approach, focusing on identifying technological applications, integration patterns, challenges and frameworks through systematic content analysis. Findings Through systematic content analysis, the review identified seven core technologies, including Geographic Information Systems (GIS), Building Information Modelling (BIM), Digital Twin (DT) systems, the Internet of Things (IoT), Artificial Intelligence (AI), Big Data (BD) and Remote Sensing (RS). These technologies form an integrated digital ecosystem: GIS and RS supply spatial and environmental data; IoT sensors provide real-time monitoring; BIM supports infrastructure design and lifecycle modelling; DT systems simulate infrastructure performance using live and historical data; and AI, in conjunction with BD, facilitates predictive analytics and automated decision-making. Despite their potential, implementing these technologies presents several challenges, including data interoperability issues, technological immaturity, fragmented policies and socio-technical barriers. Originality/value The study proposes a conceptual framework to guide the integration of smart technologies into climate resilience strategies for urban road infrastructure. It also recommends developing standardised integration frameworks to enhance interoperability, cross-sectoral governance structures and capacity-building initiatives to support practical implementation.",
+      "abstract": "Purpose This study aims to develop a project lifecycle-based building information modelling (BIM) implementation model in Sarawak and examine the relationships between current practices (CPs) across project lifecycle stages and critical success factors (CSFs) influencing BIM implementation. Design/methodology/approach A questionnaire survey was conducted among 295 construction professionals in Sarawak. The collected data were analysed using exploratory factor analysis (EFA), confirmatory factor analysis (CFA) and structural equation modelling (SEM) through IBM SPSS Amos to validate the proposed BIM implementation model. Findings The analysis identified three project lifecycle phases (design, procurement and construction) and four CSF dimensions (organizational readiness, human capital and collaboration, external institutional support and technology infrastructure). SEM results revealed significant relationships between project lifecycle and CSFs associated with CPs. Research limitations/implications The findings provide a strategic roadmap for policymakers, industry stakeholders and practitioners by identifying actionable measures to enhance BIM adoption and support digital transformation within Sarawak’s construction industry. Practical implications Theoretically, this study contributes to BIM adoption literature by integrating the CSF approach with the Technology–Organization–Environment (TOE) framework and empirically validating the relationships through EFA, CFA and SEM. Practically, the proposed model provides policymakers and industry stakeholders with a structured roadmap for prioritizing BIM adoption strategies across the project lifecycle. Originality/value This study extends existing BIM adoption and CSF models by integrating empirically derived, TOE-aligned CSF dimensions with observable CPs across project lifecycle stages. The proposed model evaluates their relationships with BIM implementation practices during the design, procurement and construction/operation stages.",
       "image": {
         "url": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzkyNDU4MDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1721244654392-9c912a6eb236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMGJsdWVwcmludHxlbnwwfDB8fHwxNzkyNDU4MDI5fDA&ixlib=rb-4.1.0&q=80&w=200",
@@ -93,21 +93,21 @@
     {
       "group": "Eco",
       "group_label": "Eco/Energy",
-      "title": "Load distribution patterns and structural effects of IEA 15MW wind turbine under downburst wind field",
-      "journal": "Engineering Structures",
-      "date": "2026-10-17",
+      "title": "From canon to planet: social agency, epistemic plurality and regenerative futures in architectural education",
+      "journal": "Smart and Sustainable Built Environment",
+      "date": "2026-10-19",
       "fwci": 0.0,
       "citations": 0,
-      "oa": true,
-      "doi": "https://doi.org/10.1016/j.engstruct.2026.123966",
+      "oa": false,
+      "doi": "https://doi.org/10.1108/sasbe-06-2026-0612",
       "keywords": [
-        "Aerodynamics",
-        "Turbine",
-        "Wind engineering",
-        "Wind gradient",
-        "Wind tunnel"
+        "Sociology",
+        "Agency (philosophy)",
+        "Epistemology",
+        "Engineering ethics",
+        "Argument (complex analysis)"
       ],
-      "abstract": "Downbursts, which are intense, short-duration, highly non-stationary and non-synoptic outflows generated by severe thunderstorms, pose a significant threat to the structural safety of large-scale wind turbines, particularly in regions with abundant wind resources but frequent convective storms. Although numerical approaches have been widely used to assess downburst-induced loads, experimental investigations remain limited due to the challenges of reproducing realistic transient non-synoptic wind fields in controlled environments. In this study, a combined wind tunnel and numerical simulation framework is developed to quantify the aerodynamic load distribution and structural responses of a 15 MW reference wind turbine under downburst conditions. Scaled wind tunnel tests were conducted to reproduce representative downburst wind fields with varying turbulence intensities, enabling high-fidelity measurements of unsteady surface pressures and global aerodynamic forces. The experimental data were incorporated into an aeroelastic-structural coupling framework that links OpenFAST aerodynamic load simulations with detailed FEM analyses to evaluate stress distributions, displacement responses and potential failure modes. By comparing these results with those obtained under synoptic wind conditions, the study reveals the substantially more severe aerodynamic loading and structural instability induced by downbursts. A systematic investigation was conducted on the effects of radial position, wind profile type, turbulence intensity, and operational conditions on blade responses and tower stability, highlighting the importance of incorporating downburst-related wind fields into wind turbine design standards and operational strategies to enhance the structural resilience of turbines in regions susceptible to convective storms, like downbursts, tornadoes, etc.",
+      "abstract": "Purpose This article aims to establish an integrative conceptual framework for reorienting architectural education in response to intersecting global pressures. Architectural education faces significant pressures resulting from climate emergency, accelerating social inequity, geopolitical instability and rapid technological transformation that expose the limits of its inherited Eurocentric, studio-based traditions. This article argues that its future depends on four interrelated transformations: the critical rupture of the architectural canon; the reinstatement of social agency through the socius; the decolonisation of pedagogy toward epistemic plurality; and the advancement of sustainable and regenerative pedagogies. Aligned with the Sustainable Development Goals (SDGs) and circular thinking, these transformations crystallise in the concept of planetary architectural pedagogy, an integrative framework positioning the architect as a mediator, collaborator and steward within complex socio-ecological systems. Design/methodology/approach The article adopts a theoretically anchored conceptual approach, drawing on critical theory, decolonial scholarship, social epistemologies and sustainability frameworks. It synthesises an emerging body of pedagogical research, including the ADAPT2SDG typology, the circular commons model and the socius framework, alongside an analysis of international accreditation and validation systems (AACA, RIBA, Architects Registration Board, National Architectural Accrediting Board and UNESCO–UIA). The argument progresses through thematic analysis, integrating scholarly literature with empirical evidence from a global survey of 345 schools of architecture across 159 countries. Findings The article identifies four interrelated transformations reshaping architectural education: (1) the rupture of the canonical studio tradition and its Eurocentric knowledge hierarchies; (2) the reinstatement of social agency through the socius as a site of collective knowledge production; (3) the operationalisation of decolonised pedagogical frameworks that translate global SDGs into context-sensitive practice; and (4) the integration of SDGs and circular commons to advance socially just and ecologically grounded design learning. These trajectories meet in what this article calls for “planetary architectural pedagogy”. Research limitations/implications As a conceptual article, the argument draws on illustrative case evidence rather than systematic empirical data across all sections. Four productive provocations are identified and include: scale, expertise, critique versus construction, and accreditation versus transformation. They remain unresolved, open ended, and are offered as productive sites for future empirical and pedagogical research. The article does not prescribe a singular curriculum or studio model, recognising that contextual responsiveness is central to any decolonised, planetary approach. Practical implications The article offers educators, curriculum designers, and institutional leaders a conceptual vocabulary and adaptable knowledgebase for reorienting architectural pedagogy. The ADAPT2SDG typology and circular commons model support the embedding of sustainability, decolonisation and social equity in teaching, learning and assessment. Social implications Reconceptualising architectural education around social agency, epistemic justice and ecological stewardship, the article supports a vision of architectural education and profession as a contributor to more just, equitable and sustainable built environments. Planetary architectural pedagogy positions future architects as active participants in shaping socio-ecological interdependencies at local and global scales. Originality/value The article makes an original contribution by synthesising four distinct trajectories of pedagogical transformation, including canonical rupture, the socius, decolonisation and sustainability, into the integrative concept of planetary architectural pedagogy. It advances this synthesis through recent empirical frameworks (ADAPT2SDG, circular commons and global UIA survey) and documents for the first time; their intersection with institutional accreditation shifts across multiple national and international systems. The concept of planetary architectural pedagogy constitutes a new contribution to the vocabulary of architectural-education scholarship.",
       "image": {
         "url": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc5MjQ1ODAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
         "thumb": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwc3VzdGFpbmFibGUlMjBlbmVyZ3l8ZW58MHwwfHx8MTc5MjQ1ODAzMnww&ixlib=rb-4.1.0&q=80&w=200",
@@ -225,8 +225,8 @@
       ],
       "abstract": "Abstract Articulated steering vehicles are key equipment for mining transportation, underground roadways, and heavy-duty material handling infrastructure, where insufficient path-tracking accuracy may reduce roadway safety margins and increase the risk of lane encroachment, collision, and traffic interruption in confined haulage corridors. Hydraulic actuator delay is a practical source of steering lag in such vehicles, but it is often simplified or neglected in existing path-tracking control studies. To address this gap, this study develops a delay-compensated model predictive control (MPC) framework by incorporating experimentally identified hydraulic actuator delay into the pre‍dictive control model. Simulation results showed that MPC provided better stability performance than linear quadratic regulator (LQR), reducing sideslip angle, yaw rate, and lateral acceleration by 21%–48% under representative lane-change maneuvers. With actuator-delay compensation, the proposed MPC further reduced the tractor lateral deviation by 53.12% under single lane change (SLC) and 83.63% under double lane change (DLC) conditions. These results indicate that the proposed method can improve the operational safety, tracking reliability, and automation readiness of articulated vehicles used in mining and infrastructure transportation scenarios.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjQ1ODAzNnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjQ1ODAzNnww&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjU0NDQzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjByb2JvdCUyMGF1dG9tYXRpb258ZW58MHwwfHx8MTc5MjU0NDQzM3ww&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "a factory filled with lots of orange machines",
         "photographer": "Simon Kadula",
         "photographer_url": "https://unsplash.com/@simonkadula",
@@ -254,8 +254,8 @@
       ],
       "abstract": "Abstract This study examines the spatial implications of urbanization policies on urban expansion and sprawl. While the shortcomings of urban containment policies have garnered considerable scholarly attention, policies promoting urbanization remain underexplored, with limited empirical research assessing their spatial impacts. To address this gap, we integrate key urbanization policies into a spatiotemporal analysis of 50 years, enabling a nuanced evaluation of policy interventions on urban growth and sprawl through the analysis of their rates, directions, and spatial patterns. This is accomplished using remote sensing techniques and GIS, complemented by standard deviational ellipse, multibuffer ring, landscape metrics, and other spatial indices, to quantify and analyze urban dynamics. The study focuses on Tiaret, a medium-sized Algerian city characterized by a dynamic urban governance trajectory, contributing to research on underexplored urban contexts. The findings demonstrate a significant correlation between urbanization policies and the rate, direction, and patterns of urban expansion and sprawl. Over four decades of policy-driven urbanization, the city experienced an overall average annual urban expansion rate of 28.2%, with urban sprawl dominating 99% of newly developed areas, which were marked by low density and high fragmentation. This study provides an evidence-based framework that quantifies how urbanization policies shape the extent, direction, and spatial patterns of urban growth, enabling planners to anticipate unintended consequences and design more sustainable, policy-sensitive urban strategies.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1721114989769-0423619f03d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNDU4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1721114989769-0423619f03d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNDU4MDM3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1721114989769-0423619f03d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNTQ0NDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1721114989769-0423619f03d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxzZW5zb3IlMjBtb25pdG9yaW5nJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzkyNTQ0NDM0fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "A large monitor displaying a number of times",
         "photographer": "Samuel Ramos",
         "photographer_url": "https://unsplash.com/@idgeek",
@@ -296,24 +296,24 @@
     {
       "group": "Vision",
       "group_label": "Vision",
-      "title": "Cross-modal semantic–geometric filtering for USV LiDAR SLAM in dynamic water-surface environments",
-      "journal": "Ocean Engineering",
-      "date": "2026-10-17",
+      "title": "Building Inclination Measurement Based on Point Cloud Data",
+      "journal": "Journal of Computing in Civil Engineering",
+      "date": "2026-10-19",
       "fwci": 0.0,
       "citations": 0,
-      "oa": true,
-      "doi": "https://doi.org/10.1016/j.oceaneng.2026.128879",
+      "oa": false,
+      "doi": "https://doi.org/10.1061/jccee5.cpeng-7973",
       "keywords": [
-        "Lidar",
+        "Point cloud",
         "Computer science",
-        "Trajectory",
-        "Consistency (knowledge bases)",
-        "Computer vision"
+        "Total station",
+        "Displacement (psychology)",
+        "Remote sensing"
       ],
-      "abstract": "Unmanned surface vehicles (USVs) require stable three-dimensional maps for port inspection, nearshore monitoring, and autonomous berthing. In dynamic water-surface environments, however, moving vessels and reflection-induced LiDAR returns contaminate front-end point clouds. These observations weaken registration constraints, introduce map artifacts, and obscure static structures near the water–shore interface. We propose a cross-modal semantic–geometric filtering module for USV LiDAR simultaneous localization and mapping (SLAM). The module converts visual semantic probabilities into point-level LiDAR confidence through temporal association, camera–LiDAR calibration, and continuous pixel-wise probability querying. This confidence provides a soft prior for interference regions. A water-surface boundary distance constraint and a vessel-range-adaptive attenuation mechanism then selectively suppress reflection-induced anomalous points and residual dynamic-vessel observations while preserving valid waterside structures. In the primary quantitative port-basin sequence S1, Joint reduced point counts by 87.18% in the vessel-residual region and 77.98% in the reflection-affected water region, while retaining 91.37% in the building region. Sim(3)-aligned absolute pose error RMSE decreased from 2.591 m to 1.962 m (24.28%). Regional statistics, spatial map comparisons and protection-term ablations provide complementary evidence that joint semantic–geometric selection balances interference suppression and structural preservation, with improved aligned trajectory consistency under the evaluated conditions.",
+      "abstract": "Abstract Measuring building inclination and its related horizontal displacement is crucial for evaluating structural performance. Conventional methods, often reliant on surveying instruments such as theodolites, face numerous limitations that can compromise measurement accuracy. This study proposes a point cloud–based building inclination measurement method that combines georeferenced point cloud acquisition using an unmanned aerial vehicle–mounted three-dimensional (3D) light detection and ranging scanner and a global navigation satellite system with a geometry-based computational procedure using 3D coordinates. The proposed workflow computes directional inclination values and evaluates inclination ranks. The method was applied to three field cases (single-building and multiple-building applications) and compared with conventional measurements. In addition, robotic total station (RTS)-based measurements were used as an external reference for accuracy verification in feasible directions. The results show that the proposed method provides consistent inclination rankings and close agreement with RTS-based measurements, while reducing operator-dependent variability observed in conventional measurements. The proposed method is suitable for practical field applications and provides a scalable workflow for inclination assessment of multiple structures.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyNDU4MDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyNDU4MDQwfDA&ixlib=rb-4.1.0&q=80&w=200",
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyNTQ0NDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "thumb": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjY3OTJ8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMGNhbWVyYSUyMHN1cnZlaWxsYW5jZXxlbnwwfDB8fHwxNzkyNTQ0NDM2fDA&ixlib=rb-4.1.0&q=80&w=200",
         "alt": "Two white security cameras mounted on a pole against a clear blue sky",
         "photographer": "Michał Jakubowski",
         "photographer_url": "https://unsplash.com/@jaqbovsky",
