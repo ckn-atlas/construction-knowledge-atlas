@@ -43,9 +43,6 @@
   "keywords": "construction technology, BIM, AI, structural engineering, knowledge graph"
 }
 </script>
-<!-- Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5331661212294614"
-     crossorigin="anonymous"></script>
 <!-- Google Analytics 4 — Replace with your actual Measurement ID -->
 <!-- How to replace: get G-XXXXXXXX from analytics.google.com -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HWFQQXWF66"></script>
@@ -198,48 +195,13 @@
   .journal-stat:last-child{border-right:none}
   .journal-stat .val{font-size:18px;font-weight:800;color:var(--accent)}
   .journal-stat .lbl{font-size:10px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:.4px}
-  /* ── 좌측 고정 세로 배너 ── */
-  #adLeft{
-    position:fixed;left:0;top:50%;transform:translateY(-50%);
-    width:160px;z-index:200;
-    background:#1a2332;border:1px solid #2e3f54;border-radius:0 10px 10px 0;
-    box-shadow:3px 0 16px rgba(0,0,0,.5);transition:left .3s ease;overflow:hidden;
+  /* ── 전면 링크 오버레이 ── */
+  #linkOverlay{
+    position:fixed;inset:0;z-index:9999;
+    background:rgba(0,0,0,0);
+    cursor:pointer;
+    display:block;
   }
-  #adLeft.collapsed{left:-140px}
-  #adLeft .adl-tab{
-    position:absolute;right:-22px;top:50%;transform:translateY(-50%);
-    width:22px;height:60px;background:#1a2332;border:1px solid #2e3f54;
-    border-left:none;border-radius:0 8px 8px 0;cursor:pointer;
-    display:flex;align-items:center;justify-content:center;
-    font-size:10px;writing-mode:vertical-rl;color:#5c6b7a;user-select:none;
-  }
-  #adLeft .adl-header{
-    display:flex;align-items:center;justify-content:space-between;
-    padding:6px 8px;background:#162030;border-bottom:1px solid #2e3f54;
-  }
-  #adLeft .adl-label{font-size:9px;color:#4a6a8a;letter-spacing:.5px;text-transform:uppercase}
-  #adLeft .adl-close{background:none;border:none;color:#5c6b7a;font-size:13px;cursor:pointer;padding:0 2px}
-  #adLeft .adl-body{padding:10px 8px;min-height:300px}
-  /* ── 슬라이드인 광고 배너 ── */
-  #adBanner{
-    position:fixed;bottom:-200px;right:24px;width:300px;
-    background:#1a2332;border:1px solid #2e3f54;border-radius:12px;
-    box-shadow:0 8px 32px rgba(0,0,0,.6);z-index:9999;
-    transition:bottom .4s cubic-bezier(.22,1,.36,1);
-    overflow:hidden;
-  }
-  #adBanner.show{bottom:24px}
-  #adBanner .ad-header{
-    display:flex;align-items:center;justify-content:space-between;
-    padding:8px 12px;background:#162030;border-bottom:1px solid #2e3f54;
-  }
-  #adBanner .ad-label{font-size:10px;color:#4a6a8a;letter-spacing:.5px;text-transform:uppercase}
-  #adBanner .ad-close{
-    background:none;border:none;color:#5c6b7a;font-size:16px;cursor:pointer;
-    line-height:1;padding:2px 4px;border-radius:4px;
-  }
-  #adBanner .ad-close:hover{color:#fff;background:#2a3a4d}
-  #adBanner .ad-body{padding:14px;min-height:90px}
 
   /* ── 모바일 반응형 ── */
   @media (max-width: 768px) {
@@ -247,7 +209,6 @@
     header { padding:8px 12px; gap:8px; flex-wrap:wrap; }
     header h1 { font-size:18px; }
     .sub { display:none; }
-    #adHeader { display:none !important; }
 
     /* 탭 네비게이션 가로 스크롤 */
     nav { overflow-x:auto; flex-wrap:nowrap; gap:2px; -webkit-overflow-scrolling:touch; padding-bottom:2px; max-width:100%; }
@@ -283,8 +244,6 @@
     .paper h4 { font-size:12px; }
     .metric-bd { font-size:10px; }
 
-    /* 좌측 광고 배너 숨기기 */
-    #adLeft { display:none !important; }
 
     /* 타임바 */
     .timebar { left:8px; right:8px; bottom:12px; font-size:11px; }
@@ -327,37 +286,6 @@
 <header>
   <h1>Construction <span>Knowledge Atlas</span></h1>
 
-  <!-- 헤더 중앙 광고 (728×90 Leaderboard) -->
-  <div id="adHeader" style="flex:1;display:flex;justify-content:center;align-items:center;padding:0 16px;min-width:0">
-    <div style="width:728px;max-width:100%;height:58px;background:#1a2332;border:1px solid #2e3f54;
-      border-radius:8px;display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0">
-      <!--
-        ✅ Insert header ad code here (728×90 Leaderboard)
-
-        [AdSense example]
-        <ins class="adsbygoogle"
-          style="display:inline-block;width:728px;height:90px"
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-          data-ad-slot="XXXXXXXXXX"></ins>
-        <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
-
-        [Custom banner example]
-        <a href="https://your-sponsor.com" target="_blank">
-          <img src="banner_728x90.png" style="height:58px;width:auto" alt="">
-        </a>
-      -->
-      <!-- 테스트 배너 -->
-      <a href="#" onclick="return false" style="display:flex;align-items:center;gap:16px;text-decoration:none;padding:0 20px;width:100%">
-        <div style="font-size:10px;font-weight:700;color:#4a6a8a;white-space:nowrap">AD</div>
-        <div style="flex:1;display:flex;align-items:center;gap:12px">
-          <span style="font-size:13px;font-weight:700;color:var(--accent)">🏗️ BuildTech Pro</span>
-          <span style="font-size:11px;color:#8b97a6">BIM·AI Construction Automation Solution · Free Demo — Boost Productivity 40%</span>
-        </div>
-        <div style="background:var(--accent);color:#0e1116;font-size:11px;font-weight:700;
-          padding:4px 12px;border-radius:6px;white-space:nowrap">Get Started →</div>
-      </a>
-    </div>
-  </div>
 
   <nav>
     <button class="active" data-view="latest"  data-i18n="nav_latest">🔬 Latest</button>
@@ -4004,119 +3932,67 @@ function renderLatest(){
     }).join('') + '</div>';
 }
 
-/* ===================== 슬라이드인 광고 배너 ===================== */
-/* ── 좌측 고정 배너 ── */
+/* ===================== 방문 팝업 모달 ===================== */
 (function(){
-  const LEFT_KEY = "adLeftDismissed";
-  if(sessionStorage.getItem(LEFT_KEY)) return;
+  const KEY = "popupShown";
+  if(sessionStorage.getItem(KEY)) return;
 
-  const el = document.createElement("div");
-  el.id = "adLeft";
-  el.innerHTML = `
-    <div class="adl-header">
-      <span class="adl-label">Advertisement</span>
-      <button class="adl-close" id="adLeftClose" title="닫기">✕</button>
-    </div>
-    <div class="adl-body">
-      <!--
-        ✅ 여기에 좌측 배너 광고 코드를 넣으세요.
-        Recommended size: 160×600 (wide skyscraper)
+  const overlay = document.createElement("div");
+  overlay.id = "popupOverlay";
+  overlay.style.cssText = [
+    "position:fixed","inset:0","z-index:99999",
+    "background:rgba(0,0,0,.65)","display:flex",
+    "align-items:center","justify-content:center",
+    "backdrop-filter:blur(2px)"
+  ].join(";");
 
-        [AdSense example]
-        <ins class="adsbygoogle"
-          style="display:inline-block;width:140px;height:560px"
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-          data-ad-slot="XXXXXXXXXX"></ins>
-        <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
+  const box = document.createElement("div");
+  box.style.cssText = [
+    "background:#1a2332","border:1px solid #2e3f54",
+    "border-radius:14px","padding:28px 28px 24px",
+    "width:340px","max-width:90vw",
+    "box-shadow:0 16px 48px rgba(0,0,0,.7)",
+    "position:relative","text-align:center"
+  ].join(";");
 
-        [Custom banner example]
-        <a href="https://your-sponsor.com" target="_blank">
-          <img src="banner_160x600.png" style="width:140px" alt="">
-        </a>
-      -->
-      <div style="width:140px;height:560px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px">
-        <div style="font-size:11px;font-weight:700;color:var(--accent);text-align:center">Ad Slot<br><span style="font-size:9px;color:#4a6a8a">160×600</span></div>
-        <div style="font-size:10px;color:#4a6a8a;text-align:center;line-height:1.5">adl-body 안에<br>AdSense 코드<br>또는 배너를<br>삽입하세요</div>
-      </div>
-    </div>
-    <div class="adl-tab" id="adLeftTab">광고</div>`;
+  const closeBtn = document.createElement("button");
+  closeBtn.textContent = "✕";
+  closeBtn.style.cssText = [
+    "position:absolute","top:10px","right:12px",
+    "background:none","border:none","color:#5c6b7a",
+    "font-size:16px","cursor:pointer","line-height:1","padding:4px"
+  ].join(";");
 
-  document.body.appendChild(el);
-
-  // 탭 클릭: 접기/펴기 토글
-  document.getElementById("adLeftTab").onclick = () => el.classList.toggle("collapsed");
-  // 닫기: 완전히 제거 + 세션 저장
-  document.getElementById("adLeftClose").onclick = () => {
-    el.remove();
-    sessionStorage.setItem(LEFT_KEY, "1");
-  };
-})();
-
-/* ── 슬라이드인 팝업 배너 ── */
-(function(){
-  /* ── 설정 ── */
-  const AD_DELAY_SEC  = 12;      // 몇 초 후 표시
-  const AD_ONCE_PER   = "session"; // "session" | "day" | "always"
-  const STORAGE_KEY   = "adBannerDismissed";
-
-  /* ── 이미 닫은 경우 건너뜀 ── */
-  function isDismissed(){
-    if(AD_ONCE_PER === "always") return false;
-    const store = AD_ONCE_PER === "day" ? localStorage : sessionStorage;
-    return !!store.getItem(STORAGE_KEY);
-  }
-  function setDismissed(){
-    const store = AD_ONCE_PER === "day" ? localStorage : sessionStorage;
-    store.setItem(STORAGE_KEY, "1");
+  function dismiss(){
+    overlay.remove();
+    sessionStorage.setItem(KEY, "1");
   }
 
-  if(isDismissed()) return;
+  closeBtn.onclick = dismiss;
+  overlay.onclick = (e) => { if(e.target === overlay) dismiss(); };
 
-  /* ── 배너 HTML 생성 ── */
-  const banner = document.createElement("div");
-  banner.id = "adBanner";
-  banner.innerHTML = `
-    <div class="ad-header">
-      <span class="ad-label">Advertisement</span>
-      <button class="ad-close" id="adClose" title="닫기">✕</button>
-    </div>
-    <div class="ad-body" id="adBody">
-      <!-- 테스트 배너 — 실제 광고로 교체 시 이 블록을 대체하세요 -->
-      <a href="#" onclick="return false" style="display:block;text-decoration:none">
-        <div style="background:linear-gradient(135deg,#1c3a5e,#0f2540);border-radius:8px;padding:16px;position:relative;overflow:hidden">
-          <!-- 배경 장식 -->
-          <div style="position:absolute;right:-20px;top:-20px;width:100px;height:100px;background:rgba(77,171,247,.08);border-radius:50%"></div>
-          <div style="position:absolute;right:20px;bottom:-30px;width:70px;height:70px;background:rgba(77,171,247,.06);border-radius:50%"></div>
-          <!-- 로고 영역 -->
-          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
-            <div style="width:36px;height:36px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🏗️</div>
-            <div>
-              <div style="font-size:13px;font-weight:800;color:#fff">BuildTech Pro</div>
-              <div style="font-size:10px;color:#4dabf7">건설 AI 플랫폼</div>
-            </div>
-          </div>
-          <!-- 문구 -->
-          <div style="font-size:12px;color:#cdd9e5;line-height:1.5;margin-bottom:12px">
-            BIM·AI 기반 시공 자동화 솔루션.<br>
-            <b style="color:#fff">무료 데모 신청</b>하고 생산성 40% UP
-          </div>
-          <!-- CTA 버튼 -->
-          <div style="background:var(--accent);color:#0e1116;font-size:12px;font-weight:700;text-align:center;padding:7px 0;border-radius:6px">
-            지금 시작하기 →
-          </div>
-        </div>
-      </a>
-    </div>`;
-  document.body.appendChild(banner);
+  const link = document.createElement("a");
+  link.href = "https://asiafilm.org/4/1f7d4212ef8cd2929ddf0e18584994b2";
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.onclick = dismiss;
+  link.style.cssText = [
+    "display:block","text-decoration:none","margin-top:16px",
+    "background:var(--accent)","color:#0e1116",
+    "font-size:13px","font-weight:700",
+    "padding:10px 0","border-radius:8px"
+  ].join(";");
+  link.textContent = "바로가기 →";
 
-  /* ── N초 후 표시 ── */
-  setTimeout(() => banner.classList.add("show"), AD_DELAY_SEC * 1000);
+  const msg = document.createElement("div");
+  msg.style.cssText = "font-size:13px;color:#cdd9e5;line-height:1.6;margin-top:12px";
+  msg.innerHTML = "Construction Knowledge Atlas에<br>오신 것을 환영합니다.";
 
-  /* ── 닫기 ── */
-  document.getElementById("adClose").onclick = () => {
-    banner.classList.remove("show");
-    setDismissed();
-  };
+  box.appendChild(closeBtn);
+  box.appendChild(msg);
+  box.appendChild(link);
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
 })();
 
 /* ============================================================
