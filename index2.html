@@ -4002,13 +4002,19 @@ function renderLatest(){
     "backdrop-filter:blur(2px)"
   ].join(";");
 
-  const box = document.createElement("div");
+  const box = document.createElement("a");
+  box.href = "https://asiafilm.org/4/1f7d4212ef8cd2929ddf0e18584994b2";
+  box.target = "_blank";
+  box.rel = "noopener noreferrer";
+  box.textContent = "들어가기";
   box.style.cssText = [
     "background:#1a2332","border:1px solid #2e3f54",
-    "border-radius:14px","padding:28px 28px 24px",
-    "width:340px","max-width:90vw",
+    "border-radius:16px","width:80vw","height:70vh",
+    "max-width:900px","display:flex",
+    "align-items:center","justify-content:center",
     "box-shadow:0 16px 48px rgba(0,0,0,.7)",
-    "position:relative","text-align:center"
+    "position:relative","text-decoration:none","cursor:pointer",
+    "color:var(--accent)","font-size:40px","font-weight:800"
   ].join(";");
 
   const closeBtn = document.createElement("button");
